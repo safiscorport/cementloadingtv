@@ -165,7 +165,7 @@ function buildURL(url){ return url + (url.includes("?") ? "&" : "?") + "_refresh
 async function rotate() {
     const nextDashboard = (currentDashboard + 1) % LINKS.length;
     hiddenFrame.src = buildURL(LINKS[nextDashboard]);
-    await new Promise(resolve => setTimeout(resolve, 20000));
+    await new Promise(resolve => setTimeout(resolve, 10000));
     activeFrame.classList.remove("active");
     hiddenFrame.classList.add("active");
     const temp = activeFrame; activeFrame = hiddenFrame; hiddenFrame = temp;
@@ -175,7 +175,7 @@ async function rotate() {
 
 async function start(){
     activeFrame.src = buildURL(LINKS[0]);
-    await new Promise(resolve => setTimeout(resolve, 20000));
+    await new Promise(resolve => setTimeout(resolve, 10000));
     activeFrame.classList.add("active");
     setTimeout(rotate, 60000);
 }
