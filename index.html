@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dashboard Monitor</title>
+<title>Seamless Dashboard Rotation</title>
 
 <style>
     *{ margin:0; padding:0; box-sizing:border-box; }
@@ -24,19 +24,9 @@
     @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
     #clock { color: #fff; font-family: monospace; font-size: 14px; }
 
-    /* Single Fullscreen Wide Dashboard Image Layer */
-    .dashboard-image-layer { 
-        position: absolute; 
-        top: 30px; 
-        left: 0; 
-        width: 100%; 
-        height: calc(100% - 80px); 
-        background-size: 100% 100%; 
-        background-repeat: no-repeat; 
-        background-position: center; 
-        background-color: #000;
-        z-index: 2; 
-    }
+    /* Dashboard Frames */
+    .dashboard-frame { position:absolute; top:30px; left:0; width:100%; height:calc(100% - 30px); border:none; opacity:0; transition: opacity 0.5s ease-in-out; z-index:1; transform-origin: top left; }
+    .dashboard-frame.active { opacity:1; z-index:2; }
 
     /* UI Overlay */
     .ui-container { position:absolute; top:40px; right:10px; z-index:9999; display: flex; align-items: center; gap: 10px; }
@@ -44,6 +34,23 @@
     button { padding: 5px 10px; cursor: pointer; background: rgba(0,0,0,0.7); color: #fff; border: 1px solid #555; border-radius: 3px; font-size: 12px; }
     button:hover { background: #444; }
 
+    /* Fullscreen Slideshow Photo Layer */
+    #photo-display { 
+        display: none; 
+        opacity: 0; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+        background-color: #000; 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        z-index: 10003; 
+        transition: opacity 1s ease-in-out; 
+    }
+    
     /*================ WEATHER TICKER ================*/
     .weather-bar{
         position:fixed;
@@ -75,7 +82,7 @@
         overflow:hidden;
     }
 
-    .weather-ticker-content{
+    .weather-bar .ticker-content{
         display:inline-block;
         white-space:nowrap;
         padding-left:100%;
@@ -106,8 +113,20 @@
     </div>
 </div>
 
-<!-- Single Dashboard Image Layer -->
-<div id="imgLayer" class="dashboard-image-layer"></div>
+<iframe id="frame1" class="dashboard-frame"></iframe>
+<iframe id="frame2" class="dashboard-frame"></iframe>
+<div id="photo-display"></div>
+
+<div class="weather-bar">
+    <div class="weather-title">
+        🌤 WEATHER
+    </div>
+    <div class="ticker">
+        <div class="ticker-content" id="weatherTicker">
+            Loading weather...
+        </div>
+    </div>
+</div>
 
 <script>
 // Clock
@@ -115,62 +134,89 @@ function updateClock() { document.getElementById('clock').innerText = new Date()
 setInterval(updateClock, 1000);
 updateClock();
 
+// Variables
+const LINKS = [
+    "https://onedrive.live.com/edit?cid=77de4649508db2e1&id=77DE4649508DB2E1!s226106f3cc824a459785f7d05868e00e&resid=77DE4649508DB2E1!s226106f3cc824a459785f7d05868e00e&ithint=file%2Cxlsx&embed=1&em=2&wdAllowInteractivity=False&Item=%27Port%20Operation%20Dashboard%27!A1%3AT36&wdInConfigurator=True%2CTrue&edaebf=rslc0%22%3E%3C%2Fiframe%3E&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy83N0RFNDY0OTUwOERCMkUxL0lRVHpCbUVpZ3N4RlNwZUY5OUJZYU9BT0FhVmYzU05kZzIzMW1hUklzanR1NEowP2VtPTImd2RBbGxvd0ludGVyYWN0aXZpdHk9RmFsc2UmSXRlbT0nUG9ydCBPcGVyYXRpb24gRGFzaGJvYXJkJyFBMTpUMzYmd2RJbkNvbmZpZ3VyYXRvcj1UcnVlJndkSW5Db25maWd1cmF0b3I9VHJ1ZSZlZGFlYmY9cnNsYzAiPjwvaWZyYW1lPg&wdo=2", 
+    "https://onedrive.live.com/edit?cid=77de4649508db2e1&id=77DE4649508DB2E1!s226106f3cc824a459785f7d05868e00e&resid=77DE4649508DB2E1!s226106f3cc824a459785f7d05868e00e&ithint=file%2Cxlsx&embed=1&em=2&wdAllowInteractivity=False&Item=%27Port%20Operation%20Dashboard%27!A1%3AT36&wdInConfigurator=True%2CTrue&edaebf=rslc0%22%3E%3C%2Fiframe%3E&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy83N0RFNDY0OTUwOERCMkUxL0lRVHpCbUVpZ3N4RlNwZUY5OUJZYU9BT0FhVmYzU05kZzIzMW1hUklzanR1NEowP2VtPTImd2RBbGxvd0ludGVyYWN0aXZpdHk9RmFsc2UmSXRlbT0nUG9ydCBPcGVyYXRpb24gRGFzaGJvYXJkJyFBMTpUMzYmd2RJbkNvbmZpZ3VyYXRvcj1UcnVlJndkSW5Db25maWd1cmF0b3I9VHJ1ZSZlZGFlYmY9cnNsYzAiPjwvaWZyYW1lPg&wdo=2"
+];
+const PHOTOS = ["sedc 2.png", "sedc1.png"];
+let photoIdx = 0;
+
+// Slideshow Logic
+function showPhoto() {
+    const pd = document.getElementById("photo-display");
+    pd.style.backgroundImage = `url('${PHOTOS[photoIdx % PHOTOS.length]}')`;
+    pd.style.display = "block";
+    setTimeout(() => { pd.style.opacity = "1"; }, 50);
+
+    setTimeout(() => {
+        pd.style.opacity = "0";
+        setTimeout(() => { pd.style.display = "none"; photoIdx++; }, 1000);
+    }, 10000);
+}
+setInterval(showPhoto, 240000); 
+
+// Rotation logic
 let currentZoom = 1;
-const imgLayer = document.getElementById("imgLayer");
+const frame1 = document.getElementById("frame1");
+const frame2 = document.getElementById("frame2");
+let activeFrame = frame1;
+let hiddenFrame = frame2;
+let currentDashboard = 0;
 
-function changeZoom(currentDelta) { 
-    currentZoom = Math.max(0.5, currentZoom + currentDelta); 
-    applyZoom(); 
-}
-function resetZoom() { 
-    currentZoom = 1; 
-    applyZoom(); 
-}
-function applyZoom() { 
-    imgLayer.style.transform = `scale(${currentZoom})`; 
-}
-function toggleFullScreen() { 
-    if (!document.fullscreenElement) document.documentElement.requestFullscreen(); 
-    else document.exitFullscreen(); 
+function changeZoom(delta) { currentZoom = Math.max(0.5, currentZoom + delta); applyZoom(); }
+function resetZoom() { currentZoom = 1; applyZoom(); }
+function applyZoom() { [frame1, frame2].forEach(f => f.style.transform = `scale(${currentZoom})`); }
+function toggleFullScreen() { if (!document.fullscreenElement) document.documentElement.requestFullscreen(); else document.exitFullscreen(); }
+function buildURL(url){ return url + (url.includes("?") ? "&" : "?") + "_refresh=" + Date.now(); }
+
+async function rotate() {
+    const nextDashboard = (currentDashboard + 1) % LINKS.length;
+    hiddenFrame.src = buildURL(LINKS[nextDashboard]);
+    await new Promise(resolve => setTimeout(resolve, 20000));
+    activeFrame.classList.remove("active");
+    hiddenFrame.classList.add("active");
+    const temp = activeFrame; activeFrame = hiddenFrame; hiddenFrame = temp;
+    currentDashboard = nextDashboard;
+    setTimeout(rotate, 60000);
 }
 
-// Load and auto-refresh dashboard1.png every 3 minutes (180,000 ms)
-function refreshDashboard() {
-    imgLayer.style.backgroundImage = `url('dashboard1.png?v=${Date.now()}')`;
+async function start(){
+    activeFrame.src = buildURL(LINKS[0]);
+    await new Promise(resolve => setTimeout(resolve, 20000));
+    activeFrame.classList.add("active");
+    setTimeout(rotate, 60000);
 }
+start();
 
-refreshDashboard();
-setInterval(refreshDashboard, 180000);
-
-// Weather Ticker Logic
 async function loadWeather(){
     try{
-        const response=await fetch("https://api.open-meteo.com/v1/forecast?latitude=10.3157&longitude=123.8854&current=temperature_2m,relative_humidity_2m,wind_speed_10m&hourly=precipitation_probability&timezone=Asia%2FManila");
-        const data=await response.json();
+        const response = await fetch(
+            "https://api.open-meteo.com/v1/forecast?latitude=10.3157&longitude=123.8854&current=temperature_2m,relative_humidity_2m,wind_speed_10m&hourly=precipitation_probability&timezone=Asia%2FManila"
+        );
+        const data = await response.json();
 
-        const temp=data.current.temperature_2m;
-        const humidity=data.current.relative_humidity_2m;
-        const wind=data.current.wind_speed_10m;
-        const rain=data.hourly.precipitation_probability[0];
-        const now=new Date();
-        const time=now.toLocaleTimeString('en-PH',{hour:'2-digit',minute:'2-digit'});
+        const temp = data.current.temperature_2m;
+        const humidity = data.current.relative_humidity_2m;
+        const wind = data.current.wind_speed_10m;
+        const rain = data.hourly.precipitation_probability[0];
+        const now = new Date();
+        const time = now.toLocaleTimeString('en-PH',{ hour:'2-digit', minute:'2-digit' });
 
-        document.getElementById("weatherTicker").innerHTML = "🌤 CEBU SAN FERNANDO | 🌡 "+temp+"°C | 💧 Humidity "+humidity+"% | 🌧 Rain "+rain+"% | 💨 Wind "+wind+" km/h | 🕒 Updated "+time+" |";
+        document.getElementById("weatherTicker").innerHTML =
+            "🌤 CEBU SAN FERNANDO | 🌡 "+temp+"°C | 💧 Humidity "+humidity+
+            "% | 🌧 Rain "+rain+
+            "% | 💨 Wind "+wind+
+            " km/h | 🕒 Updated "+time+
+            " |";
     }catch(e){
-        document.getElementById("weatherTicker").innerHTML="Unable to load weather.";
+        document.getElementById("weatherTicker").innerHTML = "Unable to load weather.";
     }
 }
 
 loadWeather();
-setInterval(loadWeather,3600000);
+setInterval(loadWeather, 3600000);
 </script>
-
-<div class="weather-bar">
-    <div class="weather-title">🌤 WEATHER</div>
-    <div class="ticker">
-        <div class="weather-ticker-content" id="weatherTicker">Loading weather...</div>
-    </div>
-</div>
 
 </body>
 </html>
