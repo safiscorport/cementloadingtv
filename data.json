@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T23:10:49+08:00",
+  "updated_at": "2026-09-06T23:12:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "22:16",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:54"
+      "activity_time": "00:56"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "21:59",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:11"
+      "activity_time": "01:13"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "20:00",
       "remarks": "WAITING SHORECRANE / CLOSE HATCH",
       "equipment": "0",
-      "activity_time": "03:10"
+      "activity_time": "03:12"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "16:12",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "06:58"
+      "activity_time": "07:00"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "21:22",
       "remarks": "LOADING SLING S44",
       "equipment": "FL 2",
-      "activity_time": "01:48"
+      "activity_time": "01:50"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "21:34",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:36"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 10",
@@ -186,7 +186,7 @@
       "time": "22:10",
       "remarks": "COMMENCE DISCHARGE",
       "equip": "8  GEO DT",
-      "activity_time": "01:00"
+      "activity_time": "01:02"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "23:10"
+      "activity_time": "23:12"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "22:10",
       "remarks": "CONTINUE DISCHARGING",
       "equip": "FEED TO JBS HOOPER",
-      "activity_time": "01:00"
+      "activity_time": "01:02"
     }
   ],
   "foreign": {
