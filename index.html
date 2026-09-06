@@ -1,194 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Seamless Dashboard Rotation</title>
-
-<style>
-    *{ margin:0; padding:0; box-sizing:border-box; }
-    html,body{ width:100%; height:100%; overflow:hidden; background:#000; }
-
-    /* Logo Styling */
-    .logo-container { position: absolute; top: 1px; left: 1px; z-index: 10001; }
-    .logo-container img { height: 50px; width: auto; }
-
-    /* Ticker Styles */
-    .ticker-wrap { width: 100%; background: #fff; color: blue; padding: 5px 0; overflow: hidden; white-space: nowrap; position: absolute; top: 0; z-index: 10000; font-family: Arial, sans-serif; font-weight: bold; font-size: 14px; }
-    .ticker-content { display: inline-block; animation: ticker-move 20s linear infinite; }
-    @keyframes ticker-move { 0% { transform: translate(100%, 0); } 100% { transform: translate(-100%, 0); } }
-
-    /* Live Clock UI */
-    .live-container { display: flex; align-items: center; gap: 15px; color: #ff0000; font-weight: bold; font-size: 12px; margin-right: 10px; background: rgba(0,0,0,0.7); padding: 5px 10px; border-radius: 3px; }
-    .blink-dot { width: 10px; height: 10px; background-color: #ff0000; border-radius: 50%; animation: blink 1s infinite; }
-    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
-    #clock { color: #fff; font-family: monospace; font-size: 14px; }
-
-    /* Dashboard Frames */
-    .dashboard-frame { position:absolute; top:30px; left:0; width:100%; height:calc(100% - 30px); border:none; opacity:0; transition: opacity 0.5s ease-in-out; z-index:1; transform-origin: top left; }
-    .dashboard-frame.active { opacity:1; z-index:2; }
-
-    /* UI Overlay */
-    .ui-container { position:absolute; top:40px; right:10px; z-index:9999; display: flex; align-items: center; gap: 10px; }
-    .controls-bar { display: flex; gap: 5px; }
-    button { padding: 5px 10px; cursor: pointer; background: rgba(0,0,0,0.7); color: #fff; border: 1px solid #555; border-radius: 3px; font-size: 12px; }
-    button:hover { background: #444; }
-
-    /* Fullscreen Slideshow Photo Layer */
-    #photo-display { 
-        display: none; 
-        opacity: 0; 
-        position: absolute; 
-        top: 0; 
-        left: 0; 
-        width: 100%; 
-        height: 100%; 
-        background-color: #000; 
-        background-size: cover; 
-        background-repeat: no-repeat; 
-        background-position: center; 
-        z-index: 10003; 
-        transition: opacity 1s ease-in-out; 
-    }
-    
-    /*================ WEATHER TICKER ================*/
-    .weather-bar{
-        position:fixed;
-        bottom:0;
-        left:0;
-        width:100%;
-        height:50px;
-        background:#003b8e;
-        color:#fff;
-        display:flex;
-        align-items:center;
-        overflow:hidden;
-        z-index:99999;
-        border-top:3px solid #00bfff;
-    }
-
-    .weather-title{
-        background:#d00000;
-        padding:0 20px;
-        height:100%;
-        display:flex;
-        align-items:center;
-        font-weight:bold;
-        white-space:nowrap;
-    }
-
-    .ticker{
-        flex:1;
-        overflow:hidden;
-    }
-
-    .weather-bar .ticker-content{
-        display:inline-block;
-        white-space:nowrap;
-        padding-left:100%;
-        animation:scroll 40s linear infinite;
-        font-weight:bold;
-    }
-
-    @keyframes scroll{
-        0%{ transform:translateX(0); }
-        100%{ transform:translateX(-100%); }
-    }
-</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cement Loading Operations Dashboard</title>
+<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-<div class="ticker-wrap"><div class="ticker-content">SAFISCOR • SAN FERNANDO INTEGRATED SERVICES AND EQUIPMENT CORPORATION • CEMENT LOADING DASHBOARD • LIVE DATA SYNCHRONIZATION ACTIVE • REAL-TIME MONITORING ENABLED</div></div>
-
-<div class="logo-container"><img src="logo.png" alt="SAFISCOR Logo"></div>
-
-<div class="ui-container">
-    <div class="live-container"><div class="blink-dot"></div> LIVE <span id="clock">00:00:00</span></div>
-    <div class="controls-bar">
-        <button onclick="changeZoom(0.1)">Zoom +</button>
-        <button onclick="changeZoom(-0.1)">Zoom -</button>
-        <button onclick="resetZoom()">Reset</button>
-        <button onclick="toggleFullScreen()">Fullscreen</button>
+<div class="app">
+  <header class="topbar" style="display: flex; justify-content: space-between; align-items: center; position: relative;">
+    <div class="brand" style="display: flex; align-items: center;">
+      <img src="logo.png" alt="Logo" style="height: 40px; object-fit: contain;">
     </div>
-</div>
-
-<iframe id="frame1" class="dashboard-frame"></iframe>
-<iframe id="frame2" class="dashboard-frame"></iframe>
-<div id="photo-display"></div>
-
-<div class="weather-bar">
-    <div class="weather-title">
-        🌤 WEATHER
+    <div style="position: absolute; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 10px; text-align: left;">
+      <span class="live-dot"></span>
+      <div>
+        <div class="title" style="font-size: 1.2rem; font-weight: bold;">CEMENT LOADING</div>
+        <div class="subtitle" style="font-size: 0.75rem; opacity: 0.8;">PORT OPERATIONS REAL-TIME MONITORING</div>
+      </div>
     </div>
-    <div class="ticker">
-        <div class="ticker-content" id="weatherTicker">
-            Loading weather...
+    <div class="clock"><div id="phDate">--</div><div id="phTime">--:--:--</div></div>
+  </header>
+
+  <main class="main-content">
+    <section class="table-container">
+      <div class="table-header-bar">
+        <span>Berth</span><span>Vessel</span><span>Voyage #</span><span>Booking</span><span>Dispatch</span><span>Loaded</span><span>Balance</span><span>Progress</span><span>Stockpile</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
+      </div>
+      <div id="berthGrid" class="berth-grid-table"></div>
+      <div class="table-footer-bar">
+        <span>TOTAL</span>
+        <span></span>
+        <span></span>
+        <span id="totalBooking">0</span>
+        <span id="totalDispatch">0</span>
+        <span id="totalLoaded">0</span>
+        <span id="totalBalance">0</span>
+        <span id="totalProgress">0%</span>
+        <span id="totalStockpile">0</span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+
+    <section class="table-container">
+      <div class="sub-section-title">Berth A</div>
+      <div class="alpha-header-bar">
+        <span>Berth</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
+      </div>
+      <div id="alphaRows"></div>
+    </section>
+
+    <section class="table-container">
+      <div class="sub-section-title">Berth F</div>
+      <div class="alpha-header-bar">
+        <span>Berth</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
+      </div>
+      <div id="foreignRow" class="alpha-row"></div>
+    </section>
+
+    <section class="analytics-grid">
+      <div class="panel">
+        <div class="panel-title" style="display: flex; justify-content: space-between; align-items: center;">
+          <span style="flex: 1; text-align: left;">Trucking</span>
+          <span style="flex: 1; text-align: right;">August</span>
+          <span style="flex: 1; text-align: right;">September</span>
+          <span style="flex: 1; text-align: right;">Daily</span>
         </div>
+        <div id="trucking" class="table-mini"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">Vessel Cement Loading</div>
+        <div class="monthly-grid-head"><span></span><span>2025</span><span>2026</span></div>
+        <div id="monthly" class="monthly"></div>
+      </div>
+
+      <div class="stack-panel">
+        <div class="panel">
+          <div class="panel-title">Cement loading Daily Production</div>
+          <div id="dailyProduction" class="production"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-title">TRUCKING (STOCKPILE)</div>
+          <div id="truckingStockpile" class="production"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-bar">
+    <div class="footer-group">
+      <div class="f-item"><span>Supervisor</span><b id="supervisor">--</b></div>
+      <div class="f-item"><span>Checker</span><b id="checker">--</b></div>
+      <div class="f-item"><span>PMC</span><b id="pmc">--</b></div>
     </div>
+    <div class="footer-group">
+      <div class="f-item"><span>Equipment Available</span><div>Crane: <b id="cranes">--</b> &nbsp;|&nbsp; Forklift: <b id="forklifts">--</b></div></div>
+      <div class="f-item"><span># of stevedor Per Shift</span><b id="stevedores">--</b></div>
+    </div>
+    <div class="ticker-wrap">
+      <div class="ticker-label">WEATHER</div>
+      <div class="ticker"><div id="weatherTicker">Loading weather data...</div></div>
+    </div>
+    <div class="footer-right"><span id="syncText">CONNECTING</span> &bull; <b id="refreshSec">10s</b></div>
+  </footer>
 </div>
-
+<script src="app.js"></script>
 <script>
-// Clock
-function updateClock() { document.getElementById('clock').innerText = new Date().toLocaleTimeString(); }
-setInterval(updateClock, 1000);
-updateClock();
-
-// Variables
-const LINKS = [
-    "https://onedrive.live.com/edit?cid=77de4649508db2e1&id=77DE4649508DB2E1!s226106f3cc824a459785f7d05868e00e&resid=77DE4649508DB2E1!s226106f3cc824a459785f7d05868e00e&ithint=file%2Cxlsx&embed=1&em=2&wdAllowInteractivity=False&Item=%27Port%20Operation%20Dashboard%27!A1%3AT36&wdInConfigurator=True%2CTrue&edaebf=rslc0%22%3E%3C%2Fiframe%3E&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy83N0RFNDY0OTUwOERCMkUxL0lRVHpCbUVpZ3N4RlNwZUY5OUJZYU9BT0FhVmYzU05kZzIzMW1hUklzanR1NEowP2VtPTImd2RBbGxvd0ludGVyYWN0aXZpdHk9RmFsc2UmSXRlbT0nUG9ydCBPcGVyYXRpb24gRGFzaGJvYXJkJyFBMTpUMzYmd2RJbkNvbmZpZ3VyYXRvcj1UcnVlJndkSW5Db25maWd1cmF0b3I9VHJ1ZSZlZGFlYmY9cnNsYzAiPjwvaWZyYW1lPg&wdo=2", 
-    "https://onedrive.live.com/edit?cid=77de4649508db2e1&id=77DE4649508DB2E1!s226106f3cc824a459785f7d05868e00e&resid=77DE4649508DB2E1!s226106f3cc824a459785f7d05868e00e&ithint=file%2Cxlsx&embed=1&em=2&wdAllowInteractivity=False&Item=%27Port%20Operation%20Dashboard%27!A1%3AT36&wdInConfigurator=True%2CTrue&edaebf=rslc0%22%3E%3C%2Fiframe%3E&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy83N0RFNDY0OTUwOERCMkUxL0lRVHpCbUVpZ3N4RlNwZUY5OUJZYU9BT0FhVmYzU05kZzIzMW1hUklzanR1NEowP2VtPTImd2RBbGxvd0ludGVyYWN0aXZpdHk9RmFsc2UmSXRlbT0nUG9ydCBPcGVyYXRpb24gRGFzaGJvYXJkJyFBMTpUMzYmd2RJbkNvbmZpZ3VyYXRvcj1UcnVlJndkSW5Db25maWd1cmF0b3I9VHJ1ZSZlZGFlYmY9cnNsYzAiPjwvaWZyYW1lPg&wdo=2"
-];
-const PHOTOS = ["sedc 2.png", "sedc1.png"];
-let photoIdx = 0;
-
-// Slideshow Logic
-function showPhoto() {
-    const pd = document.getElementById("photo-display");
-    pd.style.backgroundImage = `url('${PHOTOS[photoIdx % PHOTOS.length]}')`;
-    pd.style.display = "block";
-    setTimeout(() => { pd.style.opacity = "1"; }, 50);
-
-    setTimeout(() => {
-        pd.style.opacity = "0";
-        setTimeout(() => { pd.style.display = "none"; photoIdx++; }, 1000);
-    }, 10000);
-}
-setInterval(showPhoto, 240000); 
-
-// Rotation logic
-let currentZoom = 1;
-const frame1 = document.getElementById("frame1");
-const frame2 = document.getElementById("frame2");
-let activeFrame = frame1;
-let hiddenFrame = frame2;
-let currentDashboard = 0;
-
-function changeZoom(delta) { currentZoom = Math.max(0.5, currentZoom + delta); applyZoom(); }
-function resetZoom() { currentZoom = 1; applyZoom(); }
-function applyZoom() { [frame1, frame2].forEach(f => f.style.transform = `scale(${currentZoom})`); }
-function toggleFullScreen() { if (!document.fullscreenElement) document.documentElement.requestFullscreen(); else document.exitFullscreen(); }
-function buildURL(url){ return url + (url.includes("?") ? "&" : "?") + "_refresh=" + Date.now(); }
-
-async function rotate() {
-    const nextDashboard = (currentDashboard + 1) % LINKS.length;
-    hiddenFrame.src = buildURL(LINKS[nextDashboard]);
-    await new Promise(resolve => setTimeout(resolve, 20000));
-    activeFrame.classList.remove("active");
-    hiddenFrame.classList.add("active");
-    const temp = activeFrame; activeFrame = hiddenFrame; hiddenFrame = temp;
-    currentDashboard = nextDashboard;
-    setTimeout(rotate, 60000);
-}
-
-async function start(){
-    activeFrame.src = buildURL(LINKS[0]);
-    await new Promise(resolve => setTimeout(resolve, 20000));
-    activeFrame.classList.add("active");
-    setTimeout(rotate, 60000);
-}
-start();
-
 async function loadWeather(){
     try{
         const response = await fetch(
@@ -217,6 +138,5 @@ async function loadWeather(){
 loadWeather();
 setInterval(loadWeather, 3600000);
 </script>
-
 </body>
 </html>

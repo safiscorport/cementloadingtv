@@ -1,0 +1,901 @@
+:root {
+  --bg: #111;
+  --panel: #1d1d1d;
+  --panel2: #282828;
+  --head: #34404d;
+  --line: #555;
+  --text: #fff;
+  --muted: #aaa;
+  --accent: #65b83f;
+  --danger: #ff3030;
+  --warn: #ffc107;
+}
+
+/* =========================================================
+   FULL SCREEN / TV DISPLAY
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+/* Main scaling is based on screen width */
+body {
+  font-size: clamp(13px, 0.85vw, 20px);
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   TOP HEADER
+   ========================================================= */
+
+.topbar {
+  flex: 0 0 clamp(52px, 5.2vh, 78px);
+
+  width: 100%;
+  background: #080808;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 clamp(12px, 1.2vw, 30px);
+
+  border-bottom: 2px solid #555;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: clamp(8px, 0.7vw, 15px);
+}
+
+.live-dot {
+  width: clamp(10px, 0.75vw, 16px);
+  height: clamp(10px, 0.75vw, 16px);
+
+  background: #ff3030;
+  border-radius: 50%;
+
+  box-shadow:
+    0 0 8px #ff3030,
+    0 0 16px rgba(255, 48, 48, 0.5);
+
+  animation: blink 1s infinite;
+}
+
+.title {
+  font-size: clamp(17px, 1.35vw, 30px);
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: clamp(9px, 0.65vw, 15px);
+  color: var(--muted);
+  letter-spacing: 1px;
+}
+
+.clock {
+  text-align: right;
+}
+
+.clock div:first-child {
+  font-size: clamp(9px, 0.65vw, 15px);
+  color: var(--muted);
+}
+
+.clock div:last-child {
+  font-size: clamp(17px, 1.25vw, 28px);
+  font-weight: 900;
+}
+
+
+/* =========================================================
+   MAIN AREA
+   ========================================================= */
+
+.main-content {
+  flex: 1;
+
+  width: 100%;
+
+  padding:
+    clamp(3px, 0.35vh, 7px)
+    clamp(5px, 0.55vw, 15px);
+
+  display: flex;
+  flex-direction: column;
+
+  gap: clamp(3px, 0.35vh, 7px);
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   MAIN BERTH TABLE
+   ========================================================= */
+
+.table-container {
+  width: 100%;
+
+  background: var(--panel);
+
+  border: 1px solid var(--line);
+
+  margin: 0;
+  overflow: hidden;
+}
+
+
+/*
+   Responsive columns.
+
+   The important information gets more space:
+   BERTH
+   VESSEL
+   REMARKS
+   EQUIPMENT
+
+   Small numeric columns remain compact.
+*/
+
+.table-header-bar,
+.berth-row,
+.table-footer-bar {
+
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    clamp(55px, 5vw, 95px)
+    minmax(130px, 1.65fr)
+    clamp(48px, 4vw, 70px)
+    clamp(70px, 6vw, 110px)
+    clamp(70px, 6vw, 110px)
+    clamp(70px, 6vw, 110px)
+    clamp(70px, 6vw, 110px)
+    clamp(90px, 7vw, 125px)
+    clamp(70px, 6vw, 105px)
+    clamp(55px, 4.5vw, 80px)
+    minmax(150px, 1.8fr)
+    minmax(80px, 0.85fr)
+    clamp(70px, 5.5vw, 100px);
+
+  align-items: center;
+
+  padding:
+    clamp(3px, 0.32vh, 6px)
+    clamp(4px, 0.35vw, 10px);
+
+  border-bottom: 1px solid #303030;
+
+  font-size: clamp(11px, 0.78vw, 18px);
+
+  line-height: 1.05;
+
+  min-width: 0;
+}
+
+.table-header-bar {
+  background: var(--head);
+
+  font-weight: 900;
+
+  color: #fff;
+
+  border-bottom: 1px solid #777;
+
+  font-size: clamp(10px, 0.68vw, 16px);
+
+  white-space: nowrap;
+}
+
+.berth-row {
+  min-height: clamp(24px, 2.45vh, 42px);
+}
+
+.berth-row:nth-child(even) {
+  background: #242424;
+}
+
+.berth-row:nth-child(odd) {
+  background: #1b1b1b;
+}
+
+.berth-row.vacant {
+  opacity: 0.45;
+}
+
+.berth-row .vessel,
+.alpha-row .vessel {
+  font-weight: 900;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   NUMBERS
+   ========================================================= */
+
+.berth-row > div,
+.table-header-bar > div,
+.table-footer-bar > div {
+  min-width: 0;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   PROGRESS BAR - CENTER PERCENTAGE
+   ========================================================= */
+
+.progress-wrap {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: clamp(10px, 1.15vh, 18px);
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+}
+
+.bar {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: #333;
+
+  border: 1px solid #666;
+
+  overflow: hidden;
+
+  z-index: 1;
+}
+
+.bar i {
+  display: block;
+
+  height: 100%;
+
+  background: var(--accent);
+
+  box-shadow:
+    0 0 5px rgba(101, 184, 63, 0.5);
+
+  position: relative;
+
+  z-index: 1;
+}
+
+/* Percentage */
+.progress-wrap span {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+
+  font-size: clamp(9px, 0.68vw, 15px);
+
+  font-weight: 900;
+
+  line-height: 1;
+
+  text-align: center;
+
+  z-index: 10;
+
+  pointer-events: none;
+
+  text-shadow:
+    1px 1px 2px #000,
+    -1px -1px 2px #000,
+    0 0 3px #000;
+}
+
+
+/* =========================================================
+   ALPHA / FOREIGN
+   ========================================================= */
+
+.sub-section-title {
+  background: #303030;
+
+  padding:
+    clamp(2px, 0.25vh, 5px)
+    clamp(5px, 0.4vw, 10px);
+
+  font-weight: 900;
+
+  font-size: clamp(10px, 0.7vw, 16px);
+
+  color: #ccc;
+
+  border-bottom: 1px solid var(--line);
+}
+
+.alpha-header-bar,
+.alpha-row {
+
+  display: grid;
+
+  grid-template-columns:
+    clamp(50px, 4.5vw, 85px)
+    minmax(130px, 1.5fr)
+    minmax(100px, 1.25fr)
+    clamp(75px, 6vw, 110px)
+    clamp(75px, 6vw, 110px)
+    clamp(75px, 6vw, 110px)
+    clamp(60px, 5vw, 90px)
+    minmax(130px, 1.6fr)
+    minmax(80px, 0.9fr)
+    clamp(70px, 5vw, 100px);
+
+  align-items: center;
+
+  width: 100%;
+
+  padding:
+    clamp(3px, 0.3vh, 6px)
+    clamp(5px, 0.4vw, 10px);
+
+  font-size: clamp(11px, 0.78vw, 18px);
+
+  line-height: 1.05;
+}
+
+.alpha-header-bar {
+  background: var(--head);
+
+  font-weight: 900;
+
+  color: #fff;
+
+  font-size: clamp(10px, 0.68vw, 16px);
+}
+
+.alpha-row {
+  background: #1b1b1b;
+
+  border-bottom: 1px solid #303030;
+
+  min-height: clamp(23px, 2.2vh, 38px);
+}
+
+
+/* =========================================================
+   ANALYTICS
+   ========================================================= */
+
+.analytics-grid {
+
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.05fr)
+    minmax(0, 1.05fr)
+    minmax(0, 0.8fr);
+
+  gap: clamp(5px, 0.5vw, 12px);
+
+  margin-top: 1px;
+
+  flex: 1;
+
+  min-height: 0;
+}
+
+.panel {
+
+  background: var(--panel);
+
+  border: 1px solid var(--line);
+
+  padding: clamp(3px, 0.3vw, 8px);
+
+  display: flex;
+
+  flex-direction: column;
+
+  min-width: 0;
+
+  overflow: hidden;
+}
+
+.panel-title {
+
+  font-weight: 900;
+
+  background: var(--head);
+
+  padding:
+    clamp(3px, 0.3vh, 6px)
+    clamp(5px, 0.4vw, 10px);
+
+  font-size: clamp(10px, 0.72vw, 17px);
+
+  color: #fff;
+
+  margin-bottom: 3px;
+}
+
+.stack-panel {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: clamp(3px, 0.3vh, 6px);
+
+  min-height: 0;
+}
+
+
+/* =========================================================
+   SMALL TABLES
+   ========================================================= */
+
+.table-mini {
+
+  display: flex;
+
+  flex-direction: column;
+
+  min-height: 0;
+}
+
+.table-mini .tr {
+
+  display: grid;
+
+  grid-template-columns:
+    1.25fr
+    1fr
+    1fr
+    1fr;
+
+  align-items: center;
+
+  padding:
+    clamp(2px, 0.25vh, 5px)
+    clamp(4px, 0.4vw, 9px);
+
+  border-bottom: 1px solid #303030;
+
+  font-size: clamp(10px, 0.7vw, 16px);
+
+  line-height: 1.05;
+
+  min-height: clamp(19px, 1.9vh, 32px);
+}
+
+.table-mini.header-row {
+
+  background: #303030;
+
+  font-weight: 900;
+
+  color: #ccc;
+
+  font-size: clamp(10px, 0.65vw, 15px);
+}
+
+.total-row {
+
+  background: #252525;
+
+  border-top: 1px solid #666;
+
+  font-weight: 900;
+}
+
+
+/* =========================================================
+   PRODUCTION
+   ========================================================= */
+
+.production {
+
+  display: flex;
+
+  flex-direction: column;
+
+  min-height: 0;
+}
+
+.prod-row {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding:
+    clamp(3px, 0.28vh, 6px)
+    clamp(5px, 0.4vw, 10px);
+
+  border-bottom: 1px solid #303030;
+
+  font-size: clamp(10px, 0.72vw, 17px);
+
+  min-height: clamp(21px, 2vh, 34px);
+}
+
+.prod-row b {
+
+  font-size: clamp(11px, 0.8vw, 19px);
+
+  font-weight: 900;
+}
+
+
+/* =========================================================
+   MONTHLY
+   ========================================================= */
+
+.monthly-grid-head {
+
+  display: grid;
+
+  grid-template-columns: 2fr 1fr 1fr;
+
+  background: #303030;
+
+  font-weight: 900;
+
+  font-size: clamp(10px, 0.68vw, 16px);
+
+  text-align: center;
+
+  padding:
+    clamp(3px, 0.25vh, 5px);
+}
+
+.monthly {
+
+  display: grid;
+
+  grid-template-columns: 2fr 1fr 1fr;
+
+  gap: 1px;
+
+  font-size: clamp(10px, 0.68vw, 16px);
+
+  text-align: center;
+
+  min-height: 0;
+}
+
+.monthly div {
+
+  padding:
+    clamp(2px, 0.22vh, 5px)
+    3px;
+
+  background: #1b1b1b;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+.monthly .mh {
+
+  background: #333;
+
+  font-weight: 900;
+
+  text-align: left;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.footer-bar {
+
+  flex: 0 0 clamp(40px, 5vh, 68px);
+
+  width: 100%;
+
+  background: #080808;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding:
+    0 clamp(6px, 0.7vw, 18px);
+
+  border-top: 1px solid var(--line);
+
+  font-size: clamp(10px, 0.65vw, 15px);
+
+  min-width: 0;
+}
+
+.footer-group {
+
+  display: flex;
+
+  gap: clamp(5px, 0.7vw, 15px);
+
+  min-width: 0;
+}
+
+.f-item {
+
+  background: #1b1b1b;
+
+  padding:
+    clamp(2px, 0.25vh, 5px)
+    clamp(5px, 0.4vw, 10px);
+
+  border: 1px solid #444;
+
+  display: flex;
+
+  flex-direction: column;
+
+  min-width: 0;
+}
+
+.f-item span {
+
+  color: var(--muted);
+
+  font-size: clamp(8px, 0.5vw, 12px);
+}
+
+.f-item b {
+
+  font-size: clamp(10px, 0.65vw, 15px);
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   LIVE TICKER
+   ========================================================= */
+
+.ticker-wrap {
+
+  display: flex;
+
+  align-items: center;
+
+  flex: 1;
+
+  min-width: 0;
+
+  margin:
+    0 clamp(5px, 1vw, 20px);
+
+  background: #151515;
+
+  border: 1px solid #444;
+
+  overflow: hidden;
+
+  height: clamp(25px, 2.7vh, 40px);
+}
+
+.ticker-label {
+
+  background: #b00000;
+
+  color: #fff;
+
+  padding:
+    0 clamp(6px, 0.5vw, 12px);
+
+  font-weight: 900;
+
+  font-size: clamp(9px, 0.6vw, 14px);
+
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  flex-shrink: 0;
+}
+
+.ticker {
+
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  flex: 1;
+
+  min-width: 0;
+}
+
+.ticker div {
+
+  display: inline-block;
+
+  padding-left: 100%;
+
+  animation: ticker 25s linear infinite;
+
+  color: var(--warn);
+
+  font-weight: 900;
+
+  font-size: clamp(10px, 0.7vw, 17px);
+}
+
+.footer-right {
+
+  color: var(--muted);
+
+  font-size: clamp(9px, 0.55vw, 13px);
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   ANIMATIONS & HIGHLIGHTS
+   ========================================================= */
+
+@keyframes blink {
+
+  50% {
+    opacity: 0.3;
+  }
+
+}
+
+@keyframes ticker {
+
+  to {
+    transform: translateX(-100%);
+  }
+
+}
+
+/* Stoppage / Delay Highlight Style */
+.stoppage-alert {
+  background-color: rgba(255, 48, 48, 0.4) !important;
+  color: #ff9999 !important;
+  font-weight: 900;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 2px 4px;
+}
+
+
+/* =========================================================
+   VERY WIDE TV / 4K
+   Give important text additional space
+   ========================================================= */
+
+@media (min-width: 2500px) {
+
+  body {
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .berth-row,
+  .alpha-row {
+    min-height: 42px;
+  }
+
+}
+
+
+/* =========================================================
+   1366 / 1360 / 1280 SCREEN SAFETY
+   ========================================================= */
+
+@media (max-width: 1400px) {
+
+  body {
+    font-size: 13px;
+  }
+
+  .berth-row,
+  .alpha-row {
+    min-height: 23px;
+  }
+
+  .analytics-grid {
+    gap: 4px;
+  }
+
+}
+
+
+/* =========================================================
+   SMALLER LAPTOP
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+  body {
+    font-size: 12px;
+  }
+
+  .table-header-bar,
+  .berth-row,
+  .table-footer-bar {
+    font-size: 10px;
+  }
+
+  .alpha-header-bar,
+  .alpha-row {
+    font-size: 10px;
+  }
+
+}
