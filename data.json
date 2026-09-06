@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T22:43:55+08:00",
+  "updated_at": "2026-09-06T22:45:58+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -13,8 +13,8 @@
       "stockpile": 0,
       "time": "22:16",
       "remarks": "WAITING MATERIAL",
-      "equipment": "FL1",
-      "activity_time": "00:27"
+      "equipment": "0",
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 27000,
       "progress": 0.5846153846153846,
       "stockpile": 0,
-      "time": "21:37",
-      "remarks": "LOADING TONNER S48",
+      "time": "21:59",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:06"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "REFUSE TO OPEN HATCH",
       "equipment": "0",
-      "activity_time": "03:43"
+      "activity_time": "03:45"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "16:12",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "06:31"
+      "activity_time": "06:33"
     },
     {
       "berth": "Berth 7",
@@ -103,8 +103,8 @@
       "stockpile": 5000,
       "time": "21:22",
       "remarks": "LOADING SLING S44",
-      "equipment": "FL 2/ FL 3",
-      "activity_time": "01:21"
+      "equipment": "FL 2",
+      "activity_time": "01:23"
     },
     {
       "berth": "Berth 8",
@@ -118,7 +118,7 @@
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
-      "equipment": "CRANE 2",
+      "equipment": "0",
       "activity_time": "00:00"
     },
     {
@@ -134,7 +134,7 @@
       "time": "21:34",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:09"
+      "activity_time": "01:11"
     },
     {
       "berth": "Berth 10",
@@ -179,14 +179,14 @@
     {
       "berth": "R1",
       "vessel": "LCT 288",
-      "materials": "0",
+      "materials": "FLY ASH",
       "discharge": "0%",
-      "balance": "0%",
+      "balance": "100%",
       "progress": "0%",
       "time": "22:10",
-      "remarks": "CONTINUE DISCHARGING",
-      "equip": "0",
-      "activity_time": "00:33"
+      "remarks": "COMMENCE DISCHARGE",
+      "equip": "8  GEO DT",
+      "activity_time": "00:35"
     },
     {
       "berth": "R2",
@@ -198,19 +198,19 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:43"
+      "activity_time": "22:45"
     },
     {
       "berth": "R3",
       "vessel": "POSEIDON 27",
       "materials": "IRON CONCENTRATE",
-      "discharge": "40%",
-      "balance": "60%",
-      "progress": "40%",
-      "time": "14:00",
+      "discharge": "60%",
+      "balance": "40%",
+      "progress": "60%",
+      "time": "22:10",
       "remarks": "CONTINUE DISCHARGING",
       "equip": "FEED TO JBS HOOPER",
-      "activity_time": "08:43"
+      "activity_time": "00:35"
     }
   ],
   "foreign": {
