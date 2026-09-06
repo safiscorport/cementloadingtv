@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T22:37:49+08:00",
+  "updated_at": "2026-09-06T22:41:52+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "22:16",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL1",
-      "activity_time": "00:21"
+      "activity_time": "00:25"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "21:37",
       "remarks": "LOADING TONNER S48",
       "equipment": "0",
-      "activity_time": "01:00"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "REFUSE TO OPEN HATCH",
       "equipment": "0",
-      "activity_time": "03:37"
+      "activity_time": "03:41"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "16:12",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "06:25"
+      "activity_time": "06:29"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "21:22",
       "remarks": "LOADING SLING S44",
       "equipment": "FL 2/ FL 3",
-      "activity_time": "01:15"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "21:34",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:07"
     },
     {
       "berth": "Berth 10",
@@ -186,7 +186,7 @@
       "time": "11:00",
       "remarks": "TEST1",
       "equip": "SDLG",
-      "activity_time": "11:37"
+      "activity_time": "11:41"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "12:00",
       "remarks": "TEST2",
       "equip": "SDLG",
-      "activity_time": "10:37"
+      "activity_time": "10:41"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "14:00",
       "remarks": "CONTINUE DISCHARGING",
       "equip": "FEED TO JBS HOOPER",
-      "activity_time": "08:37"
+      "activity_time": "08:41"
     }
   ],
   "foreign": {
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 41000
+      "qty": 27000
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 3000
+      "qty": 17000
     }
   ],
   "trucking_stockpile": [
