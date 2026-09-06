@@ -9,23 +9,10 @@ function formatActivityTime(val) {
 }
 
 function isStoppageRemark(text) {
-  if (!text || text === '-') return false;
-  const lower = text.toLowerCase();
-  return (
-    lower.includes('waiting') || 
-    lower.includes('stopped') || 
-    lower.includes('stop') || 
-    lower.includes('delay') || 
-    lower.includes('breakdown') || 
-    lower.includes('refuse') || 
-    lower.includes('standby') || 
-    lower.includes('repair') || 
-    lower.includes('maintenance') || 
-    lower.includes('problem') || 
-    lower.includes('issue') || 
-    lower.includes('shortage') ||
-    lower.includes('no stock')
-  );
+  if (!text || text === '-' || text.trim() === '') return false;
+  const cleanText = text.toLowerCase().trim();
+  const keywords = ['stop', 'stopped', 'waiting', 'delay', 'breakdown', 'refuse', 'standby', 'repair', 'maintenance', 'problem', 'issue', 'shortage', 'no stock'];
+  return keywords.some(keyword => cleanText.includes(keyword));
 }
 
 function render(d) {
@@ -99,7 +86,7 @@ function render(d) {
     <span class="activity">${formatActivityTime(f.activity_time)}</span>
   `;
 
-  // Trucking
+  // Trucking (with Variance column)
   const truckData = d.trucking || [];
   const truckTotal = truckData.reduce((acc, curr) => ({
     august: acc.august + (typeof curr.august === 'number' ? curr.august : 0),
@@ -107,16 +94,24 @@ function render(d) {
     daily: acc.daily + (typeof curr.daily === 'number' ? curr.daily : 0)
   }), { august: 0, september: 0, daily: 0 });
 
-  $('trucking').innerHTML = truckData.map(x => `
-    <div class="tr"><b>${x.hauler}</b><span>${num(x.august)}</span><span>${num(x.september)}</span><span>${num(x.daily)}</span></div>
-  `).join('') + `<div class="tr total-row"><b>Total</b><span><b>${num(truckTotal.august)}</b></span><span><b>${num(truckTotal.september)}</b></span><span><b>${num(truckTotal.daily)}</b></span></div>`;
+  $('trucking').innerHTML = truckData.map(x => {
+    let aug = typeof x.august === 'number' ? x.august : 0;
+    let sep = typeof x.september === 'number' ? x.september : 0;
+    let diff = sep - aug;
+    let diffStr = diff > 0 ? '+' + num(diff) : num(diff);
+    return `<div class="tr"><b>${x.hauler}</b><span>${num(x.august)}</span><span>${num(x.september)}</span><span>${diffStr}</span><span>${num(x.daily)}</span></div>`;
+  }).join('') + `<div class="tr total-row"><b>Total</b><span><b>${num(truckTotal.august)}</b></span><span><b>${num(truckTotal.september)}</b></span><span><b>${num(truckTotal.september - truckTotal.august)}</b></span><span><b>${num(truckTotal.daily)}</b></span></div>`;
 
-  // Monthly Table
+  // Monthly Table (with Variance column)
   const m = d.monthly || [];
   const mt = d.monthly_total || {};
-  $('monthly').innerHTML = m.map(x => `
-    <div>${x.month}</div><div>${num(x.y2025)}</div><div>${num(x.y2026)}</div>
-  `).join('') + `<div class="mh">Total</div><div style="font-weight:bold;background:#1a1a1a">${num(mt.y2025)}</div><div style="font-weight:bold;background:#1a1a1a">${num(mt.y2026)}</div>`;
+  $('monthly').innerHTML = m.map(x => {
+    let y25 = typeof x.y2025 === 'number' ? x.y2025 : 0;
+    let y26 = typeof x.y2026 === 'number' ? x.y2026 : 0;
+    let varVal = y26 - y25;
+    let varStr = varVal > 0 ? '+' + num(varVal) : num(varVal);
+    return `<div>${x.month}</div><div>${num(x.y2025)}</div><div>${num(x.y2026)}</div><div style="color:${varVal >= 0 ? '#65b83f' : '#ff3030'}">${varStr}</div>`;
+  }).join('') + `<div class="mh">Total</div><div style="font-weight:bold;background:#1a1a1a">${num(mt.y2025)}</div><div style="font-weight:bold;background:#1a1a1a">${num(mt.y2026)}</div><div style="font-weight:bold;background:#1a1a1a;color:${(mt.y2026 - mt.y2025) >= 0 ? '#65b83f' : '#ff3030'}">${num(mt.y2026 - mt.y2025)}</div>`;
 
   // Daily Production
   const prodData = d.daily_production || [];
@@ -156,7 +151,7 @@ async function load() {
       render(d);
     }
   } catch (e) {
-    $('syncText').textContent = 'ONLINE / WAITING FOR DATA';
+    $('syncText').textContent = 'OFFLINE / WAITING FOR DATA';
   }
 }
 
