@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T02:45:24+08:00",
+  "updated_at": "2026-09-07T02:47:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "22:16",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:29"
+      "activity_time": "04:31"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "21:59",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:46"
+      "activity_time": "04:48"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "23:42",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:03"
+      "activity_time": "03:05"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "16:12",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "10:33"
+      "activity_time": "10:35"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:25",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "02:20"
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "21:34",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "05:11"
+      "activity_time": "05:13"
     },
     {
       "berth": "Berth 10",
@@ -186,7 +186,7 @@
       "time": "22:10",
       "remarks": "COMMENCE DISCHARGE",
       "equip": "8  GEO DT",
-      "activity_time": "04:35"
+      "activity_time": "04:37"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "02:45"
+      "activity_time": "02:47"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "22:10",
       "remarks": "CONTINUE DISCHARGING",
       "equip": "FEED TO JBS HOOPER",
-      "activity_time": "04:35"
+      "activity_time": "04:37"
     }
   ],
   "foreign": {
