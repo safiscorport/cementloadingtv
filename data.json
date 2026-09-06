@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T00:30:34+08:00",
+  "updated_at": "2026-09-07T00:34:37+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "22:16",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:14"
+      "activity_time": "02:18"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "21:59",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:31"
+      "activity_time": "02:35"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "23:42",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:48"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "16:12",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "08:18"
+      "activity_time": "08:22"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 12000,
       "progress": 0.5555555555555556,
       "stockpile": 0,
-      "time": "00:04",
-      "remarks": "LOADING SLING S55",
+      "time": "00:25",
+      "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "00:26"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "21:34",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:56"
+      "activity_time": "03:00"
     },
     {
       "berth": "Berth 10",
@@ -186,7 +186,7 @@
       "time": "22:10",
       "remarks": "COMMENCE DISCHARGE",
       "equip": "8  GEO DT",
-      "activity_time": "02:20"
+      "activity_time": "02:24"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "00:30"
+      "activity_time": "00:34"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "22:10",
       "remarks": "CONTINUE DISCHARGING",
       "equip": "FEED TO JBS HOOPER",
-      "activity_time": "02:20"
+      "activity_time": "02:24"
     }
   ],
   "foreign": {
