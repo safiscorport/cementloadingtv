@@ -1,142 +1,1201 @@
 <!doctype html>
 <html lang="en">
+
 <head>
+
 <meta charset="utf-8">
+
 <meta name="viewport" content="width=device-width,initial-scale=1">
+
 <title>Cement Loading Operations Dashboard</title>
+
 <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div class="app">
-  <header class="topbar" style="display: flex; justify-content: space-between; align-items: center; position: relative;">
-    <div class="brand" style="display: flex; align-items: center;">
-      <img src="logo.png" alt="Logo" style="height: 40px; object-fit: contain;">
-    </div>
-    <div style="position: absolute; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 10px; text-align: left;">
-      <span class="live-dot"></span>
-      <div>
-        <div class="title" style="font-size: 1.2rem; font-weight: bold;">CEMENT LOADING</div>
-        <div class="subtitle" style="font-size: 0.75rem; opacity: 0.8;">PORT OPERATIONS REAL-TIME MONITORING</div>
-      </div>
-    </div>
-    <div class="clock"><div id="phDate">--</div><div id="phTime">--:--:--</div></div>
-  </header>
 
-  <main class="main-content">
-    <section class="table-container">
-      <div class="table-header-bar">
-        <span>Berth</span><span>Vessel</span><span>Voyage #</span><span>Booking</span><span>Dispatch</span><span>Loaded</span><span>Balance</span><span>Progress</span><span>Stockpile</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
-      </div>
-      <div id="berthGrid" class="berth-grid-table"></div>
-      <div class="table-footer-bar">
-        <span>TOTAL</span>
-        <span></span>
-        <span></span>
-        <span id="totalBooking">0</span>
-        <span id="totalDispatch">0</span>
-        <span id="totalLoaded">0</span>
-        <span id="totalBalance">0</span>
-        <span id="totalProgress">0%</span>
-        <span id="totalStockpile">0</span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </section>
 
-    <section class="table-container">
-      <div class="sub-section-title">Berth A</div>
-      <div class="alpha-header-bar">
-        <span>Berth</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
-      </div>
-      <div id="alphaRows"></div>
-    </section>
+<style>
 
-    <section class="table-container">
-      <div class="sub-section-title">Berth F</div>
-      <div class="alpha-header-bar">
-        <span>Berth</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
-      </div>
-      <div id="foreignRow" class="alpha-row"></div>
-    </section>
+/* =========================================================
+   SAFISCOR DASHBOARD PAGE TRANSITION
+   ========================================================= */
 
-    <section class="analytics-grid">
-      <div class="panel">
-        <div class="panel-title" style="display: flex; justify-content: space-between; align-items: center;">
-          <span style="flex: 1; text-align: left;">Trucking</span>
-          <span style="flex: 1; text-align: right;">August</span>
-          <span style="flex: 1; text-align: right;">September</span>
-          <span style="flex: 1; text-align: right;">Daily</span>
-        </div>
-        <div id="trucking" class="table-mini"></div>
-      </div>
+/*
+   The dashboard has 2 pages:
 
-      <div class="panel">
-        <div class="panel-title">Vessel Cement Loading</div>
-        <div class="monthly-grid-head"><span></span><span>2025</span><span>2026</span></div>
-        <div id="monthly" class="monthly"></div>
-      </div>
+   PAGE 1
+   Berth 1-10
+   Berth A
+   Berth F
+   = 5 MINUTES
 
-      <div class="stack-panel">
-        <div class="panel">
-          <div class="panel-title">Cement loading Daily Production</div>
-          <div id="dailyProduction" class="production"></div>
-        </div>
-        <div class="panel">
-          <div class="panel-title">TRUCKING (STOCKPILE)</div>
-          <div id="truckingStockpile" class="production"></div>
-        </div>
-      </div>
-    </section>
-  </main>
+   PAGE 2
+   Trucking
+   Vessel Cement Loading
+   Daily Production
+   Stockpile
+   = 2 MINUTES
+*/
 
-  <footer class="footer-bar">
-    <div class="footer-group">
-      <div class="f-item"><span>Supervisor</span><b id="supervisor">--</b></div>
-      <div class="f-item"><span>Checker</span><b id="checker">--</b></div>
-      <div class="f-item"><span>PMC</span><b id="pmc">--</b></div>
-    </div>
-    <div class="footer-group">
-      <div class="f-item"><span>Equipment Available</span><div>Crane: <b id="cranes">--</b> &nbsp;|&nbsp; Forklift: <b id="forklifts">--</b></div></div>
-      <div class="f-item"><span># of stevedor Per Shift</span><b id="stevedores">--</b></div>
-    </div>
-    <div class="ticker-wrap">
-      <div class="ticker-label">WEATHER</div>
-      <div class="ticker"><div id="weatherTicker">Loading weather data...</div></div>
-    </div>
-    <div class="footer-right"><span id="syncText">CONNECTING</span> &bull; <b id="refreshSec">10s</b></div>
-  </footer>
-</div>
-<script src="app.js"></script>
-<script>
-async function loadWeather(){
-    try{
-        const response = await fetch(
-            "https://api.open-meteo.com/v1/forecast?latitude=10.3157&longitude=123.8854&current=temperature_2m,relative_humidity_2m,wind_speed_10m&hourly=precipitation_probability&timezone=Asia%2FManila"
-        );
-        const data = await response.json();
 
-        const temp = data.current.temperature_2m;
-        const humidity = data.current.relative_humidity_2m;
-        const wind = data.current.wind_speed_10m;
-        const rain = data.hourly.precipitation_probability[0];
-        const now = new Date();
-        const time = now.toLocaleTimeString('en-PH',{ hour:'2-digit', minute:'2-digit' });
+/* Main area */
 
-        document.getElementById("weatherTicker").innerHTML =
-            "🌤 CEBU SAN FERNANDO | 🌡 "+temp+"°C | 💧 Humidity "+humidity+
-            "% | 🌧 Rain "+rain+
-            "% | 💨 Wind "+wind+
-            " km/h | 🕒 Updated "+time+
-            " |";
-    }catch(e){
-        document.getElementById("weatherTicker").innerHTML = "Unable to load weather.";
-    }
+.main-content {
+    position: relative;
+    overflow: hidden;
 }
 
+
+/* Both pages */
+
+.dashboard-page {
+    width: 100%;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateX(35px);
+
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease,
+        visibility 0.8s ease;
+}
+
+
+/* Active page */
+
+.dashboard-page.active {
+    position: relative;
+
+    opacity: 1;
+    visibility: visible;
+
+    transform: translateX(0);
+}
+
+
+/* Page leaving */
+
+.dashboard-page.leaving {
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateX(-35px);
+}
+
+
+/* =========================================================
+   PAGE INDICATOR
+   ========================================================= */
+
+.page-indicator {
+
+    position: fixed;
+
+    right: 10px;
+    bottom: 52px;
+
+    display: flex;
+
+    gap: 6px;
+
+    z-index: 9999;
+
+    pointer-events: none;
+}
+
+
+.page-indicator-dot {
+
+    width: 7px;
+    height: 7px;
+
+    border-radius: 50%;
+
+    background: #555;
+
+    opacity: 0.45;
+
+    transition:
+        opacity 0.3s ease,
+        background 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+.page-indicator-dot.active {
+
+    background: #6dcc45;
+
+    opacity: 1;
+
+    box-shadow:
+        0 0 7px rgba(108,204,69,0.9);
+}
+
+
+/* =========================================================
+   PAGE 1
+   ========================================================= */
+
+#berthPage {
+
+    width: 100%;
+}
+
+
+/* =========================================================
+   PAGE 2
+   ========================================================= */
+
+#analyticsPage {
+
+    width: 100%;
+}
+
+
+/* =========================================================
+   KEEP PANELS TIGHT
+   ========================================================= */
+
+.dashboard-page > section {
+
+    margin-bottom: 8px;
+
+}
+
+
+/* =========================================================
+   SMALL SCREEN
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+    .dashboard-page > section {
+
+        margin-bottom: 5px;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="app">
+
+
+<!-- =======================================================
+     HEADER
+     ======================================================= -->
+
+<header class="topbar"
+        style="
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        position:relative;
+        ">
+
+
+    <!-- LOGO -->
+
+    <div class="brand"
+         style="
+         display:flex;
+         align-items:center;
+         ">
+
+        <img src="logo.png"
+             alt="Logo"
+             style="
+             height:40px;
+             object-fit:contain;
+             ">
+
+    </div>
+
+
+    <!-- CENTER TITLE -->
+
+    <div style="
+        position:absolute;
+        left:50%;
+        transform:translateX(-50%);
+        display:flex;
+        align-items:center;
+        gap:10px;
+        text-align:left;
+        ">
+
+        <span class="live-dot"></span>
+
+        <div>
+
+            <div class="title"
+                 style="
+                 font-size:1.2rem;
+                 font-weight:bold;
+                 ">
+
+                CEMENT LOADING
+
+            </div>
+
+            <div class="subtitle"
+                 style="
+                 font-size:0.75rem;
+                 opacity:0.8;
+                 ">
+
+                PORT OPERATIONS REAL-TIME MONITORING
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- CLOCK -->
+
+    <div class="clock">
+
+        <div id="phDate">
+            --
+        </div>
+
+        <div id="phTime">
+            --:--:--
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<!-- =======================================================
+     MAIN CONTENT
+     ======================================================= -->
+
+<main class="main-content">
+
+
+<!-- =======================================================
+     PAGE 1
+     
+     BERTH OPERATIONS
+
+     5 MINUTES
+     ======================================================= -->
+
+<div id="berthPage"
+     class="dashboard-page active">
+
+
+    <!-- ===================================================
+         MAIN BERTH TABLE
+         =================================================== -->
+
+    <section class="table-container">
+
+
+        <div class="table-header-bar">
+
+            <span>Berth</span>
+
+            <span>Vessel</span>
+
+            <span>Voyage #</span>
+
+            <span>Booking</span>
+
+            <span>Dispatch</span>
+
+            <span>Loaded</span>
+
+            <span>Balance</span>
+
+            <span>Progress</span>
+
+            <span>Stockpile</span>
+
+            <span>Time</span>
+
+            <span>Remarks</span>
+
+            <span>Deployed Equip.</span>
+
+            <span>Activity time</span>
+
+        </div>
+
+
+        <!-- DATA FROM APP.JS -->
+
+        <div id="berthGrid"
+             class="berth-grid-table">
+        </div>
+
+
+        <!-- TOTAL -->
+
+        <div class="table-footer-bar">
+
+            <span>
+                TOTAL
+            </span>
+
+            <span></span>
+
+            <span></span>
+
+            <span id="totalBooking">
+                0
+            </span>
+
+            <span id="totalDispatch">
+                0
+            </span>
+
+            <span id="totalLoaded">
+                0
+            </span>
+
+            <span id="totalBalance">
+                0
+            </span>
+
+            <span id="totalProgress">
+                0%
+            </span>
+
+            <span id="totalStockpile">
+                0
+            </span>
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===================================================
+         BERTH A
+         =================================================== -->
+
+    <section class="table-container">
+
+
+        <div class="sub-section-title">
+            Berth A
+        </div>
+
+
+        <div class="alpha-header-bar">
+
+            <span>Berth</span>
+
+            <span>Vessel</span>
+
+            <span>MATERIAL</span>
+
+            <span>DISCHARGE %</span>
+
+            <span>Balance</span>
+
+            <span>Progress</span>
+
+            <span>Time</span>
+
+            <span>Remarks</span>
+
+            <span>Deployed Equip.</span>
+
+            <span>Activity time</span>
+
+        </div>
+
+
+        <div id="alphaRows">
+        </div>
+
+
+    </section>
+
+
+
+    <!-- ===================================================
+         BERTH F
+         =================================================== -->
+
+    <section class="table-container">
+
+
+        <div class="sub-section-title">
+            Berth F
+        </div>
+
+
+        <div class="alpha-header-bar">
+
+            <span>Berth</span>
+
+            <span>Vessel</span>
+
+            <span>MATERIAL</span>
+
+            <span>DISCHARGE %</span>
+
+            <span>Balance</span>
+
+            <span>Progress</span>
+
+            <span>Time</span>
+
+            <span>Remarks</span>
+
+            <span>Deployed Equip.</span>
+
+            <span>Activity time</span>
+
+        </div>
+
+
+        <div id="foreignRow"
+             class="alpha-row">
+        </div>
+
+
+    </section>
+
+
+</div>
+
+
+
+<!-- =======================================================
+     PAGE 2
+     
+     ANALYTICS / PRODUCTION
+
+     2 MINUTES
+     ======================================================= -->
+
+<div id="analyticsPage"
+     class="dashboard-page">
+
+
+    <section class="analytics-grid">
+
+
+        <!-- =================================================
+             TRUCKING
+             ================================================= -->
+
+        <div class="panel">
+
+
+            <div class="panel-title"
+                 style="
+                 display:flex;
+                 justify-content:space-between;
+                 align-items:center;
+                 ">
+
+
+                <span style="
+                    flex:1;
+                    text-align:left;
+                    ">
+
+                    Trucking
+
+                </span>
+
+
+                <span style="
+                    flex:1;
+                    text-align:right;
+                    ">
+
+                    August
+
+                </span>
+
+
+                <span style="
+                    flex:1;
+                    text-align:right;
+                    ">
+
+                    September
+
+                </span>
+
+
+                <span style="
+                    flex:1;
+                    text-align:right;
+                    ">
+
+                    Daily
+
+                </span>
+
+
+            </div>
+
+
+            <div id="trucking"
+                 class="table-mini">
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             VESSEL CEMENT LOADING
+             ================================================= -->
+
+        <div class="panel">
+
+
+            <div class="panel-title">
+
+                Vessel Cement Loading
+
+            </div>
+
+
+            <div class="monthly-grid-head">
+
+                <span></span>
+
+                <span>
+                    2025
+                </span>
+
+                <span>
+                    2026
+                </span>
+
+            </div>
+
+
+            <div id="monthly"
+                 class="monthly">
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             DAILY PRODUCTION + STOCKPILE
+             ================================================= -->
+
+        <div class="stack-panel">
+
+
+            <!-- DAILY PRODUCTION -->
+
+            <div class="panel">
+
+                <div class="panel-title">
+
+                    Cement loading Daily Production
+
+                </div>
+
+
+                <div id="dailyProduction"
+                     class="production">
+                </div>
+
+            </div>
+
+
+
+            <!-- STOCKPILE -->
+
+            <div class="panel">
+
+                <div class="panel-title">
+
+                    TRUCKING (STOCKPILE)
+
+                </div>
+
+
+                <div id="truckingStockpile"
+                     class="production">
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+</div>
+
+
+</main>
+
+
+
+<!-- =======================================================
+     PAGE INDICATOR
+     ======================================================= -->
+
+<div class="page-indicator">
+
+    <span id="berthIndicator"
+          class="page-indicator-dot active">
+    </span>
+
+    <span id="analyticsIndicator"
+          class="page-indicator-dot">
+    </span>
+
+</div>
+
+
+
+<!-- =======================================================
+     FOOTER
+     ======================================================= -->
+
+<footer class="footer-bar">
+
+
+    <!-- SUPERVISOR / CHECKER / PMC -->
+
+    <div class="footer-group">
+
+
+        <div class="f-item">
+
+            <span>
+                Supervisor
+            </span>
+
+            <b id="supervisor">
+                --
+            </b>
+
+        </div>
+
+
+        <div class="f-item">
+
+            <span>
+                Checker
+            </span>
+
+            <b id="checker">
+                --
+            </b>
+
+        </div>
+
+
+        <div class="f-item">
+
+            <span>
+                PMC
+            </span>
+
+            <b id="pmc">
+                --
+            </b>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- EQUIPMENT -->
+
+    <div class="footer-group">
+
+
+        <div class="f-item">
+
+            <span>
+                Equipment Available
+            </span>
+
+            <div>
+
+                Crane:
+
+                <b id="cranes">
+                    --
+                </b>
+
+                &nbsp;|&nbsp;
+
+                Forklift:
+
+                <b id="forklifts">
+                    --
+                </b>
+
+            </div>
+
+        </div>
+
+
+        <div class="f-item">
+
+            <span>
+                # of stevedor Per Shift
+            </span>
+
+            <b id="stevedores">
+                --
+            </b>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- WEATHER -->
+
+    <div class="ticker-wrap">
+
+        <div class="ticker-label">
+            WEATHER
+        </div>
+
+
+        <div class="ticker">
+
+            <div id="weatherTicker">
+                Loading weather data...
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- CONNECTION -->
+
+    <div class="footer-right">
+
+        <span id="syncText">
+            CONNECTING
+        </span>
+
+        &bull;
+
+        <b id="refreshSec">
+            10s
+        </b>
+
+    </div>
+
+
+</footer>
+
+
+</div>
+
+
+
+<!-- =======================================================
+     EXISTING APP.JS
+     ======================================================= -->
+
+<script src="app.js"></script>
+
+
+
+<!-- =======================================================
+     WEATHER
+     ======================================================= -->
+
+<script>
+
+async function loadWeather(){
+
+    try{
+
+        const response = await fetch(
+            "https://api.open-meteo.com/v1/forecast" +
+            "?latitude=10.3157" +
+            "&longitude=123.8854" +
+            "&current=temperature_2m,relative_humidity_2m,wind_speed_10m" +
+            "&hourly=precipitation_probability" +
+            "&timezone=Asia%2FManila"
+        );
+
+
+        const data =
+            await response.json();
+
+
+        const temp =
+            data.current.temperature_2m;
+
+
+        const humidity =
+            data.current.relative_humidity_2m;
+
+
+        const wind =
+            data.current.wind_speed_10m;
+
+
+        const rain =
+            data.hourly.precipitation_probability[0];
+
+
+        const now =
+            new Date();
+
+
+        const time =
+            now.toLocaleTimeString(
+                'en-PH',
+                {
+                    hour:'2-digit',
+                    minute:'2-digit'
+                }
+            );
+
+
+        document.getElementById(
+            "weatherTicker"
+        ).innerHTML =
+
+            "🌤 CEBU SAN FERNANDO | " +
+
+            "🌡 " +
+            temp +
+            "°C | " +
+
+            "💧 Humidity " +
+            humidity +
+            "% | " +
+
+            "🌧 Rain " +
+            rain +
+            "% | " +
+
+            "💨 Wind " +
+            wind +
+            " km/h | " +
+
+            "🕒 Updated " +
+            time +
+            " |";
+
+
+    }
+    catch(e){
+
+        document.getElementById(
+            "weatherTicker"
+        ).innerHTML =
+            "Unable to load weather.";
+
+    }
+
+}
+
+
+/* Initial weather */
+
 loadWeather();
-setInterval(loadWeather, 3600000);
+
+
+/* Update weather every hour */
+
+setInterval(
+    loadWeather,
+    3600000
+);
+
 </script>
+
+
+
+<!-- =======================================================
+     DASHBOARD TRANSITION
+     ======================================================= -->
+
+<script>
+
+
+/* =========================================================
+   SETTINGS
+   ========================================================= */
+
+
+/*
+   BERTH SCREEN
+   5 MINUTES
+*/
+
+const BERTH_DURATION =
+    5 * 60 * 1000;
+
+
+/*
+   ANALYTICS SCREEN
+   2 MINUTES
+*/
+
+const ANALYTICS_DURATION =
+    2 * 60 * 1000;
+
+
+
+/* =========================================================
+   ELEMENTS
+   ========================================================= */
+
+const berthPage =
+    document.getElementById(
+        "berthPage"
+    );
+
+
+const analyticsPage =
+    document.getElementById(
+        "analyticsPage"
+    );
+
+
+const berthIndicator =
+    document.getElementById(
+        "berthIndicator"
+    );
+
+
+const analyticsIndicator =
+    document.getElementById(
+        "analyticsIndicator"
+    );
+
+
+
+/* =========================================================
+   SHOW BERTH PAGE
+   ========================================================= */
+
+function showBerthPage(){
+
+    console.log(
+        "DISPLAY: BERTH OPERATIONS"
+    );
+
+
+    /* Hide analytics */
+
+    analyticsPage.classList.remove(
+        "active"
+    );
+
+    analyticsPage.classList.remove(
+        "leaving"
+    );
+
+
+    /* Show berth */
+
+    berthPage.classList.remove(
+        "leaving"
+    );
+
+    berthPage.classList.add(
+        "active"
+    );
+
+
+    /* Indicators */
+
+    berthIndicator.classList.add(
+        "active"
+    );
+
+    analyticsIndicator.classList.remove(
+        "active"
+    );
+
+}
+
+
+
+/* =========================================================
+   SHOW ANALYTICS PAGE
+   ========================================================= */
+
+function showAnalyticsPage(){
+
+    console.log(
+        "DISPLAY: ANALYTICS"
+    );
+
+
+    /* Start berth leaving */
+
+    berthPage.classList.remove(
+        "active"
+    );
+
+    berthPage.classList.add(
+        "leaving"
+    );
+
+
+    /* Start analytics entering */
+
+    analyticsPage.classList.remove(
+        "leaving"
+    );
+
+
+    analyticsPage.classList.add(
+        "active"
+    );
+
+
+    /* Indicators */
+
+    berthIndicator.classList.remove(
+        "active"
+    );
+
+    analyticsIndicator.classList.add(
+        "active"
+    );
+
+}
+
+
+
+/* =========================================================
+   AUTOMATIC ROTATION
+   ========================================================= */
+
+function startRotation(){
+
+
+    /*
+       ================================================
+       PAGE 1
+
+       BERTH 1 → BERTH F
+
+       DISPLAY FOR 5 MINUTES
+       ================================================
+    */
+
+
+    setTimeout(
+
+        function(){
+
+            showAnalyticsPage();
+
+
+            /*
+               =========================================
+               PAGE 2
+
+               ANALYTICS
+
+               DISPLAY FOR 2 MINUTES
+               =========================================
+            */
+
+
+            setTimeout(
+
+                function(){
+
+                    showBerthPage();
+
+
+                    /*
+                       Start the cycle again
+                    */
+
+                    startRotation();
+
+                },
+
+                ANALYTICS_DURATION
+
+            );
+
+        },
+
+        BERTH_DURATION
+
+    );
+
+}
+
+
+
+/* =========================================================
+   START
+   ========================================================= */
+
+
+/*
+   Always start with Berth screen
+*/
+
+showBerthPage();
+
+
+/*
+   Start 5 min → 2 min loop
+*/
+
+startRotation();
+
+
+</script>
+
+
 </body>
+
 </html>
