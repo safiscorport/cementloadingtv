@@ -156,7 +156,7 @@ async function load() {
       render(d);
     }
   } catch (e) {
-    $('syncText').textContent = 'OFFLINE / WAITING FOR DATA';
+    $('syncText').textContent = 'ONLINE / WAITING FOR DATA';
   }
 }
 
