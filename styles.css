@@ -530,6 +530,15 @@ body {
 
 .table-mini.header-row {
 
+  display: grid;
+
+  grid-template-columns:
+    1.25fr
+    1fr
+    1fr
+    1fr
+    1fr;
+
   background: #303030;
 
   font-weight: 900;
@@ -537,6 +546,10 @@ body {
   color: #ccc;
 
   font-size: clamp(10px, 0.65vw, 15px);
+
+  padding:
+    clamp(2px, 0.25vh, 5px)
+    clamp(4px, 0.4vw, 9px);
 }
 
 .total-row {
