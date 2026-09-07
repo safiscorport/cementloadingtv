@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T06:04:26+08:00",
+  "updated_at": "2026-09-07T08:41:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "22:16",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "07:48"
+      "activity_time": "10:25"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "21:59",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "08:05"
+      "activity_time": "10:42"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "23:42",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "06:22"
+      "activity_time": "08:59"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "16:12",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "13:52"
+      "activity_time": "16:29"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:25",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "05:39"
+      "activity_time": "08:16"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "21:34",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "08:30"
+      "activity_time": "11:07"
     },
     {
       "berth": "Berth 10",
@@ -186,7 +186,7 @@
       "time": "22:10",
       "remarks": "COMMENCE DISCHARGE",
       "equip": "8  GEO DT",
-      "activity_time": "07:54"
+      "activity_time": "10:31"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "06:04"
+      "activity_time": "08:41"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "22:10",
       "remarks": "CONTINUE DISCHARGING",
       "equip": "FEED TO JBS HOOPER",
-      "activity_time": "07:54"
+      "activity_time": "10:31"
     }
   ],
   "foreign": {
@@ -230,25 +230,25 @@
       "hauler": "SAFISCOR",
       "august": 1054675,
       "september": 221000,
-      "daily": 26000
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
       "september": 51000,
-      "daily": 4000
+      "daily": "-"
     },
     {
       "hauler": "BADIE",
       "august": 53080,
       "september": 12000,
-      "daily": 1000
+      "daily": "-"
     },
     {
       "hauler": "GEO",
       "august": 138080,
       "september": 27000,
-      "daily": 3000
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 27000
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 23000
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
