@@ -46,17 +46,17 @@
     </section>
 
     <section class="table-container">
-      <div class="sub-section-title"></div>
+      <div class="sub-section-title">Berth A</div>
       <div class="alpha-header-bar">
-        <span>Berth A</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
+        <span>Berth</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
       </div>
       <div id="alphaRows"></div>
     </section>
 
     <section class="table-container">
-      <div class="sub-section-title"></div>
+      <div class="sub-section-title">Berth F</div>
       <div class="alpha-header-bar">
-        <span>Berth F</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
+        <span>Berth</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
       </div>
       <div id="foreignRow" class="alpha-row"></div>
     </section>
@@ -65,9 +65,9 @@
       <div class="panel">
         <div class="panel-title" style="display: flex; justify-content: space-between; align-items: center;">
           <span style="flex: 1; text-align: left;">Trucking</span>
-          <span style="flex: 1; text-align: left;">August</span>
-          <span style="flex: 1; text-align: left;">September</span>
-          <span style="flex: 1; text-align: left;">Daily</span>
+          <span style="flex: 1; text-align: right;">August</span>
+          <span style="flex: 1; text-align: right;">September</span>
+          <span style="flex: 1; text-align: right;">Daily</span>
         </div>
         <div id="trucking" class="table-mini"></div>
       </div>
@@ -474,7 +474,7 @@ setInterval(loadWeather, 3600000);
         <div>
           <div class="history-kicker">Port Operations • Performance History</div>
           <div class="history-title">CEMENT LOADING 2020–2026</div>
-          <div class="history-sub">Annual vessel cement loading • executive TV information display</div>
+          <div class="history-sub">Annual vessel cement loading • 2020–2025 fixed history • 2026 LIVE</div>
         </div>
       </div>
       <div class="history-clock">
@@ -487,7 +487,7 @@ setInterval(loadWeather, 3600000);
     <div class="history-main">
       <section class="history-card">
         <div class="history-chart-head">
-          <div class="history-card-title">ANNUAL LOADING <span>/ CEMENT BAGS</span></div>
+          <div class="history-card-title">ANNUAL LOADING <span>/ METRIC TONS</span></div>
           <div class="history-chart-meta">2020 → 2026 • YEARLY PERFORMANCE</div>
         </div>
         <svg id="annualChart" viewBox="0 0 1000 560" preserveAspectRatio="none"></svg>
@@ -540,7 +540,7 @@ setInterval(loadWeather, 3600000);
    Change these two values as needed.
 */
 const DASHBOARD_DURATION_MS = 3 * 60 * 1000;
-const HISTORY_DURATION_MS   = 3 * 60 * 1000;
+const HISTORY_DURATION_MS   = 1 * 60 * 1000;
 
 /* Values visible in the supplied report's TOTAL row.
    2026 can be supplied by your existing app.js/data source.
@@ -556,17 +556,75 @@ const CEMENT_HISTORY_TOTALS = {
   2026: null
 };
 
+let LIVE_2026_TOTAL = null;
+let LIVE_2026_UPDATED_AT = null;
+
 function get2026Total(){
-  const candidates = [
-    window.CEMENT_2026_TOTAL,
-    window.cement2026Total,
-    window.historical2026Total
-  ];
-  for(const v of candidates){
-    const n = Number(v);
-    if(Number.isFinite(n) && n >= 0) return n;
+  return Number.isFinite(LIVE_2026_TOTAL) ? LIVE_2026_TOTAL : null;
+}
+
+/* =========================================================
+   LIVE 2026 CONNECTION
+   Dashboard 2 reads the same data.json used by Dashboard 1.
+   2020-2025 remain fixed; only 2026 is replaced.
+   ========================================================= */
+async function loadLive2026(){
+  try{
+    const response = await fetch("data.json?t=" + Date.now(), {
+      cache: "no-store"
+    });
+
+    if(!response.ok) throw new Error("HTTP " + response.status);
+
+    const data = await response.json();
+
+    let total2026 = null;
+
+    /* Prefer the authoritative monthly_total from data.json. */
+    if(data.monthly_total && data.monthly_total.y2026 !== undefined){
+      const n = Number(
+        String(data.monthly_total.y2026).replace(/,/g,"")
+      );
+      if(Number.isFinite(n) && n >= 0){
+        total2026 = n;
+      }
+    }
+
+    /* Fallback: calculate from the monthly 2026 values. */
+    if(total2026 === null && Array.isArray(data.monthly)){
+      const calculated = data.monthly.reduce((sum,row)=>{
+        const n = Number(
+          String(row.y2026 ?? 0).replace(/,/g,"")
+        );
+        return sum + (Number.isFinite(n) ? n : 0);
+      },0);
+
+      total2026 = calculated;
+    }
+
+    if(total2026 !== null){
+      const changed = LIVE_2026_TOTAL !== total2026;
+
+      LIVE_2026_TOTAL = total2026;
+      LIVE_2026_UPDATED_AT = data.updated_at || null;
+
+      CEMENT_HISTORY_TOTALS[2026] = total2026;
+
+      if(changed || document.getElementById("historyScreen")?.classList.contains("show")){
+        renderHistoryTotals();
+      }
+
+      console.log(
+        "[Dashboard 2] LIVE 2026:",
+        total2026.toLocaleString("en-US"),
+        "Updated:",
+        LIVE_2026_UPDATED_AT || "unknown"
+      );
+    }
+
+  }catch(error){
+    console.warn("[Dashboard 2] Unable to load live 2026 data:", error);
   }
-  return null;
 }
 
 // Called automatically by app.js every time data.json is refreshed.
@@ -744,6 +802,11 @@ function startRotation(){
 
 /* Start automatically after the live dashboard has loaded. */
 updateHistoryClock();
+
+/* Get the current 2026 total immediately, then refresh every 10 seconds. */
+loadLive2026();
+setInterval(loadLive2026, 10000);
+
 startRotation();
 </script>
 
