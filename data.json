@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T07:52:55+08:00",
+  "updated_at": "2026-09-08T07:54:58+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:45",
       "remarks": "LOADING G2 SLING BAGS",
       "equipment": "CRANE2 / FL3",
-      "activity_time": "00:07"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:45",
       "remarks": "LOADING S9 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:07"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "07:45",
       "remarks": "LOADING S51 SLING BAGS",
       "equipment": "FL 2",
-      "activity_time": "00:07"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "07:45",
       "remarks": "LOADING S3 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:07"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "07:45",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "00:07"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:45",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "00:07"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "07:45",
       "remarks": "LOADING S41 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:07"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:45",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "00:07"
+      "activity_time": "00:09"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:52"
+      "activity_time": "07:54"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:52"
+      "activity_time": "07:54"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "03:51",
       "remarks": "CONTINOUS DISCHARGE FEED TO JBS",
       "equip": "1 PL DEPLOYED",
-      "activity_time": "04:01"
+      "activity_time": "04:03"
     }
   ],
   "foreign": {
