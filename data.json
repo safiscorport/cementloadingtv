@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T16:53:37+08:00",
+  "updated_at": "2026-09-07T16:57:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:25",
       "remarks": "VESSEL CRANE DEFECTIVE",
       "equipment": "0",
-      "activity_time": "03:28"
+      "activity_time": "03:32"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "15:00",
       "remarks": "STOP LOADING / SWELL",
       "equipment": "0",
-      "activity_time": "01:53"
+      "activity_time": "01:57"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "13:26",
       "remarks": "LOADING G3 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:27"
+      "activity_time": "03:31"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "13:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "03:53"
+      "activity_time": "03:57"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "13:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "03:53"
+      "activity_time": "03:57"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "15:27",
       "remarks": "LOADING S30 SLING BAGS",
       "equipment": "FL 2",
-      "activity_time": "01:26"
+      "activity_time": "01:30"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "15:45",
       "remarks": "LOADING S51 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:08"
+      "activity_time": "01:12"
     },
     {
       "berth": "Berth 9",
       "vessel": "LADY OF WISDOM",
       "voyage": 6,
       "booking": 30000,
-      "dispatch": 20000,
+      "dispatch": 21000,
       "loaded": 18000,
       "balance": 12000,
       "progress": 0.6,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "15:23",
       "remarks": "LOADING L48 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:30"
+      "activity_time": "01:34"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "15:00",
       "remarks": "LOADING F1 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:53"
+      "activity_time": "01:57"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 294000,
-    "dispatch": 161000,
+    "dispatch": 162000,
     "loaded": 148000,
     "balance": 146000,
     "progress": 0.5077306136129666,
-    "stockpile": 13000
+    "stockpile": 14000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "22:10",
       "remarks": "COMMENCE DISCHARGE",
       "equip": "8  GEO DT",
-      "activity_time": "18:43"
+      "activity_time": "18:47"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:53"
+      "activity_time": "16:57"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "22:10",
       "remarks": "CONTINUE DISCHARGING",
       "equip": "FEED TO JBS HOOPER",
-      "activity_time": "18:43"
+      "activity_time": "18:47"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 233000,
-      "daily": 12000
+      "september": 234000,
+      "daily": 13000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 8000
+      "volume": 9000
     },
     {
       "client": "LAPU-LAPU",
