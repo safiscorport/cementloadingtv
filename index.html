@@ -542,10 +542,6 @@ setInterval(loadWeather, 3600000);
 const DASHBOARD_DURATION_MS = 3 * 60 * 1000;
 const HISTORY_DURATION_MS   = 1 * 60 * 1000;
 
-/* Values visible in the supplied report's TOTAL row.
-   2026 can be supplied by your existing app.js/data source.
-   If your app.js exposes a 2026 total, assign it to window.CEMENT_2026_TOTAL.
-*/
 const CEMENT_HISTORY_TOTALS = {
   2020: 22643900,
   2021: 17720877,
@@ -557,12 +553,16 @@ const CEMENT_HISTORY_TOTALS = {
 };
 
 function get2026Total(){
-  // 1. Check if window.CEMENT_2026_TOTAL was set by app.js
-  if (Number.isFinite(Number(window.CEMENT_2026_TOTAL)) && Number(window.CEMENT_2026_TOTAL) > 0) {
-    return Number(window.CEMENT_2026_TOTAL);
+  const candidates = [
+    window.CEMENT_2026_TOTAL,
+    window.cement2026Total,
+    window.historical2026Total
+  ];
+  for(const v of candidates){
+    const n = Number(v);
+    if(Number.isFinite(n) && n > 0) return n;
   }
-  
-  // 2. Fallback: Directly sum up 2026 values from CEMENT_HISTORY_TOTALS or hardcode fallback matching your json total
+  // Safe fallback to match monthly_total.y2026 from data.json if app.js global isn't bound yet
   return 12180710;
 }
 
@@ -635,7 +635,7 @@ function drawAnnualChart(){
 
   data.forEach((d,i)=>{
     const x=L+i*step+(step-barW)/2;
-    const known=Number.isFinite(d.value);
+    const known=Number.isFinite(d.value) && d.value > 0;
     const h=known ? (d.value/max)*plotH : 0;
     const y=T+plotH-h;
     const isLive=d.year==2026;
@@ -672,7 +672,7 @@ function drawAnnualChart(){
   });
 
   // Direction line connecting the tops of known bars for a modern trend cue.
-  const points=data.filter(d=>Number.isFinite(d.value)).map(d=>{
+  const points=data.filter(d=>Number.isFinite(d.value) && d.value > 0).map(d=>{
     const i=data.indexOf(d);
     const x=L+i*step+step/2;
     const y=T+plotH-(d.value/max)*plotH;
