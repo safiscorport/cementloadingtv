@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T18:27:20+08:00",
+  "updated_at": "2026-09-07T18:31:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "17:19",
       "remarks": "LOADING L50 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:08"
+      "activity_time": "01:12"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "15:00",
       "remarks": "STOP LOADING / SWELL",
       "equipment": "0",
-      "activity_time": "03:27"
+      "activity_time": "03:31"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "16:03",
       "remarks": "LOADING S53 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:24"
+      "activity_time": "02:28"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "13:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "05:27"
+      "activity_time": "05:31"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "13:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "05:27"
+      "activity_time": "05:31"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "15:27",
       "remarks": "LOADING S30 SLING BAGS",
       "equipment": "FL 2",
-      "activity_time": "03:00"
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "17:05",
       "remarks": "LOADING S57 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:22"
+      "activity_time": "01:26"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "17:10",
       "remarks": "LOADING S39 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:17"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "15:00",
       "remarks": "LOADING F1 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:27"
+      "activity_time": "03:31"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "22:10",
       "remarks": "COMMENCE DISCHARGE",
       "equip": "8  GEO DT",
-      "activity_time": "20:17"
+      "activity_time": "20:21"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "18:27"
+      "activity_time": "18:31"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "22:10",
       "remarks": "CONTINUE DISCHARGING",
       "equip": "FEED TO JBS HOOPER",
-      "activity_time": "20:17"
+      "activity_time": "20:21"
     }
   ],
   "foreign": {
