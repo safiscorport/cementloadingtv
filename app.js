@@ -6,7 +6,7 @@ const $ = id => document.getElementById(id);
 const num = v =>
   (v === undefined || v === null || v === 0 || v === '-')
     ? (v === 0 ? '0' : (v || '—'))
-    : Number(v).toLocaleString('en-US');
+    : Number(v).toLocaleString('en-US');SC
 
 
 function formatActivityTime(val) {
