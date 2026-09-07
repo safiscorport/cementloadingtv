@@ -46,17 +46,17 @@
     </section>
 
     <section class="table-container">
-      <div class="sub-section-title">Berth A</div>
+      <div class="sub-section-title"></div>
       <div class="alpha-header-bar">
-        <span>Berth</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
+        <span>Berth A</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
       </div>
       <div id="alphaRows"></div>
     </section>
 
     <section class="table-container">
-      <div class="sub-section-title">Berth F</div>
+      <div class="sub-section-title"></div>
       <div class="alpha-header-bar">
-        <span>Berth</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
+        <span>Berth F</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
       </div>
       <div id="foreignRow" class="alpha-row"></div>
     </section>
@@ -65,9 +65,9 @@
       <div class="panel">
         <div class="panel-title" style="display: flex; justify-content: space-between; align-items: center;">
           <span style="flex: 1; text-align: left;">Trucking</span>
-          <span style="flex: 1; text-align: right;">August</span>
-          <span style="flex: 1; text-align: right;">September</span>
-          <span style="flex: 1; text-align: right;">Daily</span>
+          <span style="flex: 1; text-align: center;">August</span>
+          <span style="flex: 1; text-align: center;">September</span>
+          <span style="flex: 1; text-align: center;">Daily</span>
         </div>
         <div id="trucking" class="table-mini"></div>
       </div>
@@ -487,7 +487,7 @@ setInterval(loadWeather, 3600000);
     <div class="history-main">
       <section class="history-card">
         <div class="history-chart-head">
-          <div class="history-card-title">ANNUAL LOADING <span>/ METRIC TONS</span></div>
+          <div class="history-card-title">ANNUAL LOADING <span>/ CEMENT BAGS</span></div>
           <div class="history-chart-meta">2020 → 2026 • YEARLY PERFORMANCE</div>
         </div>
         <svg id="annualChart" viewBox="0 0 1000 560" preserveAspectRatio="none"></svg>
@@ -540,7 +540,7 @@ setInterval(loadWeather, 3600000);
    Change these two values as needed.
 */
 const DASHBOARD_DURATION_MS = 3 * 60 * 1000;
-const HISTORY_DURATION_MS   = 1 * 60 * 1000;
+const HISTORY_DURATION_MS   = 3 * 60 * 1000;
 
 /* Values visible in the supplied report's TOTAL row.
    2026 can be supplied by your existing app.js/data source.
