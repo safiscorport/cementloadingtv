@@ -3,106 +3,24 @@ let lastHash = '';
 
 const $ = id => document.getElementById(id);
 
+const num = v =>
+  (v === undefined || v === null || v === 0 || v === '-')
+    ? (v === 0 ? '0' : (v || '—'))
+    : Number(v).toLocaleString('en-US');
 
-/* =========================================================
-   NUMBER FORMAT
-   ========================================================= */
-
-const num = v => {
-
-  if (
-    v === undefined ||
-    v === null ||
-    v === 0 ||
-    v === '-'
-  ) {
-    return v === 0 ? '0' : (v || '—');
-  }
-
-  return Number(v).toLocaleString('en-US');
-
-};
-
-
-/* =========================================================
-   LIVE NUMBER PARSER
-   Handles:
-   1218702
-   "1218702"
-   "1,218,702"
-   " 1,218,702 "
-   ========================================================= */
-
-function parseLiveNumber(value) {
-
-  if (
-    value === undefined ||
-    value === null ||
-    value === ''
-  ) {
-    return 0;
-  }
-
-  if (typeof value === 'number') {
-
-    return Number.isFinite(value)
-      ? value
-      : 0;
-
-  }
-
-  const cleaned = String(value)
-    .replace(/,/g, '')
-    .replace(/₱/g, '')
-    .replace(/\s/g, '')
-    .trim();
-
-  const n = Number(cleaned);
-
-  return Number.isFinite(n)
-    ? n
-    : 0;
-
-}
-
-
-/* =========================================================
-   ACTIVITY TIME
-   ========================================================= */
 
 function formatActivityTime(val) {
-
-  if (
-    !val ||
-    val === '0:00' ||
-    val === '-'
-  ) {
-    return '0:00';
-  }
-
+  if (!val || val === '0:00' || val === '-') return '0:00';
   return val;
-
 }
 
 
-/* =========================================================
-   STOPPAGE REMARK DETECTION
-   ========================================================= */
-
 function isStoppageRemark(text) {
+  if (!text || text === '-') return false;
 
-  if (
-    !text ||
-    text === '-'
-  ) {
-    return false;
-  }
-
-  const lower =
-    String(text).toLowerCase();
+  const lower = text.toLowerCase();
 
   return (
-
     lower.includes('waiting') ||
     lower.includes('stopped') ||
     lower.includes('stop') ||
@@ -116,178 +34,181 @@ function isStoppageRemark(text) {
     lower.includes('issue') ||
     lower.includes('shortage') ||
     lower.includes('no stock')
-
   );
-
 }
 
 
 /* =========================================================
-   SEND 2026 DATA TO HISTORY DASHBOARD
+   SAFE NUMBER CONVERTER FOR 2026
+   Handles:
+   1212345
+   "1212345"
+   "1,212,345"
    ========================================================= */
 
-function send2026ToHistory(d) {
-
-  const monthly =
-    Array.isArray(d.monthly)
-      ? d.monthly
-      : [];
-
-
-  /* -------------------------------------------------------
-     Build live 2026 monthly dataset
-     ------------------------------------------------------- */
-
-  const live2026Monthly =
-    monthly.map(x => ({
-
-      month:
-        x.month,
-
-      value:
-        parseLiveNumber(x.y2026)
-
-    }));
-
-
-  /* -------------------------------------------------------
-     Expose monthly 2026 data globally
-     ------------------------------------------------------- */
-
-  window.CEMENT_2026_MONTHLY =
-    live2026Monthly;
-
-
-  /* -------------------------------------------------------
-     Calculate 2026 total directly from monthly data
-     
-     This is the important part.
-     
-     It does NOT depend only on monthly_total.y2026.
-     ------------------------------------------------------- */
-
-  const calculated2026Total =
-    live2026Monthly.reduce(
-      (sum, item) =>
-        sum + item.value,
-      0
-    );
-
-
-  /* -------------------------------------------------------
-     Also read monthly_total.y2026 if available
-     ------------------------------------------------------- */
-
-  const supplied2026Total =
-    parseLiveNumber(
-      d.monthly_total &&
-      d.monthly_total.y2026
-    );
-
-
-  /* -------------------------------------------------------
-     Select the live 2026 total
-     
-     Prefer the official monthly_total when it is
-     greater than zero.
-     
-     Otherwise calculate it from the monthly rows.
-     ------------------------------------------------------- */
-
-  let live2026Total;
-
-  if (supplied2026Total > 0) {
-
-    live2026Total =
-      supplied2026Total;
-
-  } else {
-
-    live2026Total =
-      calculated2026Total;
-
-  }
-
-
-  /* -------------------------------------------------------
-     Make 2026 available to Dashboard 2
-     ------------------------------------------------------- */
-
-  window.CEMENT_2026_TOTAL =
-    live2026Total;
-
-
-  /* -------------------------------------------------------
-     Additional aliases for compatibility
-     ------------------------------------------------------- */
-
-  window.cement2026Total =
-    live2026Total;
-
-  window.historical2026Total =
-    live2026Total;
-
-
-  /* -------------------------------------------------------
-     Debug information
-     
-     Open F12 → Console to see these.
-     ------------------------------------------------------- */
-
-  console.log(
-    '[CEMENT] 2026 MONTHLY:',
-    window.CEMENT_2026_MONTHLY
-  );
-
-  console.log(
-    '[CEMENT] 2026 TOTAL:',
-    window.CEMENT_2026_TOTAL
-  );
-
-
-  /* -------------------------------------------------------
-     Notify Dashboard 2 immediately
-     ------------------------------------------------------- */
+function liveNumber(value) {
 
   if (
-    typeof window.updateHistoryFromDashboard ===
-    'function'
+    value === undefined ||
+    value === null ||
+    value === ''
   ) {
-
-    window.updateHistoryFromDashboard();
-
+    return 0;
   }
 
+  if (typeof value === 'number') {
+    return Number.isFinite(value) ? value : 0;
+  }
 
-  /* -------------------------------------------------------
-     Also send a browser event.
-     
-     This allows Dashboard 2 to listen for updates
-     even if its history script was initialized separately.
-     ------------------------------------------------------- */
+  const n = Number(
+    String(value)
+      .replace(/,/g, '')
+      .replace(/₱/g, '')
+      .trim()
+  );
+
+  return Number.isFinite(n) ? n : 0;
+}
+
+
+/* =========================================================
+   SEND 2026 DATA TO DASHBOARD 2
+   ========================================================= */
+
+function update2026Bridge(d) {
 
   try {
+
+    const monthly =
+      Array.isArray(d.monthly)
+        ? d.monthly
+        : [];
+
+
+    /* -----------------------------------------------------
+       Store all 2026 monthly values
+       ----------------------------------------------------- */
+
+    const monthly2026 =
+      monthly.map(row => ({
+
+        month: row.month,
+
+        value: liveNumber(
+          row.y2026
+        )
+
+      }));
+
+
+    /* -----------------------------------------------------
+       Calculate live 2026 total
+       ----------------------------------------------------- */
+
+    const calculatedTotal =
+      monthly2026.reduce(
+        (total, row) =>
+          total + row.value,
+        0
+      );
+
+
+    /* -----------------------------------------------------
+       Check monthly_total.y2026
+       ----------------------------------------------------- */
+
+    const suppliedTotal =
+      d.monthly_total
+        ? liveNumber(
+            d.monthly_total.y2026
+          )
+        : 0;
+
+
+    /*
+     * Use monthly_total when available.
+     * Otherwise calculate from monthly rows.
+     */
+
+    const total2026 =
+      suppliedTotal > 0
+        ? suppliedTotal
+        : calculatedTotal;
+
+
+    /* -----------------------------------------------------
+       GLOBAL VALUES
+       ----------------------------------------------------- */
+
+    window.CEMENT_2026_TOTAL =
+      total2026;
+
+    window.cement2026Total =
+      total2026;
+
+    window.historical2026Total =
+      total2026;
+
+    window.CEMENT_2026_MONTHLY =
+      monthly2026;
+
+
+    /* -----------------------------------------------------
+       Notify Dashboard 2
+       ----------------------------------------------------- */
+
+    if (
+      typeof window.updateHistoryFromDashboard ===
+      'function'
+    ) {
+
+      window.updateHistoryFromDashboard();
+
+    }
+
+
+    /*
+     * Also send an event.
+     * Dashboard 2 can listen for this event.
+     */
 
     window.dispatchEvent(
       new CustomEvent(
         'cement2026Updated',
         {
           detail: {
-            total:
-              live2026Total,
-
-            monthly:
-              live2026Monthly
+            total: total2026,
+            monthly: monthly2026
           }
         }
       )
     );
 
-  } catch (e) {
+
+    /* -----------------------------------------------------
+       DEBUG
+       ----------------------------------------------------- */
+
+    console.log(
+      '[Dashboard 1] 2026 Total:',
+      total2026
+    );
+
+    console.log(
+      '[Dashboard 1] 2026 Monthly:',
+      monthly2026
+    );
+
+  } catch (error) {
+
+    /*
+     * IMPORTANT:
+     * Do not allow the bridge to break Dashboard 1.
+     */
 
     console.warn(
-      'Unable to dispatch cement2026Updated event:',
-      e
+      '[Dashboard 1] 2026 bridge error:',
+      error
     );
 
   }
@@ -295,16 +216,7 @@ function send2026ToHistory(d) {
 }
 
 
-/* =========================================================
-   MAIN DASHBOARD RENDER
-   ========================================================= */
-
 function render(d) {
-
-
-  /* =======================================================
-     SYNC STATUS
-     ======================================================= */
 
   $('syncText').textContent =
     'LIVE • UPDATED ' +
@@ -364,10 +276,4 @@ function render(d) {
             <b>${x.berth}</b>
           </span>
 
-          <span class="vessel">
-            ${x.vessel || '—'}
-          </span>
-
-          <span>
-            ${x.voyage || '-'}
-          </
+          <span class="
