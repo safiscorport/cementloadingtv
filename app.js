@@ -610,7 +610,7 @@ function render(d) {
         <span>
           Total
         </span>
-
+fsdfsdfd
         <b>
           ${num(stockTotal)}
         </b>
