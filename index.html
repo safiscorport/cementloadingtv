@@ -5,6 +5,39 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Cement Loading Operations Dashboard</title>
 <link rel="stylesheet" href="styles.css">
+<style>
+/* Manual Dashboard Switcher Styles */
+.dashboard-switcher {
+  display: flex;
+  background: rgba(10, 27, 39, 0.85);
+  border: 1px solid rgba(123, 214, 255, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-right: 15px;
+  backdrop-filter: blur(8px);
+}
+.switcher-btn {
+  background: transparent;
+  border: none;
+  color: rgba(225, 242, 250, 0.6);
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.switcher-btn:hover {
+  color: #fff;
+  background: rgba(58, 204, 255, 0.1);
+}
+.switcher-btn.active {
+  background: linear-gradient(135deg, rgba(58, 204, 255, 0.25), rgba(20, 123, 168, 0.35));
+  color: #70ddff;
+  border-bottom: 2px solid #70ddff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+</style>
 </head>
 <body>
 <div class="app">
@@ -19,7 +52,13 @@
         <div class="subtitle" style="font-size: 0.75rem; opacity: 0.8;">PORT OPERATIONS REAL-TIME MONITORING</div>
       </div>
     </div>
-    <div class="clock"><div id="phDate">--</div><div id="phTime">--:--:--</div></div>
+    <div style="display: flex; align-items: center;">
+      <div class="dashboard-switcher">
+        <button id="btnDash1" class="switcher-btn active" onclick="manualSwitchDashboard(1)">DASHBOARD 1</button>
+        <button id="btnDash2" class="switcher-btn" onclick="manualSwitchDashboard(2)">DASHBOARD 2</button>
+      </div>
+      <div class="clock"><div id="phDate">--</div><div id="phTime">--:--:--</div></div>
+    </div>
   </header>
 
   <main class="main-content">
@@ -477,10 +516,18 @@ setInterval(loadWeather, 3600000);
           <div class="history-sub">Annual vessel cement loading • 2020–2025 fixed history • 2026 LIVE</div>
         </div>
       </div>
-      <div class="history-clock">
-        <div class="history-clock-label">PHILIPPINE STANDARD TIME</div>
-        <div id="historyTime">--:--:--</div>
-        <div id="historyDate">--</div>
+      
+      <!-- Dashboard Switcher and Clock added to Dashboard 2 Header -->
+      <div style="display: flex; align-items: center; gap: 20px;">
+        <div class="dashboard-switcher">
+          <button id="hBtnDash1" class="switcher-btn" onclick="manualSwitchDashboard(1)">DASHBOARD 1</button>
+          <button id="hBtnDash2" class="switcher-btn active" onclick="manualSwitchDashboard(2)">DASHBOARD 2</button>
+        </div>
+        <div class="history-clock">
+          <div class="history-clock-label">PHILIPPINE STANDARD TIME</div>
+          <div id="historyTime">--:--:--</div>
+          <div id="historyDate">--</div>
+        </div>
       </div>
     </div>
 
@@ -558,6 +605,7 @@ const CEMENT_HISTORY_TOTALS = {
 
 let LIVE_2026_TOTAL = null;
 let LIVE_2026_UPDATED_AT = null;
+let manualOverride = false;
 
 function get2026Total(){
   return Number.isFinite(LIVE_2026_TOTAL) ? LIVE_2026_TOTAL : null;
@@ -613,13 +661,6 @@ async function loadLive2026(){
       if(changed || document.getElementById("historyScreen")?.classList.contains("show")){
         renderHistoryTotals();
       }
-
-      console.log(
-        "[Dashboard 2] LIVE 2026:",
-        total2026.toLocaleString("en-US"),
-        "Updated:",
-        LIVE_2026_UPDATED_AT || "unknown"
-      );
     }
 
   }catch(error){
@@ -773,20 +814,43 @@ function renderHistoryTotals(){
 function showHistoryScreen(){
   renderHistoryTotals();
   document.getElementById("historyScreen").classList.add("show");
+  document.getElementById("btnDash1").classList.remove("active");
+  document.getElementById("btnDash2").classList.add("active");
+  document.getElementById("hBtnDash1").classList.remove("active");
+  document.getElementById("hBtnDash2").classList.add("active");
 }
 function hideHistoryScreen(){
   document.getElementById("historyScreen").classList.remove("show");
+  document.getElementById("btnDash1").classList.add("active");
+  document.getElementById("btnDash2").classList.remove("active");
+  document.getElementById("hBtnDash1").classList.add("active");
+  document.getElementById("hBtnDash2").classList.remove("active");
+}
+
+function manualSwitchDashboard(target){
+  manualOverride = true;
+  clearTimeout(rotationTimer);
+  clearTimeout(historyTimer);
+  
+  if(target === 1){
+    hideHistoryScreen();
+  } else {
+    showHistoryScreen();
+  }
 }
 
 /* Rotate: LIVE DASHBOARD 3 min → HISTORY GRAPH 1 min → repeat. */
 let rotationTimer=null, historyTimer=null;
 function startRotation(){
+  if(manualOverride) return;
   clearTimeout(rotationTimer); clearTimeout(historyTimer);
   hideHistoryScreen();
   rotationTimer=setTimeout(()=>{
+    if(manualOverride) return;
     showHistoryScreen();
     const started=Date.now();
     function tick(){
+      if(manualOverride) return;
       const elapsed=Date.now()-started;
       const remain=Math.max(0,HISTORY_DURATION_MS-elapsed);
       const pct=Math.min(100,elapsed/HISTORY_DURATION_MS*100);
