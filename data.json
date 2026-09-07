@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T09:14:59+08:00",
+  "updated_at": "2026-09-07T09:19:42+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "09:15",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "23:59"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "09:15",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "23:59"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "09:15",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "23:59"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "09:15",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "23:59"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 6",
@@ -86,10 +86,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "16:12",
-      "remarks": "STAR SOGOD",
+      "time": "07:00",
+      "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "17:02"
+      "activity_time": "02:19"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 12000,
       "progress": 0.5555555555555556,
       "stockpile": 0,
-      "time": "00:25",
-      "remarks": "STAR DINAGAT",
+      "time": "09:15",
+      "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "08:49"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 5500,
       "progress": 0.6764705882352942,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "LADY ARMOR",
+      "time": "09:15",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 13000,
       "progress": 0.5666666666666667,
       "stockpile": 0,
-      "time": "21:34",
-      "remarks": "LADY OF WISDOM",
+      "time": "09:15",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "11:40"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 10",
@@ -186,7 +186,7 @@
       "time": "22:10",
       "remarks": "COMMENCE DISCHARGE",
       "equip": "8  GEO DT",
-      "activity_time": "11:04"
+      "activity_time": "11:09"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:14"
+      "activity_time": "09:19"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "22:10",
       "remarks": "CONTINUE DISCHARGING",
       "equip": "FEED TO JBS HOOPER",
-      "activity_time": "11:04"
+      "activity_time": "11:09"
     }
   ],
   "foreign": {
