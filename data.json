@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T07:40:41+08:00",
+  "updated_at": "2026-09-08T07:42:44+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -12,9 +12,9 @@
       "progress": 0.7529411764705882,
       "stockpile": 0,
       "time": "05:13",
-      "remarks": "LOADING SLING GEO 1",
+      "remarks": "BARGE JB  5",
       "equipment": "CRANE2 / FL3",
-      "activity_time": "02:27"
+      "activity_time": "02:29"
     },
     {
       "berth": "Berth 2",
@@ -27,9 +27,9 @@
       "progress": 0.5846153846153846,
       "stockpile": 5000,
       "time": "19:30",
-      "remarks": "WAITING SHORECRANE",
+      "remarks": "JOHANNAH 7",
       "equipment": "0",
-      "activity_time": "12:10"
+      "activity_time": "12:12"
     },
     {
       "berth": "Berth 3",
@@ -57,9 +57,9 @@
       "progress": 0.4444444444444444,
       "stockpile": 3000,
       "time": "01:00",
-      "remarks": "WAITING SHORECRANE",
+      "remarks": "INFINITY 8",
       "equipment": "FL 2",
-      "activity_time": "06:40"
+      "activity_time": "06:42"
     },
     {
       "berth": "Berth 5",
@@ -72,9 +72,9 @@
       "progress": 0,
       "stockpile": 1000,
       "time": "04:40",
-      "remarks": "-",
+      "remarks": "EASTERN CEBU",
       "equipment": "0",
-      "activity_time": "03:00"
+      "activity_time": "03:02"
     },
     {
       "berth": "Berth 6",
@@ -87,9 +87,9 @@
       "progress": 0,
       "stockpile": 0,
       "time": "19:00",
-      "remarks": "NO BOOKING",
+      "remarks": "STAR SOGOD",
       "equipment": "0",
-      "activity_time": "12:40"
+      "activity_time": "12:42"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0.9074074074074074,
       "stockpile": 0,
       "time": "21:01",
-      "remarks": "WAITING MATERIAL TONNER",
+      "remarks": "STAR DINAGAT",
       "equipment": "CRANE 3",
-      "activity_time": "10:39"
+      "activity_time": "10:41"
     },
     {
       "berth": "Berth 8",
@@ -117,9 +117,9 @@
       "progress": 1,
       "stockpile": 0,
       "time": "23:00",
-      "remarks": "LOADING COMPLETE",
+      "remarks": "LADY ARMOR",
       "equipment": "0",
-      "activity_time": "08:40"
+      "activity_time": "08:42"
     },
     {
       "berth": "Berth 9",
@@ -132,9 +132,9 @@
       "progress": 0.8,
       "stockpile": 1000,
       "time": "22:52",
-      "remarks": "WAITING MATERIAL",
+      "remarks": "LADY OF WISDOM",
       "equipment": "0",
-      "activity_time": "08:48"
+      "activity_time": "08:50"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 25000,
       "progress": 0,
       "stockpile": 0,
-      "time": "04:13",
-      "remarks": "WAITING MATERIAL",
+      "time": "00:00",
+      "remarks": "STAR FREEDOM",
       "equipment": "FL 1",
-      "activity_time": "03:27"
+      "activity_time": "00:00"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:40"
+      "activity_time": "07:42"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:40"
+      "activity_time": "07:42"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "03:51",
       "remarks": "CONTINOUS DISCHARGE FEED TO JBS",
       "equip": "1 PL DEPLOYED",
-      "activity_time": "03:49"
+      "activity_time": "03:51"
     }
   ],
   "foreign": {
