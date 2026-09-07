@@ -114,6 +114,13 @@ function render(d) {
   // Monthly Table
   const m = d.monthly || [];
   const mt = d.monthly_total || {};
+  
+  // Expose 2026 total globally for the history graph rotation script
+  window.CEMENT_2026_TOTAL = mt.y2026;
+  if (typeof window.updateHistoryFromDashboard === 'function') {
+    window.updateHistoryFromDashboard();
+  }
+
   $('monthly').innerHTML = m.map(x => `
     <div>${x.month}</div><div>${num(x.y2025)}</div><div>${num(x.y2026)}</div>
   `).join('') + `<div class="mh">Total</div><div style="font-weight:bold;background:#1a1a1a">${num(mt.y2025)}</div><div style="font-weight:bold;background:#1a1a1a">${num(mt.y2026)}</div>`;
@@ -170,3 +177,4 @@ clock();
 setInterval(clock, 1000);
 load();
 setInterval(load, REFRESH_MS);
+```[cite: 1]
