@@ -147,36 +147,6 @@
     <div class="footer-right"><span id="syncText">CONNECTING</span> &bull; <b id="refreshSec">10s</b></div>
   </footer>
 </div>
-<script src="app.js"></script>
-<script>
-async function loadWeather(){
-    try{
-        const response = await fetch(
-            "https://api.open-meteo.com/v1/forecast?latitude=10.3157&longitude=123.8854&current=temperature_2m,relative_humidity_2m,wind_speed_10m&hourly=precipitation_probability&timezone=Asia%2FManila"
-        );
-        const data = await response.json();
-
-        const temp = data.current.temperature_2m;
-        const humidity = data.current.relative_humidity_2m;
-        const wind = data.current.wind_speed_10m;
-        const rain = data.hourly.precipitation_probability[0];
-        const now = new Date();
-        const time = now.toLocaleTimeString('en-PH',{ hour:'2-digit', minute:'2-digit' });
-
-        document.getElementById("weatherTicker").innerHTML =
-            "🌤 CEBU SAN FERNANDO | 🌡 "+temp+"°C | 💧 Humidity "+humidity+
-            "% | 🌧 Rain "+rain+
-            "% | 💨 Wind "+wind+
-            " km/h | 🕒 Updated "+time+
-            " |";
-    }catch(e){
-        document.getElementById("weatherTicker").innerHTML = "Unable to load weather.";
-    }
-}
-
-loadWeather();
-setInterval(loadWeather, 3600000);
-</script>
 
 <style>
 /* =========================================================
@@ -517,7 +487,6 @@ setInterval(loadWeather, 3600000);
         </div>
       </div>
       
-      <!-- Dashboard Switcher and Clock added to Dashboard 2 Header -->
       <div style="display: flex; align-items: center; gap: 20px;">
         <div class="dashboard-switcher">
           <button id="hBtnDash1" class="switcher-btn" onclick="manualSwitchDashboard(1)">DASHBOARD 1</button>
@@ -580,19 +549,40 @@ setInterval(loadWeather, 3600000);
   </div>
 </div>
 
+<!-- Scripts placed at the end so app.js successfully binds to Dashboard 1 & 2 containers -->
+<script src="app.js"></script>
 <script>
-/* ===== TV ROTATION SETTINGS =====
-   Dashboard = 3 minutes
-   History graph = 1 minute
-   Change these two values as needed.
-*/
+async function loadWeather(){
+    try{
+        const response = await fetch(
+            "https://api.open-meteo.com/v1/forecast?latitude=10.3157&longitude=123.8854&current=temperature_2m,relative_humidity_2m,wind_speed_10m&hourly=precipitation_probability&timezone=Asia%2FManila"
+        );
+        const data = await response.json();
+
+        const temp = data.current.temperature_2m;
+        const humidity = data.current.relative_humidity_2m;
+        const wind = data.current.wind_speed_10m;
+        const rain = data.hourly.precipitation_probability[0];
+        const now = new Date();
+        const time = now.toLocaleTimeString('en-PH',{ hour:'2-digit', minute:'2-digit' });
+
+        document.getElementById("weatherTicker").innerHTML =
+            "🌤 CEBU SAN FERNANDO | 🌡 "+temp+"°C | 💧 Humidity "+humidity+
+            "% | 🌧 Rain "+rain+
+            "% | 💨 Wind "+wind+
+            " km/h | 🕒 Updated "+time+
+            " |";
+    }catch(e){
+        document.getElementById("weatherTicker").innerHTML = "Unable to load weather.";
+    }
+}
+
+loadWeather();
+setInterval(loadWeather, 3600000);
+
 const DASHBOARD_DURATION_MS = 3 * 60 * 1000;
 const HISTORY_DURATION_MS   = 3 * 60 * 1000;
 
-/* Values visible in the supplied report's TOTAL row.
-   2026 can be supplied by your existing app.js/data source.
-   If your app.js exposes a 2026 total, assign it to window.CEMENT_2026_TOTAL.
-*/
 const CEMENT_HISTORY_TOTALS = {
   2020: 22643900,
   2021: 17720877,
@@ -611,11 +601,6 @@ function get2026Total(){
   return Number.isFinite(LIVE_2026_TOTAL) ? LIVE_2026_TOTAL : null;
 }
 
-/* =========================================================
-   LIVE 2026 CONNECTION
-   Dashboard 2 reads the same data.json used by Dashboard 1.
-   2020-2025 remain fixed; only 2026 is replaced.
-   ========================================================= */
 async function loadLive2026(){
   try{
     const response = await fetch("data.json?t=" + Date.now(), {
@@ -625,50 +610,38 @@ async function loadLive2026(){
     if(!response.ok) throw new Error("HTTP " + response.status);
 
     const data = await response.json();
-
     let total2026 = null;
 
-    /* Prefer the authoritative monthly_total from data.json. */
     if(data.monthly_total && data.monthly_total.y2026 !== undefined){
-      const n = Number(
-        String(data.monthly_total.y2026).replace(/,/g,"")
-      );
+      const n = Number(String(data.monthly_total.y2026).replace(/,/g,""));
       if(Number.isFinite(n) && n >= 0){
         total2026 = n;
       }
     }
 
-    /* Fallback: calculate from the monthly 2026 values. */
     if(total2026 === null && Array.isArray(data.monthly)){
       const calculated = data.monthly.reduce((sum,row)=>{
-        const n = Number(
-          String(row.y2026 ?? 0).replace(/,/g,"")
-        );
+        const n = Number(String(row.y2026 ?? 0).replace(/,/g,""));
         return sum + (Number.isFinite(n) ? n : 0);
       },0);
-
       total2026 = calculated;
     }
 
     if(total2026 !== null){
       const changed = LIVE_2026_TOTAL !== total2026;
-
       LIVE_2026_TOTAL = total2026;
       LIVE_2026_UPDATED_AT = data.updated_at || null;
-
       CEMENT_HISTORY_TOTALS[2026] = total2026;
 
       if(changed || document.getElementById("historyScreen")?.classList.contains("show")){
         renderHistoryTotals();
       }
     }
-
   }catch(error){
     console.warn("[Dashboard 2] Unable to load live 2026 data:", error);
   }
 }
 
-// Called automatically by app.js every time data.json is refreshed.
 window.updateHistoryFromDashboard = function(){
   const live = get2026Total();
   CEMENT_HISTORY_TOTALS[2026] = live;
@@ -724,7 +697,6 @@ function drawAnnualChart(){
     </defs>
   `;
 
-  // Grid and Y labels
   for(let i=0;i<=5;i++){
     const y=T+plotH-(plotH*i/5);
     const value=max*i/5;
@@ -732,7 +704,6 @@ function drawAnnualChart(){
     out += `<text x="${L-14}" y="${y+5}" text-anchor="end" fill="rgba(224,244,252,.42)" font-size="15" font-family="Segoe UI,Arial">${value===0?"0":Math.round(value/1000000)+"M"}</text>`;
   }
 
-  // Baseline
   out += `<line x1="${L}" y1="${T+plotH}" x2="${W-R}" y2="${T+plotH}" stroke="rgba(145,224,255,.24)" stroke-width="2"/>`;
 
   data.forEach((d,i)=>{
@@ -747,33 +718,19 @@ function drawAnnualChart(){
         fill="${isLive?'url(#barLive)':'url(#barGrad)'}"
         opacity="${isLive?.96:.88}"
         filter="${isLive?'url(#barGlow)':''}" />`;
-
-      // subtle top highlight
-      out += `<rect x="${x+3}" y="${y+3}" width="${Math.max(0,barW-6)}" height="2" rx="1"
-        fill="rgba(255,255,255,.42)" />`;
-
-      out += `<text x="${x+barW/2}" y="${Math.max(y-13,24)}" text-anchor="middle"
-        fill="${isLive?'#ffd88c':'#e8faff'}" font-size="16" font-weight="800"
-        font-family="Segoe UI,Arial">${formatMT(d.value)}</text>`;
+      out += `<rect x="${x+3}" y="${y+3}" width="${Math.max(0,barW-6)}" height="2" rx="1" fill="rgba(255,255,255,.42)" />`;
+      out += `<text x="${x+barW/2}" y="${Math.max(y-13,24)}" text-anchor="middle" fill="${isLive?'#ffd88c':'#e8faff'}" font-size="16" font-weight="800" font-family="Segoe UI,Arial">${formatMT(d.value)}</text>`;
     }else{
-      out += `<rect x="${x}" y="${T+plotH-5}" width="${barW}" height="5" rx="3"
-        fill="rgba(255,255,255,.13)" />`;
-      out += `<text x="${x+barW/2}" y="${T+plotH-18}" text-anchor="middle"
-        fill="rgba(255,255,255,.42)" font-size="13" font-weight="700"
-        font-family="Segoe UI,Arial">LIVE</text>`;
+      out += `<rect x="${x}" y="${T+plotH-5}" width="${barW}" height="5" rx="3" fill="rgba(255,255,255,.13)" />`;
+      out += `<text x="${x+barW/2}" y="${T+plotH-18}" text-anchor="middle" fill="rgba(255,255,255,.42)" font-size="13" font-weight="700" font-family="Segoe UI,Arial">LIVE</text>`;
     }
 
-    // year capsule
     const labelFill=isLive?"rgba(255,179,75,.12)":"rgba(105,216,255,.07)";
     const labelStroke=isLive?"rgba(255,190,95,.28)":"rgba(105,216,255,.13)";
-    out += `<rect x="${x+barW*.16}" y="${H-53}" width="${barW*.68}" height="30" rx="15"
-      fill="${labelFill}" stroke="${labelStroke}" />`;
-    out += `<text x="${x+barW/2}" y="${H-33}" text-anchor="middle"
-      fill="${isLive?'#ffd28a':'#d9f4fc'}" font-size="16" font-weight="850"
-      font-family="Segoe UI,Arial">${esc(d.year)}</text>`;
+    out += `<rect x="${x+barW*.16}" y="${H-53}" width="${barW*.68}" height="30" rx="15" fill="${labelFill}" stroke="${labelStroke}" />`;
+    out += `<text x="${x+barW/2}" y="${H-33}" text-anchor="middle" fill="${isLive?'#ffd28a':'#d9f4fc'}" font-size="16" font-weight="850" font-family="Segoe UI,Arial">${esc(d.year)}</text>`;
   });
 
-  // Direction line connecting the tops of known bars for a modern trend cue.
   const points=data.filter(d=>Number.isFinite(d.value)).map(d=>{
     const i=data.indexOf(d);
     const x=L+i*step+step/2;
@@ -839,7 +796,6 @@ function manualSwitchDashboard(target){
   }
 }
 
-/* Rotate: LIVE DASHBOARD 3 min → HISTORY GRAPH 1 min → repeat. */
 let rotationTimer=null, historyTimer=null;
 function startRotation(){
   if(manualOverride) return;
@@ -864,13 +820,9 @@ function startRotation(){
   }, DASHBOARD_DURATION_MS);
 }
 
-/* Start automatically after the live dashboard has loaded. */
 updateHistoryClock();
-
-/* Get the current 2026 total immediately, then refresh every 10 seconds. */
 loadLive2026();
 setInterval(loadLive2026, 10000);
-
 startRotation();
 </script>
 
