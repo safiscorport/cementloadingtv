@@ -1,4 +1,4 @@
-SCSCASCconst REFRESH_MS = 10000;
+const REFRESH_MS = 10000;
 let lastHash = '';
 
 const $ = id => document.getElementById(id);
