@@ -1,6 +1,7 @@
 /* =========================================================
    SAFISCOR CEMENT LOADING DASHBOARD
    FULL SCREEN / TV OPTIMIZED CSS
+   HEADER REDUCED TO GIVE MORE SPACE TO BOTTOM
    ========================================================= */
 
 /* =========================================================
@@ -47,9 +48,13 @@ body {
    ========================================================= */
 
 .header {
-    flex: 0 0 auto;
+    flex: 0 0 50px;
+
     width: 100%;
     min-width: 0;
+    height: 50px;
+    max-height: 50px;
+
     overflow: hidden;
 }
 
@@ -58,7 +63,7 @@ body {
    ========================================================= */
 
 .main-content {
-    flex: 1 1 auto;
+    flex: 1 1 0;
 
     width: 100%;
     max-width: 100%;
@@ -66,14 +71,13 @@ body {
 
     height: auto;
     min-height: 0;
-    max-height: none;
 
-    padding: 5px 8px;
+    padding: 3px 8px;
 
     display: flex;
     flex-direction: column;
 
-    gap: 4px;
+    gap: 3px;
 
     overflow: hidden;
 }
@@ -199,25 +203,6 @@ body {
 
     display: grid;
 
-    /*
-       13 COLUMNS
-       TOTAL = 100%
-
-       Berth
-       Vessel
-       Voyage #
-       Booking
-       Dispatch
-       Loaded
-       Balance
-       Progress
-       Stockpile
-       Time
-       Remarks
-       Deployed Equipment
-       Activity Time
-    */
-
     grid-template-columns:
         5%
         10%
@@ -243,8 +228,8 @@ body {
 .table-header-bar {
     flex: 0 0 auto;
 
-    min-height: 30px;
-    height: 32px;
+    min-height: 28px;
+    height: 30px;
 
     overflow: hidden;
 }
@@ -256,8 +241,8 @@ body {
 .berth-row {
     flex: 0 0 auto;
 
-    min-height: 30px;
-    height: 34px;
+    min-height: 28px;
+    height: 32px;
 
     overflow: hidden;
 }
@@ -269,8 +254,8 @@ body {
 .table-footer-bar {
     flex: 0 0 auto;
 
-    min-height: 30px;
-    height: 32px;
+    min-height: 28px;
+    height: 30px;
 
     overflow: hidden;
 }
@@ -304,22 +289,6 @@ body {
 
     display: grid;
 
-    /*
-       10 COLUMNS
-       TOTAL = 100%
-
-       Berth
-       Vessel
-       Material
-       Discharge
-       Balance
-       Progress
-       Time
-       Remarks
-       Deployed Equipment
-       Activity Time
-    */
-
     grid-template-columns:
         6%
         12%
@@ -342,8 +311,8 @@ body {
 .alpha-header-bar {
     flex: 0 0 auto;
 
-    min-height: 28px;
-    height: 30px;
+    min-height: 26px;
+    height: 28px;
 
     overflow: hidden;
 }
@@ -355,8 +324,8 @@ body {
 .alpha-row {
     flex: 0 0 auto;
 
-    min-height: 28px;
-    height: 31px;
+    min-height: 26px;
+    height: 29px;
 
     overflow: hidden;
 }
@@ -478,14 +447,15 @@ canvas,
    ========================================================= */
 
 .footer {
-    flex: 0 0 auto;
+    flex: 0 0 38px;
 
     width: 100%;
     max-width: 100%;
     min-width: 0;
 
     min-height: 38px;
-    height: 42px;
+    height: 38px;
+    max-height: 38px;
 
     overflow: hidden;
 }
@@ -532,6 +502,7 @@ img {
 
 /* =========================================================
    1920 x 1080 TV
+   HEADER REDUCED: 70px → 50px
    ========================================================= */
 
 @media (min-width: 1800px) and (min-height: 1000px) {
@@ -539,14 +510,21 @@ img {
     /* HEADER */
 
     .header {
-        height: 70px;
+        flex: 0 0 50px;
+        height: 50px;
+        max-height: 50px;
     }
 
     /* MAIN */
 
     .main-content {
-        padding: 4px 8px;
-        gap: 4px;
+        flex: 1 1 0;
+
+        padding: 3px 8px;
+        gap: 3px;
+
+        min-height: 0;
+        max-height: none;
     }
 
     /* MAIN TABLE */
@@ -554,8 +532,8 @@ img {
     .table-header-bar,
     .berth-row,
     .table-footer-bar {
-        height: 34px;
         min-height: 0;
+        height: 32px;
 
         font-size: 13px;
     }
@@ -564,8 +542,8 @@ img {
 
     .alpha-header-bar,
     .alpha-row {
-        height: 31px;
         min-height: 0;
+        height: 29px;
 
         font-size: 13px;
     }
@@ -573,8 +551,11 @@ img {
     /* FOOTER */
 
     .footer {
-        height: 42px;
-        min-height: 0;
+        flex: 0 0 38px;
+
+        height: 38px;
+        max-height: 38px;
+        min-height: 38px;
     }
 }
 
@@ -585,18 +566,20 @@ img {
 @media (min-width: 1500px) and (max-width: 1799px) {
 
     .header {
-        height: 65px;
+        flex: 0 0 48px;
+        height: 48px;
+        max-height: 48px;
     }
 
     .main-content {
-        padding: 4px 7px;
-        gap: 4px;
+        padding: 3px 7px;
+        gap: 3px;
     }
 
     .table-header-bar,
     .berth-row,
     .table-footer-bar {
-        height: 31px;
+        height: 30px;
         min-height: 0;
 
         font-size: 12px;
@@ -604,15 +587,18 @@ img {
 
     .alpha-header-bar,
     .alpha-row {
-        height: 29px;
+        height: 28px;
         min-height: 0;
 
         font-size: 12px;
     }
 
     .footer {
-        height: 40px;
-        min-height: 0;
+        flex: 0 0 36px;
+
+        height: 36px;
+        max-height: 36px;
+        min-height: 36px;
     }
 }
 
@@ -623,18 +609,20 @@ img {
 @media (min-width: 1200px) and (max-width: 1499px) {
 
     .header {
-        height: 60px;
+        flex: 0 0 45px;
+        height: 45px;
+        max-height: 45px;
     }
 
     .main-content {
-        padding: 3px 6px;
-        gap: 3px;
+        padding: 2px 6px;
+        gap: 2px;
     }
 
     .table-header-bar,
     .berth-row,
     .table-footer-bar {
-        height: 27px;
+        height: 26px;
         min-height: 0;
 
         font-size: 10px;
@@ -642,15 +630,18 @@ img {
 
     .alpha-header-bar,
     .alpha-row {
-        height: 25px;
+        height: 24px;
         min-height: 0;
 
         font-size: 10px;
     }
 
     .footer {
-        height: 36px;
-        min-height: 0;
+        flex: 0 0 34px;
+
+        height: 34px;
+        max-height: 34px;
+        min-height: 34px;
     }
 }
 
@@ -661,18 +652,20 @@ img {
 @media (max-width: 1199px) {
 
     .header {
-        height: 55px;
+        flex: 0 0 42px;
+        height: 42px;
+        max-height: 42px;
     }
 
     .main-content {
-        padding: 3px 5px;
-        gap: 3px;
+        padding: 2px 5px;
+        gap: 2px;
     }
 
     .table-header-bar,
     .berth-row,
     .table-footer-bar {
-        height: 25px;
+        height: 24px;
         min-height: 0;
 
         font-size: 9px;
@@ -680,15 +673,18 @@ img {
 
     .alpha-header-bar,
     .alpha-row {
-        height: 23px;
+        height: 22px;
         min-height: 0;
 
         font-size: 9px;
     }
 
     .footer {
-        height: 34px;
-        min-height: 0;
+        flex: 0 0 32px;
+
+        height: 32px;
+        max-height: 32px;
+        min-height: 32px;
     }
 }
 
@@ -705,7 +701,7 @@ img {
 }
 
 /* =========================================================
-   REMOVE DEFAULT MARGINS THAT CAN PUSH BOTTOM DOWN
+   REMOVE DEFAULT MARGINS
    ========================================================= */
 
 h1,
@@ -720,7 +716,7 @@ p {
 }
 
 /* =========================================================
-   BOX SIZING FOR ALL COMPONENTS
+   BOX SIZING
    ========================================================= */
 
 .header,
@@ -766,16 +762,29 @@ p {
         overflow: hidden;
     }
 
+    .header {
+        flex: 0 0 50px;
+
+        height: 50px;
+        max-height: 50px;
+
+        overflow: hidden;
+    }
+
     .main-content {
         flex: 1 1 0;
+
         min-height: 0;
-        max-height: 100%;
+        max-height: none;
+
         overflow: hidden;
     }
 
     .footer {
-        flex: 0 0 42px;
-        height: 42px;
-        max-height: 42px;
+        flex: 0 0 38px;
+
+        height: 38px;
+        max-height: 38px;
+        min-height: 38px;
     }
 }
