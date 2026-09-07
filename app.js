@@ -3,24 +3,106 @@ let lastHash = '';
 
 const $ = id => document.getElementById(id);
 
-const num = v =>
-  (v === undefined || v === null || v === 0 || v === '-')
-    ? (v === 0 ? '0' : (v || '—'))
-    : Number(v).toLocaleString('en-US');
+
+/* =========================================================
+   NUMBER FORMAT
+   ========================================================= */
+
+const num = v => {
+
+  if (
+    v === undefined ||
+    v === null ||
+    v === 0 ||
+    v === '-'
+  ) {
+    return v === 0 ? '0' : (v || '—');
+  }
+
+  return Number(v).toLocaleString('en-US');
+
+};
 
 
-function formatActivityTime(val) {
-  if (!val || val === '0:00' || val === '-') return '0:00';
-  return val;
+/* =========================================================
+   LIVE NUMBER PARSER
+   Handles:
+   1218702
+   "1218702"
+   "1,218,702"
+   " 1,218,702 "
+   ========================================================= */
+
+function parseLiveNumber(value) {
+
+  if (
+    value === undefined ||
+    value === null ||
+    value === ''
+  ) {
+    return 0;
+  }
+
+  if (typeof value === 'number') {
+
+    return Number.isFinite(value)
+      ? value
+      : 0;
+
+  }
+
+  const cleaned = String(value)
+    .replace(/,/g, '')
+    .replace(/₱/g, '')
+    .replace(/\s/g, '')
+    .trim();
+
+  const n = Number(cleaned);
+
+  return Number.isFinite(n)
+    ? n
+    : 0;
+
 }
 
 
-function isStoppageRemark(text) {
-  if (!text || text === '-') return false;
+/* =========================================================
+   ACTIVITY TIME
+   ========================================================= */
 
-  const lower = text.toLowerCase();
+function formatActivityTime(val) {
+
+  if (
+    !val ||
+    val === '0:00' ||
+    val === '-'
+  ) {
+    return '0:00';
+  }
+
+  return val;
+
+}
+
+
+/* =========================================================
+   STOPPAGE REMARK DETECTION
+   ========================================================= */
+
+function isStoppageRemark(text) {
+
+  if (
+    !text ||
+    text === '-'
+  ) {
+    return false;
+  }
+
+  const lower =
+    String(text).toLowerCase();
 
   return (
+
     lower.includes('waiting') ||
     lower.includes('stopped') ||
     lower.includes('stop') ||
@@ -34,470 +116,138 @@ function isStoppageRemark(text) {
     lower.includes('issue') ||
     lower.includes('shortage') ||
     lower.includes('no stock')
+
   );
+
 }
 
 
 /* =========================================================
-   MAIN DASHBOARD RENDER
+   SEND 2026 DATA TO HISTORY DASHBOARD
    ========================================================= */
 
-function render(d) {
+function send2026ToHistory(d) {
 
-  $('syncText').textContent =
-    'LIVE • UPDATED ' +
-    new Date(d.updated_at).toLocaleTimeString(
-      'en-PH',
-      { hour12: false }
-    );
+  const monthly =
+    Array.isArray(d.monthly)
+      ? d.monthly
+      : [];
 
-  $('refreshSec').textContent =
-    (REFRESH_MS / 1000) + 's';
 
+  /* -------------------------------------------------------
+     Build live 2026 monthly dataset
+     ------------------------------------------------------- */
 
-  /* =======================================================
-     BERTHS
-     ======================================================= */
+  const live2026Monthly =
+    monthly.map(x => ({
 
-  const rows = d.berths || [];
-
-  $('berthGrid').innerHTML = rows.map(x => {
-
-    let p = Math.max(
-      0,
-      Math.min(100, (x.progress || 0) * 100)
-    );
-
-    let vacant =
-      String(x.vessel || '').toUpperCase() === 'VACANT';
-
-    let remarkAlert =
-      isStoppageRemark(x.remarks)
-        ? 'stoppage-alert'
-        : '';
-
-    return `
-      <div class="berth-row ${vacant ? 'vacant' : ''}">
-
-        <span><b>${x.berth}</b></span>
-
-        <span class="vessel">
-          ${x.vessel || '—'}
-        </span>
-
-        <span>
-          ${x.voyage || '-'}
-        </span>
-
-        <span>
-          ${num(x.booking)}
-        </span>
-
-        <span>
-          ${num(x.dispatch)}
-        </span>
-
-        <span>
-          ${num(x.loaded)}
-        </span>
-
-        <span>
-          ${num(x.balance)}
-        </span>
-
-        <span>
-          <div class="progress-wrap">
-            <div class="bar">
-              <i style="width:${p}%"></i>
-            </div>
-            ${p > 0 ? p.toFixed(0) + '%' : ''}
-          </div>
-        </span>
-
-        <span>
-          ${num(x.stockpile)}
-        </span>
-
-        <span>
-          ${x.time || '-'}
-        </span>
-
-        <span class="remark ${remarkAlert}">
-          ${x.remarks || '-'}
-        </span>
-
-        <span>
-          ${x.equipment || '0'}
-        </span>
-
-        <span class="activity">
-          ${formatActivityTime(x.activity_time)}
-        </span>
-
-      </div>
-    `;
-
-  }).join('');
-
-
-  /* =======================================================
-     TOTALS
-     ======================================================= */
-
-  const t = d.total || {};
-
-  $('totalBooking').textContent =
-    num(t.booking);
-
-  $('totalDispatch').textContent =
-    num(t.dispatch);
-
-  $('totalLoaded').textContent =
-    num(t.loaded);
-
-  $('totalBalance').textContent =
-    num(t.balance);
-
-  $('totalProgress').textContent =
-    ((t.progress || 0) * 100).toFixed(0) + '%';
-
-  $('totalStockpile').textContent =
-    num(t.stockpile);
-
-
-  /* =======================================================
-     ALPHA BERTHS
-     ======================================================= */
-
-  $('alphaRows').innerHTML =
-    (d.alpha || []).map(x => {
-
-      let pVal =
-        parseFloat(
-          String(x.progress).replace('%', '')
-        ) || 0;
-
-      let remarkAlert =
-        isStoppageRemark(x.remarks)
-          ? 'stoppage-alert'
-          : '';
-
-      return `
-        <div class="alpha-row">
-
-          <span>
-            <b>${x.berth}</b>
-          </span>
-
-          <span class="vessel">
-            ${x.vessel}
-          </span>
-
-          <span>
-            ${x.materials || '-'}
-          </span>
-
-          <span>
-            ${x.discharge || '0%'}
-          </span>
-
-          <span>
-            ${x.balance || '0%'}
-          </span>
-
-          <span>
-            <div class="progress-wrap">
-              <div class="bar">
-                <i style="width:${pVal}%"></i>
-              </div>
-              ${x.progress}
-            </div>
-          </span>
-
-          <span>
-            ${x.time || '0:00'}
-          </span>
-
-          <span class="remark ${remarkAlert}">
-            ${x.remarks || '-'}
-          </span>
-
-          <span>
-            ${x.equip || '0'}
-          </span>
-
-          <span class="activity">
-            ${formatActivityTime(x.activity_time)}
-          </span>
-
-        </div>
-      `;
-
-    }).join('');
-
-
-  /* =======================================================
-     FOREIGN BERTH
-     ======================================================= */
-
-  const f = d.foreign || {};
-
-  let fPVal =
-    parseFloat(
-      String(f.progress || '0').replace('%', '')
-    ) || 0;
-
-  let fRemarkAlert =
-    isStoppageRemark(f.remarks)
-      ? 'stoppage-alert'
-      : '';
-
-  $('foreignRow').innerHTML = `
-
-    <span>
-      <b>${f.berth}</b>
-    </span>
-
-    <span class="vessel">
-      ${f.vessel}
-    </span>
-
-    <span>
-      ${f.materials || '-'}
-    </span>
-
-    <span>
-      ${f.discharge || '-'}
-    </span>
-
-    <span>
-      ${f.balance || '-'}
-    </span>
-
-    <span>
-      <div class="progress-wrap">
-        <div class="bar">
-          <i style="width:${fPVal}%"></i>
-        </div>
-        ${f.progress || '-'}
-      </div>
-    </span>
-
-    <span>
-      ${f.time || '-'}
-    </span>
-
-    <span class="remark ${fRemarkAlert}">
-      ${f.remarks || '-'}
-    </span>
-
-    <span>
-      ${f.equip || '0'}
-    </span>
-
-    <span class="activity">
-      ${formatActivityTime(f.activity_time)}
-    </span>
-
-  `;
-
-
-  /* =======================================================
-     TRUCKING
-     ======================================================= */
-
-  const truckData =
-    d.trucking || [];
-
-  const truckTotal =
-    truckData.reduce(
-      (acc, curr) => ({
-
-        august:
-          acc.august +
-          (typeof curr.august === 'number'
-            ? curr.august
-            : 0),
-
-        september:
-          acc.september +
-          (typeof curr.september === 'number'
-            ? curr.september
-            : 0),
-
-        daily:
-          acc.daily +
-          (typeof curr.daily === 'number'
-            ? curr.daily
-            : 0)
-
-      }),
-      {
-        august: 0,
-        september: 0,
-        daily: 0
-      }
-    );
-
-
-  $('trucking').innerHTML =
-
-    truckData.map(x => `
-      <div class="tr">
-
-        <b>
-          ${x.hauler}
-        </b>
-
-        <span>
-          ${num(x.august)}
-        </span>
-
-        <span>
-          ${num(x.september)}
-        </span>
-
-        <span>
-          ${num(x.daily)}
-        </span>
-
-      </div>
-    `).join('')
-
-    +
-
-    `
-      <div class="tr total-row">
-
-        <b>Total</b>
-
-        <span>
-          <b>
-            ${num(truckTotal.august)}
-          </b>
-        </span>
-
-        <span>
-          <b>
-            ${num(truckTotal.september)}
-          </b>
-        </span>
-
-        <span>
-          <b>
-            ${num(truckTotal.daily)}
-          </b>
-        </span>
-
-      </div>
-    `;
-
-
-  /* =======================================================
-     MONTHLY CEMENT LOADING
-     ======================================================= */
-
-  const m =
-    d.monthly || [];
-
-  const mt =
-    d.monthly_total || {};
-
-
-  $('monthly').innerHTML =
-
-    m.map(x => `
-
-      <div>
-        ${x.month}
-      </div>
-
-      <div>
-        ${num(x.y2025)}
-      </div>
-
-      <div>
-        ${num(x.y2026)}
-      </div>
-
-    `).join('')
-
-    +
-
-    `
-      <div class="mh">
-        Total
-      </div>
-
-      <div style="font-weight:bold;background:#1a1a1a">
-        ${num(mt.y2025)}
-      </div>
-
-      <div style="font-weight:bold;background:#1a1a1a">
-        ${num(mt.y2026)}
-      </div>
-    `;
-
-
-  /* =========================================================
-     IMPORTANT:
-     SEND 2026 DATA TO DASHBOARD 2
-     
-     2020-2025 STAY FIXED IN DASHBOARD 2.
-     ONLY 2026 IS UPDATED FROM DASHBOARD 1.
-     ========================================================= */
-
-  window.CEMENT_2026_MONTHLY =
-    (d.monthly || []).map(x => ({
-
-      month: x.month,
+      month:
+        x.month,
 
       value:
-        Number(x.y2026) || 0
+        parseLiveNumber(x.y2026)
 
     }));
 
 
-  /* ---------------------------------------------------------
-     Get official 2026 total from Dashboard 1
-     --------------------------------------------------------- */
+  /* -------------------------------------------------------
+     Expose monthly 2026 data globally
+     ------------------------------------------------------- */
 
-  let live2026Total =
-    Number(mt.y2026);
+  window.CEMENT_2026_MONTHLY =
+    live2026Monthly;
 
 
-  /* ---------------------------------------------------------
-     If monthly_total.y2026 is unavailable,
-     calculate 2026 total from monthly data.
-     --------------------------------------------------------- */
+  /* -------------------------------------------------------
+     Calculate 2026 total directly from monthly data
+     
+     This is the important part.
+     
+     It does NOT depend only on monthly_total.y2026.
+     ------------------------------------------------------- */
 
-  if (!Number.isFinite(live2026Total)) {
+  const calculated2026Total =
+    live2026Monthly.reduce(
+      (sum, item) =>
+        sum + item.value,
+      0
+    );
+
+
+  /* -------------------------------------------------------
+     Also read monthly_total.y2026 if available
+     ------------------------------------------------------- */
+
+  const supplied2026Total =
+    parseLiveNumber(
+      d.monthly_total &&
+      d.monthly_total.y2026
+    );
+
+
+  /* -------------------------------------------------------
+     Select the live 2026 total
+     
+     Prefer the official monthly_total when it is
+     greater than zero.
+     
+     Otherwise calculate it from the monthly rows.
+     ------------------------------------------------------- */
+
+  let live2026Total;
+
+  if (supplied2026Total > 0) {
 
     live2026Total =
-      window.CEMENT_2026_MONTHLY.reduce(
-        (sum, item) =>
-          sum + item.value,
-        0
-      );
+      supplied2026Total;
+
+  } else {
+
+    live2026Total =
+      calculated2026Total;
 
   }
 
 
-  /* ---------------------------------------------------------
-     Make the live 2026 total available to Dashboard 2
-     --------------------------------------------------------- */
+  /* -------------------------------------------------------
+     Make 2026 available to Dashboard 2
+     ------------------------------------------------------- */
 
-  if (Number.isFinite(live2026Total)) {
-
-    window.CEMENT_2026_TOTAL =
-      live2026Total;
-
-  }
+  window.CEMENT_2026_TOTAL =
+    live2026Total;
 
 
-  /* ---------------------------------------------------------
-     Tell Dashboard 2 to refresh immediately
-     --------------------------------------------------------- */
+  /* -------------------------------------------------------
+     Additional aliases for compatibility
+     ------------------------------------------------------- */
+
+  window.cement2026Total =
+    live2026Total;
+
+  window.historical2026Total =
+    live2026Total;
+
+
+  /* -------------------------------------------------------
+     Debug information
+     
+     Open F12 → Console to see these.
+     ------------------------------------------------------- */
+
+  console.log(
+    '[CEMENT] 2026 MONTHLY:',
+    window.CEMENT_2026_MONTHLY
+  );
+
+  console.log(
+    '[CEMENT] 2026 TOTAL:',
+    window.CEMENT_2026_TOTAL
+  );
+
+
+  /* -------------------------------------------------------
+     Notify Dashboard 2 immediately
+     ------------------------------------------------------- */
 
   if (
     typeof window.updateHistoryFromDashboard ===
@@ -509,213 +259,36 @@ function render(d) {
   }
 
 
-  /* =======================================================
-     DAILY PRODUCTION
-     ======================================================= */
-
-  const prodData =
-    d.daily_production || [];
-
-  const prodTotal =
-    prodData.reduce(
-      (sum, curr) =>
-        sum +
-        (
-          typeof curr.qty === 'number'
-            ? curr.qty
-            : 0
-        ),
-      0
-    );
-
-
-  $('dailyProduction').innerHTML =
-
-    prodData.map(x => `
-
-      <div class="prod-row">
-
-        <span>
-          ${x.shift}
-        </span>
-
-        <b>
-          ${num(x.qty)}
-        </b>
-
-      </div>
-
-    `).join('')
-
-    +
-
-    `
-      <div class="prod-row total-row">
-
-        <span>
-          Total
-        </span>
-
-        <b>
-          ${num(prodTotal)}
-        </b>
-
-      </div>
-    `;
-
-
-  /* =======================================================
-     TRUCKING STOCKPILE
-     ======================================================= */
-
-  const stockData =
-    d.trucking_stockpile || [];
-
-  const stockTotal =
-    stockData.reduce(
-      (sum, curr) =>
-        sum +
-        (
-          typeof curr.volume === 'number'
-            ? curr.volume
-            : 0
-        ),
-      0
-    );
-
-
-  $('truckingStockpile').innerHTML =
-
-    stockData.map(x => `
-
-      <div class="prod-row">
-
-        <span>
-          ${x.client}
-        </span>
-
-        <b>
-          ${num(x.volume)}
-        </b>
-
-      </div>
-
-    `).join('')
-
-    +
-
-    `
-      <div class="prod-row total-row">
-
-        <span>
-          Total
-        </span>
-
-        <b>
-          ${num(stockTotal)}
-        </b>
-
-      </div>
-    `;
-
-
-  /* =======================================================
-     STATUS & PERSONNEL
-     ======================================================= */
-
-  const s =
-    d.status || {};
-
-  $('supervisor').textContent =
-    s.supervisor || '--';
-
-  $('checker').textContent =
-    s.checker || '--';
-
-  $('pmc').textContent =
-    s.pmc || '--';
-
-  $('cranes').textContent =
-    s.cranes ?? '--';
-
-  $('forklifts').textContent =
-    s.forklifts ?? '--';
-
-  $('stevedores').textContent =
-    s.stevedores ?? '--';
-
-
-  /* =======================================================
-     ALERT TICKER
-     ======================================================= */
-
-  const alerts =
-    rows
-      .filter(
-        x =>
-          x.remarks &&
-          x.remarks !== '-' &&
-          x.vessel !== 'VACANT'
-      )
-      .map(
-        x =>
-          `${x.berth}: ${x.vessel} — ${x.remarks}`
-      );
-
-
-  $('tickerText').textContent =
-    alerts.length
-      ? alerts.join('    •    ')
-      : 'ALL PORT OPERATIONS NORMAL';
-
-}
-
-
-/* =========================================================
-   LOAD LIVE DATA
-   ========================================================= */
-
-async function load() {
+  /* -------------------------------------------------------
+     Also send a browser event.
+     
+     This allows Dashboard 2 to listen for updates
+     even if its history script was initialized separately.
+     ------------------------------------------------------- */
 
   try {
 
-    const r =
-      await fetch(
-        'data.json?t=' + Date.now(),
+    window.dispatchEvent(
+      new CustomEvent(
+        'cement2026Updated',
         {
-          cache: 'no-store'
+          detail: {
+            total:
+              live2026Total,
+
+            monthly:
+              live2026Monthly
+          }
         }
-      );
-
-
-    if (!r.ok)
-      throw new Error(r.status);
-
-
-    const d =
-      await r.json();
-
-
-    const h =
-      JSON.stringify(d);
-
-
-    /* -----------------------------------------------------
-       Only render when data actually changed
-       ----------------------------------------------------- */
-
-    if (h !== lastHash) {
-
-      lastHash = h;
-
-      render(d);
-
-    }
+      )
+    );
 
   } catch (e) {
 
-    $('syncText').textContent =
-      'ONLINE / WAITING FOR DATA';
+    console.warn(
+      'Unable to dispatch cement2026Updated event:',
+      e
+    );
 
   }
 
@@ -723,53 +296,78 @@ async function load() {
 
 
 /* =========================================================
-   CLOCK
+   MAIN DASHBOARD RENDER
    ========================================================= */
 
-function clock() {
-
-  const n =
-    new Date();
+function render(d) {
 
 
-  $('phDate').textContent =
-    n.toLocaleDateString(
-      'en-PH',
-      {
-        weekday: 'short',
-        year: 'numeric',
-        month: 'short',
-        day: '2-digit'
-      }
-    );
+  /* =======================================================
+     SYNC STATUS
+     ======================================================= */
 
-
-  $('phTime').textContent =
-    n.toLocaleTimeString(
+  $('syncText').textContent =
+    'LIVE • UPDATED ' +
+    new Date(
+      d.updated_at
+    ).toLocaleTimeString(
       'en-PH',
       {
         hour12: false
       }
     );
 
-}
+
+  $('refreshSec').textContent =
+    (REFRESH_MS / 1000) + 's';
 
 
-/* =========================================================
-   START DASHBOARD
-   ========================================================= */
+  /* =======================================================
+     BERTHS
+     ======================================================= */
 
-clock();
-
-setInterval(
-  clock,
-  1000
-);
+  const rows =
+    d.berths || [];
 
 
-load();
+  $('berthGrid').innerHTML =
+    rows.map(x => {
 
-setInterval(
-  load,
-  REFRESH_MS
-);
+      let p =
+        Math.max(
+          0,
+          Math.min(
+            100,
+            (x.progress || 0) * 100
+          )
+        );
+
+
+      let vacant =
+        String(
+          x.vessel || ''
+        ).toUpperCase() === 'VACANT';
+
+
+      let remarkAlert =
+        isStoppageRemark(
+          x.remarks
+        )
+          ? 'stoppage-alert'
+          : '';
+
+
+      return `
+        <div class="berth-row ${vacant ? 'vacant' : ''}">
+
+          <span>
+            <b>${x.berth}</b>
+          </span>
+
+          <span class="vessel">
+            ${x.vessel || '—'}
+          </span>
+
+          <span>
+            ${x.voyage || '-'}
+          </
