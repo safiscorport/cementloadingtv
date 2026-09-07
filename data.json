@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T09:10:54+08:00",
+  "updated_at": "2026-09-07T09:12:57+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -12,9 +12,9 @@
       "progress": 0.5235294117647059,
       "stockpile": 0,
       "time": "22:16",
-      "remarks": "WAITING MATERIAL",
+      "remarks": "BARGE JB  5",
       "equipment": "0",
-      "activity_time": "10:54"
+      "activity_time": "10:56"
     },
     {
       "berth": "Berth 2",
@@ -27,9 +27,9 @@
       "progress": 0.5846153846153846,
       "stockpile": 0,
       "time": "21:59",
-      "remarks": "WAITING MATERIAL",
+      "remarks": "JOHANNAH 7",
       "equipment": "0",
-      "activity_time": "11:11"
+      "activity_time": "11:13"
     },
     {
       "berth": "Berth 3",
@@ -57,9 +57,9 @@
       "progress": 0.3111111111111111,
       "stockpile": 0,
       "time": "23:42",
-      "remarks": "WAITING MATERIAL",
+      "remarks": "INFINITY 8",
       "equipment": "0",
-      "activity_time": "09:28"
+      "activity_time": "09:30"
     },
     {
       "berth": "Berth 5",
@@ -72,7 +72,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "LADY OF COURAGE",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -87,9 +87,9 @@
       "progress": 0,
       "stockpile": 0,
       "time": "16:12",
-      "remarks": "DOCKED & SECURED",
+      "remarks": "STAR SOGOD",
       "equipment": "0",
-      "activity_time": "16:58"
+      "activity_time": "17:00"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0.5555555555555556,
       "stockpile": 0,
       "time": "00:25",
-      "remarks": "WAITING MATERIAL",
+      "remarks": "STAR DINAGAT",
       "equipment": "FL 2",
-      "activity_time": "08:45"
+      "activity_time": "08:47"
     },
     {
       "berth": "Berth 8",
@@ -117,7 +117,7 @@
       "progress": 0.6764705882352942,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "LADY ARMOR",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -132,9 +132,9 @@
       "progress": 0.5666666666666667,
       "stockpile": 0,
       "time": "21:34",
-      "remarks": "WAITING MATERIAL",
+      "remarks": "LADY OF WISDOM",
       "equipment": "0",
-      "activity_time": "11:36"
+      "activity_time": "11:38"
     },
     {
       "berth": "Berth 10",
@@ -186,7 +186,7 @@
       "time": "22:10",
       "remarks": "COMMENCE DISCHARGE",
       "equip": "8  GEO DT",
-      "activity_time": "11:00"
+      "activity_time": "11:02"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:10"
+      "activity_time": "09:12"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "22:10",
       "remarks": "CONTINUE DISCHARGING",
       "equip": "FEED TO JBS HOOPER",
-      "activity_time": "11:00"
+      "activity_time": "11:02"
     }
   ],
   "foreign": {
@@ -377,8 +377,8 @@
   ],
   "status": {
     "supervisor": "PELIMER, JOVIC",
-    "checker": "OBIAL,R / DALUSA,E",
-    "pmc": "JOAN / WILLIAM",
+    "checker": "OBIAL, R/ TORRES, J",
+    "pmc": "VICKY / EBOY",
     "cranes": 3,
     "forklifts": 6,
     "stevedores": 41
