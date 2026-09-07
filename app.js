@@ -123,7 +123,7 @@ function render(d) {
     `).join('') + `<div class="tr total-row"><b>Total</b><span><b>${num(truckTotal.august)}</b></span><span><b>${num(truckTotal.september)}</b></span><span><b>${num(truckTotal.daily)}</b></span></div>`;
   }
 
-  // Monthly Table & 2026 Dynamic Update Feed
+  // Monthly Table & History Bridge
   const m = d.monthly || [];
   const mt = d.monthly_total || {};
   
@@ -198,4 +198,3 @@ clock();
 setInterval(clock, 1000);
 load();
 setInterval(load, REFRESH_MS);
-```[cite: 1]
