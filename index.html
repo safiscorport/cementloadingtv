@@ -794,6 +794,12 @@ function manualSwitchDashboard(target){
   } else {
     showHistoryScreen();
   }
+
+  clearTimeout(window.resumeAutoTimer);
+  window.resumeAutoTimer = setTimeout(() => {
+    manualOverride = false;
+    startRotation();
+  }, 3 * 60 * 1000);
 }
 
 let rotationTimer=null, historyTimer=null;
