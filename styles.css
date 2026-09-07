@@ -1,6 +1,7 @@
 /* =========================================================
    SAFISCOR CEMENT LOADING DASHBOARD
-   FULL SCREEN / TV OPTIMIZED CSS
+   FULL SCREEN TV CSS
+   Optimized for 1920 x 1080
    ========================================================= */
 
 /* =========================================================
@@ -33,6 +34,7 @@ body {
 .app {
     width: 100vw;
     height: 100vh;
+
     min-width: 0;
     min-height: 0;
 
@@ -48,9 +50,55 @@ body {
 
 .header {
     flex: 0 0 auto;
+
     width: 100%;
     min-width: 0;
+
+    height: 48px;
+    min-height: 48px;
+    max-height: 48px;
+
+    padding: 2px 8px;
+
     overflow: hidden;
+}
+
+/* =========================================================
+   HEADER TEXT
+   ========================================================= */
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.header h2,
+.header h3 {
+    margin: 0;
+    padding: 0;
+
+    font-size: 10px;
+    line-height: 11px;
+}
+
+.header * {
+    line-height: 1.1;
+}
+
+/* =========================================================
+   HEADER LOGO
+   ========================================================= */
+
+.header img {
+    max-height: 40px;
+    width: auto;
+}
+
+.header .logo {
+    max-height: 40px;
 }
 
 /* =========================================================
@@ -58,7 +106,7 @@ body {
    ========================================================= */
 
 .main-content {
-    flex: 1 1 auto;
+    flex: 1 1 0;
 
     width: 100%;
     max-width: 100%;
@@ -68,7 +116,7 @@ body {
     min-height: 0;
     max-height: none;
 
-    padding: 5px 8px;
+    padding: 3px 8px;
 
     display: flex;
     flex-direction: column;
@@ -96,6 +144,8 @@ body {
 .dashboard-page.active {
     display: flex;
     flex-direction: column;
+
+    min-height: 0;
 }
 
 .dashboard-page:not(.active) {
@@ -149,8 +199,9 @@ body {
 
 .page-indicator {
     position: fixed;
+
     right: 10px;
-    bottom: 48px;
+    bottom: 45px;
 
     z-index: 1000;
 
@@ -243,8 +294,8 @@ body {
 .table-header-bar {
     flex: 0 0 auto;
 
-    min-height: 30px;
     height: 32px;
+    min-height: 0;
 
     overflow: hidden;
 }
@@ -256,8 +307,8 @@ body {
 .berth-row {
     flex: 0 0 auto;
 
-    min-height: 30px;
     height: 34px;
+    min-height: 0;
 
     overflow: hidden;
 }
@@ -269,8 +320,8 @@ body {
 .table-footer-bar {
     flex: 0 0 auto;
 
-    min-height: 30px;
     height: 32px;
+    min-height: 0;
 
     overflow: hidden;
 }
@@ -293,7 +344,7 @@ body {
 }
 
 /* =========================================================
-   ALPHA / BERTH A / BERTH F TABLE
+   ALPHA / BERTH A / BERTH F
    ========================================================= */
 
 .alpha-header-bar,
@@ -342,8 +393,8 @@ body {
 .alpha-header-bar {
     flex: 0 0 auto;
 
-    min-height: 28px;
     height: 30px;
+    min-height: 0;
 
     overflow: hidden;
 }
@@ -355,8 +406,8 @@ body {
 .alpha-row {
     flex: 0 0 auto;
 
-    min-height: 28px;
     height: 31px;
+    min-height: 0;
 
     overflow: hidden;
 }
@@ -390,7 +441,7 @@ body {
 }
 
 /* =========================================================
-   TEXT
+   TEXT / CELLS
    ========================================================= */
 
 th,
@@ -399,6 +450,7 @@ td,
 .table-cell,
 .alpha-cell {
     min-width: 0;
+
     overflow: hidden;
 
     white-space: nowrap;
@@ -406,7 +458,7 @@ td,
 }
 
 /* =========================================================
-   PROGRESS BAR
+   PROGRESS
    ========================================================= */
 
 .progress {
@@ -419,6 +471,7 @@ td,
 
 .progress-bar {
     max-width: 100%;
+
     overflow: hidden;
 }
 
@@ -431,7 +484,7 @@ td,
     max-width: 100%;
     min-width: 0;
 
-    flex: 1 1 auto;
+    flex: 1 1 0;
 
     height: auto;
     min-height: 0;
@@ -454,9 +507,8 @@ td,
 
 .analytics-card {
     width: 100%;
-    min-width: 0;
     max-width: 100%;
-
+    min-width: 0;
     min-height: 0;
 
     overflow: hidden;
@@ -469,8 +521,11 @@ td,
 canvas,
 .chart,
 .chart-container {
+    width: 100%;
     max-width: 100%;
     min-width: 0;
+
+    overflow: hidden;
 }
 
 /* =========================================================
@@ -478,14 +533,15 @@ canvas,
    ========================================================= */
 
 .footer {
-    flex: 0 0 auto;
+    flex: 0 0 42px;
 
     width: 100%;
     max-width: 100%;
     min-width: 0;
 
-    min-height: 38px;
     height: 42px;
+    min-height: 42px;
+    max-height: 42px;
 
     overflow: hidden;
 }
@@ -515,7 +571,7 @@ canvas,
 }
 
 /* =========================================================
-   LIVE / STATUS
+   LIVE DOT
    ========================================================= */
 
 .live-dot {
@@ -536,83 +592,171 @@ img {
 
 @media (min-width: 1800px) and (min-height: 1000px) {
 
-    /* HEADER */
+    /* -----------------------------------------------------
+       SMALL HEADER
+       ----------------------------------------------------- */
 
     .header {
-        height: 70px;
+        height: 48px !important;
+        min-height: 48px !important;
+        max-height: 48px !important;
+
+        padding: 2px 8px !important;
     }
 
-    /* MAIN */
+    .header h1 {
+        font-size: 22px !important;
+        line-height: 24px !important;
+        margin: 0 !important;
+    }
+
+    .header h2,
+    .header h3 {
+        font-size: 10px !important;
+        line-height: 11px !important;
+        margin: 0 !important;
+    }
+
+    .header img {
+        max-height: 40px !important;
+        width: auto !important;
+    }
+
+    .header .logo {
+        max-height: 40px !important;
+    }
+
+    /* -----------------------------------------------------
+       MAIN CONTENT
+       ----------------------------------------------------- */
 
     .main-content {
-        padding: 4px 8px;
-        gap: 4px;
+        flex: 1 1 0;
+
+        min-height: 0;
+        max-height: 100%;
+
+        padding: 3px 8px !important;
+
+        gap: 3px !important;
+
+        overflow: hidden;
     }
 
-    /* MAIN TABLE */
+    /* -----------------------------------------------------
+       MAIN TABLE
+       ----------------------------------------------------- */
 
     .table-header-bar,
     .berth-row,
     .table-footer-bar {
-        height: 34px;
+        height: 32px;
         min-height: 0;
 
         font-size: 13px;
     }
 
-    /* ALPHA / FOREIGN */
-
-    .alpha-header-bar,
-    .alpha-row {
-        height: 31px;
-        min-height: 0;
-
-        font-size: 13px;
+    .berth-row {
+        height: 33px;
     }
 
-    /* FOOTER */
-
-    .footer {
-        height: 42px;
-        min-height: 0;
-    }
-}
-
-/* =========================================================
-   1600 - 1799 WIDTH
-   ========================================================= */
-
-@media (min-width: 1500px) and (max-width: 1799px) {
-
-    .header {
-        height: 65px;
-    }
-
-    .main-content {
-        padding: 4px 7px;
-        gap: 4px;
-    }
-
-    .table-header-bar,
-    .berth-row,
-    .table-footer-bar {
-        height: 31px;
-        min-height: 0;
-
-        font-size: 12px;
-    }
+    /* -----------------------------------------------------
+       BERTH A / F
+       ----------------------------------------------------- */
 
     .alpha-header-bar,
     .alpha-row {
         height: 29px;
         min-height: 0;
 
+        font-size: 13px;
+    }
+
+    .alpha-row {
+        height: 30px;
+    }
+
+    /* -----------------------------------------------------
+       ANALYTICS
+       ----------------------------------------------------- */
+
+    .analytics-grid {
+        min-height: 0;
+
+        gap: 4px;
+    }
+
+    /* -----------------------------------------------------
+       FOOTER
+       ----------------------------------------------------- */
+
+    .footer {
+        flex: 0 0 40px;
+
+        height: 40px;
+        min-height: 40px;
+        max-height: 40px;
+    }
+}
+
+/* =========================================================
+   1600 - 1799
+   ========================================================= */
+
+@media (min-width: 1500px) and (max-width: 1799px) {
+
+    .header {
+        height: 45px;
+        min-height: 45px;
+        max-height: 45px;
+
+        padding: 2px 7px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+        line-height: 21px;
+    }
+
+    .header h2,
+    .header h3 {
+        font-size: 9px;
+        line-height: 10px;
+    }
+
+    .header img,
+    .header .logo {
+        max-height: 38px;
+    }
+
+    .main-content {
+        padding: 3px 7px;
+        gap: 3px;
+    }
+
+    .table-header-bar,
+    .berth-row,
+    .table-footer-bar {
+        height: 30px;
+        min-height: 0;
+
+        font-size: 12px;
+    }
+
+    .alpha-header-bar,
+    .alpha-row {
+        height: 28px;
+        min-height: 0;
+
         font-size: 12px;
     }
 
     .footer {
-        height: 40px;
-        min-height: 0;
+        flex: 0 0 38px;
+
+        height: 38px;
+        min-height: 38px;
+        max-height: 38px;
     }
 }
 
@@ -623,56 +767,107 @@ img {
 @media (min-width: 1200px) and (max-width: 1499px) {
 
     .header {
-        height: 60px;
+        height: 42px;
+        min-height: 42px;
+        max-height: 42px;
+
+        padding: 2px 6px;
+    }
+
+    .header h1 {
+        font-size: 18px;
+        line-height: 19px;
+    }
+
+    .header h2,
+    .header h3 {
+        font-size: 8px;
+        line-height: 9px;
+    }
+
+    .header img,
+    .header .logo {
+        max-height: 34px;
     }
 
     .main-content {
-        padding: 3px 6px;
-        gap: 3px;
+        padding: 2px 6px;
+        gap: 2px;
     }
 
     .table-header-bar,
     .berth-row,
     .table-footer-bar {
-        height: 27px;
+        height: 26px;
         min-height: 0;
 
         font-size: 10px;
+    }
+
+    .berth-row {
+        height: 27px;
     }
 
     .alpha-header-bar,
     .alpha-row {
-        height: 25px;
+        height: 24px;
         min-height: 0;
 
         font-size: 10px;
     }
 
+    .alpha-row {
+        height: 25px;
+    }
+
     .footer {
-        height: 36px;
-        min-height: 0;
+        flex: 0 0 34px;
+
+        height: 34px;
+        min-height: 34px;
+        max-height: 34px;
     }
 }
 
 /* =========================================================
-   SMALLER SCREEN
+   BELOW 1200
    ========================================================= */
 
 @media (max-width: 1199px) {
 
     .header {
-        height: 55px;
+        height: 40px;
+        min-height: 40px;
+        max-height: 40px;
+
+        padding: 2px 5px;
+    }
+
+    .header h1 {
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+    .header h2,
+    .header h3 {
+        font-size: 7px;
+        line-height: 8px;
+    }
+
+    .header img,
+    .header .logo {
+        max-height: 32px;
     }
 
     .main-content {
-        padding: 3px 5px;
-        gap: 3px;
+        padding: 2px 5px;
+        gap: 2px;
     }
 
     .table-header-bar,
     .berth-row,
     .table-footer-bar {
-        height: 25px;
+        height: 24px;
         min-height: 0;
 
         font-size: 9px;
@@ -680,32 +875,36 @@ img {
 
     .alpha-header-bar,
     .alpha-row {
-        height: 23px;
+        height: 22px;
         min-height: 0;
 
         font-size: 9px;
     }
 
     .footer {
-        height: 34px;
-        min-height: 0;
+        flex: 0 0 32px;
+
+        height: 32px;
+        min-height: 32px;
+        max-height: 32px;
     }
 }
 
 /* =========================================================
-   PREVENT FLEX CHILDREN FROM EXPANDING PAGE
+   PREVENT FLEX CHILDREN FROM EXPANDING
    ========================================================= */
 
 .main-content > *,
 .dashboard-page > *,
 .dashboard-page .main-content > * {
-    min-height: 0;
     min-width: 0;
+    min-height: 0;
+
     max-width: 100%;
 }
 
 /* =========================================================
-   REMOVE DEFAULT MARGINS THAT CAN PUSH BOTTOM DOWN
+   REMOVE DEFAULT MARGINS
    ========================================================= */
 
 h1,
@@ -720,7 +919,7 @@ p {
 }
 
 /* =========================================================
-   BOX SIZING FOR ALL COMPONENTS
+   BOX SIZING
    ========================================================= */
 
 .header,
@@ -749,7 +948,7 @@ p {
 }
 
 /* =========================================================
-   FINAL TV SAFETY
+   FINAL 1920 x 1080 SAFETY
    ========================================================= */
 
 @media (min-width: 1800px) and (min-height: 1000px) {
@@ -766,16 +965,31 @@ p {
         overflow: hidden;
     }
 
+    .header {
+        flex: 0 0 48px;
+
+        height: 48px;
+        min-height: 48px;
+        max-height: 48px;
+    }
+
     .main-content {
         flex: 1 1 0;
+
+        min-width: 0;
         min-height: 0;
-        max-height: 100%;
+
+        max-width: 100vw;
+        max-height: calc(100vh - 88px);
+
         overflow: hidden;
     }
 
     .footer {
-        flex: 0 0 42px;
-        height: 42px;
-        max-height: 42px;
+        flex: 0 0 40px;
+
+        height: 40px;
+        min-height: 40px;
+        max-height: 40px;
     }
 }
