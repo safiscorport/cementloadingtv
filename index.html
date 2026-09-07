@@ -15,172 +15,103 @@
 <style>
 
 /* =========================================================
-   SAFISCOR DASHBOARD PAGE TRANSITION
+   SAFISCOR DASHBOARD - SINGLE SCREEN OPTIMIZATION (43" TV)
    ========================================================= */
 
-/*
-   The dashboard has 2 pages:
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Lock to 1 screen */
+    font-size: 14px;
+}
 
-   PAGE 1
-   Berth 1-10
-   Berth A
-   Berth F
-   = 5 MINUTES
-
-   PAGE 2
-   Trucking
-   Vessel Cement Loading
-   Daily Production
-   Stockpile
-   = 2 MINUTES
-*/
-
-
-/* Main area */
-
-.main-content {
-    position: relative;
+.app {
+    height: 100vh;
+    display: flex;
+    flexDirection: column;
     overflow: hidden;
 }
 
+/* Main area layout for single screen */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    padding: 4px 8px;
+    gap: 8px;
+}
 
-/* Both pages */
-
+/* Force both sections/pages to display simultaneously in a split layout */
 .dashboard-page {
+    display: flex !important;
+    flex-direction: column;
+    position: relative !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    transition: none !important;
     width: 100%;
     box-sizing: border-box;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    opacity: 0;
-    visibility: hidden;
-
-    transform: translateX(35px);
-
-    transition:
-        opacity 0.8s ease,
-        transform 0.8s ease,
-        visibility 0.8s ease;
 }
-
-
-/* Active page */
-
-.dashboard-page.active {
-    position: relative;
-
-    opacity: 1;
-    visibility: visible;
-
-    transform: translateX(0);
-}
-
-
-/* Page leaving */
-
-.dashboard-page.leaving {
-    opacity: 0;
-    visibility: hidden;
-
-    transform: translateX(-35px);
-}
-
-
-/* =========================================================
-   PAGE INDICATOR
-   ========================================================= */
-
-.page-indicator {
-
-    position: fixed;
-
-    right: 10px;
-    bottom: 52px;
-
-    display: flex;
-
-    gap: 6px;
-
-    z-index: 9999;
-
-    pointer-events: none;
-}
-
-
-.page-indicator-dot {
-
-    width: 7px;
-    height: 7px;
-
-    border-radius: 50%;
-
-    background: #555;
-
-    opacity: 0.45;
-
-    transition:
-        opacity 0.3s ease,
-        background 0.3s ease,
-        box-shadow 0.3s ease;
-}
-
-
-.page-indicator-dot.active {
-
-    background: #6dcc45;
-
-    opacity: 1;
-
-    box-shadow:
-        0 0 7px rgba(108,204,69,0.9);
-}
-
-
-/* =========================================================
-   PAGE 1
-   ========================================================= */
 
 #berthPage {
-
-    width: 100%;
+    flex: 1.2;
+    overflow: hidden;
 }
-
-
-/* =========================================================
-   PAGE 2
-   ========================================================= */
 
 #analyticsPage {
-
-    width: 100%;
+    flex: 0.8;
+    overflow: hidden;
 }
 
-
-/* =========================================================
-   KEEP PANELS TIGHT
-   ========================================================= */
-
-.dashboard-page > section {
-
-    margin-bottom: 8px;
-
+/* Hide page indicators since it's now a single static screen */
+.page-indicator {
+    display: none !important;
 }
 
-
 /* =========================================================
-   SMALL SCREEN
+   COMPACT TV STYLING (FITS 43" 1080p/4K VIEWPORT)
    ========================================================= */
 
-@media (max-width: 900px) {
+.table-container {
+    margin-bottom: 4px !important;
+}
 
-    .dashboard-page > section {
+.analytics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    height: 100%;
+}
 
-        margin-bottom: 5px;
+.panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6px 8px !important;
+    overflow: hidden;
+}
 
-    }
+.stack-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
 
+/* Tighten table spacing for single-screen view */
+.berth-grid-table, .table-mini, .monthly, .production {
+    font-size: 0.8rem;
+}
+
+header.topbar {
+    padding: 6px 12px;
+}
+
+.footer-bar {
+    padding: 4px 12px;
+    font-size: 0.75rem;
 }
 
 </style>
@@ -218,7 +149,7 @@
         <img src="logo.png"
              alt="Logo"
              style="
-             height:40px;
+             height:32px;
              object-fit:contain;
              ">
 
@@ -243,7 +174,7 @@
 
             <div class="title"
                  style="
-                 font-size:1.2rem;
+                 font-size:1.1rem;
                  font-weight:bold;
                  ">
 
@@ -253,7 +184,7 @@
 
             <div class="subtitle"
                  style="
-                 font-size:0.75rem;
+                 font-size:0.7rem;
                  opacity:0.8;
                  ">
 
@@ -285,18 +216,14 @@
 
 
 <!-- =======================================================
-     MAIN CONTENT
+     MAIN CONTENT (COMBINED SINGLE SCREEN)
      ======================================================= -->
 
 <main class="main-content">
 
 
 <!-- =======================================================
-     PAGE 1
-     
-     BERTH OPERATIONS
-
-     5 MINUTES
+     SECTION 1: BERTH OPERATIONS
      ======================================================= -->
 
 <div id="berthPage"
@@ -399,93 +326,46 @@
 
 
     <!-- ===================================================
-         BERTH A
+         BERTH A & F COMPACT ROW WRAPPER
          =================================================== -->
 
-    <section class="table-container">
+    <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 8px;">
 
+        <!-- BERTH A -->
+        <section class="table-container" style="margin-bottom:0 !important;">
+            <div class="alpha-header-bar">
+                <span>Berth A</span>
+                <span>Vessel</span>
+                <span>MATERIAL</span>
+                <span>DISCHARGE %</span>
+                <span>Balance</span>
+                <span>Progress</span>
+                <span>Time</span>
+                <span>Remarks</span>
+                <span>Deployed Equip.</span>
+                <span>Activity time</span>
+            </div>
+            <div id="alphaRows"></div>
+        </section>
 
-        <div class="sub-section-title">
-            
-        </div>
+        <!-- BERTH F -->
+        <section class="table-container" style="margin-bottom:0 !important;">
+            <div class="alpha-header-bar">
+                <span>Berth F</span>
+                <span>Vessel</span>
+                <span>MATERIAL</span>
+                <span>DISCHARGE %</span>
+                <span>Balance</span>
+                <span>Progress</span>
+                <span>Time</span>
+                <span>Remarks</span>
+                <span>Deployed Equip.</span>
+                <span>Activity time</span>
+            </div>
+            <div id="foreignRow" class="alpha-row"></div>
+        </section>
 
-
-        <div class="alpha-header-bar">
-
-            <span>Berth A</span>
-
-            <span>Vessel</span>
-
-            <span>MATERIAL</span>
-
-            <span>DISCHARGE %</span>
-
-            <span>Balance</span>
-
-            <span>Progress</span>
-
-            <span>Time</span>
-
-            <span>Remarks</span>
-
-            <span>Deployed Equip.</span>
-
-            <span>Activity time</span>
-
-        </div>
-
-
-        <div id="alphaRows">
-        </div>
-
-
-    </section>
-
-
-
-    <!-- ===================================================
-         BERTH F
-         =================================================== -->
-
-    <section class="table-container">
-
-
-        <div class="sub-section-title">
-            
-        </div>
-
-
-        <div class="alpha-header-bar">
-
-            <span>Berth F</span>
-
-            <span>Vessel</span>
-
-            <span>MATERIAL</span>
-
-            <span>DISCHARGE %</span>
-
-            <span>Balance</span>
-
-            <span>Progress</span>
-
-            <span>Time</span>
-
-            <span>Remarks</span>
-
-            <span>Deployed Equip.</span>
-
-            <span>Activity time</span>
-
-        </div>
-
-
-        <div id="foreignRow"
-             class="alpha-row">
-        </div>
-
-
-    </section>
+    </div>
 
 
 </div>
@@ -493,15 +373,11 @@
 
 
 <!-- =======================================================
-     PAGE 2
-     
-     ANALYTICS / PRODUCTION
-
-     2 MINUTES
+     SECTION 2: ANALYTICS / PRODUCTION
      ======================================================= -->
 
 <div id="analyticsPage"
-     class="dashboard-page">
+     class="dashboard-page active">
 
 
     <section class="analytics-grid">
@@ -522,44 +398,10 @@
                  ">
 
 
-                <span style="
-                    flex:1;
-                    text-align:left;
-                    ">
-
-                    Trucking
-
-                </span>
-
-
-                <span style="
-                    flex:1;
-                    text-align:right;
-                    ">
-
-                    August
-
-                </span>
-
-
-                <span style="
-                    flex:1;
-                    text-align:right;
-                    ">
-
-                    September
-
-                </span>
-
-
-                <span style="
-                    flex:1;
-                    text-align:right;
-                    ">
-
-                    Daily
-
-                </span>
+                <span style="flex:1; text-align:left;">Trucking</span>
+                <span style="flex:1; text-align:right;">August</span>
+                <span style="flex:1; text-align:right;">September</span>
+                <span style="flex:1; text-align:right;">Daily</span>
 
 
             </div>
@@ -621,9 +463,9 @@
 
             <!-- DAILY PRODUCTION -->
 
-            <div class="panel">
+            <div class="panel" style="padding: 4px 6px !important;">
 
-                <div class="panel-title">
+                <div class="panel-title" style="margin-bottom: 2px;">
 
                     Cement loading Daily Production
 
@@ -640,9 +482,9 @@
 
             <!-- STOCKPILE -->
 
-            <div class="panel">
+            <div class="panel" style="padding: 4px 6px !important;">
 
-                <div class="panel-title">
+                <div class="panel-title" style="margin-bottom: 2px;">
 
                     TRUCKING (STOCKPILE)
 
@@ -666,24 +508,6 @@
 
 
 </main>
-
-
-
-<!-- =======================================================
-     PAGE INDICATOR
-     ======================================================= -->
-
-<div class="page-indicator">
-
-    <span id="berthIndicator"
-          class="page-indicator-dot active">
-    </span>
-
-    <span id="analyticsIndicator"
-          class="page-indicator-dot">
-    </span>
-
-</div>
 
 
 
@@ -951,250 +775,6 @@ setInterval(
 );
 
 </script>
-
-
-
-<!-- =======================================================
-     DASHBOARD TRANSITION
-     ======================================================= -->
-
-<script>
-
-
-/* =========================================================
-   SETTINGS
-   ========================================================= */
-
-
-/*
-   BERTH SCREEN
-   5 MINUTES
-*/
-
-const BERTH_DURATION =
-    3 * 60 * 1000;
-
-
-/*
-   ANALYTICS SCREEN
-   2 MINUTES
-*/
-
-const ANALYTICS_DURATION =
-    5 * 60 * 1000;
-
-
-
-/* =========================================================
-   ELEMENTS
-   ========================================================= */
-
-const berthPage =
-    document.getElementById(
-        "berthPage"
-    );
-
-
-const analyticsPage =
-    document.getElementById(
-        "analyticsPage"
-    );
-
-
-const berthIndicator =
-    document.getElementById(
-        "berthIndicator"
-    );
-
-
-const analyticsIndicator =
-    document.getElementById(
-        "analyticsIndicator"
-    );
-
-
-
-/* =========================================================
-   SHOW BERTH PAGE
-   ========================================================= */
-
-function showBerthPage(){
-
-    console.log(
-        "DISPLAY: BERTH OPERATIONS"
-    );
-
-
-    /* Hide analytics */
-
-    analyticsPage.classList.remove(
-        "active"
-    );
-
-    analyticsPage.classList.remove(
-        "leaving"
-    );
-
-
-    /* Show berth */
-
-    berthPage.classList.remove(
-        "leaving"
-    );
-
-    berthPage.classList.add(
-        "active"
-    );
-
-
-    /* Indicators */
-
-    berthIndicator.classList.add(
-        "active"
-    );
-
-    analyticsIndicator.classList.remove(
-        "active"
-    );
-
-}
-
-
-
-/* =========================================================
-   SHOW ANALYTICS PAGE
-   ========================================================= */
-
-function showAnalyticsPage(){
-
-    console.log(
-        "DISPLAY: ANALYTICS"
-    );
-
-
-    /* Start berth leaving */
-
-    berthPage.classList.remove(
-        "active"
-    );
-
-    berthPage.classList.add(
-        "leaving"
-    );
-
-
-    /* Start analytics entering */
-
-    analyticsPage.classList.remove(
-        "leaving"
-    );
-
-
-    analyticsPage.classList.add(
-        "active"
-    );
-
-
-    /* Indicators */
-
-    berthIndicator.classList.remove(
-        "active"
-    );
-
-    analyticsIndicator.classList.add(
-        "active"
-    );
-
-}
-
-
-
-/* =========================================================
-   AUTOMATIC ROTATION
-   ========================================================= */
-
-function startRotation(){
-
-
-    /*
-       ================================================
-       PAGE 1
-
-       BERTH 1 → BERTH F
-
-       DISPLAY FOR 3 MINUTES
-       ================================================
-    */
-
-
-    setTimeout(
-
-        function(){
-
-            showAnalyticsPage();
-
-
-            /*
-               =========================================
-               PAGE 2
-
-               ANALYTICS
-
-               DISPLAY FOR 5 MINUTES
-               =========================================
-            */
-
-
-            setTimeout(
-
-                function(){
-
-                    showBerthPage();
-
-
-                    /*
-                       Start the cycle again
-                    */
-
-                    startRotation();
-
-                },
-
-                ANALYTICS_DURATION
-
-            );
-
-        },
-
-        BERTH_DURATION
-
-    );
-
-}
-
-
-
-/* =========================================================
-   START
-   ========================================================= */
-
-
-/*
-   Always start with Berth screen
-*/
-
-showBerthPage();
-
-
-/*
-   Start 3 min → 5 min loop
-*/
-
-startRotation();
-
-
-</script>
-
 
 </body>
 
