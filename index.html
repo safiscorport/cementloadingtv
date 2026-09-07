@@ -46,17 +46,17 @@
     </section>
 
     <section class="table-container">
-      <div class="sub-section-title"></div>
+      <div class="sub-section-title">Berth A</div>
       <div class="alpha-header-bar">
-        <span>Berth A</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
+        <span>Berth</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
       </div>
       <div id="alphaRows"></div>
     </section>
 
     <section class="table-container">
-      <div class="sub-section-title"></div>
+      <div class="sub-section-title">Berth F</div>
       <div class="alpha-header-bar">
-        <span>Berth F</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
+        <span>Berth</span><span>Vessel</span><span>MATERIAL</span><span>DISCHARGE %</span><span>Balance</span><span>Progress</span><span>Time</span><span>Remarks</span><span>Deployed Equip.</span><span>Activity time</span>
       </div>
       <div id="foreignRow" class="alpha-row"></div>
     </section>
@@ -105,10 +105,14 @@
       <div class="ticker-label">WEATHER</div>
       <div class="ticker"><div id="weatherTicker">Loading weather data...</div></div>
     </div>
+    <!-- Hidden element required by app.js -->
+    <div id="tickerText" style="display:none;"></div>
     <div class="footer-right"><span id="syncText">CONNECTING</span> &bull; <b id="refreshSec">10s</b></div>
   </footer>
 </div>
+
 <script src="app.js"></script>
+
 <script>
 async function loadWeather(){
     try{
@@ -534,18 +538,9 @@ setInterval(loadWeather, 3600000);
 </div>
 
 <script>
-/* ===== TV ROTATION SETTINGS =====
-   Dashboard = 3 minutes
-   History graph = 1 minute
-   Change these two values as needed.
-*/
 const DASHBOARD_DURATION_MS = 3 * 60 * 1000;
 const HISTORY_DURATION_MS   = 1 * 60 * 1000;
 
-/* Values visible in the supplied report's TOTAL row.
-   2026 can be supplied by your existing app.js/data source.
-   If your app.js exposes a 2026 total, assign it to window.CEMENT_2026_TOTAL.
-*/
 const CEMENT_HISTORY_TOTALS = {
   2020: 22643900,
   2021: 17720877,
@@ -569,7 +564,6 @@ function get2026Total(){
   return null;
 }
 
-// Called automatically by app.js every time data.json is refreshed.
 window.updateHistoryFromDashboard = function(){
   const live = get2026Total();
   CEMENT_HISTORY_TOTALS[2026] = live;
@@ -625,7 +619,6 @@ function drawAnnualChart(){
     </defs>
   `;
 
-  // Grid and Y labels
   for(let i=0;i<=5;i++){
     const y=T+plotH-(plotH*i/5);
     const value=max*i/5;
@@ -633,7 +626,6 @@ function drawAnnualChart(){
     out += `<text x="${L-14}" y="${y+5}" text-anchor="end" fill="rgba(224,244,252,.42)" font-size="15" font-family="Segoe UI,Arial">${value===0?"0":Math.round(value/1000000)+"M"}</text>`;
   }
 
-  // Baseline
   out += `<line x1="${L}" y1="${T+plotH}" x2="${W-R}" y2="${T+plotH}" stroke="rgba(145,224,255,.24)" stroke-width="2"/>`;
 
   data.forEach((d,i)=>{
@@ -649,7 +641,6 @@ function drawAnnualChart(){
         opacity="${isLive?.96:.88}"
         filter="${isLive?'url(#barGlow)':''}" />`;
 
-      // subtle top highlight
       out += `<rect x="${x+3}" y="${y+3}" width="${Math.max(0,barW-6)}" height="2" rx="1"
         fill="rgba(255,255,255,.42)" />`;
 
@@ -664,7 +655,6 @@ function drawAnnualChart(){
         font-family="Segoe UI,Arial">LIVE</text>`;
     }
 
-    // year capsule
     const labelFill=isLive?"rgba(255,179,75,.12)":"rgba(105,216,255,.07)";
     const labelStroke=isLive?"rgba(255,190,95,.28)":"rgba(105,216,255,.13)";
     out += `<rect x="${x+barW*.16}" y="${H-53}" width="${barW*.68}" height="30" rx="15"
@@ -674,7 +664,6 @@ function drawAnnualChart(){
       font-family="Segoe UI,Arial">${esc(d.year)}</text>`;
   });
 
-  // Direction line connecting the tops of known bars for a modern trend cue.
   const points=data.filter(d=>Number.isFinite(d.value)).map(d=>{
     const i=data.indexOf(d);
     const x=L+i*step+step/2;
@@ -720,7 +709,6 @@ function hideHistoryScreen(){
   document.getElementById("historyScreen").classList.remove("show");
 }
 
-/* Rotate: LIVE DASHBOARD 3 min → HISTORY GRAPH 1 min → repeat. */
 let rotationTimer=null, historyTimer=null;
 function startRotation(){
   clearTimeout(rotationTimer); clearTimeout(historyTimer);
@@ -742,7 +730,6 @@ function startRotation(){
   }, DASHBOARD_DURATION_MS);
 }
 
-/* Start automatically after the live dashboard has loaded. */
 updateHistoryClock();
 startRotation();
 </script>
