@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T21:45:04+08:00",
+  "updated_at": "2026-09-07T21:47:17+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "20:03",
       "remarks": "LOADING SLING B5",
       "equipment": "CRANE2 / FL18",
-      "activity_time": "01:42"
+      "activity_time": "01:44"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "19:30",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "02:15"
+      "activity_time": "02:17"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "20:40",
       "remarks": "LOADING SLING GEO 3",
       "equipment": "FL 2",
-      "activity_time": "01:05"
+      "activity_time": "01:07"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "19:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "02:45"
+      "activity_time": "02:47"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "02:45"
+      "activity_time": "02:47"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "21:01",
       "remarks": "WAITING MATERIAL TONNER",
       "equipment": "CRANE 3/ FL 17",
-      "activity_time": "00:44"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 2500,
       "progress": 0.8529411764705882,
       "stockpile": 2500,
-      "time": "19:30",
-      "remarks": "UNABLE TO RESUME / OIL SPILL",
+      "time": "21:45",
+      "remarks": "RESUME LOADING TONNER",
       "equipment": "0",
-      "activity_time": "02:15"
+      "activity_time": "00:02"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "21:16",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "20:13",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "01:32"
+      "activity_time": "01:34"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:45"
+      "activity_time": "21:47"
     },
     {
       "berth": "R3",
