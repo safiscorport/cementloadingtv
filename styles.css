@@ -1,103 +1,117 @@
-:root {
-  --bg: #111;
-  --panel: #1d1d1d;
-  --panel2: #282828;
-  --head: #34404d;
-  --line: #555;
-  --text: #fff;
-  --muted: #aaa;
-  --accent: #65b83f;
-  --danger: #ff3030;
-  --warn: #ffc107;
-}
+/* =========================================================
+   SAFISCOR CEMENT LOADING DASHBOARD
+   FULL SCREEN / TV OPTIMIZED CSS
+   1920x1080 BOTTOM-FIT VERSION
+   ========================================================= */
 
 
 /* =========================================================
-   FULL SCREEN / TV DISPLAY
+   GLOBAL RESET
    ========================================================= */
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 
-  width: 100%;
-  height: 100%;
-
-  background: var(--bg);
-  color: var(--text);
-
-  font-family: Arial, Helvetica, sans-serif;
-
-  overflow: hidden !important;
+    overflow: hidden;
 }
 
 body {
-  font-size: clamp(13px, 0.85vw, 20px);
+    background: var(--bg, #07111f);
+    color: var(--text, #ffffff);
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 /* =========================================================
-   APP
+   MAIN APP
    ========================================================= */
 
 .app {
-  width: 100vw;
-  max-width: 100vw;
+    width: 100vw;
+    height: 100vh;
 
-  height: 100vh;
-  min-height: 100vh;
+    min-width: 0;
+    min-height: 0;
 
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
-  overflow: hidden;
+    overflow: hidden;
 }
 
 
 /* =========================================================
-   TOP HEADER
+   HEADER / TOPBAR
    ========================================================= */
 
 .topbar {
-  flex: 0 0 clamp(50px, 5.2vh, 50px);
+    width: 100%;
+    min-width: 0;
 
-  width: 100%;
-  max-width: 100%;
+    flex: 0 0 42px;
 
-  background: #080808;
+    height: 42px;
+    min-height: 42px;
+    max-height: 42px;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    padding: 2px 8px;
 
-  padding: 0 clamp(12px, 1.2vw, 30px);
+    overflow: hidden;
 
-  border-bottom: 2px solid #555;
-
-  min-width: 0;
+    position: relative;
 }
 
 
 /* =========================================================
-   BRAND
+   HEADER LOGO
    ========================================================= */
 
-.brand {
-  display: flex;
-  align-items: center;
+.topbar .brand {
+    height: 100%;
 
-  gap: clamp(8px, 0.7vw, 15px);
+    display: flex;
+    align-items: center;
 
-  min-width: 0;
+    min-width: 0;
 }
 
-.brand img {
-  max-width: 100%;
+.topbar .brand img {
+    height: 29px !important;
+    width: auto;
+
+    max-height: 29px;
+
+    object-fit: contain;
+}
+
+
+/* =========================================================
+   HEADER CENTER TITLE
+   ========================================================= */
+
+.topbar .title {
+    font-size: 0.9rem !important;
+
+    line-height: 1;
+
+    white-space: nowrap;
+}
+
+.topbar .subtitle {
+    font-size: 0.55rem !important;
+
+    line-height: 1;
+
+    white-space: nowrap;
 }
 
 
@@ -105,46 +119,10 @@ body {
    LIVE DOT
    ========================================================= */
 
-.live-dot {
-  width: clamp(10px, 0.75vw, 16px);
-  height: clamp(10px, 0.75vw, 16px);
+.topbar .live-dot {
+    flex-shrink: 0;
 
-  background: #ff3030;
-
-  border-radius: 50%;
-
-  flex-shrink: 0;
-
-  box-shadow:
-    0 0 8px #ff3030,
-    0 0 16px rgba(255, 48, 48, 0.5);
-
-  animation: blink 1s infinite;
-}
-
-
-/* =========================================================
-   TITLE
-   ========================================================= */
-
-.title {
-  font-size: clamp(17px, 1.35vw, 30px);
-
-  font-weight: 900;
-
-  letter-spacing: 1px;
-
-  white-space: nowrap;
-}
-
-.subtitle {
-  font-size: clamp(9px, 0.65vw, 15px);
-
-  color: var(--muted);
-
-  letter-spacing: 1px;
-
-  white-space: nowrap;
+    transform: scale(0.75);
 }
 
 
@@ -152,197 +130,209 @@ body {
    CLOCK
    ========================================================= */
 
-.clock {
-  text-align: right;
+.topbar .clock {
+    font-size: 0.75rem;
 
-  min-width: 0;
+    line-height: 1.05;
 
-  white-space: nowrap;
-}
+    white-space: nowrap;
 
-.clock div:first-child {
-  font-size: clamp(9px, 0.65vw, 15px);
-
-  color: var(--muted);
-}
-
-.clock div:last-child {
-  font-size: clamp(17px, 1.25vw, 28px);
-
-  font-weight: 900;
+    flex-shrink: 0;
 }
 
 
 /* =========================================================
-   MAIN AREA
+   MAIN CONTENT
    ========================================================= */
 
 .main-content {
+    flex: 1 1 0;
 
-  flex: 1;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    min-height: 0;
 
-  width: 100%;
-  max-width: 100%;
+    height: auto;
 
-  min-width: 0;
+    padding: 2px 6px;
 
-  padding:
-    clamp(3px, 0.35vh, 7px)
-    clamp(5px, 0.55vw, 15px);
+    display: flex;
+    flex-direction: column;
 
-  display: flex;
+    gap: 2px;
 
-  flex-direction: column;
-
-  gap: clamp(3px, 0.35vh, 7px);
-
-  overflow: hidden !important;
+    overflow: hidden;
 }
 
 
 /* =========================================================
-   TABLE CONTAINER
+   DASHBOARD PAGE
+   ========================================================= */
+
+.dashboard-page {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+
+    height: 100%;
+    min-height: 0;
+
+    overflow: hidden;
+}
+
+.dashboard-page.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-page:not(.active) {
+    display: none;
+}
+
+
+/* =========================================================
+   PAGE TRANSITIONS
+   ========================================================= */
+
+.dashboard-page {
+    opacity: 1;
+
+    transform: translateX(0);
+}
+
+.dashboard-page.leaving {
+    animation: pageLeave 0.8s ease forwards;
+}
+
+.dashboard-page.entering {
+    animation: pageEnter 0.8s ease forwards;
+}
+
+@keyframes pageLeave {
+
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+}
+
+@keyframes pageEnter {
+
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* =========================================================
+   TABLE CONTAINERS
    ========================================================= */
 
 .table-container {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    min-height: 0;
 
-  width: 100%;
-  max-width: 100%;
+    margin: 0;
+    padding: 0;
 
-  min-width: 0;
-
-  background: var(--panel);
-
-  border: 1px solid var(--line);
-
-  margin: 0;
-
-  overflow: hidden !important;
+    overflow: hidden;
 }
 
 
 /* =========================================================
    MAIN BERTH TABLE
-
-   IMPORTANT:
-   All columns use percentage widths.
-
-   TOTAL = 100%
-
-   This prevents the right side from being cut off
-   on 1920x1080 TV displays.
    ========================================================= */
 
 .table-header-bar,
 .berth-row,
 .table-footer-bar {
 
-  width: 100%;
-  max-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
 
-  min-width: 0;
+    display: grid;
 
-  display: grid;
+    grid-template-columns:
+        5%
+        10%
+        4%
+        7%
+        7%
+        7%
+        7%
+        8%
+        7%
+        5%
+        14%
+        10%
+        9%;
 
-  grid-template-columns:
+    align-items: center;
 
-    5%      /* Berth */
-    10%     /* Vessel */
-    4%      /* Voyage # */
-    7%      /* Booking */
-    7%      /* Dispatch */
-    7%      /* Loaded */
-    7%      /* Balance */
-    8%      /* Progress */
-    7%      /* Stockpile */
-    5%      /* Time */
-    14%     /* Remarks */
-    10%     /* Deployed Equipment */
-    9%;     /* Activity Time */
-
-
-  align-items: center;
-
-  padding:
-    clamp(3px, 0.32vh, 6px)
-    clamp(4px, 0.35vw, 10px);
-
-  border-bottom: 1px solid #303030;
-
-  font-size: clamp(11px, 0.78vw, 18px);
-
-  line-height: 1.05;
-
-  overflow: hidden;
+    overflow: hidden;
 }
 
 
 /* =========================================================
-   TABLE HEADER
+   MAIN TABLE HEADER
    ========================================================= */
 
 .table-header-bar {
 
-  background: var(--head);
+    flex: 0 0 27px;
 
-  font-weight: 900;
+    height: 27px;
+    min-height: 27px;
+    max-height: 27px;
 
-  color: #fff;
-
-  border-bottom: 1px solid #777;
-
-  font-size: clamp(10px, 0.68vw, 16px);
-
-  white-space: nowrap;
+    font-size: 12px;
 }
 
 
 /* =========================================================
-   BERTH ROW
+   MAIN TABLE ROW
    ========================================================= */
 
 .berth-row {
 
-  min-height: clamp(24px, 2.45vh, 42px);
+    flex: 0 0 28px;
 
-  min-width: 0;
-}
+    height: 28px;
+    min-height: 28px;
+    max-height: 28px;
 
-
-/* Alternating rows */
-
-.berth-row:nth-child(even) {
-  background: #242424;
-}
-
-.berth-row:nth-child(odd) {
-  background: #1b1b1b;
-}
-
-
-/* Vacant */
-
-.berth-row.vacant {
-  opacity: 0.45;
+    font-size: 12px;
 }
 
 
 /* =========================================================
-   VESSEL
+   MAIN TABLE FOOTER
    ========================================================= */
 
-.berth-row .vessel,
-.alpha-row .vessel {
+.table-footer-bar {
 
-  font-weight: 900;
+    flex: 0 0 27px;
 
-  white-space: nowrap;
+    height: 27px;
+    min-height: 27px;
+    max-height: 27px;
 
-  overflow: hidden;
-
-  text-overflow: ellipsis;
-
-  min-width: 0;
+    font-size: 12px;
 }
 
 
@@ -350,21 +340,156 @@ body {
    MAIN TABLE CELLS
    ========================================================= */
 
-.berth-row > div,
-.table-header-bar > div,
-.table-footer-bar > div {
+.table-header-bar > *,
+.berth-row > *,
+.table-footer-bar > * {
 
-  min-width: 0;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
 
-  width: 100%;
+    overflow: hidden;
 
-  max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 
-  white-space: nowrap;
 
-  overflow: hidden;
+/* =========================================================
+   BERTH A / BERTH F
+   ========================================================= */
 
-  text-overflow: ellipsis;
+.alpha-header-bar,
+.alpha-row {
+
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+
+    display: grid;
+
+    grid-template-columns:
+        6%
+        12%
+        14%
+        8%
+        8%
+        8%
+        7%
+        15%
+        12%
+        10%;
+
+    align-items: center;
+
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   SUB SECTION TITLE
+   ========================================================= */
+
+.sub-section-title {
+
+    width: 100%;
+    max-width: 100%;
+
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+
+    line-height: 20px;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   ALPHA HEADER
+   ========================================================= */
+
+.alpha-header-bar {
+
+    flex: 0 0 25px;
+
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   ALPHA ROW
+   ========================================================= */
+
+.alpha-row {
+
+    flex: 0 0 26px;
+
+    height: 26px;
+    min-height: 26px;
+    max-height: 26px;
+
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   ALPHA CELLS
+   ========================================================= */
+
+.alpha-header-bar > *,
+.alpha-row > * {
+
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   GENERAL CELL PROTECTION
+   ========================================================= */
+
+.table-container *,
+.alpha-section *,
+.foreign-section *,
+.analytics-grid * {
+
+    min-width: 0;
+    max-width: 100%;
+}
+
+
+/* =========================================================
+   TEXT PROTECTION
+   ========================================================= */
+
+th,
+td,
+.cell,
+.table-cell,
+.alpha-cell {
+
+    min-width: 0;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 
@@ -372,392 +497,120 @@ body {
    PROGRESS BAR
    ========================================================= */
 
-.progress-wrap {
+.progress {
 
-  position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
 
-  display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-
-  width: 100%;
-
-  height: clamp(10px, 1.15vh, 18px);
-
-  margin: 0;
-
-  padding: 0;
-
-  overflow: hidden;
+    overflow: hidden;
 }
 
+.progress-bar {
 
-.bar {
+    max-width: 100%;
 
-  position: absolute;
-
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%;
-
-  background: #333;
-
-  border: 1px solid #666;
-
-  overflow: hidden;
-
-  z-index: 1;
-}
-
-
-.bar i {
-
-  display: block;
-
-  height: 100%;
-
-  background: var(--accent);
-
-  box-shadow:
-    0 0 5px rgba(101, 184, 63, 0.5);
-
-  position: relative;
-
-  z-index: 1;
+    overflow: hidden;
 }
 
 
 /* =========================================================
-   PROGRESS PERCENTAGE
-   ========================================================= */
-
-.progress-wrap span {
-
-  position: absolute;
-
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-
-  color: #fff;
-
-  font-size: clamp(9px, 0.68vw, 15px);
-
-  font-weight: 900;
-
-  line-height: 1;
-
-  text-align: center;
-
-  z-index: 10;
-
-  pointer-events: none;
-
-  text-shadow:
-    1px 1px 2px #000,
-    -1px -1px 2px #000,
-    0 0 3px #000;
-}
-
-
-/* =========================================================
-   ALPHA / FOREIGN SECTION
-   ========================================================= */
-
-.sub-section-title {
-
-  background: #303030;
-
-  padding:
-    clamp(2px, 0.25vh, 5px)
-    clamp(5px, 0.4vw, 10px);
-
-  font-weight: 900;
-
-  font-size: clamp(10px, 0.7vw, 16px);
-
-  color: #ccc;
-
-  border-bottom: 1px solid var(--line);
-
-  white-space: nowrap;
-}
-
-
-/* =========================================================
-   BERTH A / BERTH F
-
-   TOTAL = 100%
-
-   Berth          6%
-   Vessel        12%
-   Material      14%
-   Discharge      8%
-   Balance        8%
-   Progress       8%
-   Time            7%
-   Remarks        15%
-   Equipment     12%
-   Activity       10%
-   ========================================================= */
-
-.alpha-header-bar,
-.alpha-row {
-
-  display: grid;
-
-  grid-template-columns:
-
-    6%      /* Berth */
-    12%     /* Vessel */
-    14%     /* Material */
-    8%      /* Discharge */
-    8%      /* Balance */
-    8%      /* Progress */
-    7%      /* Time */
-    15%     /* Remarks */
-    12%     /* Deployed Equipment */
-    10%;    /* Activity Time */
-
-
-  align-items: center;
-
-  width: 100%;
-  max-width: 100%;
-
-  min-width: 0;
-
-  padding:
-    clamp(3px, 0.3vh, 6px)
-    clamp(5px, 0.4vw, 10px);
-
-  font-size: clamp(11px, 0.78vw, 18px);
-
-  line-height: 1.05;
-
-  overflow: hidden;
-}
-
-
-/* Alpha header */
-
-.alpha-header-bar {
-
-  background: var(--head);
-
-  font-weight: 900;
-
-  color: #fff;
-
-  font-size: clamp(10px, 0.68vw, 16px);
-
-  white-space: nowrap;
-}
-
-
-/* Alpha rows */
-
-.alpha-row {
-
-  background: #1b1b1b;
-
-  border-bottom: 1px solid #303030;
-
-  min-height: clamp(23px, 2.2vh, 38px);
-}
-
-
-/* Alpha cells */
-
-.alpha-header-bar > div,
-.alpha-row > div {
-
-  min-width: 0;
-
-  width: 100%;
-
-  max-width: 100%;
-
-  white-space: nowrap;
-
-  overflow: hidden;
-
-  text-overflow: ellipsis;
-}
-
-
-/* =========================================================
-   ANALYTICS
+   ANALYTICS GRID
    ========================================================= */
 
 .analytics-grid {
 
-  width: 100%;
-  max-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
 
-  min-width: 0;
+    flex: 1 1 0;
 
-  display: grid;
+    height: auto;
 
-  grid-template-columns:
+    min-height: 0;
 
-    minmax(0, 1.05fr)
-    minmax(0, 1.05fr)
-    minmax(0, 0.8fr);
+    display: grid;
 
-  gap: clamp(5px, 0.5vw, 12px);
+    grid-template-columns:
+        minmax(0, 1.05fr)
+        minmax(0, 1.05fr)
+        minmax(0, 0.8fr);
 
-  margin-top: 1px;
+    gap: 3px;
 
-  flex: 1;
-
-  min-height: 0;
-
-  overflow: hidden;
+    overflow: hidden;
 }
 
 
 /* =========================================================
-   PANELS
+   ANALYTICS PANELS
    ========================================================= */
 
-.panel {
+.panel,
+.analytics-card,
+.stack-panel {
 
-  background: var(--panel);
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
 
-  border: 1px solid var(--line);
+    min-height: 0;
 
-  padding: clamp(3px, 0.3vw, 8px);
-
-  display: flex;
-
-  flex-direction: column;
-
-  min-width: 0;
-
-  max-width: 100%;
-
-  overflow: hidden;
+    overflow: hidden;
 }
 
+
+/* =========================================================
+   PANEL TITLE
+   ========================================================= */
 
 .panel-title {
 
-  font-weight: 900;
+    min-height: 22px;
+    height: 22px;
+    max-height: 22px;
 
-  background: var(--head);
+    padding-top: 2px;
+    padding-bottom: 2px;
 
-  padding:
-    clamp(3px, 0.3vh, 6px)
-    clamp(5px, 0.4vw, 10px);
+    font-size: 11px;
 
-  font-size: clamp(10px, 0.72vw, 17px);
+    line-height: 18px;
 
-  color: #fff;
+    overflow: hidden;
 
-  margin-bottom: 3px;
-
-  min-width: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 
 /* =========================================================
-   STACK PANEL
+   CHARTS
    ========================================================= */
 
-.stack-panel {
+canvas,
+.chart,
+.chart-container {
 
-  display: flex;
+    max-width: 100%;
+    min-width: 0;
 
-  flex-direction: column;
-
-  gap: clamp(3px, 0.3vh, 6px);
-
-  min-height: 0;
-
-  min-width: 0;
+    overflow: hidden;
 }
 
 
 /* =========================================================
-   SMALL TABLES
+   MONTHLY GRID
    ========================================================= */
 
-.table-mini {
+.monthly-grid-head {
 
-  display: flex;
+    min-height: 20px;
+    height: 20px;
+    max-height: 20px;
 
-  flex-direction: column;
-
-  min-height: 0;
-
-  min-width: 0;
-
-  overflow: hidden;
-}
-
-
-.table-mini .tr {
-
-  display: grid;
-
-  grid-template-columns:
-    1.25fr
-    1fr
-    1fr
-    1fr;
-
-  align-items: center;
-
-  padding:
-    clamp(2px, 0.25vh, 5px)
-    clamp(4px, 0.4vw, 9px);
-
-  border-bottom: 1px solid #303030;
-
-  font-size: clamp(10px, 0.7vw, 16px);
-
-  line-height: 1.05;
-
-  min-height: clamp(19px, 1.9vh, 32px);
-
-  min-width: 0;
-
-  overflow: hidden;
-}
-
-
-.table-mini.header-row {
-
-  background: #303030;
-
-  font-weight: 900;
-
-  color: #ccc;
-
-  font-size: clamp(10px, 0.65vw, 15px);
-}
-
-
-.total-row {
-
-  background: #252525;
-
-  border-top: 1px solid #666;
-
-  font-weight: 900;
+    overflow: hidden;
 }
 
 
@@ -765,126 +618,14 @@ body {
    PRODUCTION
    ========================================================= */
 
-.production {
+.production,
+.monthly,
+.table-mini {
 
-  display: flex;
+    min-width: 0;
+    max-width: 100%;
 
-  flex-direction: column;
-
-  min-height: 0;
-
-  min-width: 0;
-
-  overflow: hidden;
-}
-
-
-.prod-row {
-
-  display: flex;
-
-  justify-content: space-between;
-
-  align-items: center;
-
-  padding:
-    clamp(3px, 0.28vh, 6px)
-    clamp(5px, 0.4vw, 10px);
-
-  border-bottom: 1px solid #303030;
-
-  font-size: clamp(10px, 0.72vw, 17px);
-
-  min-height: clamp(21px, 2vh, 34px);
-
-  min-width: 0;
-}
-
-
-.prod-row b {
-
-  font-size: clamp(11px, 0.8vw, 19px);
-
-  font-weight: 900;
-}
-
-
-/* =========================================================
-   MONTHLY
-   ========================================================= */
-
-.monthly-grid-head {
-
-  display: grid;
-
-  grid-template-columns:
-    2fr
-    1fr
-    1fr;
-
-  background: #303030;
-
-  font-weight: 900;
-
-  font-size: clamp(10px, 0.68vw, 16px);
-
-  text-align: center;
-
-  padding:
-    clamp(3px, 0.25vh, 5px);
-
-  min-width: 0;
-}
-
-
-.monthly {
-
-  display: grid;
-
-  grid-template-columns:
-    2fr
-    1fr
-    1fr;
-
-  gap: 1px;
-
-  font-size: clamp(10px, 0.68vw, 16px);
-
-  text-align: center;
-
-  min-height: 0;
-
-  min-width: 0;
-
-  overflow: hidden;
-}
-
-
-.monthly div {
-
-  padding:
-    clamp(2px, 0.22vh, 5px)
-    3px;
-
-  background: #1b1b1b;
-
-  white-space: nowrap;
-
-  overflow: hidden;
-
-  text-overflow: ellipsis;
-
-  min-width: 0;
-}
-
-
-.monthly .mh {
-
-  background: #333;
-
-  font-weight: 900;
-
-  text-align: left;
+    overflow: hidden;
 }
 
 
@@ -894,30 +635,17 @@ body {
 
 .footer-bar {
 
-  flex: 0 0 clamp(40px, 5vh, 68px);
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
 
-  width: 100%;
-  max-width: 100%;
+    flex: 0 0 32px;
 
-  background: #080808;
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
 
-  display: flex;
-
-  align-items: center;
-
-  justify-content: space-between;
-
-  padding:
-    0
-    clamp(6px, 0.7vw, 18px);
-
-  border-top: 1px solid var(--line);
-
-  font-size: clamp(10px, 0.65vw, 15px);
-
-  min-width: 0;
-
-  overflow: hidden;
+    overflow: hidden;
 }
 
 
@@ -927,137 +655,68 @@ body {
 
 .footer-group {
 
-  display: flex;
+    min-width: 0;
+    max-width: 100%;
 
-  gap: clamp(5px, 0.7vw, 15px);
-
-  min-width: 0;
-
-  flex-shrink: 0;
+    overflow: hidden;
 }
 
 
 /* =========================================================
-   FOOTER ITEM
+   FOOTER ITEMS
    ========================================================= */
 
 .f-item {
 
-  background: #1b1b1b;
+    min-width: 0;
+    max-width: 100%;
 
-  padding:
-    clamp(2px, 0.25vh, 5px)
-    clamp(5px, 0.4vw, 10px);
+    overflow: hidden;
 
-  border: 1px solid #444;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 
-  display: flex;
-
-  flex-direction: column;
-
-  min-width: 0;
-}
-
-
-.f-item span {
-
-  color: var(--muted);
-
-  font-size: clamp(8px, 0.5vw, 12px);
-
-  white-space: nowrap;
-}
-
-
-.f-item b {
-
-  font-size: clamp(10px, 0.65vw, 15px);
-
-  white-space: nowrap;
-
-  overflow: hidden;
-
-  text-overflow: ellipsis;
+    line-height: 1;
 }
 
 
 /* =========================================================
-   LIVE WEATHER TICKER
+   WEATHER TICKER
    ========================================================= */
 
 .ticker-wrap {
 
-  display: flex;
+    min-width: 0;
+    max-width: 100%;
 
-  align-items: center;
-
-  flex: 1;
-
-  min-width: 0;
-
-  margin:
-    0
-    clamp(5px, 1vw, 20px);
-
-  background: #151515;
-
-  border: 1px solid #444;
-
-  overflow: hidden;
-
-  height: clamp(25px, 2.7vh, 40px);
+    overflow: hidden;
 }
-
 
 .ticker-label {
 
-  background: #b00000;
+    flex-shrink: 0;
 
-  color: #fff;
-
-  padding:
-    0
-    clamp(6px, 0.5vw, 12px);
-
-  font-weight: 900;
-
-  font-size: clamp(9px, 0.6vw, 14px);
-
-  height: 100%;
-
-  display: flex;
-
-  align-items: center;
-
-  flex-shrink: 0;
+    white-space: nowrap;
 }
-
 
 .ticker {
 
-  overflow: hidden;
+    min-width: 0;
+    max-width: 100%;
 
-  white-space: nowrap;
+    overflow: hidden;
 
-  flex: 1;
-
-  min-width: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
+#weatherTicker {
 
-.ticker div {
+    white-space: nowrap;
 
-  display: inline-block;
+    overflow: hidden;
 
-  padding-left: 100%;
-
-  animation: ticker 25s linear infinite;
-
-  color: var(--warn);
-
-  font-weight: 900;
-
-  font-size: clamp(10px, 0.7vw, 17px);
+    text-overflow: ellipsis;
 }
 
 
@@ -1067,117 +726,31 @@ body {
 
 .footer-right {
 
-  color: var(--muted);
+    min-width: 0;
 
-  font-size: clamp(9px, 0.55vw, 13px);
+    white-space: nowrap;
 
-  white-space: nowrap;
+    overflow: hidden;
 
-  flex-shrink: 0;
+    text-overflow: ellipsis;
 }
 
 
 /* =========================================================
-   ANIMATIONS
+   LIVE DOT
    ========================================================= */
 
-@keyframes blink {
-
-  50% {
-    opacity: 0.3;
-  }
-
-}
-
-
-@keyframes ticker {
-
-  to {
-    transform: translateX(-100%);
-  }
-
+.live-dot {
+    flex-shrink: 0;
 }
 
 
 /* =========================================================
-   STOPPAGE / DELAY HIGHLIGHT
+   IMAGES
    ========================================================= */
 
-.stoppage-alert {
-
-  background-color:
-    rgba(255, 48, 48, 0.4) !important;
-
-  color: #ff9999 !important;
-
-  font-weight: 900;
-
-  display: block;
-
-  height: 100%;
-
-  width: 100%;
-
-  padding: 2px 4px;
-
-  overflow: hidden;
-
-  text-overflow: ellipsis;
-}
-
-
-/* =========================================================
-   DASHBOARD PAGE TRANSITION
-   ========================================================= */
-
-.dashboard-page {
-
-  width: 100%;
-  max-width: 100%;
-
-  min-width: 0;
-
-  box-sizing: border-box;
-
-  position: absolute;
-
-  top: 0;
-  left: 0;
-
-  opacity: 0;
-
-  visibility: hidden;
-
-  transform: translateX(35px);
-
-  transition:
-    opacity 0.8s ease,
-    transform 0.8s ease,
-    visibility 0.8s ease;
-
-  overflow: hidden;
-}
-
-
-.dashboard-page.active {
-
-  position: relative;
-
-  opacity: 1;
-
-  visibility: visible;
-
-  transform: translateX(0);
-}
-
-
-.dashboard-page.leaving {
-
-  opacity: 0;
-
-  visibility: hidden;
-
-  transform: translateX(-35px);
+img {
+    max-width: 100%;
 }
 
 
@@ -1187,306 +760,647 @@ body {
 
 .page-indicator {
 
-  position: fixed;
+    position: fixed;
 
-  right: 10px;
+    right: 10px;
+    bottom: 40px;
 
-  bottom: 52px;
+    z-index: 1000;
 
-  display: flex;
+    display: flex;
 
-  gap: 6px;
-
-  z-index: 9999;
-
-  pointer-events: none;
+    gap: 5px;
 }
 
+.page-indicator span {
 
-.page-indicator-dot {
+    width: 8px;
+    height: 8px;
 
-  width: 7px;
+    border-radius: 50%;
 
-  height: 7px;
-
-  border-radius: 50%;
-
-  background: #555;
-
-  opacity: 0.45;
-
-  transition:
-    opacity 0.3s ease,
-    background 0.3s ease,
-    box-shadow 0.3s ease;
+    background: rgba(255, 255, 255, 0.3);
 }
 
+.page-indicator span.active {
 
-.page-indicator-dot.active {
-
-  background: #6dcc45;
-
-  opacity: 1;
-
-  box-shadow:
-    0 0 7px rgba(108, 204, 69, 0.9);
+    background: #ffffff;
 }
 
 
 /* =========================================================
-   1920 x 1080 TV OPTIMIZATION
+   1920 x 1080 TV
+   MAXIMUM BOTTOM SPACE
    ========================================================= */
 
-@media screen and
-(min-width: 1600px) and
-(max-width: 2499px) {
+@media (min-width: 1800px) and (min-height: 1000px) {
 
-  body {
-    font-size: 14px;
-  }
+    html,
+    body {
 
+        width: 100vw !important;
+        height: 100vh !important;
 
-  /* Main berth table */
+        max-width: 100vw !important;
+        max-height: 100vh !important;
 
-  .table-header-bar,
-  .berth-row,
-  .table-footer-bar {
-
-    font-size: 14px;
-
-  }
+        overflow: hidden !important;
+    }
 
 
-  .table-header-bar {
+    /* APP */
 
-    font-size: 13px;
+    .app {
 
-  }
+        width: 100vw !important;
+        height: 100vh !important;
 
+        max-width: 100vw !important;
+        max-height: 100vh !important;
 
-  /* Berth A / F */
+        display: flex !important;
+        flex-direction: column !important;
 
-  .alpha-header-bar,
-  .alpha-row {
-
-    font-size: 14px;
-
-  }
-
-
-  .alpha-header-bar {
-
-    font-size: 13px;
-
-  }
+        overflow: hidden !important;
+    }
 
 
-  /* Progress */
+    /* HEADER */
 
-  .progress-wrap span {
+    .topbar {
 
-    font-size: 12px;
+        flex: 0 0 42px !important;
 
-  }
+        height: 42px !important;
+        min-height: 42px !important;
+        max-height: 42px !important;
 
+        padding: 2px 8px !important;
 
-  /* Main row height */
-
-  .berth-row {
-
-    min-height: 30px;
-
-  }
+        overflow: hidden !important;
+    }
 
 
-  .alpha-row {
+    /* MAIN */
 
-    min-height: 28px;
+    .main-content {
 
-  }
+        flex: 1 1 0 !important;
 
+        height: auto !important;
+
+        min-height: 0 !important;
+        max-height: none !important;
+
+        padding: 2px 6px !important;
+
+        gap: 2px !important;
+
+        overflow: hidden !important;
+    }
+
+
+    /* TABLE HEADER */
+
+    .table-header-bar {
+
+        height: 27px !important;
+        min-height: 27px !important;
+        max-height: 27px !important;
+
+        font-size: 12px !important;
+    }
+
+
+    /* TABLE ROWS */
+
+    .berth-row {
+
+        height: 28px !important;
+        min-height: 28px !important;
+        max-height: 28px !important;
+
+        font-size: 12px !important;
+    }
+
+
+    /* TABLE TOTAL */
+
+    .table-footer-bar {
+
+        height: 27px !important;
+        min-height: 27px !important;
+        max-height: 27px !important;
+
+        font-size: 12px !important;
+    }
+
+
+    /* SECTION TITLE */
+
+    .sub-section-title {
+
+        height: 20px !important;
+        min-height: 20px !important;
+        max-height: 20px !important;
+
+        line-height: 20px !important;
+
+        font-size: 11px !important;
+    }
+
+
+    /* ALPHA HEADER */
+
+    .alpha-header-bar {
+
+        height: 25px !important;
+        min-height: 25px !important;
+        max-height: 25px !important;
+
+        font-size: 11px !important;
+    }
+
+
+    /* ALPHA ROW */
+
+    .alpha-row {
+
+        height: 26px !important;
+        min-height: 26px !important;
+        max-height: 26px !important;
+
+        font-size: 11px !important;
+    }
+
+
+    /* ANALYTICS */
+
+    .analytics-grid {
+
+        flex: 1 1 0 !important;
+
+        min-height: 0 !important;
+
+        height: auto !important;
+
+        gap: 3px !important;
+
+        overflow: hidden !important;
+    }
+
+
+    /* PANELS */
+
+    .panel,
+    .analytics-card,
+    .stack-panel {
+
+        min-height: 0 !important;
+
+        overflow: hidden !important;
+    }
+
+
+    /* PANEL TITLES */
+
+    .panel-title {
+
+        height: 22px !important;
+        min-height: 22px !important;
+        max-height: 22px !important;
+
+        font-size: 11px !important;
+
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+    }
+
+
+    /* FOOTER */
+
+    .footer-bar {
+
+        flex: 0 0 32px !important;
+
+        height: 32px !important;
+        min-height: 32px !important;
+        max-height: 32px !important;
+
+        overflow: hidden !important;
+    }
+
+
+    /* REMOVE EXTRA SPACE */
+
+    .table-container {
+
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+
+        min-height: 0 !important;
+    }
 }
 
 
 /* =========================================================
-   4K / VERY WIDE TV
+   1600 - 1799
    ========================================================= */
 
-@media (min-width: 2500px) {
+@media (min-width: 1500px) and (max-width: 1799px) {
 
-  body {
+    .topbar {
 
-    font-size: 18px;
+        flex: 0 0 44px;
 
-  }
+        height: 44px;
+        min-height: 44px;
+        max-height: 44px;
 
+        padding: 2px 8px;
+    }
 
-  .title {
+    .topbar .brand img {
 
-    font-size: 30px;
+        height: 30px !important;
+        max-height: 30px;
+    }
 
-  }
+    .topbar .title {
 
+        font-size: 0.9rem !important;
+    }
 
-  .berth-row,
-  .alpha-row {
+    .topbar .subtitle {
 
-    min-height: 42px;
+        font-size: 0.58rem !important;
+    }
 
-  }
+    .main-content {
 
+        padding: 2px 6px;
+        gap: 2px;
+    }
+
+    .table-header-bar {
+
+        height: 27px;
+        min-height: 27px;
+
+        font-size: 11px;
+    }
+
+    .berth-row {
+
+        height: 28px;
+        min-height: 28px;
+
+        font-size: 11px;
+    }
+
+    .table-footer-bar {
+
+        height: 27px;
+        min-height: 27px;
+
+        font-size: 11px;
+    }
+
+    .alpha-header-bar {
+
+        height: 25px;
+        min-height: 25px;
+
+        font-size: 11px;
+    }
+
+    .alpha-row {
+
+        height: 26px;
+        min-height: 26px;
+
+        font-size: 11px;
+    }
+
+    .footer-bar {
+
+        flex: 0 0 32px;
+
+        height: 32px;
+        min-height: 32px;
+        max-height: 32px;
+    }
 }
 
 
 /* =========================================================
-   1366 / 1360 / 1280 SCREEN
+   1366 x 768
    ========================================================= */
 
-@media (max-width: 1400px) {
+@media (min-width: 1200px) and (max-width: 1499px) {
 
-  body {
+    .topbar {
 
-    font-size: 13px;
+        flex: 0 0 40px;
 
-  }
+        height: 40px;
+        min-height: 40px;
+        max-height: 40px;
 
+        padding: 2px 6px;
+    }
 
-  .berth-row,
-  .alpha-row {
+    .topbar .brand img {
 
-    min-height: 23px;
+        height: 27px !important;
+        max-height: 27px;
+    }
 
-  }
+    .topbar .title {
 
+        font-size: 0.78rem !important;
+    }
 
-  .analytics-grid {
+    .topbar .subtitle {
 
-    gap: 4px;
+        font-size: 0.5rem !important;
+    }
 
-  }
+    .topbar .clock {
 
+        font-size: 0.65rem;
+    }
 
-  .table-header-bar,
-  .berth-row,
-  .table-footer-bar {
+    .main-content {
 
-    font-size: 11px;
+        padding: 2px 5px;
 
-  }
+        gap: 2px;
+    }
 
+    .table-header-bar {
 
-  .alpha-header-bar,
-  .alpha-row {
+        height: 25px;
+        min-height: 25px;
 
-    font-size: 11px;
+        font-size: 10px;
+    }
 
-  }
+    .berth-row {
 
+        height: 26px;
+        min-height: 26px;
+
+        font-size: 10px;
+    }
+
+    .table-footer-bar {
+
+        height: 25px;
+        min-height: 25px;
+
+        font-size: 10px;
+    }
+
+    .sub-section-title {
+
+        height: 18px;
+        min-height: 18px;
+
+        line-height: 18px;
+
+        font-size: 10px;
+    }
+
+    .alpha-header-bar {
+
+        height: 23px;
+        min-height: 23px;
+
+        font-size: 9px;
+    }
+
+    .alpha-row {
+
+        height: 24px;
+        min-height: 24px;
+
+        font-size: 9px;
+    }
+
+    .panel-title {
+
+        height: 20px;
+        min-height: 20px;
+
+        font-size: 10px;
+    }
+
+    .footer-bar {
+
+        flex: 0 0 30px;
+
+        height: 30px;
+        min-height: 30px;
+        max-height: 30px;
+    }
 }
 
 
 /* =========================================================
-   SMALLER LAPTOP
+   SMALLER SCREENS
    ========================================================= */
 
-@media (max-width: 1100px) {
+@media (max-width: 1199px) {
 
-  body {
+    .topbar {
 
-    font-size: 12px;
+        flex: 0 0 38px;
 
-  }
+        height: 38px;
+        min-height: 38px;
+        max-height: 38px;
 
+        padding: 2px 5px;
+    }
 
-  .table-header-bar,
-  .berth-row,
-  .table-footer-bar {
+    .topbar .brand img {
 
-    font-size: 10px;
+        height: 25px !important;
+        max-height: 25px;
+    }
 
-  }
+    .topbar .title {
 
+        font-size: 0.7rem !important;
+    }
 
-  .alpha-header-bar,
-  .alpha-row {
+    .topbar .subtitle {
 
-    font-size: 10px;
+        font-size: 0.45rem !important;
+    }
 
-  }
+    .main-content {
 
+        padding: 2px 4px;
+
+        gap: 2px;
+    }
+
+    .table-header-bar {
+
+        height: 23px;
+        min-height: 23px;
+
+        font-size: 9px;
+    }
+
+    .berth-row {
+
+        height: 24px;
+        min-height: 24px;
+
+        font-size: 9px;
+    }
+
+    .table-footer-bar {
+
+        height: 23px;
+        min-height: 23px;
+
+        font-size: 9px;
+    }
+
+    .alpha-header-bar {
+
+        height: 21px;
+        min-height: 21px;
+
+        font-size: 8px;
+    }
+
+    .alpha-row {
+
+        height: 22px;
+        min-height: 22px;
+
+        font-size: 8px;
+    }
+
+    .footer-bar {
+
+        flex: 0 0 28px;
+
+        height: 28px;
+        min-height: 28px;
+        max-height: 28px;
+    }
 }
 
 
 /* =========================================================
-   FINAL WIDTH SAFETY
+   FLEX CHILD PROTECTION
    ========================================================= */
 
-html,
-body,
-.app,
+.main-content > *,
+.dashboard-page > *,
+.dashboard-page .main-content > * {
+
+    min-height: 0;
+    min-width: 0;
+
+    max-width: 100%;
+}
+
+
+/* =========================================================
+   REMOVE DEFAULT MARGINS
+   ========================================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* =========================================================
+   BOX SIZING
+   ========================================================= */
+
+.topbar,
 .main-content,
+.footer-bar,
 .dashboard-page,
 .table-container,
-.table-header-bar,
-.berth-row,
-.table-footer-bar,
-.alpha-header-bar,
-.alpha-row,
+.alpha-section,
+.foreign-section,
 .analytics-grid,
-.panel {
+.analytics-card,
+.panel,
+.stack-panel {
 
-  max-width: 100%;
-
-  min-width: 0;
-}
-
-
-/* Absolutely prevent horizontal overflow */
-
-html,
-body,
-.app,
-.main-content {
-
-  overflow-x: hidden !important;
-
+    box-sizing: border-box;
 }
 
 
 /* =========================================================
-   IMPORTANT:
-   CHILDREN MUST NOT FORCE THE GRID WIDER
+   HIDE SCROLLBARS
    ========================================================= */
 
-.table-header-bar *,
-.berth-row *,
-.table-footer-bar *,
-.alpha-header-bar *,
-.alpha-row * {
+::-webkit-scrollbar {
 
-  min-width: 0;
+    width: 0;
+    height: 0;
+}
 
-  max-width: 100%;
+* {
+
+    scrollbar-width: none;
 }
 
 
 /* =========================================================
-   KEEP LONG TEXT INSIDE ITS COLUMN
+   FINAL 1920x1080 SAFETY
    ========================================================= */
 
-.berth-row > div,
-.table-header-bar > div,
-.table-footer-bar > div,
-.alpha-row > div,
-.alpha-header-bar > div {
+@media (min-width: 1800px) and (min-height: 1000px) {
 
-  min-width: 0 !important;
+    .app {
 
-  max-width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
 
-  overflow: hidden !important;
+        height: 100vh !important;
 
-  white-space: nowrap;
+        overflow: hidden !important;
+    }
 
-  text-overflow: ellipsis;
+    .topbar {
+
+        flex-shrink: 0 !important;
+    }
+
+    .main-content {
+
+        flex: 1 1 0 !important;
+
+        min-height: 0 !important;
+
+        overflow: hidden !important;
+    }
+
+    .footer-bar {
+
+        flex-shrink: 0 !important;
+    }
 }
