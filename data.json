@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T07:42:44+08:00",
+  "updated_at": "2026-09-08T07:44:46+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 21000,
       "progress": 0.7529411764705882,
       "stockpile": 0,
-      "time": "05:13",
-      "remarks": "BARGE JB  5",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE2 / FL3",
-      "activity_time": "02:29"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 27000,
       "progress": 0.5846153846153846,
       "stockpile": 5000,
-      "time": "19:30",
-      "remarks": "JOHANNAH 7",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "12:12"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 25000,
       "progress": 0.4444444444444444,
       "stockpile": 3000,
-      "time": "01:00",
-      "remarks": "INFINITY 8",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "06:42"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": -5000,
       "progress": 0,
       "stockpile": 1000,
-      "time": "04:40",
-      "remarks": "EASTERN CEBU",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "03:02"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 6",
@@ -86,10 +86,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "19:00",
-      "remarks": "STAR SOGOD",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "12:42"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 7",
@@ -101,25 +101,25 @@
       "balance": 2500,
       "progress": 0.9074074074074074,
       "stockpile": 0,
-      "time": "21:01",
-      "remarks": "STAR DINAGAT",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE 3",
-      "activity_time": "10:41"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 8",
-      "vessel": "LADY ARMOR",
-      "voyage": 5,
-      "booking": 17000,
-      "dispatch": 17000,
-      "loaded": 17000,
+      "vessel": "0",
+      "voyage": 0,
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "23:00",
-      "remarks": "LADY ARMOR",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "08:42"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 6000,
       "progress": 0.8,
       "stockpile": 1000,
-      "time": "22:52",
-      "remarks": "LADY OF WISDOM",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "08:50"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 25000,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "STAR FREEDOM",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 1",
-      "activity_time": "00:00"
+      "activity_time": "00:44"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 294000,
-    "dispatch": 202500,
-    "loaded": 192500,
+    "booking": 277000,
+    "dispatch": 185500,
+    "loaded": 175500,
     "balance": 101500,
-    "progress": 0.6413440589911178,
+    "progress": 0.5815680688229707,
     "stockpile": 10000
   },
   "alpha": [
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:42"
+      "activity_time": "07:44"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:42"
+      "activity_time": "07:44"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "03:51",
       "remarks": "CONTINOUS DISCHARGE FEED TO JBS",
       "equip": "1 PL DEPLOYED",
-      "activity_time": "03:51"
+      "activity_time": "03:53"
     }
   ],
   "foreign": {
