@@ -29,85 +29,75 @@ function isStoppageRemark(text) {
 }
 
 function render(d) {
-  if ($('syncText')) {
-    $('syncText').textContent = 'LIVE • UPDATED ' + new Date(d.updated_at).toLocaleTimeString('en-PH', { hour12: false });
-  }
-  if ($('refreshSec')) {
-    $('refreshSec').textContent = (REFRESH_MS / 1000) + 's';
-  }
+  $('syncText').textContent = 'LIVE • UPDATED ' + new Date(d.updated_at).toLocaleTimeString('en-PH', { hour12: false });
+  $('refreshSec').textContent = (REFRESH_MS / 1000) + 's';
 
   // Berths
   const rows = d.berths || [];
-  if ($('berthGrid')) {
-    $('berthGrid').innerHTML = rows.map(x => {
-      let p = Math.max(0, Math.min(100, (x.progress || 0) * 100));
-      let vacant = String(x.vessel || '').toUpperCase() === 'VACANT';
-      let remarkAlert = isStoppageRemark(x.remarks) ? 'stoppage-alert' : '';
-      return `<div class="berth-row ${vacant ? 'vacant' : ''}">
-        <span><b>${x.berth}</b></span>
-        <span class="vessel">${x.vessel || '—'}</span>
-        <span>${x.voyage || '-'}</span>
-        <span>${num(x.booking)}</span>
-        <span>${num(x.dispatch)}</span>
-        <span>${num(x.loaded)}</span>
-        <span>${num(x.balance)}</span>
-        <span><div class="progress-wrap"><div class="bar"><i style="width:${p}%"></i></div>${p > 0 ? p.toFixed(0) + '%' : ''}</div></span>
-        <span>${num(x.stockpile)}</span>
-        <span>${x.time || '-'}</span>
-        <span class="remark ${remarkAlert}">${x.remarks || '-'}</span>
-        <span>${x.equipment || '0'}</span>
-        <span class="activity">${formatActivityTime(x.activity_time)}</span>
-      </div>`;
-    }).join('');
-  }
+  $('berthGrid').innerHTML = rows.map(x => {
+    let p = Math.max(0, Math.min(100, (x.progress || 0) * 100));
+    let vacant = String(x.vessel || '').toUpperCase() === 'VACANT';
+    let remarkAlert = isStoppageRemark(x.remarks) ? 'stoppage-alert' : '';
+    return `<div class="berth-row ${vacant ? 'vacant' : ''}">
+      <span><b>${x.berth}</b></span>
+      <span class="vessel">${x.vessel || '—'}</span>
+      <span>${x.voyage || '-'}</span>
+      <span>${num(x.booking)}</span>
+      <span>${num(x.dispatch)}</span>
+      <span>${num(x.loaded)}</span>
+      <span>${num(x.balance)}</span>
+      <span><div class="progress-wrap"><div class="bar"><i style="width:${p}%"></i></div>${p > 0 ? p.toFixed(0) + '%' : ''}</div></span>
+      <span>${num(x.stockpile)}</span>
+      <span>${x.time || '-'}</span>
+      <span class="remark ${remarkAlert}">${x.remarks || '-'}</span>
+      <span>${x.equipment || '0'}</span>
+      <span class="activity">${formatActivityTime(x.activity_time)}</span>
+    </div>`;
+  }).join('');
 
   // Totals
   const t = d.total || {};
-  if ($('totalBooking')) $('totalBooking').textContent = num(t.booking);
-  if ($('totalDispatch')) $('totalDispatch').textContent = num(t.dispatch);
-  if ($('totalLoaded')) $('totalLoaded').textContent = num(t.loaded);
-  if ($('totalBalance')) $('totalBalance').textContent = num(t.balance);
-  if ($('totalProgress')) $('totalProgress').textContent = ((t.progress || 0) * 100).toFixed(0) + '%';
-  if ($('totalStockpile')) $('totalStockpile').textContent = num(t.stockpile);
+  $('totalBooking').textContent = num(t.booking);
+  $('totalDispatch').textContent = num(t.dispatch);
+  $('totalLoaded').textContent = num(t.loaded);
+  $('totalBalance').textContent = num(t.balance);
+  $('totalProgress').textContent = ((t.progress || 0) * 100).toFixed(0) + '%';
+  $('totalStockpile').textContent = num(t.stockpile);
 
   // Alpha Berths (R1, R2, R3)
-  if ($('alphaRows')) {
-    $('alphaRows').innerHTML = (d.alpha || []).map(x => {
-      let pVal = parseFloat(String(x.progress).replace('%', '')) || 0;
-      let remarkAlert = isStoppageRemark(x.remarks) ? 'stoppage-alert' : '';
-      return `<div class="alpha-row">
-        <span><b>${x.berth}</b></span>
-        <span class="vessel">${x.vessel}</span>
-        <span>${x.materials || '-'}</span>
-        <span>${x.discharge || '0%'}</span>
-        <span>${x.balance || '0%'}</span>
-        <span><div class="progress-wrap"><div class="bar"><i style="width:${pVal}%"></i></div>${x.progress}</div></span>
-        <span>${x.time || '0:00'}</span>
-        <span class="remark ${remarkAlert}">${x.remarks || '-'}</span>
-        <span>${x.equip || '0'}</span>
-        <span class="activity">${formatActivityTime(x.activity_time)}</span>
-      </div>`;
-    }).join('');
-  }
+  $('alphaRows').innerHTML = (d.alpha || []).map(x => {
+    let pVal = parseFloat(String(x.progress).replace('%', '')) || 0;
+    let remarkAlert = isStoppageRemark(x.remarks) ? 'stoppage-alert' : '';
+    return `<div class="alpha-row">
+      <span><b>${x.berth}</b></span>
+      <span class="vessel">${x.vessel}</span>
+      <span>${x.materials || '-'}</span>
+      <span>${x.discharge || '0%'}</span>
+      <span>${x.balance || '0%'}</span>
+      <span><div class="progress-wrap"><div class="bar"><i style="width:${pVal}%"></i></div>${x.progress}</div></span>
+      <span>${x.time || '0:00'}</span>
+      <span class="remark ${remarkAlert}">${x.remarks || '-'}</span>
+      <span>${x.equip || '0'}</span>
+      <span class="activity">${formatActivityTime(x.activity_time)}</span>
+    </div>`;
+  }).join('');
 
   // Foreign Berth (Berth F)
   const f = d.foreign || {};
   let fPVal = parseFloat(String(f.progress || '0').replace('%', '')) || 0;
   let fRemarkAlert = isStoppageRemark(f.remarks) ? 'stoppage-alert' : '';
-  if ($('foreignRow')) {
-    $('foreignRow').innerHTML = `
-      <span><b>${f.berth}</b></span>
-      <span class="vessel">${f.vessel}</span>
-      <span>${f.materials || '-'}</span>
-      <span>${f.discharge || '-'}</span>
-      <span>${f.balance || '-'}</span>
-      <span><div class="progress-wrap"><div class="bar"><i style="width:${fPVal}%"></i></div>${f.progress || '-'}</div></span>
-      <span>${f.time || '-'}</span>
-      <span class="remark ${fRemarkAlert}">${f.remarks || '-'}</span>
-      <span>${f.equip || '0'}</span>
-      <span class="activity">${formatActivityTime(f.activity_time)}</span>
-    `;
-  }
+  $('foreignRow').innerHTML = `
+    <span><b>${f.berth}</b></span>
+    <span class="vessel">${f.vessel}</span>
+    <span>${f.materials || '-'}</span>
+    <span>${f.discharge || '-'}</span>
+    <span>${f.balance || '-'}</span>
+    <span><div class="progress-wrap"><div class="bar"><i style="width:${fPVal}%"></i></div>${f.progress || '-'}</div></span>
+    <span>${f.time || '-'}</span>
+    <span class="remark ${fRemarkAlert}">${f.remarks || '-'}</span>
+    <span>${f.equip || '0'}</span>
+    <span class="activity">${formatActivityTime(f.activity_time)}</span>
+  `;
 
   // Trucking
   const truckData = d.trucking || [];
@@ -117,58 +107,42 @@ function render(d) {
     daily: acc.daily + (typeof curr.daily === 'number' ? curr.daily : 0)
   }), { august: 0, september: 0, daily: 0 });
 
-  if ($('trucking')) {
-    $('trucking').innerHTML = truckData.map(x => `
-      <div class="tr"><b>${x.hauler}</b><span>${num(x.august)}</span><span>${num(x.september)}</span><span>${num(x.daily)}</span></div>
-    `).join('') + `<div class="tr total-row"><b>Total</b><span><b>${num(truckTotal.august)}</b></span><span><b>${num(truckTotal.september)}</b></span><span><b>${num(truckTotal.daily)}</b></span></div>`;
-  }
+  $('trucking').innerHTML = truckData.map(x => `
+    <div class="tr"><b>${x.hauler}</b><span>${num(x.august)}</span><span>${num(x.september)}</span><span>${num(x.daily)}</span></div>
+  `).join('') + `<div class="tr total-row"><b>Total</b><span><b>${num(truckTotal.august)}</b></span><span><b>${num(truckTotal.september)}</b></span><span><b>${num(truckTotal.daily)}</b></span></div>`;
 
-  // Monthly Table & History Bridge
+  // Monthly Table
   const m = d.monthly || [];
   const mt = d.monthly_total || {};
-  
-  window.CEMENT_2026_TOTAL = mt.y2026;
-  if (typeof window.updateHistoryFromDashboard === 'function') {
-    window.updateHistoryFromDashboard();
-  }
-
-  if ($('monthly')) {
-    $('monthly').innerHTML = m.map(x => `
-      <div>${x.month}</div><div>${num(x.y2025)}</div><div>${num(x.y2026)}</div>
-    `).join('') + `<div class="mh">Total</div><div style="font-weight:bold;background:#1a1a1a">${num(mt.y2025)}</div><div style="font-weight:bold;background:#1a1a1a">${num(mt.y2026)}</div>`;
-  }
+  $('monthly').innerHTML = m.map(x => `
+    <div>${x.month}</div><div>${num(x.y2025)}</div><div>${num(x.y2026)}</div>
+  `).join('') + `<div class="mh">Total</div><div style="font-weight:bold;background:#1a1a1a">${num(mt.y2025)}</div><div style="font-weight:bold;background:#1a1a1a">${num(mt.y2026)}</div>`;
 
   // Daily Production
   const prodData = d.daily_production || [];
   const prodTotal = prodData.reduce((sum, curr) => sum + (typeof curr.qty === 'number' ? curr.qty : 0), 0);
-  if ($('dailyProduction')) {
-    $('dailyProduction').innerHTML = prodData.map(x => `
-      <div class="prod-row"><span>${x.shift}</span><b>${num(x.qty)}</b></div>
-    `).join('') + `<div class="prod-row total-row"><span>Total</span><b>${num(prodTotal)}</b></div>`;
-  }
+  $('dailyProduction').innerHTML = prodData.map(x => `
+    <div class="prod-row"><span>${x.shift}</span><b>${num(x.qty)}</b></div>
+  `).join('') + `<div class="prod-row total-row"><span>Total</span><b>${num(prodTotal)}</b></div>`;
 
   // Trucking Stockpile
   const stockData = d.trucking_stockpile || [];
   const stockTotal = stockData.reduce((sum, curr) => sum + (typeof curr.volume === 'number' ? curr.volume : 0), 0);
-  if ($('truckingStockpile')) {
-    $('truckingStockpile').innerHTML = stockData.map(x => `
-      <div class="prod-row"><span>${x.client}</span><b>${num(x.volume)}</b></div>
-    `).join('') + `<div class="prod-row total-row"><span>Total</span><b>${num(stockTotal)}</b></div>`;
-  }
+  $('truckingStockpile').innerHTML = stockData.map(x => `
+    <div class="prod-row"><span>${x.client}</span><b>${num(x.volume)}</b></div>
+  `).join('') + `<div class="prod-row total-row"><span>Total</span><b>${num(stockTotal)}</b></div>`;
 
   // Status & Personnel
   const s = d.status || {};
-  if ($('supervisor')) $('supervisor').textContent = s.supervisor || '--';
-  if ($('checker')) $('checker').textContent = s.checker || '--';
-  if ($('pmc')) $('pmc').textContent = s.pmc || '--';
-  if ($('cranes')) $('cranes').textContent = s.cranes ?? '--';
-  if ($('forklifts')) $('forklifts').textContent = s.forklifts ?? '--';
-  if ($('stevedores')) $('stevedores').textContent = s.stevedores ?? '--';
+  $('supervisor').textContent = s.supervisor || '--';
+  $('checker').textContent = s.checker || '--';
+  $('pmc').textContent = s.pmc || '--';
+  $('cranes').textContent = s.cranes ?? '--';
+  $('forklifts').textContent = s.forklifts ?? '--';
+  $('stevedores').textContent = s.stevedores ?? '--';
 
   const alerts = rows.filter(x => x.remarks && x.remarks !== '-' && x.vessel !== 'VACANT').map(x => `${x.berth}: ${x.vessel} — ${x.remarks}`);
-  if ($('tickerText')) {
-    $('tickerText').textContent = alerts.length ? alerts.join('    •    ') : 'ALL PORT OPERATIONS NORMAL';
-  }
+  $('tickerText').textContent = alerts.length ? alerts.join('    •    ') : 'ALL PORT OPERATIONS NORMAL';
 }
 
 async function load() {
@@ -182,16 +156,14 @@ async function load() {
       render(d);
     }
   } catch (e) {
-    if ($('syncText')) {
-      $('syncText').textContent = 'ONLINE / WAITING FOR DATA';
-    }
+    $('syncText').textContent = 'ONLINE / WAITING FOR DATA';
   }
 }
 
 function clock() {
   const n = new Date();
-  if ($('phDate')) $('phDate').textContent = n.toLocaleDateString('en-PH', { weekday: 'short', year: 'numeric', month: 'short', day: '2-digit' });
-  if ($('phTime')) $('phTime').textContent = n.toLocaleTimeString('en-PH', { hour12: false });
+  $('phDate').textContent = n.toLocaleDateString('en-PH', { weekday: 'short', year: 'numeric', month: 'short', day: '2-digit' });
+  $('phTime').textContent = n.toLocaleTimeString('en-PH', { hour12: false });
 }
 
 clock();
