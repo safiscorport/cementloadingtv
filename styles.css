@@ -246,19 +246,19 @@ body {
 
   grid-template-columns:
 
-    5%      /* Berth */
-    10%     /* Vessel */
-    4%      /* Voyage # */
-    7%      /* Booking */
-    7%      /* Dispatch */
-    7%      /* Loaded */
-    7%      /* Balance */
-    8%      /* Progress */
-    7%      /* Stockpile */
-    5%      /* Time */
-    14%     /* Remarks */
-    10%     /* Deployed Equipment */
-    9%;     /* Activity Time */
+    5%     /* Berth */
+    10%    /* Vessel */
+    4%     /* Voyage # */
+    7%     /* Booking */
+    7%     /* Dispatch */
+    7%     /* Loaded */
+    7%     /* Balance */
+    8%     /* Progress */
+    7%     /* Stockpile */
+    5%     /* Time */
+    14%    /* Remarks */
+    10%    /* Deployed Equipment */
+    9%;    /* Activity Time */
 
 
   align-items: center;
@@ -501,13 +501,13 @@ body {
 
    TOTAL = 100%
 
-   Berth          6%
+   Berth         6%
    Vessel        12%
    Material      14%
    Discharge      8%
    Balance        8%
    Progress       8%
-   Time            7%
+   Time           7%
    Remarks        15%
    Equipment     12%
    Activity       10%
@@ -520,16 +520,16 @@ body {
 
   grid-template-columns:
 
-    6%      /* Berth */
-    12%     /* Vessel */
-    14%     /* Material */
-    8%      /* Discharge */
-    8%      /* Balance */
-    8%      /* Progress */
-    7%      /* Time */
-    15%     /* Remarks */
-    12%     /* Deployed Equipment */
-    10%;    /* Activity Time */
+    6%     /* Berth */
+    12%    /* Vessel */
+    14%    /* Material */
+    8%     /* Discharge */
+    8%     /* Balance */
+    8%     /* Progress */
+    7%     /* Time */
+    15%    /* Remarks */
+    12%    /* Deployed Equipment */
+    10%;   /* Activity Time */
 
 
   align-items: center;
@@ -1100,28 +1100,37 @@ body {
 
 
 /* =========================================================
-   STOPPAGE / DELAY HIGHLIGHT
+   STOPPAGE / DELAY HIGHLIGHT (SWEEPING LEFT TO RIGHT)
    ========================================================= */
 
+@keyframes stoppageSweep {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
 .stoppage-alert {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 48, 48, 0.4) 0%,
+    rgba(255, 120, 120, 0.9) 50%,
+    rgba(255, 48, 48, 0.4) 100%
+  );
+  background-size: 200% 100%;
+  animation: stoppageSweep 2s linear infinite;
 
-  background-color:
-    rgba(255, 48, 48, 0.4) !important;
-
-  color: #ff9999 !important;
-
+  color: #fff !important;
   font-weight: 900;
 
   display: block;
-
   height: 100%;
-
   width: 100%;
-
   padding: 2px 4px;
 
   overflow: hidden;
-
   text-overflow: ellipsis;
 }
 
