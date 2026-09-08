@@ -212,19 +212,19 @@ body {
 
    TOTAL = 100%
 
-   Berth              5%
-   Vessel             10%
-   Voyage              4%
-   Booking             7%
-   Dispatch            7%
-   Loaded              7%
-   Balance             7%
-   Progress            8%
-   Stockpile           7%
-   Time                5%
-   Remarks            14%
-   Equipment          10%
-   Activity Time       9%
+   Berth      5%
+   Vessel     10%
+   Voyage     4%
+   Booking    7%
+   Dispatch   7%
+   Loaded     7%
+   Balance    7%
+   Progress   8%
+   Stockpile  7%
+   Time       5%
+   Remarks    14%
+   Equipment  10%
+   Activity Time 9%
    ========================================================= */
 
 .table-header-bar,
@@ -497,16 +497,16 @@ body {
 
    TOTAL = 100%
 
-   Berth          6%
-   Vessel        12%
-   Material      14%
-   Discharge      8%
-   Balance        8%
-   Progress       8%
-   Time           7%
-   Remarks       15%
-   Equipment     12%
-   Activity      10%
+   Berth       6%
+   Vessel      12%
+   Material    14%
+   Discharge   8%
+   Balance     8%
+   Progress    8%
+   Time        7%
+   Remarks     15%
+   Equipment   12%
+   Activity    10%
    ========================================================= */
 
 .alpha-header-bar,
@@ -820,9 +820,9 @@ body {
 
   grid-template-columns:
     2fr
+    1.25fr
     1fr
-    1fr
-    1fr;
+    1.25fr;
 
   width: 100%;
   max-width: 100%;
@@ -846,13 +846,6 @@ body {
 
 /* =========================================================
    MONTHLY CONTAINER
-
-   IMPORTANT:
-   This MUST be a vertical flex container.
-
-   Each .monthly-row contains:
-
-   MONTH | 2025 | VARIANCE | 2026
    ========================================================= */
 
 .monthly {
@@ -886,9 +879,9 @@ body {
 
   grid-template-columns:
     2fr
+    1.25fr
     1fr
-    1fr
-    1fr;
+    1.25fr;
 
   width: 100%;
   max-width: 100%;
