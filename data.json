@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T23:54:37+08:00",
+  "updated_at": "2026-09-09T00:00:08+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "20:20",
       "remarks": "LOADING TONNER S51",
       "equipment": "CRANE2",
-      "activity_time": "03:07"
+      "activity_time": "03:39"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "20:28",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:59"
+      "activity_time": "03:31"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "22:14",
       "remarks": "LOADING SLING S57",
       "equipment": "0",
-      "activity_time": "01:13"
+      "activity_time": "01:45"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "22:11",
       "remarks": "LOADING TONNER S7",
       "equipment": "FL 2",
-      "activity_time": "01:16"
+      "activity_time": "01:48"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "04:27"
+      "activity_time": "04:59"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "21:00",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "02:27"
+      "activity_time": "02:59"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "17:50",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "05:37"
+      "activity_time": "06:09"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 21000,
       "progress": 0.16,
       "stockpile": 3000,
-      "time": "22:05",
-      "remarks": "LOADING SLING B5",
+      "time": "23:20",
+      "remarks": "LOADING SLING S40",
       "equipment": "0",
-      "activity_time": "01:22"
+      "activity_time": "00:39"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "23:27"
+      "activity_time": "23:59"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "23:27"
+      "activity_time": "23:59"
     },
     {
       "berth": "R3",
