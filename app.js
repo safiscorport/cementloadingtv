@@ -552,10 +552,6 @@ function render(d) {
           ${monthlyVarianceClass(variance)}
         ">
 
-          <span class="variance-label">
-            VAR
-          </span>
-
           <span class="variance-value">
             ${monthlyVarianceText(variance)}
           </span>
@@ -617,10 +613,6 @@ function render(d) {
         monthly-variance
         ${monthlyVarianceClass(totalVariance)}
       ">
-
-        <span class="variance-label">
-          VAR
-        </span>
 
         <span class="variance-value">
           ${monthlyVarianceText(totalVariance)}
