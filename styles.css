@@ -810,15 +810,21 @@ body {
 
 
 /* =========================================================
-   MONTHLY
+   MONTHLY VESSEL CEMENT LOADING
+   2025 | VARIANCE | 2026
    ========================================================= */
 
 .monthly-grid-head {
 
   display: grid;
 
+  /*
+     Month | 2025 | Variance | 2026
+  */
+
   grid-template-columns:
     2fr
+    1fr
     1fr
     1fr;
 
@@ -837,20 +843,26 @@ body {
 }
 
 
+/*
+   MONTHLY DATA
+
+   One row =
+
+   January   | 2025 | Variance | 2026
+   February  | 2025 | Variance | 2026
+   ...
+   December  | 2025 | Variance | 2026
+*/
+
 .monthly {
 
-  display: grid;
+  display: flex;
 
-  grid-template-columns:
-    2fr
-    1fr
-    1fr;
+  flex-direction: column;
 
   gap: 1px;
 
   font-size: clamp(10px, 0.68vw, 16px);
-
-  text-align: center;
 
   min-height: 0;
 
@@ -860,13 +872,45 @@ body {
 }
 
 
-.monthly div {
+/*
+   Each monthly-row contains 4 columns
+*/
+
+.monthly-row {
+
+  display: grid;
+
+  grid-template-columns:
+    2fr
+    1fr
+    1fr
+    1fr;
+
+  align-items: center;
+
+  width: 100%;
+
+  min-width: 0;
+
+  gap: 1px;
+
+  background: #1b1b1b;
+}
+
+
+/*
+   Monthly cells
+*/
+
+.monthly-row > div {
 
   padding:
     clamp(2px, 0.22vh, 5px)
     3px;
 
-  background: #1b1b1b;
+  min-width: 0;
+
+  width: 100%;
 
   white-space: nowrap;
 
@@ -874,17 +918,161 @@ body {
 
   text-overflow: ellipsis;
 
-  min-width: 0;
+  text-align: center;
+
+  background: #1b1b1b;
 }
 
 
-.monthly .mh {
+/*
+   Month name
 
-  background: #333;
+   January
+   February
+   ...
+*/
+
+.monthly-row .monthly-month {
+
+  text-align: left;
+
+  font-weight: 700;
+
+  padding-left: 6px;
+}
+
+
+/*
+   2025 VALUE
+*/
+
+.monthly-row .monthly-2025 {
+
+  text-align: center;
+}
+
+
+/*
+   VARIANCE
+
+   2026 - 2025
+*/
+
+.monthly-row .monthly-variance {
+
+  text-align: center;
 
   font-weight: 900;
 
+  border-left:
+    1px solid
+    rgba(255,255,255,.06);
+
+  border-right:
+    1px solid
+    rgba(255,255,255,.06);
+}
+
+
+/*
+   POSITIVE VARIANCE
+
+   Example:
+   +125,000
+*/
+
+.monthly-var-positive {
+
+  color: #69e6a5 !important;
+
+  font-weight: 900;
+}
+
+
+/*
+   NEGATIVE VARIANCE
+
+   Example:
+   -125,000
+*/
+
+.monthly-var-negative {
+
+  color: #ff7b7b !important;
+
+  font-weight: 900;
+}
+
+
+/*
+   ZERO / NO VARIANCE
+*/
+
+.monthly-var-zero {
+
+  color: #d9f4fc !important;
+
+  font-weight: 900;
+}
+
+
+/*
+   2026 VALUE
+*/
+
+.monthly-row .monthly-2026 {
+
+  text-align: center;
+}
+
+
+/*
+   TOTAL ROW
+
+   TOTAL | 2025 | VARIANCE | 2026
+*/
+
+.monthly-row.monthly-total {
+
+  background: #1a1a1a;
+
+  font-weight: 900;
+
+  border-top:
+    1px solid
+    #666;
+}
+
+
+.monthly-row.monthly-total > div {
+
+  background: #1a1a1a;
+
+  font-weight: 900;
+}
+
+
+/*
+   TOTAL MONTH LABEL
+*/
+
+.monthly-row.monthly-total .monthly-month {
+
+  background: #333;
+
   text-align: left;
+
+  padding-left: 6px;
+}
+
+
+/*
+   TOTAL VARIANCE
+*/
+
+.monthly-row.monthly-total .monthly-variance {
+
+  font-weight: 900;
 }
 
 
@@ -1100,37 +1288,54 @@ body {
 
 
 /* =========================================================
-   STOPPAGE / DELAY HIGHLIGHT (SWEEPING LEFT TO RIGHT)
+   STOPPAGE / DELAY HIGHLIGHT
    ========================================================= */
 
 @keyframes stoppageSweep {
+
   0% {
     background-position: 200% 0;
   }
+
   100% {
     background-position: -200% 0;
   }
+
 }
 
+
 .stoppage-alert {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 48, 48, 0.4) 0%,
-    rgba(255, 120, 120, 0.9) 50%,
-    rgba(255, 48, 48, 0.4) 100%
-  );
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255, 48, 48, 0.4) 0%,
+      rgba(255, 120, 120, 0.9) 50%,
+      rgba(255, 48, 48, 0.4) 100%
+    );
+
   background-size: 200% 100%;
-  animation: stoppageSweep 2s linear infinite;
+
+  animation:
+    stoppageSweep
+    2s
+    linear
+    infinite;
 
   color: #fff !important;
+
   font-weight: 900;
 
   display: block;
+
   height: 100%;
+
   width: 100%;
+
   padding: 2px 4px;
 
   overflow: hidden;
+
   text-overflow: ellipsis;
 }
 
@@ -1238,7 +1443,8 @@ body {
   opacity: 1;
 
   box-shadow:
-    0 0 7px rgba(108, 204, 69, 0.9);
+    0 0 7px
+    rgba(108, 204, 69, 0.9);
 }
 
 
