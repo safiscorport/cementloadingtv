@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T17:53:41+08:00",
+  "updated_at": "2026-09-08T17:55:43+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 18000,
       "progress": 0.788235294117647,
       "stockpile": 0,
-      "time": "16:15",
-      "remarks": "LOADING S41 TONNER BAGS",
+      "time": "17:15",
+      "remarks": "LOADING S36 TONNER BAGS",
       "equipment": "CRANE2 / FL3",
-      "activity_time": "01:38"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "14:10",
       "remarks": "LOADING S60 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "03:43"
+      "activity_time": "03:45"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 17000,
       "progress": 0.6222222222222222,
       "stockpile": 1000,
-      "time": "14:16",
-      "remarks": "LOADING G1 SLING BAGS",
+      "time": "17:05",
+      "remarks": "LOADING A17 SLING BAGS",
       "equipment": "FL 2",
-      "activity_time": "03:37"
+      "activity_time": "00:50"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "17:14",
       "remarks": "LOADING G3 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "13:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "04:53"
+      "activity_time": "04:55"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "04:53"
+      "activity_time": "04:55"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "16:28",
       "remarks": "COMPLETE LOADING S19",
       "equipment": "0",
-      "activity_time": "01:25"
+      "activity_time": "01:27"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 23000,
       "progress": 0.08,
       "stockpile": 0,
-      "time": "17:30",
-      "remarks": "WAITING MATERIAL",
+      "time": "17:12",
+      "remarks": "LOADING B5 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "00:23"
+      "activity_time": "00:43"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:53"
+      "activity_time": "17:55"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:53"
+      "activity_time": "17:55"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "03:51",
       "remarks": "CONTINOUS DISCHARGE FEED TO JBS",
       "equip": "1 PL DEPLOYED",
-      "activity_time": "14:02"
+      "activity_time": "14:04"
     }
   ],
   "foreign": {
