@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T06:45:13+08:00",
+  "updated_at": "2026-09-09T07:43:01+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "03:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "03:44"
+      "activity_time": "04:42"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "23:00",
       "remarks": "WAITING APLUS",
       "equipment": "0",
-      "activity_time": "07:44"
+      "activity_time": "08:42"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "00:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "06:44"
+      "activity_time": "07:42"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "04:58",
       "remarks": "LOADIN TONNER S44",
       "equipment": "CRANE 3",
-      "activity_time": "01:46"
+      "activity_time": "02:44"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "02:00",
       "remarks": "UNSAFE TO LOAD / OBSTRUCTION",
       "equipment": "FL 1",
-      "activity_time": "04:44"
+      "activity_time": "05:42"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "21:00",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "09:44"
+      "activity_time": "10:42"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "03:00",
       "remarks": "WAITING LAPULAPU",
       "equipment": "0",
-      "activity_time": "03:44"
+      "activity_time": "04:42"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "03:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:44"
+      "activity_time": "04:42"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "06:44"
+      "activity_time": "07:42"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "06:44"
+      "activity_time": "07:42"
     },
     {
       "berth": "R3",
@@ -377,7 +377,7 @@
   ],
   "status": {
     "supervisor": "BERNABE,A",
-    "checker": "DALUSA,E",
+    "checker": "TORRES J./ OBIAL R.",
     "pmc": "JOAN / WILLIAM",
     "cranes": 4,
     "forklifts": 6,
