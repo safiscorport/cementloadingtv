@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T01:04:20+08:00",
+  "updated_at": "2026-09-09T01:05:40+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -13,8 +13,8 @@
       "stockpile": 4000,
       "time": "00:50",
       "remarks": "LOADING TONNER",
-      "equipment": "CRANE2",
-      "activity_time": "00:13"
+      "equipment": "CRANE 2",
+      "activity_time": "00:15"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "23:00",
       "remarks": "WAITING APLUS",
       "equipment": "0",
-      "activity_time": "02:03"
+      "activity_time": "02:05"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "00:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 5",
@@ -73,23 +73,23 @@
       "stockpile": 1000,
       "time": "22:41",
       "remarks": "WAITING LAPULAPU",
-      "equipment": "FL 2",
-      "activity_time": "02:22"
+      "equipment": "CRANE 3",
+      "activity_time": "02:24"
     },
     {
       "berth": "Berth 6",
       "vessel": "STAR SOGOD",
       "voyage": 9,
-      "booking": 0,
+      "booking": 20000,
       "dispatch": 1000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 20000,
       "progress": 0,
       "stockpile": 1000,
       "time": "01:00",
       "remarks": "FORKLIFT ONBOARD",
-      "equipment": "0",
-      "activity_time": "00:03"
+      "equipment": "FL 1",
+      "activity_time": "00:05"
     },
     {
       "berth": "Berth 7",
@@ -103,8 +103,8 @@
       "stockpile": 0,
       "time": "21:00",
       "remarks": "LOADING COMPLETE",
-      "equipment": "CRANE 3",
-      "activity_time": "04:03"
+      "equipment": "0",
+      "activity_time": "04:05"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "01:00",
       "remarks": "WAITING SC TO ONBOARD FL",
       "equipment": "0",
-      "activity_time": "00:03"
+      "activity_time": "00:05"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "00:00",
       "remarks": "STEVEDORES BREAK",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 301500,
+    "booking": 321500,
     "dispatch": 209000,
     "loaded": 193000,
-    "balance": 108500,
-    "progress": 0.5615791615791615,
+    "balance": 128500,
+    "progress": 0.4913817663817664,
     "stockpile": 16000
   },
   "alpha": [
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "R3",
