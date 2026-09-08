@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-09-09T00:51:35+08:00",
+  "updated_at": "2026-09-09T00:54:42+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "BARGE JB 5",
       "voyage": 1,
       "booking": 85000,
-      "dispatch": 71000,
+      "dispatch": 72000,
       "loaded": 68000,
       "balance": 17000,
       "progress": 0.8,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "23:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "CRANE2",
-      "activity_time": "01:51"
+      "activity_time": "01:54"
     },
     {
       "berth": "Berth 2",
       "vessel": "JOHANNAH 7",
       "voyage": 5,
       "booking": 65000,
-      "dispatch": 48000,
+      "dispatch": 49000,
       "loaded": 48000,
       "balance": 17000,
       "progress": 0.7384615384615385,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "23:00",
       "remarks": "WAITING APLUS",
       "equipment": "0",
-      "activity_time": "01:51"
+      "activity_time": "01:54"
     },
     {
       "berth": "Berth 3",
@@ -51,15 +51,15 @@
       "vessel": "INFINITY 8",
       "voyage": 4,
       "booking": 45000,
-      "dispatch": 35000,
+      "dispatch": 36000,
       "loaded": 32000,
       "balance": 13000,
       "progress": 0.7111111111111111,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "00:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "00:51"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "22:41",
       "remarks": "WAITING LAPULAPU",
       "equipment": "FL 2",
-      "activity_time": "02:10"
+      "activity_time": "02:13"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "01:00",
       "remarks": "FORKLIFT ONBOARD",
       "equipment": "0",
-      "activity_time": "23:51"
+      "activity_time": "23:54"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "21:00",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "03:51"
+      "activity_time": "03:54"
     },
     {
       "berth": "Berth 8",
@@ -134,22 +134,22 @@
       "time": "17:50",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "07:01"
+      "activity_time": "07:04"
     },
     {
       "berth": "Berth 10",
       "vessel": "STAR FREEDOM",
       "voyage": 10,
       "booking": 25000,
-      "dispatch": 7000,
+      "dispatch": 8000,
       "loaded": 5000,
       "balance": 20000,
       "progress": 0.2,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "00:00",
       "remarks": "STEVEDORES BREAK",
       "equipment": "0",
-      "activity_time": "00:51"
+      "activity_time": "00:54"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 301500,
-    "dispatch": 205000,
+    "dispatch": 209000,
     "loaded": 193000,
     "balance": 108500,
     "progress": 0.5615791615791615,
-    "stockpile": 12000
+    "stockpile": 16000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "00:51"
+      "activity_time": "00:54"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "00:51"
+      "activity_time": "00:54"
     },
     {
       "berth": "R3",
@@ -229,26 +229,26 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 286000,
-      "daily": 26000
+      "september": 287000,
+      "daily": 27000
     },
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 79000,
-      "daily": 12000
+      "september": 80000,
+      "daily": 13000
     },
     {
       "hauler": "BADIE",
       "august": 53080,
-      "september": 17000,
-      "daily": 2000
+      "september": 18000,
+      "daily": 3000
     },
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 39000,
-      "daily": 5000
+      "september": 40000,
+      "daily": 6000
     },
     {
       "hauler": "UCES",
@@ -348,19 +348,19 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 8000
+      "volume": 9000
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 3000
+      "volume": 4000
     },
     {
       "client": "BADIE",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "GEO",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "UCES",
