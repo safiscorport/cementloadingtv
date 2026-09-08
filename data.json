@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T22:12:56+08:00",
+  "updated_at": "2026-09-08T22:16:31+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "20:20",
       "remarks": "LOADING TONNER S51",
       "equipment": "CRANE2",
-      "activity_time": "01:21"
+      "activity_time": "01:53"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "20:28",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:13"
+      "activity_time": "01:45"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "20:34",
       "remarks": "LOADING SLING S56",
       "equipment": "0",
-      "activity_time": "01:07"
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "20:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "FL 2",
-      "activity_time": "01:41"
+      "activity_time": "02:13"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "02:41"
+      "activity_time": "03:13"
     },
     {
       "berth": "Berth 7",
@@ -104,11 +104,11 @@
       "time": "21:00",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "00:41"
+      "activity_time": "01:13"
     },
     {
       "berth": "Berth 8",
-      "vessel": "0",
+      "vessel": "STAR ILIGAN",
       "voyage": 0,
       "booking": 0,
       "dispatch": 0,
@@ -134,7 +134,7 @@
       "time": "17:50",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "03:51"
+      "activity_time": "04:23"
     },
     {
       "berth": "Berth 10",
@@ -149,12 +149,12 @@
       "time": "20:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:41"
+      "activity_time": "02:13"
     },
     {
       "berth": "Jetty",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "LADY OF REMEDY",
+      "voyage": 0,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:41"
+      "activity_time": "22:13"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:41"
+      "activity_time": "22:13"
     },
     {
       "berth": "R3",
