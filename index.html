@@ -1,144 +1,3256 @@
-<!DOCTYPE html>
+```html
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cement Loading Operations Dashboard - San Fernando, Cebu</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body { background-color: #0f172a; color: #f8fafc; font-family: system-ui, -apple-system, sans-serif; }
-        .card { background-color: #1e293b; border: 1px solid #334155; }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cement Loading Operations Dashboard</title>
+<link rel="stylesheet" href="styles.css">
+
+<style>
+/* =========================================================
+   MANUAL DASHBOARD SWITCHER
+   ========================================================= */
+
+.dashboard-switcher {
+  display: flex;
+  background: rgba(10, 27, 39, 0.85);
+  border: 1px solid rgba(123, 214, 255, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-right: 15px;
+  backdrop-filter: blur(8px);
+}
+
+.switcher-btn {
+  background: transparent;
+  border: none;
+  color: rgba(225, 242, 250, 0.6);
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.switcher-btn:hover {
+  color: #fff;
+  background: rgba(58, 204, 255, 0.1);
+}
+
+.switcher-btn.active {
+  background: linear-gradient(
+    135deg,
+    rgba(58, 204, 255, 0.25),
+    rgba(20, 123, 168, 0.35)
+  );
+  color: #70ddff;
+  border-bottom: 2px solid #70ddff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+</style>
+
 </head>
-<body class="p-6 min-h-screen flex flex-col justify-between">
 
-    <!-- Header Component -->
-    <header class="flex justify-between items-center mb-6 pb-4 border-b border-slate-700">
+<body>
+
+<div class="app">
+
+  <!-- =====================================================
+       MAIN HEADER
+       ===================================================== -->
+
+  <header
+    class="topbar"
+    style="
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      position:relative;
+    "
+  >
+
+    <div
+      class="brand"
+      style="display:flex;align-items:center;"
+    >
+      <img
+        src="logo.png"
+        alt="Logo"
+        style="height:40px;object-fit:contain;"
+      >
+    </div>
+
+    <div
+      style="
+        position:absolute;
+        left:50%;
+        transform:translateX(-50%);
+        display:flex;
+        align-items:center;
+        gap:10px;
+        text-align:left;
+      "
+    >
+
+      <span class="live-dot"></span>
+
+      <div>
+        <div
+          class="title"
+          style="font-size:1.2rem;font-weight:bold;"
+        >
+          CEMENT LOADING
+        </div>
+
+        <div
+          class="subtitle"
+          style="font-size:0.75rem;opacity:0.8;"
+        >
+          PORT OPERATIONS REAL-TIME MONITORING
+        </div>
+      </div>
+
+    </div>
+
+    <div style="display:flex;align-items:center;">
+
+      <div class="dashboard-switcher">
+
+        <button
+          id="btnDash1"
+          class="switcher-btn active"
+          onclick="manualSwitchDashboard(1)"
+        >
+          DASHBOARD 1
+        </button>
+
+        <button
+          id="btnDash2"
+          class="switcher-btn"
+          onclick="manualSwitchDashboard(2)"
+        >
+          DASHBOARD 2
+        </button>
+
+      </div>
+
+      <div class="clock">
+        <div id="phDate">--</div>
+        <div id="phTime">--:--:--</div>
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- =====================================================
+       MAIN DASHBOARD
+       ===================================================== -->
+
+  <main class="main-content">
+
+    <!-- ===================================================
+         BERTH TABLE
+         =================================================== -->
+
+    <section class="table-container">
+
+      <div class="table-header-bar">
+        <span>Berth</span>
+        <span>Vessel</span>
+        <span>Voyage #</span>
+        <span>Booking</span>
+        <span>Dispatch</span>
+        <span>Loaded</span>
+        <span>Balance</span>
+        <span>Progress</span>
+        <span>Stockpile</span>
+        <span>Time</span>
+        <span>Remarks</span>
+        <span>Deployed Equip.</span>
+        <span>Activity time</span>
+      </div>
+
+      <div
+        id="berthGrid"
+        class="berth-grid-table"
+      ></div>
+
+      <div class="table-footer-bar">
+
+        <span>TOTAL</span>
+        <span></span>
+        <span></span>
+
+        <span id="totalBooking">0</span>
+        <span id="totalDispatch">0</span>
+        <span id="totalLoaded">0</span>
+        <span id="totalBalance">0</span>
+        <span id="totalProgress">0%</span>
+        <span id="totalStockpile">0</span>
+
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         BERTH A
+         =================================================== -->
+
+    <section class="table-container">
+
+      <div class="sub-section-title"></div>
+
+      <div class="alpha-header-bar">
+
+        <span>Berth A</span>
+        <span>Vessel</span>
+        <span>MATERIAL</span>
+        <span>DISCHARGE %</span>
+        <span>Balance</span>
+        <span>Progress</span>
+        <span>Time</span>
+        <span>Remarks</span>
+        <span>Deployed Equip.</span>
+        <span>Activity time</span>
+
+      </div>
+
+      <div id="alphaRows"></div>
+
+    </section>
+
+
+    <!-- ===================================================
+         BERTH F
+         =================================================== -->
+
+    <section class="table-container">
+
+      <div class="sub-section-title"></div>
+
+      <div class="alpha-header-bar">
+
+        <span>Berth F</span>
+        <span>Vessel</span>
+        <span>MATERIAL</span>
+        <span>DISCHARGE %</span>
+        <span>Balance</span>
+        <span>Progress</span>
+        <span>Time</span>
+        <span>Remarks</span>
+        <span>Deployed Equip.</span>
+        <span>Activity time</span>
+
+      </div>
+
+      <div
+        id="foreignRow"
+        class="alpha-row"
+      ></div>
+
+    </section>
+
+
+    <!-- ===================================================
+         ANALYTICS
+         =================================================== -->
+
+    <section class="analytics-grid">
+
+      <!-- TRUCKING -->
+
+      <div class="panel">
+
+        <div
+          class="panel-title"
+          style="
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+          "
+        >
+
+          <span style="flex:1;text-align:left;">
+            Trucking
+          </span>
+
+          <span style="flex:1;text-align:left;">
+            August
+          </span>
+
+          <span style="flex:1;text-align:left;">
+            September
+          </span>
+
+          <span style="flex:1;text-align:left;">
+            Daily
+          </span>
+
+        </div>
+
+        <div
+          id="trucking"
+          class="table-mini"
+        ></div>
+
+      </div>
+
+
+      <!-- MONTHLY VESSEL CEMENT LOADING -->
+
+      <div class="panel">
+
+        <div class="panel-title">
+          Vessel Cement Loading
+        </div>
+
+        <div class="monthly-grid-head">
+          <span></span>
+          <span>2025</span>
+          <span>2026</span>
+        </div>
+
+        <div
+          id="monthly"
+          class="monthly"
+        ></div>
+
+      </div>
+
+
+      <!-- STACKED PANELS -->
+
+      <div class="stack-panel">
+
+        <div class="panel">
+
+          <div class="panel-title">
+            Cement loading Daily Production
+          </div>
+
+          <div
+            id="dailyProduction"
+            class="production"
+          ></div>
+
+        </div>
+
+
+        <div class="panel">
+
+          <div class="panel-title">
+            TRUCKING (STOCKPILE)
+          </div>
+
+          <div
+            id="truckingStockpile"
+            class="production"
+          ></div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+
+  <footer class="footer-bar">
+
+    <div class="footer-group">
+
+      <div class="f-item">
+        <span>Supervisor</span>
+        <b id="supervisor">--</b>
+      </div>
+
+      <div class="f-item">
+        <span>Checker</span>
+        <b id="checker">--</b>
+      </div>
+
+      <div class="f-item">
+        <span>PMC</span>
+        <b id="pmc">--</b>
+      </div>
+
+    </div>
+
+
+    <div class="footer-group">
+
+      <div class="f-item">
+
+        <span>Equipment Available</span>
+
         <div>
-            <h1 class="text-2xl font-bold tracking-wide">PORT OPERATIONS DASHBOARD</h1>
-            <p class="text-sm text-slate-400">San Fernando, Cebu | Cement Loading Terminal</p>
-        </div>
-        <div class="flex items-center gap-6">
-            <div class="text-right">
-                <div id="phTime" class="text-xl font-mono font-bold text-cyan-400">--:--:--</div>
-                <div id="phDate" class="text-xs text-slate-400">----</div>
-            </div>
-            <div class="flex gap-2">
-                <button id="btnDash1" class="px-4 py-2 bg-cyan-600 text-white rounded font-medium text-sm">Dashboard 1</button>
-                <button id="btnDash2" class="px-4 py-2 bg-slate-700 text-slate-300 rounded font-medium text-sm">History View</button>
-            </div>
-        </div>
-    </header>
+          Crane:
+          <b id="cranes">--</b>
 
-    <!-- Main Content Area -->
-    <main class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
-        
-        <!-- Berth Monitoring Grid -->
-        <div class="lg:col-span-2 card p-5 rounded-lg">
-            <h2 class="text-lg font-semibold mb-4 text-cyan-400">Active Berth Monitoring</h2>
-            <div id="berthGrid" class="overflow-x-auto">
-                <table class="w-full text-left border-collapse text-sm">
-                    <thead>
-                        <tr class="border-b border-slate-700 text-slate-400">
-                            <th class="py-2">Berth</th>
-                            <th class="py-2">Vessel</th>
-                            <th class="py-2">Status</th>
-                            <th class="py-2 text-right">Loaded (MT)</th>
-                            <th class="py-2 text-right">Progress</th>
-                        </tr>
-                    </thead>
-                    <tbody class="divide-y divide-slate-800">
-                        <tr>
-                            <td class="py-3 font-medium">Berth A</td>
-                            <td class="py-3">MV Island Carrier</td>
-                            <td class="py-3"><span class="px-2 py-1 bg-emerald-900/50 text-emerald-400 rounded text-xs">Loading</span></td>
-                            <td class="py-3 text-right">14,500</td>
-                            <td class="py-3 text-right text-cyan-300">78%</td>
-                        </tr>
-                        <tr>
-                            <td class="py-3 font-medium">Berth F</td>
-                            <td class="py-3">MV Cebu Pioneer</td>
-                            <td class="py-3"><span class="px-2 py-1 bg-amber-900/50 text-amber-400 rounded text-xs">Mooring</span></td>
-                            <td class="py-3 text-right">0</td>
-                            <td class="py-3 text-right text-cyan-300">0%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+          &nbsp;|&nbsp;
+
+          Forklift:
+          <b id="forklifts">--</b>
         </div>
 
-        <!-- Vessel Cement Loading Annual Comparison with Variance -->
-        <div class="card p-5 rounded-lg flex flex-col justify-between">
-            <div>
-                <h2 class="text-lg font-semibold mb-4 text-cyan-400">Annual Loading Performance</h2>
-                <div class="space-y-4">
-                    <div class="flex justify-between items-center border-b border-slate-800 pb-2">
-                        <span class="text-slate-400 text-sm">2025 Total (MT)</span>
-                        <span id="val-2025" class="font-mono font-bold">450,200</span>
-                    </div>
-                    <div class="flex justify-between items-center border-b border-slate-800 pb-2">
-                        <span class="text-slate-400 text-sm">2026 YTD (MT)</span>
-                        <span id="val-2026" class="font-mono font-bold">482,900</span>
-                    </div>
-                    <div class="flex justify-between items-center pt-1">
-                        <span class="text-slate-300 text-sm font-medium">YoY Variance</span>
-                        <span id="variance-output" class="font-mono font-bold text-base">--</span>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-6 text-xs text-slate-500 text-center">
-                Auto-calculated variance updated in real-time.
-            </div>
+      </div>
+
+      <div class="f-item">
+
+        <span># of stevedor Per Shift</span>
+
+        <b id="stevedores">--</b>
+
+      </div>
+
+    </div>
+
+
+    <div class="ticker-wrap">
+
+      <div class="ticker-label">
+        WEATHER
+      </div>
+
+      <div class="ticker">
+
+        <div id="weatherTicker">
+          Loading weather data...
         </div>
 
-    </main>
+      </div>
 
-    <!-- Footer / Weather Ticker -->
-    <footer class="card p-4 rounded-lg flex flex-col md:flex-row justify-between items-center text-xs text-slate-400 gap-4">
-        <div>Supervisor: <span class="text-slate-200">J. Ramos</span> | Checker: <span class="text-slate-200">M. Santos</span></div>
-        <div id="weatherTicker" class="text-cyan-300">Fetching live weather for San Fernando, Cebu...</div>
-        <div>Status: <span class="text-emerald-400 font-semibold">● Synchronized</span></div>
-    </footer>
+    </div>
 
-    <script>
-        // Real-Time Clock Function
-        function updateClock() {
-            const now = new Date();
-            const optionsDate = { timeZone: 'Asia/Manila', year: 'numeric', month: 'short', day: 'numeric' };
-            const optionsTime = { timeZone: 'Asia/Manila', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
-            
-            document.getElementById('phDate').innerText = now.toLocaleDateString('en-US', optionsDate);
-            document.getElementById('phTime').innerText = now.toLocaleTimeString('en-US', optionsTime);
+
+    <div class="footer-right">
+
+      <span id="syncText">
+        CONNECTING
+      </span>
+
+      &bull;
+
+      <b id="refreshSec">
+        10s
+      </b>
+
+    </div>
+
+  </footer>
+
+</div>
+
+
+<!-- =======================================================
+     DASHBOARD 2 / HISTORY SCREEN
+     ======================================================= -->
+
+<style>
+
+/* =========================================================
+   MODERN CEMENT HISTORY TV DISPLAY
+   ========================================================= */
+
+#historyScreen {
+
+  position:fixed;
+  inset:0;
+  z-index:9999;
+  display:none;
+  overflow:hidden;
+
+  color:#edf8ff;
+
+  font-family:
+    Inter,
+    Segoe UI,
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  background:
+    radial-gradient(
+      900px 500px at 78% 8%,
+      rgba(0,195,255,.13),
+      transparent 65%
+    ),
+    radial-gradient(
+      700px 500px at 15% 90%,
+      rgba(255,170,50,.07),
+      transparent 70%
+    ),
+    linear-gradient(
+      135deg,
+      #02070c 0%,
+      #06121b 48%,
+      #02060a 100%
+    );
+}
+
+
+#historyScreen.show {
+
+  display:flex;
+
+  animation:
+    historyModernIn
+    .65s
+    cubic-bezier(.2,.75,.2,1)
+    both;
+
+}
+
+
+@keyframes historyModernIn {
+
+  from {
+    opacity:0;
+    transform:scale(1.018);
+  }
+
+  to {
+    opacity:1;
+    transform:scale(1);
+  }
+
+}
+
+
+#historyScreen::before {
+
+  content:"";
+
+  position:absolute;
+  inset:0;
+
+  pointer-events:none;
+
+  opacity:.16;
+
+  background:
+    linear-gradient(
+      115deg,
+      transparent 0 44%,
+      rgba(88,213,255,.13) 50%,
+      transparent 56%
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255,255,255,.018) 0 1px,
+      transparent 1px 4px
+    );
+
+}
+
+
+.history-grid {
+
+  position:absolute;
+  inset:0;
+
+  opacity:.055;
+
+  pointer-events:none;
+
+  background-image:
+    linear-gradient(
+      rgba(77,202,255,.7) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(77,202,255,.7) 1px,
+      transparent 1px
+    );
+
+  background-size:52px 52px;
+
+  mask-image:
+    linear-gradient(
+      to bottom,
+      black,
+      transparent 88%
+    );
+
+}
+
+
+.history-orb {
+
+  position:absolute;
+
+  width:42vw;
+  height:42vw;
+
+  right:-16vw;
+  top:-25vw;
+
+  border-radius:50%;
+
+  border:
+    1px solid rgba(94,215,255,.12);
+
+  box-shadow:
+    0 0 100px rgba(0,180,255,.07),
+    inset 0 0 100px rgba(0,180,255,.04);
+
+  pointer-events:none;
+
+}
+
+
+.history-content {
+
+  position:relative;
+  z-index:2;
+
+  width:100%;
+  height:100%;
+
+  display:flex;
+  flex-direction:column;
+
+  padding:
+    2.1vh
+    2.4vw
+    1.5vh;
+
+  box-sizing:border-box;
+
+}
+
+
+.history-head {
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:space-between;
+
+  gap:30px;
+
+  padding:
+    0
+    0
+    1.7vh;
+
+  border-bottom:
+    1px solid
+    rgba(140,220,255,.13);
+
+}
+
+
+.history-brand {
+
+  display:flex;
+
+  align-items:center;
+
+  gap:14px;
+
+}
+
+
+.history-brand-mark {
+
+  width:44px;
+  height:44px;
+
+  border-radius:12px;
+
+  display:grid;
+
+  place-items:center;
+
+  color:#75ddff;
+
+  font-size:22px;
+
+  font-weight:900;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(55,200,255,.18),
+      rgba(55,200,255,.04)
+    );
+
+  border:
+    1px solid
+    rgba(91,215,255,.25);
+
+  box-shadow:
+    0 0 24px
+    rgba(0,190,255,.08);
+
+}
+
+
+.history-kicker {
+
+  font-size:
+    clamp(
+      10px,
+      .72vw,
+      14px
+    );
+
+  letter-spacing:.24em;
+
+  color:#68d8ff;
+
+  font-weight:800;
+
+  text-transform:uppercase;
+
+}
+
+
+.history-title {
+
+  margin-top:.25vh;
+
+  font-size:
+    clamp(
+      25px,
+      2.55vw,
+      48px
+    );
+
+  line-height:1;
+
+  font-weight:900;
+
+  letter-spacing:.035em;
+
+}
+
+
+.history-sub {
+
+  margin-top:.65vh;
+
+  font-size:
+    clamp(
+      10px,
+      .75vw,
+      14px
+    );
+
+  color:
+    rgba(
+      225,
+      242,
+      250,
+      .55
+    );
+
+  letter-spacing:.04em;
+
+}
+
+
+.history-clock {
+
+  min-width:180px;
+
+  text-align:right;
+
+}
+
+
+.history-clock-label {
+
+  color:
+    rgba(
+      225,
+      242,
+      250,
+      .42
+    );
+
+  font-size:10px;
+
+  letter-spacing:.18em;
+
+  margin-bottom:4px;
+
+}
+
+
+#historyTime {
+
+  font-size:
+    clamp(
+      19px,
+      1.55vw,
+      30px
+    );
+
+  font-weight:850;
+
+  letter-spacing:.06em;
+
+}
+
+
+#historyDate {
+
+  margin-top:3px;
+
+  color:#6edcff;
+
+  font-size:
+    clamp(
+      10px,
+      .72vw,
+      14px
+    );
+
+  font-weight:700;
+
+}
+
+
+/* =========================================================
+   HISTORY MAIN
+   ========================================================= */
+
+.history-main {
+
+  flex:1;
+
+  min-height:0;
+
+  display:grid;
+
+  grid-template-columns:
+    minmax(0,1.72fr)
+    minmax(280px,.72fr);
+
+  gap:1.25vw;
+
+  padding-top:1.45vh;
+
+}
+
+
+.history-card {
+
+  min-height:0;
+
+  position:relative;
+
+  overflow:hidden;
+
+  display:flex;
+
+  flex-direction:column;
+
+  padding:
+    1.2vw
+    1.3vw;
+
+  border-radius:18px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(10,27,39,.88),
+      rgba(3,12,19,.91)
+    );
+
+  border:
+    1px solid
+    rgba(123,214,255,.14);
+
+  box-shadow:
+    0 20px 60px rgba(0,0,0,.28),
+    inset 0 1px 0
+    rgba(255,255,255,.035);
+
+  backdrop-filter:blur(12px);
+
+}
+
+
+.history-card::after {
+
+  content:"";
+
+  position:absolute;
+  inset:0;
+
+  pointer-events:none;
+
+  background:
+    linear-gradient(
+      120deg,
+      rgba(83,211,255,.045),
+      transparent 35%,
+      rgba(255,184,72,.025)
+    );
+
+}
+
+
+.history-chart-head {
+
+  position:relative;
+  z-index:1;
+
+  display:flex;
+
+  align-items:flex-end;
+
+  justify-content:space-between;
+
+  gap:20px;
+
+  margin-bottom:.4vh;
+
+}
+
+
+.history-card-title {
+
+  font-size:
+    clamp(
+      12px,
+      .9vw,
+      18px
+    );
+
+  font-weight:850;
+
+  letter-spacing:.12em;
+
+}
+
+
+.history-card-title span {
+
+  color:#6bdcff;
+
+}
+
+
+.history-chart-meta {
+
+  font-size:
+    clamp(
+      9px,
+      .65vw,
+      12px
+    );
+
+  color:
+    rgba(
+      230,
+      245,
+      252,
+      .42
+    );
+
+  letter-spacing:.05em;
+
+}
+
+
+#annualChart {
+
+  position:relative;
+
+  z-index:1;
+
+  width:100%;
+
+  height:100%;
+
+  min-height:310px;
+
+  display:block;
+
+}
+
+
+/* =========================================================
+   HISTORY TABLE
+   ========================================================= */
+
+.history-side-title {
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:space-between;
+
+  margin-bottom:1vh;
+
+}
+
+
+.history-side-title .live {
+
+  font-size:9px;
+
+  color:#67dcff;
+
+  letter-spacing:.14em;
+
+  font-weight:800;
+
+}
+
+
+.history-table-wrap {
+
+  min-height:0;
+
+  overflow:hidden;
+
+  border-radius:12px;
+
+  border:
+    1px solid
+    rgba(255,255,255,.06);
+
+}
+
+
+.history-table {
+
+  width:100%;
+
+  border-collapse:collapse;
+
+  font-size:
+    clamp(
+      10px,
+      .72vw,
+      14px
+    );
+
+}
+
+
+.history-table th,
+.history-table td {
+
+  padding:
+    .72vh
+    .75vw;
+
+  border-bottom:
+    1px solid
+    rgba(255,255,255,.055);
+
+  text-align:right;
+
+}
+
+
+.history-table th:first-child,
+.history-table td:first-child {
+
+  text-align:left;
+
+}
+
+
+.history-table th {
+
+  color:
+    rgba(
+      214,
+      239,
+      249,
+      .48
+    );
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      .025
+    );
+
+  font-size:9px;
+
+  letter-spacing:.13em;
+
+}
+
+
+.history-table tr:last-child td {
+
+  border-bottom:0;
+
+}
+
+
+/* CURRENT 2026 ROW */
+
+.history-table .current {
+
+  color:#fff;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(58,204,255,.09),
+      rgba(58,204,255,.025)
+    );
+
+}
+
+
+.history-table .current td:last-child {
+
+  color:#6fe0ff;
+
+  font-weight:900;
+
+}
+
+
+/* =========================================================
+   VARIANCE
+   ========================================================= */
+
+.history-table th:nth-child(2),
+.history-table td:nth-child(2) {
+
+  text-align:right;
+
+}
+
+
+.history-table th:nth-child(3),
+.history-table td:nth-child(3) {
+
+  text-align:right;
+
+  white-space:nowrap;
+
+}
+
+
+.variance-positive {
+
+  color:#69e6a5 !important;
+
+  font-weight:900;
+
+}
+
+
+.variance-negative {
+
+  color:#ff7b7b !important;
+
+  font-weight:900;
+
+}
+
+
+.variance-zero {
+
+  color:#d9f4fc !important;
+
+  font-weight:900;
+
+}
+
+
+.history-table .current td:nth-child(3) {
+
+  font-weight:900;
+
+}
+
+
+/* =========================================================
+   HISTORY KPIs
+   ========================================================= */
+
+.history-kpis {
+
+  display:grid;
+
+  grid-template-columns:
+    repeat(3,1fr);
+
+  gap:.65vw;
+
+  margin-top:.8vh;
+
+}
+
+
+.history-kpi {
+
+  padding:
+    .8vh
+    .7vw;
+
+  border-radius:11px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      .025
+    );
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      .055
+    );
+
+}
+
+
+.history-kpi-label {
+
+  color:
+    rgba(
+      220,
+      240,
+      248,
+      .38
+    );
+
+  font-size:8px;
+
+  letter-spacing:.12em;
+
+  text-transform:uppercase;
+
+}
+
+
+.history-kpi-value {
+
+  margin-top:.35vh;
+
+  font-size:
+    clamp(
+      12px,
+      1vw,
+      18px
+    );
+
+  font-weight:900;
+
+}
+
+
+/* =========================================================
+   HISTORY NOTE
+   ========================================================= */
+
+.history-note {
+
+  margin-top:auto;
+
+  padding-top:1vh;
+
+  font-size:
+    clamp(
+      9px,
+      .58vw,
+      11px
+    );
+
+  color:
+    rgba(
+      225,
+      242,
+      250,
+      .38
+    );
+
+  line-height:1.45;
+
+}
+
+
+/* =========================================================
+   HISTORY FOOTER
+   ========================================================= */
+
+.history-foot {
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:space-between;
+
+  gap:20px;
+
+  padding-top:1vh;
+
+  font-size:
+    clamp(
+      9px,
+      .62vw,
+      12px
+    );
+
+  color:
+    rgba(
+      225,
+      242,
+      250,
+      .45
+    );
+
+}
+
+
+.history-live {
+
+  color:#70ddff;
+
+  font-weight:850;
+
+  letter-spacing:.14em;
+
+}
+
+
+.history-live::before {
+
+  content:"";
+
+  display:inline-block;
+
+  width:7px;
+  height:7px;
+
+  margin-right:7px;
+
+  border-radius:50%;
+
+  background:#67dcff;
+
+  box-shadow:
+    0 0 12px #67dcff;
+
+  animation:
+    historyPulse
+    1.3s
+    infinite;
+
+}
+
+
+@keyframes historyPulse {
+
+  0%,100% {
+    opacity:1;
+    transform:scale(1);
+  }
+
+  50% {
+    opacity:.45;
+    transform:scale(.75);
+  }
+
+}
+
+
+/* =========================================================
+   PROGRESS BAR
+   ========================================================= */
+
+.history-progress {
+
+  height:3px;
+
+  margin-top:.65vh;
+
+  overflow:hidden;
+
+  border-radius:4px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      .07
+    );
+
+}
+
+
+.history-progress > div {
+
+  height:100%;
+
+  width:0;
+
+  background:
+    linear-gradient(
+      90deg,
+      #3ccfff,
+      #8ee8ff
+    );
+
+  box-shadow:
+    0 0 14px
+    rgba(
+      72,
+      211,
+      255,
+      .8
+    );
+
+  transition:
+    width .2s linear;
+
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media(max-width:1050px) {
+
+  .history-main {
+
+    grid-template-columns:1fr;
+
+  }
+
+  .history-card:nth-child(2) {
+
+    display:none;
+
+  }
+
+}
+
+
+@media(max-height:700px) {
+
+  .history-content {
+
+    padding-top:1.3vh;
+
+  }
+
+  .history-title {
+
+    font-size:2.2vw;
+
+  }
+
+  .history-card {
+
+    padding:.8vw 1vw;
+
+  }
+
+}
+
+</style>
+
+
+<div
+  id="historyScreen"
+  aria-label="Historical cement loading graph"
+>
+
+  <div class="history-grid"></div>
+
+  <div class="history-orb"></div>
+
+
+  <div class="history-content">
+
+    <!-- ===================================================
+         HISTORY HEADER
+         =================================================== -->
+
+    <div class="history-head">
+
+      <div class="history-brand">
+
+        <div class="history-brand-mark">
+          ⚓
+        </div>
+
+        <div>
+
+          <div class="history-kicker">
+            Port Operations • Performance History
+          </div>
+
+          <div class="history-title">
+            CEMENT LOADING 2020–2026
+          </div>
+
+          <div class="history-sub">
+            Annual vessel cement loading •
+            2020–2025 fixed history •
+            2026 LIVE
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div
+        style="
+          display:flex;
+          align-items:center;
+          gap:20px;
+        "
+      >
+
+        <div class="dashboard-switcher">
+
+          <button
+            id="hBtnDash1"
+            class="switcher-btn"
+            onclick="manualSwitchDashboard(1)"
+          >
+            DASHBOARD 1
+          </button>
+
+          <button
+            id="hBtnDash2"
+            class="switcher-btn active"
+            onclick="manualSwitchDashboard(2)"
+          >
+            DASHBOARD 2
+          </button>
+
+        </div>
+
+
+        <div class="history-clock">
+
+          <div class="history-clock-label">
+            PHILIPPINE STANDARD TIME
+          </div>
+
+          <div id="historyTime">
+            --:--:--
+          </div>
+
+          <div id="historyDate">
+            --
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- ===================================================
+         HISTORY MAIN CONTENT
+         =================================================== -->
+
+    <div class="history-main">
+
+      <!-- =================================================
+           ANNUAL GRAPH
+           ================================================= -->
+
+      <section class="history-card">
+
+        <div class="history-chart-head">
+
+          <div class="history-card-title">
+            ANNUAL LOADING
+            <span>/ CEMENT BAGS</span>
+          </div>
+
+          <div class="history-chart-meta">
+            2020 → 2026 • YEARLY PERFORMANCE
+          </div>
+
+        </div>
+
+
+        <svg
+          id="annualChart"
+          viewBox="0 0 1000 560"
+          preserveAspectRatio="none"
+        ></svg>
+
+      </section>
+
+
+      <!-- =================================================
+           YEARLY TOTALS + VARIANCE
+           ================================================= -->
+
+      <section class="history-card">
+
+        <div class="history-side-title">
+
+          <div class="history-card-title">
+            YEARLY TOTALS
+          </div>
+
+          <div class="live">
+            ● LIVE 2026
+          </div>
+
+        </div>
+
+
+        <div class="history-table-wrap">
+
+          <table class="history-table">
+
+            <thead>
+
+              <tr>
+
+                <th>
+                  YEAR
+                </th>
+
+                <th>
+                  LOADING (BAGS)
+                </th>
+
+                <th>
+                  VARIANCE
+                </th>
+
+              </tr>
+
+            </thead>
+
+
+            <tbody id="historyTotals"></tbody>
+
+          </table>
+
+        </div>
+
+
+        <!-- =================================================
+             KPI CARDS
+             ================================================= -->
+
+        <div class="history-kpis">
+
+          <div class="history-kpi">
+
+            <div class="history-kpi-label">
+              2020–2025 Avg.
+            </div>
+
+            <div
+              class="history-kpi-value"
+              id="historyAvg"
+            >
+              —
+            </div>
+
+          </div>
+
+
+          <div class="history-kpi">
+
+            <div class="history-kpi-label">
+              Peak Year
+            </div>
+
+            <div
+              class="history-kpi-value"
+              id="historyPeak"
+            >
+              —
+            </div>
+
+          </div>
+
+
+          <div class="history-kpi">
+
+            <div class="history-kpi-label">
+              Latest
+            </div>
+
+            <div
+              class="history-kpi-value"
+              id="historyLatest"
+            >
+              —
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="history-note">
+
+          2020–2025 values are transcribed from the
+          supplied cement-loading report.
+          2026 is automatically linked to the live
+          dashboard total and refreshes with the
+          operational data.
+
+        </div>
+
+      </section>
+
+    </div>
+
+
+    <!-- ===================================================
+         HISTORY FOOTER
+         =================================================== -->
+
+    <div class="history-foot">
+
+      <div class="history-live">
+        ● LIVE HISTORY DISPLAY
+      </div>
+
+      <div id="historyCountdown">
+        RETURNING TO LIVE DASHBOARD
+      </div>
+
+    </div>
+
+
+    <div class="history-progress">
+
+      <div id="historyProgressBar"></div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =======================================================
+     SCRIPTS
+     ======================================================= -->
+
+<script src="app.js"></script>
+
+
+<script>
+
+/* =========================================================
+   WEATHER
+   ========================================================= */
+
+async function loadWeather(){
+
+  try{
+
+    const response = await fetch(
+      "https://api.open-meteo.com/v1/forecast?latitude=10.3157&longitude=123.8854&current=temperature_2m,relative_humidity_2m,wind_speed_10m&hourly=precipitation_probability&timezone=Asia%2FManila"
+    );
+
+    const data = await response.json();
+
+    const temp =
+      data.current.temperature_2m;
+
+    const humidity =
+      data.current.relative_humidity_2m;
+
+    const wind =
+      data.current.wind_speed_10m;
+
+    const rain =
+      data.hourly.precipitation_probability[0];
+
+    const now =
+      new Date();
+
+    const time =
+      now.toLocaleTimeString(
+        'en-PH',
+        {
+          hour:'2-digit',
+          minute:'2-digit'
         }
-        setInterval(updateClock, 1000);
-        updateClock();
+      );
 
-        // Dynamic Variance Calculation Logic
-        function calculateVariance() {
-            const v2025 = parseFloat(document.getElementById('val-2025').innerText.replace(/,/g, '')) || 0;
-            const v2026 = parseFloat(document.getElementById('val-2026').innerText.replace(/,/g, '')) || 0;
-            const variance = v2026 - v2025;
-            const percentage = v2025 > 0 ? ((variance / v2025) * 100).toFixed(1) : 0;
-            
-            const outputCell = document.getElementById('variance-output');
-            const sign = variance >= 0 ? '+' : '';
-            outputCell.innerText = `${sign}${variance.toLocaleString()} MT (${sign}${percentage}%)`;
-            outputCell.className = variance >= 0 ? 'font-mono font-bold text-base text-emerald-400' : 'font-mono font-bold text-base text-red-400';
+
+    document.getElementById(
+      "weatherTicker"
+    ).innerHTML =
+
+      "🌤 CEBU SAN FERNANDO | " +
+
+      "🌡 " +
+      temp +
+      "°C | " +
+
+      "💧 Humidity " +
+      humidity +
+      "% | " +
+
+      "🌧 Rain " +
+      rain +
+      "% | " +
+
+      "💨 Wind " +
+      wind +
+      " km/h | " +
+
+      "🕒 Updated " +
+      time +
+      " |";
+
+
+  }catch(e){
+
+    document.getElementById(
+      "weatherTicker"
+    ).innerHTML =
+      "Unable to load weather.";
+
+  }
+
+}
+
+
+loadWeather();
+
+setInterval(
+  loadWeather,
+  3600000
+);
+
+
+/* =========================================================
+   DASHBOARD ROTATION
+   ========================================================= */
+
+const DASHBOARD_DURATION_MS =
+  3 * 60 * 1000;
+
+const HISTORY_DURATION_MS =
+  3 * 60 * 1000;
+
+
+/* =========================================================
+   FIXED HISTORY DATA
+   ========================================================= */
+
+const CEMENT_HISTORY_TOTALS = {
+
+  2020: 22643900,
+
+  2021: 17720877,
+
+  2022: 13217702,
+
+  2023: 13814103,
+
+  2024: 15050541,
+
+  2025: 16616958,
+
+  2026: null
+
+};
+
+
+let LIVE_2026_TOTAL = null;
+
+let LIVE_2026_UPDATED_AT = null;
+
+let manualOverride = false;
+
+
+/* =========================================================
+   GET LIVE 2026
+   ========================================================= */
+
+function get2026Total(){
+
+  return Number.isFinite(
+    LIVE_2026_TOTAL
+  )
+    ? LIVE_2026_TOTAL
+    : null;
+
+}
+
+
+/* =========================================================
+   LOAD LIVE 2026 DATA
+   ========================================================= */
+
+async function loadLive2026(){
+
+  try{
+
+    const response =
+      await fetch(
+        "data.json?t=" +
+        Date.now(),
+        {
+          cache:"no-store"
         }
-        calculateVariance();
+      );
 
-        // Fetch Open-Meteo Weather for San Fernando, Cebu (Lat: 10.23, Long: 123.71)
-        async function fetchWeather() {
-            try {
-                const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=10.23&longitude=123.71&current=temperature_2m,weather_code');
-                const data = await response.json();
-                const temp = data.current.temperature_2m;
-                document.getElementById('weatherTicker').innerText = `San Fernando Weather: ${temp}°C | Clear Conditions`;
-            } catch (error) {
-                document.getElementById('weatherTicker').innerText = 'San Fernando Weather: Live feed operational';
+
+    if(!response.ok)
+
+      throw new Error(
+        "HTTP " +
+        response.status
+      );
+
+
+    const data =
+      await response.json();
+
+
+    let total2026 = null;
+
+
+    /* -----------------------------------------------
+       METHOD 1:
+       monthly_total.y2026
+       ----------------------------------------------- */
+
+    if(
+      data.monthly_total &&
+      data.monthly_total.y2026 !== undefined
+    ){
+
+      const n =
+        Number(
+          String(
+            data.monthly_total.y2026
+          ).replace(/,/g,"")
+        );
+
+
+      if(
+        Number.isFinite(n) &&
+        n >= 0
+      ){
+
+        total2026 = n;
+
+      }
+
+    }
+
+
+    /* -----------------------------------------------
+       METHOD 2:
+       CALCULATE FROM MONTHLY DATA
+       ----------------------------------------------- */
+
+    if(
+      total2026 === null &&
+      Array.isArray(data.monthly)
+    ){
+
+      const calculated =
+        data.monthly.reduce(
+          (sum,row)=>{
+
+            const n =
+              Number(
+                String(
+                  row.y2026 ?? 0
+                ).replace(/,/g,"")
+              );
+
+
+            return sum +
+              (
+                Number.isFinite(n)
+                  ? n
+                  : 0
+              );
+
+          },
+          0
+        );
+
+
+      total2026 =
+        calculated;
+
+    }
+
+
+    /* -----------------------------------------------
+       UPDATE LIVE VALUE
+       ----------------------------------------------- */
+
+    if(total2026 !== null){
+
+      const changed =
+        LIVE_2026_TOTAL !==
+        total2026;
+
+
+      LIVE_2026_TOTAL =
+        total2026;
+
+
+      LIVE_2026_UPDATED_AT =
+        data.updated_at ||
+        null;
+
+
+      CEMENT_HISTORY_TOTALS[2026] =
+        total2026;
+
+
+      if(
+        changed ||
+        document
+          .getElementById("historyScreen")
+          ?.classList
+          .contains("show")
+      ){
+
+        renderHistoryTotals();
+
+      }
+
+    }
+
+
+  }catch(error){
+
+    console.warn(
+      "[Dashboard 2] Unable to load live 2026 data:",
+      error
+    );
+
+  }
+
+}
+
+
+/* =========================================================
+   UPDATE FROM DASHBOARD 1
+   ========================================================= */
+
+window.updateHistoryFromDashboard =
+  function(){
+
+    const live =
+      get2026Total();
+
+
+    CEMENT_HISTORY_TOTALS[2026] =
+      live;
+
+
+    const historyScreen =
+      document.getElementById(
+        "historyScreen"
+      );
+
+
+    if(
+      historyScreen &&
+      historyScreen.classList.contains(
+        "show"
+      )
+    ){
+
+      renderHistoryTotals();
+
+    }
+
+  };
+
+
+/* =========================================================
+   NUMBER FORMAT
+   ========================================================= */
+
+function formatMT(v){
+
+  return v == null
+    ? "—"
+    : Math.round(v)
+        .toLocaleString("en-PH");
+
+}
+
+
+/* =========================================================
+   HISTORY CLOCK
+   ========================================================= */
+
+function updateHistoryClock(){
+
+  const now =
+    new Date();
+
+
+  document.getElementById(
+    "historyDate"
+  ).textContent =
+
+    now.toLocaleDateString(
+      "en-PH",
+      {
+        weekday:"short",
+        year:"numeric",
+        month:"short",
+        day:"2-digit"
+      }
+    );
+
+
+  document.getElementById(
+    "historyTime"
+  ).textContent =
+
+    now.toLocaleTimeString(
+      "en-PH",
+      {
+        hour:"2-digit",
+        minute:"2-digit",
+        second:"2-digit"
+      }
+    );
+
+}
+
+
+setInterval(
+  updateHistoryClock,
+  1000
+);
+
+
+/* =========================================================
+   ANNUAL CHART
+   ========================================================= */
+
+function drawAnnualChart(){
+
+  const svg =
+    document.getElementById(
+      "annualChart"
+    );
+
+
+  const data =
+    Object.entries(
+      CEMENT_HISTORY_TOTALS
+    ).map(
+      ([year,value])=>({
+        year,
+        value
+      })
+    );
+
+
+  data[6].value =
+    get2026Total();
+
+
+  const W = 1000;
+
+  const H = 560;
+
+  const L = 78;
+
+  const R = 34;
+
+  const T = 48;
+
+  const B = 78;
+
+
+  const plotW =
+    W - L - R;
+
+  const plotH =
+    H - T - B;
+
+
+  const vals =
+    data
+      .map(
+        d => d.value
+      )
+      .filter(
+        v => Number.isFinite(v)
+      );
+
+
+  const maxRaw =
+    Math.max(
+      ...vals,
+      1
+    );
+
+
+  const max =
+    Math.ceil(
+      maxRaw / 5000000
+    ) * 5000000;
+
+
+  const step =
+    plotW /
+    data.length;
+
+
+  const barW =
+    step * .52;
+
+
+  const esc =
+    s =>
+      String(s)
+        .replace(
+          /[&<>"]/g,
+          m =>
+            ({
+              "&":"&amp;",
+              "<":"&lt;",
+              ">":"&gt;",
+              "\"":"&quot;"
+            })[m]
+        );
+
+
+  let out = `
+
+    <defs>
+
+      <linearGradient
+        id="barGrad"
+        x1="0"
+        y1="0"
+        x2="0"
+        y2="1"
+      >
+
+        <stop
+          offset="0%"
+          stop-color="#8eeaff"
+          stop-opacity=".98"
+        />
+
+        <stop
+          offset="52%"
+          stop-color="#31c5f4"
+          stop-opacity=".82"
+        />
+
+        <stop
+          offset="100%"
+          stop-color="#147ba8"
+          stop-opacity=".55"
+        />
+
+      </linearGradient>
+
+
+      <linearGradient
+        id="barLive"
+        x1="0"
+        y1="0"
+        x2="0"
+        y2="1"
+      >
+
+        <stop
+          offset="0%"
+          stop-color="#ffd27a"
+          stop-opacity="1"
+        />
+
+        <stop
+          offset="55%"
+          stop-color="#f4a94b"
+          stop-opacity=".9"
+        />
+
+        <stop
+          offset="100%"
+          stop-color="#a65e1e"
+          stop-opacity=".62"
+        />
+
+      </linearGradient>
+
+
+      <filter
+        id="barGlow"
+        x="-40%"
+        y="-30%"
+        width="180%"
+        height="180%"
+      >
+
+        <feGaussianBlur
+          stdDeviation="5"
+          result="blur"
+        />
+
+        <feMerge>
+
+          <feMergeNode
+            in="blur"
+          />
+
+          <feMergeNode
+            in="SourceGraphic"
+          />
+
+        </feMerge>
+
+      </filter>
+
+    </defs>
+
+  `;
+
+
+  /* -------------------------------------------------------
+     GRID
+     ------------------------------------------------------- */
+
+  for(
+    let i = 0;
+    i <= 5;
+    i++
+  ){
+
+    const y =
+      T +
+      plotH -
+      (
+        plotH *
+        i /
+        5
+      );
+
+
+    const value =
+      max *
+      i /
+      5;
+
+
+    out += `
+
+      <line
+        x1="${L}"
+        y1="${y}"
+        x2="${W-R}"
+        y2="${y}"
+        stroke="rgba(142,222,255,.10)"
+        stroke-width="${i===0?1.5:1}"
+      />
+
+      <text
+        x="${L-14}"
+        y="${y+5}"
+        text-anchor="end"
+        fill="rgba(224,244,252,.42)"
+        font-size="15"
+        font-family="Segoe UI,Arial"
+      >
+        ${
+          value === 0
+            ? "0"
+            : Math.round(
+                value / 1000000
+              ) + "M"
+        }
+      </text>
+
+    `;
+
+  }
+
+
+  /* -------------------------------------------------------
+     BASELINE
+     ------------------------------------------------------- */
+
+  out += `
+
+    <line
+      x1="${L}"
+      y1="${T+plotH}"
+      x2="${W-R}"
+      y2="${T+plotH}"
+      stroke="rgba(145,224,255,.24)"
+      stroke-width="2"
+    />
+
+  `;
+
+
+  /* -------------------------------------------------------
+     BARS
+     ------------------------------------------------------- */
+
+  data.forEach(
+    (d,i)=>{
+
+      const x =
+        L +
+        i * step +
+        (
+          step -
+          barW
+        ) / 2;
+
+
+      const known =
+        Number.isFinite(
+          d.value
+        );
+
+
+      const h =
+        known
+          ? (
+              d.value /
+              max
+            ) *
+            plotH
+          : 0;
+
+
+      const y =
+        T +
+        plotH -
+        h;
+
+
+      const isLive =
+        d.year == 2026;
+
+
+      if(known){
+
+        out += `
+
+          <rect
+            x="${x}"
+            y="${y}"
+            width="${barW}"
+            height="${h}"
+            rx="10"
+
+            fill="${
+              isLive
+                ? 'url(#barLive)'
+                : 'url(#barGrad)'
+            }"
+
+            opacity="${
+              isLive
+                ? '.96'
+                : '.88'
+            }"
+
+            filter="${
+              isLive
+                ? 'url(#barGlow)'
+                : ''
+            }"
+          />
+
+
+          <rect
+            x="${x+3}"
+            y="${y+3}"
+            width="${Math.max(
+              0,
+              barW-6
+            )}"
+            height="2"
+            rx="1"
+            fill="rgba(255,255,255,.42)"
+          />
+
+
+          <text
+            x="${x+barW/2}"
+            y="${Math.max(
+              y-13,
+              24
+            )}"
+            text-anchor="middle"
+            fill="${
+              isLive
+                ? '#ffd88c'
+                : '#e8faff'
+            }"
+            font-size="16"
+            font-weight="800"
+            font-family="Segoe UI,Arial"
+          >
+            ${formatMT(d.value)}
+          </text>
+
+        `;
+
+
+      }else{
+
+        out += `
+
+          <rect
+            x="${x}"
+            y="${T+plotH-5}"
+            width="${barW}"
+            height="5"
+            rx="3"
+            fill="rgba(255,255,255,.13)"
+          />
+
+
+          <text
+            x="${x+barW/2}"
+            y="${T+plotH-18}"
+            text-anchor="middle"
+            fill="rgba(255,255,255,.42)"
+            font-size="13"
+            font-weight="700"
+            font-family="Segoe UI,Arial"
+          >
+            LIVE
+          </text>
+
+        `;
+
+      }
+
+
+      const labelFill =
+        isLive
+          ? "rgba(255,179,75,.12)"
+          : "rgba(105,216,255,.07)";
+
+
+      const labelStroke =
+        isLive
+          ? "rgba(255,190,95,.28)"
+          : "rgba(105,216,255,.13)";
+
+
+      out += `
+
+        <rect
+          x="${x+barW*.16}"
+          y="${H-53}"
+          width="${barW*.68}"
+          height="30"
+          rx="15"
+          fill="${labelFill}"
+          stroke="${labelStroke}"
+        />
+
+
+        <text
+          x="${x+barW/2}"
+          y="${H-33}"
+          text-anchor="middle"
+          fill="${
+            isLive
+              ? '#ffd28a'
+              : '#d9f4fc'
+          }"
+          font-size="16"
+          font-weight="850"
+          font-family="Segoe UI,Arial"
+        >
+          ${esc(d.year)}
+        </text>
+
+      `;
+
+    }
+  );
+
+
+  /* -------------------------------------------------------
+     TREND LINE
+     ------------------------------------------------------- */
+
+  const points =
+    data
+      .filter(
+        d =>
+          Number.isFinite(
+            d.value
+          )
+      )
+      .map(
+        d => {
+
+          const i =
+            data.indexOf(d);
+
+
+          const x =
+            L +
+            i * step +
+            step / 2;
+
+
+          const y =
+            T +
+            plotH -
+            (
+              d.value /
+              max
+            ) *
+            plotH;
+
+
+          return `${x},${y}`;
+
+        }
+      )
+      .join(" ");
+
+
+  if(points){
+
+    out += `
+
+      <polyline
+        points="${points}"
+        fill="none"
+        stroke="rgba(155,232,255,.30)"
+        stroke-width="2"
+        stroke-dasharray="5 8"
+      />
+
+    `;
+
+  }
+
+
+  svg.innerHTML =
+    out;
+
+}
+
+
+/* =========================================================
+   RENDER HISTORY TOTALS + HORIZONTAL VARIANCE
+   ========================================================= */
+
+function renderHistoryTotals(){
+
+  CEMENT_HISTORY_TOTALS[2026] =
+    get2026Total();
+
+
+  const entries =
+    Object.entries(
+      CEMENT_HISTORY_TOTALS
+    );
+
+
+  const tbody =
+    document.getElementById(
+      "historyTotals"
+    );
+
+
+  let previousValue = null;
+
+
+  tbody.innerHTML =
+    entries
+      .map(
+        ([year,value]) => {
+
+          const currentValue =
+            Number.isFinite(value)
+              ? value
+              : null;
+
+
+          let variance =
+            null;
+
+
+          /* ---------------------------------------------
+             COMPARE CURRENT YEAR AGAINST PREVIOUS YEAR
+             --------------------------------------------- */
+
+          if(
+            currentValue !== null &&
+            previousValue !== null
+          ){
+
+            variance =
+              currentValue -
+              previousValue;
+
+          }
+
+
+          /* ---------------------------------------------
+             SAVE CURRENT YEAR
+             --------------------------------------------- */
+
+          if(
+            currentValue !== null
+          ){
+
+            previousValue =
+              currentValue;
+
+          }
+
+
+          /* ---------------------------------------------
+             FORMAT VARIANCE
+             --------------------------------------------- */
+
+          let varianceText =
+            "—";
+
+          let varianceClass =
+            "";
+
+
+          if(
+            variance !== null
+          ){
+
+            const sign =
+              variance > 0
+                ? "+"
+                : "";
+
+
+            varianceText =
+              sign +
+              formatMT(
+                variance
+              );
+
+
+            if(
+              variance > 0
+            ){
+
+              varianceClass =
+                "variance-positive";
+
             }
+            else if(
+              variance < 0
+            ){
+
+              varianceClass =
+                "variance-negative";
+
+            }
+            else{
+
+              varianceClass =
+                "variance-zero";
+
+            }
+
+          }
+
+
+          return `
+
+            <tr
+              class="${
+                year == 2026
+                  ? 'current'
+                  : ''
+              }"
+            >
+
+              <td>
+                ${year}
+              </td>
+
+              <td>
+                ${formatMT(value)}
+              </td>
+
+              <td
+                class="${varianceClass}"
+              >
+                ${varianceText}
+              </td>
+
+            </tr>
+
+          `;
+
         }
-        fetchWeather();
-    </script>
+      )
+      .join("");
+
+
+  /* =====================================================
+     KPI CALCULATIONS
+     ===================================================== */
+
+  const completed =
+    entries.filter(
+      ([year,value]) =>
+        Number(year) < 2026 &&
+        Number.isFinite(value)
+    );
+
+
+  const avg =
+    completed.length
+      ? completed.reduce(
+          (s,[,v]) =>
+            s + v,
+          0
+        ) /
+        completed.length
+      : null;
+
+
+  const peak =
+    completed.length
+      ? completed.reduce(
+          (best,item) =>
+            item[1] >
+            best[1]
+              ? item
+              : best,
+          completed[0]
+        )
+      : null;
+
+
+  const latest =
+    get2026Total();
+
+
+  const avgEl =
+    document.getElementById(
+      "historyAvg"
+    );
+
+
+  const peakEl =
+    document.getElementById(
+      "historyPeak"
+    );
+
+
+  const latestEl =
+    document.getElementById(
+      "historyLatest"
+    );
+
+
+  if(avgEl){
+
+    avgEl.textContent =
+      formatMT(avg);
+
+  }
+
+
+  if(peakEl){
+
+    peakEl.textContent =
+      peak
+        ? `${peak[0]} • ${formatMT(peak[1])}`
+        : "—";
+
+  }
+
+
+  if(latestEl){
+
+    latestEl.textContent =
+      latest == null
+        ? "LIVE"
+        : formatMT(latest);
+
+  }
+
+
+  /* =====================================================
+     REDRAW GRAPH
+     ===================================================== */
+
+  drawAnnualChart();
+
+}
+
+
+/* =========================================================
+   SHOW DASHBOARD 2
+   ========================================================= */
+
+function showHistoryScreen(){
+
+  renderHistoryTotals();
+
+
+  document
+    .getElementById(
+      "historyScreen"
+    )
+    .classList
+    .add("show");
+
+
+  document
+    .getElementById(
+      "btnDash1"
+    )
+    .classList
+    .remove("active");
+
+
+  document
+    .getElementById(
+      "btnDash2"
+    )
+    .classList
+    .add("active");
+
+
+  document
+    .getElementById(
+      "hBtnDash1"
+    )
+    .classList
+    .remove("active");
+
+
+  document
+    .getElementById(
+      "hBtnDash2"
+    )
+    .classList
+    .add("active");
+
+}
+
+
+/* =========================================================
+   HIDE DASHBOARD 2
+   ========================================================= */
+
+function hideHistoryScreen(){
+
+  document
+    .getElementById(
+      "historyScreen"
+    )
+    .classList
+    .remove("show");
+
+
+  document
+    .getElementById(
+      "btnDash1"
+    )
+    .classList
+    .add("active");
+
+
+  document
+    .getElementById(
+      "btnDash2"
+    )
+    .classList
+    .remove("active");
+
+
+  document
+    .getElementById(
+      "hBtnDash1"
+    )
+    .classList
+    .add("active");
+
+
+  document
+    .getElementById(
+      "hBtnDash2"
+    )
+    .classList
+    .remove("active");
+
+}
+
+
+/* =========================================================
+   MANUAL DASHBOARD SWITCH
+   ========================================================= */
+
+function manualSwitchDashboard(
+  target
+){
+
+  manualOverride =
+    true;
+
+
+  clearTimeout(
+    rotationTimer
+  );
+
+
+  clearTimeout(
+    historyTimer
+  );
+
+
+  if(
+    target === 1
+  ){
+
+    hideHistoryScreen();
+
+  }
+  else{
+
+    showHistoryScreen();
+
+  }
+
+
+  clearTimeout(
+    window.resumeAutoTimer
+  );
+
+
+  window.resumeAutoTimer =
+    setTimeout(
+      () => {
+
+        manualOverride =
+          false;
+
+        startRotation();
+
+      },
+      3 * 60 * 1000
+    );
+
+}
+
+
+/* =========================================================
+   AUTOMATIC ROTATION
+   ========================================================= */
+
+let rotationTimer = null;
+
+let historyTimer = null;
+
+
+function startRotation(){
+
+  if(
+    manualOverride
+  )
+
+    return;
+
+
+  clearTimeout(
+    rotationTimer
+  );
+
+
+  clearTimeout(
+    historyTimer
+  );
+
+
+  hideHistoryScreen();
+
+
+  rotationTimer =
+    setTimeout(
+      () => {
+
+        if(
+          manualOverride
+        )
+
+          return;
+
+
+        showHistoryScreen();
+
+
+        const started =
+          Date.now();
+
+
+        function tick(){
+
+          if(
+            manualOverride
+          )
+
+            return;
+
+
+          const elapsed =
+            Date.now() -
+            started;
+
+
+          const remain =
+            Math.max(
+              0,
+              HISTORY_DURATION_MS -
+              elapsed
+            );
+
+
+          const pct =
+            Math.min(
+              100,
+              (
+                elapsed /
+                HISTORY_DURATION_MS
+              ) *
+              100
+            );
+
+
+          const bar =
+            document.getElementById(
+              "historyProgressBar"
+            );
+
+
+          const countdown =
+            document.getElementById(
+              "historyCountdown"
+            );
+
+
+          if(bar){
+
+            bar.style.width =
+              pct + "%";
+
+          }
+
+
+          if(countdown){
+
+            countdown.textContent =
+              "RETURNING TO LIVE DASHBOARD • " +
+              Math.ceil(
+                remain / 1000
+              ) +
+              "s";
+
+          }
+
+
+          if(
+            remain > 0
+          ){
+
+            historyTimer =
+              setTimeout(
+                tick,
+                250
+              );
+
+          }
+          else{
+
+            startRotation();
+
+          }
+
+        }
+
+
+        tick();
+
+      },
+      DASHBOARD_DURATION_MS
+    );
+
+}
+
+
+/* =========================================================
+   INITIALIZE
+   ========================================================= */
+
+updateHistoryClock();
+
+loadLive2026();
+
+setInterval(
+  loadLive2026,
+  10000
+);
+
+startRotation();
+
+</script>
+
 </body>
 </html>
+```
