@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T19:13:03+08:00",
+  "updated_at": "2026-09-08T19:22:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 18000,
       "progress": 0.788235294117647,
       "stockpile": 1000,
-      "time": "17:15",
-      "remarks": "LOADING S36 TONNER BAGS",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE2 / FL3",
-      "activity_time": "01:57"
+      "activity_time": "00:22"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 18500,
       "progress": 0.7153846153846154,
       "stockpile": 0,
-      "time": "17:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:12"
+      "activity_time": "00:22"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "17:05",
       "remarks": "LOADING A17 SLING BAGS",
       "equipment": "FL 2",
-      "activity_time": "02:07"
+      "activity_time": "02:17"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "17:14",
       "remarks": "LOADING G3 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:58"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "17:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "02:12"
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "17:00",
       "remarks": "WAITING SORE CRANE",
       "equipment": "CRANE 3",
-      "activity_time": "02:12"
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "16:28",
       "remarks": "COMPLETE LOADING S19",
       "equipment": "0",
-      "activity_time": "02:44"
+      "activity_time": "02:54"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "17:12",
       "remarks": "LOADING B5 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "02:00"
+      "activity_time": "02:10"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:12"
+      "activity_time": "19:22"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:12"
+      "activity_time": "19:22"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "03:51",
       "remarks": "CONTINOUS DISCHARGE FEED TO JBS",
       "equip": "1 PL DEPLOYED",
-      "activity_time": "15:21"
+      "activity_time": "15:31"
     }
   ],
   "foreign": {
