@@ -224,13 +224,21 @@ body {
 /* =========================================================
    MAIN BERTH TABLE
 
-   IMPORTANT:
-   All columns use percentage widths.
-
    TOTAL = 100%
 
-   This prevents the right side from being cut off
-   on 1920x1080 TV displays.
+   Berth              5%
+   Vessel             10%
+   Voyage              4%
+   Booking             7%
+   Dispatch            7%
+   Loaded              7%
+   Balance             7%
+   Progress            8%
+   Stockpile           7%
+   Time                5%
+   Remarks            14%
+   Equipment          10%
+   Activity Time       9%
    ========================================================= */
 
 .table-header-bar,
@@ -246,20 +254,19 @@ body {
 
   grid-template-columns:
 
-    5%     /* Berth */
-    10%    /* Vessel */
-    4%     /* Voyage # */
-    7%     /* Booking */
-    7%     /* Dispatch */
-    7%     /* Loaded */
-    7%     /* Balance */
-    8%     /* Progress */
-    7%     /* Stockpile */
-    5%     /* Time */
-    14%    /* Remarks */
-    10%    /* Deployed Equipment */
-    9%;    /* Activity Time */
-
+    5%
+    10%
+    4%
+    7%
+    7%
+    7%
+    7%
+    8%
+    7%
+    5%
+    14%
+    10%
+    9%;
 
   align-items: center;
 
@@ -351,8 +358,11 @@ body {
    ========================================================= */
 
 .berth-row > div,
+.berth-row > span,
 .table-header-bar > div,
-.table-footer-bar > div {
+.table-header-bar > span,
+.table-footer-bar > div,
+.table-footer-bar > span {
 
   min-width: 0;
 
@@ -501,16 +511,16 @@ body {
 
    TOTAL = 100%
 
-   Berth         6%
+   Berth          6%
    Vessel        12%
    Material      14%
    Discharge      8%
    Balance        8%
    Progress       8%
    Time           7%
-   Remarks        15%
+   Remarks       15%
    Equipment     12%
-   Activity       10%
+   Activity      10%
    ========================================================= */
 
 .alpha-header-bar,
@@ -520,17 +530,16 @@ body {
 
   grid-template-columns:
 
-    6%     /* Berth */
-    12%    /* Vessel */
-    14%    /* Material */
-    8%     /* Discharge */
-    8%     /* Balance */
-    8%     /* Progress */
-    7%     /* Time */
-    15%    /* Remarks */
-    12%    /* Deployed Equipment */
-    10%;   /* Activity Time */
-
+    6%
+    12%
+    14%
+    8%
+    8%
+    8%
+    7%
+    15%
+    12%
+    10%;
 
   align-items: center;
 
@@ -582,7 +591,9 @@ body {
 /* Alpha cells */
 
 .alpha-header-bar > div,
-.alpha-row > div {
+.alpha-header-bar > span,
+.alpha-row > div,
+.alpha-row > span {
 
   min-width: 0;
 
@@ -811,22 +822,24 @@ body {
 
 /* =========================================================
    MONTHLY VESSEL CEMENT LOADING
-   2025 | VARIANCE | 2026
    ========================================================= */
+
+/* Header:
+   EMPTY | 2025 | VARIANCE | 2026
+*/
 
 .monthly-grid-head {
 
   display: grid;
-
-  /*
-     Month | 2025 | Variance | 2026
-  */
 
   grid-template-columns:
     2fr
     1fr
     1fr
     1fr;
+
+  width: 100%;
+  max-width: 100%;
 
   background: #303030;
 
@@ -840,25 +853,30 @@ body {
     clamp(3px, 0.25vh, 5px);
 
   min-width: 0;
+
+  overflow: hidden;
 }
 
 
-/*
-   MONTHLY DATA
+/* =========================================================
+   MONTHLY CONTAINER
 
-   One row =
+   IMPORTANT:
+   This MUST be a vertical flex container.
 
-   January   | 2025 | Variance | 2026
-   February  | 2025 | Variance | 2026
-   ...
-   December  | 2025 | Variance | 2026
-*/
+   Each .monthly-row contains:
+
+   MONTH | 2025 | VARIANCE | 2026
+   ========================================================= */
 
 .monthly {
 
   display: flex;
 
   flex-direction: column;
+
+  width: 100%;
+  max-width: 100%;
 
   gap: 1px;
 
@@ -872,9 +890,9 @@ body {
 }
 
 
-/*
-   Each monthly-row contains 4 columns
-*/
+/* =========================================================
+   EACH MONTH ROW
+   ========================================================= */
 
 .monthly-row {
 
@@ -886,21 +904,22 @@ body {
     1fr
     1fr;
 
-  align-items: center;
-
   width: 100%;
+  max-width: 100%;
 
   min-width: 0;
 
-  gap: 1px;
+  align-items: center;
 
-  background: #1b1b1b;
+  min-height: clamp(19px, 1.9vh, 32px);
+
+  overflow: hidden;
 }
 
 
-/*
-   Monthly cells
-*/
+/* =========================================================
+   MONTHLY CELLS
+   ========================================================= */
 
 .monthly-row > div {
 
@@ -908,9 +927,7 @@ body {
     clamp(2px, 0.22vh, 5px)
     3px;
 
-  min-width: 0;
-
-  width: 100%;
+  background: #1b1b1b;
 
   white-space: nowrap;
 
@@ -918,45 +935,47 @@ body {
 
   text-overflow: ellipsis;
 
-  text-align: center;
+  min-width: 0;
 
-  background: #1b1b1b;
+  width: 100%;
+
+  max-width: 100%;
+
+  text-align: center;
 }
 
 
-/*
-   Month name
-
-   January
-   February
-   ...
-*/
+/* =========================================================
+   MONTH NAME
+   ========================================================= */
 
 .monthly-row .monthly-month {
 
-  text-align: left;
+  background: #333;
 
-  font-weight: 700;
+  font-weight: 900;
+
+  text-align: left;
 
   padding-left: 6px;
 }
 
 
-/*
+/* =========================================================
    2025 VALUE
-*/
+   ========================================================= */
 
 .monthly-row .monthly-2025 {
 
-  text-align: center;
+  text-align: right;
+
+  font-weight: 700;
 }
 
 
-/*
+/* =========================================================
    VARIANCE
-
-   2026 - 2025
-*/
+   ========================================================= */
 
 .monthly-row .monthly-variance {
 
@@ -964,83 +983,65 @@ body {
 
   font-weight: 900;
 
-  border-left:
-    1px solid
-    rgba(255,255,255,.06);
+  overflow: hidden;
 
-  border-right:
-    1px solid
-    rgba(255,255,255,.06);
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
 }
 
 
-/*
-   POSITIVE VARIANCE
-
-   Example:
-   +125,000
-*/
+/* Positive */
 
 .monthly-var-positive {
 
-  color: #69e6a5 !important;
+  color: #65b83f !important;
 
   font-weight: 900;
 }
 
 
-/*
-   NEGATIVE VARIANCE
-
-   Example:
-   -125,000
-*/
+/* Negative */
 
 .monthly-var-negative {
 
-  color: #ff7b7b !important;
+  color: #ff3030 !important;
 
   font-weight: 900;
 }
 
 
-/*
-   ZERO / NO VARIANCE
-*/
+/* Zero */
 
 .monthly-var-zero {
 
-  color: #d9f4fc !important;
+  color: #fff !important;
 
   font-weight: 900;
 }
 
 
-/*
+/* =========================================================
    2026 VALUE
-*/
+   ========================================================= */
 
 .monthly-row .monthly-2026 {
 
-  text-align: center;
+  text-align: right;
+
+  font-weight: 700;
 }
 
 
-/*
-   TOTAL ROW
-
-   TOTAL | 2025 | VARIANCE | 2026
-*/
+/* =========================================================
+   MONTHLY TOTAL
+   ========================================================= */
 
 .monthly-row.monthly-total {
 
-  background: #1a1a1a;
+  border-top: 1px solid #666;
 
   font-weight: 900;
-
-  border-top:
-    1px solid
-    #666;
 }
 
 
@@ -1052,25 +1053,9 @@ body {
 }
 
 
-/*
-   TOTAL MONTH LABEL
-*/
-
 .monthly-row.monthly-total .monthly-month {
 
-  background: #333;
-
-  text-align: left;
-
-  padding-left: 6px;
-}
-
-
-/*
-   TOTAL VARIANCE
-*/
-
-.monthly-row.monthly-total .monthly-variance {
+  background: #252525;
 
   font-weight: 900;
 }
@@ -1306,21 +1291,16 @@ body {
 
 .stoppage-alert {
 
-  background:
-    linear-gradient(
-      90deg,
-      rgba(255, 48, 48, 0.4) 0%,
-      rgba(255, 120, 120, 0.9) 50%,
-      rgba(255, 48, 48, 0.4) 100%
-    );
+  background: linear-gradient(
+    90deg,
+    rgba(255, 48, 48, 0.4) 0%,
+    rgba(255, 120, 120, 0.9) 50%,
+    rgba(255, 48, 48, 0.4) 100%
+  );
 
   background-size: 200% 100%;
 
-  animation:
-    stoppageSweep
-    2s
-    linear
-    infinite;
+  animation: stoppageSweep 2s linear infinite;
 
   color: #fff !important;
 
@@ -1443,8 +1423,7 @@ body {
   opacity: 1;
 
   box-shadow:
-    0 0 7px
-    rgba(108, 204, 69, 0.9);
+    0 0 7px rgba(108, 204, 69, 0.9);
 }
 
 
@@ -1517,6 +1496,29 @@ body {
   .alpha-row {
 
     min-height: 28px;
+
+  }
+
+
+  /* Monthly */
+
+  .monthly-grid-head {
+
+    font-size: 13px;
+
+  }
+
+
+  .monthly {
+
+    font-size: 13px;
+
+  }
+
+
+  .monthly-row {
+
+    min-height: 25px;
 
   }
 
@@ -1597,6 +1599,29 @@ body {
 
   }
 
+
+  /* Monthly */
+
+  .monthly-grid-head {
+
+    font-size: 11px;
+
+  }
+
+
+  .monthly {
+
+    font-size: 11px;
+
+  }
+
+
+  .monthly-row {
+
+    min-height: 23px;
+
+  }
+
 }
 
 
@@ -1648,7 +1673,10 @@ body,
 .alpha-header-bar,
 .alpha-row,
 .analytics-grid,
-.panel {
+.panel,
+.monthly-grid-head,
+.monthly,
+.monthly-row {
 
   max-width: 100%;
 
@@ -1656,7 +1684,9 @@ body,
 }
 
 
-/* Absolutely prevent horizontal overflow */
+/* =========================================================
+   ABSOLUTELY PREVENT HORIZONTAL OVERFLOW
+   ========================================================= */
 
 html,
 body,
@@ -1677,7 +1707,10 @@ body,
 .berth-row *,
 .table-footer-bar *,
 .alpha-header-bar *,
-.alpha-row * {
+.alpha-row *,
+.monthly-grid-head *,
+.monthly *,
+.monthly-row * {
 
   min-width: 0;
 
@@ -1690,10 +1723,33 @@ body,
    ========================================================= */
 
 .berth-row > div,
+.berth-row > span,
 .table-header-bar > div,
+.table-header-bar > span,
 .table-footer-bar > div,
+.table-footer-bar > span,
 .alpha-row > div,
-.alpha-header-bar > div {
+.alpha-row > span,
+.alpha-header-bar > div,
+.alpha-header-bar > span {
+
+  min-width: 0 !important;
+
+  max-width: 100% !important;
+
+  overflow: hidden !important;
+
+  white-space: nowrap;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   MONTHLY FINAL SAFETY
+   ========================================================= */
+
+.monthly-row > div {
 
   min-width: 0 !important;
 
