@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-09-08T17:47:32+08:00",
+  "updated_at": "2026-09-08T17:49:35+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "BARGE JB 5",
       "voyage": 1,
       "booking": 85000,
-      "dispatch": 66000,
-      "loaded": 66000,
-      "balance": 19000,
-      "progress": 0.7764705882352941,
+      "dispatch": 67000,
+      "loaded": 67000,
+      "balance": 18000,
+      "progress": 0.788235294117647,
       "stockpile": 0,
       "time": "16:15",
       "remarks": "LOADING S41 TONNER BAGS",
       "equipment": "CRANE2 / FL3",
-      "activity_time": "01:32"
+      "activity_time": "01:34"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "14:10",
       "remarks": "LOADING S60 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "03:37"
+      "activity_time": "03:39"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "14:16",
       "remarks": "LOADING G1 SLING BAGS",
       "equipment": "FL 2",
-      "activity_time": "03:31"
+      "activity_time": "03:33"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "17:14",
       "remarks": "LOADING G3 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:33"
+      "activity_time": "00:35"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "13:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "04:47"
+      "activity_time": "04:49"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "04:47"
+      "activity_time": "04:49"
     },
     {
       "berth": "Berth 8",
@@ -134,22 +134,22 @@
       "time": "16:28",
       "remarks": "COMPLETE LOADING S19",
       "equipment": "0",
-      "activity_time": "01:19"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 10",
       "vessel": "STAR FREEDOM",
       "voyage": 10,
       "booking": 25000,
-      "dispatch": 0,
-      "loaded": 0,
-      "balance": 25000,
-      "progress": 0,
+      "dispatch": 2000,
+      "loaded": 2000,
+      "balance": 23000,
+      "progress": 0.08,
       "stockpile": 0,
       "time": "17:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "00:17"
+      "activity_time": "00:19"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 277000,
-    "dispatch": 204000,
-    "loaded": 202000,
-    "balance": 75000,
-    "progress": 0.6628400648008491,
+    "dispatch": 207000,
+    "loaded": 205000,
+    "balance": 72000,
+    "progress": 0.6781341824479079,
     "stockpile": 2000
   },
   "alpha": [
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:47"
+      "activity_time": "17:49"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:47"
+      "activity_time": "17:49"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "03:51",
       "remarks": "CONTINOUS DISCHARGE FEED TO JBS",
       "equip": "1 PL DEPLOYED",
-      "activity_time": "13:56"
+      "activity_time": "13:58"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 269000,
-      "daily": 9000
+      "september": 270000,
+      "daily": 10000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -241,8 +241,8 @@
     {
       "hauler": "BADIE",
       "august": 53080,
-      "september": 15000,
-      "daily": "-"
+      "september": 16000,
+      "daily": 1000
     },
     {
       "hauler": "GEO",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 410000
+      "y2026": 412000
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12245710
+    "y2026": 12247710
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 27500
+      "qty": 29500
     },
     {
       "shift": "2ND SHIFT",
