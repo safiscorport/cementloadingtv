@@ -1,4 +1,3 @@
-```css
 /* =========================================================
    SAFISCOR PORT OPERATIONS DASHBOARD
    AUTOMATIC SMART TV / TV DISPLAY CSS
@@ -2597,4 +2596,386 @@ body::-webkit-scrollbar-thumb:hover {
 /* =========================================================
    END
    ========================================================= */
-```
+
+/* =========================================================
+   TV ONE-SCREEN COMPACT MODE
+   Target: 16:9 Full HD Smart TV (1920x1080)
+   Purpose: remove wasted vertical space and prevent
+   dashboard sections from overlapping/carrying onto
+   another screen.
+   ========================================================= */
+
+@media screen and (min-width: 1600px) and (max-width: 2499px)
+       and (min-height: 800px) and (max-height: 1200px) {
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden !important;
+  }
+
+  body {
+    font-size: 13px;
+    line-height: 1.05;
+  }
+
+  .app {
+    width: 100%;
+    height: 100vh;
+    min-height: 0;
+    max-height: 100vh;
+    overflow: hidden !important;
+  }
+
+  /* ---------- HEADER ---------- */
+
+  .topbar {
+    flex: 0 0 46px;
+    height: 46px;
+    min-height: 46px;
+    padding: 0 8px;
+    gap: 8px;
+  }
+
+  .brand img {
+    max-width: 115px;
+    max-height: 40px;
+  }
+
+  /* Turn the absolute title block into a normal centered item.
+     This prevents it from colliding with the buttons/clock. */
+  .topbar > div:nth-child(2) {
+    position: static !important;
+    left: auto !important;
+    transform: none !important;
+    flex: 0 1 auto;
+    min-width: 0;
+    gap: 7px;
+  }
+
+  .title {
+    font-size: 18px !important;
+    line-height: 1;
+  }
+
+  .subtitle {
+    font-size: 9px !important;
+    line-height: 1;
+  }
+
+  .live-dot {
+    width: 9px;
+    height: 9px;
+    min-width: 9px;
+    min-height: 9px;
+  }
+
+  .dashboard-switcher {
+    margin-right: 8px;
+  }
+
+  .switcher-btn {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+
+  .clock div:first-child {
+    font-size: 9px;
+  }
+
+  .clock div:last-child {
+    font-size: 17px;
+    line-height: 1;
+  }
+
+  /* ---------- MAIN ---------- */
+
+  .main-content {
+    height: auto;
+    min-height: 0;
+    padding: 2px 4px 3px;
+    gap: 2px;
+    overflow: hidden !important;
+  }
+
+  .table-container {
+    border-width: 1px;
+  }
+
+  /* Empty section labels currently occupy vertical space. */
+  .sub-section-title:empty {
+    display: none !important;
+  }
+
+  /* ---------- MAIN BERTH TABLE ---------- */
+
+  .table-header-bar,
+  .berth-row,
+  .table-footer-bar {
+    padding: 2px 4px;
+    font-size: 13px;
+    line-height: 1;
+  }
+
+  .table-header-bar {
+    min-height: 24px;
+    height: 24px;
+    font-size: 11px;
+  }
+
+  .berth-row {
+    min-height: 28px;
+    height: 28px;
+  }
+
+  .table-footer-bar {
+    min-height: 24px;
+    height: 24px;
+  }
+
+  .progress-wrap {
+    height: 13px;
+  }
+
+  .progress-wrap span {
+    font-size: 10px;
+  }
+
+  /* ---------- BERTH A / F ---------- */
+
+  .alpha-header-bar,
+  .alpha-row {
+    padding: 2px 4px;
+    font-size: 13px;
+    line-height: 1;
+  }
+
+  .alpha-header-bar {
+    min-height: 23px;
+    height: 23px;
+    font-size: 11px;
+  }
+
+  .alpha-row {
+    min-height: 23px;
+    height: 23px;
+  }
+
+  /* ---------- ANALYTICS ---------- */
+
+  .analytics-grid {
+    gap: 4px;
+    margin-top: 0;
+    overflow: hidden;
+  }
+
+  .panel {
+    padding: 2px;
+  }
+
+  .panel-title {
+    padding: 2px 5px;
+    margin-bottom: 2px;
+    min-height: 21px;
+    height: 21px;
+    font-size: 11px;
+    line-height: 17px;
+  }
+
+  .table-mini .tr {
+    padding: 1px 4px;
+    min-height: 22px;
+    height: 22px;
+    font-size: 11px;
+    line-height: 1;
+  }
+
+  .monthly-grid-head {
+    padding: 2px 3px;
+    min-height: 20px;
+    height: 20px;
+    font-size: 11px;
+  }
+
+  .monthly {
+    gap: 0;
+    font-size: 11px;
+  }
+
+  .monthly-row {
+    min-height: 20px;
+    height: 20px;
+  }
+
+  .monthly-row > div {
+    padding: 1px 3px;
+    min-height: 20px;
+    height: 20px;
+    line-height: 18px;
+  }
+
+  .prod-row {
+    padding: 1px 4px;
+    min-height: 22px;
+    height: 22px;
+    font-size: 11px;
+  }
+
+  .prod-row b {
+    font-size: 12px;
+  }
+
+  /* ---------- FOOTER ---------- */
+
+  .footer-bar {
+    flex: 0 0 38px;
+    height: 38px;
+    min-height: 38px;
+    padding: 0 6px;
+    gap: 5px;
+    font-size: 10px;
+  }
+
+  .footer-group {
+    gap: 4px;
+  }
+
+  .f-item {
+    padding: 1px 4px;
+  }
+
+  .f-item span {
+    font-size: 8px;
+    line-height: 1;
+  }
+
+  .f-item b {
+    font-size: 10px;
+    line-height: 1.1;
+  }
+
+  .ticker-wrap {
+    height: 24px;
+    margin: 0 4px;
+  }
+
+  .ticker-label {
+    padding: 0 6px;
+    font-size: 9px;
+  }
+
+  .ticker div {
+    font-size: 10px;
+  }
+
+  .footer-right {
+    font-size: 9px;
+    max-width: 20vw;
+  }
+}
+
+/* Extra-tight 720p TV mode */
+@media screen and (min-width: 1100px) and (max-width: 1599px)
+       and (min-height: 600px) and (max-height: 800px) {
+
+  html,
+  body {
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden !important;
+  }
+
+  .app {
+    height: 100vh;
+    min-height: 0;
+    max-height: 100vh;
+    overflow: hidden !important;
+  }
+
+  .topbar {
+    flex-basis: 42px;
+    height: 42px;
+    min-height: 42px;
+  }
+
+  .main-content {
+    padding: 2px 3px;
+    gap: 2px;
+    overflow: hidden !important;
+  }
+
+  .sub-section-title:empty {
+    display: none !important;
+  }
+
+  .table-header-bar {
+    min-height: 21px;
+    height: 21px;
+    font-size: 10px;
+    padding: 1px 3px;
+  }
+
+  .berth-row {
+    min-height: 22px;
+    height: 22px;
+    font-size: 10px;
+    padding: 1px 3px;
+  }
+
+  .table-footer-bar {
+    min-height: 21px;
+    height: 21px;
+    font-size: 10px;
+    padding: 1px 3px;
+  }
+
+  .alpha-header-bar {
+    min-height: 20px;
+    height: 20px;
+    font-size: 9px;
+  }
+
+  .alpha-row {
+    min-height: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  .panel {
+    padding: 2px;
+  }
+
+  .panel-title {
+    min-height: 18px;
+    height: 18px;
+    padding: 1px 4px;
+    margin-bottom: 1px;
+    font-size: 9px;
+    line-height: 16px;
+  }
+
+  .table-mini .tr,
+  .prod-row {
+    min-height: 18px;
+    height: 18px;
+    padding: 1px 3px;
+    font-size: 9px;
+  }
+
+  .monthly-grid-head,
+  .monthly-row,
+  .monthly-row > div {
+    min-height: 17px;
+    height: 17px;
+    font-size: 9px;
+  }
+
+  .footer-bar {
+    flex-basis: 34px;
+    height: 34px;
+    min-height: 34px;
+  }
+}
+
