@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T20:50:30+08:00",
+  "updated_at": "2026-09-09T20:51:03+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -13,7 +13,7 @@
       "stockpile": 2000,
       "time": "20:00",
       "remarks": "LOADING TONNER",
-      "equipment": "CRANE 2",
+      "equipment": "0",
       "activity_time": "00:50"
     },
     {
@@ -28,7 +28,7 @@
       "stockpile": 4000,
       "time": "20:00",
       "remarks": "LOADING TONNER",
-      "equipment": "0",
+      "equipment": "CRANE 3",
       "activity_time": "00:50"
     },
     {
@@ -73,7 +73,7 @@
       "stockpile": 2000,
       "time": "20:00",
       "remarks": "LOADING TONNER",
-      "equipment": "CRANE 3",
+      "equipment": "0",
       "activity_time": "00:50"
     },
     {
@@ -88,7 +88,7 @@
       "stockpile": 2000,
       "time": "20:00",
       "remarks": "LOADING POUCH",
-      "equipment": "FL 1",
+      "equipment": "0",
       "activity_time": "00:50"
     },
     {
@@ -133,7 +133,7 @@
       "stockpile": 1300,
       "time": "20:00",
       "remarks": "LOADING LOOSEBAGS",
-      "equipment": "0",
+      "equipment": "FL 1 / FL2",
       "activity_time": "00:50"
     },
     {
@@ -148,7 +148,7 @@
       "stockpile": 2000,
       "time": "20:00",
       "remarks": "LOADING POUCH",
-      "equipment": "0",
+      "equipment": "CRANE 2",
       "activity_time": "00:50"
     },
     {
