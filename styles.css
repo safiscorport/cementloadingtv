@@ -1,40 +1,167 @@
+```css
 /* =========================================================
-   FULL SCREEN / 43-INCH TV DISPLAY
-   TARGET: 1920 x 1080
+   SMART TV RESPONSIVE DASHBOARD
+   AUTOMATIC SCALING FOR ANY SCREEN / TV RESOLUTION
+
+   Designed for:
+   - 720p
+   - 1080p
+   - 1440p
+   - 4K
+   - 8K
+   - 32" to 100"+ Smart TVs
+   - PC / Laptop displays
+
+   FEATURES:
+   - Automatic viewport scaling
+   - Vertical scrollbar
+   - No horizontal scrollbar
+   - Full available screen width
+   - Responsive fonts
+   - Responsive rows
+   - Responsive dashboard panels
+   - Compatible with dashboard transitions
    ========================================================= */
 
-* {
+
+/* =========================================================
+   ROOT VARIABLES
+   ========================================================= */
+
+:root {
+
+  --bg: #111;
+  --panel: #1d1d1d;
+  --panel2: #282828;
+  --head: #34404d;
+  --line: #555;
+
+  --text: #fff;
+  --muted: #aaa;
+
+  --accent: #65b83f;
+  --danger: #ff3030;
+  --warn: #ffc107;
+
+  /*
+   * Responsive spacing.
+   * These values automatically scale with viewport width.
+   */
+  --page-gap: clamp(3px, 0.3vw, 12px);
+  --page-padding: clamp(4px, 0.45vw, 15px);
+
+  /*
+   * Responsive row heights.
+   */
+  --main-row-height: clamp(24px, 2.25vh, 42px);
+  --alpha-row-height: clamp(22px, 2.15vh, 40px);
+
+  /*
+   * Responsive header/footer.
+   */
+  --header-height: clamp(48px, 5.3vh, 90px);
+  --footer-height: clamp(42px, 5vh, 85px);
+}
+
+
+/* =========================================================
+   GLOBAL BOX SIZING
+   ========================================================= */
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-html,
-body {
+
+/* =========================================================
+   HTML
+   ========================================================= */
+
+html {
+
   margin: 0;
   padding: 0;
 
   width: 100%;
+  min-width: 0;
+
+  /*
+   * Allow the entire page to scroll vertically.
+   */
+  height: auto;
   min-height: 100%;
 
-  background: #111;
-  color: #fff;
-
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
 
   /*
-   * IMPORTANT:
-   * Allow vertical scrolling.
+   * NEVER create horizontal scrollbar.
    */
   overflow-x: hidden !important;
-  overflow-y: auto !important;
-}
-
-body {
-  font-size: clamp(13px, 0.85vw, 20px);
 
   /*
-   * Prevent the browser from creating horizontal overflow.
+   * Vertical scrolling remains available.
    */
+  overflow-y: auto !important;
+
+  /*
+   * Better mobile / Smart TV browser rendering.
+   */
+  -webkit-text-size-adjust: 100%;
+}
+
+
+/* =========================================================
+   BODY
+   ========================================================= */
+
+body {
+
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
   max-width: 100vw;
+
+  min-width: 0;
+
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  background: var(--bg);
+  color: var(--text);
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  /*
+   * Responsive base font.
+   */
+  font-size: clamp(
+    11px,
+    0.72vw,
+    22px
+  );
+
+  line-height: 1.15;
+
+  /*
+   * Horizontal overflow is NEVER allowed.
+   */
+  overflow-x: hidden !important;
+
+  /*
+   * Vertical scrolling is enabled.
+   */
+  overflow-y: auto !important;
+
+  /*
+   * Prevent accidental width expansion.
+   */
+  word-wrap: normal;
 }
 
 
@@ -43,20 +170,27 @@ body {
    ========================================================= */
 
 .app {
-  width: 100%;
-  max-width: 100%;
 
-  /*
-   * Do NOT force the app to exactly 100vh.
-   * Content can extend beyond the TV screen and scroll.
-   */
+  position: relative;
+
+  width: 100%;
+  max-width: 100vw;
+
+  min-width: 0;
+
   min-height: 100vh;
+  min-height: 100dvh;
+
   height: auto;
 
   display: flex;
+
   flex-direction: column;
 
   overflow: visible;
+
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -65,32 +199,40 @@ body {
    ========================================================= */
 
 .topbar {
-  /*
-   * Smaller header for 43-inch 1080p TV.
-   */
-  flex: 0 0 58px;
+
+  flex: 0 0 var(--header-height);
 
   width: 100%;
-  max-width: 100%;
+  max-width: 100vw;
+
+  min-width: 0;
+
+  min-height: var(--header-height);
 
   background: #080808;
 
   display: flex;
+
   align-items: center;
+
   justify-content: space-between;
 
-  padding: 0 clamp(12px, 1.2vw, 30px);
+  gap: clamp(6px, 0.8vw, 20px);
 
-  border-bottom: 2px solid #555;
+  padding:
+    0
+    clamp(8px, 1vw, 30px);
 
-  min-width: 0;
+  border-bottom:
+    clamp(1px, 0.1vw, 2px)
+    solid
+    #555;
 
-  /*
-   * Keep header visible while scrolling.
-   */
   position: relative;
 
   z-index: 100;
+
+  overflow: hidden;
 }
 
 
@@ -99,21 +241,38 @@ body {
    ========================================================= */
 
 .brand {
+
   display: flex;
+
   align-items: center;
 
-  gap: clamp(8px, 0.7vw, 15px);
+  gap: clamp(6px, 0.7vw, 18px);
 
   min-width: 0;
 
-  flex-shrink: 1;
+  flex: 1 1 auto;
+
+  overflow: hidden;
 }
 
+
 .brand img {
-  max-width: 100%;
-  max-height: 48px;
+
+  display: block;
+
+  width: auto;
+
+  max-width: clamp(100px, 12vw, 300px);
+
+  max-height: calc(
+    var(--header-height) - 10px
+  );
+
+  height: auto;
 
   object-fit: contain;
+
+  flex-shrink: 1;
 }
 
 
@@ -122,17 +281,23 @@ body {
    ========================================================= */
 
 .live-dot {
-  width: clamp(10px, 0.75vw, 16px);
-  height: clamp(10px, 0.75vw, 16px);
 
-  background: #ff3030;
+  width: clamp(8px, 0.65vw, 18px);
+
+  height: clamp(8px, 0.65vw, 18px);
+
+  min-width: clamp(8px, 0.65vw, 18px);
+
+  min-height: clamp(8px, 0.65vw, 18px);
+
+  background: var(--danger);
 
   border-radius: 50%;
 
   flex-shrink: 0;
 
   box-shadow:
-    0 0 8px #ff3030,
+    0 0 8px var(--danger),
     0 0 16px rgba(255, 48, 48, 0.5);
 
   animation: blink 1s infinite;
@@ -144,31 +309,58 @@ body {
    ========================================================= */
 
 .title {
-  font-size: clamp(17px, 1.35vw, 30px);
+
+  font-size:
+    clamp(
+      15px,
+      1.35vw,
+      34px
+    );
 
   font-weight: 900;
 
-  letter-spacing: 1px;
+  letter-spacing:
+    clamp(
+      0.3px,
+      0.08vw,
+      2px
+    );
 
   white-space: nowrap;
 
   overflow: hidden;
 
   text-overflow: ellipsis;
+
+  min-width: 0;
 }
 
+
 .subtitle {
-  font-size: clamp(9px, 0.65vw, 15px);
 
-  color: #aaa;
+  font-size:
+    clamp(
+      8px,
+      0.62vw,
+      16px
+    );
 
-  letter-spacing: 1px;
+  color: var(--muted);
+
+  letter-spacing:
+    clamp(
+      0.3px,
+      0.06vw,
+      1.5px
+    );
 
   white-space: nowrap;
 
   overflow: hidden;
 
   text-overflow: ellipsis;
+
+  min-width: 0;
 }
 
 
@@ -177,63 +369,72 @@ body {
    ========================================================= */
 
 .clock {
+
   text-align: right;
 
   min-width: 0;
 
+  flex-shrink: 0;
+
   white-space: nowrap;
 
-  flex-shrink: 0;
+  overflow: hidden;
 }
+
 
 .clock div:first-child {
-  font-size: clamp(9px, 0.65vw, 15px);
 
-  color: #aaa;
+  font-size:
+    clamp(
+      8px,
+      0.62vw,
+      16px
+    );
+
+  color: var(--muted);
 }
 
+
 .clock div:last-child {
-  font-size: clamp(17px, 1.25vw, 28px);
+
+  font-size:
+    clamp(
+      15px,
+      1.25vw,
+      32px
+    );
 
   font-weight: 900;
 }
 
 
 /* =========================================================
-   MAIN AREA
+   MAIN CONTENT
    ========================================================= */
 
 .main-content {
 
-  /*
-   * IMPORTANT:
-   * Remove flex:1 + fixed-height behavior.
-   * This allows the complete dashboard to extend vertically.
-   */
-  flex: none;
-
   width: 100%;
-  max-width: 100%;
+  max-width: 100vw;
 
   min-width: 0;
 
-  padding:
-    5px
-    clamp(5px, 0.55vw, 15px)
-    15px;
+  height: auto;
+
+  min-height: 0;
+
+  flex: none;
 
   display: flex;
 
   flex-direction: column;
 
-  gap: 5px;
+  gap: var(--page-gap);
 
-  /*
-   * Allow page content to determine height.
-   */
-  height: auto;
-
-  min-height: 0;
+  padding:
+    var(--page-padding)
+    var(--page-padding)
+    clamp(10px, 1vw, 25px);
 
   overflow: visible !important;
 }
@@ -250,16 +451,20 @@ body {
 
   min-width: 0;
 
-  background: #1d1d1d;
+  background: var(--panel);
 
-  border: 1px solid #555;
+  border:
+    clamp(1px, 0.08vw, 2px)
+    solid
+    var(--line);
 
   margin: 0;
 
   /*
-   * Keep horizontal content contained.
+   * Horizontal overflow is clipped.
    */
   overflow-x: hidden !important;
+
   overflow-y: visible !important;
 }
 
@@ -279,8 +484,11 @@ body {
 
   display: grid;
 
+  /*
+   * Percentage based columns.
+   * Automatically adapt to screen width.
+   */
   grid-template-columns:
-
     5%
     10%
     4%
@@ -298,12 +506,22 @@ body {
   align-items: center;
 
   padding:
-    4px
-    clamp(4px, 0.35vw, 10px);
+    clamp(2px, 0.35vh, 7px)
+    clamp(3px, 0.35vw, 10px);
 
-  border-bottom: 1px solid #303030;
+  border-bottom:
+    1px solid
+    #303030;
 
-  font-size: clamp(11px, 0.78vw, 18px);
+  /*
+   * Automatically scale font.
+   */
+  font-size:
+    clamp(
+      9px,
+      0.72vw,
+      22px
+    );
 
   line-height: 1.05;
 
@@ -317,19 +535,27 @@ body {
 
 .table-header-bar {
 
-  background: #34404d;
-
-  font-weight: 900;
+  background: var(--head);
 
   color: #fff;
 
-  border-bottom: 1px solid #777;
+  font-weight: 900;
 
-  font-size: clamp(10px, 0.68vw, 16px);
+  font-size:
+    clamp(
+      8px,
+      0.64vw,
+      20px
+    );
+
+  min-height:
+    clamp(
+      25px,
+      3vh,
+      55px
+    );
 
   white-space: nowrap;
-
-  min-height: 30px;
 }
 
 
@@ -339,26 +565,28 @@ body {
 
 .berth-row {
 
-  min-height: 30px;
+  min-height: var(--main-row-height);
 
   height: auto;
-}
 
-
-/* Alternating rows */
-
-.berth-row:nth-child(even) {
-  background: #242424;
-}
-
-.berth-row:nth-child(odd) {
   background: #1b1b1b;
 }
 
 
-/* Vacant */
+.berth-row:nth-child(even) {
+
+  background: #242424;
+}
+
+
+.berth-row:nth-child(odd) {
+
+  background: #1b1b1b;
+}
+
 
 .berth-row.vacant {
+
   opacity: 0.45;
 }
 
@@ -393,7 +621,7 @@ body {
 .table-footer-bar > div,
 .table-footer-bar > span {
 
-  min-width: 0;
+  min-width: 0 !important;
 
   width: 100%;
 
@@ -423,7 +651,12 @@ body {
 
   width: 100%;
 
-  height: 16px;
+  height:
+    clamp(
+      12px,
+      1.45vh,
+      26px
+    );
 
   margin: 0;
 
@@ -437,15 +670,17 @@ body {
 
   position: absolute;
 
-  top: 0;
-  left: 0;
+  inset: 0;
 
   width: 100%;
+
   height: 100%;
 
   background: #333;
 
-  border: 1px solid #666;
+  border:
+    1px solid
+    #666;
 
   overflow: hidden;
 
@@ -459,7 +694,7 @@ body {
 
   height: 100%;
 
-  background: #65b83f;
+  background: var(--accent);
 
   box-shadow:
     0 0 5px rgba(101, 184, 63, 0.5);
@@ -471,17 +706,17 @@ body {
 
 
 /* =========================================================
-   PROGRESS PERCENTAGE
+   PROGRESS TEXT
    ========================================================= */
 
 .progress-wrap span {
 
   position: absolute;
 
-  top: 0;
-  left: 0;
+  inset: 0;
 
   width: 100%;
+
   height: 100%;
 
   display: flex;
@@ -492,7 +727,12 @@ body {
 
   color: #fff;
 
-  font-size: 12px;
+  font-size:
+    clamp(
+      8px,
+      0.62vw,
+      17px
+    );
 
   font-weight: 900;
 
@@ -520,18 +760,29 @@ body {
   background: #303030;
 
   padding:
-    3px
-    clamp(5px, 0.4vw, 10px);
+    clamp(2px, 0.35vh, 7px)
+    clamp(4px, 0.4vw, 12px);
 
   font-weight: 900;
 
-  font-size: clamp(10px, 0.7vw, 16px);
+  font-size:
+    clamp(
+      9px,
+      0.67vw,
+      20px
+    );
 
   color: #ccc;
 
-  border-bottom: 1px solid #555;
+  border-bottom:
+    1px solid
+    #555;
 
   white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
 }
 
 
@@ -565,10 +816,15 @@ body {
   min-width: 0;
 
   padding:
-    4px
-    clamp(5px, 0.4vw, 10px);
+    clamp(2px, 0.35vh, 7px)
+    clamp(4px, 0.4vw, 12px);
 
-  font-size: clamp(11px, 0.78vw, 18px);
+  font-size:
+    clamp(
+      9px,
+      0.72vw,
+      22px
+    );
 
   line-height: 1.05;
 
@@ -582,17 +838,27 @@ body {
 
 .alpha-header-bar {
 
-  background: #34404d;
+  background: var(--head);
 
   font-weight: 900;
 
   color: #fff;
 
-  font-size: clamp(10px, 0.68vw, 16px);
+  font-size:
+    clamp(
+      8px,
+      0.64vw,
+      20px
+    );
+
+  min-height:
+    clamp(
+      25px,
+      3vh,
+      55px
+    );
 
   white-space: nowrap;
-
-  min-height: 30px;
 }
 
 
@@ -604,9 +870,11 @@ body {
 
   background: #1b1b1b;
 
-  border-bottom: 1px solid #303030;
+  border-bottom:
+    1px solid
+    #303030;
 
-  min-height: 28px;
+  min-height: var(--alpha-row-height);
 
   height: auto;
 }
@@ -621,7 +889,7 @@ body {
 .alpha-row > div,
 .alpha-row > span {
 
-  min-width: 0;
+  min-width: 0 !important;
 
   width: 100%;
 
@@ -648,25 +916,23 @@ body {
 
   display: grid;
 
+  /*
+   * Responsive 3-column layout.
+   */
   grid-template-columns:
-
     minmax(0, 1.05fr)
     minmax(0, 1.05fr)
     minmax(0, 0.8fr);
 
-  gap: 5px;
+  gap: var(--page-gap);
 
   margin-top: 1px;
 
-  /*
-   * IMPORTANT:
-   * Do not force analytics to fill remaining viewport.
-   */
   flex: none;
 
-  min-height: 0;
-
   height: auto;
+
+  min-height: 0;
 
   overflow: visible;
 }
@@ -678,11 +944,15 @@ body {
 
 .panel {
 
-  background: #1d1d1d;
+  background: var(--panel);
 
-  border: 1px solid #555;
+  border:
+    clamp(1px, 0.08vw, 2px)
+    solid
+    var(--line);
 
-  padding: 5px;
+  padding:
+    clamp(3px, 0.35vw, 10px);
 
   display: flex;
 
@@ -704,19 +974,31 @@ body {
 
   font-weight: 900;
 
-  background: #34404d;
+  background: var(--head);
 
   padding:
-    4px
-    clamp(5px, 0.4vw, 10px);
+    clamp(3px, 0.35vh, 8px)
+    clamp(4px, 0.4vw, 12px);
 
-  font-size: clamp(10px, 0.72vw, 17px);
+  font-size:
+    clamp(
+      9px,
+      0.7vw,
+      21px
+    );
 
   color: #fff;
 
-  margin-bottom: 3px;
+  margin-bottom:
+    clamp(2px, 0.25vh, 6px);
 
   min-width: 0;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
 }
 
 
@@ -730,7 +1012,8 @@ body {
 
   flex-direction: column;
 
-  gap: 4px;
+  gap:
+    clamp(2px, 0.25vh, 7px);
 
   min-height: 0;
 
@@ -769,16 +1052,28 @@ body {
   align-items: center;
 
   padding:
-    3px
-    clamp(4px, 0.4vw, 9px);
+    clamp(2px, 0.3vh, 6px)
+    clamp(3px, 0.35vw, 10px);
 
-  border-bottom: 1px solid #303030;
+  border-bottom:
+    1px solid
+    #303030;
 
-  font-size: clamp(10px, 0.7vw, 16px);
+  font-size:
+    clamp(
+      8px,
+      0.68vw,
+      19px
+    );
 
   line-height: 1.05;
 
-  min-height: 23px;
+  min-height:
+    clamp(
+      20px,
+      2.1vh,
+      38px
+    );
 
   min-width: 0;
 
@@ -794,15 +1089,26 @@ body {
 
   color: #ccc;
 
-  font-size: clamp(10px, 0.65vw, 15px);
+  font-size:
+    clamp(
+      8px,
+      0.62vw,
+      18px
+    );
 }
 
+
+/* =========================================================
+   TOTAL ROW
+   ========================================================= */
 
 .total-row {
 
   background: #252525;
 
-  border-top: 1px solid #666;
+  border-top:
+    1px solid
+    #666;
 
   font-weight: 900;
 }
@@ -835,24 +1141,49 @@ body {
   align-items: center;
 
   padding:
-    3px
-    clamp(5px, 0.4vw, 10px);
+    clamp(2px, 0.3vh, 6px)
+    clamp(4px, 0.4vw, 12px);
 
-  border-bottom: 1px solid #303030;
+  border-bottom:
+    1px solid
+    #303030;
 
-  font-size: clamp(10px, 0.72vw, 17px);
+  font-size:
+    clamp(
+      8px,
+      0.7vw,
+      20px
+    );
 
-  min-height: 25px;
+  min-height:
+    clamp(
+      21px,
+      2.25vh,
+      40px
+    );
 
   min-width: 0;
+
+  gap: 8px;
 }
 
 
 .prod-row b {
 
-  font-size: clamp(11px, 0.8vw, 19px);
+  font-size:
+    clamp(
+      9px,
+      0.78vw,
+      23px
+    );
 
   font-weight: 900;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
 }
 
 
@@ -877,12 +1208,17 @@ body {
 
   font-weight: 900;
 
-  font-size: clamp(10px, 0.68vw, 16px);
+  font-size:
+    clamp(
+      8px,
+      0.65vw,
+      19px
+    );
 
   text-align: center;
 
   padding:
-    3px;
+    clamp(2px, 0.3vh, 6px);
 
   min-width: 0;
 
@@ -905,7 +1241,12 @@ body {
 
   gap: 1px;
 
-  font-size: clamp(10px, 0.68vw, 16px);
+  font-size:
+    clamp(
+      8px,
+      0.67vw,
+      19px
+    );
 
   min-height: 0;
 
@@ -916,7 +1257,7 @@ body {
 
 
 /* =========================================================
-   EACH MONTH ROW
+   MONTHLY ROW
    ========================================================= */
 
 .monthly-row {
@@ -936,7 +1277,12 @@ body {
 
   align-items: center;
 
-  min-height: 25px;
+  min-height:
+    clamp(
+      21px,
+      2.25vh,
+      40px
+    );
 
   overflow: hidden;
 }
@@ -949,7 +1295,7 @@ body {
 .monthly-row > div {
 
   padding:
-    3px;
+    clamp(2px, 0.3vh, 6px);
 
   background: #1b1b1b;
 
@@ -981,7 +1327,8 @@ body {
 
   text-align: left;
 
-  padding-left: 6px;
+  padding-left:
+    clamp(4px, 0.45vw, 12px);
 }
 
 
@@ -1015,27 +1362,33 @@ body {
 }
 
 
-/* Positive */
+/* =========================================================
+   POSITIVE VARIANCE
+   ========================================================= */
 
 .monthly-var-positive {
 
-  color: #65b83f !important;
+  color: var(--accent) !important;
 
   font-weight: 900;
 }
 
 
-/* Negative */
+/* =========================================================
+   NEGATIVE VARIANCE
+   ========================================================= */
 
 .monthly-var-negative {
 
-  color: #ff3030 !important;
+  color: var(--danger) !important;
 
   font-weight: 900;
 }
 
 
-/* Zero */
+/* =========================================================
+   ZERO VARIANCE
+   ========================================================= */
 
 .monthly-var-zero {
 
@@ -1063,7 +1416,9 @@ body {
 
 .monthly-row.monthly-total {
 
-  border-top: 1px solid #666;
+  border-top:
+    1px solid
+    #666;
 
   font-weight: 900;
 }
@@ -1091,13 +1446,14 @@ body {
 
 .footer-bar {
 
-  /*
-   * Smaller footer for 43-inch TV.
-   */
-  flex: 0 0 52px;
+  flex: 0 0 var(--footer-height);
 
   width: 100%;
-  max-width: 100%;
+  max-width: 100vw;
+
+  min-width: 0;
+
+  min-height: var(--footer-height);
 
   background: #080808;
 
@@ -1107,21 +1463,26 @@ body {
 
   justify-content: space-between;
 
+  gap:
+    clamp(4px, 0.7vw, 18px);
+
   padding:
-    0
-    clamp(6px, 0.7vw, 18px);
+    clamp(3px, 0.3vh, 8px)
+    clamp(6px, 0.7vw, 20px);
 
-  border-top: 1px solid #555;
+  border-top:
+    1px solid
+    #555;
 
-  font-size: clamp(10px, 0.65vw, 15px);
-
-  min-width: 0;
+  font-size:
+    clamp(
+      8px,
+      0.62vw,
+      18px
+    );
 
   overflow: hidden;
 
-  /*
-   * Footer remains at the bottom of the document.
-   */
   position: relative;
 
   z-index: 50;
@@ -1136,11 +1497,16 @@ body {
 
   display: flex;
 
-  gap: clamp(5px, 0.7vw, 15px);
+  align-items: center;
+
+  gap:
+    clamp(4px, 0.7vw, 18px);
 
   min-width: 0;
 
   flex-shrink: 0;
+
+  overflow: hidden;
 }
 
 
@@ -1153,16 +1519,22 @@ body {
   background: #1b1b1b;
 
   padding:
-    3px
-    clamp(5px, 0.4vw, 10px);
+    clamp(2px, 0.3vh, 6px)
+    clamp(4px, 0.4vw, 12px);
 
-  border: 1px solid #444;
+  border:
+    1px solid
+    #444;
 
   display: flex;
 
   flex-direction: column;
 
   min-width: 0;
+
+  max-width: 25vw;
+
+  overflow: hidden;
 }
 
 
@@ -1170,15 +1542,29 @@ body {
 
   color: #aaa;
 
-  font-size: clamp(8px, 0.5vw, 12px);
+  font-size:
+    clamp(
+      7px,
+      0.48vw,
+      14px
+    );
 
   white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
 }
 
 
 .f-item b {
 
-  font-size: clamp(10px, 0.65vw, 15px);
+  font-size:
+    clamp(
+      9px,
+      0.65vw,
+      18px
+    );
 
   white-space: nowrap;
 
@@ -1198,21 +1584,30 @@ body {
 
   align-items: center;
 
-  flex: 1;
+  flex: 1 1 auto;
 
   min-width: 0;
 
+  max-width: 100%;
+
   margin:
     0
-    clamp(5px, 1vw, 20px);
+    clamp(4px, 1vw, 25px);
 
   background: #151515;
 
-  border: 1px solid #444;
+  border:
+    1px solid
+    #444;
 
   overflow: hidden;
 
-  height: 30px;
+  height:
+    clamp(
+      24px,
+      3vh,
+      50px
+    );
 }
 
 
@@ -1224,11 +1619,16 @@ body {
 
   padding:
     0
-    clamp(6px, 0.5vw, 12px);
+    clamp(5px, 0.5vw, 14px);
 
   font-weight: 900;
 
-  font-size: clamp(9px, 0.6vw, 14px);
+  font-size:
+    clamp(
+      8px,
+      0.58vw,
+      17px
+    );
 
   height: 100%;
 
@@ -1258,13 +1658,22 @@ body {
 
   padding-left: 100%;
 
-  animation: ticker 25s linear infinite;
+  animation:
+    ticker
+    25s
+    linear
+    infinite;
 
-  color: #ffc107;
+  color: var(--warn);
 
   font-weight: 900;
 
-  font-size: clamp(10px, 0.7vw, 17px);
+  font-size:
+    clamp(
+      9px,
+      0.68vw,
+      20px
+    );
 }
 
 
@@ -1276,11 +1685,22 @@ body {
 
   color: #aaa;
 
-  font-size: clamp(9px, 0.55vw, 13px);
+  font-size:
+    clamp(
+      8px,
+      0.55vw,
+      16px
+    );
 
   white-space: nowrap;
 
   flex-shrink: 0;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  max-width: 25vw;
 }
 
 
@@ -1293,7 +1713,6 @@ body {
   50% {
     opacity: 0.3;
   }
-
 }
 
 
@@ -1302,7 +1721,6 @@ body {
   to {
     transform: translateX(-100%);
   }
-
 }
 
 
@@ -1319,22 +1737,26 @@ body {
   100% {
     background-position: -200% 0;
   }
-
 }
 
 
 .stoppage-alert {
 
-  background: linear-gradient(
-    90deg,
-    rgba(255, 48, 48, 0.4) 0%,
-    rgba(255, 120, 120, 0.9) 50%,
-    rgba(255, 48, 48, 0.4) 100%
-  );
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255, 48, 48, 0.4) 0%,
+      rgba(255, 120, 120, 0.9) 50%,
+      rgba(255, 48, 48, 0.4) 100%
+    );
 
   background-size: 200% 100%;
 
-  animation: stoppageSweep 2s linear infinite;
+  animation:
+    stoppageSweep
+    2s
+    linear
+    infinite;
 
   color: #fff !important;
 
@@ -1346,11 +1768,15 @@ body {
 
   width: 100%;
 
-  padding: 2px 4px;
+  padding:
+    2px
+    4px;
 
   overflow: hidden;
 
   text-overflow: ellipsis;
+
+  white-space: nowrap;
 }
 
 
@@ -1361,7 +1787,7 @@ body {
 .dashboard-page {
 
   width: 100%;
-  max-width: 100%;
+  max-width: 100vw;
 
   min-width: 0;
 
@@ -1417,13 +1843,18 @@ body {
 
   position: fixed;
 
-  right: 10px;
+  right:
+    clamp(6px, 0.6vw, 18px);
 
-  bottom: 52px;
+  bottom:
+    calc(
+      var(--footer-height) + 6px
+    );
 
   display: flex;
 
-  gap: 6px;
+  gap:
+    clamp(4px, 0.3vw, 8px);
 
   z-index: 9999;
 
@@ -1433,9 +1864,19 @@ body {
 
 .page-indicator-dot {
 
-  width: 7px;
+  width:
+    clamp(
+      5px,
+      0.4vw,
+      10px
+    );
 
-  height: 7px;
+  height:
+    clamp(
+      5px,
+      0.4vw,
+      10px
+    );
 
   border-radius: 50%;
 
@@ -1457,259 +1898,161 @@ body {
   opacity: 1;
 
   box-shadow:
-    0 0 7px rgba(108, 204, 69, 0.9);
+    0 0 7px
+    rgba(108, 204, 69, 0.9);
 }
 
 
 /* =========================================================
-   43-INCH TV — 1920 x 1080
+   RESPONSIVE ANALYTICS
    ========================================================= */
 
-@media screen and
-(min-width: 1600px) and
-(max-width: 2499px) {
+/*
+ * On narrow screens, automatically change the
+ * 3-column analytics layout to 2 columns.
+ */
 
-  body {
-    font-size: 14px;
+@media (max-width: 1100px) {
 
-    /*
-     * Vertical scrollbar enabled.
-     */
-    overflow-y: auto !important;
-    overflow-x: hidden !important;
-  }
-
-
-  /*
-   * Keep the dashboard at full TV width.
-   */
-  .app {
-    width: 100%;
-    max-width: 100%;
-    min-height: 100vh;
-    height: auto;
-  }
-
-
-  /*
-   * Header optimized for 1080p.
-   */
-  .topbar {
-    flex-basis: 58px;
-    min-height: 58px;
-  }
-
-
-  /*
-   * Main berth table.
-   */
-  .table-header-bar,
-  .berth-row,
-  .table-footer-bar {
-    font-size: 14px;
-  }
-
-
-  .table-header-bar {
-    font-size: 13px;
-  }
-
-
-  /*
-   * Berth rows.
-   */
-  .berth-row {
-    min-height: 30px;
-  }
-
-
-  /*
-   * Berth A / F.
-   */
-  .alpha-header-bar,
-  .alpha-row {
-    font-size: 14px;
-  }
-
-
-  .alpha-header-bar {
-    font-size: 13px;
-  }
-
-
-  .alpha-row {
-    min-height: 28px;
-  }
-
-
-  /*
-   * Progress.
-   */
-  .progress-wrap {
-    height: 16px;
-  }
-
-  .progress-wrap span {
-    font-size: 12px;
-  }
-
-
-  /*
-   * Monthly.
-   */
-  .monthly-grid-head {
-    font-size: 13px;
-  }
-
-  .monthly {
-    font-size: 13px;
-  }
-
-  .monthly-row {
-    min-height: 25px;
-  }
-
-
-  /*
-   * Footer.
-   */
-  .footer-bar {
-    min-height: 52px;
-  }
-
-
-  /*
-   * Analytics is allowed to extend vertically.
-   */
   .analytics-grid {
+
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(0, 1fr);
+  }
+}
+
+
+/*
+ * On very narrow displays, use one column.
+ */
+
+@media (max-width: 700px) {
+
+  .analytics-grid {
+
+    grid-template-columns:
+      minmax(0, 1fr);
+  }
+
+
+  .footer-bar {
+
     height: auto;
+
+    min-height:
+      var(--footer-height);
+
+    flex-wrap: wrap;
+
     overflow: visible;
   }
+
+
+  .ticker-wrap {
+
+    order: 3;
+
+    width: 100%;
+
+    flex-basis: 100%;
+
+    margin:
+      2px
+      0;
+  }
 }
 
 
 /* =========================================================
-   4K / VERY WIDE TV
+   SMART TV / VERY WIDE SCREENS
    ========================================================= */
+
+/*
+ * For very wide displays, prevent the dashboard from
+ * becoming excessively small relative to the screen.
+ */
 
 @media (min-width: 2500px) {
 
   body {
-    font-size: 18px;
 
-    overflow-y: auto !important;
-    overflow-x: hidden !important;
-  }
-
-
-  .title {
-    font-size: 30px;
-  }
-
-
-  .berth-row,
-  .alpha-row {
-    min-height: 42px;
-  }
-
-
-  .app {
-    height: auto;
-    min-height: 100vh;
-  }
-}
-
-
-/* =========================================================
-   1366 / 1360 / 1280 SCREEN
-   ========================================================= */
-
-@media (max-width: 1400px) {
-
-  body {
-    font-size: 13px;
-
-    overflow-y: auto !important;
-    overflow-x: hidden !important;
-  }
-
-
-  .app {
-    height: auto;
-    min-height: 100vh;
-  }
-
-
-  .topbar {
-    flex-basis: 54px;
-    min-height: 54px;
-  }
-
-
-  .berth-row,
-  .alpha-row {
-    min-height: 23px;
-  }
-
-
-  .analytics-grid {
-    gap: 4px;
+    font-size:
+      clamp(
+        15px,
+        0.72vw,
+        26px
+      );
   }
 
 
   .table-header-bar,
   .berth-row,
   .table-footer-bar {
-    font-size: 11px;
-  }
 
-
-  .alpha-header-bar,
-  .alpha-row {
-    font-size: 11px;
-  }
-
-
-  .monthly-grid-head {
-    font-size: 11px;
-  }
-
-
-  .monthly {
-    font-size: 11px;
-  }
-
-
-  .monthly-row {
-    min-height: 23px;
+    padding:
+      clamp(4px, 0.4vh, 10px)
+      clamp(5px, 0.4vw, 14px);
   }
 }
 
 
 /* =========================================================
-   SMALLER LAPTOP
+   SHORT SCREENS
    ========================================================= */
 
-@media (max-width: 1100px) {
+/*
+ * TVs with unusual aspect ratios or short browser
+ * viewports automatically reduce vertical spacing.
+ */
 
-  body {
-    font-size: 12px;
+@media (max-height: 700px) {
 
-    overflow-y: auto !important;
-    overflow-x: hidden !important;
+  :root {
+
+    --header-height: 46px;
+
+    --footer-height: 40px;
+
+    --main-row-height: 23px;
+
+    --alpha-row-height: 21px;
   }
 
 
-  .table-header-bar,
-  .berth-row,
-  .table-footer-bar {
-    font-size: 10px;
+  .main-content {
+
+    gap: 3px;
+
+    padding:
+      3px
+      4px
+      8px;
   }
+}
 
 
-  .alpha-header-bar,
-  .alpha-row {
-    font-size: 10px;
+/* =========================================================
+   VERY HIGH RESOLUTION / 4K
+   ========================================================= */
+
+@media (min-height: 1400px) {
+
+  :root {
+
+    --header-height:
+      clamp(
+        60px,
+        5vh,
+        100px
+      );
+
+    --footer-height:
+      clamp(
+        50px,
+        5vh,
+        90px
+      );
   }
 }
 
@@ -1742,7 +2085,7 @@ body,
 
 
 /* =========================================================
-   HORIZONTAL OVERFLOW PREVENTION
+   GLOBAL HORIZONTAL OVERFLOW PROTECTION
    ========================================================= */
 
 html,
@@ -1756,8 +2099,9 @@ body,
 
 /*
  * IMPORTANT:
- * Vertical overflow must remain available.
+ * Vertical overflow remains enabled.
  */
+
 html,
 body {
 
@@ -1766,7 +2110,7 @@ body {
 
 
 /* =========================================================
-   CHILDREN MUST NOT FORCE GRID WIDER
+   GRID CHILD SAFETY
    ========================================================= */
 
 .table-header-bar *,
@@ -1785,7 +2129,7 @@ body {
 
 
 /* =========================================================
-   KEEP LONG TEXT INSIDE ITS COLUMN
+   LONG TEXT PROTECTION
    ========================================================= */
 
 .berth-row > div,
@@ -1830,18 +2174,18 @@ body {
 
 
 /* =========================================================
-   TV SCROLLBAR
+   TV VERTICAL SCROLLBAR
    ========================================================= */
-
-/*
- * The page itself scrolls vertically when the dashboard
- * is taller than the 1080px TV screen.
- */
 
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
 
-  width: 12px;
+  width:
+    clamp(
+      8px,
+      0.6vw,
+      18px
+    );
 }
 
 
@@ -1857,9 +2201,16 @@ body::-webkit-scrollbar-thumb {
 
   background: #666;
 
-  border-radius: 6px;
+  border-radius:
+    clamp(
+      4px,
+      0.3vw,
+      10px
+    );
 
-  border: 2px solid #181818;
+  border:
+    2px solid
+    #181818;
 }
 
 
@@ -1871,12 +2222,12 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 /* =========================================================
-   HISTORY SCREEN SAFETY
+   HISTORY SCREEN
    ========================================================= */
 
 /*
- * If Dashboard 2 / History Screen exists, it remains a
- * true full-screen overlay and does NOT use the page scrollbar.
+ * Dashboard 2 / History Screen remains a fixed
+ * full-screen overlay and does NOT use the page scrollbar.
  */
 
 #historyScreen {
@@ -1893,15 +2244,18 @@ body::-webkit-scrollbar-thumb:hover {
 
   max-height: 100vh !important;
 
+  min-width: 0 !important;
+
   overflow: hidden !important;
 
   z-index: 9999;
 }
 
 
-/*
- * History screen content stays inside the TV.
- */
+/* =========================================================
+   HISTORY CONTENT
+   ========================================================= */
+
 #historyScreen .history-content {
 
   width: 100%;
@@ -1912,10 +2266,44 @@ body::-webkit-scrollbar-thumb:hover {
 
   max-height: 100%;
 
+  min-width: 0;
+
   overflow: hidden;
 }
 
 
 /* =========================================================
-   END
+   PREVENT MEDIA FROM BREAKING WIDTH
    ========================================================= */
+
+img,
+video,
+canvas,
+svg,
+iframe {
+
+  max-width: 100%;
+
+  height: auto;
+}
+
+
+/* =========================================================
+   FORM / BUTTON SAFETY
+   ========================================================= */
+
+button,
+input,
+select,
+textarea {
+
+  max-width: 100%;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   END OF RESPONSIVE SMART TV CSS
+   ========================================================= */
+```
