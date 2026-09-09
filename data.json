@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-09-09T23:38:46+08:00",
+  "updated_at": "2026-09-10T02:10:03+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "BARGE JB 5",
       "voyage": 1,
       "booking": 85000,
-      "dispatch": 79000,
-      "loaded": 75000,
-      "balance": 10000,
-      "progress": 0.8823529411764706,
-      "stockpile": 4000,
-      "time": "20:58",
-      "remarks": "LOADING TONNER S53",
+      "dispatch": 80000,
+      "loaded": 78000,
+      "balance": 7000,
+      "progress": 0.9176470588235294,
+      "stockpile": 2000,
+      "time": "01:00",
+      "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "02:22"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 8000,
       "progress": 0.8769230769230769,
       "stockpile": 4000,
-      "time": "20:06",
-      "remarks": "LOADING TONNER B5",
+      "time": "01:00",
+      "remarks": "LOADING TONNER",
       "equipment": "CRANE 3",
-      "activity_time": "03:14"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 5000,
       "progress": 0.8888888888888888,
       "stockpile": 5000,
-      "time": "20:41",
-      "remarks": "LOADING POUCH S56",
+      "time": "00:00",
+      "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "02:39"
+      "activity_time": "02:04"
     },
     {
       "berth": "Berth 5",
@@ -71,8 +71,8 @@
       "balance": 4000,
       "progress": 0.8518518518518519,
       "stockpile": 1000,
-      "time": "21:16",
-      "remarks": "LOADING TONNER GEO 3",
+      "time": "00:00",
+      "remarks": "WAITING SHORECRANE",
       "equipment": "0",
       "activity_time": "02:04"
     },
@@ -86,30 +86,30 @@
       "balance": 17000,
       "progress": 0.15,
       "stockpile": 1000,
-      "time": "19:55",
-      "remarks": "LOADING SLING S21",
+      "time": "01:00",
+      "remarks": "LOADING POUCH",
       "equipment": "FL 3",
-      "activity_time": "03:25"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 7",
       "vessel": "EMERALD STAR",
       "voyage": 9,
       "booking": 0,
-      "dispatch": 6000,
-      "loaded": 3000,
-      "balance": -3000,
+      "dispatch": 10000,
+      "loaded": 4000,
+      "balance": -4000,
       "progress": 0,
-      "stockpile": 3000,
-      "time": "19:00",
-      "remarks": "WAITING MATERIAL",
+      "stockpile": 6000,
+      "time": "01:20",
+      "remarks": "LOADING SLING B7",
       "equipment": "FL 19",
-      "activity_time": "04:20"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 8",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "NAPOLI",
+      "voyage": 0,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -126,15 +126,15 @@
       "vessel": "ADOLFO SR",
       "voyage": 9,
       "booking": 27500,
-      "dispatch": 5000,
+      "dispatch": 6000,
       "loaded": 4700,
       "balance": 22800,
       "progress": 0.1709090909090909,
-      "stockpile": 300,
-      "time": "21:00",
-      "remarks": "WAITING MATERIAL LOOSEBAGS",
+      "stockpile": 1300,
+      "time": "01:50",
+      "remarks": "LOADING LOOSEBAGS L3",
       "equipment": "FL 1 / FL2",
-      "activity_time": "02:20"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 11000,
       "progress": 0.56,
       "stockpile": 0,
-      "time": "22:20",
-      "remarks": "LOADING POUCH GEO 5",
+      "time": "23:00",
+      "remarks": "WAITING MATERA",
       "equipment": "CRANE 2",
-      "activity_time": "01:00"
+      "activity_time": "03:04"
     },
     {
       "berth": "Jetty",
@@ -169,24 +169,24 @@
   ],
   "total": {
     "booking": 294500,
-    "dispatch": 238000,
-    "loaded": 219700,
-    "balance": 74800,
-    "progress": 0.625846549964197,
-    "stockpile": 18300
+    "dispatch": 244000,
+    "loaded": 223700,
+    "balance": 70800,
+    "progress": 0.6308885667709196,
+    "stockpile": 20300
   },
   "alpha": [
     {
       "berth": "R1",
-      "vessel": "VACANT",
-      "materials": "-",
-      "discharge": "0%",
-      "balance": "0%",
-      "progress": "0%",
-      "time": "00:00",
-      "remarks": "0",
-      "equip": "0",
-      "activity_time": "23:20"
+      "vessel": "LCT 28",
+      "materials": "FLY ASH",
+      "discharge": "82%",
+      "balance": "18%",
+      "progress": "82%",
+      "time": "0134H",
+      "remarks": "CONTINOUS DISCHARGE",
+      "equip": "4 GEO DT",
+      "activity_time": "00:00"
     },
     {
       "berth": "R2",
@@ -198,18 +198,18 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "23:20"
+      "activity_time": "02:04"
     },
     {
       "berth": "R3",
-      "vessel": "VACANT",
-      "materials": "-",
-      "discharge": "0%",
-      "balance": "0%",
-      "progress": "0%",
-      "time": "00:00",
-      "remarks": "-",
-      "equip": "0",
+      "vessel": "LCT 288",
+      "materials": "FLY ASH",
+      "discharge": "87%",
+      "balance": "13%",
+      "progress": "87%",
+      "time": "0134H",
+      "remarks": "CONTINOUS DISCHARGE",
+      "equip": "4 GEO DT",
       "activity_time": "00:00"
     }
   ],
@@ -229,14 +229,14 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 318000,
-      "daily": 28000
+      "september": 322000,
+      "daily": 32000
     },
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 90000,
-      "daily": 10000
+      "september": 93000,
+      "daily": 13000
     },
     {
       "hauler": "BADIE",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 483700
+      "y2026": 487700
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12319410
+    "y2026": 12323410
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 13000
+      "qty": 17000
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 13300
+      "volume": 16300
     },
     {
       "client": "LAPU-LAPU",
@@ -356,7 +356,7 @@
     },
     {
       "client": "BADIE",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "GEO",
