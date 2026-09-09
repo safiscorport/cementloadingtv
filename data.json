@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T18:44:04+08:00",
+  "updated_at": "2026-09-09T19:04:54+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "17:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "01:43"
+      "activity_time": "02:04"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "17:10",
       "remarks": "LOADING S51 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:33"
+      "activity_time": "01:54"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "16:26",
       "remarks": "LOADING S5 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:17"
+      "activity_time": "02:38"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "17:00",
       "remarks": "LOADING A1 TONNER BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "01:43"
+      "activity_time": "02:04"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "17:17",
       "remarks": "LOADING S17 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "01:26"
+      "activity_time": "01:47"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "17:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:43"
+      "activity_time": "02:04"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "16:53",
       "remarks": "LOADING L3 LOOSEBAG",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "02:11"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "17:10",
       "remarks": "LOADING G2 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:33"
+      "activity_time": "01:54"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "18:43"
+      "activity_time": "19:04"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "18:43"
+      "activity_time": "19:04"
     },
     {
       "berth": "R3",
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER, JOVIC",
-    "checker": "TORRES J./ OBIAL R.",
-    "pmc": "VICKY / EBOY",
+    "supervisor": "ABSENT",
+    "checker": "DALUSA,E / OBIAL,R",
+    "pmc": "JOAN / WILLIAM",
     "cranes": 4,
     "forklifts": 6,
-    "stevedores": 44
+    "stevedores": 0
   }
 }
