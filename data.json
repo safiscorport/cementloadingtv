@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T20:47:42+08:00",
+  "updated_at": "2026-09-09T20:48:56+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "20:00",
       "remarks": "LOADING TONNER",
       "equipment": "CRANE 2",
-      "activity_time": "00:47"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "20:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:47"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 7000,
       "progress": 0.8444444444444444,
       "stockpile": 5000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "20:00",
+      "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "01:47"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 7000,
       "progress": 0.7407407407407407,
       "stockpile": 2000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "20:00",
+      "remarks": "LOADING TONNER",
       "equipment": "CRANE 3",
-      "activity_time": "01:47"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 6",
@@ -86,10 +86,10 @@
       "balance": 18000,
       "progress": 0.1,
       "stockpile": 2000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "20:00",
+      "remarks": "LOADING POUCH",
       "equipment": "FL 1",
-      "activity_time": "01:47"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:47"
+      "activity_time": "01:48"
     },
     {
       "berth": "Berth 8",
@@ -131,10 +131,10 @@
       "balance": 23800,
       "progress": 0.13454545454545455,
       "stockpile": 1300,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "20:00",
+      "remarks": "LOADING LOOSEBAGS",
       "equipment": "0",
-      "activity_time": "01:47"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 14000,
       "progress": 0.44,
       "stockpile": 2000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "20:00",
+      "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "01:47"
+      "activity_time": "00:48"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:47"
+      "activity_time": "20:48"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:47"
+      "activity_time": "20:48"
     },
     {
       "berth": "R3",
