@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T19:26:03+08:00",
+  "updated_at": "2026-09-09T19:27:36+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 2",
-      "activity_time": "00:25"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:25"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 3",
@@ -59,22 +59,22 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:25"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 5",
       "vessel": "EASTERN CEBU",
       "voyage": 10,
       "booking": 27000,
-      "dispatch": 21000,
+      "dispatch": 22000,
       "loaded": 20000,
       "balance": 7000,
       "progress": 0.7407407407407407,
-      "stockpile": 1000,
+      "stockpile": 2000,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 3",
-      "activity_time": "00:25"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 1",
-      "activity_time": "00:25"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:25"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:25"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:25"
+      "activity_time": "00:27"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 294500,
-    "dispatch": 221000,
+    "dispatch": 222000,
     "loaded": 206700,
     "balance": 87800,
     "progress": 0.5675504016680488,
-    "stockpile": 14300
+    "stockpile": 15300
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:25"
+      "activity_time": "19:27"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:25"
+      "activity_time": "19:27"
     },
     {
       "berth": "R3",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 45000,
-      "daily": 4000
+      "september": 46000,
+      "daily": 5000
     },
     {
       "hauler": "UCES",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 2000
+      "volume": 3000
     },
     {
       "client": "UCES",
