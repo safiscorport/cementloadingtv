@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T01:27:39+08:00",
+  "updated_at": "2026-09-11T01:28:14+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -82,10 +82,10 @@
       "voyage": 9,
       "booking": 20000,
       "dispatch": 12000,
-      "loaded": 7000,
-      "balance": 13000,
-      "progress": 0.35,
-      "stockpile": 5000,
+      "loaded": 9000,
+      "balance": 11000,
+      "progress": 0.45,
+      "stockpile": 3000,
       "time": "00:37",
       "remarks": "LOADING SLING S60",
       "equipment": "CRANE 4",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 187500,
     "dispatch": 150500,
-    "loaded": 131500,
-    "balance": 56000,
-    "progress": 0.6173465423465423,
-    "stockpile": 19000
+    "loaded": 133500,
+    "balance": 54000,
+    "progress": 0.634013209013209,
+    "stockpile": 17000
   },
   "alpha": [
     {
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 544500
+      "y2026": 546500
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12380210
+    "y2026": 12382210
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 18800
+      "qty": 20800
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 14500
+      "volume": 12500
     },
     {
       "client": "LAPU-LAPU",
