@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-09-10T02:10:03+08:00",
+  "updated_at": "2026-09-10T10:23:12+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "BARGE JB 5",
       "voyage": 1,
       "booking": 85000,
-      "dispatch": 80000,
-      "loaded": 78000,
-      "balance": 7000,
-      "progress": 0.9176470588235294,
-      "stockpile": 2000,
-      "time": "01:00",
-      "remarks": "LOADING TONNER",
-      "equipment": "0",
-      "activity_time": "01:04"
+      "dispatch": 83000,
+      "loaded": 82000,
+      "balance": 3000,
+      "progress": 0.9647058823529412,
+      "stockpile": 1000,
+      "time": "08:00",
+      "remarks": "STOP LOADING / RAIN",
+      "equipment": "CRANE 3",
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 2",
@@ -22,14 +22,14 @@
       "voyage": 5,
       "booking": 65000,
       "dispatch": 61000,
-      "loaded": 57000,
-      "balance": 8000,
-      "progress": 0.8769230769230769,
-      "stockpile": 4000,
-      "time": "01:00",
-      "remarks": "LOADING TONNER",
-      "equipment": "CRANE 3",
-      "activity_time": "01:04"
+      "loaded": 59000,
+      "balance": 6000,
+      "progress": 0.9076923076923077,
+      "stockpile": 2000,
+      "time": "08:00",
+      "remarks": "STOP LOADING / RAIN",
+      "equipment": "0",
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 3",
@@ -56,25 +56,25 @@
       "balance": 5000,
       "progress": 0.8888888888888888,
       "stockpile": 5000,
-      "time": "00:00",
-      "remarks": "WAITING SHORECRANE",
+      "time": "08:00",
+      "remarks": "STOP LOADING / RAIN",
       "equipment": "0",
-      "activity_time": "02:04"
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 5",
       "vessel": "EASTERN CEBU",
       "voyage": 10,
       "booking": 27000,
-      "dispatch": 24000,
+      "dispatch": 25000,
       "loaded": 23000,
       "balance": 4000,
       "progress": 0.8518518518518519,
-      "stockpile": 1000,
-      "time": "00:00",
-      "remarks": "WAITING SHORECRANE",
+      "stockpile": 2000,
+      "time": "08:00",
+      "remarks": "STOP LOADING / RAIN",
       "equipment": "0",
-      "activity_time": "02:04"
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 6",
@@ -86,25 +86,25 @@
       "balance": 17000,
       "progress": 0.15,
       "stockpile": 1000,
-      "time": "01:00",
-      "remarks": "LOADING POUCH",
+      "time": "08:00",
+      "remarks": "STOP LOADING / RAIN",
       "equipment": "FL 3",
-      "activity_time": "01:04"
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 7",
       "vessel": "EMERALD STAR",
       "voyage": 9,
-      "booking": 0,
-      "dispatch": 10000,
-      "loaded": 4000,
-      "balance": -4000,
-      "progress": 0,
-      "stockpile": 6000,
-      "time": "01:20",
-      "remarks": "LOADING SLING B7",
-      "equipment": "FL 19",
-      "activity_time": "00:44"
+      "booking": 24000,
+      "dispatch": 15000,
+      "loaded": 5000,
+      "balance": 19000,
+      "progress": 0.20833333333333334,
+      "stockpile": 10000,
+      "time": "08:00",
+      "remarks": "STOP LOADING / RAIN",
+      "equipment": "0",
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "08:00",
+      "remarks": "STOP LOADING / RAIN",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 9",
@@ -127,29 +127,29 @@
       "voyage": 9,
       "booking": 27500,
       "dispatch": 6000,
-      "loaded": 4700,
-      "balance": 22800,
-      "progress": 0.1709090909090909,
-      "stockpile": 1300,
-      "time": "01:50",
-      "remarks": "LOADING LOOSEBAGS L3",
-      "equipment": "FL 1 / FL2",
-      "activity_time": "00:14"
+      "loaded": 5700,
+      "balance": 21800,
+      "progress": 0.20727272727272728,
+      "stockpile": 300,
+      "time": "08:00",
+      "remarks": "STOP LOADING / RAIN",
+      "equipment": "FL 1",
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 10",
       "vessel": "STAR FREEDOM",
       "voyage": 10,
       "booking": 25000,
-      "dispatch": 14000,
+      "dispatch": 15000,
       "loaded": 14000,
       "balance": 11000,
       "progress": 0.56,
-      "stockpile": 0,
-      "time": "23:00",
-      "remarks": "WAITING MATERA",
+      "stockpile": 1000,
+      "time": "08:00",
+      "remarks": "STOP LOADING / RAIN",
       "equipment": "CRANE 2",
-      "activity_time": "03:04"
+      "activity_time": "02:22"
     },
     {
       "berth": "Jetty",
@@ -168,12 +168,12 @@
     }
   ],
   "total": {
-    "booking": 294500,
-    "dispatch": 244000,
-    "loaded": 223700,
-    "balance": 70800,
-    "progress": 0.6308885667709196,
-    "stockpile": 20300
+    "booking": 318500,
+    "dispatch": 254000,
+    "loaded": 231700,
+    "balance": 86800,
+    "progress": 0.5923431239240062,
+    "stockpile": 22300
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "02:04"
+      "activity_time": "10:22"
     },
     {
       "berth": "R3",
@@ -229,26 +229,26 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 322000,
-      "daily": 32000
+      "september": 329000,
+      "daily": 4000
     },
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 93000,
-      "daily": 13000
+      "september": 96000,
+      "daily": 1000
     },
     {
       "hauler": "BADIE",
       "august": 53080,
       "september": 21000,
-      "daily": 3000
+      "daily": "-"
     },
     {
       "hauler": "GEO",
       "august": 138080,
       "september": 47000,
-      "daily": 6000
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -260,12 +260,12 @@
       "hauler": "APLUS",
       "august": 41000,
       "september": 15000,
-      "daily": 4000
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
       "august": 38000,
-      "september": 11000,
+      "september": 12000,
       "daily": 1000
     }
   ],
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 487700
+      "y2026": 495700
     },
     {
       "month": "October",
@@ -333,22 +333,22 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12323410
+    "y2026": 12331410
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 29700
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 17000
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 16300
+      "volume": 19300
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "UCES",
@@ -376,9 +376,9 @@
     }
   ],
   "status": {
-    "supervisor": "ABSENT",
-    "checker": "DALUSA,E / OBIAL,R",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "OBIAL, R/ TORRES, J",
+    "pmc": "VICKY / EBOY",
     "cranes": 4,
     "forklifts": 6,
     "stevedores": 43
