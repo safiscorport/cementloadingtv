@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-09-10T21:38:16+08:00",
+  "updated_at": "2026-09-10T21:41:14+08:00",
   "berths": [
     {
       "berth": "Berth 1",
-      "vessel": "BARGE JB 5",
-      "voyage": 1,
-      "booking": 85000,
-      "dispatch": 85000,
-      "loaded": 85000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "20:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:38"
+      "activity_time": "01:40"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "20:06",
       "remarks": "LOADING TONNER B5",
       "equipment": "CRANE 3",
-      "activity_time": "01:32"
+      "activity_time": "01:34"
     },
     {
       "berth": "Berth 3",
@@ -48,33 +48,33 @@
     },
     {
       "berth": "Berth 4",
-      "vessel": "INFINITY 8",
-      "voyage": 4,
-      "booking": 45000,
-      "dispatch": 47000,
-      "loaded": 44000,
-      "balance": 1000,
-      "progress": 0.9777777777777777,
-      "stockpile": 3000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
+      "stockpile": 0,
       "time": "20:01",
       "remarks": "LOADING POUCH L37",
       "equipment": "0",
-      "activity_time": "01:37"
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 5",
-      "vessel": "EASTERN CEBU",
-      "voyage": 10,
-      "booking": 27000,
-      "dispatch": 27000,
-      "loaded": 27000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "20:01",
       "remarks": "LOADING TONNER L39",
       "equipment": "0",
-      "activity_time": "01:37"
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 6",
@@ -88,8 +88,8 @@
       "stockpile": 1000,
       "time": "19:55",
       "remarks": "LOADING SLING S21",
-      "equipment": "0",
-      "activity_time": "01:43"
+      "equipment": "FL 1",
+      "activity_time": "01:45"
     },
     {
       "berth": "Berth 7",
@@ -103,8 +103,8 @@
       "stockpile": 0,
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
-      "equipment": "0",
-      "activity_time": "02:38"
+      "equipment": "FL 2",
+      "activity_time": "02:40"
     },
     {
       "berth": "Berth 8",
@@ -118,7 +118,7 @@
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
-      "equipment": "0",
+      "equipment": "FL 3",
       "activity_time": "00:00"
     },
     {
@@ -133,8 +133,8 @@
       "stockpile": 1300,
       "time": "20:00",
       "remarks": "LOADING LOOSEBAGS",
-      "equipment": "FL 1 / FL2",
-      "activity_time": "01:38"
+      "equipment": "0",
+      "activity_time": "01:40"
     },
     {
       "berth": "Berth 10",
@@ -148,8 +148,8 @@
       "stockpile": 0,
       "time": "20:00",
       "remarks": "LOADING POUCH",
-      "equipment": "CRANE 2",
-      "activity_time": "01:38"
+      "equipment": "0",
+      "activity_time": "01:40"
     },
     {
       "berth": "Jetty",
@@ -168,12 +168,12 @@
     }
   ],
   "total": {
-    "booking": 344500,
-    "dispatch": 273000,
-    "loaded": 268700,
-    "balance": 75800,
-    "progress": 0.6634619701286368,
-    "stockpile": 4300
+    "booking": 187500,
+    "dispatch": 114000,
+    "loaded": 112700,
+    "balance": 74800,
+    "progress": 0.49889665889665896,
+    "stockpile": 1300
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:38"
+      "activity_time": "21:40"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:38"
+      "activity_time": "21:40"
     },
     {
       "berth": "R3",
@@ -348,11 +348,11 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 3300
+      "volume": 1300
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "BADIE",
@@ -376,8 +376,8 @@
     }
   ],
   "status": {
-    "supervisor": "ABSENT",
-    "checker": "DALUSA,E / OBIAL,R",
+    "supervisor": "BERNABE, A",
+    "checker": "DALUSA,E",
     "pmc": "JOAN / WILLIAM",
     "cranes": 4,
     "forklifts": 6,
