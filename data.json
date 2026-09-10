@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T19:02:20+08:00",
+  "updated_at": "2026-09-10T19:06:47+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "16:03",
       "remarks": "COMPLETE LOADING L3",
       "equipment": "CRANE 3",
-      "activity_time": "02:58"
+      "activity_time": "03:03"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "16:30",
       "remarks": "LOADING A17 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "02:31"
+      "activity_time": "02:36"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "16:42",
       "remarks": "COMPLETE LOADING L50",
       "equipment": "0",
-      "activity_time": "02:19"
+      "activity_time": "02:24"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "15:27",
       "remarks": "COMPLETE LOADING B7",
       "equipment": "0",
-      "activity_time": "03:34"
+      "activity_time": "03:39"
     },
     {
       "berth": "Berth 6",
@@ -86,10 +86,10 @@
       "balance": 15000,
       "progress": 0.25,
       "stockpile": 0,
-      "time": "16:20",
-      "remarks": "LOADING S44 SLING BAGS",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 3",
-      "activity_time": "02:41"
+      "activity_time": "00:06"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 14000,
       "progress": 0.4166666666666667,
       "stockpile": 8000,
-      "time": "17:20",
-      "remarks": "LOADING S7 SLING BAGS",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:41"
+      "activity_time": "00:06"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "17:25",
-      "remarks": "LOADING S21 SLING BAGS",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:36"
+      "activity_time": "00:06"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 21800,
       "progress": 0.20727272727272728,
       "stockpile": 4300,
-      "time": "17:00",
-      "remarks": "VESSEL CLOSE / REFUSE TO LOAD",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 1",
-      "activity_time": "02:01"
+      "activity_time": "00:06"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 6000,
       "progress": 0.76,
       "stockpile": 0,
-      "time": "16:50",
-      "remarks": "LOADING G1 SLIGN BAGS",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE 2",
-      "activity_time": "02:11"
+      "activity_time": "00:06"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:01"
+      "activity_time": "19:06"
     },
     {
       "berth": "R3",
