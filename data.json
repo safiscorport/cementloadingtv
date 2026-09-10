@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T18:17:51+08:00",
+  "updated_at": "2026-09-10T19:02:20+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "16:03",
       "remarks": "COMPLETE LOADING L3",
       "equipment": "CRANE 3",
-      "activity_time": "02:14"
+      "activity_time": "02:58"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "16:30",
       "remarks": "LOADING A17 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:47"
+      "activity_time": "02:31"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "16:42",
       "remarks": "COMPLETE LOADING L50",
       "equipment": "0",
-      "activity_time": "01:35"
+      "activity_time": "02:19"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "15:27",
       "remarks": "COMPLETE LOADING B7",
       "equipment": "0",
-      "activity_time": "02:50"
+      "activity_time": "03:34"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "16:20",
       "remarks": "LOADING S44 SLING BAGS",
       "equipment": "FL 3",
-      "activity_time": "01:57"
+      "activity_time": "02:41"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "17:20",
       "remarks": "LOADING S7 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "01:41"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "17:25",
       "remarks": "LOADING S21 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "01:36"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "17:00",
       "remarks": "VESSEL CLOSE / REFUSE TO LOAD",
       "equipment": "FL 1",
-      "activity_time": "01:17"
+      "activity_time": "02:01"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "16:50",
       "remarks": "LOADING G1 SLIGN BAGS",
       "equipment": "CRANE 2",
-      "activity_time": "01:27"
+      "activity_time": "02:11"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "18:17"
+      "activity_time": "19:01"
     },
     {
       "berth": "R3",
@@ -235,7 +235,7 @@
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 98000,
+      "september": 97000,
       "daily": 3000
     },
     {
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 526700
+      "y2026": 525700
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12362410
+    "y2026": 12361410
   },
   "daily_production": [
     {
