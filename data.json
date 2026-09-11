@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T07:48:20+08:00",
+  "updated_at": "2026-09-11T08:07:59+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -18,18 +18,18 @@
     },
     {
       "berth": "Berth 2",
-      "vessel": "JOHANNAH 7",
-      "voyage": 5,
-      "booking": 65000,
-      "dispatch": 65000,
-      "loaded": 65000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "20:54",
-      "remarks": "LOADING COMPLETE",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "10:54"
+      "activity_time": "11:13"
     },
     {
       "berth": "Berth 3",
@@ -86,10 +86,10 @@
       "balance": 8000,
       "progress": 0.6,
       "stockpile": 6000,
-      "time": "05:42",
-      "remarks": "LOADING SLING S39",
+      "time": "07:10",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE 4",
-      "activity_time": "02:06"
+      "activity_time": "00:57"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 3000,
       "progress": 0.875,
       "stockpile": 1000,
-      "time": "05:22",
-      "remarks": "LOADING SLING S8",
+      "time": "07:10",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE3 / FL1",
-      "activity_time": "02:26"
+      "activity_time": "00:57"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 18000,
       "progress": 0.3076923076923077,
       "stockpile": 1000,
-      "time": "04:59",
-      "remarks": "WAITING MATERIAL",
+      "time": "07:10",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 3",
-      "activity_time": "02:49"
+      "activity_time": "00:57"
     },
     {
       "berth": "Berth 9",
@@ -131,25 +131,25 @@
       "balance": 11000,
       "progress": 0.6,
       "stockpile": 9000,
-      "time": "03:25",
-      "remarks": "LOADING SLING S43",
+      "time": "07:10",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "04:23"
+      "activity_time": "00:57"
     },
     {
       "berth": "Berth 10",
-      "vessel": "STAR FREEDOM",
-      "voyage": 10,
-      "booking": 25000,
-      "dispatch": 25000,
-      "loaded": 25000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "19:53",
-      "remarks": "LOADING COMPLETE",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "11:55"
+      "activity_time": "00:00"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 187500,
-    "dispatch": 164500,
-    "loaded": 147500,
+    "booking": 97500,
+    "dispatch": 74500,
+    "loaded": 57500,
     "balance": 40000,
-    "progress": 0.7304487179487179,
+    "progress": 0.5956730769230769,
     "stockpile": 17000
   },
   "alpha": [
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "SWEEPING",
       "equip": "0",
-      "activity_time": "07:48"
+      "activity_time": "08:07"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:48"
+      "activity_time": "08:07"
     },
     {
       "berth": "R3",
@@ -230,25 +230,25 @@
       "hauler": "SAFISCOR",
       "august": 1054675,
       "september": 389500,
-      "daily": 74800
+      "daily": 1000
     },
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
       "september": 90000,
-      "daily": 4000
+      "daily": "-"
     },
     {
       "hauler": "BADIE",
       "august": 53080,
       "september": 21000,
-      "daily": 2000
+      "daily": "-"
     },
     {
       "hauler": "GEO",
       "august": 138080,
       "september": 50000,
-      "daily": 4000
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -260,7 +260,7 @@
       "hauler": "APLUS",
       "august": 41000,
       "september": 16000,
-      "daily": 1000
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 31000
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 34800
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
