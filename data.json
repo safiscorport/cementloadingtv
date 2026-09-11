@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T11:36:50+08:00",
+  "updated_at": "2026-09-11T11:40:06+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "20:54",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "14:42"
+      "activity_time": "14:45"
     },
     {
       "berth": "Berth 3",
@@ -71,10 +71,10 @@
       "balance": 6000,
       "progress": 0.7,
       "stockpile": 5000,
-      "time": "09:45",
-      "remarks": "LOADING S15 TONNER BAGS",
+      "time": "10:47",
+      "remarks": "LOADING G2 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:51"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 6",
@@ -86,10 +86,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "08:00",
-      "remarks": "DOCK SECURED",
+      "time": "11:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:36"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 1000,
       "progress": 0.9583333333333334,
       "stockpile": 1000,
-      "time": "09:30",
-      "remarks": "WAITING MATERIAL",
+      "time": "11:09",
+      "remarks": "LOADING S27 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:06"
+      "activity_time": "00:30"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 17000,
       "progress": 0.34615384615384615,
       "stockpile": 2000,
-      "time": "09:00",
-      "remarks": "LOADING L39 SLING BAGS",
+      "time": "11:35",
+      "remarks": "LOADING L48 SLING BAGS",
       "equipment": "FL 3",
-      "activity_time": "02:36"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 8500,
       "progress": 0.6909090909090909,
       "stockpile": 6500,
-      "time": "10:15",
-      "remarks": "LOADING S44 LOOSEBAG",
+      "time": "11:00",
+      "remarks": "LOADING B5 SLING BAGS",
       "equipment": "CRANE 3 / FL 2",
-      "activity_time": "01:21"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 10",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "SWEEPING",
       "equip": "0",
-      "activity_time": "11:36"
+      "activity_time": "11:39"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:36"
+      "activity_time": "11:39"
     },
     {
       "berth": "R3",
