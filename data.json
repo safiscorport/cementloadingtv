@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T00:35:30+08:00",
+  "updated_at": "2026-09-12T00:36:45+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "22:31",
       "remarks": "LOADING SLING GEO 5",
       "equipment": "CRANE4 / FL 19",
-      "activity_time": "02:04"
+      "activity_time": "02:05"
     },
     {
       "berth": "Berth 3",
@@ -58,8 +58,8 @@
       "stockpile": 6000,
       "time": "21:24",
       "remarks": "LOADING SLING S43",
-      "equipment": "FL 17",
-      "activity_time": "03:11"
+      "equipment": "FL 2",
+      "activity_time": "03:12"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "WAITING BOOKING",
       "equipment": "0",
-      "activity_time": "05:35"
+      "activity_time": "05:36"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "13:44",
       "remarks": "COMPLETE LOADING L39",
       "equipment": "0",
-      "activity_time": "10:51"
+      "activity_time": "10:52"
     },
     {
       "berth": "Berth 8",
@@ -118,8 +118,8 @@
       "stockpile": 3000,
       "time": "22:50",
       "remarks": "LOADING SLING L37",
-      "equipment": "FL 3",
-      "activity_time": "01:45"
+      "equipment": "CRANE 3",
+      "activity_time": "01:46"
     },
     {
       "berth": "Berth 9",
@@ -133,8 +133,8 @@
       "stockpile": 500,
       "time": "23:46",
       "remarks": "WAITING LAST TRUCK - BADIE",
-      "equipment": "CRANE 3 / FL 2",
-      "activity_time": "00:49"
+      "equipment": "0",
+      "activity_time": "00:50"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "22:55",
       "remarks": "WAITING PORTLAND SLING",
       "equipment": "FL 1",
-      "activity_time": "01:40"
+      "activity_time": "01:41"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "00:35"
+      "activity_time": "00:36"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "00:35"
+      "activity_time": "00:36"
     },
     {
       "berth": "R3",
