@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T00:23:23+08:00",
+  "updated_at": "2026-09-12T00:34:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -21,15 +21,15 @@
       "vessel": "SF JOURNEY",
       "voyage": 2,
       "booking": 60000,
-      "dispatch": 9000,
+      "dispatch": 10000,
       "loaded": 6000,
       "balance": 54000,
       "progress": 0.1,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "22:31",
       "remarks": "LOADING SLING GEO 5",
       "equipment": "CRANE4 / FL 19",
-      "activity_time": "01:52"
+      "activity_time": "02:03"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "21:24",
       "remarks": "LOADING SLING S43",
       "equipment": "FL 17",
-      "activity_time": "02:59"
+      "activity_time": "03:10"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "WAITING BOOKING",
       "equipment": "0",
-      "activity_time": "05:23"
+      "activity_time": "05:34"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "13:44",
       "remarks": "COMPLETE LOADING L39",
       "equipment": "0",
-      "activity_time": "10:39"
+      "activity_time": "10:50"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 9,
       "booking": 26000,
       "dispatch": 21000,
-      "loaded": 17000,
-      "balance": 9000,
-      "progress": 0.6538461538461539,
-      "stockpile": 4000,
+      "loaded": 18000,
+      "balance": 8000,
+      "progress": 0.6923076923076923,
+      "stockpile": 3000,
       "time": "22:50",
       "remarks": "LOADING SLING L37",
       "equipment": "FL 3",
-      "activity_time": "01:33"
+      "activity_time": "01:44"
     },
     {
       "berth": "Berth 9",
@@ -127,14 +127,14 @@
       "voyage": 9,
       "booking": 27500,
       "dispatch": 28500,
-      "loaded": 26500,
-      "balance": 1000,
-      "progress": 0.9636363636363636,
-      "stockpile": 2000,
+      "loaded": 28000,
+      "balance": -500,
+      "progress": 1.018181818181818,
+      "stockpile": 500,
       "time": "23:20",
       "remarks": "LOADING TONNER S57",
       "equipment": "CRANE 3 / FL 2",
-      "activity_time": "01:03"
+      "activity_time": "01:14"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "22:55",
       "remarks": "WAITING PORTLAND SLING",
       "equipment": "FL 1",
-      "activity_time": "01:28"
+      "activity_time": "01:39"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 165500,
-    "dispatch": 86000,
-    "loaded": 61000,
-    "balance": 104500,
-    "progress": 0.4380992021471782,
-    "stockpile": 25000
+    "dispatch": 87000,
+    "loaded": 63500,
+    "balance": 102000,
+    "progress": 0.45670060074857677,
+    "stockpile": 23500
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "00:23"
+      "activity_time": "00:34"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "00:23"
+      "activity_time": "00:34"
     },
     {
       "berth": "R3",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 55000,
-      "daily": 5000
+      "september": 56000,
+      "daily": 6000
     },
     {
       "hauler": "UCES",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 604000
+      "y2026": 606500
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12439710
+    "y2026": 12442210
   },
   "daily_production": [
     {
@@ -342,17 +342,17 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 18500
+      "qty": 21000
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 18000
+      "volume": 16500
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 4000
+      "volume": 3000
     },
     {
       "client": "BADIE",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 2000
+      "volume": 3000
     },
     {
       "client": "UCES",
