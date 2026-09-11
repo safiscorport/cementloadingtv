@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T21:44:06+08:00",
+  "updated_at": "2026-09-11T22:13:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "20:50",
       "remarks": "LOADING SLING S28",
       "equipment": "CRANE4 / FL1",
-      "activity_time": "00:53"
+      "activity_time": "01:22"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 28000,
       "progress": 0.034482758620689655,
       "stockpile": 5000,
-      "time": "19:59",
-      "remarks": "COMMENCE LOADING S27",
+      "time": "21:24",
+      "remarks": "LOADING SLING S43",
       "equipment": "FL 17",
-      "activity_time": "01:44"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:43"
+      "activity_time": "03:12"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "13:44",
       "remarks": "COMPLETE LOADING L39",
       "equipment": "0",
-      "activity_time": "07:59"
+      "activity_time": "08:28"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 11000,
       "progress": 0.5769230769230769,
       "stockpile": 5000,
-      "time": "19:35",
-      "remarks": "LOADING SLING L51",
+      "time": "21:00",
+      "remarks": "VESSEL CRANE ONGOING REPAIR",
       "equipment": "FL 3",
-      "activity_time": "02:08"
+      "activity_time": "01:12"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "20:41",
       "remarks": "WAIITNG LAPULAPU",
       "equipment": "CRANE 3 / FL 2",
-      "activity_time": "01:02"
+      "activity_time": "01:31"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "21:01",
       "remarks": "LOADING SLING GEO 4",
       "equipment": "0",
-      "activity_time": "00:42"
+      "activity_time": "01:11"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "SWEEPING",
       "equip": "0",
-      "activity_time": "21:43"
+      "activity_time": "22:12"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:43"
+      "activity_time": "22:12"
     },
     {
       "berth": "R3",
