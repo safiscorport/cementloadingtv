@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T17:23:36+08:00",
+  "updated_at": "2026-09-11T17:35:45+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:23"
+      "activity_time": "04:35"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIALS",
       "equipment": "0",
-      "activity_time": "04:23"
+      "activity_time": "04:35"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "15:17",
       "remarks": "LOAIDNG S45 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:06"
+      "activity_time": "02:18"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:23"
+      "activity_time": "04:35"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "13:44",
       "remarks": "LOADING S39 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:39"
+      "activity_time": "03:51"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 9,
       "booking": 26000,
       "dispatch": 17000,
-      "loaded": 12000,
-      "balance": 14000,
-      "progress": 0.46153846153846156,
-      "stockpile": 5000,
-      "time": "13:29",
+      "loaded": 14000,
+      "balance": 12000,
+      "progress": 0.5384615384615384,
+      "stockpile": 3000,
+      "time": "17:20",
       "remarks": "LOADING S49  SLING BAGS",
       "equipment": "FL 3",
-      "activity_time": "03:54"
+      "activity_time": "00:15"
     },
     {
       "berth": "Berth 9",
@@ -134,22 +134,22 @@
       "time": "17:12",
       "remarks": "LOADING G3 SLING BAGS",
       "equipment": "CRANE 3 / FL 2",
-      "activity_time": "00:11"
+      "activity_time": "00:23"
     },
     {
       "berth": "Berth 10",
       "vessel": "LADY OF ROSARY",
       "voyage": 6,
       "booking": 23000,
-      "dispatch": 9500,
-      "loaded": 3500,
-      "balance": 19500,
-      "progress": 0.15217391304347827,
+      "dispatch": 10500,
+      "loaded": 4500,
+      "balance": 18500,
+      "progress": 0.1956521739130435,
       "stockpile": 6000,
-      "time": "14:43",
-      "remarks": "LOADING S15 SLING BAGS",
+      "time": "17:17",
+      "remarks": "LOADING S60 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:40"
+      "activity_time": "00:18"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 209500,
-    "dispatch": 103000,
-    "loaded": 79500,
-    "balance": 130000,
-    "progress": 0.4694913781870303,
-    "stockpile": 23500
+    "dispatch": 104000,
+    "loaded": 82500,
+    "balance": 127000,
+    "progress": 0.48669156930026497,
+    "stockpile": 21500
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "SWEEPING",
       "equip": "0",
-      "activity_time": "17:23"
+      "activity_time": "17:35"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:23"
+      "activity_time": "17:35"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 405000,
-      "daily": 16500
+      "september": 406000,
+      "daily": 17500
     },
     {
       "hauler": "LAPU-LAPU",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 582500
+      "y2026": 585500
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12418210
+    "y2026": 12421210
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 22000
+      "qty": 25000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 13000
+      "volume": 11000
     },
     {
       "client": "LAPU-LAPU",
