@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T23:58:19+08:00",
+  "updated_at": "2026-09-12T00:00:46+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -22,14 +22,14 @@
       "voyage": 2,
       "booking": 60000,
       "dispatch": 9000,
-      "loaded": 2000,
-      "balance": 58000,
-      "progress": 0.03333333333333333,
-      "stockpile": 7000,
+      "loaded": 6000,
+      "balance": 54000,
+      "progress": 0.1,
+      "stockpile": 3000,
       "time": "22:31",
       "remarks": "LOADING SLING GEO 5",
       "equipment": "CRANE4 / FL 19",
-      "activity_time": "01:27"
+      "activity_time": "01:29"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "21:24",
       "remarks": "LOADING SLING S43",
       "equipment": "FL 17",
-      "activity_time": "02:34"
+      "activity_time": "02:36"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "WAITING BOOKING",
       "equipment": "0",
-      "activity_time": "04:58"
+      "activity_time": "05:00"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "13:44",
       "remarks": "COMPLETE LOADING L39",
       "equipment": "0",
-      "activity_time": "10:14"
+      "activity_time": "10:16"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 9,
       "booking": 26000,
       "dispatch": 20000,
-      "loaded": 16000,
-      "balance": 10000,
-      "progress": 0.6153846153846154,
-      "stockpile": 4000,
+      "loaded": 17000,
+      "balance": 9000,
+      "progress": 0.6538461538461539,
+      "stockpile": 3000,
       "time": "22:18",
       "remarks": "VESSEL CRANE REPAIR",
       "equipment": "FL 3",
-      "activity_time": "01:40"
+      "activity_time": "01:42"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "21:16",
       "remarks": "LOADING SLING L39",
       "equipment": "CRANE 3 / FL 2",
-      "activity_time": "02:42"
+      "activity_time": "02:44"
     },
     {
       "berth": "Berth 10",
@@ -142,14 +142,14 @@
       "voyage": 6,
       "booking": 23000,
       "dispatch": 16500,
-      "loaded": 6500,
-      "balance": 16500,
-      "progress": 0.2826086956521739,
-      "stockpile": 10000,
+      "loaded": 8500,
+      "balance": 14500,
+      "progress": 0.3695652173913043,
+      "stockpile": 8000,
       "time": "22:55",
       "remarks": "WAITING PORTLAND SLING",
       "equipment": "FL 1",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 165500,
     "dispatch": 83000,
-    "loaded": 54000,
-    "balance": 111500,
-    "progress": 0.39968225677371105,
-    "stockpile": 29000
+    "loaded": 61000,
+    "balance": 104500,
+    "progress": 0.4380992021471782,
+    "stockpile": 22000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "23:58"
+      "activity_time": "00:00"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "23:58"
+      "activity_time": "00:00"
     },
     {
       "berth": "R3",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 597000
+      "y2026": 604000
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12432710
+    "y2026": 12439710
   },
   "daily_production": [
     {
@@ -342,17 +342,17 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 11500
+      "qty": 18500
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 19000
+      "volume": 15000
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 6000
+      "volume": 4000
     },
     {
       "client": "BADIE",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 3000
+      "volume": 2000
     },
     {
       "client": "UCES",
