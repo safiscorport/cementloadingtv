@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T04:06:28+08:00",
+  "updated_at": "2026-09-12T04:06:54+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -116,10 +116,10 @@
       "balance": 5000,
       "progress": 0.8076923076923077,
       "stockpile": 2000,
-      "time": "01:15",
-      "remarks": "WAITING MATERIAL",
+      "time": "03:41",
+      "remarks": "LOADING SLING S41",
       "equipment": "CRANE 3",
-      "activity_time": "02:51"
+      "activity_time": "00:25"
     },
     {
       "berth": "Berth 9",
