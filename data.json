@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T21:41:42+08:00",
+  "updated_at": "2026-09-11T21:44:06+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -22,14 +22,14 @@
       "voyage": 2,
       "booking": 60000,
       "dispatch": 8000,
-      "loaded": 0,
-      "balance": 60000,
-      "progress": 0,
-      "stockpile": 8000,
+      "loaded": 2000,
+      "balance": 58000,
+      "progress": 0.03333333333333333,
+      "stockpile": 6000,
       "time": "20:50",
       "remarks": "LOADING SLING S28",
       "equipment": "CRANE4 / FL1",
-      "activity_time": "00:51"
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 3",
@@ -52,14 +52,14 @@
       "voyage": 1,
       "booking": 29000,
       "dispatch": 6000,
-      "loaded": 0,
-      "balance": 29000,
-      "progress": 0,
-      "stockpile": 6000,
+      "loaded": 1000,
+      "balance": 28000,
+      "progress": 0.034482758620689655,
+      "stockpile": 5000,
       "time": "19:59",
       "remarks": "COMMENCE LOADING S27",
       "equipment": "FL 17",
-      "activity_time": "01:42"
+      "activity_time": "01:44"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:41"
+      "activity_time": "02:43"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "13:44",
       "remarks": "COMPLETE LOADING L39",
       "equipment": "0",
-      "activity_time": "07:57"
+      "activity_time": "07:59"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 9,
       "booking": 26000,
       "dispatch": 20000,
-      "loaded": 14000,
-      "balance": 12000,
-      "progress": 0.5384615384615384,
-      "stockpile": 6000,
+      "loaded": 15000,
+      "balance": 11000,
+      "progress": 0.5769230769230769,
+      "stockpile": 5000,
       "time": "19:35",
       "remarks": "LOADING SLING L51",
       "equipment": "FL 3",
-      "activity_time": "02:06"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "20:41",
       "remarks": "WAIITNG LAPULAPU",
       "equipment": "CRANE 3 / FL 2",
-      "activity_time": "01:00"
+      "activity_time": "01:02"
     },
     {
       "berth": "Berth 10",
@@ -142,14 +142,14 @@
       "voyage": 6,
       "booking": 23000,
       "dispatch": 15500,
-      "loaded": 4500,
-      "balance": 18500,
-      "progress": 0.1956521739130435,
-      "stockpile": 11000,
+      "loaded": 6500,
+      "balance": 16500,
+      "progress": 0.2826086956521739,
+      "stockpile": 9000,
       "time": "21:01",
       "remarks": "LOADING SLING GEO 4",
       "equipment": "0",
-      "activity_time": "00:40"
+      "activity_time": "00:42"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 165500,
     "dispatch": 78000,
-    "loaded": 44500,
-    "balance": 121000,
-    "progress": 0.3359136515658255,
-    "stockpile": 33500
+    "loaded": 50500,
+    "balance": 115000,
+    "progress": 0.3745604819967638,
+    "stockpile": 27500
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "SWEEPING",
       "equip": "0",
-      "activity_time": "21:41"
+      "activity_time": "21:43"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:41"
+      "activity_time": "21:43"
     },
     {
       "berth": "R3",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 587500
+      "y2026": 593500
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12423210
+    "y2026": 12429210
   },
   "daily_production": [
     {
@@ -342,17 +342,17 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 2000
+      "qty": 8000
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 19000
+      "volume": 16000
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 8500
+      "volume": 6500
     },
     {
       "client": "BADIE",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 4000
+      "volume": 3000
     },
     {
       "client": "UCES",
