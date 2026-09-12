@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T20:36:51+08:00",
+  "updated_at": "2026-09-12T20:50:19+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "FL2 / FL1",
-      "activity_time": "01:06"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 25000,
       "progress": 0,
       "stockpile": 5000,
-      "time": "00:00",
-      "remarks": "JERLYN KAYLO",
+      "time": "20:50",
+      "remarks": "OPENING HATCH",
       "equipment": "FL 17",
-      "activity_time": "00:00"
+      "activity_time": "23:59"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 14000,
       "progress": 0.5172413793103449,
       "stockpile": 750,
-      "time": "19:30",
-      "remarks": "WAITING GEO",
+      "time": "20:35",
+      "remarks": "LOADING SLING GEO 5",
       "equipment": "FL 19",
-      "activity_time": "01:06"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "01:36"
+      "activity_time": "01:49"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "01:36"
+      "activity_time": "01:49"
     },
     {
       "berth": "Berth 8",
@@ -126,15 +126,15 @@
       "vessel": "ADOLFO SR",
       "voyage": 9,
       "booking": 27500,
-      "dispatch": 29500,
-      "loaded": 28500,
-      "balance": -1000,
-      "progress": 1.0363636363636364,
-      "stockpile": 1000,
+      "dispatch": 27500,
+      "loaded": 27500,
+      "balance": 0,
+      "progress": 1,
+      "stockpile": 0,
       "time": "15:55",
       "remarks": "COMPLETE LOADING L3",
       "equipment": "0",
-      "activity_time": "04:41"
+      "activity_time": "04:54"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "FL 3",
-      "activity_time": "01:06"
+      "activity_time": "01:19"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 189500,
-    "dispatch": 109000,
-    "loaded": 75500,
-    "balance": 114000,
-    "progress": 0.41261774415822394,
-    "stockpile": 33500
+    "dispatch": 107000,
+    "loaded": 74500,
+    "balance": 115000,
+    "progress": 0.40655713809761784,
+    "stockpile": 32500
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:36"
+      "activity_time": "20:49"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:36"
+      "activity_time": "20:49"
     },
     {
       "berth": "R3",
@@ -229,7 +229,7 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 461000,
+      "september": 460000,
       "daily": 28000
     },
     {
@@ -241,7 +241,7 @@
     {
       "hauler": "BADIE",
       "august": 53080,
-      "september": 22000,
+      "september": 21000,
       "daily": "-"
     },
     {
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 647500
+      "y2026": 646500
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12483210
+    "y2026": 12482210
   },
   "daily_production": [
     {
@@ -356,7 +356,7 @@
     },
     {
       "client": "BADIE",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "GEO",
