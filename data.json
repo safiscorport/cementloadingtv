@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T19:11:32+08:00",
+  "updated_at": "2026-09-12T19:48:22+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -21,26 +21,26 @@
       "vessel": "SF JOURNEY",
       "voyage": 2,
       "booking": 60000,
-      "dispatch": 28750,
+      "dispatch": 30750,
       "loaded": 17500,
       "balance": 42500,
       "progress": 0.2916666666666667,
-      "stockpile": 11250,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "stockpile": 13250,
+      "time": "19:30",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:11"
+      "activity_time": "00:17"
     },
     {
       "berth": "Berth 3",
       "vessel": "JERLYN KAYLO",
       "voyage": 1,
       "booking": 25000,
-      "dispatch": 2000,
+      "dispatch": 5000,
       "loaded": 0,
       "balance": 25000,
       "progress": 0,
-      "stockpile": 2000,
+      "stockpile": 5000,
       "time": "00:00",
       "remarks": "JERLYN KAYLO",
       "equipment": "0",
@@ -56,10 +56,10 @@
       "balance": 14000,
       "progress": 0.5172413793103449,
       "stockpile": 750,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "19:30",
+      "remarks": "WAITING GEO",
       "equipment": "0",
-      "activity_time": "00:11"
+      "activity_time": "00:17"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "00:11"
+      "activity_time": "00:47"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0,
       "stockpile": 4000,
       "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "00:11"
+      "activity_time": "00:47"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 1000,
       "progress": 0.9615384615384616,
       "stockpile": 1000,
-      "time": "15:56",
-      "remarks": "COMPLETE LOADING S6",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "03:15"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "15:55",
       "remarks": "COMPLETE LOADING L3",
       "equipment": "0",
-      "activity_time": "03:16"
+      "activity_time": "03:52"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 8500,
       "progress": 0.6304347826086957,
       "stockpile": 7500,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "19:30",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:11"
+      "activity_time": "00:17"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 215500,
-    "dispatch": 128000,
+    "dispatch": 133000,
     "loaded": 100500,
     "balance": 115000,
     "progress": 0.49103498949825786,
-    "stockpile": 27500
+    "stockpile": 32500
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:11"
+      "activity_time": "19:47"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:11"
+      "activity_time": "19:47"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 454000,
-      "daily": 21000
+      "september": 459000,
+      "daily": 26000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 22500
+      "volume": 27500
     },
     {
       "client": "LAPU-LAPU",
