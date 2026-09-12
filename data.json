@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T19:50:16+08:00",
+  "updated_at": "2026-09-12T19:54:04+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -21,15 +21,15 @@
       "vessel": "SF JOURNEY",
       "voyage": 2,
       "booking": 60000,
-      "dispatch": 30750,
+      "dispatch": 31750,
       "loaded": 17500,
       "balance": 42500,
       "progress": 0.2916666666666667,
-      "stockpile": 13250,
+      "stockpile": 14250,
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:19"
+      "activity_time": "00:23"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "19:30",
       "remarks": "WAITING GEO",
       "equipment": "0",
-      "activity_time": "00:19"
+      "activity_time": "00:23"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "00:49"
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "00:49"
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 8",
@@ -134,22 +134,22 @@
       "time": "15:55",
       "remarks": "COMPLETE LOADING L3",
       "equipment": "0",
-      "activity_time": "03:54"
+      "activity_time": "03:58"
     },
     {
       "berth": "Berth 10",
       "vessel": "LADY OF ROSARY",
       "voyage": 6,
       "booking": 23000,
-      "dispatch": 22000,
+      "dispatch": 23000,
       "loaded": 14500,
       "balance": 8500,
       "progress": 0.6304347826086957,
-      "stockpile": 7500,
+      "stockpile": 8500,
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:19"
+      "activity_time": "00:23"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 215500,
-    "dispatch": 133000,
+    "dispatch": 135000,
     "loaded": 100500,
     "balance": 115000,
     "progress": 0.49103498949825786,
-    "stockpile": 32500
+    "stockpile": 34500
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:49"
+      "activity_time": "19:53"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:49"
+      "activity_time": "19:53"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 459000,
-      "daily": 26000
+      "september": 461000,
+      "daily": 28000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 27500
+      "volume": 29500
     },
     {
       "client": "LAPU-LAPU",
