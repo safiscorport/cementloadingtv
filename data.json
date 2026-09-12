@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T19:54:04+08:00",
+  "updated_at": "2026-09-12T20:27:19+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:23"
+      "activity_time": "00:56"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "19:30",
       "remarks": "WAITING GEO",
       "equipment": "0",
-      "activity_time": "00:23"
+      "activity_time": "00:56"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "01:26"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "01:26"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "15:55",
       "remarks": "COMPLETE LOADING L3",
       "equipment": "0",
-      "activity_time": "03:58"
+      "activity_time": "04:31"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:23"
+      "activity_time": "00:56"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:53"
+      "activity_time": "20:26"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:53"
+      "activity_time": "20:26"
     },
     {
       "berth": "R3",
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "0",
+    "supervisor": "ABSENT",
     "checker": "DALUSA,E",
     "pmc": "JOAN / WILLIAM",
-    "cranes": 4,
-    "forklifts": 6,
-    "stevedores": 0
+    "cranes": 3,
+    "forklifts": 4,
+    "stevedores": 34
   }
 }
