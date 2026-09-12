@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T18:52:44+08:00",
+  "updated_at": "2026-09-12T18:53:40+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -28,8 +28,8 @@
       "stockpile": 11250,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
-      "equipment": "CRANE4 / FL 19",
-      "activity_time": "23:52"
+      "equipment": "0",
+      "activity_time": "23:53"
     },
     {
       "berth": "Berth 3",
@@ -42,7 +42,7 @@
       "progress": 0,
       "stockpile": 2000,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "JERLYN KAYLO",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -58,8 +58,8 @@
       "stockpile": 750,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
-      "equipment": "CRANE2 / FL3",
-      "activity_time": "23:52"
+      "equipment": "0",
+      "activity_time": "23:53"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "23:52"
+      "activity_time": "23:53"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "23:52"
+      "activity_time": "23:53"
     },
     {
       "berth": "Berth 8",
@@ -118,8 +118,8 @@
       "stockpile": 1000,
       "time": "15:56",
       "remarks": "COMPLETE LOADING S6",
-      "equipment": "CRANE 3",
-      "activity_time": "02:56"
+      "equipment": "0",
+      "activity_time": "02:57"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "15:55",
       "remarks": "COMPLETE LOADING L3",
       "equipment": "0",
-      "activity_time": "02:57"
+      "activity_time": "02:58"
     },
     {
       "berth": "Berth 10",
@@ -148,8 +148,8 @@
       "stockpile": 7500,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
-      "equipment": "FL 1",
-      "activity_time": "23:52"
+      "equipment": "0",
+      "activity_time": "23:53"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "18:52"
+      "activity_time": "18:53"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "18:52"
+      "activity_time": "18:53"
     },
     {
       "berth": "R3",
@@ -377,8 +377,8 @@
   ],
   "status": {
     "supervisor": "0",
-    "checker": "OBIAL, R / TORRES, J",
-    "pmc": "VICKY / EBOY",
+    "checker": "DALUSA,E",
+    "pmc": "JOAN / WILLIAM",
     "cranes": 4,
     "forklifts": 6,
     "stevedores": 0
