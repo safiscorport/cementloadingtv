@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T20:50:19+08:00",
+  "updated_at": "2026-09-12T20:50:35+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "FL2 / FL1",
-      "activity_time": "01:19"
+      "activity_time": "01:20"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "20:50",
       "remarks": "OPENING HATCH",
       "equipment": "FL 17",
-      "activity_time": "23:59"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "20:35",
       "remarks": "LOADING SLING GEO 5",
       "equipment": "FL 19",
-      "activity_time": "00:14"
+      "activity_time": "00:15"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "01:49"
+      "activity_time": "01:50"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "01:49"
+      "activity_time": "01:50"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "15:55",
       "remarks": "COMPLETE LOADING L3",
       "equipment": "0",
-      "activity_time": "04:54"
+      "activity_time": "04:55"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "FL 3",
-      "activity_time": "01:19"
+      "activity_time": "01:20"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:49"
+      "activity_time": "20:50"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:49"
+      "activity_time": "20:50"
     },
     {
       "berth": "R3",
