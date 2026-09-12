@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:42:33+08:00",
+  "updated_at": "2026-09-13T00:04:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -12,9 +12,9 @@
       "progress": 0,
       "stockpile": 0,
       "time": "20:00",
-      "remarks": "awdawd",
+      "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "03:42"
+      "activity_time": "04:03"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 42500,
       "progress": 0.2916666666666667,
       "stockpile": 0,
-      "time": "20:06",
-      "remarks": "KY TOOLBOX",
+      "time": "21:11",
+      "remarks": "LOADING SLING S47",
       "equipment": "0",
-      "activity_time": "03:36"
+      "activity_time": "02:52"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 25000,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "21:49",
+      "remarks": "LOADING SLING S42",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "02:14"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 14000,
       "progress": 0.5172413793103449,
       "stockpile": 0,
-      "time": "20:01",
-      "remarks": "LOADING POUCH L37",
+      "time": "20:35",
+      "remarks": "LOADING SLING GEO 5",
       "equipment": "0",
-      "activity_time": "03:41"
+      "activity_time": "03:28"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "20:01",
       "remarks": "LOADING TONNER L39",
       "equipment": "0",
-      "activity_time": "03:41"
+      "activity_time": "04:02"
     },
     {
       "berth": "Berth 6",
@@ -86,10 +86,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "19:55",
-      "remarks": "LOADING SLING S21",
+      "time": "19:00",
+      "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "03:47"
+      "activity_time": "05:03"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0,
       "stockpile": 0,
       "time": "19:00",
-      "remarks": "WAITING MATERIAL",
+      "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "04:42"
+      "activity_time": "05:03"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "20:00",
       "remarks": "LOADING LOOSEBAGS",
       "equipment": "0",
-      "activity_time": "03:42"
+      "activity_time": "04:03"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 8500,
       "progress": 0.6304347826086957,
       "stockpile": 0,
-      "time": "20:00",
-      "remarks": "LOADING POUCH",
+      "time": "20:27",
+      "remarks": "LOADING SLING S56",
       "equipment": "0",
-      "activity_time": "03:42"
+      "activity_time": "03:36"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "23:42"
+      "activity_time": "00:03"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "23:42"
+      "activity_time": "00:03"
     },
     {
       "berth": "R3",
