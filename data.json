@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T21:07:51+08:00",
+  "updated_at": "2026-09-12T21:08:55+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "FL2 / FL1",
-      "activity_time": "01:37"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "20:50",
       "remarks": "OPENING HATCH",
       "equipment": "FL 17",
-      "activity_time": "00:17"
+      "activity_time": "00:18"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "20:35",
       "remarks": "LOADING SLING GEO 5",
       "equipment": "0",
-      "activity_time": "00:32"
+      "activity_time": "00:33"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "02:07"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 7",
@@ -104,16 +104,16 @@
       "time": "19:00",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "02:07"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 8",
-      "vessel": "NAPOLI",
-      "voyage": 9,
+      "vessel": "VACANT",
+      "voyage": "-",
       "booking": 0,
-      "dispatch": 26000,
-      "loaded": 26000,
-      "balance": -26000,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
@@ -134,7 +134,7 @@
       "time": "15:55",
       "remarks": "COMPLETE LOADING L3",
       "equipment": "0",
-      "activity_time": "05:12"
+      "activity_time": "05:13"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "FL 3",
-      "activity_time": "01:37"
+      "activity_time": "01:38"
     },
     {
       "berth": "Jetty",
@@ -169,9 +169,9 @@
   ],
   "total": {
     "booking": 189500,
-    "dispatch": 133000,
-    "loaded": 100500,
-    "balance": 89000,
+    "dispatch": 107000,
+    "loaded": 74500,
+    "balance": 115000,
     "progress": 0.40655713809761784,
     "stockpile": 32500
   },
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:07"
+      "activity_time": "21:08"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:07"
+      "activity_time": "21:08"
     },
     {
       "berth": "R3",
