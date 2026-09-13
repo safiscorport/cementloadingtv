@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T07:45:27+08:00",
+  "updated_at": "2026-09-14T07:56:27+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 21000,
       "progress": 0.65,
       "stockpile": 0,
-      "time": "23:00",
+      "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "08:45"
+      "activity_time": "00:56"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 8000,
       "progress": 0.68,
       "stockpile": 0,
-      "time": "19:00",
+      "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL3 / FL 17",
-      "activity_time": "12:45"
+      "activity_time": "00:56"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 250,
       "progress": 0.9913793103448276,
       "stockpile": 0,
-      "time": "00:00",
+      "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "07:45"
+      "activity_time": "00:56"
     },
     {
       "berth": "Berth 5",
@@ -86,10 +86,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "19:00",
-      "remarks": "NO BOOKING",
+      "time": "07:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "12:45"
+      "activity_time": "00:56"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 14000,
       "progress": 0.44,
       "stockpile": 0,
-      "time": "22:00",
+      "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "09:45"
+      "activity_time": "00:56"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 19000,
       "progress": 0.05,
       "stockpile": 1000,
-      "time": "19:30",
-      "remarks": "REFUSE TO LOAD / CLOUDY",
+      "time": "07:00",
+      "remarks": "OPENING HATCH",
       "equipment": "0",
-      "activity_time": "12:15"
+      "activity_time": "00:56"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 24250,
       "progress": 0.03,
       "stockpile": 0,
-      "time": "23:00",
+      "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "08:45"
+      "activity_time": "00:56"
     },
     {
       "berth": "Berth 10",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:45"
+      "activity_time": "07:56"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:45"
+      "activity_time": "07:56"
     },
     {
       "berth": "R3",
