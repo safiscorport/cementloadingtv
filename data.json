@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T08:07:44+08:00",
+  "updated_at": "2026-09-13T09:53:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "20:00",
-      "remarks": "LOADING TONNER",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "12:07"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 2",
@@ -29,37 +29,37 @@
       "time": "08:01",
       "remarks": "LOADING S19 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "00:06"
+      "activity_time": "01:52"
     },
     {
       "berth": "Berth 3",
       "vessel": "JERLYN KAYLO",
       "voyage": 1,
       "booking": 25000,
-      "dispatch": 10750,
+      "dispatch": 16750,
       "loaded": 8000,
       "balance": 17000,
       "progress": 0.32,
-      "stockpile": 2750,
+      "stockpile": 8750,
       "time": "08:00",
       "remarks": "LOADING S38 SLING BAGS",
       "equipment": "FL3 / FL 17",
-      "activity_time": "00:07"
+      "activity_time": "01:53"
     },
     {
       "berth": "Berth 4",
       "vessel": "AGRO MARINE 3",
       "voyage": 1,
       "booking": 29000,
-      "dispatch": 17750,
+      "dispatch": 18750,
       "loaded": 17750,
       "balance": 11250,
       "progress": 0.6120689655172413,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "08:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "00:07"
+      "activity_time": "01:53"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "20:01",
-      "remarks": "LOADING TONNER L39",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "12:06"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "08:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "00:07"
+      "activity_time": "01:53"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "08:00",
       "remarks": "LOADING S57 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:07"
+      "activity_time": "01:53"
     },
     {
       "berth": "Berth 8",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "20:00",
-      "remarks": "LOADING LOOSEBAGS",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "12:07"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 139000,
-    "dispatch": 65500,
+    "dispatch": 72500,
     "loaded": 53500,
     "balance": 85500,
     "progress": 0.3486422413793103,
-    "stockpile": 12000
+    "stockpile": 19000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:07"
+      "activity_time": "09:53"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:07"
+      "activity_time": "09:53"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 492500,
-      "daily": "-"
+      "september": 498500,
+      "daily": 6000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 49000,
-      "daily": "-"
+      "september": 50000,
+      "daily": 1000
     },
     {
       "hauler": "UCES",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 11000
+      "volume": 17000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "UCES",
@@ -376,7 +376,7 @@
     }
   ],
   "status": {
-    "supervisor": "ABSENT",
+    "supervisor": "NO VISOR",
     "checker": "OBIAL, R / TORRES, J",
     "pmc": "VICKY / EBOY",
     "cranes": 3,
