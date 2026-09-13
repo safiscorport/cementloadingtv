@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T16:08:37+08:00",
+  "updated_at": "2026-09-13T17:12:31+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 25000,
       "progress": 0.5833333333333334,
       "stockpile": 3000,
-      "time": "16:05",
-      "remarks": "LOADING S9 SLING BAGS",
+      "time": "16:14",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "FL 1",
-      "activity_time": "00:03"
+      "activity_time": "00:58"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 12250,
       "progress": 0.51,
       "stockpile": 4000,
-      "time": "13:55",
-      "remarks": "LOADING S7 SLING BAGS",
+      "time": "16:14",
+      "remarks": "WAITING MATERIAL / RAIN",
       "equipment": "FL3 / FL 17",
-      "activity_time": "02:13"
+      "activity_time": "00:58"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 10250,
       "progress": 0.646551724137931,
       "stockpile": 7000,
-      "time": "13:54",
-      "remarks": "LOADING S51 TONNER BAGS",
+      "time": "16:14",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 2",
-      "activity_time": "02:14"
+      "activity_time": "00:58"
     },
     {
       "berth": "Berth 5",
@@ -86,10 +86,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "13:00",
+      "time": "17:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "03:08"
+      "activity_time": "00:12"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 19000,
       "progress": 0.24,
       "stockpile": 4000,
-      "time": "16:01",
-      "remarks": "LOADING S21 TONNER BAGS",
+      "time": "16:14",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "00:07"
+      "activity_time": "00:58"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 2000,
-      "time": "12:00",
-      "remarks": "LUNCH BREAK",
+      "time": "16:14",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "04:08"
+      "activity_time": "00:58"
     },
     {
       "berth": "Berth 9",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:08"
+      "activity_time": "17:12"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:08"
+      "activity_time": "17:12"
     },
     {
       "berth": "R3",
