@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T09:53:51+08:00",
+  "updated_at": "2026-09-13T09:54:55+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "08:01",
       "remarks": "LOADING S19 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "01:52"
+      "activity_time": "01:53"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "LOADING S38 SLING BAGS",
       "equipment": "FL3 / FL 17",
-      "activity_time": "01:53"
+      "activity_time": "01:54"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "01:53"
+      "activity_time": "01:54"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "08:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "01:53"
+      "activity_time": "01:54"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "08:00",
       "remarks": "LOADING S57 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:53"
+      "activity_time": "01:54"
     },
     {
       "berth": "Berth 8",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:53"
+      "activity_time": "09:54"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:53"
+      "activity_time": "09:54"
     },
     {
       "berth": "R3",
