@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T13:10:11+08:00",
+  "updated_at": "2026-09-14T13:37:17+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -21,30 +21,30 @@
       "vessel": "SF JOURNEY",
       "voyage": 2,
       "booking": 60000,
-      "dispatch": 40000,
+      "dispatch": 41000,
       "loaded": 39000,
       "balance": 21000,
       "progress": 0.65,
-      "stockpile": 1000,
-      "time": "14:00",
+      "stockpile": 2000,
+      "time": "11:00",
       "remarks": "WAITING GEO",
       "equipment": "0",
-      "activity_time": "23:09"
+      "activity_time": "02:36"
     },
     {
       "berth": "Berth 3",
       "vessel": "JERLYN KAYLO",
       "voyage": 1,
       "booking": 25000,
-      "dispatch": 17000,
+      "dispatch": 18000,
       "loaded": 17000,
       "balance": 8000,
       "progress": 0.68,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "06:09"
+      "activity_time": "06:36"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "06:09"
+      "activity_time": "06:36"
     },
     {
       "berth": "Berth 5",
@@ -89,52 +89,52 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "06:09"
+      "activity_time": "06:36"
     },
     {
       "berth": "Berth 7",
       "vessel": "LADY OF PEACE",
       "voyage": 7,
       "booking": 25000,
-      "dispatch": 12000,
+      "dispatch": 14000,
       "loaded": 11000,
       "balance": 14000,
       "progress": 0.44,
-      "stockpile": 1000,
+      "stockpile": 3000,
       "time": "11:00",
       "remarks": "WAITING GEO",
       "equipment": "0",
-      "activity_time": "02:09"
+      "activity_time": "02:36"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF DIVINE GRACE",
       "voyage": 8,
       "booking": 20000,
-      "dispatch": 2000,
+      "dispatch": 3000,
       "loaded": 2000,
       "balance": 18000,
       "progress": 0.1,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "08:57",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:12"
+      "activity_time": "04:39"
     },
     {
       "berth": "Berth 9",
       "vessel": "LADY OF REMEDY",
       "voyage": 8,
       "booking": 25000,
-      "dispatch": 6750,
+      "dispatch": 7750,
       "loaded": 2750,
       "balance": 22250,
       "progress": 0.11,
-      "stockpile": 4000,
+      "stockpile": 5000,
       "time": "13:00",
       "remarks": "LOADING SLING S60",
       "equipment": "0",
-      "activity_time": "00:09"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 184000,
-    "dispatch": 106750,
+    "dispatch": 112750,
     "loaded": 100750,
     "balance": 83250,
     "progress": 0.49666666666666665,
-    "stockpile": 6000
+    "stockpile": 12000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:09"
+      "activity_time": "13:36"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:09"
+      "activity_time": "13:36"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 523500,
-      "daily": 6000
+      "september": 528500,
+      "daily": 11000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "august": 41000,
-      "september": 26000,
-      "daily": "-"
+      "september": 27000,
+      "daily": 1000
     },
     {
       "hauler": "FULACHE",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 4000
+      "volume": 9000
     },
     {
       "client": "LAPU-LAPU",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "FULACHE",
