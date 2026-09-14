@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T07:56:27+08:00",
+  "updated_at": "2026-09-14T08:38:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "00:56"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL3 / FL 17",
-      "activity_time": "00:56"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "00:56"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 19000,
       "progress": 0.05,
       "stockpile": 1000,
-      "time": "07:00",
-      "remarks": "OPENING HATCH",
+      "time": "08:30",
+      "remarks": "LOADING SLING S17",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "00:08"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 10",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:56"
+      "activity_time": "08:38"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:56"
+      "activity_time": "08:38"
     },
     {
       "berth": "R3",
@@ -230,25 +230,25 @@
       "hauler": "SAFISCOR",
       "august": 1054675,
       "september": 517500,
-      "daily": 25000
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
       "september": 89000,
-      "daily": 2000
+      "daily": "-"
     },
     {
       "hauler": "BADIE",
       "august": 53080,
       "september": 21000,
-      "daily": 2000
+      "daily": "-"
     },
     {
       "hauler": "GEO",
       "august": 138080,
       "september": 53000,
-      "daily": 4000
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 30250
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 13750
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
