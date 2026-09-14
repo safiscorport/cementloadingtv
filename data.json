@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T08:42:11+08:00",
+  "updated_at": "2026-09-14T08:42:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -57,7 +57,7 @@
       "progress": 1,
       "stockpile": 0,
       "time": "07:00",
-      "remarks": "WAITING MATERIAL",
+      "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
       "activity_time": "01:41"
     },
