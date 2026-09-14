@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T13:38:12+08:00",
+  "updated_at": "2026-09-14T14:08:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 21000,
       "progress": 0.65,
       "stockpile": 2000,
-      "time": "11:00",
-      "remarks": "WAITING GEO",
+      "time": "13:40",
+      "remarks": "CLOSE HATCH / RAIN",
       "equipment": "0",
-      "activity_time": "02:37"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 8000,
       "progress": 0.68,
       "stockpile": 1000,
-      "time": "07:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "13:40",
+      "remarks": "CLOSE HATCH / RAIN",
       "equipment": "0",
-      "activity_time": "06:37"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "06:37"
+      "activity_time": "07:07"
     },
     {
       "berth": "Berth 5",
@@ -89,22 +89,22 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "06:37"
+      "activity_time": "07:07"
     },
     {
       "berth": "Berth 7",
       "vessel": "LADY OF PEACE",
       "voyage": 7,
       "booking": 25000,
-      "dispatch": 14000,
+      "dispatch": 15000,
       "loaded": 11000,
       "balance": 14000,
       "progress": 0.44,
-      "stockpile": 3000,
-      "time": "11:00",
-      "remarks": "WAITING GEO",
+      "stockpile": 4000,
+      "time": "13:40",
+      "remarks": "CLOSE HATCH / RAIN",
       "equipment": "0",
-      "activity_time": "02:37"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 8",
@@ -116,25 +116,25 @@
       "balance": 18000,
       "progress": 0.1,
       "stockpile": 1000,
-      "time": "08:57",
-      "remarks": "WAITING MATERIAL",
+      "time": "13:40",
+      "remarks": "CLOSE HATCH / RAIN",
       "equipment": "0",
-      "activity_time": "04:40"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 9",
       "vessel": "LADY OF REMEDY",
       "voyage": 8,
       "booking": 25000,
-      "dispatch": 7750,
+      "dispatch": 11750,
       "loaded": 2750,
       "balance": 22250,
       "progress": 0.11,
-      "stockpile": 5000,
-      "time": "13:00",
-      "remarks": "LOADING SLING S60",
+      "stockpile": 9000,
+      "time": "13:40",
+      "remarks": "CLOSE HATCH / RAIN",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 184000,
-    "dispatch": 112750,
+    "dispatch": 117750,
     "loaded": 100750,
     "balance": 83250,
     "progress": 0.49666666666666665,
-    "stockpile": 12000
+    "stockpile": 17000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:37"
+      "activity_time": "14:07"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:37"
+      "activity_time": "14:07"
     },
     {
       "berth": "R3",
@@ -229,14 +229,14 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 528500,
-      "daily": 11000
+      "september": 531500,
+      "daily": 14000
     },
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 89000,
-      "daily": "-"
+      "september": 90000,
+      "daily": 1000
     },
     {
       "hauler": "BADIE",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 55000,
-      "daily": 2000
+      "september": 56000,
+      "daily": 3000
     },
     {
       "hauler": "UCES",
@@ -348,11 +348,11 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 9000
+      "volume": 12000
     },
     {
       "client": "LAPU-LAPU",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "BADIE",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 2000
+      "volume": 3000
     },
     {
       "client": "UCES",
