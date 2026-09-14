@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T08:43:52+08:00",
+  "updated_at": "2026-09-14T08:44:17+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -28,7 +28,7 @@
       "stockpile": 0,
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
-      "equipment": "FL 1",
+      "equipment": "0",
       "activity_time": "01:43"
     },
     {
@@ -43,7 +43,7 @@
       "stockpile": 0,
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
-      "equipment": "FL3 / FL 17",
+      "equipment": "0",
       "activity_time": "01:43"
     },
     {
@@ -58,7 +58,7 @@
       "stockpile": 0,
       "time": "07:00",
       "remarks": "LOADING COMPLETE",
-      "equipment": "CRANE 2",
+      "equipment": "0",
       "activity_time": "01:43"
     },
     {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "NO VISOR",
+    "supervisor": "BERNABE,A",
     "checker": "OBIAL, R / TORRES, J",
     "pmc": "VICKY / EBOY",
     "cranes": 3,
-    "forklifts": 4,
-    "stevedores": 25
+    "forklifts": 5,
+    "stevedores": 0
   }
 }
