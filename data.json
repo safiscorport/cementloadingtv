@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T17:23:49+08:00",
+  "updated_at": "2026-09-16T17:37:19+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "10:40",
       "remarks": "VESSEL PULOUT / REPAIR",
       "equipment": "0",
-      "activity_time": "06:43"
+      "activity_time": "06:56"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "16:31",
       "remarks": "LOADING SLING S10",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "10:04",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "07:19"
+      "activity_time": "07:32"
     },
     {
       "berth": "Berth 4",
@@ -89,7 +89,7 @@
       "time": "13:00",
       "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "04:23"
+      "activity_time": "04:36"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "14:53",
       "remarks": "LOADING TONNER L37",
       "equipment": "CRANE 3",
-      "activity_time": "02:30"
+      "activity_time": "02:43"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "13:52",
       "remarks": "LOADING SLING S32",
       "equipment": "CRANE 4",
-      "activity_time": "03:31"
+      "activity_time": "03:44"
     },
     {
       "berth": "Berth 9",
       "vessel": "LADY OF REMEDY",
       "voyage": 8,
       "booking": 25000,
-      "dispatch": 25000,
-      "loaded": 25000,
-      "balance": 0,
-      "progress": 1,
+      "dispatch": 24000,
+      "loaded": 24000,
+      "balance": 1000,
+      "progress": 0.96,
       "stockpile": 0,
       "time": "15:37",
       "remarks": "LOADING COMPLETE",
       "equipment": "FL 2",
-      "activity_time": "01:46"
+      "activity_time": "01:59"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "14:45",
       "remarks": "LOADING SLING GEO 1",
       "equipment": "CRANE 2",
-      "activity_time": "02:38"
+      "activity_time": "02:51"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 190000,
-    "dispatch": 157000,
-    "loaded": 134000,
-    "balance": 56000,
-    "progress": 0.6367787114845938,
+    "dispatch": 156000,
+    "loaded": 133000,
+    "balance": 57000,
+    "progress": 0.6310644257703081,
     "stockpile": 23000
   },
   "alpha": [
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:23"
+      "activity_time": "17:36"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:23"
+      "activity_time": "17:36"
     },
     {
       "berth": "R3",
@@ -229,7 +229,7 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 580750,
+      "september": 579750,
       "daily": 21000
     },
     {
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 794500
+      "y2026": 793500
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12630210
+    "y2026": 12629210
   },
   "daily_production": [
     {
