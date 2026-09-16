@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T12:33:56+08:00",
+  "updated_at": "2026-09-16T13:25:27+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "VESSEL CLOSE",
+      "time": "10:40",
+      "remarks": "VESSEL PULOUT / REPAIR",
       "equipment": "0",
-      "activity_time": "05:33"
+      "activity_time": "02:45"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "10:46",
       "remarks": "LOADING SLING S15",
       "equipment": "0",
-      "activity_time": "01:47"
+      "activity_time": "02:39"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "10:04",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "02:29"
+      "activity_time": "03:21"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "VACANT",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "05:33"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "VACANT",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "05:33"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 6",
@@ -86,10 +86,10 @@
       "balance": 18000,
       "progress": 0,
       "stockpile": 2000,
-      "time": "07:00",
+      "time": "13:00",
       "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "05:33"
+      "activity_time": "00:25"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "05:33"
+      "activity_time": "06:25"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 11000,
       "progress": 0.45,
       "stockpile": 0,
-      "time": "08:22",
-      "remarks": "CONT LOADING SLING",
+      "time": "13:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:11"
+      "activity_time": "00:25"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "10:40",
       "remarks": "LOADING SLING L7",
       "equipment": "0",
-      "activity_time": "01:53"
+      "activity_time": "02:45"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "09:00",
       "remarks": "UNABLE TO LOAD",
       "equipment": "0",
-      "activity_time": "03:33"
+      "activity_time": "04:25"
     },
     {
       "berth": "Jetty",
@@ -161,10 +161,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "VACANT",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "05:33"
+      "activity_time": "00:00"
     }
   ],
   "total": {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:33"
+      "activity_time": "13:25"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:33"
+      "activity_time": "13:25"
     },
     {
       "berth": "R3",
@@ -208,7 +208,7 @@
       "balance": "0%",
       "progress": "0%",
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "0",
       "equip": "0",
       "activity_time": "00:00"
     }
