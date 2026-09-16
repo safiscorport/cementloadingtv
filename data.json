@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T14:49:32+08:00",
+  "updated_at": "2026-09-16T14:50:39+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "10:40",
       "remarks": "VESSEL PULOUT / REPAIR",
       "equipment": "0",
-      "activity_time": "04:08"
+      "activity_time": "04:09"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "10:46",
       "remarks": "LOADING SLING S15",
       "equipment": "0",
-      "activity_time": "04:02"
+      "activity_time": "04:03"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "10:04",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "04:44"
+      "activity_time": "04:45"
     },
     {
       "berth": "Berth 4",
@@ -89,7 +89,7 @@
       "time": "13:00",
       "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "01:48"
+      "activity_time": "01:49"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "13:44",
       "remarks": "LOADING TONNER L39",
       "equipment": "CRANE 3",
-      "activity_time": "01:04"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "01:48"
+      "activity_time": "01:49"
     },
     {
       "berth": "Berth 9",
       "vessel": "LADY OF REMEDY",
       "voyage": 8,
       "booking": 25000,
-      "dispatch": 22000,
+      "dispatch": 23000,
       "loaded": 21000,
       "balance": 4000,
       "progress": 0.84,
-      "stockpile": 1000,
+      "stockpile": 2000,
       "time": "14:17",
       "remarks": "LOADING SLING S44",
       "equipment": "FL 2",
-      "activity_time": "00:31"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 10",
@@ -142,14 +142,14 @@
       "voyage": 6,
       "booking": 17000,
       "dispatch": 17000,
-      "loaded": 2000,
-      "balance": 15000,
-      "progress": 0.11764705882352941,
-      "stockpile": 15000,
+      "loaded": 3000,
+      "balance": 14000,
+      "progress": 0.17647058823529413,
+      "stockpile": 14000,
       "time": "14:00",
       "remarks": "LOADING SLING B5",
       "equipment": "CRANE 2",
-      "activity_time": "00:48"
+      "activity_time": "00:49"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 190000,
-    "dispatch": 152000,
-    "loaded": 122000,
-    "balance": 68000,
-    "progress": 0.5687114845938376,
+    "dispatch": 153000,
+    "loaded": 123000,
+    "balance": 67000,
+    "progress": 0.5771148459383754,
     "stockpile": 30000
   },
   "alpha": [
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:48"
+      "activity_time": "14:49"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:48"
+      "activity_time": "14:49"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 576750,
-      "daily": 17000
+      "september": 577750,
+      "daily": 18000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 782500
+      "y2026": 783500
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12618210
+    "y2026": 12619210
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 13000
+      "qty": 14000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 22000
+      "volume": 23000
     },
     {
       "client": "LAPU-LAPU",
@@ -356,7 +356,7 @@
     },
     {
       "client": "BADIE",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "GEO",
