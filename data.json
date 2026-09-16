@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T13:25:27+08:00",
+  "updated_at": "2026-09-16T13:42:36+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,22 +14,22 @@
       "time": "10:40",
       "remarks": "VESSEL PULOUT / REPAIR",
       "equipment": "0",
-      "activity_time": "02:45"
+      "activity_time": "03:02"
     },
     {
       "berth": "Berth 2",
       "vessel": "SF JOURNEY",
       "voyage": 2,
       "booking": 60000,
-      "dispatch": 47000,
+      "dispatch": 48000,
       "loaded": 44000,
       "balance": 16000,
       "progress": 0.7333333333333333,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "10:46",
       "remarks": "LOADING SLING S15",
       "equipment": "0",
-      "activity_time": "02:39"
+      "activity_time": "02:56"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "10:04",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "03:21"
+      "activity_time": "03:38"
     },
     {
       "berth": "Berth 4",
@@ -81,15 +81,15 @@
       "vessel": "STAR ILIGAN",
       "voyage": 8,
       "booking": 18000,
-      "dispatch": 2000,
+      "dispatch": 3000,
       "loaded": 0,
       "balance": 18000,
       "progress": 0,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "13:00",
       "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "00:25"
+      "activity_time": "00:42"
     },
     {
       "berth": "Berth 7",
@@ -101,25 +101,25 @@
       "balance": 6000,
       "progress": 0.76,
       "stockpile": 5000,
-      "time": "07:00",
-      "remarks": "VESSEL CLOSE",
-      "equipment": "0",
-      "activity_time": "06:25"
+      "time": "13:00",
+      "remarks": "OPENIG HATCH",
+      "equipment": "CRANE 3",
+      "activity_time": "00:42"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF DIVINE GRACE",
       "voyage": 8,
       "booking": 20000,
-      "dispatch": 9000,
+      "dispatch": 10000,
       "loaded": 9000,
       "balance": 11000,
       "progress": 0.45,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
-      "equipment": "0",
-      "activity_time": "00:25"
+      "equipment": "CRANE 4",
+      "activity_time": "00:42"
     },
     {
       "berth": "Berth 9",
@@ -133,8 +133,8 @@
       "stockpile": 1000,
       "time": "10:40",
       "remarks": "LOADING SLING L7",
-      "equipment": "0",
-      "activity_time": "02:45"
+      "equipment": "FL 2",
+      "activity_time": "03:02"
     },
     {
       "berth": "Berth 10",
@@ -148,8 +148,8 @@
       "stockpile": 17000,
       "time": "09:00",
       "remarks": "UNABLE TO LOAD",
-      "equipment": "0",
-      "activity_time": "04:25"
+      "equipment": "CRANE 2",
+      "activity_time": "04:42"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 190000,
-    "dispatch": 146000,
+    "dispatch": 149000,
     "loaded": 118000,
     "balance": 72000,
     "progress": 0.5404761904761904,
-    "stockpile": 28000
+    "stockpile": 31000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:25"
+      "activity_time": "13:42"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:25"
+      "activity_time": "13:42"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 571750,
-      "daily": 12000
+      "september": 574750,
+      "daily": 15000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 17000
+      "volume": 20000
     },
     {
       "client": "LAPU-LAPU",
