@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T08:50:30+08:00",
+  "updated_at": "2026-09-16T09:35:07+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "02:34"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 18000,
       "progress": 0.7,
       "stockpile": 3000,
-      "time": "08:00",
-      "remarks": "VESSEL START OPEN",
+      "time": "08:30",
+      "remarks": "RESUME LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:50"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "VESSEL START OPEN",
       "equipment": "0",
-      "activity_time": "00:50"
+      "activity_time": "01:34"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "02:34"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "07:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "02:34"
     },
     {
       "berth": "Berth 6",
@@ -89,22 +89,22 @@
       "time": "07:00",
       "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "02:34"
     },
     {
       "berth": "Berth 7",
       "vessel": "LADY OF PEACE",
       "voyage": 7,
       "booking": 25000,
-      "dispatch": 19000,
+      "dispatch": 20000,
       "loaded": 19000,
       "balance": 6000,
       "progress": 0.76,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "07:00",
       "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "02:34"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 13000,
       "progress": 0.35,
       "stockpile": 1000,
-      "time": "08:00",
-      "remarks": "VESSEL OPEN HATCH",
+      "time": "09:00",
+      "remarks": "RESUME LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:50"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 8250,
       "progress": 0.67,
       "stockpile": 1000,
-      "time": "08:00",
-      "remarks": "VESSEL OPEN",
+      "time": "09:05",
+      "remarks": "RESUME LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:50"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 17000,
       "progress": 0,
       "stockpile": 17000,
-      "time": "08:00",
-      "remarks": "VESSEL OPEN",
+      "time": "09:00",
+      "remarks": "UNABLE TO LOAD",
       "equipment": "0",
-      "activity_time": "00:50"
+      "activity_time": "00:34"
     },
     {
       "berth": "Jetty",
@@ -164,16 +164,16 @@
       "time": "07:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "02:34"
     }
   ],
   "total": {
     "booking": 190000,
-    "dispatch": 131000,
+    "dispatch": 132000,
     "loaded": 109000,
     "balance": 81000,
     "progress": 0.4928571428571428,
-    "stockpile": 22000
+    "stockpile": 23000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:50"
+      "activity_time": "09:34"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:50"
+      "activity_time": "09:34"
     },
     {
       "berth": "R3",
@@ -235,8 +235,8 @@
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 95000,
-      "daily": 3000
+      "september": 96000,
+      "daily": 4000
     },
     {
       "hauler": "BADIE",
@@ -352,7 +352,7 @@
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 4000
+      "volume": 5000
     },
     {
       "client": "BADIE",
