@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T08:33:31+08:00",
+  "updated_at": "2026-09-17T08:54:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "WAITING FOR DOCKING",
       "equipment": "0",
-      "activity_time": "01:33"
+      "activity_time": "01:53"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:33"
+      "activity_time": "01:53"
     },
     {
       "berth": "Berth 3",
@@ -63,18 +63,18 @@
     },
     {
       "berth": "Berth 5",
-      "vessel": "NIEVES",
-      "voyage": 3,
+      "vessel": "QUEEN CAROLYN",
+      "voyage": 8,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "NO BOOKING",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "01:33"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "08:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:33"
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 7",
@@ -119,27 +119,12 @@
       "time": "08:00",
       "remarks": "LOADING TONNER",
       "equipment": "CRANE 4",
-      "activity_time": "00:33"
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 9",
-      "vessel": "LADY ARMOR",
-      "voyage": 6,
-      "booking": 17000,
-      "dispatch": 17000,
-      "loaded": 11000,
-      "balance": 6000,
-      "progress": 0.6470588235294118,
-      "stockpile": 6000,
-      "time": "08:00",
-      "remarks": "LOADING SLING",
-      "equipment": "CRANE 2",
-      "activity_time": "00:33"
-    },
-    {
-      "berth": "Berth 10",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "NIEVES",
+      "voyage": 3,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -150,6 +135,21 @@
       "remarks": "-",
       "equipment": "0",
       "activity_time": "00:00"
+    },
+    {
+      "berth": "Berth 10",
+      "vessel": "LADY ARMOR",
+      "voyage": 5,
+      "booking": 17000,
+      "dispatch": 17000,
+      "loaded": 17000,
+      "balance": 0,
+      "progress": 1,
+      "stockpile": 0,
+      "time": "08:00",
+      "remarks": "LOADING SLING",
+      "equipment": "CRANE 2",
+      "activity_time": "00:53"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 115000,
     "dispatch": 91000,
-    "loaded": 81000,
-    "balance": 34000,
-    "progress": 0.6381535947712418,
-    "stockpile": 10000
+    "loaded": 87000,
+    "balance": 28000,
+    "progress": 0.7263888888888889,
+    "stockpile": 4000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:33"
+      "activity_time": "08:53"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:33"
+      "activity_time": "08:53"
     },
     {
       "berth": "R3",
@@ -348,11 +348,11 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 6000
+      "volume": 1000
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 3000
+      "volume": 2000
     },
     {
       "client": "BADIE",
