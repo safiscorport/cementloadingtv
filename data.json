@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T12:13:38+08:00",
+  "updated_at": "2026-09-17T13:49:27+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "AT ACHORAGE / UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "05:13"
+      "activity_time": "06:49"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "10:00",
       "remarks": "REFUSE TO LOAD / CLOUDY",
       "equipment": "0",
-      "activity_time": "02:13"
+      "activity_time": "03:49"
     },
     {
       "berth": "Berth 3",
@@ -74,52 +74,52 @@
       "time": "10:10",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "02:03"
+      "activity_time": "03:39"
     },
     {
       "berth": "Berth 6",
       "vessel": "STAR ILIGAN",
       "voyage": 8,
       "booking": 18000,
-      "dispatch": 11000,
-      "loaded": 9000,
-      "balance": 9000,
-      "progress": 0.5,
-      "stockpile": 2000,
+      "dispatch": 12500,
+      "loaded": 10000,
+      "balance": 8000,
+      "progress": 0.5555555555555556,
+      "stockpile": 2500,
       "time": "10:00",
       "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "0",
-      "activity_time": "02:13"
+      "activity_time": "03:49"
     },
     {
       "berth": "Berth 7",
       "vessel": "LADY OF COURAGE",
       "voyage": 8,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 4750,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 4750,
       "time": "11:20",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "02:29"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF DIVINE GRACE",
       "voyage": 8,
       "booking": 20000,
-      "dispatch": 20000,
-      "loaded": 20000,
-      "balance": 0,
-      "progress": 1,
-      "stockpile": 0,
-      "time": "10:23",
-      "remarks": "LOADING COMPLETE",
+      "dispatch": 17500,
+      "loaded": 17000,
+      "balance": 3000,
+      "progress": 0.85,
+      "stockpile": 500,
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "CRANE 4",
-      "activity_time": "01:50"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "11:10",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE2/ FL1",
-      "activity_time": "01:03"
+      "activity_time": "02:39"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 115000,
-    "dispatch": 99000,
-    "loaded": 95000,
-    "balance": 20000,
-    "progress": 0.8291666666666666,
-    "stockpile": 4000
+    "dispatch": 102750,
+    "loaded": 93000,
+    "balance": 22000,
+    "progress": 0.8055555555555556,
+    "stockpile": 9750
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:13"
+      "activity_time": "13:49"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:13"
+      "activity_time": "13:49"
     },
     {
       "berth": "R3",
@@ -229,14 +229,14 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 587750,
-      "daily": 3000
+      "september": 592500,
+      "daily": 7750
     },
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 102000,
-      "daily": "-"
+      "september": 104000,
+      "daily": 2000
     },
     {
       "hauler": "BADIE",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 829500
+      "y2026": 827500
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12665210
+    "y2026": 12663210
   },
   "daily_production": [
     {
@@ -348,11 +348,11 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 2000
+      "volume": 5750
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 1000
+      "volume": 3000
     },
     {
       "client": "BADIE",
