@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T13:49:27+08:00",
+  "updated_at": "2026-09-17T13:52:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "AT ACHORAGE / UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "06:49"
+      "activity_time": "06:51"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 11000,
       "progress": 0.8166666666666667,
       "stockpile": 2000,
-      "time": "10:00",
-      "remarks": "REFUSE TO LOAD / CLOUDY",
+      "time": "13:00",
+      "remarks": "LOADING TONNER S59",
       "equipment": "0",
-      "activity_time": "03:49"
+      "activity_time": "00:51"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "10:10",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "03:39"
+      "activity_time": "03:41"
     },
     {
       "berth": "Berth 6",
@@ -86,10 +86,10 @@
       "balance": 8000,
       "progress": 0.5555555555555556,
       "stockpile": 2500,
-      "time": "10:00",
+      "time": "13:00",
       "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "0",
-      "activity_time": "03:49"
+      "activity_time": "00:51"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 4750,
-      "time": "11:20",
-      "remarks": "DOCKED & SECURED",
+      "time": "13:50",
+      "remarks": "OPENING HATCH",
       "equipment": "0",
-      "activity_time": "02:29"
+      "activity_time": "00:01"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 3000,
       "progress": 0.85,
       "stockpile": 500,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "13:00",
+      "remarks": "LOADING TONNER S42",
       "equipment": "CRANE 4",
-      "activity_time": "00:00"
+      "activity_time": "00:51"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "11:10",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE2/ FL1",
-      "activity_time": "02:39"
+      "activity_time": "02:41"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:49"
+      "activity_time": "13:51"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:49"
+      "activity_time": "13:51"
     },
     {
       "berth": "R3",
