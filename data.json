@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T08:13:01+08:00",
+  "updated_at": "2026-09-17T08:14:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:12"
+      "activity_time": "01:14"
     },
     {
       "berth": "Berth 3",
@@ -86,10 +86,10 @@
       "balance": 11000,
       "progress": 0.3888888888888889,
       "stockpile": 4000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:12"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 7",
@@ -116,10 +116,10 @@
       "balance": 6000,
       "progress": 0.7,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING TONNER",
       "equipment": "CRANE 4",
-      "activity_time": "01:12"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "CRANE 2",
-      "activity_time": "00:12"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 10",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:12"
+      "activity_time": "08:14"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:12"
+      "activity_time": "08:14"
     },
     {
       "berth": "R3",
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER, JOVIC",
-    "checker": "TORRES, J",
-    "pmc": "VICKY / EBOY",
+    "supervisor": "BERNABE,A",
+    "checker": "OBIAL,R / DALUSA,E",
+    "pmc": "JOAN / WILLIAM",
     "cranes": 3,
     "forklifts": 6,
-    "stevedores": 42
+    "stevedores": 0
   }
 }
