@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T10:34:41+08:00",
+  "updated_at": "2026-09-17T10:38:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "WAITING FOR DOCKING",
       "equipment": "0",
-      "activity_time": "03:34"
+      "activity_time": "03:37"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:34"
+      "activity_time": "03:37"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "10:10",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:24"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "08:38",
       "remarks": "LOADING TONNER A1",
       "equipment": "0",
-      "activity_time": "01:56"
+      "activity_time": "01:59"
     },
     {
       "berth": "Berth 7",
@@ -111,15 +111,15 @@
       "vessel": "LADY OF DIVINE GRACE",
       "voyage": 8,
       "booking": 20000,
-      "dispatch": 17000,
-      "loaded": 17000,
-      "balance": 3000,
-      "progress": 0.85,
+      "dispatch": 20000,
+      "loaded": 20000,
+      "balance": 0,
+      "progress": 1,
       "stockpile": 0,
       "time": "10:23",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "00:11"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "09:50",
       "remarks": "LOADING SLING S50",
       "equipment": "CRANE2/ FL1",
-      "activity_time": "00:44"
+      "activity_time": "00:47"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 115000,
-    "dispatch": 95000,
-    "loaded": 87000,
-    "balance": 28000,
-    "progress": 0.7189542483660131,
+    "dispatch": 98000,
+    "loaded": 90000,
+    "balance": 25000,
+    "progress": 0.756454248366013,
     "stockpile": 8000
   },
   "alpha": [
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:34"
+      "activity_time": "10:37"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:34"
+      "activity_time": "10:37"
     },
     {
       "berth": "R3",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 821500
+      "y2026": 824500
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12657210
+    "y2026": 12660210
   },
   "daily_production": [
     {
