@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T11:11:03+08:00",
+  "updated_at": "2026-09-17T11:11:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -82,10 +82,10 @@
       "voyage": 8,
       "booking": 18000,
       "dispatch": 11000,
-      "loaded": 8000,
-      "balance": 10000,
-      "progress": 0.4444444444444444,
-      "stockpile": 3000,
+      "loaded": 9000,
+      "balance": 9000,
+      "progress": 0.5,
+      "stockpile": 2000,
       "time": "09:11",
       "remarks": "LOADING TONNER L47",
       "equipment": "0",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 115000,
     "dispatch": 99000,
-    "loaded": 93000,
-    "balance": 22000,
-    "progress": 0.8005718954248366,
-    "stockpile": 6000
+    "loaded": 94000,
+    "balance": 21000,
+    "progress": 0.8144607843137255,
+    "stockpile": 5000
   },
   "alpha": [
     {
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 827500
+      "y2026": 828500
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12663210
+    "y2026": 12664210
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 9000
+      "qty": 10000
     },
     {
       "shift": "2ND SHIFT",
@@ -352,7 +352,7 @@
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 2000
+      "volume": 1000
     },
     {
       "client": "BADIE",
