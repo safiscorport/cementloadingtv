@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T10:28:36+08:00",
+  "updated_at": "2026-09-17T10:29:54+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "WAITING FOR DOCKING",
       "equipment": "0",
-      "activity_time": "03:28"
+      "activity_time": "03:29"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:28"
+      "activity_time": "03:29"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "10:10",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:18"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "08:38",
       "remarks": "LOADING TONNER A1",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "01:51"
     },
     {
       "berth": "Berth 7",
@@ -111,15 +111,15 @@
       "vessel": "LADY OF DIVINE GRACE",
       "voyage": 8,
       "booking": 20000,
-      "dispatch": 16000,
-      "loaded": 15000,
-      "balance": 5000,
-      "progress": 0.75,
+      "dispatch": 17000,
+      "loaded": 16000,
+      "balance": 4000,
+      "progress": 0.8,
       "stockpile": 1000,
       "time": "09:23",
       "remarks": "LOADING TONNER S40",
       "equipment": "CRANE 4",
-      "activity_time": "01:05"
+      "activity_time": "01:06"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "09:50",
       "remarks": "LOADING SLING S50",
       "equipment": "CRANE2/ FL1",
-      "activity_time": "00:38"
+      "activity_time": "00:39"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 115000,
-    "dispatch": 94000,
-    "loaded": 85000,
-    "balance": 30000,
-    "progress": 0.693954248366013,
+    "dispatch": 95000,
+    "loaded": 86000,
+    "balance": 29000,
+    "progress": 0.706454248366013,
     "stockpile": 9000
   },
   "alpha": [
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:28"
+      "activity_time": "10:29"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:28"
+      "activity_time": "10:29"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 586750,
-      "daily": 2000
+      "september": 587750,
+      "daily": 3000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 819500
+      "y2026": 820500
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12655210
+    "y2026": 12656210
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 4000
+      "qty": 5000
     },
     {
       "shift": "2ND SHIFT",
