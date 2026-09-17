@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T13:58:30+08:00",
+  "updated_at": "2026-09-17T13:59:27+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "AT ANCHORAGE / UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "06:57"
+      "activity_time": "06:59"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "13:00",
       "remarks": "LOADING TONNER S59",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "10:10",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "03:47"
+      "activity_time": "03:49"
     },
     {
       "berth": "Berth 6",
@@ -89,22 +89,22 @@
       "time": "13:00",
       "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 7",
       "vessel": "LADY OF COURAGE",
       "voyage": 8,
-      "booking": 0,
+      "booking": 24500,
       "dispatch": 4750,
       "loaded": 0,
-      "balance": 0,
+      "balance": 24500,
       "progress": 0,
       "stockpile": 4750,
       "time": "13:50",
       "remarks": "OPENING HATCH",
-      "equipment": "0",
-      "activity_time": "00:07"
+      "equipment": "FL 2",
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "13:00",
       "remarks": "LOADING TONNER S42",
       "equipment": "CRANE 4",
-      "activity_time": "00:57"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "11:10",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE2/ FL1",
-      "activity_time": "02:47"
+      "activity_time": "02:49"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 115000,
+    "booking": 139500,
     "dispatch": 102750,
     "loaded": 93000,
-    "balance": 22000,
-    "progress": 0.8055555555555556,
+    "balance": 46500,
+    "progress": 0.6444444444444445,
     "stockpile": 9750
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:57"
+      "activity_time": "13:59"
     },
     {
       "berth": "R3",
