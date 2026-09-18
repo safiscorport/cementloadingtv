@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T14:57:35+08:00",
+  "updated_at": "2026-09-18T15:00:00+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "14:30",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "00:26"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "13:15",
       "remarks": "CLOSE HATCH / RAIN",
       "equipment": "0",
-      "activity_time": "01:41"
+      "activity_time": "01:44"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "13:15",
       "remarks": "CLOSE HATCH / RAIN",
       "equipment": "0",
-      "activity_time": "01:41"
+      "activity_time": "01:44"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "13:15",
       "remarks": "CLOSE HATCH / RAIN",
       "equipment": "CRANE4/FL2",
-      "activity_time": "01:41"
+      "activity_time": "01:44"
     },
     {
       "berth": "Berth 8",
@@ -134,22 +134,22 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "07:56"
+      "activity_time": "07:59"
     },
     {
       "berth": "Berth 10",
       "vessel": "STAR DINAGAT",
       "voyage": 4,
       "booking": 27000,
-      "dispatch": 17500,
+      "dispatch": 19500,
       "loaded": 2000,
       "balance": 25000,
       "progress": 0.07407407407407407,
-      "stockpile": 15500,
+      "stockpile": 17500,
       "time": "14:50",
       "remarks": "REFUSE TO OPEN HATCH",
       "equipment": "FL 1",
-      "activity_time": "00:06"
+      "activity_time": "00:09"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 169500,
-    "dispatch": 131250,
+    "dispatch": 133250,
     "loaded": 91000,
     "balance": 78500,
     "progress": 0.4921730914588057,
-    "stockpile": 40250
+    "stockpile": 42250
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:56"
+      "activity_time": "14:59"
     },
     {
       "berth": "R3",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 70000,
-      "daily": "-"
+      "september": 71000,
+      "daily": 1000
     },
     {
       "hauler": "UCES",
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "august": 41000,
-      "september": 32000,
-      "daily": 1000
+      "september": 33000,
+      "daily": 2000
     },
     {
       "hauler": "FULACHE",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "UCES",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "FULACHE",
