@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T16:40:34+08:00",
+  "updated_at": "2026-09-18T16:41:10+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -71,10 +71,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "14:00",
+      "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "02:40"
     },
     {
       "berth": "Berth 6",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "NO BOOKING",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "09:40"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 10",
