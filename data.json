@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T11:05:26+08:00",
+  "updated_at": "2026-09-18T11:06:02+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "10:00",
       "remarks": "LOADING TONNER",
       "equipment": "CRANE 4",
-      "activity_time": "01:04"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "09:37",
       "remarks": "LOADING SLING GEO 1",
       "equipment": "0",
-      "activity_time": "01:27"
+      "activity_time": "01:28"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "09:24",
       "remarks": "LOADING TONNER S3",
       "equipment": "0",
-      "activity_time": "01:40"
+      "activity_time": "01:41"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "09:40",
       "remarks": "LOADING SLING L50",
       "equipment": "CRANE2/FL1",
-      "activity_time": "01:24"
+      "activity_time": "01:25"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "04:04"
+      "activity_time": "04:05"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "10:30",
       "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "00:34"
+      "activity_time": "00:35"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:04"
+      "activity_time": "11:05"
     },
     {
       "berth": "R3",
