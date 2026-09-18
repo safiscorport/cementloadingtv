@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T08:03:04+08:00",
+  "updated_at": "2026-09-18T08:03:29+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "EFG 7",
       "equipment": "0",
-      "activity_time": "01:02"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 2",
@@ -28,8 +28,8 @@
       "stockpile": 3000,
       "time": "05:04",
       "remarks": "PULLED OUT / SWELL",
-      "equipment": "0",
-      "activity_time": "02:58"
+      "equipment": "CRANE 4",
+      "activity_time": "02:59"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:02"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:02"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 7",
@@ -103,8 +103,8 @@
       "stockpile": 22250,
       "time": "07:00",
       "remarks": "KY TOOLBOX",
-      "equipment": "0",
-      "activity_time": "01:02"
+      "equipment": "CRANE 2",
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "01:02"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:02"
+      "activity_time": "08:03"
     },
     {
       "berth": "R3",
