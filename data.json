@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T09:04:57+08:00",
+  "updated_at": "2026-09-18T09:08:15+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 4000,
       "progress": 0.9333333333333333,
       "stockpile": 4000,
-      "time": "08:30",
-      "remarks": "DOCKING MANUEVER",
+      "time": "09:00",
+      "remarks": "SECURED @ BERTH 2",
       "equipment": "CRANE 4",
-      "activity_time": "00:34"
+      "activity_time": "00:07"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "09:00",
       "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "00:04"
+      "activity_time": "00:07"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "08:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:04"
+      "activity_time": "01:07"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "CRANE2/FL1",
-      "activity_time": "01:04"
+      "activity_time": "01:07"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "02:04"
+      "activity_time": "02:07"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:04"
+      "activity_time": "02:07"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:04"
+      "activity_time": "09:07"
     },
     {
       "berth": "R3",
