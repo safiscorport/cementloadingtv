@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T11:06:02+08:00",
+  "updated_at": "2026-09-18T11:34:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 4000,
       "progress": 0.9333333333333333,
       "stockpile": 4000,
-      "time": "10:00",
-      "remarks": "LOADING TONNER",
+      "time": "10:46",
+      "remarks": "LOADING TONNER S49",
       "equipment": "CRANE 4",
-      "activity_time": "01:05"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 38000,
       "progress": 0.05,
       "stockpile": 5000,
-      "time": "09:37",
-      "remarks": "LOADING SLING GEO 1",
+      "time": "10:55",
+      "remarks": "LOADING SLING L31",
       "equipment": "0",
-      "activity_time": "01:28"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 5",
@@ -86,10 +86,10 @@
       "balance": 2500,
       "progress": 0.8611111111111112,
       "stockpile": 3500,
-      "time": "09:24",
-      "remarks": "LOADING TONNER S3",
+      "time": "10:31",
+      "remarks": "LOADING TONNER S5",
       "equipment": "0",
-      "activity_time": "01:41"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 17500,
       "progress": 0.2857142857142857,
       "stockpile": 18250,
-      "time": "09:40",
-      "remarks": "LOADING SLING L50",
+      "time": "10:51",
+      "remarks": "LOADING SLING S32",
       "equipment": "CRANE2/FL1",
-      "activity_time": "01:25"
+      "activity_time": "00:43"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "04:05"
+      "activity_time": "04:34"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 27000,
       "progress": 0,
       "stockpile": 5000,
-      "time": "10:30",
-      "remarks": "COMMENCE LOADING",
+      "time": "10:57",
+      "remarks": "LOADING SLING F1",
       "equipment": "0",
-      "activity_time": "00:35"
+      "activity_time": "00:37"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:05"
+      "activity_time": "11:34"
     },
     {
       "berth": "R3",
