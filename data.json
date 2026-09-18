@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T12:10:03+08:00",
+  "updated_at": "2026-09-18T13:14:22+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "11:06",
       "remarks": "WAITING LAPULAPU LAST TRUCK",
       "equipment": "CRANE 4",
-      "activity_time": "01:03"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "12:00",
       "remarks": "LUNCHBREAK",
       "equipment": "0",
-      "activity_time": "00:09"
+      "activity_time": "01:14"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "12:00",
       "remarks": "LUNCHBREAK",
       "equipment": "0",
-      "activity_time": "00:09"
+      "activity_time": "01:14"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "12:00",
       "remarks": "LUNCHBREAK",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:09"
+      "activity_time": "01:14"
     },
     {
       "berth": "Berth 8",
@@ -134,22 +134,22 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "05:09"
+      "activity_time": "06:14"
     },
     {
       "berth": "Berth 10",
       "vessel": "STAR DINAGAT",
       "voyage": 4,
       "booking": 27000,
-      "dispatch": 10000,
+      "dispatch": 12000,
       "loaded": 2000,
       "balance": 25000,
       "progress": 0.07407407407407407,
-      "stockpile": 8000,
+      "stockpile": 10000,
       "time": "12:00",
       "remarks": "LUNCHBREAK",
       "equipment": "0",
-      "activity_time": "00:09"
+      "activity_time": "01:14"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 169500,
-    "dispatch": 121250,
+    "dispatch": 123250,
     "loaded": 90000,
     "balance": 79500,
     "progress": 0.48883975812547237,
-    "stockpile": 31250
+    "stockpile": 33250
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:09"
+      "activity_time": "13:14"
     },
     {
       "berth": "R3",
@@ -235,8 +235,8 @@
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 109000,
-      "daily": 1000
+      "september": 110000,
+      "daily": 2000
     },
     {
       "hauler": "BADIE",
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "august": 41000,
-      "september": 31000,
-      "daily": "-"
+      "september": 32000,
+      "daily": 1000
     },
     {
       "hauler": "FULACHE",
@@ -352,7 +352,7 @@
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 2000
+      "volume": 3000
     },
     {
       "client": "BADIE",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "FULACHE",
