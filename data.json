@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-09-19T07:35:04+08:00",
+  "updated_at": "2026-09-19T07:38:18+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "EFG 7",
       "voyage": 5,
+      "booking": 50000,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 50000,
+      "progress": 0,
+      "stockpile": 0,
+      "time": "07:00",
+      "remarks": "AT ANCHORAGE/UNDER REPAIR",
+      "equipment": "0",
+      "activity_time": "00:37"
+    },
+    {
+      "berth": "Berth 2",
+      "vessel": "VACANT",
+      "voyage": "-",
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "AT ANCHORAGE/UNDER REPAIR",
-      "equipment": "0",
-      "activity_time": "00:00"
-    },
-    {
-      "berth": "Berth 2",
-      "vessel": "SF JOURNEY",
-      "voyage": 2,
-      "booking": 60000,
-      "dispatch": 60000,
-      "loaded": 60000,
-      "balance": 0,
-      "progress": 1,
-      "stockpile": 0,
       "time": "14:30",
       "remarks": "LOADING COMPLETE",
-      "equipment": "CRANE 2",
-      "activity_time": "17:04"
+      "equipment": "0",
+      "activity_time": "17:07"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "COASTAL CLEAN UP",
       "equipment": "0",
-      "activity_time": "00:34"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 5",
@@ -74,22 +74,22 @@
       "time": "07:00",
       "remarks": "COASTAL CLEAN UP",
       "equipment": "0",
-      "activity_time": "00:34"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 6",
-      "vessel": "STAR ILIGAN",
-      "voyage": 8,
-      "booking": 18000,
-      "dispatch": 18000,
-      "loaded": 18000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "16:08",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "15:26"
+      "activity_time": "15:29"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "05:00",
       "remarks": "LOADING L48 TONNER BAGS",
       "equipment": "CRANE4/FL2",
-      "activity_time": "02:34"
+      "activity_time": "02:37"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "COASTAL CLEAN UP",
       "equipment": "FL 1",
-      "activity_time": "00:34"
+      "activity_time": "00:37"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 170000,
-    "dispatch": 161250,
-    "loaded": 150500,
-    "balance": 19500,
-    "progress": 0.827037037037037,
+    "booking": 142000,
+    "dispatch": 83250,
+    "loaded": 72500,
+    "balance": 69500,
+    "progress": 0.5337962962962963,
     "stockpile": 10750
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:34"
+      "activity_time": "07:37"
     },
     {
       "berth": "R3",
@@ -376,9 +376,9 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER, JOVIC",
-    "checker": "TORRES, J / TORREGOSA, J",
-    "pmc": "VICKY / EBOY",
+    "supervisor": "BERNABE,A",
+    "checker": "OBIAL, CANOY, DALUSA",
+    "pmc": "JOAN / WILLIAM",
     "cranes": 3,
     "forklifts": 6,
     "stevedores": 0
