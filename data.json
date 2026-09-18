@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T08:42:26+08:00",
+  "updated_at": "2026-09-18T08:51:16+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -12,9 +12,9 @@
       "progress": 0,
       "stockpile": 0,
       "time": "07:00",
-      "remarks": "EFG 7",
+      "remarks": "AT ANCHORAGE/UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "01:42"
+      "activity_time": "01:50"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "05:04",
       "remarks": "PULLED OUT / SWELL",
       "equipment": "CRANE 4",
-      "activity_time": "03:38"
+      "activity_time": "03:46"
     },
     {
       "berth": "Berth 3",
@@ -48,6 +48,21 @@
     },
     {
       "berth": "Berth 4",
+      "vessel": "QUEEN CAROLYN",
+      "voyage": 8,
+      "booking": 40000,
+      "dispatch": 6000,
+      "loaded": 0,
+      "balance": 40000,
+      "progress": 0,
+      "stockpile": 6000,
+      "time": "08:00",
+      "remarks": "SHIFTING BERTH TO 4",
+      "equipment": "0",
+      "activity_time": "00:50"
+    },
+    {
+      "berth": "Berth 5",
       "vessel": "VACANT",
       "voyage": "-",
       "booking": 0,
@@ -62,21 +77,6 @@
       "activity_time": "00:00"
     },
     {
-      "berth": "Berth 5",
-      "vessel": "QUEEN CAROLYN",
-      "voyage": 8,
-      "booking": 40000,
-      "dispatch": 6000,
-      "loaded": 0,
-      "balance": 40000,
-      "progress": 0,
-      "stockpile": 6000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
-      "equipment": "0",
-      "activity_time": "01:42"
-    },
-    {
       "berth": "Berth 6",
       "vessel": "STAR ILIGAN",
       "voyage": 8,
@@ -86,10 +86,10 @@
       "balance": 4500,
       "progress": 0.75,
       "stockpile": 5500,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:42"
+      "activity_time": "00:50"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 21500,
       "progress": 0.12244897959183673,
       "stockpile": 22250,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "CRANE2/FL1",
-      "activity_time": "01:42"
+      "activity_time": "00:50"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "01:42"
+      "activity_time": "01:50"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 27000,
       "progress": 0,
       "stockpile": 1000,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "07:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "01:50"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:42"
+      "activity_time": "08:50"
     },
     {
       "berth": "R3",
