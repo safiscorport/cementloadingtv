@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T08:03:29+08:00",
+  "updated_at": "2026-09-18T08:05:23+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "EFG 7",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "05:04",
       "remarks": "PULLED OUT / SWELL",
       "equipment": "CRANE 4",
-      "activity_time": "02:59"
+      "activity_time": "03:01"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 2",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 8",
@@ -134,16 +134,16 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 10",
       "vessel": "STAR DINAGAT",
       "voyage": 4,
-      "booking": 0,
+      "booking": 27000,
       "dispatch": 0,
       "loaded": 0,
-      "balance": 0,
+      "balance": 27000,
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 142500,
+    "booking": 169500,
     "dispatch": 107250,
     "loaded": 72500,
-    "balance": 70000,
-    "progress": 0.4514455782312925,
+    "balance": 97000,
+    "progress": 0.361156462585034,
     "stockpile": 34750
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:03"
+      "activity_time": "08:05"
     },
     {
       "berth": "R3",
