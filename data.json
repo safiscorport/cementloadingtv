@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T07:28:21+08:00",
+  "updated_at": "2026-09-19T07:30:58+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "14:30",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "16:58"
+      "activity_time": "17:00"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "05:09",
       "remarks": "LOADING S44 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:19"
+      "activity_time": "02:21"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "05:11",
       "remarks": "LOADING S59 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:17"
+      "activity_time": "02:19"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "16:08",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "15:20"
+      "activity_time": "15:22"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "05:00",
       "remarks": "LOADING L48 TONNER BAGS",
       "equipment": "CRANE4/FL2",
-      "activity_time": "02:28"
+      "activity_time": "02:30"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "05:12",
       "remarks": "LOADING L7 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "02:16"
+      "activity_time": "02:18"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:28"
+      "activity_time": "07:30"
     },
     {
       "berth": "R3",
