@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T13:15:17+08:00",
+  "updated_at": "2026-09-18T13:19:44+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "11:06",
       "remarks": "WAITING LAPULAPU LAST TRUCK",
       "equipment": "CRANE 4",
-      "activity_time": "02:08"
+      "activity_time": "02:13"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 37000,
       "progress": 0.075,
       "stockpile": 4000,
-      "time": "12:00",
-      "remarks": "LUNCHBREAK",
+      "time": "13:15",
+      "remarks": "CLOSE HATCH / RAIN",
       "equipment": "0",
-      "activity_time": "01:14"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 5",
@@ -86,10 +86,10 @@
       "balance": 1000,
       "progress": 0.9444444444444444,
       "stockpile": 2000,
-      "time": "12:00",
-      "remarks": "LUNCHBREAK",
+      "time": "13:15",
+      "remarks": "CLOSE HATCH / RAIN",
       "equipment": "0",
-      "activity_time": "01:14"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 15500,
       "progress": 0.3673469387755102,
       "stockpile": 16250,
-      "time": "12:00",
-      "remarks": "LUNCHBREAK",
+      "time": "13:15",
+      "remarks": "CLOSE HATCH / RAIN",
       "equipment": "CRANE2/FL1",
-      "activity_time": "01:14"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "06:14"
+      "activity_time": "06:19"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 25000,
       "progress": 0.07407407407407407,
       "stockpile": 10000,
-      "time": "12:00",
-      "remarks": "LUNCHBREAK",
+      "time": "13:00",
+      "remarks": "CLOSE HATCH / RAIN",
       "equipment": "0",
-      "activity_time": "01:14"
+      "activity_time": "00:19"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:14"
+      "activity_time": "13:19"
     },
     {
       "berth": "R3",
