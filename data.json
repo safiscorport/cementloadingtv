@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T17:42:35+08:00",
+  "updated_at": "2026-09-18T21:21:50+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "14:30",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "03:12"
+      "activity_time": "06:51"
     },
     {
       "berth": "Berth 3",
@@ -51,30 +51,30 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 8,
       "booking": 40000,
-      "dispatch": 12000,
+      "dispatch": 15000,
       "loaded": 7000,
       "balance": 33000,
       "progress": 0.175,
-      "stockpile": 5000,
+      "stockpile": 8000,
       "time": "16:58",
       "remarks": "LOADING SLING S49",
       "equipment": "0",
-      "activity_time": "00:44"
+      "activity_time": "04:23"
     },
     {
       "berth": "Berth 5",
       "vessel": "EMERALD STAR",
       "voyage": 10,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 9000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 9000,
       "time": "14:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "03:42"
+      "activity_time": "07:21"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "16:08",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "01:34"
+      "activity_time": "05:13"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "17:10",
       "remarks": "LOADING SLING S36",
       "equipment": "CRANE4/FL2",
-      "activity_time": "00:32"
+      "activity_time": "04:11"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "17:09",
       "remarks": "LOADING SLING S24",
       "equipment": "FL 1",
-      "activity_time": "00:33"
+      "activity_time": "04:12"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 170000,
-    "dispatch": 136500,
+    "dispatch": 148500,
     "loaded": 106000,
     "balance": 64000,
     "progress": 0.5994444444444444,
-    "stockpile": 30500
+    "stockpile": 42500
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:42"
+      "activity_time": "21:21"
     },
     {
       "berth": "R3",
@@ -229,14 +229,14 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 635750,
-      "daily": 19000
+      "september": 643750,
+      "daily": 27000
     },
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 111000,
-      "daily": 3000
+      "september": 114000,
+      "daily": 6000
     },
     {
       "hauler": "BADIE",
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "august": 41000,
-      "september": 33000,
-      "daily": 2000
+      "september": 34000,
+      "daily": 3000
     },
     {
       "hauler": "FULACHE",
@@ -348,11 +348,11 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 24500
+      "volume": 32500
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 3000
+      "volume": 6000
     },
     {
       "client": "BADIE",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "FULACHE",
@@ -376,9 +376,9 @@
     }
   ],
   "status": {
-    "supervisor": "DAY OFF",
-    "checker": "OBIAL,R / CANOY,E / DALUSA,E",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "TORRES, J / TORREGOSA, J",
+    "pmc": "VICKY / EBOY",
     "cranes": 3,
     "forklifts": 6,
     "stevedores": 0
