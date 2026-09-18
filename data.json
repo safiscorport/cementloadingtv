@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T08:51:16+08:00",
+  "updated_at": "2026-09-18T08:56:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "07:00",
+      "time": "00:00",
       "remarks": "AT ANCHORAGE/UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 4000,
       "progress": 0.9333333333333333,
       "stockpile": 4000,
-      "time": "05:04",
-      "remarks": "PULLED OUT / SWELL",
+      "time": "08:30",
+      "remarks": "DOCKING MANUEVER",
       "equipment": "CRANE 4",
-      "activity_time": "03:46"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 40000,
       "progress": 0,
       "stockpile": 6000,
-      "time": "08:00",
-      "remarks": "SHIFTING BERTH TO 4",
+      "time": "08:40",
+      "remarks": "SECURED @ BERTH 4",
       "equipment": "0",
-      "activity_time": "00:50"
+      "activity_time": "00:16"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "08:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:50"
+      "activity_time": "00:56"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:50"
+      "activity_time": "00:56"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "01:56"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "01:56"
     },
     {
       "berth": "Jetty",
@@ -180,12 +180,12 @@
       "berth": "R1",
       "vessel": "LCT 28",
       "materials": "SILICA",
-      "discharge": "2%",
-      "balance": "98%",
-      "progress": "2%",
-      "time": "1330H",
-      "remarks": "DISCHARGING ON PROGRESS",
-      "equip": "PL FEED TO GEO DT",
+      "discharge": "0%",
+      "balance": "0%",
+      "progress": "0%",
+      "time": "0840H",
+      "remarks": "SECURED @ RAMP",
+      "equip": "0",
       "activity_time": "00:00"
     },
     {
@@ -198,18 +198,18 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:50"
+      "activity_time": "08:56"
     },
     {
       "berth": "R3",
       "vessel": "POSEIDON 47",
       "materials": "COAL",
-      "discharge": "5%",
-      "balance": "95%",
-      "progress": "5%",
-      "time": "1330H",
-      "remarks": "DISCHARGING ON PROGRESS",
-      "equip": "2 PL FEED TO JBS HOOPER",
+      "discharge": "0%",
+      "balance": "0%",
+      "progress": "0%",
+      "time": "0815H",
+      "remarks": "SECURED @ RAMP",
+      "equip": "0",
       "activity_time": "00:00"
     }
   ],
