@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T11:09:13+08:00",
+  "updated_at": "2026-09-19T11:12:30+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "09:00",
       "remarks": "LOADING SLING G3",
       "equipment": "0",
-      "activity_time": "02:08"
+      "activity_time": "02:12"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 11000,
       "progress": 0.5416666666666666,
       "stockpile": 6000,
-      "time": "09:22",
-      "remarks": "LOADING SLING S35",
+      "time": "10:36",
+      "remarks": "LOADING SLING S36",
       "equipment": "FL2",
-      "activity_time": "01:46"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "16:08",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "19:00"
+      "activity_time": "19:04"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "10:50",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:18"
+      "activity_time": "00:22"
     },
     {
       "berth": "Berth 8",
@@ -146,10 +146,10 @@
       "balance": 7500,
       "progress": 0.7222222222222222,
       "stockpile": 5750,
-      "time": "08:48",
-      "remarks": "LOADING SLING S27",
+      "time": "10:54",
+      "remarks": "LOADING SLING S50",
       "equipment": "FL 1",
-      "activity_time": "02:20"
+      "activity_time": "00:18"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:08"
+      "activity_time": "11:12"
     },
     {
       "berth": "R3",
