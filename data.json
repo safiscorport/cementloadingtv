@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T09:03:01+08:00",
+  "updated_at": "2026-09-19T09:03:36+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "AT ANCHORAGE/UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "02:02"
+      "activity_time": "02:03"
     },
     {
       "berth": "Berth 2",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:02"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:02"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 6",
@@ -89,21 +89,21 @@
       "time": "16:08",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "16:54"
+      "activity_time": "16:55"
     },
     {
       "berth": "Berth 7",
-      "vessel": "LADY OF COURAGE",
-      "voyage": 8,
-      "booking": 25000,
-      "dispatch": 25000,
-      "loaded": 25000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
-      "equipment": "CRANE4/FL2",
+      "equipment": "0",
       "activity_time": "00:00"
     },
     {
@@ -149,7 +149,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "FL 1",
-      "activity_time": "01:02"
+      "activity_time": "01:03"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 142000,
-    "dispatch": 83250,
-    "loaded": 72500,
+    "booking": 117000,
+    "dispatch": 58250,
+    "loaded": 47500,
     "balance": 69500,
-    "progress": 0.5337962962962963,
+    "progress": 0.3783950617283951,
     "stockpile": 10750
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:02"
+      "activity_time": "09:03"
     },
     {
       "berth": "R3",
