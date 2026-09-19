@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T14:06:29+08:00",
+  "updated_at": "2026-09-19T14:08:12+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -96,11 +96,11 @@
       "vessel": "LADY OF WISDOM",
       "voyage": 7,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 1000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "10:50",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 91000,
-    "dispatch": 74250,
+    "dispatch": 75250,
     "loaded": 57500,
     "balance": 33500,
     "progress": 0.6583333333333333,
-    "stockpile": 16750
+    "stockpile": 17750
   },
   "alpha": [
     {
@@ -235,8 +235,8 @@
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 116000,
-      "daily": "-"
+      "september": 117000,
+      "daily": 1000
     },
     {
       "hauler": "BADIE",
@@ -352,7 +352,7 @@
     },
     {
       "client": "LAPU-LAPU",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "BADIE",
