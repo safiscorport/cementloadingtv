@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-09-19T10:35:19+08:00",
+  "updated_at": "2026-09-19T11:06:56+08:00",
   "berths": [
     {
       "berth": "Berth 1",
-      "vessel": "EFG 7",
-      "voyage": 5,
-      "booking": 50000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
       "dispatch": 0,
       "loaded": 0,
-      "balance": 50000,
+      "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "AT ANCHORAGE/UNDER REPAIR",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "03:34"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 2",
@@ -51,15 +51,15 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 8,
       "booking": 40000,
-      "dispatch": 21000,
+      "dispatch": 22000,
       "loaded": 19000,
       "balance": 21000,
       "progress": 0.475,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "09:00",
       "remarks": "LOADING SLING G3",
       "equipment": "0",
-      "activity_time": "01:34"
+      "activity_time": "02:04"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "09:22",
       "remarks": "LOADING SLING S35",
       "equipment": "FL2",
-      "activity_time": "01:12"
+      "activity_time": "01:42"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "16:08",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "18:26"
+      "activity_time": "18:56"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "10:30",
       "remarks": "DOCKING MANUEVER",
       "equipment": "0",
-      "activity_time": "00:04"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "08:48",
       "remarks": "LOADING SLING S27",
       "equipment": "FL 1",
-      "activity_time": "01:46"
+      "activity_time": "02:16"
     },
     {
       "berth": "Jetty",
@@ -168,12 +168,12 @@
     }
   ],
   "total": {
-    "booking": 141000,
-    "dispatch": 65250,
+    "booking": 91000,
+    "dispatch": 66250,
     "loaded": 51500,
-    "balance": 89500,
-    "progress": 0.43472222222222223,
-    "stockpile": 13750
+    "balance": 39500,
+    "progress": 0.5796296296296296,
+    "stockpile": 14750
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:34"
+      "activity_time": "11:04"
     },
     {
       "berth": "R3",
@@ -265,8 +265,8 @@
     {
       "hauler": "FULACHE",
       "august": 38000,
-      "september": 14000,
-      "daily": "-"
+      "september": 15000,
+      "daily": 1000
     }
   ],
   "monthly": [
@@ -372,7 +372,7 @@
     },
     {
       "client": "FULACHE",
-      "volume": "-"
+      "volume": 1000
     }
   ],
   "status": {
@@ -381,6 +381,6 @@
     "pmc": "JOAN / WILLIAM",
     "cranes": 3,
     "forklifts": 6,
-    "stevedores": 0
+    "stevedores": 35
   }
 }
