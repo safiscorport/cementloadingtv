@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T05:46:06+08:00",
+  "updated_at": "2026-09-20T05:55:12+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -51,15 +51,15 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 8,
       "booking": 40000,
-      "dispatch": 35000,
-      "loaded": 25000,
-      "balance": 15000,
-      "progress": 0.625,
-      "stockpile": 10000,
+      "dispatch": 36000,
+      "loaded": 31000,
+      "balance": 9000,
+      "progress": 0.775,
+      "stockpile": 5000,
       "time": "05:26",
       "remarks": "LOADING S56 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:19"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 5",
@@ -67,14 +67,14 @@
       "voyage": 10,
       "booking": 24000,
       "dispatch": 24000,
-      "loaded": 23000,
-      "balance": 1000,
-      "progress": 0.9583333333333334,
-      "stockpile": 1000,
+      "loaded": 24000,
+      "balance": 0,
+      "progress": 1,
+      "stockpile": 0,
       "time": "22:52",
       "remarks": "COMPLETE LOADING G2",
       "equipment": "0",
-      "activity_time": "06:53"
+      "activity_time": "07:03"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "05:45"
+      "activity_time": "05:55"
     },
     {
       "berth": "Berth 7",
@@ -104,22 +104,22 @@
       "time": "05:30",
       "remarks": "VESSEL CVESE / CLOUDY",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "00:25"
     },
     {
       "berth": "Berth 8",
       "vessel": "EASTERN CEBU",
       "voyage": 11,
       "booking": 0,
-      "dispatch": 7250,
-      "loaded": 0,
-      "balance": 0,
+      "dispatch": 8250,
+      "loaded": 7250,
+      "balance": -7250,
       "progress": 0,
-      "stockpile": 7250,
+      "stockpile": 1000,
       "time": "05:18",
       "remarks": "LOADING S41 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:27"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "10:45"
+      "activity_time": "10:55"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "15:39",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE3/FL 1",
-      "activity_time": "14:06"
+      "activity_time": "14:16"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 121000,
-    "dispatch": 124250,
-    "loaded": 104000,
-    "balance": 17000,
-    "progress": 0.6708333333333334,
-    "stockpile": 20250
+    "dispatch": 126250,
+    "loaded": 118250,
+    "balance": 2750,
+    "progress": 0.71875,
+    "stockpile": 8000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:45"
+      "activity_time": "05:55"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 681500,
-      "daily": 30250
+      "september": 682500,
+      "daily": 31250
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 80000,
-      "daily": 6000
+      "september": 81000,
+      "daily": 7000
     },
     {
       "hauler": "UCES",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 952500
+      "y2026": 966750
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12788210
+    "y2026": 12802460
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 4000
+      "qty": 18250
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 15250
+      "volume": 5000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 4000
+      "volume": 2000
     },
     {
       "client": "UCES",
