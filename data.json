@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T14:22:43+08:00",
+  "updated_at": "2026-09-19T14:27:18+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "13:00",
       "remarks": "LOADING SLING F1",
       "equipment": "0",
-      "activity_time": "01:22"
+      "activity_time": "01:26"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "13:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:22"
+      "activity_time": "01:26"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "14:22"
+      "activity_time": "14:26"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "14:00",
       "remarks": "VESSEL CRANE INSPECTION",
       "equipment": "0",
-      "activity_time": "00:22"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 8",
@@ -131,10 +131,10 @@
       "balance": -26000,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "14:00",
+      "remarks": "DOCKING MANUEVER",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:00",
       "remarks": "LOADING SLING",
       "equipment": "CRANE3/FL 1",
-      "activity_time": "01:22"
+      "activity_time": "01:26"
     },
     {
       "berth": "Jetty",
@@ -198,16 +198,16 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:22"
+      "activity_time": "14:26"
     },
     {
       "berth": "R3",
       "vessel": "POSEIDON 47",
       "materials": "COAL",
-      "discharge": "40%",
-      "balance": "60%",
-      "progress": "40%",
-      "time": "0942H",
+      "discharge": "45%",
+      "balance": "55%",
+      "progress": "45%",
+      "time": "1214H",
       "remarks": "DISCHARING ON PROGRESS",
       "equip": "FEED TO JBS HOOPER 2 PL UNITS",
       "activity_time": "00:00"
