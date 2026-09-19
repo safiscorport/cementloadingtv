@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T09:36:34+08:00",
+  "updated_at": "2026-09-19T09:38:07+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "AT ANCHORAGE/UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "02:36"
+      "activity_time": "02:37"
     },
     {
       "berth": "Berth 2",
@@ -51,15 +51,15 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 8,
       "booking": 40000,
-      "dispatch": 19000,
-      "loaded": 18000,
-      "balance": 22000,
-      "progress": 0.45,
+      "dispatch": 20000,
+      "loaded": 19000,
+      "balance": 21000,
+      "progress": 0.475,
       "stockpile": 1000,
       "time": "08:00",
       "remarks": "LOADING SLING G3",
       "equipment": "0",
-      "activity_time": "01:36"
+      "activity_time": "01:37"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "FL2",
-      "activity_time": "01:36"
+      "activity_time": "01:37"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "16:08",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:28"
+      "activity_time": "17:29"
     },
     {
       "berth": "Berth 7",
@@ -149,7 +149,7 @@
       "time": "08:48",
       "remarks": "LOADING SLING S27",
       "equipment": "FL 1",
-      "activity_time": "00:48"
+      "activity_time": "00:49"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 141000,
-    "dispatch": 59250,
-    "loaded": 48500,
-    "balance": 92500,
-    "progress": 0.4076388888888889,
+    "dispatch": 60250,
+    "loaded": 49500,
+    "balance": 91500,
+    "progress": 0.41388888888888886,
     "stockpile": 10750
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:36"
+      "activity_time": "09:37"
     },
     {
       "berth": "R3",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 74000,
-      "daily": "-"
+      "september": 75000,
+      "daily": 1000
     },
     {
       "hauler": "UCES",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 923000
+      "y2026": 924000
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12758710
+    "y2026": 12759710
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 1000
+      "qty": 2000
     },
     {
       "shift": "2ND SHIFT",
