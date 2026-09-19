@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T12:57:16+08:00",
+  "updated_at": "2026-09-19T13:05:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -56,10 +56,10 @@
       "balance": 21000,
       "progress": 0.475,
       "stockpile": 5000,
-      "time": "12:00",
-      "remarks": "LUNCHBREAK",
+      "time": "13:00",
+      "remarks": "LOADING SLING F1",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "00:05"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 8000,
       "progress": 0.6666666666666666,
       "stockpile": 3000,
-      "time": "12:00",
-      "remarks": "LUNCHBREAK",
+      "time": "13:00",
+      "remarks": "LOADING SLING",
       "equipment": "FL2",
-      "activity_time": "00:56"
+      "activity_time": "00:05"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "16:08",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "20:48"
+      "activity_time": "20:57"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "10:50",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "02:06"
+      "activity_time": "02:15"
     },
     {
       "berth": "Berth 8",
@@ -146,10 +146,10 @@
       "balance": 4500,
       "progress": 0.8333333333333334,
       "stockpile": 3750,
-      "time": "12:00",
-      "remarks": "LUNCHBREAK",
+      "time": "13:00",
+      "remarks": "LOADING SLING",
       "equipment": "FL 1",
-      "activity_time": "00:56"
+      "activity_time": "00:05"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:56"
+      "activity_time": "13:05"
     },
     {
       "berth": "R3",
