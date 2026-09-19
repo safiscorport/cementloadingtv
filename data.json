@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T10:34:04+08:00",
+  "updated_at": "2026-09-19T10:35:19+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "AT ANCHORAGE/UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "03:33"
+      "activity_time": "03:34"
     },
     {
       "berth": "Berth 2",
@@ -59,7 +59,7 @@
       "time": "09:00",
       "remarks": "LOADING SLING G3",
       "equipment": "0",
-      "activity_time": "01:33"
+      "activity_time": "01:34"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "09:22",
       "remarks": "LOADING SLING S35",
       "equipment": "FL2",
-      "activity_time": "01:11"
+      "activity_time": "01:12"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "16:08",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "18:25"
+      "activity_time": "18:26"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "10:30",
       "remarks": "DOCKING MANUEVER",
       "equipment": "0",
-      "activity_time": "00:03"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "08:48",
       "remarks": "LOADING SLING S27",
       "equipment": "FL 1",
-      "activity_time": "01:45"
+      "activity_time": "01:46"
     },
     {
       "berth": "Jetty",
@@ -178,13 +178,13 @@
   "alpha": [
     {
       "berth": "R1",
-      "vessel": "LCT 28",
-      "materials": "SILICA",
+      "vessel": "VACANT",
+      "materials": "-",
       "discharge": "0%",
       "balance": "0%",
       "progress": "0%",
-      "time": "1600H",
-      "remarks": "SWEEPING",
+      "time": "00:00",
+      "remarks": "-",
       "equip": "0",
       "activity_time": "00:00"
     },
@@ -198,16 +198,16 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:33"
+      "activity_time": "10:34"
     },
     {
       "berth": "R3",
       "vessel": "POSEIDON 47",
       "materials": "COAL",
-      "discharge": "0%",
-      "balance": "80%",
-      "progress": "0%",
-      "time": "1600H",
+      "discharge": "40%",
+      "balance": "60%",
+      "progress": "40%",
+      "time": "0942H",
       "remarks": "DISCHARING ON PROGRESS",
       "equip": "FEED TO JBS HOOPER 2 PL UNITS",
       "activity_time": "00:00"
