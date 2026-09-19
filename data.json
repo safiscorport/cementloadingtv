@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T11:40:24+08:00",
+  "updated_at": "2026-09-19T11:46:38+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -56,10 +56,10 @@
       "balance": 21000,
       "progress": 0.475,
       "stockpile": 3000,
-      "time": "09:00",
-      "remarks": "LOADING SLING G3",
+      "time": "11:00",
+      "remarks": "ONBOARD FL PULLED OUT",
       "equipment": "0",
-      "activity_time": "02:40"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "10:36",
       "remarks": "LOADING SLING S36",
       "equipment": "FL2",
-      "activity_time": "01:04"
+      "activity_time": "01:10"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "16:08",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "19:32"
+      "activity_time": "19:38"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "10:50",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:50"
+      "activity_time": "00:56"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "10:54",
       "remarks": "LOADING SLING S50",
       "equipment": "FL 1",
-      "activity_time": "00:46"
+      "activity_time": "00:52"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:40"
+      "activity_time": "11:46"
     },
     {
       "berth": "R3",
