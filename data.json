@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T09:35:29+08:00",
+  "updated_at": "2026-09-19T09:36:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "AT ANCHORAGE/UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "02:35"
+      "activity_time": "02:36"
     },
     {
       "berth": "Berth 2",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING G3",
       "equipment": "0",
-      "activity_time": "01:35"
+      "activity_time": "01:36"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "FL2",
-      "activity_time": "01:35"
+      "activity_time": "01:36"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "16:08",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:27"
+      "activity_time": "17:28"
     },
     {
       "berth": "Berth 7",
@@ -149,7 +149,7 @@
       "time": "08:48",
       "remarks": "LOADING SLING S27",
       "equipment": "FL 1",
-      "activity_time": "00:47"
+      "activity_time": "00:48"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:35"
+      "activity_time": "09:36"
     },
     {
       "berth": "R3",
