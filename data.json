@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T14:42:10+08:00",
+  "updated_at": "2026-09-19T14:51:47+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -56,10 +56,10 @@
       "balance": 21000,
       "progress": 0.475,
       "stockpile": 10000,
-      "time": "13:00",
+      "time": "14:00",
       "remarks": "LOADING SLING F1",
       "equipment": "0",
-      "activity_time": "01:41"
+      "activity_time": "00:51"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 8000,
       "progress": 0.6666666666666666,
       "stockpile": 7000,
-      "time": "13:00",
-      "remarks": "LOADING SLING",
+      "time": "13:41",
+      "remarks": "LOADING SLING S49",
       "equipment": "0",
-      "activity_time": "01:41"
+      "activity_time": "01:10"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "14:41"
+      "activity_time": "14:51"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "14:00",
       "remarks": "VESSEL CRANE INSPECTION",
       "equipment": "0",
-      "activity_time": "00:41"
+      "activity_time": "00:51"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "14:35",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:06"
+      "activity_time": "00:16"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:35",
       "remarks": "LOADING SLING S28",
       "equipment": "CRANE3/FL 1",
-      "activity_time": "01:06"
+      "activity_time": "01:16"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:41"
+      "activity_time": "14:51"
     },
     {
       "berth": "R3",
