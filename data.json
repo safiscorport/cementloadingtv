@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T17:22:32+08:00",
+  "updated_at": "2026-09-19T17:24:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "16:30",
       "remarks": "LOADING SLING S59",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "16:28",
       "remarks": "LOADING TONNER S60",
       "equipment": "0",
-      "activity_time": "00:54"
+      "activity_time": "00:55"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:22"
+      "activity_time": "17:23"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": -1000,
       "progress": 0,
       "stockpile": 0,
-      "time": "15:27",
-      "remarks": "COMMENCE LOADING L47",
+      "time": "15:58",
+      "remarks": "WAITING LAPULAPU",
       "equipment": "0",
-      "activity_time": "01:55"
+      "activity_time": "01:25"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "14:35",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "02:47"
+      "activity_time": "02:48"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "15:39",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE3/FL 1",
-      "activity_time": "01:43"
+      "activity_time": "01:44"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:22"
+      "activity_time": "17:23"
     },
     {
       "berth": "R3",
