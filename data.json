@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T11:48:02+08:00",
+  "updated_at": "2026-09-20T13:27:27+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -51,15 +51,15 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 8,
       "booking": 40000,
-      "dispatch": 35000,
+      "dispatch": 36000,
       "loaded": 35000,
       "balance": 5000,
       "progress": 0.875,
-      "stockpile": 0,
-      "time": "10:22",
-      "remarks": "WAITING DELIVERY",
+      "stockpile": 1000,
+      "time": "13:00",
+      "remarks": "LOADING SLING",
       "equipment": "CRANE 2",
-      "activity_time": "01:25"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 5",
@@ -89,37 +89,37 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "11:47"
+      "activity_time": "13:27"
     },
     {
       "berth": "Berth 7",
       "vessel": "LADY OF WISDOM",
       "voyage": 7,
       "booking": 30000,
-      "dispatch": 6000,
+      "dispatch": 8000,
       "loaded": 6000,
       "balance": 24000,
       "progress": 0.2,
-      "stockpile": 0,
-      "time": "10:48",
-      "remarks": "WAITING DEIVERY",
+      "stockpile": 2000,
+      "time": "13:00",
+      "remarks": "LOADING SLING",
       "equipment": "FL 2",
-      "activity_time": "00:59"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 8",
       "vessel": "EASTERN CEBU",
       "voyage": 11,
       "booking": 27000,
-      "dispatch": 16250,
+      "dispatch": 17250,
       "loaded": 12250,
       "balance": 14750,
       "progress": 0.4537037037037037,
-      "stockpile": 4000,
-      "time": "12:00",
-      "remarks": "LUNCHBREAK",
+      "stockpile": 5000,
+      "time": "13:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "23:47"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 26000,
       "progress": 0,
       "stockpile": 0,
-      "time": "11:32",
-      "remarks": "WAITING DELIVERY",
+      "time": "13:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 123000,
-    "dispatch": 57250,
+    "dispatch": 61250,
     "loaded": 53250,
     "balance": 69750,
     "progress": 0.3821759259259259,
-    "stockpile": 4000
+    "stockpile": 8000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:47"
+      "activity_time": "13:27"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 690500,
-      "daily": 9000
+      "september": 695500,
+      "daily": 14000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 4000
+      "volume": 8000
     },
     {
       "client": "LAPU-LAPU",
