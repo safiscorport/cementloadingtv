@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T10:00:41+08:00",
+  "updated_at": "2026-09-20T10:01:35+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -52,10 +52,10 @@
       "voyage": 8,
       "booking": 40000,
       "dispatch": 36000,
-      "loaded": 32000,
-      "balance": 8000,
-      "progress": 0.8,
-      "stockpile": 4000,
+      "loaded": 33000,
+      "balance": 7000,
+      "progress": 0.825,
+      "stockpile": 3000,
       "time": "08:39",
       "remarks": "LOADING SLING L50",
       "equipment": "CRANE 2",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 123000,
     "dispatch": 82250,
-    "loaded": 70250,
-    "balance": 52750,
-    "progress": 0.5587962962962962,
-    "stockpile": 12000
+    "loaded": 71250,
+    "balance": 51750,
+    "progress": 0.5650462962962963,
+    "stockpile": 11000
   },
   "alpha": [
     {
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 969750
+      "y2026": 970750
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12805460
+    "y2026": 12806460
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 3000
+      "qty": 4000
     },
     {
       "shift": "2ND SHIFT",
@@ -352,7 +352,7 @@
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "BADIE",
