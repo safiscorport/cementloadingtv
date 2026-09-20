@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T08:01:55+08:00",
+  "updated_at": "2026-09-20T08:05:18+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:01"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "08:01"
+      "activity_time": "08:04"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:01"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:01"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 9",
@@ -138,17 +138,17 @@
     },
     {
       "berth": "Berth 10",
-      "vessel": "STAR DINAGAT",
-      "voyage": 4,
-      "booking": 27000,
-      "dispatch": 27000,
-      "loaded": 27000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
-      "equipment": "CRANE3/FL 1",
+      "equipment": "0",
       "activity_time": "00:00"
     },
     {
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 121000,
-    "dispatch": 126250,
-    "loaded": 118250,
+    "booking": 94000,
+    "dispatch": 99250,
+    "loaded": 91250,
     "balance": 2750,
-    "progress": 0.71875,
+    "progress": 0.625,
     "stockpile": 8000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:01"
+      "activity_time": "08:04"
     },
     {
       "berth": "R3",
@@ -376,9 +376,9 @@
     }
   ],
   "status": {
-    "supervisor": "NO VISOR",
-    "checker": "TORRES, J / TORREGOSA, J",
-    "pmc": "VICKY / EBOY",
+    "supervisor": "BERNABE,A",
+    "checker": "DALUSA",
+    "pmc": "JOAN / WILLIAM",
     "cranes": 3,
     "forklifts": 6,
     "stevedores": 0
