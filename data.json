@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T17:02:37+08:00",
+  "updated_at": "2026-09-20T17:05:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -52,14 +52,14 @@
       "voyage": 8,
       "booking": 40000,
       "dispatch": 40000,
-      "loaded": 37000,
-      "balance": 3000,
-      "progress": 0.925,
-      "stockpile": 3000,
-      "time": "15:18",
-      "remarks": "LOADING SLING S25",
+      "loaded": 40000,
+      "balance": 0,
+      "progress": 1,
+      "stockpile": 0,
+      "time": "16:51",
+      "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "01:44"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:02"
+      "activity_time": "17:05"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "14:40",
       "remarks": "LOADING SLING GEO 5",
       "equipment": "FL 2",
-      "activity_time": "02:22"
+      "activity_time": "02:25"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "15:00",
       "remarks": "LOADING SLING S31",
       "equipment": "0",
-      "activity_time": "02:02"
+      "activity_time": "02:05"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "15:35",
       "remarks": "LOADING SLING S36",
       "equipment": "0",
-      "activity_time": "01:27"
+      "activity_time": "01:30"
     },
     {
       "berth": "Berth 10",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 123000,
     "dispatch": 68250,
-    "loaded": 60250,
-    "balance": 62750,
-    "progress": 0.4391203703703703,
-    "stockpile": 8000
+    "loaded": 63250,
+    "balance": 59750,
+    "progress": 0.45787037037037037,
+    "stockpile": 5000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:02"
+      "activity_time": "17:05"
     },
     {
       "berth": "R3",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 989750
+      "y2026": 992750
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12825460
+    "y2026": 12828460
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 23000
+      "qty": 26000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 8000
+      "volume": 5000
     },
     {
       "client": "LAPU-LAPU",
