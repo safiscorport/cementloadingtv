@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T08:08:34+08:00",
+  "updated_at": "2026-09-20T08:12:28+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -56,10 +56,10 @@
       "balance": 9000,
       "progress": 0.775,
       "stockpile": 5000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:08"
+      "activity_time": "00:11"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "08:08"
+      "activity_time": "08:11"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 27000,
       "progress": 0.1,
       "stockpile": 2000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:08"
+      "activity_time": "00:11"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": -7250,
       "progress": 0,
       "stockpile": 1000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:08"
+      "activity_time": "00:11"
     },
     {
       "berth": "Berth 9",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:08"
+      "activity_time": "08:11"
     },
     {
       "berth": "R3",
