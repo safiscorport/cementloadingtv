@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T11:19:51+08:00",
+  "updated_at": "2026-09-20T11:22:14+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "10:22",
       "remarks": "WAITING DELIVERY",
       "equipment": "CRANE 2",
-      "activity_time": "00:57"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "11:19"
+      "activity_time": "11:21"
     },
     {
       "berth": "Berth 7",
@@ -104,37 +104,37 @@
       "time": "08:53",
       "remarks": "LOADING SLING GEO 4",
       "equipment": "FL 2",
-      "activity_time": "02:26"
+      "activity_time": "02:28"
     },
     {
       "berth": "Berth 8",
       "vessel": "EASTERN CEBU",
       "voyage": 11,
       "booking": 27000,
-      "dispatch": 16250,
-      "loaded": 11250,
-      "balance": 15750,
-      "progress": 0.4166666666666667,
-      "stockpile": 5000,
+      "dispatch": 15250,
+      "loaded": 12250,
+      "balance": 14750,
+      "progress": 0.4537037037037037,
+      "stockpile": 3000,
       "time": "10:50",
       "remarks": "LOADINGSLING S39",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 9",
       "vessel": "NAPOLI",
-      "voyage": 9,
+      "voyage": 10,
       "booking": 26000,
-      "dispatch": 27000,
-      "loaded": 26000,
-      "balance": 0,
-      "progress": 1,
-      "stockpile": 1000,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 26000,
+      "progress": 0,
+      "stockpile": 0,
       "time": "11:10",
       "remarks": "COMMENCE LOADING GEO 1",
       "equipment": "0",
-      "activity_time": "00:09"
+      "activity_time": "00:11"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 123000,
-    "dispatch": 84250,
-    "loaded": 77250,
-    "balance": 45750,
-    "progress": 0.6145833333333334,
-    "stockpile": 7000
+    "dispatch": 56250,
+    "loaded": 52250,
+    "balance": 70750,
+    "progress": 0.3738425925925926,
+    "stockpile": 4000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:19"
+      "activity_time": "11:21"
     },
     {
       "berth": "R3",
@@ -247,7 +247,7 @@
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 82000,
+      "september": 81000,
       "daily": 1000
     },
     {
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 976750
+      "y2026": 977750
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12812460
+    "y2026": 12813460
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 10000
+      "qty": 11000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 5000
+      "volume": 4000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 2000
+      "volume": "-"
     },
     {
       "client": "UCES",
