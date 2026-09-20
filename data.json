@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T11:31:46+08:00",
+  "updated_at": "2026-09-20T11:32:21+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 978750
+      "y2026": 979750
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12814460
+    "y2026": 12815460
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 12000
+      "qty": 13000
     },
     {
       "shift": "2ND SHIFT",
