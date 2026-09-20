@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T19:20:25+08:00",
+  "updated_at": "2026-09-20T19:27:52+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "16:51",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "02:29"
+      "activity_time": "02:36"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "19:20"
+      "activity_time": "19:27"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 21000,
       "progress": 0.3,
       "stockpile": 4000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "19:20",
+      "remarks": "LOADING SLING",
       "equipment": "FL 2",
-      "activity_time": "00:20"
+      "activity_time": "00:07"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 10000,
       "progress": 0.6296296296296297,
       "stockpile": 0,
-      "time": "16:46",
+      "time": "19:00",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "02:34"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 20000,
       "progress": 0.23076923076923078,
       "stockpile": 4000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "19:20",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:20"
+      "activity_time": "00:07"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:20"
+      "activity_time": "19:27"
     },
     {
       "berth": "R3",
