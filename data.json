@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T23:53:47+08:00",
+  "updated_at": "2026-09-21T07:12:09+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -57,9 +57,9 @@
       "progress": 1,
       "stockpile": 0,
       "time": "16:51",
-      "remarks": "LOADING COMPLETE",
+      "remarks": "QUEEN CAROLYN",
       "equipment": "CRANE 2",
-      "activity_time": "07:02"
+      "activity_time": "14:21"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "23:53"
+      "activity_time": "07:12"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0.4666666666666667,
       "stockpile": 2000,
       "time": "22:27",
-      "remarks": "WAITING DELIVERY SLING",
+      "remarks": "LADY OF WISDOM",
       "equipment": "FL 2",
-      "activity_time": "01:26"
+      "activity_time": "08:45"
     },
     {
       "berth": "Berth 8",
@@ -117,9 +117,9 @@
       "progress": 0.7037037037037037,
       "stockpile": 0,
       "time": "23:43",
-      "remarks": "WAITING DELIVERY",
+      "remarks": "EASTERN CEBU",
       "equipment": "CRANE 3",
-      "activity_time": "00:10"
+      "activity_time": "07:29"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 14000,
       "progress": 0.46153846153846156,
       "stockpile": 0,
-      "time": "22:59",
-      "remarks": "WAITING DELIVERY",
+      "time": "00:00",
+      "remarks": "NAPOLI",
       "equipment": "0",
-      "activity_time": "00:54"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "23:53"
+      "activity_time": "07:12"
     },
     {
       "berth": "R3",
