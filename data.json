@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T08:05:18+08:00",
+  "updated_at": "2026-09-20T08:06:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:04"
+      "activity_time": "01:06"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "08:04"
+      "activity_time": "08:06"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:04"
+      "activity_time": "01:06"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:04"
+      "activity_time": "01:06"
     },
     {
       "berth": "Berth 9",
@@ -198,18 +198,18 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:04"
+      "activity_time": "08:06"
     },
     {
       "berth": "R3",
       "vessel": "POSEIDON 47",
       "materials": "COAL",
-      "discharge": "45%",
-      "balance": "55%",
-      "progress": "45%",
-      "time": "1214H",
-      "remarks": "DISCHARING ON PROGRESS",
-      "equip": "FEED TO JBS HOOPER 2 PL UNITS",
+      "discharge": "65%",
+      "balance": "35%",
+      "progress": "65%",
+      "time": "0800H",
+      "remarks": "STOP / WAITING ADVISE",
+      "equip": "FEED TO JBS HOOPER",
       "activity_time": "00:00"
     }
   ],
