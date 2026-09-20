@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T15:46:19+08:00",
+  "updated_at": "2026-09-20T15:48:53+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "13:00",
       "remarks": "LOADING SLING",
       "equipment": "CRANE 2",
-      "activity_time": "02:45"
+      "activity_time": "02:48"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "15:45"
+      "activity_time": "15:48"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "13:00",
       "remarks": "LOADING SLING",
       "equipment": "FL 2",
-      "activity_time": "02:45"
+      "activity_time": "02:48"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "15:00",
       "remarks": "LOADING SLING S31",
       "equipment": "0",
-      "activity_time": "00:45"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:25",
       "remarks": "LOADING SLING S21",
       "equipment": "0",
-      "activity_time": "01:20"
+      "activity_time": "01:23"
     },
     {
       "berth": "Berth 10",
@@ -178,14 +178,14 @@
   "alpha": [
     {
       "berth": "R1",
-      "vessel": "VACANT",
-      "materials": "-",
+      "vessel": "LCT 288",
+      "materials": "SILICA",
       "discharge": "0%",
-      "balance": "0%",
+      "balance": "100%",
       "progress": "0%",
-      "time": "00:00",
-      "remarks": "-",
-      "equip": "0",
+      "time": "1540H",
+      "remarks": "COMMENCE DISCHARGE",
+      "equip": "1 PL",
       "activity_time": "00:00"
     },
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:45"
+      "activity_time": "15:48"
     },
     {
       "berth": "R3",
@@ -207,7 +207,7 @@
       "discharge": "65%",
       "balance": "35%",
       "progress": "65%",
-      "time": "1050H",
+      "time": "1520H",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "2 PL FEED TO JBS HOOPER",
       "activity_time": "00:00"
