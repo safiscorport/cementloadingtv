@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T15:48:53+08:00",
+  "updated_at": "2026-09-20T15:49:27+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -204,9 +204,9 @@
       "berth": "R3",
       "vessel": "POSEIDON 47",
       "materials": "COAL",
-      "discharge": "65%",
-      "balance": "35%",
-      "progress": "65%",
+      "discharge": "75%",
+      "balance": "25%",
+      "progress": "75%",
       "time": "1520H",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "2 PL FEED TO JBS HOOPER",
