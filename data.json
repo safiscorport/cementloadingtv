@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T22:40:11+08:00",
+  "updated_at": "2026-09-20T23:01:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "16:51",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "05:48"
+      "activity_time": "06:10"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "22:39"
+      "activity_time": "23:01"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "22:27",
       "remarks": "WAITING DELIVERY SLING",
       "equipment": "FL 2",
-      "activity_time": "00:12"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "19:00",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "03:39"
+      "activity_time": "04:01"
     },
     {
       "berth": "Berth 9",
@@ -127,14 +127,14 @@
       "voyage": 10,
       "booking": 26000,
       "dispatch": 12000,
-      "loaded": 11000,
-      "balance": 15000,
-      "progress": 0.4230769230769231,
-      "stockpile": 1000,
+      "loaded": 12000,
+      "balance": 14000,
+      "progress": 0.46153846153846156,
+      "stockpile": 0,
       "time": "21:37",
       "remarks": "LOADING SLING S5",
       "equipment": "0",
-      "activity_time": "01:02"
+      "activity_time": "01:24"
     },
     {
       "berth": "Berth 10",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 123000,
     "dispatch": 87000,
-    "loaded": 82000,
-    "balance": 41000,
-    "progress": 0.6298433048433049,
-    "stockpile": 5000
+    "loaded": 83000,
+    "balance": 40000,
+    "progress": 0.6394586894586896,
+    "stockpile": 4000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:39"
+      "activity_time": "23:01"
     },
     {
       "berth": "R3",
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 10000
+      "qty": 11000
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 5000
+      "volume": 4000
     },
     {
       "client": "LAPU-LAPU",
