@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T09:05:36+08:00",
+  "updated_at": "2026-09-20T09:05:49+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -103,7 +103,7 @@
       "stockpile": 2000,
       "time": "08:00",
       "remarks": "LOADING SLING",
-      "equipment": "0",
+      "equipment": "FL 2",
       "activity_time": "01:05"
     },
     {
