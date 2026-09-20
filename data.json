@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T11:31:22+08:00",
+  "updated_at": "2026-09-20T11:31:46+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -131,10 +131,10 @@
       "balance": 26000,
       "progress": 0,
       "stockpile": 0,
-      "time": "11:07",
-      "remarks": "COMMENCE LOADING GEO 1",
+      "time": "11:32",
+      "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "00:24"
+      "activity_time": "23:59"
     },
     {
       "berth": "Berth 10",
