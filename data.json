@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T15:33:30+08:00",
+  "updated_at": "2026-09-21T15:41:06+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -56,10 +56,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "VESSEL COMPLETE",
+      "time": "15:30",
+      "remarks": "LAST LINE",
       "equipment": "0",
-      "activity_time": "08:32"
+      "activity_time": "00:10"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "15:32"
+      "activity_time": "15:40"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 15000,
       "progress": 0.5,
       "stockpile": 3500,
-      "time": "14:00",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "15:00",
+      "remarks": "RAIN",
       "equipment": "0",
-      "activity_time": "01:32"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 8000,
       "progress": 0.7037037037037037,
       "stockpile": 1000,
-      "time": "14:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "15:00",
+      "remarks": "VESSEL CLOSE DUE RAIN",
       "equipment": "0",
-      "activity_time": "01:32"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 12000,
       "progress": 0.5384615384615384,
       "stockpile": 4500,
-      "time": "14:00",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "15:00",
+      "remarks": "RAIN",
       "equipment": "CRANE",
-      "activity_time": "01:32"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "14:00",
+      "time": "15:00",
       "remarks": "WAITING BOOKING",
       "equipment": "0",
-      "activity_time": "01:32"
+      "activity_time": "00:40"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:32"
+      "activity_time": "15:40"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:32"
+      "activity_time": "15:40"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:32"
+      "activity_time": "15:40"
     }
   ],
   "foreign": {
