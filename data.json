@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T01:29:44+08:00",
+  "updated_at": "2026-09-22T02:05:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -89,37 +89,37 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "01:29"
+      "activity_time": "02:05"
     },
     {
       "berth": "Berth 7",
       "vessel": "LADY OF WISDOM",
       "voyage": 7,
       "booking": 30000,
-      "dispatch": 21800,
+      "dispatch": 22800,
       "loaded": 16500,
       "balance": 13500,
       "progress": 0.55,
-      "stockpile": 5300,
+      "stockpile": 6300,
       "time": "22:52",
       "remarks": "LOADING SLING S5",
       "equipment": "0",
-      "activity_time": "02:37"
+      "activity_time": "03:13"
     },
     {
       "berth": "Berth 8",
       "vessel": "EASTERN CEBU",
       "voyage": 11,
       "booking": 27000,
-      "dispatch": 25000,
+      "dispatch": 26000,
       "loaded": 22000,
       "balance": 5000,
       "progress": 0.8148148148148148,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "23:58",
       "remarks": "LOADING SLING S21",
       "equipment": "0",
-      "activity_time": "01:31"
+      "activity_time": "02:07"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "00:57",
       "remarks": "LOADING SLING S3",
       "equipment": "CRANE",
-      "activity_time": "00:32"
+      "activity_time": "01:08"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "22:50",
       "remarks": "LOADING SLING L51",
       "equipment": "CRANE4/FL2",
-      "activity_time": "02:39"
+      "activity_time": "03:15"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 106000,
-    "dispatch": 75800,
+    "dispatch": 77800,
     "loaded": 59500,
     "balance": 46500,
     "progress": 0.545635141830794,
-    "stockpile": 16300
+    "stockpile": 18300
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "01:29"
+      "activity_time": "02:05"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "01:29"
+      "activity_time": "02:05"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "01:29"
+      "activity_time": "02:05"
     }
   ],
   "foreign": {
@@ -235,8 +235,8 @@
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 120000,
-      "daily": 2000
+      "september": 121000,
+      "daily": 3000
     },
     {
       "hauler": "BADIE",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 91000,
-      "daily": 6000
+      "september": 92000,
+      "daily": 7000
     },
     {
       "hauler": "UCES",
@@ -352,7 +352,7 @@
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "BADIE",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 3000
+      "volume": 4000
     },
     {
       "client": "UCES",
