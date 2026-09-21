@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T22:23:15+08:00",
+  "updated_at": "2026-09-21T22:36:22+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "22:23"
+      "activity_time": "22:35"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "22:20",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:03"
+      "activity_time": "00:15"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "22:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:23"
+      "activity_time": "00:35"
     },
     {
       "berth": "Berth 9",
       "vessel": "NAPOLI",
       "voyage": 10,
       "booking": 26000,
-      "dispatch": 24000,
+      "dispatch": 25000,
       "loaded": 16000,
       "balance": 10000,
       "progress": 0.6153846153846154,
-      "stockpile": 8000,
+      "stockpile": 9000,
       "time": "22:00",
       "remarks": "LOADING SLING",
       "equipment": "CRANE",
-      "activity_time": "00:23"
+      "activity_time": "00:35"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "22:20",
       "remarks": "COMMENCE LOADING",
       "equipment": "CRANE4/FL2",
-      "activity_time": "00:03"
+      "activity_time": "00:15"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 106000,
-    "dispatch": 70800,
+    "dispatch": 71800,
     "loaded": 50000,
     "balance": 56000,
     "progress": 0.4547720797720798,
-    "stockpile": 20800
+    "stockpile": 21800
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:23"
+      "activity_time": "22:35"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:23"
+      "activity_time": "22:35"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:23"
+      "activity_time": "22:35"
     }
   ],
   "foreign": {
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 90000,
-      "daily": 5000
+      "september": 91000,
+      "daily": 6000
     },
     {
       "hauler": "UCES",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 4000
+      "volume": 5000
     },
     {
       "client": "UCES",
