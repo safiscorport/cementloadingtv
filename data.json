@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T07:56:24+08:00",
+  "updated_at": "2026-09-21T08:51:32+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "01:50"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "07:56"
+      "activity_time": "08:50"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "2 DR2 ADVANCE DELIVERY (T1/BB)",
       "equipment": "FL 2",
-      "activity_time": "00:56"
+      "activity_time": "01:50"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "00:56"
+      "activity_time": "01:50"
     },
     {
       "berth": "Berth 9",
@@ -134,16 +134,16 @@
       "time": "07:00",
       "remarks": "WAITITNG MATERIAL",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "01:50"
     },
     {
       "berth": "Berth 10",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "LADY OF ROSARY",
+      "voyage": 6,
       "booking": 0,
-      "dispatch": 0,
-      "loaded": 0,
-      "balance": 0,
+      "dispatch": 23000,
+      "loaded": 23000,
+      "balance": -23000,
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
@@ -169,9 +169,9 @@
   ],
   "total": {
     "booking": 83000,
-    "dispatch": 47000,
-    "loaded": 45000,
-    "balance": 38000,
+    "dispatch": 70000,
+    "loaded": 68000,
+    "balance": 15000,
     "progress": 0.5439696106362774,
     "stockpile": 2000
   },
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:56"
+      "activity_time": "08:50"
     },
     {
       "berth": "R3",
@@ -230,7 +230,7 @@
       "hauler": "SAFISCOR",
       "august": 1054675,
       "september": 715250,
-      "daily": 33750
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
@@ -248,7 +248,7 @@
       "hauler": "GEO",
       "august": 138080,
       "september": 85000,
-      "daily": 5000
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -266,54 +266,54 @@
       "hauler": "FULACHE",
       "august": 38000,
       "september": 16000,
-      "daily": 1000
+      "daily": "-"
     }
   ],
   "monthly": [
     {
       "month": "January",
       "y2025": 1513170,
-      "y2026": 0
+      "y2026": 1219792
     },
     {
       "month": "February",
       "y2025": 1422330,
-      "y2026": 0
+      "y2026": 1351343
     },
     {
       "month": "March",
       "y2025": 1529850,
-      "y2026": 0
+      "y2026": 1778988
     },
     {
       "month": "April",
       "y2025": 1655225,
-      "y2026": 0
+      "y2026": 1326652
     },
     {
       "month": "May",
       "y2025": 1526425,
-      "y2026": 0
+      "y2026": 1836632
     },
     {
       "month": "June",
       "y2025": 1399850,
-      "y2026": 0
+      "y2026": 1645728
     },
     {
       "month": "July",
       "y2025": 1185200,
-      "y2026": 0
+      "y2026": 1137600
     },
     {
       "month": "August",
       "y2025": 1275600,
-      "y2026": 0
+      "y2026": 1538975
     },
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 0
+      "y2026": 1010500
     },
     {
       "month": "October",
@@ -333,16 +333,16 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 0
+    "y2026": 12846210
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 30750
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 13000
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
@@ -381,6 +381,6 @@
     "pmc": "VICKY/WILLIAM",
     "cranes": 3,
     "forklifts": 6,
-    "stevedores": 0
+    "stevedores": 41
   }
 }
