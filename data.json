@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T10:04:16+08:00",
+  "updated_at": "2026-09-21T10:05:09+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -147,7 +147,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "10:00",
-      "remarks": "NEW VESSEL",
+      "remarks": "WAITING BOOKING",
       "equipment": "0",
       "activity_time": "00:04"
     },
