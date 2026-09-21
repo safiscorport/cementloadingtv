@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T23:01:26+08:00",
+  "updated_at": "2026-09-21T23:02:01+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -142,10 +142,10 @@
       "voyage": 7,
       "booking": 23000,
       "dispatch": 3000,
-      "loaded": 0,
-      "balance": 23000,
-      "progress": 0,
-      "stockpile": 3000,
+      "loaded": 1000,
+      "balance": 22000,
+      "progress": 0.043478260869565216,
+      "stockpile": 2000,
       "time": "22:25",
       "remarks": "COMMENCE LOADING GEO 4",
       "equipment": "CRANE4/FL2",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 106000,
     "dispatch": 71800,
-    "loaded": 50000,
-    "balance": 56000,
-    "progress": 0.4547720797720798,
-    "stockpile": 21800
+    "loaded": 51000,
+    "balance": 55000,
+    "progress": 0.4656416449894711,
+    "stockpile": 20800
   },
   "alpha": [
     {
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1015500
+      "y2026": 1016500
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12851210
+    "y2026": 12852210
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 0
+      "qty": 1000
     }
   ],
   "trucking_stockpile": [
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 5000
+      "volume": 4000
     },
     {
       "client": "UCES",
