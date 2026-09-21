@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T08:51:32+08:00",
+  "updated_at": "2026-09-21T08:52:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "01:52"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "08:50"
+      "activity_time": "08:52"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "2 DR2 ADVANCE DELIVERY (T1/BB)",
       "equipment": "FL 2",
-      "activity_time": "01:50"
+      "activity_time": "01:52"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "01:50"
+      "activity_time": "01:52"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "WAITITNG MATERIAL",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "01:52"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": -23000,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "VACANT",
+      "time": "08:35",
+      "remarks": "NEW VESSEL",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:17"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:50"
+      "activity_time": "08:52"
     },
     {
       "berth": "R3",
