@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T22:09:18+08:00",
+  "updated_at": "2026-09-21T22:10:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -148,7 +148,7 @@
       "stockpile": 3000,
       "time": "21:30",
       "remarks": "OPENING HATCH",
-      "equipment": "CRANE 4",
+      "equipment": "CRANE4/FL2",
       "activity_time": "00:39"
     },
     {
@@ -379,8 +379,8 @@
     "supervisor": "BERNABE,A",
     "checker": "DALUSA / TORREGOSA",
     "pmc": "JOAN / WILLIAM",
-    "cranes": 3,
+    "cranes": 4,
     "forklifts": 6,
-    "stevedores": 0
+    "stevedores": 40
   }
 }
