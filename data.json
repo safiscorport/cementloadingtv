@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T14:13:33+08:00",
+  "updated_at": "2026-09-22T14:14:06+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -127,10 +127,10 @@
       "voyage": 10,
       "booking": 26000,
       "dispatch": 26000,
-      "loaded": 25000,
-      "balance": 1000,
-      "progress": 0.9615384615384616,
-      "stockpile": 1000,
+      "loaded": 26000,
+      "balance": 0,
+      "progress": 1,
+      "stockpile": 0,
       "time": "09:50",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "CRANE",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 106000,
     "dispatch": 86800,
-    "loaded": 78800,
-    "balance": 27200,
-    "progress": 0.7238628762541806,
-    "stockpile": 8000
+    "loaded": 79800,
+    "balance": 26200,
+    "progress": 0.7334782608695651,
+    "stockpile": 7000
   },
   "alpha": [
     {
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1044300
+      "y2026": 1045300
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12880010
+    "y2026": 12881010
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 6000
+      "qty": 7000
     },
     {
       "shift": "2ND SHIFT",
@@ -352,7 +352,7 @@
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 2000
+      "volume": 1000
     },
     {
       "client": "BADIE",
