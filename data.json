@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T21:06:43+08:00",
+  "updated_at": "2026-09-22T21:06:56+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -146,10 +146,10 @@
       "balance": 19000,
       "progress": 0.17391304347826086,
       "stockpile": 9800,
-      "time": "00:00",
-      "remarks": "FORKLIFT ONBOARD",
+      "time": "20:30",
+      "remarks": "LOADING TONNER",
       "equipment": "FL 2",
-      "activity_time": "00:00"
+      "activity_time": "00:36"
     },
     {
       "berth": "Jetty",
