@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T05:01:44+08:00",
+  "updated_at": "2026-09-23T05:04:09+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "05:01"
+      "activity_time": "05:03"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "01:26",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "03:35"
+      "activity_time": "03:37"
     },
     {
       "berth": "Berth 8",
@@ -146,10 +146,10 @@
       "balance": 11000,
       "progress": 0.5217391304347826,
       "stockpile": 9900,
-      "time": "02:24",
-      "remarks": "LOADING TONNER S60",
+      "time": "04:03",
+      "remarks": "LOADING TONNER GEO3",
       "equipment": "FL 2",
-      "activity_time": "02:37"
+      "activity_time": "01:00"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:01"
+      "activity_time": "05:03"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:01"
+      "activity_time": "05:03"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:01"
+      "activity_time": "05:03"
     }
   ],
   "foreign": {
