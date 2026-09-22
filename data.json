@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T07:32:37+08:00",
+  "updated_at": "2026-09-23T07:59:09+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "07:32"
+      "activity_time": "07:58"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "01:26",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "06:06"
+      "activity_time": "06:32"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "07:20",
       "remarks": "DOCK AND SECURE",
       "equipment": "0",
-      "activity_time": "00:12"
+      "activity_time": "00:38"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "1 DR2 LOADABLE",
       "equipment": "CRANE 3",
-      "activity_time": "00:32"
+      "activity_time": "00:58"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:32"
+      "activity_time": "07:58"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:32"
+      "activity_time": "07:58"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:32"
+      "activity_time": "07:58"
     }
   ],
   "foreign": {
