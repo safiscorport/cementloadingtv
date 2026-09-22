@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T07:28:18+08:00",
+  "updated_at": "2026-09-23T07:31:53+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "07:28"
+      "activity_time": "07:31"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0,
       "stockpile": 0,
       "time": "01:26",
-      "remarks": "LOADING COMPLETE",
+      "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "06:02"
+      "activity_time": "06:05"
     },
     {
       "berth": "Berth 8",
@@ -117,7 +117,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "VACANT",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "07:20",
+      "remarks": "DOCK AND SECURE",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:11"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 7000,
       "progress": 0.6956521739130435,
       "stockpile": 6000,
-      "time": "05:17",
-      "remarks": "LOADING TONNER GEO 2",
+      "time": "07:00",
+      "remarks": "1 DR2 LOADABLE",
       "equipment": "CRANE 3",
-      "activity_time": "02:11"
+      "activity_time": "00:31"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:28"
+      "activity_time": "07:31"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:28"
+      "activity_time": "07:31"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:28"
+      "activity_time": "07:31"
     }
   ],
   "foreign": {
