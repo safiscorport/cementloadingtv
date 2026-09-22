@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T14:11:09+08:00",
+  "updated_at": "2026-09-22T14:13:33+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "14:10"
+      "activity_time": "14:13"
     },
     {
       "berth": "Berth 7",
@@ -104,22 +104,22 @@
       "time": "09:50",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "CRANE 4",
-      "activity_time": "04:20"
+      "activity_time": "04:23"
     },
     {
       "berth": "Berth 8",
       "vessel": "EASTERN CEBU",
       "voyage": 11,
       "booking": 27000,
-      "dispatch": 26000,
-      "loaded": 26000,
-      "balance": 1000,
-      "progress": 0.9629629629629629,
+      "dispatch": 27000,
+      "loaded": 27000,
+      "balance": 0,
+      "progress": 1,
       "stockpile": 0,
       "time": "09:50",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "04:20"
+      "activity_time": "04:23"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "09:50",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "CRANE",
-      "activity_time": "04:20"
+      "activity_time": "04:23"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "09:50",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "04:20"
+      "activity_time": "04:23"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 106000,
-    "dispatch": 85800,
-    "loaded": 77800,
-    "balance": 28200,
-    "progress": 0.7146036169949214,
+    "dispatch": 86800,
+    "loaded": 78800,
+    "balance": 27200,
+    "progress": 0.7238628762541806,
     "stockpile": 8000
   },
   "alpha": [
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:10"
+      "activity_time": "14:13"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:10"
+      "activity_time": "14:13"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:10"
+      "activity_time": "14:13"
     }
   ],
   "foreign": {
@@ -235,8 +235,8 @@
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 122000,
-      "daily": 1000
+      "september": 123000,
+      "daily": 2000
     },
     {
       "hauler": "BADIE",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1043300
+      "y2026": 1044300
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12879010
+    "y2026": 12880010
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 5000
+      "qty": 6000
     },
     {
       "shift": "2ND SHIFT",
