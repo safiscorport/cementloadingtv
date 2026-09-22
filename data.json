@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T07:27:19+08:00",
+  "updated_at": "2026-09-23T07:27:33+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -89,22 +89,22 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "07:26"
+      "activity_time": "07:27"
     },
     {
       "berth": "Berth 7",
-      "vessel": "LADY OF WISDOM",
-      "voyage": 7,
-      "booking": 30000,
-      "dispatch": 30000,
-      "loaded": 30000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "01:26",
       "remarks": "LOADING COMPLETE",
-      "equipment": "CRANE 2",
-      "activity_time": "06:00"
+      "equipment": "0",
+      "activity_time": "06:01"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "05:17",
       "remarks": "LOADING TONNER GEO 2",
       "equipment": "CRANE 3",
-      "activity_time": "02:09"
+      "activity_time": "02:10"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 53000,
-    "dispatch": 52000,
-    "loaded": 46000,
+    "booking": 23000,
+    "dispatch": 22000,
+    "loaded": 16000,
     "balance": 7000,
-    "progress": 0.8478260869565217,
+    "progress": 0.6956521739130435,
     "stockpile": 6000
   },
   "alpha": [
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:26"
+      "activity_time": "07:27"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:26"
+      "activity_time": "07:27"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:26"
+      "activity_time": "07:27"
     }
   ],
   "foreign": {
