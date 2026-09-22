@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T00:03:59+08:00",
+  "updated_at": "2026-09-23T00:21:19+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "00:03"
+      "activity_time": "00:21"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "21:40",
       "remarks": "LOADING TONNER L50",
       "equipment": "CRANE 2",
-      "activity_time": "02:23"
+      "activity_time": "02:41"
     },
     {
       "berth": "Berth 8",
@@ -141,15 +141,15 @@
       "vessel": "LADY OF ROSARY",
       "voyage": 7,
       "booking": 23000,
-      "dispatch": 17800,
+      "dispatch": 18900,
       "loaded": 8000,
       "balance": 15000,
       "progress": 0.34782608695652173,
-      "stockpile": 9800,
+      "stockpile": 10900,
       "time": "23:20",
       "remarks": "FL ONBOARD PULLED OUT",
       "equipment": "FL 2",
-      "activity_time": "00:43"
+      "activity_time": "01:01"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 53000,
-    "dispatch": 47800,
+    "dispatch": 48900,
     "loaded": 34800,
     "balance": 18200,
     "progress": 0.6205797101449275,
-    "stockpile": 13000
+    "stockpile": 14100
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "00:03"
+      "activity_time": "00:21"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "00:03"
+      "activity_time": "00:21"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "00:03"
+      "activity_time": "00:21"
     }
   ],
   "foreign": {
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 94000,
-      "daily": 2000
+      "september": 95100,
+      "daily": 3100
     },
     {
       "hauler": "UCES",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": "-"
+      "volume": 1100
     },
     {
       "client": "UCES",
