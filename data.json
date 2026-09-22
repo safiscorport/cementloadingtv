@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T04:59:17+08:00",
+  "updated_at": "2026-09-23T04:59:30+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "04:58"
+      "activity_time": "04:59"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "01:26",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "03:32"
+      "activity_time": "03:33"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "02:24",
       "remarks": "LOADING TONNER S60",
       "equipment": "FL 2",
-      "activity_time": "02:34"
+      "activity_time": "02:35"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "04:58"
+      "activity_time": "04:59"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "04:58"
+      "activity_time": "04:59"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "04:58"
+      "activity_time": "04:59"
     }
   ],
   "foreign": {
