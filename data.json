@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T20:02:19+08:00",
+  "updated_at": "2026-09-22T20:03:52+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "20:01"
+      "activity_time": "20:03"
     },
     {
       "berth": "Berth 7",
@@ -103,38 +103,38 @@
       "stockpile": 7000,
       "time": "20:00",
       "remarks": "OPENING HATCH",
-      "equipment": "CRANE 4",
-      "activity_time": "00:01"
+      "equipment": "CRANE 2",
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 8",
-      "vessel": "EASTERN CEBU",
-      "voyage": 11,
-      "booking": 27000,
-      "dispatch": 27000,
-      "loaded": 27000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "13:38",
-      "remarks": "VESSEL COMPLETE",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "06:23"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
-      "vessel": "NAPOLI",
-      "voyage": 10,
-      "booking": 26000,
-      "dispatch": 26000,
-      "loaded": 26000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "13:39",
-      "remarks": "VESSEL COMPLETE",
-      "equipment": "CRANE",
-      "activity_time": "06:22"
+      "time": "00:00",
+      "remarks": "-",
+      "equipment": "0",
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 10",
@@ -148,8 +148,8 @@
       "stockpile": 9000,
       "time": "20:00",
       "remarks": "OPENING HATCH",
-      "equipment": "0",
-      "activity_time": "00:01"
+      "equipment": "FL 2",
+      "activity_time": "00:03"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 106000,
-    "dispatch": 95800,
-    "loaded": 79800,
+    "booking": 53000,
+    "dispatch": 42800,
+    "loaded": 26800,
     "balance": 26200,
-    "progress": 0.7334782608695651,
+    "progress": 0.46695652173913044,
     "stockpile": 16000
   },
   "alpha": [
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:01"
+      "activity_time": "20:03"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:01"
+      "activity_time": "20:03"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:01"
+      "activity_time": "20:03"
     }
   ],
   "foreign": {
