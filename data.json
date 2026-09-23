@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T21:35:24+08:00",
+  "updated_at": "2026-09-23T21:46:43+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "20:59",
       "remarks": "COMMENCE LOADING S15",
       "equipment": "CRANE 4",
-      "activity_time": "00:35"
+      "activity_time": "00:47"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "21:34"
+      "activity_time": "21:46"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "01:26",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "20:08"
+      "activity_time": "20:20"
     },
     {
       "berth": "Berth 8",
@@ -131,10 +131,10 @@
       "balance": 18000,
       "progress": 0.18181818181818182,
       "stockpile": 10000,
-      "time": "20:37",
-      "remarks": "LOADING TONNER S5",
+      "time": "09:40",
+      "remarks": "ONBOARD FORKLIFT",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "12:06"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:51",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "07:43"
+      "activity_time": "07:55"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:34"
+      "activity_time": "21:46"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:34"
+      "activity_time": "21:46"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:34"
+      "activity_time": "21:46"
     }
   ],
   "foreign": {
