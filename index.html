@@ -3784,6 +3784,14 @@ startRotation();
   }
 
   function changeScale(amount) {
+    /* Dashboard 2 uses the opposite zoom direction. */
+    const historyScreen = document.getElementById("historyScreen");
+    const isDashboard2 = historyScreen && historyScreen.classList.contains("show");
+
+    if (isDashboard2) {
+      amount = -amount;
+    }
+
     scale += amount;
     applyScale();
   }
