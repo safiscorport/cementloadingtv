@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T07:09:08+08:00",
+  "updated_at": "2026-09-24T07:11:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 42000,
       "progress": 0.23636363636363636,
       "stockpile": 4000,
-      "time": "05:06",
-      "remarks": "LOADING SLING L51",
+      "time": "00:00",
+      "remarks": "LADY OF GUIDANCE",
       "equipment": "CRANE 4",
-      "activity_time": "02:02"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 2",
@@ -27,7 +27,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "VACANT",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -42,7 +42,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "VACANT",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -57,7 +57,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "VACANT",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -72,7 +72,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "VACANT",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -87,9 +87,9 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "07:08"
+      "activity_time": "07:10"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "07:08"
+      "activity_time": "07:10"
     },
     {
       "berth": "Berth 8",
@@ -117,7 +117,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "VACANT",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -131,10 +131,10 @@
       "balance": 8000,
       "progress": 0.6363636363636364,
       "stockpile": 6000,
-      "time": "05:15",
-      "remarks": "LOADING TONNER L47",
+      "time": "00:00",
+      "remarks": "JOHANNAH 5",
       "equipment": "0",
-      "activity_time": "01:53"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "13:51",
-      "remarks": "VESSEL COMPLETE",
+      "time": "00:00",
+      "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "17:17"
+      "activity_time": "00:00"
     },
     {
       "berth": "Jetty",
@@ -162,7 +162,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "VACANT",
       "equipment": "0",
       "activity_time": "00:00"
     }
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:08"
+      "activity_time": "07:10"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:08"
+      "activity_time": "07:10"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:08"
+      "activity_time": "07:10"
     }
   ],
   "foreign": {
