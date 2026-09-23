@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T16:15:47+08:00",
+  "updated_at": "2026-09-23T16:40:08+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "15:00",
       "remarks": "RAIN",
       "equipment": "0",
-      "activity_time": "01:15"
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "16:15"
+      "activity_time": "16:39"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "01:26",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "14:49"
+      "activity_time": "15:13"
     },
     {
       "berth": "Berth 8",
@@ -126,15 +126,15 @@
       "vessel": "JOHANNAH 5",
       "voyage": 3,
       "booking": 0,
-      "dispatch": 6000,
+      "dispatch": 7000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 6000,
+      "stockpile": 7000,
       "time": "15:00",
       "remarks": "RAIN",
       "equipment": "0",
-      "activity_time": "01:15"
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:51",
       "remarks": "VESSEL COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "02:24"
+      "activity_time": "02:48"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 23000,
-    "dispatch": 29000,
+    "dispatch": 30000,
     "loaded": 23000,
     "balance": 0,
     "progress": 1,
-    "stockpile": 6000
+    "stockpile": 7000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:15"
+      "activity_time": "16:39"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:15"
+      "activity_time": "16:39"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:15"
+      "activity_time": "16:39"
     }
   ],
   "foreign": {
@@ -235,8 +235,8 @@
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 130000,
-      "daily": 2000
+      "september": 131000,
+      "daily": 3000
     },
     {
       "hauler": "BADIE",
@@ -352,7 +352,7 @@
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 2000
+      "volume": 3000
     },
     {
       "client": "BADIE",
