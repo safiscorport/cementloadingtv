@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-23T14:50:56+08:00",
+  "updated_at": "2026-09-23T14:52:22+08:00",
   "berths": [
     {
       "berth": "Berth 1",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "LADY OF GUIDANCE",
+      "voyage": 1,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -14,7 +14,7 @@
       "time": "11:35",
       "remarks": "DOCK AND SECURE",
       "equipment": "0",
-      "activity_time": "03:15"
+      "activity_time": "03:17"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "14:50"
+      "activity_time": "14:52"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "01:26",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "13:24"
+      "activity_time": "13:26"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "07:20",
       "remarks": "DOCK AND SECURE",
       "equipment": "0",
-      "activity_time": "07:30"
+      "activity_time": "07:32"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "11:20",
       "remarks": "WAITNG LAST TRUCK",
       "equipment": "CRANE 3",
-      "activity_time": "03:30"
+      "activity_time": "03:32"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:50"
+      "activity_time": "14:52"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:50"
+      "activity_time": "14:52"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:50"
+      "activity_time": "14:52"
     }
   ],
   "foreign": {
