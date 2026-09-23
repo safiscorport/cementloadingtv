@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T08:46:55+08:00",
+  "updated_at": "2026-09-23T08:57:52+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "08:46"
+      "activity_time": "08:57"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "01:26",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "07:20"
+      "activity_time": "07:31"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "07:20",
       "remarks": "DOCK AND SECURE",
       "equipment": "0",
-      "activity_time": "01:26"
+      "activity_time": "01:37"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "1 DR2 LOADABLE",
       "equipment": "CRANE 3",
-      "activity_time": "01:46"
+      "activity_time": "01:57"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:46"
+      "activity_time": "08:57"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:46"
+      "activity_time": "08:57"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:46"
+      "activity_time": "08:57"
     }
   ],
   "foreign": {
@@ -376,7 +376,7 @@
     }
   ],
   "status": {
-    "supervisor": "0",
+    "supervisor": "PELIMER,J",
     "checker": "CANOY/OBIAL/TORRES",
     "pmc": "WILLIAM/VICKY",
     "cranes": 4,
