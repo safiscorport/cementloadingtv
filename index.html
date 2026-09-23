@@ -3636,5 +3636,196 @@ startRotation();
 
 </script>
 
+
+<!-- =========================================================
+     MANUAL SCREEN SIZE / ZOOM CONTROLS
+     + and - let you manually adjust the dashboard display.
+     The setting is saved in the browser/local TV.
+     ========================================================= -->
+
+<style id="manualDisplayScaleStyles">
+  :root {
+    --manual-display-scale: 1;
+  }
+
+  /* Dashboard 1 */
+  body.manual-scale-enabled > .app {
+    width: calc(100% / var(--manual-display-scale));
+    min-height: calc(100vh / var(--manual-display-scale));
+    transform: scale(var(--manual-display-scale));
+    transform-origin: top left;
+  }
+
+  /* Dashboard 2 / History */
+  body.manual-scale-enabled #historyScreen {
+    width: calc(100% / var(--manual-display-scale));
+    height: calc(100vh / var(--manual-display-scale));
+    transform: scale(var(--manual-display-scale));
+    transform-origin: top left;
+  }
+
+  /* Always keep the controls at the real screen size */
+  #manualDisplayControls {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    right: auto;
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid rgba(123,214,255,.28);
+    border-radius: 9px;
+    background: rgba(3,12,19,.88);
+    box-shadow: 0 5px 25px rgba(0,0,0,.35);
+    backdrop-filter: blur(10px);
+    font-family: Segoe UI, Arial, sans-serif;
+  }
+
+  #manualDisplayControls button {
+    width: 34px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid rgba(123,214,255,.22);
+    border-radius: 6px;
+    background: rgba(20,123,168,.22);
+    color: #dff7ff;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 900;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  #manualDisplayControls button:hover {
+    background: rgba(58,204,255,.35);
+  }
+
+  #manualDisplayControls button:active {
+    transform: scale(.94);
+  }
+
+  #manualDisplayScaleValue {
+    min-width: 50px;
+    text-align: center;
+    color: #70ddff;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: .04em;
+  }
+
+  #manualDisplayReset {
+    font-size: 13px !important;
+  }
+
+  @media (max-width: 700px) {
+    #manualDisplayControls {
+      top: 6px;
+      right: 6px;
+    }
+  }
+</style>
+
+<div id="manualDisplayControls" aria-label="Manual screen size controls">
+  <button id="manualDisplayMinus" type="button" title="Make dashboard smaller">−</button>
+  <span id="manualDisplayScaleValue">100%</span>
+  <button id="manualDisplayPlus" type="button" title="Make dashboard larger">+</button>
+  <button id="manualDisplayReset" type="button" title="Reset to 100%">↺</button>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  const STORAGE_KEY = "cementDashboardDisplayScale";
+
+  /* Change these values if you want a different adjustment range. */
+  const MIN_SCALE = 0.70;
+  const MAX_SCALE = 1.30;
+  const STEP = 0.05;
+
+  function clamp(value) {
+    return Math.min(MAX_SCALE, Math.max(MIN_SCALE, value));
+  }
+
+  function loadScale() {
+    const saved = parseFloat(localStorage.getItem(STORAGE_KEY));
+    return Number.isFinite(saved) ? clamp(saved) : 1;
+  }
+
+  let scale = loadScale();
+
+  function applyScale() {
+    scale = Math.round(clamp(scale) * 100) / 100;
+
+    document.documentElement.style.setProperty(
+      "--manual-display-scale",
+      scale
+    );
+
+    document.body.classList.add("manual-scale-enabled");
+
+    const label = document.getElementById("manualDisplayScaleValue");
+    if (label) {
+      label.textContent = Math.round(scale * 100) + "%";
+    }
+
+    localStorage.setItem(STORAGE_KEY, String(scale));
+
+    const minus = document.getElementById("manualDisplayMinus");
+    const plus = document.getElementById("manualDisplayPlus");
+
+    if (minus) minus.disabled = scale <= MIN_SCALE;
+    if (plus) plus.disabled = scale >= MAX_SCALE;
+  }
+
+  function changeScale(amount) {
+    scale += amount;
+    applyScale();
+  }
+
+  function resetScale() {
+    scale = 1;
+    applyScale();
+  }
+
+  function initializeControls() {
+    const minus = document.getElementById("manualDisplayMinus");
+    const plus = document.getElementById("manualDisplayPlus");
+    const reset = document.getElementById("manualDisplayReset");
+
+    if (minus) minus.addEventListener("click", () => changeScale(-STEP));
+    if (plus) plus.addEventListener("click", () => changeScale(STEP));
+    if (reset) reset.addEventListener("click", resetScale);
+
+    /* Optional keyboard control:
+       + / = = larger
+       - / _ = smaller
+       0       = reset */
+    document.addEventListener("keydown", function (event) {
+      const tag = event.target && event.target.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+
+      if (event.key === "+" || event.key === "=") {
+        changeScale(STEP);
+      } else if (event.key === "-" || event.key === "_") {
+        changeScale(-STEP);
+      } else if (event.key === "0") {
+        resetScale();
+      }
+    });
+
+    applyScale();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initializeControls);
+  } else {
+    initializeControls();
+  }
+})();
+</script>
+
 </body>
 </html>
