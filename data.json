@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T13:39:46+08:00",
+  "updated_at": "2026-09-23T14:40:27+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "VACANT",
+      "time": "11:35",
+      "remarks": "DOCK AND SECURE",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "03:05"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "13:39"
+      "activity_time": "14:40"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "01:26",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "12:13"
+      "activity_time": "13:14"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "07:20",
       "remarks": "DOCK AND SECURE",
       "equipment": "0",
-      "activity_time": "06:19"
+      "activity_time": "07:20"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 1000,
       "progress": 0.9565217391304348,
       "stockpile": 1000,
-      "time": "10:52",
-      "remarks": "LOADING TONNER BAG",
+      "time": "11:20",
+      "remarks": "WAITNG LAST TRUCK",
       "equipment": "CRANE 3",
-      "activity_time": "02:47"
+      "activity_time": "03:20"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:39"
+      "activity_time": "14:40"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:39"
+      "activity_time": "14:40"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:39"
+      "activity_time": "14:40"
     }
   ],
   "foreign": {
