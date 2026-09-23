@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T19:25:00+08:00",
+  "updated_at": "2026-09-23T19:25:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "15:00",
       "remarks": "RAIN",
       "equipment": "0",
-      "activity_time": "04:24"
+      "activity_time": "04:25"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "19:24"
+      "activity_time": "19:25"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "01:26",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:58"
+      "activity_time": "17:59"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "00:24"
+      "activity_time": "00:25"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:51",
       "remarks": "VESSEL COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "05:33"
+      "activity_time": "05:34"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:24"
+      "activity_time": "19:25"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:24"
+      "activity_time": "19:25"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:24"
+      "activity_time": "19:25"
     }
   ],
   "foreign": {
