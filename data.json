@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T17:04:15+08:00",
+  "updated_at": "2026-09-23T17:20:56+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "15:00",
       "remarks": "RAIN",
       "equipment": "0",
-      "activity_time": "02:03"
+      "activity_time": "02:20"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "17:03"
+      "activity_time": "17:20"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "01:26",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "15:37"
+      "activity_time": "15:54"
     },
     {
       "berth": "Berth 8",
@@ -127,14 +127,14 @@
       "voyage": 3,
       "booking": 0,
       "dispatch": 7000,
-      "loaded": 0,
-      "balance": 0,
+      "loaded": 1000,
+      "balance": -1000,
       "progress": 0,
-      "stockpile": 7000,
+      "stockpile": 6000,
       "time": "15:00",
       "remarks": "RAIN",
       "equipment": "0",
-      "activity_time": "02:03"
+      "activity_time": "02:20"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:51",
       "remarks": "VESSEL COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "03:12"
+      "activity_time": "03:29"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 23000,
     "dispatch": 30000,
-    "loaded": 23000,
-    "balance": 0,
+    "loaded": 24000,
+    "balance": -1000,
     "progress": 1,
-    "stockpile": 7000
+    "stockpile": 6000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:03"
+      "activity_time": "17:20"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:03"
+      "activity_time": "17:20"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:03"
+      "activity_time": "17:20"
     }
   ],
   "foreign": {
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1071500
+      "y2026": 1072500
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12907210
+    "y2026": 12908210
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 7000
+      "qty": 8000
     },
     {
       "shift": "2ND SHIFT",
@@ -352,7 +352,7 @@
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 3000
+      "volume": 2000
     },
     {
       "client": "BADIE",
