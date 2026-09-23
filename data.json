@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T19:32:19+08:00",
+  "updated_at": "2026-09-23T19:32:32+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -131,10 +131,10 @@
       "balance": -1000,
       "progress": 0,
       "stockpile": 11000,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE / RAIN",
+      "time": "19:30",
+      "remarks": "OPENING HATCH",
       "equipment": "0",
-      "activity_time": "00:32"
+      "activity_time": "00:02"
     },
     {
       "berth": "Berth 10",
