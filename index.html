@@ -3668,8 +3668,9 @@ startRotation();
   #manualDisplayControls {
     position: fixed;
     top: 12px;
-    left: 12px;
+    left: 50%;
     right: auto;
+    transform: translateX(-50%);
     z-index: 100000;
     display: flex;
     align-items: center;
@@ -3722,7 +3723,9 @@ startRotation();
   @media (max-width: 700px) {
     #manualDisplayControls {
       top: 6px;
-      right: 6px;
+      left: 50%;
+      right: auto;
+      transform: translateX(-50%);
     }
   }
 </style>
