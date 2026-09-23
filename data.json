@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T20:30:47+08:00",
+  "updated_at": "2026-09-23T20:31:20+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -140,15 +140,15 @@
       "berth": "Berth 10",
       "vessel": "LADY OF ROSARY",
       "voyage": 7,
-      "booking": 23000,
+      "booking": 0,
       "dispatch": 23000,
       "loaded": 23000,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "13:51",
       "remarks": "VESSEL COMPLETE",
-      "equipment": "CRANE 3",
+      "equipment": "0",
       "activity_time": "06:39"
     },
     {
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 23000,
+    "booking": 0,
     "dispatch": 37000,
     "loaded": 24000,
-    "balance": -1000,
-    "progress": 1,
+    "balance": 0,
+    "progress": 0,
     "stockpile": 13000
   },
   "alpha": [
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER,J",
-    "checker": "CANOY/OBIAL/TORRES",
-    "pmc": "WILLIAM/VICKY",
+    "supervisor": "BERNABE,A",
+    "checker": "DALUSA,E",
+    "pmc": "JONA / WILLIAM",
     "cranes": 4,
-    "forklifts": 4,
-    "stevedores": 41
+    "forklifts": 6,
+    "stevedores": 23
   }
 }
