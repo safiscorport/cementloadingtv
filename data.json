@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T04:25:06+08:00",
+  "updated_at": "2026-09-25T04:25:59+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "01:00",
       "remarks": "CLOSE HATCH / CLOUDY",
       "equipment": "CRANE 4",
-      "activity_time": "03:24"
+      "activity_time": "03:25"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "04:24"
+      "activity_time": "04:25"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "04:24"
+      "activity_time": "04:25"
     },
     {
       "berth": "Berth 8",
@@ -148,8 +148,8 @@
       "stockpile": 11000,
       "time": "02:00",
       "remarks": "CLOSE HATCH / CLOUDY",
-      "equipment": "0",
-      "activity_time": "02:24"
+      "equipment": "FL 1",
+      "activity_time": "02:25"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "04:24"
+      "activity_time": "04:25"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "04:24"
+      "activity_time": "04:25"
     },
     {
       "berth": "R3",
