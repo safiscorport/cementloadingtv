@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T22:02:40+08:00",
+  "updated_at": "2026-09-24T22:29:23+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "20:02",
       "remarks": "LOADING SLING S7",
       "equipment": "CRANE 4",
-      "activity_time": "02:00"
+      "activity_time": "02:26"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "22:02"
+      "activity_time": "22:28"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "22:02"
+      "activity_time": "22:28"
     },
     {
       "berth": "Berth 8",
@@ -146,10 +146,10 @@
       "balance": 17000,
       "progress": 0,
       "stockpile": 4000,
-      "time": "19:30",
-      "remarks": "REFUSE TO OPEN HATCH",
+      "time": "22:20",
+      "remarks": "OPENING HATCH",
       "equipment": "0",
-      "activity_time": "02:32"
+      "activity_time": "00:08"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:02"
+      "activity_time": "22:28"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:02"
+      "activity_time": "22:28"
     },
     {
       "berth": "R3",
