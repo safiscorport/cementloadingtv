@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T10:54:28+08:00",
+  "updated_at": "2026-09-24T10:55:13+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 36000,
       "progress": 0.34545454545454546,
       "stockpile": 2000,
-      "time": "10:11",
-      "remarks": "LOADING SLING",
+      "time": "10;30",
+      "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "CRANE 4",
-      "activity_time": "00:43"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 2",
@@ -131,10 +131,10 @@
       "balance": 3000,
       "progress": 0.8636363636363636,
       "stockpile": 3000,
-      "time": "10:05",
-      "remarks": "LOADING TONNER",
+      "time": "10;30",
+      "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "00:49"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 10",
