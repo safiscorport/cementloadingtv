@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T04:47:36+08:00",
+  "updated_at": "2026-09-25T05:14:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -7,14 +7,14 @@
       "voyage": 1,
       "booking": 55000,
       "dispatch": 48000,
-      "loaded": 37000,
-      "balance": 18000,
-      "progress": 0.6727272727272727,
-      "stockpile": 11000,
-      "time": "04:25",
-      "remarks": "LOADING TONNER",
+      "loaded": 39000,
+      "balance": 16000,
+      "progress": 0.7090909090909091,
+      "stockpile": 9000,
+      "time": "04:30",
+      "remarks": "LOADING TONNER S47",
       "equipment": "CRANE 4",
-      "activity_time": "00:22"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "04:47"
+      "activity_time": "05:14"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "04:47"
+      "activity_time": "05:14"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "04:30",
       "remarks": "OPENING HATCH",
       "equipment": "FL 1",
-      "activity_time": "00:17"
+      "activity_time": "00:44"
     },
     {
       "berth": "Jetty",
@@ -170,23 +170,23 @@
   "total": {
     "booking": 72000,
     "dispatch": 60000,
-    "loaded": 39000,
-    "balance": 33000,
-    "progress": 0.3951871657754011,
-    "stockpile": 21000
+    "loaded": 41000,
+    "balance": 31000,
+    "progress": 0.41336898395721927,
+    "stockpile": 19000
   },
   "alpha": [
     {
       "berth": "R1",
-      "vessel": "VACANT",
-      "materials": "0",
+      "vessel": "LCT 28",
+      "materials": "SILICA",
       "discharge": "0%",
-      "balance": "0%",
+      "balance": "80%",
       "progress": "0%",
-      "time": "00:00",
-      "remarks": "0",
-      "equip": "0",
-      "activity_time": "04:47"
+      "time": "0437H",
+      "remarks": "DISCHARGING ON PROGRESS",
+      "equip": "PL FEED TO GEO DT",
+      "activity_time": "00:00"
     },
     {
       "berth": "R2",
@@ -198,16 +198,16 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "04:47"
+      "activity_time": "05:14"
     },
     {
       "berth": "R3",
       "vessel": "POSEIDON 47",
       "materials": "COAL",
-      "discharge": "0%",
+      "discharge": "10%",
       "balance": "90%",
-      "progress": "0%",
-      "time": "2200H",
+      "progress": "10%",
+      "time": "0437H",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
       "activity_time": "00:00"
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1132500
+      "y2026": 1134500
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12968210
+    "y2026": 12970210
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 12000
+      "qty": 14000
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 17000
+      "volume": 15000
     },
     {
       "client": "LAPU-LAPU",
