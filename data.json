@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T17:32:51+08:00",
+  "updated_at": "2026-09-24T18:56:09+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "17:14",
       "remarks": "LOADING SLING",
       "equipment": "CRANE 4",
-      "activity_time": "00:18"
+      "activity_time": "01:41"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "17:32"
+      "activity_time": "18:55"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:00",
       "remarks": "VACANT",
       "equipment": "0",
-      "activity_time": "17:32"
+      "activity_time": "18:55"
     },
     {
       "berth": "Berth 8",
@@ -138,12 +138,12 @@
     },
     {
       "berth": "Berth 10",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "STAR ILIGAN",
+      "voyage": 8,
       "booking": 0,
-      "dispatch": 0,
-      "loaded": 0,
-      "balance": 0,
+      "dispatch": 18000,
+      "loaded": 18000,
+      "balance": -18000,
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
@@ -169,9 +169,9 @@
   ],
   "total": {
     "booking": 77000,
-    "dispatch": 63000,
-    "loaded": 49000,
-    "balance": 28000,
+    "dispatch": 81000,
+    "loaded": 67000,
+    "balance": 10000,
     "progress": 0.7454545454545455,
     "stockpile": 14000
   },
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:32"
+      "activity_time": "18:55"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:32"
+      "activity_time": "18:55"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:32"
+      "activity_time": "18:55"
     }
   ],
   "foreign": {
