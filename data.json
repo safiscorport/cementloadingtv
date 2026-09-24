@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T05:54:21+08:00",
+  "updated_at": "2026-09-25T06:03:16+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "05:13",
       "remarks": "LOADING TONNER S3",
       "equipment": "CRANE 4",
-      "activity_time": "00:40"
+      "activity_time": "00:50"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "05:53"
+      "activity_time": "06:03"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "05:53"
+      "activity_time": "06:03"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "05:00",
       "remarks": "LOADING TONNER GEO 5",
       "equipment": "FL 1",
-      "activity_time": "00:53"
+      "activity_time": "01:03"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:53"
+      "activity_time": "06:03"
     },
     {
       "berth": "R3",
