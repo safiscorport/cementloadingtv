@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T19:27:38+08:00",
+  "updated_at": "2026-09-24T19:28:12+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -139,11 +139,11 @@
     {
       "berth": "Berth 10",
       "vessel": "STAR ILIGAN",
-      "voyage": 8,
+      "voyage": 9,
       "booking": 0,
-      "dispatch": 18000,
-      "loaded": 18000,
-      "balance": -18000,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
       "progress": 0,
       "stockpile": 0,
       "time": "19:00",
@@ -169,9 +169,9 @@
   ],
   "total": {
     "booking": 77000,
-    "dispatch": 84000,
-    "loaded": 67000,
-    "balance": 10000,
+    "dispatch": 66000,
+    "loaded": 49000,
+    "balance": 28000,
     "progress": 0.7454545454545455,
     "stockpile": 17000
   },
