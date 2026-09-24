@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T20:51:02+08:00",
+  "updated_at": "2026-09-24T20:51:15+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "CRANE 4",
-      "activity_time": "01:20"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "20:50"
+      "activity_time": "20:51"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "20:50"
+      "activity_time": "20:51"
     },
     {
       "berth": "Berth 8",
@@ -140,16 +140,16 @@
       "berth": "Berth 10",
       "vessel": "STAR ILIGAN",
       "voyage": 9,
-      "booking": 0,
+      "booking": 17000,
       "dispatch": 2000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 17000,
       "progress": 0,
       "stockpile": 2000,
       "time": "19:30",
       "remarks": "REFUSE TO OPEN HATCH",
       "equipment": "0",
-      "activity_time": "01:20"
+      "activity_time": "01:21"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 55000,
+    "booking": 72000,
     "dispatch": 44000,
     "loaded": 27000,
-    "balance": 28000,
-    "progress": 0.4909090909090909,
+    "balance": 45000,
+    "progress": 0.24545454545454545,
     "stockpile": 17000
   },
   "alpha": [
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:50"
+      "activity_time": "20:51"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:50"
+      "activity_time": "20:51"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:50"
+      "activity_time": "20:51"
     }
   ],
   "foreign": {
