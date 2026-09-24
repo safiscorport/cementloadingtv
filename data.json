@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T21:30:15+08:00",
+  "updated_at": "2026-09-24T22:02:40+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "20:02",
       "remarks": "LOADING SLING S7",
       "equipment": "CRANE 4",
-      "activity_time": "01:28"
+      "activity_time": "02:00"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "21:30"
+      "activity_time": "22:02"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "21:30"
+      "activity_time": "22:02"
     },
     {
       "berth": "Berth 8",
@@ -141,15 +141,15 @@
       "vessel": "STAR ILIGAN",
       "voyage": 9,
       "booking": 17000,
-      "dispatch": 2000,
+      "dispatch": 4000,
       "loaded": 0,
       "balance": 17000,
       "progress": 0,
-      "stockpile": 2000,
+      "stockpile": 4000,
       "time": "19:30",
       "remarks": "REFUSE TO OPEN HATCH",
       "equipment": "0",
-      "activity_time": "02:00"
+      "activity_time": "02:32"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 72000,
-    "dispatch": 46000,
+    "dispatch": 48000,
     "loaded": 29000,
     "balance": 43000,
     "progress": 0.2636363636363636,
-    "stockpile": 17000
+    "stockpile": 19000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:30"
+      "activity_time": "22:02"
     },
     {
       "berth": "R2",
@@ -198,19 +198,19 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:30"
+      "activity_time": "22:02"
     },
     {
       "berth": "R3",
-      "vessel": "VACANT",
-      "materials": "0",
+      "vessel": "POSEIDON 47",
+      "materials": "COAL",
       "discharge": "0%",
-      "balance": "0%",
+      "balance": "90%",
       "progress": "0%",
-      "time": "00:00",
-      "remarks": "0",
-      "equip": "0",
-      "activity_time": "21:30"
+      "time": "2200H",
+      "remarks": "DISCHARGING ON PROGRESS",
+      "equip": "PL FEED TO GEO DT",
+      "activity_time": "00:00"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 795050,
-      "daily": 22000
+      "september": 797050,
+      "daily": 24000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 11000
+      "volume": 13000
     },
     {
       "client": "LAPU-LAPU",
