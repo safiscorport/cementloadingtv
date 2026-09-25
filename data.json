@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-09-25T06:03:16+08:00",
+  "updated_at": "2026-09-25T08:04:14+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "LADY OF GUIDANCE",
       "voyage": 1,
       "booking": 55000,
-      "dispatch": 50000,
+      "dispatch": 55000,
       "loaded": 41000,
       "balance": 14000,
       "progress": 0.7454545454545455,
-      "stockpile": 9000,
+      "stockpile": 14000,
       "time": "05:13",
       "remarks": "LOADING TONNER S3",
       "equipment": "CRANE 4",
-      "activity_time": "00:50"
+      "activity_time": "02:51"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "06:03"
+      "activity_time": "08:04"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "06:03"
+      "activity_time": "08:04"
     },
     {
       "berth": "Berth 8",
@@ -141,15 +141,15 @@
       "vessel": "STAR ILIGAN",
       "voyage": 9,
       "booking": 17000,
-      "dispatch": 12000,
+      "dispatch": 13000,
       "loaded": 3000,
       "balance": 14000,
       "progress": 0.17647058823529413,
-      "stockpile": 9000,
+      "stockpile": 10000,
       "time": "05:00",
       "remarks": "LOADING TONNER GEO 5",
       "equipment": "FL 1",
-      "activity_time": "01:03"
+      "activity_time": "03:04"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 72000,
-    "dispatch": 62000,
+    "dispatch": 68000,
     "loaded": 44000,
     "balance": 28000,
     "progress": 0.4609625668449198,
-    "stockpile": 18000
+    "stockpile": 24000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "06:03"
+      "activity_time": "08:04"
     },
     {
       "berth": "R3",
@@ -229,26 +229,26 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 809050,
-      "daily": 36000
+      "september": 815050,
+      "daily": 6000
     },
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
       "september": 144000,
-      "daily": 6000
+      "daily": "-"
     },
     {
       "hauler": "BADIE",
       "august": 53080,
       "september": 23000,
-      "daily": 1000
+      "daily": "-"
     },
     {
       "hauler": "GEO",
       "august": 138080,
       "september": 106200,
-      "daily": 5000
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -260,13 +260,13 @@
       "hauler": "APLUS",
       "august": 41000,
       "september": 39000,
-      "daily": 1000
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
       "august": 38000,
       "september": 17000,
-      "daily": 1000
+      "daily": "-"
     }
   ],
   "monthly": [
@@ -338,17 +338,17 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 22000
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 17000
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 15000
+      "volume": 21000
     },
     {
       "client": "LAPU-LAPU",
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "DALUSA / TORREGOSA",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "OBIAL, R / TORRES, J",
+    "pmc": "VICKY / EBOY",
     "cranes": 4,
     "forklifts": 5,
-    "stevedores": 22
+    "stevedores": 0
   }
 }
