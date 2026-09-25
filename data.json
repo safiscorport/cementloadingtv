@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T21:28:33+08:00",
+  "updated_at": "2026-09-25T22:52:48+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:00",
       "remarks": "CLOSE HATCH / CLOUDY",
       "equipment": "CRANE 4",
-      "activity_time": "02:28"
+      "activity_time": "03:52"
     },
     {
       "berth": "Berth 2",
@@ -89,22 +89,22 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "21:28"
+      "activity_time": "22:52"
     },
     {
       "berth": "Berth 7",
       "vessel": "KRISTINE UNO",
       "voyage": 1,
       "booking": 30000,
-      "dispatch": 12000,
+      "dispatch": 13000,
       "loaded": 3000,
       "balance": 27000,
       "progress": 0.1,
-      "stockpile": 9000,
+      "stockpile": 10000,
       "time": "00:00",
       "remarks": "CLOSED DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "21:28"
+      "activity_time": "22:52"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "CLOSED DUE TO RAIN",
       "equipment": "FL 1",
-      "activity_time": "02:28"
+      "activity_time": "03:52"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 102000,
-    "dispatch": 85000,
+    "dispatch": 86000,
     "loaded": 68000,
     "balance": 34000,
     "progress": 0.6169340463458111,
-    "stockpile": 17000
+    "stockpile": 18000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "11:48"
+      "activity_time": "13:12"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:28"
+      "activity_time": "22:52"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "11:48"
+      "activity_time": "13:12"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 831050,
-      "daily": 22000
+      "september": 832050,
+      "daily": 23000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 109200,
-      "daily": 3000
+      "september": 111200,
+      "daily": 5000
     },
     {
       "hauler": "UCES",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "UCES",
