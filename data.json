@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T19:56:41+08:00",
+  "updated_at": "2026-09-25T20:48:09+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:00",
       "remarks": "CLOSE HATCH / CLOUDY",
       "equipment": "CRANE 4",
-      "activity_time": "00:56"
+      "activity_time": "01:47"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "19:56"
+      "activity_time": "20:47"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:00",
       "remarks": "CLOSED DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "19:56"
+      "activity_time": "20:47"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "CLOSED DUE TO RAIN",
       "equipment": "FL 1",
-      "activity_time": "00:56"
+      "activity_time": "01:47"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "10:16"
+      "activity_time": "11:07"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:56"
+      "activity_time": "20:47"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "10:16"
+      "activity_time": "11:07"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 821050,
-      "daily": 12000
+      "september": 829050,
+      "daily": 20000
     },
     {
       "hauler": "LAPU-LAPU",
