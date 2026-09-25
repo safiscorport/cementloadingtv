@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T19:26:40+08:00",
+  "updated_at": "2026-09-25T19:32:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 4000,
       "progress": 0.9272727272727272,
       "stockpile": 4000,
-      "time": "14:29",
-      "remarks": "LOADING S25 SLING BAGS",
+      "time": "19:00",
+      "remarks": "CLOSE HATCH / CLOUDY",
       "equipment": "CRANE 4",
-      "activity_time": "04:57"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "19:26"
+      "activity_time": "19:31"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0.1,
       "stockpile": 4000,
       "time": "00:00",
-      "remarks": "LOADING F1 TONNER BAGS",
+      "remarks": "CLOSED DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "19:26"
+      "activity_time": "19:31"
     },
     {
       "berth": "Berth 8",
@@ -146,10 +146,10 @@
       "balance": 3000,
       "progress": 0.8235294117647058,
       "stockpile": 1000,
-      "time": "14:20",
-      "remarks": "LOADING S7 TONNER BAGS",
+      "time": "19:00",
+      "remarks": "CLOSED DUE TO RAIN",
       "equipment": "FL 1",
-      "activity_time": "05:06"
+      "activity_time": "00:31"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "09:46"
+      "activity_time": "09:51"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:26"
+      "activity_time": "19:31"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "09:46"
+      "activity_time": "09:51"
     }
   ],
   "foreign": {
