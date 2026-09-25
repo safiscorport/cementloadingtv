@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T22:52:48+08:00",
+  "updated_at": "2026-09-25T23:11:36+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:00",
       "remarks": "CLOSE HATCH / CLOUDY",
       "equipment": "CRANE 4",
-      "activity_time": "03:52"
+      "activity_time": "04:11"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "22:52"
+      "activity_time": "23:11"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:00",
       "remarks": "CLOSED DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "22:52"
+      "activity_time": "23:11"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "CLOSED DUE TO RAIN",
       "equipment": "FL 1",
-      "activity_time": "03:52"
+      "activity_time": "04:11"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "13:12"
+      "activity_time": "13:31"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:52"
+      "activity_time": "23:11"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "13:12"
+      "activity_time": "13:31"
     }
   ],
   "foreign": {
@@ -229,14 +229,14 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 832050,
-      "daily": 23000
+      "september": 835050,
+      "daily": 26000
     },
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 147000,
-      "daily": 3000
+      "september": 148000,
+      "daily": 4000
     },
     {
       "hauler": "BADIE",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 111200,
-      "daily": 5000
+      "september": 112200,
+      "daily": 6000
     },
     {
       "hauler": "UCES",
