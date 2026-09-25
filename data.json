@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T01:19:15+08:00",
+  "updated_at": "2026-09-26T01:55:49+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:00",
       "remarks": "CLOSE HATCH / CLOUDY",
       "equipment": "CRANE 4",
-      "activity_time": "06:18"
+      "activity_time": "06:55"
     },
     {
       "berth": "Berth 2",
@@ -89,22 +89,22 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "01:18"
+      "activity_time": "01:55"
     },
     {
       "berth": "Berth 7",
       "vessel": "KRISTINE UNO",
       "voyage": 1,
       "booking": 30000,
-      "dispatch": 14000,
-      "loaded": 3000,
-      "balance": 27000,
-      "progress": 0.1,
+      "dispatch": 15000,
+      "loaded": 4000,
+      "balance": 26000,
+      "progress": 0.13333333333333333,
       "stockpile": 11000,
       "time": "00:00",
       "remarks": "CLOSED DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "01:18"
+      "activity_time": "01:55"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "CLOSED DUE TO RAIN",
       "equipment": "FL 1",
-      "activity_time": "06:18"
+      "activity_time": "06:55"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 102000,
-    "dispatch": 87000,
-    "loaded": 68000,
-    "balance": 34000,
-    "progress": 0.6169340463458111,
+    "dispatch": 88000,
+    "loaded": 69000,
+    "balance": 33000,
+    "progress": 0.6280451574569221,
     "stockpile": 19000
   },
   "alpha": [
@@ -186,7 +186,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "15:38"
+      "activity_time": "16:15"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "01:18"
+      "activity_time": "01:55"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "15:38"
+      "activity_time": "16:15"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 841000,
-      "daily": 31950
+      "september": 842000,
+      "daily": 32950
     },
     {
       "hauler": "LAPU-LAPU",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1161500
+      "y2026": 1163500
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12997210
+    "y2026": 12999210
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 0
+      "qty": 2000
     }
   ],
   "trucking_stockpile": [
