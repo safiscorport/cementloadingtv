@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T10:18:30+08:00",
+  "updated_at": "2026-09-25T10:22:37+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "09:25",
       "remarks": "LOADING S27 SLING BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "00:52"
+      "activity_time": "00:57"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "10:17"
+      "activity_time": "10:22"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:00",
       "remarks": "WAITING DELIVERY SLING",
       "equipment": "0",
-      "activity_time": "10:17"
+      "activity_time": "10:22"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "10:00",
       "remarks": "LOADING S31 TONNER BAGS",
       "equipment": "FL 1",
-      "activity_time": "00:17"
+      "activity_time": "00:22"
     },
     {
       "berth": "Jetty",
@@ -180,13 +180,13 @@
       "berth": "R1",
       "vessel": "LCT 28",
       "materials": "SILICA",
-      "discharge": "0%",
-      "balance": "80%",
-      "progress": "0%",
-      "time": "0437H",
+      "discharge": "60%",
+      "balance": "40%",
+      "progress": "60%",
+      "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "00:00"
+      "activity_time": "00:42"
     },
     {
       "berth": "R2",
@@ -198,19 +198,19 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:17"
+      "activity_time": "10:22"
     },
     {
       "berth": "R3",
-      "vessel": "POSEIDON 47",
+      "vessel": "POSIEDON 27",
       "materials": "COAL",
-      "discharge": "10%",
-      "balance": "90%",
-      "progress": "10%",
-      "time": "0437H",
+      "discharge": "20%",
+      "balance": "80%",
+      "progress": "20%",
+      "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "00:00"
+      "activity_time": "00:42"
     }
   ],
   "foreign": {
