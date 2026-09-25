@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T10:23:42+08:00",
+  "updated_at": "2026-09-25T10:53:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -7,14 +7,14 @@
       "voyage": 1,
       "booking": 55000,
       "dispatch": 55000,
-      "loaded": 44000,
-      "balance": 11000,
-      "progress": 0.8,
-      "stockpile": 11000,
+      "loaded": 47000,
+      "balance": 8000,
+      "progress": 0.8545454545454545,
+      "stockpile": 8000,
       "time": "09:25",
       "remarks": "LOADING S27 SLING BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "00:58"
+      "activity_time": "01:28"
     },
     {
       "berth": "Berth 2",
@@ -89,22 +89,22 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "10:23"
+      "activity_time": "10:53"
     },
     {
       "berth": "Berth 7",
       "vessel": "KRISTINE UNO",
       "voyage": 1,
       "booking": 30000,
-      "dispatch": 2000,
-      "loaded": 0,
-      "balance": 30000,
-      "progress": 0,
-      "stockpile": 2000,
+      "dispatch": 4000,
+      "loaded": 1000,
+      "balance": 29000,
+      "progress": 0.03333333333333333,
+      "stockpile": 3000,
       "time": "00:00",
       "remarks": "LOADING  L17 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "10:23"
+      "activity_time": "10:53"
     },
     {
       "berth": "Berth 8",
@@ -142,14 +142,14 @@
       "voyage": 9,
       "booking": 17000,
       "dispatch": 14000,
-      "loaded": 6000,
-      "balance": 11000,
-      "progress": 0.35294117647058826,
-      "stockpile": 8000,
+      "loaded": 7000,
+      "balance": 10000,
+      "progress": 0.4117647058823529,
+      "stockpile": 7000,
       "time": "10:00",
       "remarks": "LOADING S31 TONNER BAGS",
       "equipment": "FL 1",
-      "activity_time": "00:23"
+      "activity_time": "00:53"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 102000,
-    "dispatch": 71000,
-    "loaded": 50000,
-    "balance": 52000,
-    "progress": 0.3843137254901961,
-    "stockpile": 21000
+    "dispatch": 73000,
+    "loaded": 55000,
+    "balance": 47000,
+    "progress": 0.43321449792038025,
+    "stockpile": 18000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "00:43"
+      "activity_time": "01:13"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:23"
+      "activity_time": "10:53"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "00:43"
+      "activity_time": "01:13"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 816050,
-      "daily": 7000
+      "september": 817050,
+      "daily": 8000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -265,8 +265,8 @@
     {
       "hauler": "FULACHE",
       "august": 38000,
-      "september": 17000,
-      "daily": "-"
+      "september": 18000,
+      "daily": 1000
     }
   ],
   "monthly": [
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1143500
+      "y2026": 1148500
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 12979210
+    "y2026": 12984210
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 6000
+      "qty": 11000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,11 +348,11 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 17000
+      "volume": 14000
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 3000
+      "volume": 2000
     },
     {
       "client": "BADIE",
@@ -372,7 +372,7 @@
     },
     {
       "client": "FULACHE",
-      "volume": "-"
+      "volume": 1000
     }
   ],
   "status": {
