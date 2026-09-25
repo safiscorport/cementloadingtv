@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T05:48:09+08:00",
+  "updated_at": "2026-09-26T06:19:40+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:00",
       "remarks": "CLOSE HATCH / CLOUDY",
       "equipment": "CRANE 4",
-      "activity_time": "10:47"
+      "activity_time": "11:19"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "05:47"
+      "activity_time": "06:19"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:00",
       "remarks": "CONTINUE LOADING TONNER BAGS",
       "equipment": "0",
-      "activity_time": "05:47"
+      "activity_time": "06:19"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "01:00",
-      "remarks": "COMMENCE LOADING SING BAGS",
+      "time": "02:00",
+      "remarks": "CONTINUE LOADING",
       "equipment": "0",
-      "activity_time": "04:47"
+      "activity_time": "04:19"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:05",
-      "remarks": "COMMENCE LOADING SING BAGS",
+      "time": "02:00",
+      "remarks": "CONTINUE LOADING",
       "equipment": "0",
-      "activity_time": "05:42"
+      "activity_time": "04:19"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": -1000,
       "progress": 1.0588235294117647,
       "stockpile": 2000,
-      "time": "00:22",
-      "remarks": "CONTINUE LOADING TONNER BAGS",
+      "time": "01:10",
+      "remarks": "LOADING COMPLETED",
       "equipment": "FL 1",
-      "activity_time": "05:25"
+      "activity_time": "05:09"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "20:07"
+      "activity_time": "20:39"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:47"
+      "activity_time": "06:19"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "20:07"
+      "activity_time": "20:39"
     }
   ],
   "foreign": {
