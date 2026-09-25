@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T08:04:14+08:00",
+  "updated_at": "2026-09-25T08:11:29+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 14000,
       "progress": 0.7454545454545455,
       "stockpile": 14000,
-      "time": "05:13",
-      "remarks": "LOADING TONNER S3",
+      "time": "07:30",
+      "remarks": "LOADING S24 SLING BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "02:51"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 2",
@@ -89,22 +89,22 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "08:04"
+      "activity_time": "08:10"
     },
     {
       "berth": "Berth 7",
-      "vessel": "VACANT",
-      "voyage": "-",
-      "booking": 0,
+      "vessel": "KRISTINE UNO",
+      "voyage": 1,
+      "booking": 30000,
       "dispatch": 0,
       "loaded": 0,
-      "balance": 0,
+      "balance": 30000,
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "WAITING DELIVERY SLING",
       "equipment": "0",
-      "activity_time": "08:04"
+      "activity_time": "08:10"
     },
     {
       "berth": "Berth 8",
@@ -146,10 +146,10 @@
       "balance": 14000,
       "progress": 0.17647058823529413,
       "stockpile": 10000,
-      "time": "05:00",
-      "remarks": "LOADING TONNER GEO 5",
+      "time": "08:00",
+      "remarks": "LOADING G3 TONNER BAGS",
       "equipment": "FL 1",
-      "activity_time": "03:04"
+      "activity_time": "00:10"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 72000,
+    "booking": 102000,
     "dispatch": 68000,
     "loaded": 44000,
-    "balance": 28000,
-    "progress": 0.4609625668449198,
+    "balance": 58000,
+    "progress": 0.3073083778966132,
     "stockpile": 24000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:04"
+      "activity_time": "08:10"
     },
     {
       "berth": "R3",
@@ -381,6 +381,6 @@
     "pmc": "VICKY / EBOY",
     "cranes": 4,
     "forklifts": 5,
-    "stevedores": 0
+    "stevedores": 41
   }
 }
