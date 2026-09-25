@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T07:34:35+08:00",
+  "updated_at": "2026-09-26T07:38:01+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:00",
       "remarks": "CLOSE HATCH / CLOUDY",
       "equipment": "CRANE 4",
-      "activity_time": "12:34"
+      "activity_time": "12:37"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "07:34"
+      "activity_time": "07:37"
     },
     {
       "berth": "Berth 7",
@@ -104,12 +104,12 @@
       "time": "00:00",
       "remarks": "CONTINUE LOADING TONNER BAGS",
       "equipment": "0",
-      "activity_time": "07:34"
+      "activity_time": "07:37"
     },
     {
       "berth": "Berth 8",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "LADY OF REMEDY",
+      "voyage": "                                       ",
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -119,12 +119,12 @@
       "time": "02:00",
       "remarks": "CONTINUE LOADING",
       "equipment": "0",
-      "activity_time": "05:34"
+      "activity_time": "05:37"
     },
     {
       "berth": "Berth 9",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "ADOLFO SR",
+      "voyage": 10,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -134,7 +134,7 @@
       "time": "02:00",
       "remarks": "CONTINUE LOADING",
       "equipment": "0",
-      "activity_time": "05:34"
+      "activity_time": "05:37"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "01:10",
       "remarks": "LOADING COMPLETED",
       "equipment": "FL 1",
-      "activity_time": "06:24"
+      "activity_time": "06:27"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "21:54"
+      "activity_time": "21:57"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:34"
+      "activity_time": "07:37"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "21:54"
+      "activity_time": "21:57"
     }
   ],
   "foreign": {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE A.",
-    "checker": "TORREGOSA J.",
-    "pmc": "JOAN/WILLIAM",
-    "cranes": 4,
-    "forklifts": 5,
-    "stevedores": 36
+    "supervisor": "-",
+    "checker": "DALUSA,E / TORREGOSA,J",
+    "pmc": "EBOY / VICKY",
+    "cranes": 3,
+    "forklifts": 6,
+    "stevedores": 0
   }
 }
