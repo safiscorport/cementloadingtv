@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T02:05:51+08:00",
+  "updated_at": "2026-09-27T02:06:45+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -22,10 +22,10 @@
       "voyage": 5,
       "booking": 45000,
       "dispatch": 19000,
-      "loaded": 4000,
-      "balance": 41000,
-      "progress": 0.08888888888888889,
-      "stockpile": 15000,
+      "loaded": 5000,
+      "balance": 40000,
+      "progress": 0.1111111111111111,
+      "stockpile": 14000,
       "time": "23:39",
       "remarks": "VESSEL CRANE OPTR TAKE REST",
       "equipment": "FL 2",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 152500,
     "dispatch": 86700,
-    "loaded": 44700,
-    "balance": 107800,
-    "progress": 0.31098989898989904,
-    "stockpile": 42000
+    "loaded": 45700,
+    "balance": 106800,
+    "progress": 0.31543434343434346,
+    "stockpile": 41000
   },
   "alpha": [
     {
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1207200
+      "y2026": 1208200
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13042910
+    "y2026": 13043910
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 10450
+      "qty": 11450
     }
   ],
   "trucking_stockpile": [
@@ -352,7 +352,7 @@
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 2000
+      "volume": 1000
     },
     {
       "client": "BADIE",
