@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T06:08:02+08:00",
+  "updated_at": "2026-09-27T07:55:48+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 36000,
       "progress": 0.2,
       "stockpile": 10000,
-      "time": "05:05",
-      "remarks": "LOADING SLING GEO 3",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE4 / FL 2",
-      "activity_time": "01:02"
+      "activity_time": "00:55"
     },
     {
       "berth": "Berth 3",
@@ -87,24 +87,24 @@
       "progress": 0,
       "stockpile": 7000,
       "time": "19:00",
-      "remarks": "BERTH UNSAFE TO LOAD",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "11:07"
+      "activity_time": "12:55"
     },
     {
       "berth": "Berth 7",
-      "vessel": "KRISTINE UNO",
-      "voyage": 1,
-      "booking": 30000,
-      "dispatch": 30000,
-      "loaded": 30000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "05:28",
-      "remarks": "LOADING COMPLETE",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "02:27"
     },
     {
       "berth": "Berth 8",
@@ -117,9 +117,9 @@
       "progress": 0.65,
       "stockpile": 2500,
       "time": "04:08",
-      "remarks": "LOADING SLING S5",
+      "remarks": "LADY OF REMEDY",
       "equipment": "0",
-      "activity_time": "01:59"
+      "activity_time": "03:47"
     },
     {
       "berth": "Berth 9",
@@ -132,9 +132,9 @@
       "progress": 0.3981818181818182,
       "stockpile": 1000,
       "time": "05:16",
-      "remarks": "WAITING GEO",
+      "remarks": "ADOLFO SR",
       "equipment": "0",
-      "activity_time": "00:51"
+      "activity_time": "02:39"
     },
     {
       "berth": "Berth 10",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 152500,
-    "dispatch": 86700,
-    "loaded": 66200,
+    "booking": 122500,
+    "dispatch": 56700,
+    "loaded": 36200,
     "balance": 86300,
-    "progress": 0.4496363636363636,
+    "progress": 0.31204545454545457,
     "stockpile": 20500
   },
   "alpha": [
@@ -376,8 +376,8 @@
     }
   ],
   "status": {
-    "supervisor": "ABSENT",
-    "checker": "DALUSA",
+    "supervisor": "NO VISOR",
+    "checker": "TORRES, J",
     "pmc": "JOAN / WILLIAM",
     "cranes": 4,
     "forklifts": 3,
