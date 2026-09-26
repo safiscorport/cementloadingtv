@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T21:11:55+08:00",
+  "updated_at": "2026-09-26T21:12:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "02:11"
+      "activity_time": "02:12"
     },
     {
       "berth": "Berth 3",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "BERTH UNSAFE TO LOAD",
       "equipment": "0",
-      "activity_time": "02:11"
+      "activity_time": "02:12"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "02:11"
+      "activity_time": "02:12"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "21:10",
       "remarks": "OPENING HATCH",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "00:02"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 21250,
       "progress": 0.22727272727272727,
       "stockpile": 3700,
-      "time": "14:15",
+      "time": "19:00",
       "remarks": "WAITING 1K PREM LOOSEBAGS",
       "equipment": "0",
-      "activity_time": "06:56"
+      "activity_time": "02:12"
     },
     {
       "berth": "Berth 10",
