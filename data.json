@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T21:58:43+08:00",
+  "updated_at": "2026-09-26T21:59:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -131,10 +131,10 @@
       "balance": 21250,
       "progress": 0.22727272727272727,
       "stockpile": 3700,
-      "time": "19:00",
-      "remarks": "WAITING 1K PREM LOOSEBAGS",
+      "time": "00:00",
+      "remarks": "CLOSE HATCH / RAIN",
       "equipment": "FL 1",
-      "activity_time": "02:58"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 10",
