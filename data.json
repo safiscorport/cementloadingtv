@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T01:58:52+08:00",
+  "updated_at": "2026-09-27T01:59:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 41000,
       "progress": 0.08888888888888889,
       "stockpile": 15000,
-      "time": "22:21",
-      "remarks": "LOADING SLING B7",
+      "time": "22:50",
+      "remarks": "VESSEL CRANE OPTR TAKE REST",
       "equipment": "FL 2",
-      "activity_time": "03:37"
+      "activity_time": "03:08"
     },
     {
       "berth": "Berth 3",
