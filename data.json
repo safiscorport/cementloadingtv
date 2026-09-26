@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T22:56:38+08:00",
+  "updated_at": "2026-09-26T23:34:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 43000,
       "progress": 0.044444444444444446,
       "stockpile": 17000,
-      "time": "22:00",
-      "remarks": "LOADING SLING",
+      "time": "22:21",
+      "remarks": "LOADING SLING B7",
       "equipment": "FL 2",
-      "activity_time": "00:56"
+      "activity_time": "01:12"
     },
     {
       "berth": "Berth 3",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "BERTH UNSAFE TO LOAD",
       "equipment": "0",
-      "activity_time": "03:56"
+      "activity_time": "04:33"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0.5666666666666667,
       "stockpile": 12000,
       "time": "21:40",
-      "remarks": "LOADING TONNER",
+      "remarks": "LOADING TONNER GEO 4",
       "equipment": "0",
-      "activity_time": "01:16"
+      "activity_time": "01:53"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 14750,
       "progress": 0.41,
       "stockpile": 8500,
-      "time": "21:57",
-      "remarks": "LOADING SLING S15",
+      "time": "22:42",
+      "remarks": "LOADING SLING GEO 2",
       "equipment": "CRANE 4",
-      "activity_time": "00:59"
+      "activity_time": "00:51"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "22:40",
       "remarks": "LOADING LOOSEBAGS",
       "equipment": "FL 1",
-      "activity_time": "00:16"
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 10",
