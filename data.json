@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T06:07:07+08:00",
+  "updated_at": "2026-09-27T06:08:02+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "05:05",
       "remarks": "LOADING SLING GEO 3",
       "equipment": "CRANE4 / FL 2",
-      "activity_time": "01:01"
+      "activity_time": "01:02"
     },
     {
       "berth": "Berth 3",
@@ -89,22 +89,22 @@
       "time": "19:00",
       "remarks": "BERTH UNSAFE TO LOAD",
       "equipment": "0",
-      "activity_time": "11:06"
+      "activity_time": "11:07"
     },
     {
       "berth": "Berth 7",
       "vessel": "KRISTINE UNO",
       "voyage": 1,
       "booking": 30000,
-      "dispatch": 29000,
-      "loaded": 29000,
-      "balance": 1000,
-      "progress": 0.9666666666666667,
+      "dispatch": 30000,
+      "loaded": 30000,
+      "balance": 0,
+      "progress": 1,
       "stockpile": 0,
       "time": "05:28",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "00:38"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "04:08",
       "remarks": "LOADING SLING S5",
       "equipment": "0",
-      "activity_time": "01:58"
+      "activity_time": "01:59"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "05:16",
       "remarks": "WAITING GEO",
       "equipment": "0",
-      "activity_time": "00:50"
+      "activity_time": "00:51"
     },
     {
       "berth": "Berth 10",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 152500,
-    "dispatch": 85700,
-    "loaded": 65200,
-    "balance": 87300,
-    "progress": 0.44296969696969696,
+    "dispatch": 86700,
+    "loaded": 66200,
+    "balance": 86300,
+    "progress": 0.4496363636363636,
     "stockpile": 20500
   },
   "alpha": [
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1227700
+      "y2026": 1228700
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13063410
+    "y2026": 13064410
   },
   "daily_production": [
     {
