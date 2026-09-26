@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T13:38:48+08:00",
+  "updated_at": "2026-09-26T14:13:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -21,15 +21,15 @@
       "vessel": "INFINITY 8",
       "voyage": 5,
       "booking": 45000,
-      "dispatch": 3000,
+      "dispatch": 4000,
       "loaded": 0,
       "balance": 45000,
       "progress": 0,
-      "stockpile": 3000,
-      "time": "13:30",
-      "remarks": "OPENING HATCH",
+      "stockpile": 4000,
+      "time": "14:00",
+      "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "00:08"
+      "activity_time": "00:13"
     },
     {
       "berth": "Berth 3",
@@ -89,7 +89,7 @@
       "time": "13:30",
       "remarks": "BERTH UNSAFE TO LOAD",
       "equipment": "0",
-      "activity_time": "00:08"
+      "activity_time": "00:43"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "13:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:38"
+      "activity_time": "01:13"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "13:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:38"
+      "activity_time": "01:13"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:00",
       "remarks": "WAITING 1K PREM LOOSEBAGS",
       "equipment": "0",
-      "activity_time": "00:38"
+      "activity_time": "01:13"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 152500,
-    "dispatch": 53950,
+    "dispatch": 54950,
     "loaded": 26000,
     "balance": 126500,
     "progress": 0.18436363636363637,
-    "stockpile": 27950
+    "stockpile": 28950
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "03:58"
+      "activity_time": "04:33"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:38"
+      "activity_time": "14:13"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "03:58"
+      "activity_time": "04:33"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 854000,
-      "daily": 7000
+      "september": 855000,
+      "daily": 8000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 20950
+      "volume": 21950
     },
     {
       "client": "LAPU-LAPU",
