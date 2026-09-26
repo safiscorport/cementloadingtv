@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T11:09:18+08:00",
+  "updated_at": "2026-09-26T11:19:04+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "10:40",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:38"
     },
     {
       "berth": "Berth 3",
@@ -89,7 +89,7 @@
       "time": "08:05",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "03:03"
+      "activity_time": "03:13"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "08:20",
       "remarks": "LOADING TONNER GEO 1",
       "equipment": "0",
-      "activity_time": "02:48"
+      "activity_time": "02:58"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "09:21",
       "remarks": "LOADING SLING S51",
       "equipment": "0",
-      "activity_time": "01:47"
+      "activity_time": "01:57"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "09:21",
       "remarks": "WAITING 1K LOOSEBAGS",
       "equipment": "0",
-      "activity_time": "01:47"
+      "activity_time": "01:57"
     },
     {
       "berth": "Berth 10",
@@ -186,7 +186,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "01:28"
+      "activity_time": "01:38"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:08"
+      "activity_time": "11:18"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "01:28"
+      "activity_time": "01:38"
     }
   ],
   "foreign": {
