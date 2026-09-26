@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T08:23:39+08:00",
+  "updated_at": "2026-09-26T08:43:19+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "00:53"
+      "activity_time": "01:12"
     },
     {
       "berth": "Berth 2",
@@ -89,22 +89,22 @@
       "time": "00:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "08:23"
+      "activity_time": "08:42"
     },
     {
       "berth": "Berth 7",
       "vessel": "KRISTINE UNO",
       "voyage": 1,
       "booking": 30000,
-      "dispatch": 16000,
+      "dispatch": 18000,
       "loaded": 11000,
       "balance": 19000,
       "progress": 0.36666666666666664,
-      "stockpile": 5000,
+      "stockpile": 7000,
       "time": "00:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "08:23"
+      "activity_time": "08:42"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "08:20",
       "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "00:03"
+      "activity_time": "00:22"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "08:20",
       "remarks": "LOADING LOOSEBAGS",
       "equipment": "0",
-      "activity_time": "00:03"
+      "activity_time": "00:22"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 179500,
-    "dispatch": 116000,
+    "dispatch": 118000,
     "loaded": 105000,
     "balance": 74500,
     "progress": 0.5587938205585264,
-    "stockpile": 11000
+    "stockpile": 13000
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "22:43"
+      "activity_time": "23:02"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:23"
+      "activity_time": "08:42"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "22:43"
+      "activity_time": "23:02"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 847000,
-      "daily": "-"
+      "september": 848000,
+      "daily": 1000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 138080,
-      "september": 113200,
-      "daily": "-"
+      "september": 114200,
+      "daily": 1000
     },
     {
       "hauler": "UCES",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 8000
+      "volume": 9000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 2000
+      "volume": 3000
     },
     {
       "client": "UCES",
@@ -376,7 +376,7 @@
     }
   ],
   "status": {
-    "supervisor": "ABSENT",
+    "supervisor": "PELIMER,J",
     "checker": "DALUSA / OBIAL",
     "pmc": "EBOY / VICKY",
     "cranes": 3,
