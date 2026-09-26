@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T09:58:32+08:00",
+  "updated_at": "2026-09-26T09:59:15+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "02:27"
+      "activity_time": "02:28"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "09:57"
+      "activity_time": "09:58"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "00:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "09:57"
+      "activity_time": "09:58"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 25000,
       "progress": 0,
       "stockpile": 0,
-      "time": "08:20",
-      "remarks": "COMMENCE LOADING",
+      "time": "08:59",
+      "remarks": "LOADING SLING S35",
       "equipment": "0",
-      "activity_time": "01:37"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 27500,
       "progress": 0,
       "stockpile": 0,
-      "time": "08:20",
-      "remarks": "LOADING LOOSEBAGS",
+      "time": "08:25",
+      "remarks": "LOADING LOOSEBAGS S53",
       "equipment": "0",
-      "activity_time": "01:37"
+      "activity_time": "01:33"
     },
     {
       "berth": "Berth 10",
@@ -186,7 +186,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "00:17"
+      "activity_time": "00:18"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:57"
+      "activity_time": "09:58"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "09:40",
       "remarks": "DISCHARGING ON PROGRESS",
       "equip": "PL FEED TO GEO DT",
-      "activity_time": "00:17"
+      "activity_time": "00:18"
     }
   ],
   "foreign": {
