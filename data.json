@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T01:57:58+08:00",
+  "updated_at": "2026-09-27T01:58:52+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "22:21",
       "remarks": "LOADING SLING B7",
       "equipment": "FL 2",
-      "activity_time": "03:36"
+      "activity_time": "03:37"
     },
     {
       "berth": "Berth 3",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "BERTH UNSAFE TO LOAD",
       "equipment": "0",
-      "activity_time": "06:57"
+      "activity_time": "06:58"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 9500,
       "progress": 0.6833333333333333,
       "stockpile": 8500,
-      "time": "00:00",
-      "remarks": "STEVEDORES BREAK",
+      "time": "01:00",
+      "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:57"
+      "activity_time": "00:58"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 11750,
       "progress": 0.53,
       "stockpile": 7500,
-      "time": "00:00",
-      "remarks": "STEVEDORES BREAK",
+      "time": "01:00",
+      "remarks": "LOADING SLING",
       "equipment": "CRANE 4",
-      "activity_time": "01:57"
+      "activity_time": "00:58"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "01:00",
       "remarks": "FL ONBOARD PULLED OUT",
       "equipment": "FL 1",
-      "activity_time": "00:57"
+      "activity_time": "00:58"
     },
     {
       "berth": "Berth 10",
