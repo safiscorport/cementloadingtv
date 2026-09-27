@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T11:25:43+08:00",
+  "updated_at": "2026-09-27T11:27:17+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "11:00",
       "remarks": "LOADING S38 SLING BAGS",
       "equipment": "CRANE4 / FL 2",
-      "activity_time": "00:25"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 25000,
       "progress": 0,
       "stockpile": 1000,
-      "time": "10:00",
+      "time": "11:25",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "01:25"
+      "activity_time": "00:01"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "16:25"
+      "activity_time": "16:26"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "05:28",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "05:57"
+      "activity_time": "05:58"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 6250,
       "progress": 0.75,
       "stockpile": 1000,
-      "time": "09:41",
-      "remarks": "LOADING S9 TONNER BAGS",
+      "time": "11:25",
+      "remarks": "WAITING BADIE TRUCKING",
       "equipment": "0",
-      "activity_time": "01:44"
+      "activity_time": "00:01"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "11:10",
       "remarks": "LOADING L37 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "00:16"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 16000,
       "progress": 0,
       "stockpile": 0,
-      "time": "09:00",
+      "time": "11:25",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:25"
+      "activity_time": "00:01"
     },
     {
       "berth": "Jetty",
