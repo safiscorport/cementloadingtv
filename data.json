@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T07:55:48+08:00",
+  "updated_at": "2026-09-27T09:04:39+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE4 / FL 2",
-      "activity_time": "00:55"
+      "activity_time": "02:04"
     },
     {
       "berth": "Berth 3",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "12:55"
+      "activity_time": "14:04"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "05:28",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "02:27"
+      "activity_time": "03:36"
     },
     {
       "berth": "Berth 8",
@@ -116,25 +116,25 @@
       "balance": 8750,
       "progress": 0.65,
       "stockpile": 2500,
-      "time": "04:08",
-      "remarks": "LADY OF REMEDY",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "03:47"
+      "activity_time": "02:04"
     },
     {
       "berth": "Berth 9",
       "vessel": "ADOLFO SR",
       "voyage": 10,
       "booking": 27500,
-      "dispatch": 11950,
+      "dispatch": 12950,
       "loaded": 10950,
       "balance": 16550,
       "progress": 0.3981818181818182,
-      "stockpile": 1000,
-      "time": "05:16",
-      "remarks": "ADOLFO SR",
+      "stockpile": 2000,
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:39"
+      "activity_time": "02:04"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 122500,
-    "dispatch": 56700,
+    "dispatch": 57700,
     "loaded": 36200,
     "balance": 86300,
     "progress": 0.31204545454545457,
-    "stockpile": 20500
+    "stockpile": 21500
   },
   "alpha": [
     {
@@ -229,26 +229,26 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 876750,
-      "daily": 31500
+      "september": 877750,
+      "daily": 1000
     },
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
       "september": 154000,
-      "daily": 6000
+      "daily": "-"
     },
     {
       "hauler": "BADIE",
       "august": 53080,
       "september": 28000,
-      "daily": 3000
+      "daily": "-"
     },
     {
       "hauler": "GEO",
       "august": 138080,
       "september": 122200,
-      "daily": 10000
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -260,7 +260,7 @@
       "hauler": "APLUS",
       "august": 41000,
       "september": 40000,
-      "daily": 1000
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
@@ -338,17 +338,17 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 18250
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 27950
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 14000
+      "volume": 15000
     },
     {
       "client": "LAPU-LAPU",
