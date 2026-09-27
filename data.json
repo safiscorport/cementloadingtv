@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T07:51:39+08:00",
+  "updated_at": "2026-09-28T07:52:12+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE4 / FL 2",
-      "activity_time": "00:51"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:51"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:51"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 2",
-      "activity_time": "12:51"
+      "activity_time": "12:52"
     },
     {
       "berth": "Berth 7",
@@ -104,22 +104,22 @@
       "time": "05:28",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:23"
+      "activity_time": "02:24"
     },
     {
       "berth": "Berth 8",
-      "vessel": "LADY OF REMEDY",
-      "voyage": 9,
-      "booking": 25000,
-      "dispatch": 23250,
-      "loaded": 23250,
-      "balance": 1750,
-      "progress": 0.93,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:14",
       "remarks": "COMPLETE LOADING S21",
       "equipment": "0",
-      "activity_time": "07:37"
+      "activity_time": "07:38"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:51"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:51"
+      "activity_time": "00:52"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 207500,
-    "dispatch": 92600,
-    "loaded": 71860,
-    "balance": 135640,
-    "progress": 0.3027967171717172,
+    "booking": 182500,
+    "dispatch": 69350,
+    "loaded": 48610,
+    "balance": 133890,
+    "progress": 0.2131962481962482,
     "stockpile": 20740
   },
   "alpha": [
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "NO VISOR",
-    "checker": "TORRES, J / OBIAL, R",
-    "pmc": "VICKY / EBOY",
-    "cranes": 4,
-    "forklifts": 3,
-    "stevedores": 16
+    "supervisor": "BERNABE,A",
+    "checker": "DALUSA / OBIAL",
+    "pmc": "JOAN / WILLIAM",
+    "cranes": 3,
+    "forklifts": 0,
+    "stevedores": 0
   }
 }
