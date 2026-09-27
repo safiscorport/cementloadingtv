@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:38:07+08:00",
+  "updated_at": "2026-09-27T11:25:43+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -22,14 +22,14 @@
       "voyage": 5,
       "booking": 45000,
       "dispatch": 22000,
-      "loaded": 11000,
-      "balance": 34000,
-      "progress": 0.24444444444444444,
-      "stockpile": 11000,
-      "time": "09:40",
-      "remarks": "LOADING S19 SLING BAGS",
+      "loaded": 13000,
+      "balance": 32000,
+      "progress": 0.28888888888888886,
+      "stockpile": 9000,
+      "time": "11:00",
+      "remarks": "LOADING S38 SLING BAGS",
       "equipment": "CRANE4 / FL 2",
-      "activity_time": "00:57"
+      "activity_time": "00:25"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "10:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "01:25"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "15:37"
+      "activity_time": "16:25"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "05:28",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "05:09"
+      "activity_time": "05:57"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "09:41",
       "remarks": "LOADING S9 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "01:44"
     },
     {
       "berth": "Berth 9",
       "vessel": "ADOLFO SR",
       "voyage": 10,
       "booking": 27500,
-      "dispatch": 17450,
-      "loaded": 12450,
-      "balance": 15050,
-      "progress": 0.4527272727272727,
+      "dispatch": 18450,
+      "loaded": 13450,
+      "balance": 14050,
+      "progress": 0.4890909090909091,
       "stockpile": 5000,
-      "time": "09:00",
-      "remarks": "LOADING G2 SLING BAGS",
+      "time": "11:10",
+      "remarks": "LOADING L37 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:37"
+      "activity_time": "00:15"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "09:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:37"
+      "activity_time": "02:25"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 163500,
-    "dispatch": 67200,
-    "loaded": 42200,
-    "balance": 121300,
-    "progress": 0.24119528619528618,
-    "stockpile": 25000
+    "dispatch": 68200,
+    "loaded": 45200,
+    "balance": 118300,
+    "progress": 0.25466329966329965,
+    "stockpile": 23000
   },
   "alpha": [
     {
@@ -235,8 +235,8 @@
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 154000,
-      "daily": "-"
+      "september": 155000,
+      "daily": 1000
     },
     {
       "hauler": "BADIE",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1233700
+      "y2026": 1236700
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13069410
+    "y2026": 13072410
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 6000
+      "qty": 9000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,11 +348,11 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 18000
+      "volume": 15000
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "BADIE",
