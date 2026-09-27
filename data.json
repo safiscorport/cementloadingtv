@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T13:47:18+08:00",
+  "updated_at": "2026-09-27T14:30:42+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "11:00",
       "remarks": "LOADING S38 SLING BAGS",
       "equipment": "CRANE4 / FL 2",
-      "activity_time": "02:47"
+      "activity_time": "03:30"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "11:25",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "02:22"
+      "activity_time": "03:05"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "18:47"
+      "activity_time": "19:30"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "05:28",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "08:19"
+      "activity_time": "09:02"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "11:25",
       "remarks": "WAITING BADIE TRUCKING",
       "equipment": "0",
-      "activity_time": "02:22"
+      "activity_time": "03:05"
     },
     {
       "berth": "Berth 9",
       "vessel": "ADOLFO SR",
       "voyage": 10,
       "booking": 27500,
-      "dispatch": 18450,
+      "dispatch": 20450,
       "loaded": 14450,
       "balance": 13050,
       "progress": 0.5254545454545455,
-      "stockpile": 4000,
+      "stockpile": 6000,
       "time": "11:10",
       "remarks": "LOADING L37 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:37"
+      "activity_time": "03:20"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "11:25",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:22"
+      "activity_time": "03:05"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 163500,
-    "dispatch": 70360,
+    "dispatch": 72360,
     "loaded": 46200,
     "balance": 117300,
     "progress": 0.2607239057239057,
-    "stockpile": 24160
+    "stockpile": 26160
   },
   "alpha": [
     {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 886410,
-      "daily": 9660
+      "september": 888410,
+      "daily": 11660
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 17160
+      "volume": 19160
     },
     {
       "client": "LAPU-LAPU",
