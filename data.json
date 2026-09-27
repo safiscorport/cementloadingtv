@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T07:52:12+08:00",
+  "updated_at": "2026-09-28T07:53:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE4 / FL 2",
-      "activity_time": "00:52"
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 2",
-      "activity_time": "12:52"
+      "activity_time": "12:53"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "05:28",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:24"
+      "activity_time": "02:25"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:14",
-      "remarks": "COMPLETE LOADING S21",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "07:38"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "00:53"
     },
     {
       "berth": "Jetty",
