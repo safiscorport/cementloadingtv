@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T10:25:43+08:00",
+  "updated_at": "2026-09-27T10:27:47+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 34000,
       "progress": 0.24444444444444444,
       "stockpile": 9000,
-      "time": "08:10",
-      "remarks": "LOADING S35 SLING BAGS",
+      "time": "09:40",
+      "remarks": "LOADING S19 SLING BAGS",
       "equipment": "CRANE4 / FL 2",
-      "activity_time": "02:15"
+      "activity_time": "00:47"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "10:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "00:25"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "15:25"
+      "activity_time": "15:27"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "05:28",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "04:57"
+      "activity_time": "04:59"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 6250,
       "progress": 0.75,
       "stockpile": 1000,
-      "time": "08:05",
-      "remarks": "LOADING S37 SLING BAGS",
+      "time": "09:41",
+      "remarks": "LOADING S9 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "02:20"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 15050,
       "progress": 0.4527272727272727,
       "stockpile": 5000,
-      "time": "08:20",
-      "remarks": "LOADING S2 SLING BAGS",
+      "time": "09:00",
+      "remarks": "LOADING G2 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:05"
+      "activity_time": "01:27"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "09:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:25"
+      "activity_time": "01:27"
     },
     {
       "berth": "Jetty",
