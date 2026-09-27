@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T09:04:39+08:00",
+  "updated_at": "2026-09-27T09:38:31+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 36000,
       "progress": 0.2,
       "stockpile": 10000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:10",
+      "remarks": "LOADING S35 SLING BAGS",
       "equipment": "CRANE4 / FL 2",
-      "activity_time": "02:04"
+      "activity_time": "01:28"
     },
     {
       "berth": "Berth 3",
@@ -87,9 +87,9 @@
       "progress": 0,
       "stockpile": 7000,
       "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "14:04"
+      "activity_time": "14:38"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "05:28",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "03:36"
+      "activity_time": "04:10"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 8750,
       "progress": 0.65,
       "stockpile": 2500,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:05",
+      "remarks": "LOADING S37 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:04"
+      "activity_time": "01:33"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 16550,
       "progress": 0.3981818181818182,
       "stockpile": 2000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:20",
+      "remarks": "LOADING S2 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:04"
+      "activity_time": "01:18"
     },
     {
       "berth": "Berth 10",
