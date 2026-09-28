@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T08:08:48+08:00",
+  "updated_at": "2026-09-28T08:09:02+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -57,7 +57,7 @@
       "progress": 0,
       "stockpile": 1500,
       "time": "07:30",
-      "remarks": "WAITING SHORECRANE",
+      "remarks": "VESSEL CRANE INSPECTION",
       "equipment": "0",
       "activity_time": "00:38"
     },
