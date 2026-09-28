@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T09:34:48+08:00",
+  "updated_at": "2026-09-28T09:35:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "FL 2",
-      "activity_time": "01:34"
+      "activity_time": "01:35"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "VESSEL DEBALLAST",
       "equipment": "0",
-      "activity_time": "01:34"
+      "activity_time": "01:35"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:30",
       "remarks": "VESSEL CRANE INSPECTION",
       "equipment": "0",
-      "activity_time": "02:04"
+      "activity_time": "02:05"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "08:11",
       "remarks": "LOADING POUCH A1",
       "equipment": "CRANE 2",
-      "activity_time": "01:23"
+      "activity_time": "01:24"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "09:34"
+      "activity_time": "09:35"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:30",
       "remarks": "-",
       "equipment": "CRANE 4",
-      "activity_time": "02:04"
+      "activity_time": "02:05"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "FL1",
-      "activity_time": "01:34"
+      "activity_time": "01:35"
     },
     {
       "berth": "Berth 10",
@@ -149,16 +149,16 @@
       "time": "08:12",
       "remarks": "LOADING POUCH S28",
       "equipment": "CRANE 3",
-      "activity_time": "01:22"
+      "activity_time": "01:23"
     },
     {
       "berth": "Jetty",
       "vessel": "QUEEN CAROLYN",
       "voyage": 9,
-      "booking": 0,
+      "booking": 40000,
       "dispatch": 0,
       "loaded": 0,
-      "balance": 0,
+      "balance": 40000,
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 182500,
+    "booking": 222500,
     "dispatch": 69350,
     "loaded": 50690,
-    "balance": 131810,
-    "progress": 0.22855339105339104,
+    "balance": 171810,
+    "progress": 0.19998421717171716,
     "stockpile": 18660
   },
   "alpha": [
