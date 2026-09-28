@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-09-28T14:52:34+08:00",
+  "updated_at": "2026-09-28T15:09:01+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "JOHANNAH 7",
       "voyage": 6,
       "booking": 0,
-      "dispatch": 4000,
+      "dispatch": 5000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 4000,
+      "stockpile": 5000,
       "time": "13:00",
       "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "01:52"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "01:52"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "13:00",
       "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "01:52"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 4",
@@ -59,22 +59,22 @@
       "time": "13:00",
       "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "01:52"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 5",
       "vessel": "LADY OF PEACE",
       "voyage": 9,
       "booking": 25000,
-      "dispatch": 14000,
+      "dispatch": 15000,
       "loaded": 12000,
       "balance": 13000,
       "progress": 0.48,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "13:55",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "00:57"
+      "activity_time": "01:13"
     },
     {
       "berth": "Berth 6",
@@ -89,22 +89,22 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "14:52"
+      "activity_time": "15:08"
     },
     {
       "berth": "Berth 7",
       "vessel": "LADY ARMOR",
       "voyage": 7,
       "booking": 17000,
-      "dispatch": 2000,
+      "dispatch": 3000,
       "loaded": 2000,
       "balance": 15000,
       "progress": 0.11764705882352941,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "01:52"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "13:00",
       "remarks": "LOADING LOOSEBAGS",
       "equipment": "FL1",
-      "activity_time": "01:52"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "14:42",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "00:10"
+      "activity_time": "00:26"
     },
     {
       "berth": "Jetty",
@@ -164,16 +164,16 @@
       "time": "13:00",
       "remarks": "UNLOADING EMPTY BAGS",
       "equipment": "0",
-      "activity_time": "01:52"
+      "activity_time": "02:08"
     }
   ],
   "total": {
     "booking": 222500,
-    "dispatch": 97850,
+    "dispatch": 100850,
     "loaded": 67350,
     "balance": 155150,
     "progress": 0.28862002376708257,
-    "stockpile": 30500
+    "stockpile": 33500
   },
   "alpha": [
     {
@@ -229,14 +229,14 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 924150,
-      "daily": 17500
+      "september": 925150,
+      "daily": 18500
     },
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 159000,
-      "daily": 4000
+      "september": 160000,
+      "daily": 5000
     },
     {
       "hauler": "BADIE",
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "august": 41000,
-      "september": 40000,
-      "daily": "-"
+      "september": 41000,
+      "daily": 1000
     },
     {
       "hauler": "FULACHE",
@@ -348,11 +348,11 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 23500
+      "volume": 24500
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 4000
+      "volume": 5000
     },
     {
       "client": "BADIE",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "FULACHE",
