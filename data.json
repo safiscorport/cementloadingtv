@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T11:50:22+08:00",
+  "updated_at": "2026-09-28T11:52:37+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "09:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:50"
+      "activity_time": "02:52"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 17000,
       "progress": 0.6222222222222222,
       "stockpile": 1000,
-      "time": "09:16",
-      "remarks": "LOADING SLING S35",
+      "time": "10:20",
+      "remarks": "LOADING SLING S17",
       "equipment": "FL 2",
-      "activity_time": "02:34"
+      "activity_time": "01:32"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "VESSEL DEBALLAST",
       "equipment": "0",
-      "activity_time": "03:50"
+      "activity_time": "03:52"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:30",
       "remarks": "VESSEL CRANE INSPECTION",
       "equipment": "0",
-      "activity_time": "04:20"
+      "activity_time": "04:22"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "08:11",
       "remarks": "LOADING POUCH A1",
       "equipment": "CRANE 2",
-      "activity_time": "03:39"
+      "activity_time": "03:41"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "11:50"
+      "activity_time": "11:52"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0.058823529411764705,
       "stockpile": 1000,
       "time": "07:30",
-      "remarks": "-",
+      "remarks": "LOADING POUCH GEO 5",
       "equipment": "CRANE 4",
-      "activity_time": "04:20"
+      "activity_time": "04:22"
     },
     {
       "berth": "Berth 8",
@@ -131,10 +131,10 @@
       "balance": 8550,
       "progress": 0.6890909090909091,
       "stockpile": 3000,
-      "time": "08:00",
-      "remarks": "LOADING SLING",
+      "time": "10:47",
+      "remarks": "LOADING LOOSEBAGS S38",
       "equipment": "FL1",
-      "activity_time": "03:50"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 11680,
       "progress": 0.27,
       "stockpile": 1080,
-      "time": "10:00",
-      "remarks": "VESSEL CLOSED/ CLOUDY",
+      "time": "11:05",
+      "remarks": "LOADING POUCH S41",
       "equipment": "CRANE 3",
-      "activity_time": "01:50"
+      "activity_time": "00:47"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "08:58",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "02:52"
+      "activity_time": "02:54"
     }
   ],
   "total": {
