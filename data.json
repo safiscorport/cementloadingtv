@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T13:14:05+08:00",
+  "updated_at": "2026-09-28T13:26:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 4000,
-      "time": "09:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "13:00",
+      "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "04:13"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 2",
@@ -26,25 +26,25 @@
       "balance": 17000,
       "progress": 0.6222222222222222,
       "stockpile": 1000,
-      "time": "10:20",
-      "remarks": "LOADING SLING S17",
+      "time": "13:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "02:53"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 3",
       "vessel": "EASTERN CEBU",
       "voyage": 12,
       "booking": 27000,
-      "dispatch": 11000,
+      "dispatch": 12000,
       "loaded": 0,
       "balance": 27000,
       "progress": 0,
-      "stockpile": 11000,
-      "time": "08:00",
-      "remarks": "VESSEL DEBALLAST",
+      "stockpile": 12000,
+      "time": "13:00",
+      "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "05:13"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 25000,
       "progress": 0,
       "stockpile": 2500,
-      "time": "07:30",
-      "remarks": "VESSEL CRANE INSPECTION",
+      "time": "13:00",
+      "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "05:43"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 14000,
       "progress": 0.44,
       "stockpile": 3000,
-      "time": "08:11",
-      "remarks": "LOADING POUCH A1",
+      "time": "13:00",
+      "remarks": "LOADING POUCH",
       "equipment": "CRANE 2",
-      "activity_time": "05:02"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "13:13"
+      "activity_time": "13:26"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0.058823529411764705,
       "stockpile": 1000,
       "time": "07:30",
-      "remarks": "LOADING POUCH GEO 5",
+      "remarks": "LOADING POUCH S27",
       "equipment": "CRANE 4",
-      "activity_time": "05:43"
+      "activity_time": "05:56"
     },
     {
       "berth": "Berth 8",
@@ -131,10 +131,10 @@
       "balance": 8550,
       "progress": 0.6890909090909091,
       "stockpile": 3000,
-      "time": "10:47",
-      "remarks": "LOADING LOOSEBAGS S38",
+      "time": "13:00",
+      "remarks": "LOADING LOOSEBAGS",
       "equipment": "FL1",
-      "activity_time": "02:26"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 11680,
       "progress": 0.27,
       "stockpile": 2080,
-      "time": "11:05",
-      "remarks": "LOADING POUCH S41",
+      "time": "13:00",
+      "remarks": "LOADING POUCH",
       "equipment": "CRANE 3",
-      "activity_time": "02:08"
+      "activity_time": "00:26"
     },
     {
       "berth": "Jetty",
@@ -164,16 +164,16 @@
       "time": "08:58",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "04:15"
+      "activity_time": "04:28"
     }
   ],
   "total": {
     "booking": 222500,
-    "dispatch": 90850,
+    "dispatch": 91850,
     "loaded": 63270,
     "balance": 159230,
     "progress": 0.260017082590612,
-    "stockpile": 27580
+    "stockpile": 28580
   },
   "alpha": [
     {
@@ -235,8 +235,8 @@
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
-      "september": 158000,
-      "daily": 3000
+      "september": 159000,
+      "daily": 4000
     },
     {
       "hauler": "BADIE",
@@ -352,7 +352,7 @@
     },
     {
       "client": "LAPU-LAPU",
-      "volume": 3000
+      "volume": 4000
     },
     {
       "client": "BADIE",
