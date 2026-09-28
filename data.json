@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T17:39:03+08:00",
+  "updated_at": "2026-09-28T19:30:56+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:00",
       "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "04:38"
+      "activity_time": "06:30"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "04:38"
+      "activity_time": "06:30"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "16:21",
       "remarks": "LOADING SLING L37",
       "equipment": "0",
-      "activity_time": "01:17"
+      "activity_time": "03:09"
     },
     {
       "berth": "Berth 4",
@@ -59,22 +59,22 @@
       "time": "16:51",
       "remarks": "LOADING TONNER GEO 1",
       "equipment": "0",
-      "activity_time": "00:47"
+      "activity_time": "02:39"
     },
     {
       "berth": "Berth 5",
       "vessel": "LADY OF PEACE",
       "voyage": 9,
       "booking": 25000,
-      "dispatch": 15000,
+      "dispatch": 16000,
       "loaded": 15000,
       "balance": 10000,
       "progress": 0.6,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "16:09",
       "remarks": "LOADING SLING S22",
       "equipment": "CRANE 2",
-      "activity_time": "01:29"
+      "activity_time": "03:21"
     },
     {
       "berth": "Berth 6",
@@ -89,22 +89,22 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:38"
+      "activity_time": "19:30"
     },
     {
       "berth": "Berth 7",
       "vessel": "LADY ARMOR",
       "voyage": 7,
       "booking": 17000,
-      "dispatch": 4000,
+      "dispatch": 6000,
       "loaded": 4000,
       "balance": 13000,
       "progress": 0.23529411764705882,
-      "stockpile": 0,
+      "stockpile": 2000,
       "time": "16:09",
       "remarks": "LOADING POUCH L39",
       "equipment": "CRANE 4",
-      "activity_time": "01:29"
+      "activity_time": "03:21"
     },
     {
       "berth": "Berth 8",
@@ -134,22 +134,22 @@
       "time": "15:06",
       "remarks": "LOADING LOOSEBAGS S32",
       "equipment": "FL1",
-      "activity_time": "02:32"
+      "activity_time": "04:24"
     },
     {
       "berth": "Berth 10",
       "vessel": "LANDER PETER",
       "voyage": 1,
       "booking": 16000,
-      "dispatch": 10400,
+      "dispatch": 12400,
       "loaded": 6400,
       "balance": 9600,
       "progress": 0.4,
-      "stockpile": 4000,
+      "stockpile": 6000,
       "time": "17:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "CRANE 3",
-      "activity_time": "00:38"
+      "activity_time": "02:30"
     },
     {
       "berth": "Jetty",
@@ -164,16 +164,16 @@
       "time": "13:00",
       "remarks": "UNLOADING EMPTY BAGS",
       "equipment": "0",
-      "activity_time": "04:38"
+      "activity_time": "06:30"
     }
   ],
   "total": {
     "booking": 222500,
-    "dispatch": 109850,
+    "dispatch": 114850,
     "loaded": 78350,
     "balance": 144150,
     "progress": 0.3471306199247376,
-    "stockpile": 31500
+    "stockpile": 36500
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "17:38"
+      "activity_time": "19:30"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 931150,
-      "daily": 24500
+      "september": 934150,
+      "daily": 27500
     },
     {
       "hauler": "LAPU-LAPU",
@@ -241,8 +241,8 @@
     {
       "hauler": "BADIE",
       "august": 53080,
-      "september": 30000,
-      "daily": "-"
+      "september": 31000,
+      "daily": 1000
     },
     {
       "hauler": "GEO",
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "august": 41000,
-      "september": 41000,
-      "daily": 1000
+      "september": 42000,
+      "daily": 2000
     },
     {
       "hauler": "FULACHE",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 24500
+      "volume": 27500
     },
     {
       "client": "LAPU-LAPU",
@@ -356,7 +356,7 @@
     },
     {
       "client": "BADIE",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "GEO",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "FULACHE",
