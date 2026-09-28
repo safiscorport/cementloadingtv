@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T09:20:27+08:00",
+  "updated_at": "2026-09-28T09:31:03+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "CRANE4/FL2",
-      "activity_time": "01:20"
+      "activity_time": "01:30"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "VESSEL DEBALLAST",
       "equipment": "0",
-      "activity_time": "01:20"
+      "activity_time": "01:30"
     },
     {
       "berth": "Berth 4",
@@ -59,25 +59,10 @@
       "time": "07:30",
       "remarks": "VESSEL CRANE INSPECTION",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "02:00"
     },
     {
       "berth": "Berth 5",
-      "vessel": "VACANT",
-      "voyage": "-",
-      "booking": 0,
-      "dispatch": 0,
-      "loaded": 0,
-      "balance": 0,
-      "progress": 0,
-      "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
-      "equipment": "0",
-      "activity_time": "00:00"
-    },
-    {
-      "berth": "Berth 6",
       "vessel": "LADY OF PEACE",
       "voyage": 9,
       "booking": 25000,
@@ -86,10 +71,25 @@
       "balance": 18000,
       "progress": 0.28,
       "stockpile": 0,
-      "time": "19:00",
+      "time": "08:11",
       "remarks": "LOADING POUCH A1",
       "equipment": "CRANE 2",
-      "activity_time": "14:20"
+      "activity_time": "01:19"
+    },
+    {
+      "berth": "Berth 6",
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
+      "stockpile": 0,
+      "time": "19:00",
+      "remarks": "-",
+      "equipment": "CRANE 2",
+      "activity_time": "14:30"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:30",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "02:00"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "FL1",
-      "activity_time": "01:20"
+      "activity_time": "01:30"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "08:12",
       "remarks": "LOADING POUCH S28",
       "equipment": "CRANE 3",
-      "activity_time": "01:08"
+      "activity_time": "01:18"
     },
     {
       "berth": "Jetty",
