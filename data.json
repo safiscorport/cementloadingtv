@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T08:48:31+08:00",
+  "updated_at": "2026-09-28T08:48:46+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -380,7 +380,7 @@
     "checker": "DALUSA / OBIAL",
     "pmc": "JOAN / WILLIAM",
     "cranes": 3,
-    "forklifts": 0,
+    "forklifts": 5,
     "stevedores": 0
   }
 }
