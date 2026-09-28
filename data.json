@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T23:13:13+08:00",
+  "updated_at": "2026-09-28T23:28:01+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:15",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "03:57"
+      "activity_time": "04:12"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "19:10",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "FL 2",
-      "activity_time": "04:02"
+      "activity_time": "04:17"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "23:01",
       "remarks": "LOADING S49 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:11"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "22:15",
       "remarks": "LOADING S37 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "01:12"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "19:15",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "CRANE 2",
-      "activity_time": "03:57"
+      "activity_time": "04:12"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "23:12"
+      "activity_time": "23:27"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "16:09",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "CRANE 4",
-      "activity_time": "07:03"
+      "activity_time": "07:18"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "22:41",
       "remarks": "LOADING S8 SLING BAGS",
       "equipment": "FL1",
-      "activity_time": "00:31"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "23:12",
       "remarks": "LOADING S59 TONNER BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "00:00"
+      "activity_time": "00:15"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "19:15",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "03:57"
+      "activity_time": "04:12"
     }
   ],
   "total": {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "23:12"
+      "activity_time": "23:27"
     }
   ],
   "foreign": {
