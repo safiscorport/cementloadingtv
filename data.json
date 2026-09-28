@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T07:53:25+08:00",
+  "updated_at": "2026-09-28T08:08:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 20000,
       "progress": 0.5555555555555556,
       "stockpile": 4000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
-      "equipment": "CRANE4 / FL 2",
-      "activity_time": "00:53"
+      "time": "08:00",
+      "remarks": "LOADING SLING",
+      "equipment": "CRANE 4",
+      "activity_time": "00:07"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 27000,
       "progress": 0,
       "stockpile": 5000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "00:07"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 25000,
       "progress": 0,
       "stockpile": 1500,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "07:30",
+      "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 5",
@@ -87,9 +87,9 @@
       "progress": 0.24,
       "stockpile": 1000,
       "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "remarks": "LOADING POUCH A1",
       "equipment": "CRANE 2",
-      "activity_time": "12:53"
+      "activity_time": "13:07"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0,
       "stockpile": 1000,
       "time": "05:28",
-      "remarks": "KY TOOLBOX",
+      "remarks": "WAITING SHOCRANE",
       "equipment": "0",
-      "activity_time": "02:25"
+      "activity_time": "02:39"
     },
     {
       "berth": "Berth 8",
@@ -131,10 +131,10 @@
       "balance": 12050,
       "progress": 0.5618181818181818,
       "stockpile": 5000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "00:07"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 13840,
       "progress": 0.135,
       "stockpile": 3240,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "07:30",
+      "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "00:37"
     },
     {
       "berth": "Jetty",
@@ -230,25 +230,25 @@
       "hauler": "SAFISCOR",
       "august": 1054675,
       "september": 906650,
-      "daily": 29900
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
       "august": 220240,
       "september": 155000,
-      "daily": 1000
+      "daily": "-"
     },
     {
       "hauler": "BADIE",
       "august": 53080,
       "september": 30000,
-      "daily": 2000
+      "daily": "-"
     },
     {
       "hauler": "GEO",
       "august": 138080,
       "september": 127200,
-      "daily": 5000
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 15000
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 25660
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
