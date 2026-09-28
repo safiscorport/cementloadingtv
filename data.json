@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T09:37:55+08:00",
+  "updated_at": "2026-09-28T09:38:39+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "FL 2",
-      "activity_time": "01:37"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "VESSEL DEBALLAST",
       "equipment": "0",
-      "activity_time": "01:37"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:30",
       "remarks": "VESSEL CRANE INSPECTION",
       "equipment": "0",
-      "activity_time": "02:07"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "08:11",
       "remarks": "LOADING POUCH A1",
       "equipment": "CRANE 2",
-      "activity_time": "01:26"
+      "activity_time": "01:27"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "09:37"
+      "activity_time": "09:38"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:30",
       "remarks": "-",
       "equipment": "CRANE 4",
-      "activity_time": "02:07"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "FL1",
-      "activity_time": "01:37"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "08:12",
       "remarks": "LOADING POUCH S28",
       "equipment": "CRANE 3",
-      "activity_time": "01:25"
+      "activity_time": "01:26"
     },
     {
       "berth": "Jetty",
@@ -162,7 +162,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "QUEEN CAROLYN",
       "equipment": "0",
       "activity_time": "00:00"
     }
