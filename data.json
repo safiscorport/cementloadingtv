@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T08:33:50+08:00",
+  "updated_at": "2026-09-28T08:41:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "CRANE4/FL2",
-      "activity_time": "00:33"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "VESSEL DEBALLAST",
       "equipment": "0",
-      "activity_time": "00:33"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:30",
       "remarks": "VESSEL CRANE INSPECTION",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:11"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "LOADING POUCH A1",
       "equipment": "CRANE 2",
-      "activity_time": "13:33"
+      "activity_time": "13:41"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:30",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:11"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "FL1",
-      "activity_time": "00:33"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 13840,
       "progress": 0.135,
       "stockpile": 3240,
-      "time": "07:30",
-      "remarks": "WAITING SHORECRANE",
+      "time": "08:00",
+      "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "00:41"
     },
     {
       "berth": "Jetty",
