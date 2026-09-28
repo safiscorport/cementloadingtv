@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T13:26:41+08:00",
+  "updated_at": "2026-09-28T13:26:54+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -101,10 +101,10 @@
       "balance": 16000,
       "progress": 0.058823529411764705,
       "stockpile": 1000,
-      "time": "07:30",
+      "time": "13:00",
       "remarks": "LOADING POUCH S27",
       "equipment": "CRANE 4",
-      "activity_time": "05:56"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 8",
