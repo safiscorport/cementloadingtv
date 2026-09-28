@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T19:30:56+08:00",
+  "updated_at": "2026-09-28T19:46:27+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 5000,
-      "time": "13:00",
-      "remarks": "VESSEL CLOSE",
+      "time": "19:15",
+      "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "06:30"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 17000,
       "progress": 0.6222222222222222,
       "stockpile": 1000,
-      "time": "13:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:10",
+      "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "FL 2",
-      "activity_time": "06:30"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 25000,
       "progress": 0.07407407407407407,
       "stockpile": 14000,
-      "time": "16:21",
-      "remarks": "LOADING SLING L37",
+      "time": "19:15",
+      "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "03:09"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 22000,
       "progress": 0.12,
       "stockpile": 3500,
-      "time": "16:51",
-      "remarks": "LOADING TONNER GEO 1",
+      "time": "19:15",
+      "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "02:39"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 10000,
       "progress": 0.6,
       "stockpile": 1000,
-      "time": "16:09",
-      "remarks": "LOADING SLING S22",
+      "time": "19:15",
+      "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "CRANE 2",
-      "activity_time": "03:21"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "19:30"
+      "activity_time": "19:46"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0.23529411764705882,
       "stockpile": 2000,
       "time": "16:09",
-      "remarks": "LOADING POUCH L39",
+      "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "CRANE 4",
-      "activity_time": "03:21"
+      "activity_time": "03:37"
     },
     {
       "berth": "Berth 8",
@@ -131,10 +131,10 @@
       "balance": 7550,
       "progress": 0.7254545454545455,
       "stockpile": 3000,
-      "time": "15:06",
-      "remarks": "LOADING LOOSEBAGS S32",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL1",
-      "activity_time": "04:24"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 9600,
       "progress": 0.4,
       "stockpile": 6000,
-      "time": "17:00",
-      "remarks": "WAITING SHORECRANE",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE 3",
-      "activity_time": "02:30"
+      "activity_time": "00:46"
     },
     {
       "berth": "Jetty",
@@ -161,10 +161,10 @@
       "balance": 40000,
       "progress": 0,
       "stockpile": 1000,
-      "time": "13:00",
-      "remarks": "UNLOADING EMPTY BAGS",
+      "time": "19:15",
+      "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "06:30"
+      "activity_time": "00:31"
     }
   ],
   "total": {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "19:30"
+      "activity_time": "19:46"
     }
   ],
   "foreign": {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "DALUSA / OBIAL",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "NO VISOR",
+    "checker": "TORRES, J",
+    "pmc": "VICKY / EBOY",
     "cranes": 3,
     "forklifts": 5,
-    "stevedores": 39
+    "stevedores": 44
   }
 }
