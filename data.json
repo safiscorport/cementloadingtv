@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T17:23:34+08:00",
+  "updated_at": "2026-09-30T17:23:59+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -37,10 +37,10 @@
       "voyage": 12,
       "booking": 27000,
       "dispatch": 25000,
-      "loaded": 19000,
-      "balance": 8000,
-      "progress": 0.7037037037037037,
-      "stockpile": 6000,
+      "loaded": 20000,
+      "balance": 7000,
+      "progress": 0.7407407407407407,
+      "stockpile": 5000,
       "time": "16:01",
       "remarks": "LOADING SLING GEO 3",
       "equipment": "CRANE 4",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 295000,
     "dispatch": 151900,
-    "loaded": 127400,
-    "balance": 167600,
-    "progress": 0.46964279462972275,
-    "stockpile": 24500
+    "loaded": 128400,
+    "balance": 166600,
+    "progress": 0.47375802096717134,
+    "stockpile": 23500
   },
   "alpha": [
     {
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1413400
+      "y2026": 1414400
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13249110
+    "y2026": 13250110
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 33000
+      "qty": 34000
     },
     {
       "shift": "2ND SHIFT",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 2000
+      "volume": 1000
     },
     {
       "client": "UCES",
