@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T08:38:36+08:00",
+  "updated_at": "2026-09-30T08:39:12+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -79,17 +79,17 @@
     {
       "berth": "Berth 6",
       "vessel": "STAR DINAGAT",
-      "voyage": 0,
+      "voyage": 5,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 500,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
-      "time": "00:00",
+      "stockpile": 500,
+      "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "08:38"
+      "activity_time": "00:38"
     },
     {
       "berth": "Berth 7",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 295000,
-    "dispatch": 144400,
+    "dispatch": 144900,
     "loaded": 119400,
     "balance": 175600,
     "progress": 0.44151676815075513,
-    "stockpile": 25000
+    "stockpile": 25500
   },
   "alpha": [
     {
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 20000
+      "volume": 20500
     },
     {
       "client": "LAPU-LAPU",
