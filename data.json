@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T16:14:29+08:00",
+  "updated_at": "2026-09-30T16:15:22+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "03:13"
+      "activity_time": "03:14"
     },
     {
       "berth": "Berth 2",
@@ -29,22 +29,22 @@
       "time": "11:26",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "04:47"
+      "activity_time": "04:48"
     },
     {
       "berth": "Berth 3",
       "vessel": "EASTERN CEBU",
       "voyage": 12,
       "booking": 27000,
-      "dispatch": 23000,
-      "loaded": 17000,
-      "balance": 10000,
-      "progress": 0.6296296296296297,
-      "stockpile": 6000,
+      "dispatch": 24000,
+      "loaded": 19000,
+      "balance": 8000,
+      "progress": 0.7037037037037037,
+      "stockpile": 5000,
       "time": "15:40",
       "remarks": "LOADING SLING S59",
       "equipment": "CRANE 4",
-      "activity_time": "00:33"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "13:38",
       "remarks": "LOADING TONNER A1",
       "equipment": "0",
-      "activity_time": "02:35"
+      "activity_time": "02:36"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "08:00",
       "remarks": "UNSAFE TO LOAD",
       "equipment": "0",
-      "activity_time": "08:13"
+      "activity_time": "08:14"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "14:20",
       "remarks": "LOADING TONNER GEO 5",
       "equipment": "0",
-      "activity_time": "01:53"
+      "activity_time": "01:54"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "16:13"
+      "activity_time": "16:14"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:22",
       "remarks": "LOADING SLING S19",
       "equipment": "CRANE 3",
-      "activity_time": "01:51"
+      "activity_time": "01:52"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "14:47",
       "remarks": "LOADING SLING S7",
       "equipment": "0",
-      "activity_time": "01:26"
+      "activity_time": "01:27"
     },
     {
       "berth": "Jetty",
@@ -164,16 +164,16 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "09:13"
+      "activity_time": "09:14"
     }
   ],
   "total": {
     "booking": 295000,
-    "dispatch": 147900,
-    "loaded": 120400,
-    "balance": 174600,
-    "progress": 0.43953200007448373,
-    "stockpile": 27500
+    "dispatch": 148900,
+    "loaded": 122400,
+    "balance": 172600,
+    "progress": 0.44776245274938087,
+    "stockpile": 26500
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "16:13"
+      "activity_time": "16:14"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1054675,
-      "september": 1003450,
-      "daily": 24000
+      "september": 1004450,
+      "daily": 25000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1406400
+      "y2026": 1408400
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13242110
+    "y2026": 13244110
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 26000
+      "qty": 28000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 24500
+      "volume": 23500
     },
     {
       "client": "LAPU-LAPU",
