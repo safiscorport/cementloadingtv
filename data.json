@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T17:20:38+08:00",
+  "updated_at": "2026-09-30T17:23:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "04:20"
+      "activity_time": "04:23"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "11:26",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "05:54"
+      "activity_time": "05:57"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 8000,
       "progress": 0.7037037037037037,
       "stockpile": 6000,
-      "time": "15:40",
-      "remarks": "LOADING SLING S59",
+      "time": "16:01",
+      "remarks": "LOADING SLING GEO 3",
       "equipment": "CRANE 4",
-      "activity_time": "01:40"
+      "activity_time": "01:22"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "16:40",
       "remarks": "LOADING TONNER S47",
       "equipment": "0",
-      "activity_time": "00:40"
+      "activity_time": "00:43"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "08:00",
       "remarks": "OPENING HATCH",
       "equipment": "0",
-      "activity_time": "09:20"
+      "activity_time": "09:23"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "14:20",
       "remarks": "LOADING TONNER GEO 5",
       "equipment": "0",
-      "activity_time": "03:00"
+      "activity_time": "03:03"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:20"
+      "activity_time": "17:23"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:22",
       "remarks": "LOADING SLING S19",
       "equipment": "CRANE 3",
-      "activity_time": "02:58"
+      "activity_time": "03:01"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "16:32",
       "remarks": "LOADING SLING F1",
       "equipment": "0",
-      "activity_time": "00:48"
+      "activity_time": "00:51"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "10:20"
+      "activity_time": "10:23"
     }
   ],
   "total": {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "17:20"
+      "activity_time": "17:23"
     }
   ],
   "foreign": {
