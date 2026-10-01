@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T14:31:14+08:00",
+  "updated_at": "2026-10-01T14:38:40+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -7,14 +7,14 @@
       "voyage": 6,
       "booking": 65000,
       "dispatch": 44600,
-      "loaded": 19000,
-      "balance": 46000,
-      "progress": 0.2923076923076923,
-      "stockpile": 25600,
+      "loaded": 20000,
+      "balance": 45000,
+      "progress": 0.3076923076923077,
+      "stockpile": 24600,
       "time": "14:00",
       "remarks": "FL ONBOARD PULL OUT",
       "equipment": "FL 2",
-      "activity_time": "00:31"
+      "activity_time": "00:38"
     },
     {
       "berth": "Berth 2",
@@ -67,14 +67,14 @@
       "voyage": 9,
       "booking": 40000,
       "dispatch": 8000,
-      "loaded": 0,
-      "balance": 40000,
-      "progress": 0,
-      "stockpile": 8000,
+      "loaded": 1000,
+      "balance": 39000,
+      "progress": 0.025,
+      "stockpile": 7000,
       "time": "13:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:31"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "07:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "07:31"
+      "activity_time": "07:38"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "11:23",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "03:08"
+      "activity_time": "03:15"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "14:31"
+      "activity_time": "14:38"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:00",
       "remarks": "SECURED @ BERTH 9",
       "equipment": "0",
-      "activity_time": "00:31"
+      "activity_time": "00:38"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:37",
       "remarks": "LOADING SLING S45",
       "equipment": "FL 3",
-      "activity_time": "00:54"
+      "activity_time": "01:01"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 156000,
     "dispatch": 82500,
-    "loaded": 44500,
-    "balance": 111500,
-    "progress": 0.32,
-    "stockpile": 38000
+    "loaded": 46500,
+    "balance": 109500,
+    "progress": 0.3300961538461539,
+    "stockpile": 36000
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "14:31"
+      "activity_time": "14:38"
     }
   ],
   "foreign": {
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1465500
+      "y2026": 1467500
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13304810
+    "y2026": 13306810
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 10600
+      "qty": 12600
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 35500
+      "volume": 34500
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "UCES",
