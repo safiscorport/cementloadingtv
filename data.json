@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T14:39:33+08:00",
+  "updated_at": "2026-10-01T14:39:46+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -132,7 +132,7 @@
       "progress": 0.18,
       "stockpile": 400,
       "time": "14:00",
-      "remarks": "SECURED @ BERTH 9",
+      "remarks": "WAITING MATERIAL SLING",
       "equipment": "0",
       "activity_time": "00:39"
     },
