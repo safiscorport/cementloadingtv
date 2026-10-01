@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T08:18:53+08:00",
+  "updated_at": "2026-10-01T08:19:06+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -148,7 +148,7 @@
       "stockpile": 5000,
       "time": "07:00",
       "remarks": "KY TOOLBOX",
-      "equipment": "0",
+      "equipment": "FL 3",
       "activity_time": "01:18"
     },
     {
@@ -163,7 +163,7 @@
       "stockpile": 4000,
       "time": "07:00",
       "remarks": "KY TOOLBOX",
-      "equipment": "FL 3",
+      "equipment": "0",
       "activity_time": "01:18"
     }
   ],
