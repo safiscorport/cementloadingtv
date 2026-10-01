@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T12:05:39+08:00",
+  "updated_at": "2026-10-01T12:06:02+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -96,10 +96,10 @@
       "vessel": "LADY ARMOR",
       "voyage": 7,
       "booking": 17000,
-      "dispatch": 17000,
-      "loaded": 17400,
-      "balance": -400,
-      "progress": 1.0235294117647058,
+      "dispatch": 16600,
+      "loaded": 17000,
+      "balance": 0,
+      "progress": 1,
       "stockpile": -400,
       "time": "07:00",
       "remarks": "LOADING COMPLETE",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 198000,
-    "dispatch": 120500,
-    "loaded": 86900,
-    "balance": 111100,
-    "progress": 0.5483446455505279,
+    "dispatch": 120100,
+    "loaded": 86500,
+    "balance": 111500,
+    "progress": 0.5444230769230769,
     "stockpile": 33600
   },
   "alpha": [
@@ -228,7 +228,7 @@
   "trucking": [
     {
       "hauler": "SAFISCOR",
-      "august": 1048550,
+      "august": 1048150,
       "september": 12000,
       "daily": 12000
     },
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1465900
+      "y2026": 1465500
     },
     {
       "month": "October",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13305610
+    "y2026": 13305210
   },
   "daily_production": [
     {
