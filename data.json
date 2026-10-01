@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T07:29:43+08:00",
+  "updated_at": "2026-10-02T07:31:45+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "04:21",
       "remarks": "JOHANNAH 7",
       "equipment": "FL 2",
-      "activity_time": "03:07"
+      "activity_time": "03:10"
     },
     {
       "berth": "Berth 2",
@@ -89,7 +89,7 @@
       "time": "07:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0,
       "stockpile": 0,
       "time": "15:00",
-      "remarks": "LADY ARMOR",
+      "remarks": "STAR SOGOD",
       "equipment": "0",
-      "activity_time": "16:28"
+      "activity_time": "16:31"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "07:28"
+      "activity_time": "07:31"
     },
     {
       "berth": "Berth 9",
@@ -132,9 +132,9 @@
       "progress": 0.196,
       "stockpile": 0,
       "time": "05:00",
-      "remarks": "LADY OF COURAGE",
+      "remarks": "STAR DINAGAT",
       "equipment": "0",
-      "activity_time": "02:28"
+      "activity_time": "02:31"
     },
     {
       "berth": "Berth 10",
@@ -147,9 +147,9 @@
       "progress": 0.9807692307692307,
       "stockpile": 0,
       "time": "20:51",
-      "remarks": "NAPOLI",
+      "remarks": "NIEVES",
       "equipment": "FL 3",
-      "activity_time": "10:37"
+      "activity_time": "10:40"
     },
     {
       "berth": "Jetty",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "07:28"
+      "activity_time": "07:31"
     }
   ],
   "foreign": {
