@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-01T08:29:03+08:00",
+  "updated_at": "2026-10-01T08:31:57+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "JOHANNAH 7",
       "voyage": 6,
       "booking": 65000,
-      "dispatch": 35100,
+      "dispatch": 36100,
       "loaded": 19000,
       "balance": 46000,
       "progress": 0.2923076923076923,
-      "stockpile": 16100,
+      "stockpile": 17100,
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "01:28"
+      "activity_time": "01:31"
     },
     {
       "berth": "Berth 2",
@@ -81,30 +81,30 @@
       "vessel": "STAR DINAGAT",
       "voyage": 5,
       "booking": 25000,
-      "dispatch": 4500,
+      "dispatch": 4900,
       "loaded": 4500,
       "balance": 20500,
       "progress": 0.18,
-      "stockpile": 0,
+      "stockpile": 400,
       "time": "08:00",
       "remarks": "UNSAFE TO LOAD",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 7",
       "vessel": "LADY ARMOR",
       "voyage": 7,
       "booking": 17000,
-      "dispatch": 15400,
+      "dispatch": 16000,
       "loaded": 12400,
       "balance": 4600,
       "progress": 0.7294117647058823,
-      "stockpile": 3000,
+      "stockpile": 3600,
       "time": "14:20",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 2",
-      "activity_time": "18:08"
+      "activity_time": "18:11"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "08:28"
+      "activity_time": "08:31"
     },
     {
       "berth": "Berth 9",
@@ -134,22 +134,22 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:28"
+      "activity_time": "01:31"
     },
     {
       "berth": "Berth 10",
       "vessel": "NAPOLI",
       "voyage": 11,
       "booking": 26000,
-      "dispatch": 21000,
+      "dispatch": 22000,
       "loaded": 16000,
       "balance": 10000,
       "progress": 0.6153846153846154,
-      "stockpile": 5000,
+      "stockpile": 6000,
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 3",
-      "activity_time": "01:28"
+      "activity_time": "01:31"
     },
     {
       "berth": "Jetty",
@@ -164,16 +164,16 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:28"
+      "activity_time": "01:31"
     }
   ],
   "total": {
     "booking": 295000,
-    "dispatch": 203000,
+    "dispatch": 206000,
     "loaded": 173900,
     "balance": 121100,
     "progress": 0.6446782302664656,
-    "stockpile": 29100
+    "stockpile": 32100
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "08:28"
+      "activity_time": "08:31"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1048550,
-      "september": "-",
-      "daily": "-"
+      "september": 3000,
+      "daily": 3000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 26100
+      "volume": 29100
     },
     {
       "client": "LAPU-LAPU",
