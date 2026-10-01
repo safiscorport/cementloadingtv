@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T08:18:10+08:00",
+  "updated_at": "2026-10-01T08:18:53+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -13,7 +13,7 @@
       "stockpile": 16100,
       "time": "07:00",
       "remarks": "KY TOOLBOX",
-      "equipment": "0",
+      "equipment": "FL 2",
       "activity_time": "01:18"
     },
     {
@@ -43,7 +43,7 @@
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
-      "equipment": "0",
+      "equipment": "CRANE 4",
       "activity_time": "00:00"
     },
     {
@@ -103,7 +103,7 @@
       "stockpile": 3000,
       "time": "14:20",
       "remarks": "KY TOOLBOX",
-      "equipment": "0",
+      "equipment": "CRANE 2",
       "activity_time": "17:58"
     },
     {
@@ -163,7 +163,7 @@
       "stockpile": 4000,
       "time": "07:00",
       "remarks": "KY TOOLBOX",
-      "equipment": "0",
+      "equipment": "FL 3",
       "activity_time": "01:18"
     }
   ],
