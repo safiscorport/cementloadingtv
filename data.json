@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T14:16:33+08:00",
+  "updated_at": "2026-10-01T14:17:07+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 46000,
       "progress": 0.2923076923076923,
       "stockpile": 25600,
-      "time": "13:30",
-      "remarks": "OPENING HATCH",
+      "time": "14:00",
+      "remarks": "FL ONBOARD PULL OUT",
       "equipment": "FL 2",
-      "activity_time": "00:46"
+      "activity_time": "00:16"
     },
     {
       "berth": "Berth 2",
