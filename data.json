@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T17:15:41+08:00",
+  "updated_at": "2026-10-01T17:16:04+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -67,10 +67,10 @@
       "voyage": 9,
       "booking": 40000,
       "dispatch": 13000,
-      "loaded": 3000,
-      "balance": 37000,
-      "progress": 0.075,
-      "stockpile": 10000,
+      "loaded": 4000,
+      "balance": 36000,
+      "progress": 0.1,
+      "stockpile": 9000,
       "time": "16:35",
       "remarks": "LOADING SLING B5",
       "equipment": "0",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 156000,
     "dispatch": 88000,
-    "loaded": 54900,
-    "balance": 101100,
-    "progress": 0.3840961538461538,
-    "stockpile": 33100
+    "loaded": 55900,
+    "balance": 100100,
+    "progress": 0.3903461538461539,
+    "stockpile": 32100
   },
   "alpha": [
     {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 7000
+      "y2026": 8000
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13315710
+    "y2026": 13316710
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 21500
+      "qty": 22500
     },
     {
       "shift": "2ND SHIFT",
@@ -356,7 +356,7 @@
     },
     {
       "client": "BADIE",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "GEO",
