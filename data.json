@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T15:00:36+08:00",
+  "updated_at": "2026-10-01T15:01:19+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -141,10 +141,10 @@
       "vessel": "NAPOLI",
       "voyage": 11,
       "booking": 26000,
-      "dispatch": 26000,
-      "loaded": 23000,
-      "balance": 3000,
-      "progress": 0.8846153846153846,
+      "dispatch": 25500,
+      "loaded": 22500,
+      "balance": 3500,
+      "progress": 0.8653846153846154,
       "stockpile": 3000,
       "time": "14:39",
       "remarks": "LOADING SLING S30",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 156000,
-    "dispatch": 83500,
-    "loaded": 48500,
-    "balance": 107500,
-    "progress": 0.3493269230769231,
+    "dispatch": 83000,
+    "loaded": 48000,
+    "balance": 108000,
+    "progress": 0.3445192307692308,
     "stockpile": 35000
   },
   "alpha": [
@@ -228,7 +228,7 @@
   "trucking": [
     {
       "hauler": "SAFISCOR",
-      "august": 1047150,
+      "august": 1046650,
       "september": 18000,
       "daily": 18000
     },
@@ -313,7 +313,7 @@
     {
       "month": "September",
       "y2025": 1333325,
-      "y2026": 1468500
+      "y2026": 1468000
     },
     {
       "month": "October",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13308810
+    "y2026": 13308310
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 14600
+      "qty": 14100
     },
     {
       "shift": "2ND SHIFT",
