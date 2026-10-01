@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T19:35:01+08:00",
+  "updated_at": "2026-10-01T19:48:31+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 38500,
       "progress": 0.4076923076923077,
       "stockpile": 21000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "19:36",
+      "remarks": "LOADING S56 SLING BAGS",
       "equipment": "FL 2",
-      "activity_time": "00:34"
+      "activity_time": "00:12"
     },
     {
       "berth": "Berth 2",
@@ -66,15 +66,15 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 9,
       "booking": 40000,
-      "dispatch": 16000,
+      "dispatch": 17000,
       "loaded": 6000,
       "balance": 34000,
       "progress": 0.15,
-      "stockpile": 10000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "stockpile": 11000,
+      "time": "19:30",
+      "remarks": "LOADING S37 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:34"
+      "activity_time": "00:18"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "07:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "12:34"
+      "activity_time": "12:48"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "15:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:34"
+      "activity_time": "04:48"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "19:34"
+      "activity_time": "19:48"
     },
     {
       "berth": "Berth 9",
@@ -132,9 +132,9 @@
       "progress": 0.196,
       "stockpile": 0,
       "time": "19:00",
-      "remarks": "LOADING TONNER A1",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:34"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 2500,
       "progress": 0.9038461538461539,
       "stockpile": 2000,
-      "time": "16:46",
-      "remarks": "LOADING TONNER A1",
+      "time": "19:41",
+      "remarks": "LOADING S32 TONNER BAGS",
       "equipment": "FL 3",
-      "activity_time": "02:48"
+      "activity_time": "00:07"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 156000,
-    "dispatch": 93900,
+    "dispatch": 94900,
     "loaded": 60900,
     "balance": 95100,
     "progress": 0.41438461538461535,
-    "stockpile": 33000
+    "stockpile": 34000
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "19:34"
+      "activity_time": "19:48"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 25000,
-      "daily": 25000
+      "september": 26000,
+      "daily": 26000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 31000
+      "volume": 32000
     },
     {
       "client": "LAPU-LAPU",
