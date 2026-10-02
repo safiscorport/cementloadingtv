@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T15:20:52+08:00",
+  "updated_at": "2026-10-02T15:22:43+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -74,7 +74,7 @@
       "time": "13:57",
       "remarks": "LOADING POUCH S32",
       "equipment": "CRANE 2",
-      "activity_time": "01:23"
+      "activity_time": "01:25"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "15:20"
+      "activity_time": "15:22"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "08:20"
+      "activity_time": "08:22"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "15:20"
+      "activity_time": "15:22"
     },
     {
       "berth": "Berth 9",
       "vessel": "STAR DINAGAT",
       "voyage": 5,
       "booking": 25000,
-      "dispatch": 8900,
+      "dispatch": 9900,
       "loaded": 4900,
       "balance": 20100,
       "progress": 0.196,
-      "stockpile": 4000,
+      "stockpile": 5000,
       "time": "13:00",
       "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "02:20"
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "08:20"
+      "activity_time": "08:22"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 130000,
-    "dispatch": 103900,
+    "dispatch": 104900,
     "loaded": 81400,
     "balance": 48600,
     "progress": 0.540974358974359,
-    "stockpile": 22500
+    "stockpile": 23500
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "15:20"
+      "activity_time": "15:22"
     }
   ],
   "foreign": {
@@ -265,8 +265,8 @@
     {
       "hauler": "FULACHE",
       "august": 21000,
-      "september": 3000,
-      "daily": 1000
+      "september": 4000,
+      "daily": 2000
     }
   ],
   "monthly": [
@@ -372,7 +372,7 @@
     },
     {
       "client": "FULACHE",
-      "volume": "-"
+      "volume": 1000
     }
   ],
   "status": {
