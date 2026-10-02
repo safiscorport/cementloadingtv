@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T13:45:30+08:00",
+  "updated_at": "2026-10-02T14:39:55+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 16500,
       "progress": 0.7461538461538462,
       "stockpile": 5000,
-      "time": "13:00",
-      "remarks": "VESSEL  CLOSE",
+      "time": "14:00",
+      "remarks": "LOADING TONNER",
       "equipment": "CRANE 4",
-      "activity_time": "00:44"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 2",
@@ -66,15 +66,15 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 9,
       "booking": 40000,
-      "dispatch": 35000,
+      "dispatch": 36000,
       "loaded": 24000,
       "balance": 16000,
       "progress": 0.6,
-      "stockpile": 11000,
+      "stockpile": 12000,
       "time": "13:00",
       "remarks": "LOADING POUCH",
       "equipment": "CRANE 2",
-      "activity_time": "00:44"
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "13:44"
+      "activity_time": "14:39"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "06:44"
+      "activity_time": "07:39"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "13:44"
+      "activity_time": "14:39"
     },
     {
       "berth": "Berth 9",
       "vessel": "STAR DINAGAT",
       "voyage": 5,
       "booking": 25000,
-      "dispatch": 7900,
+      "dispatch": 8900,
       "loaded": 4900,
       "balance": 20100,
       "progress": 0.196,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "13:00",
       "remarks": "VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "00:44"
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "06:44"
+      "activity_time": "07:39"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 130000,
-    "dispatch": 96400,
+    "dispatch": 98400,
     "loaded": 77400,
     "balance": 52600,
     "progress": 0.514051282051282,
-    "stockpile": 19000
+    "stockpile": 21000
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "13:44"
+      "activity_time": "14:39"
     }
   ],
   "foreign": {
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 148200,
-      "september": 7000,
-      "daily": 4000
+      "september": 9000,
+      "daily": 6000
     },
     {
       "hauler": "UCES",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 1000
+      "volume": 3000
     },
     {
       "client": "UCES",
