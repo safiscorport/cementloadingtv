@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-03T07:28:20+08:00",
+  "updated_at": "2026-10-03T07:33:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
-      "vessel": "JOHANNAH 7",
-      "voyage": 6,
-      "booking": 65000,
-      "dispatch": 65000,
-      "loaded": 65000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "05:45",
       "remarks": "COMPLETE LOADING B7",
       "equipment": "CRANE 4",
-      "activity_time": "01:43"
+      "activity_time": "01:47"
     },
     {
       "berth": "Berth 2",
@@ -63,18 +63,18 @@
     },
     {
       "berth": "Berth 5",
-      "vessel": "QUEEN CAROLYN",
-      "voyage": 9,
-      "booking": 40000,
-      "dispatch": 40000,
-      "loaded": 40000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "02:13",
       "remarks": "COMPLETE LOADING S10",
       "equipment": "CRANE 2",
-      "activity_time": "05:15"
+      "activity_time": "05:19"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "07:28"
+      "activity_time": "07:32"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "00:28"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "07:28"
+      "activity_time": "07:32"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "06:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:28"
+      "activity_time": "01:32"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "05:20",
       "remarks": "LOADING S5 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:08"
+      "activity_time": "02:12"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 158000,
-    "dispatch": 141400,
-    "loaded": 134400,
+    "booking": 53000,
+    "dispatch": 36400,
+    "loaded": 29400,
     "balance": 23600,
-    "progress": 0.7816785714285714,
+    "progress": 0.5633571428571429,
     "stockpile": 7000
   },
   "alpha": [
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "07:28"
+      "activity_time": "07:32"
     }
   ],
   "foreign": {
