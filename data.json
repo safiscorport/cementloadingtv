@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-02T17:59:48+08:00",
+  "updated_at": "2026-10-02T19:31:36+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "JOHANNAH 7",
       "voyage": 6,
       "booking": 65000,
-      "dispatch": 57500,
+      "dispatch": 59500,
       "loaded": 56500,
       "balance": 8500,
       "progress": 0.8692307692307693,
-      "stockpile": 1000,
-      "time": "17:07",
-      "remarks": "LOADING TONNER S35",
+      "stockpile": 3000,
+      "time": "19:20",
+      "remarks": "LOADING S37 TONNER BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "00:52"
+      "activity_time": "00:11"
     },
     {
       "berth": "Berth 2",
@@ -71,10 +71,10 @@
       "balance": 12000,
       "progress": 0.7,
       "stockpile": 10000,
-      "time": "17:11",
-      "remarks": "LOADING POUCH GEO 4",
+      "time": "19:24",
+      "remarks": "LOADING S43 SLING BAGS",
       "equipment": "CRANE 2",
-      "activity_time": "00:48"
+      "activity_time": "00:07"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:59"
+      "activity_time": "19:31"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "10:59"
+      "activity_time": "12:31"
     },
     {
       "berth": "Berth 8",
@@ -119,37 +119,37 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:59"
+      "activity_time": "19:31"
     },
     {
       "berth": "Berth 9",
       "vessel": "STAR DINAGAT",
       "voyage": 5,
       "booking": 25000,
-      "dispatch": 11900,
+      "dispatch": 12900,
       "loaded": 8900,
       "balance": 16100,
       "progress": 0.356,
-      "stockpile": 3000,
-      "time": "16:54",
-      "remarks": "LOADING TONNER GEO 6",
+      "stockpile": 4000,
+      "time": "19:30",
+      "remarks": "LOADING S29 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:05"
+      "activity_time": "00:01"
     },
     {
       "berth": "Berth 10",
       "vessel": "NIEVES",
       "voyage": 3,
       "booking": 28000,
-      "dispatch": 2500,
+      "dispatch": 3500,
       "loaded": 1500,
       "balance": 26500,
       "progress": 0.05357142857142857,
-      "stockpile": 1000,
-      "time": "16:21",
-      "remarks": "WAITING MATERIAL",
+      "stockpile": 2000,
+      "time": "19:26",
+      "remarks": "LOADING S53 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:38"
+      "activity_time": "00:05"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 158000,
-    "dispatch": 109900,
+    "dispatch": 113900,
     "loaded": 94900,
     "balance": 63100,
     "progress": 0.4947005494505495,
-    "stockpile": 15000
+    "stockpile": 19000
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "17:59"
+      "activity_time": "19:31"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 52500,
-      "daily": 23500
+      "september": 55500,
+      "daily": 26500
     },
     {
       "hauler": "LAPU-LAPU",
@@ -241,8 +241,8 @@
     {
       "hauler": "BADIE",
       "august": 39000,
-      "september": 3000,
-      "daily": 2000
+      "september": 4000,
+      "daily": 3000
     },
     {
       "hauler": "GEO",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 14000
+      "volume": 17000
     },
     {
       "client": "LAPU-LAPU",
@@ -356,7 +356,7 @@
     },
     {
       "client": "BADIE",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "GEO",
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "CANOY/OBIAL/DALUSA",
-    "pmc": "JOAN/WILLIAM",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "TORRES, J",
+    "pmc": "VICKY/EBOY",
     "cranes": 3,
     "forklifts": 6,
-    "stevedores": 46
+    "stevedores": 44
   }
 }
