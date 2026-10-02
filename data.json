@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-03T04:39:07+08:00",
+  "updated_at": "2026-10-03T06:06:40+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "JOHANNAH 7",
       "voyage": 6,
       "booking": 65000,
-      "dispatch": 63500,
-      "loaded": 62500,
-      "balance": 2500,
-      "progress": 0.9615384615384616,
-      "stockpile": 1000,
+      "dispatch": 65500,
+      "loaded": 65500,
+      "balance": -500,
+      "progress": 1.0076923076923077,
+      "stockpile": 0,
       "time": "01:02",
       "remarks": "LOADING S17 TONNER BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "03:36"
+      "activity_time": "05:03"
     },
     {
       "berth": "Berth 2",
@@ -74,7 +74,7 @@
       "time": "02:13",
       "remarks": "COMPLETE LOADING S10",
       "equipment": "CRANE 2",
-      "activity_time": "02:25"
+      "activity_time": "03:52"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "04:38"
+      "activity_time": "06:05"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "21:38"
+      "activity_time": "23:05"
     },
     {
       "berth": "Berth 8",
@@ -119,37 +119,37 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "04:38"
+      "activity_time": "06:05"
     },
     {
       "berth": "Berth 9",
       "vessel": "STAR DINAGAT",
       "voyage": 5,
       "booking": 25000,
-      "dispatch": 16900,
-      "loaded": 16900,
-      "balance": 8100,
-      "progress": 0.676,
+      "dispatch": 17900,
+      "loaded": 17900,
+      "balance": 7100,
+      "progress": 0.716,
       "stockpile": 0,
       "time": "01:24",
       "remarks": "LOADING S7 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "03:14"
+      "activity_time": "04:41"
     },
     {
       "berth": "Berth 10",
       "vessel": "NIEVES",
       "voyage": 3,
       "booking": 28000,
-      "dispatch": 16500,
-      "loaded": 9500,
-      "balance": 18500,
-      "progress": 0.3392857142857143,
+      "dispatch": 18500,
+      "loaded": 11500,
+      "balance": 16500,
+      "progress": 0.4107142857142857,
       "stockpile": 7000,
-      "time": "04:03",
-      "remarks": "LOADING S57 SLING BAGS",
+      "time": "05:20",
+      "remarks": "LOADING S5 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:35"
+      "activity_time": "00:45"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 158000,
-    "dispatch": 136900,
-    "loaded": 128900,
-    "balance": 29100,
-    "progress": 0.7442060439560441,
-    "stockpile": 8000
+    "dispatch": 141900,
+    "loaded": 134900,
+    "balance": 23100,
+    "progress": 0.7836016483516484,
+    "stockpile": 7000
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "04:38"
+      "activity_time": "06:05"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 73500,
-      "daily": 44500
+      "september": 76500,
+      "daily": 47500
     },
     {
       "hauler": "LAPU-LAPU",
@@ -241,14 +241,14 @@
     {
       "hauler": "BADIE",
       "august": 39000,
-      "september": 5000,
-      "daily": 4000
+      "september": 6000,
+      "daily": 5000
     },
     {
       "hauler": "GEO",
       "august": 148200,
-      "september": 13000,
-      "daily": 10000
+      "september": 14000,
+      "daily": 11000
     },
     {
       "hauler": "UCES",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 91500
+      "y2026": 97500
     },
     {
       "month": "November",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13415210
+    "y2026": 13421210
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 33000
+      "qty": 39000
     }
   ],
   "trucking_stockpile": [
@@ -356,7 +356,7 @@
     },
     {
       "client": "BADIE",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "GEO",
