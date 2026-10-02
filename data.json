@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T10:20:30+08:00",
+  "updated_at": "2026-10-02T10:21:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -66,10 +66,10 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 9,
       "booking": 40000,
-      "dispatch": 26000,
-      "loaded": 19000,
-      "balance": 21000,
-      "progress": 0.475,
+      "dispatch": 27000,
+      "loaded": 20000,
+      "balance": 20000,
+      "progress": 0.5,
       "stockpile": 7000,
       "time": "09:34",
       "remarks": "LOADING POUCH GEO 2",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 130000,
-    "dispatch": 80400,
-    "loaded": 68400,
-    "balance": 61600,
-    "progress": 0.4518717948717948,
+    "dispatch": 81400,
+    "loaded": 69400,
+    "balance": 60600,
+    "progress": 0.4602051282051282,
     "stockpile": 12000
   },
   "alpha": [
@@ -247,7 +247,7 @@
     {
       "hauler": "GEO",
       "august": 148200,
-      "september": 4000,
+      "september": 5000,
       "daily": "-"
     },
     {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 32000
+      "y2026": 33000
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13354710
+    "y2026": 13355710
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 5000
+      "qty": 6000
     },
     {
       "shift": "2ND SHIFT",
