@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T08:21:12+08:00",
+  "updated_at": "2026-10-03T08:21:45+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -48,8 +48,8 @@
     },
     {
       "berth": "Berth 4",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "LADY OF REMEDY",
+      "voyage": 10,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
