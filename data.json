@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T17:22:28+08:00",
+  "updated_at": "2026-10-03T17:27:08+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "09:21"
+      "activity_time": "09:26"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "17:00",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "FL 3",
-      "activity_time": "00:21"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:21"
+      "activity_time": "17:26"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "15:36",
       "remarks": "LOADING TONNER S35",
       "equipment": "FL 1",
-      "activity_time": "01:45"
+      "activity_time": "01:50"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 20000,
       "progress": 0.13043478260869565,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "17:11",
+      "remarks": "WAITING DELIVERY PORTLAND",
       "equipment": "0",
-      "activity_time": "17:21"
+      "activity_time": "00:15"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:39",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "02:42"
+      "activity_time": "02:47"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "16:25",
       "remarks": "LOADING SLING GEO 5",
       "equipment": "FL 2",
-      "activity_time": "00:56"
+      "activity_time": "01:01"
     },
     {
       "berth": "Jetty",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "17:21"
+      "activity_time": "17:26"
     }
   ],
   "foreign": {
