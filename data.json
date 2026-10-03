@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T15:48:41+08:00",
+  "updated_at": "2026-10-03T15:53:36+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "07:48"
+      "activity_time": "07:52"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "14:00",
       "remarks": "WAITING GEO / VESSEL CLOSE",
       "equipment": "0",
-      "activity_time": "01:48"
+      "activity_time": "01:52"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "15:48"
+      "activity_time": "15:52"
     },
     {
       "berth": "Berth 7",
@@ -104,22 +104,22 @@
       "time": "08:30",
       "remarks": "RESUME LOADING TONNER S28",
       "equipment": "0",
-      "activity_time": "07:18"
+      "activity_time": "07:22"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF ROSARY",
       "voyage": 8,
-      "booking": 0,
+      "booking": 23000,
       "dispatch": 7000,
       "loaded": 1000,
-      "balance": -1000,
-      "progress": 0,
+      "balance": 22000,
+      "progress": 0.043478260869565216,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "15:48"
+      "activity_time": "15:52"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:15",
       "remarks": "LOADING TONNER S56",
       "equipment": "0",
-      "activity_time": "01:33"
+      "activity_time": "01:37"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "0",
-      "activity_time": "02:48"
+      "activity_time": "02:52"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 89300,
+    "booking": 112300,
     "dispatch": 57900,
     "loaded": 38400,
-    "balance": 50900,
-    "progress": 0.3731090944574551,
+    "balance": 73900,
+    "progress": 0.30718292773987715,
     "stockpile": 13500
   },
   "alpha": [
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "15:48"
+      "activity_time": "15:52"
     }
   ],
   "foreign": {
