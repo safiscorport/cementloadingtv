@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T17:21:09+08:00",
+  "updated_at": "2026-10-03T17:22:28+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,22 +59,22 @@
       "time": "08:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "09:20"
+      "activity_time": "09:21"
     },
     {
       "berth": "Berth 5",
       "vessel": "STAR ILIGAN",
       "voyage": 10,
       "booking": 18000,
-      "dispatch": 2000,
+      "dispatch": 3000,
       "loaded": 1000,
       "balance": 17000,
       "progress": 0.05555555555555555,
-      "stockpile": 1000,
+      "stockpile": 2000,
       "time": "17:00",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "FL 3",
-      "activity_time": "00:20"
+      "activity_time": "00:21"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:20"
+      "activity_time": "17:21"
     },
     {
       "berth": "Berth 7",
@@ -97,14 +97,14 @@
       "voyage": 10,
       "booking": 18300,
       "dispatch": 9000,
-      "loaded": 5000,
-      "balance": 13300,
-      "progress": 0.273224043715847,
-      "stockpile": 4000,
+      "loaded": 6000,
+      "balance": 12300,
+      "progress": 0.32786885245901637,
+      "stockpile": 3000,
       "time": "15:36",
       "remarks": "LOADING TONNER S35",
       "equipment": "FL 1",
-      "activity_time": "01:44"
+      "activity_time": "01:45"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:20"
+      "activity_time": "17:21"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:39",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "02:41"
+      "activity_time": "02:42"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "16:25",
       "remarks": "LOADING SLING GEO 5",
       "equipment": "FL 2",
-      "activity_time": "00:55"
+      "activity_time": "00:56"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 112300,
-    "dispatch": 60900,
-    "loaded": 46400,
-    "balance": 65900,
-    "progress": 0.37518573351887674,
+    "dispatch": 61900,
+    "loaded": 47400,
+    "balance": 64900,
+    "progress": 0.38611469526751063,
     "stockpile": 9500
   },
   "alpha": [
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "17:20"
+      "activity_time": "17:21"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 114000
+      "y2026": 115000
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13437710
+    "y2026": 13438710
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 17000
+      "qty": 18000
     },
     {
       "shift": "2ND SHIFT",
