@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T06:35:00+08:00",
+  "updated_at": "2026-10-04T07:10:32+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "11:34"
+      "activity_time": "12:09"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 8000,
       "progress": 0.5555555555555556,
       "stockpile": 0,
-      "time": "05:21",
+      "time": "00:00",
       "remarks": "LOADING S34 TONNER BAGS",
       "equipment": "FL 3",
-      "activity_time": "01:13"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 6",
@@ -89,22 +89,22 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "06:34"
+      "activity_time": "07:09"
     },
     {
       "berth": "Berth 7",
       "vessel": "STAR SOGOD",
       "voyage": 10,
       "booking": 18300,
-      "dispatch": 18000,
-      "loaded": 18000,
-      "balance": 300,
-      "progress": 0.9836065573770492,
+      "dispatch": 18050,
+      "loaded": 18050,
+      "balance": 250,
+      "progress": 0.9863387978142076,
       "stockpile": 0,
       "time": "15:36",
       "remarks": "LOADING S55 TONNER BAGS",
       "equipment": "FL 1",
-      "activity_time": "14:58"
+      "activity_time": "15:33"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "17:11",
       "remarks": "WAITING DELIVERY PORTLAND",
       "equipment": "0",
-      "activity_time": "13:23"
+      "activity_time": "13:58"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "05:00",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "01:34"
+      "activity_time": "02:09"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "05:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "01:34"
+      "activity_time": "02:09"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 112300,
-    "dispatch": 77400,
-    "loaded": 72400,
-    "balance": 39900,
-    "progress": 0.6450572673070178,
+    "dispatch": 77450,
+    "loaded": 72450,
+    "balance": 39850,
+    "progress": 0.6456037153944495,
     "stockpile": 0
   },
   "alpha": [
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "06:34"
+      "activity_time": "07:09"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 140000
+      "y2026": 140050
     },
     {
       "month": "November",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13463710
+    "y2026": 13463760
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 25500
+      "qty": 25550
     }
   ],
   "trucking_stockpile": [
