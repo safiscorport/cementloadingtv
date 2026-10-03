@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T08:22:34+08:00",
+  "updated_at": "2026-10-03T08:25:16+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -63,8 +63,8 @@
     },
     {
       "berth": "Berth 5",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "STAR ILIGAN",
+      "voyage": 10,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -72,7 +72,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "STAR ILIGAN",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -89,22 +89,22 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "08:21"
+      "activity_time": "08:24"
     },
     {
       "berth": "Berth 7",
       "vessel": "STAR SOGOD",
       "voyage": 10,
-      "booking": 0,
+      "booking": 18300,
       "dispatch": 2000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 18300,
       "progress": 0,
       "stockpile": 2000,
       "time": "07:00",
       "remarks": "OPENING HATCH",
       "equipment": "0",
-      "activity_time": "01:21"
+      "activity_time": "01:24"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "08:21"
+      "activity_time": "08:24"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:21"
+      "activity_time": "01:24"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:21"
+      "activity_time": "01:24"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 53000,
+    "booking": 71300,
     "dispatch": 38900,
     "loaded": 29400,
-    "balance": 23600,
-    "progress": 0.5633571428571429,
+    "balance": 41900,
+    "progress": 0.3755714285714286,
     "stockpile": 9500
   },
   "alpha": [
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "08:21"
+      "activity_time": "08:24"
     }
   ],
   "foreign": {
