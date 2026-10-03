@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T17:17:24+08:00",
+  "updated_at": "2026-10-03T17:18:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "09:16"
+      "activity_time": "09:17"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "17:00",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "FL 3",
-      "activity_time": "00:16"
+      "activity_time": "00:17"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:16"
+      "activity_time": "17:17"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "15:36",
       "remarks": "LOADING TONNER B7",
       "equipment": "FL 1",
-      "activity_time": "01:40"
+      "activity_time": "01:41"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 8,
       "booking": 23000,
       "dispatch": 8000,
-      "loaded": 2000,
-      "balance": 21000,
-      "progress": 0.08695652173913043,
+      "loaded": 3000,
+      "balance": 20000,
+      "progress": 0.13043478260869565,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:16"
+      "activity_time": "17:17"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:39",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "02:37"
+      "activity_time": "02:38"
     },
     {
       "berth": "Berth 10",
@@ -142,14 +142,14 @@
       "voyage": 3,
       "booking": 28000,
       "dispatch": 23000,
-      "loaded": 16500,
-      "balance": 11500,
-      "progress": 0.5892857142857143,
-      "stockpile": 6500,
+      "loaded": 18500,
+      "balance": 9500,
+      "progress": 0.6607142857142857,
+      "stockpile": 4500,
       "time": "16:25",
       "remarks": "LOADING SLING GEO 5",
       "equipment": "FL 2",
-      "activity_time": "00:51"
+      "activity_time": "00:52"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 112300,
     "dispatch": 60900,
-    "loaded": 43400,
-    "balance": 68900,
-    "progress": 0.35220436705924946,
-    "stockpile": 11500
+    "loaded": 46400,
+    "balance": 65900,
+    "progress": 0.37518573351887674,
+    "stockpile": 9500
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "17:16"
+      "activity_time": "17:17"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 111000
+      "y2026": 114000
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13434710
+    "y2026": 13437710
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 14000
+      "qty": 17000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 3500
+      "volume": 1500
     },
     {
       "client": "LAPU-LAPU",
