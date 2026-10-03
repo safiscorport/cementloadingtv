@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T17:05:12+08:00",
+  "updated_at": "2026-10-03T17:05:43+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "09:04"
+      "activity_time": "09:05"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "15:30",
       "remarks": "COMMENCE LOADING GEO 1",
       "equipment": "FL 3",
-      "activity_time": "01:34"
+      "activity_time": "01:35"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:04"
+      "activity_time": "17:05"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "15:36",
       "remarks": "LOADING TONNER B7",
       "equipment": "FL 1",
-      "activity_time": "01:28"
+      "activity_time": "01:29"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 8,
       "booking": 23000,
       "dispatch": 8000,
-      "loaded": 1000,
-      "balance": 22000,
-      "progress": 0.043478260869565216,
+      "loaded": 2000,
+      "balance": 21000,
+      "progress": 0.08695652173913043,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:04"
+      "activity_time": "17:05"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:39",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "02:25"
+      "activity_time": "02:26"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "FL 2",
-      "activity_time": "04:04"
+      "activity_time": "04:05"
     },
     {
       "berth": "Jetty",
@@ -170,9 +170,9 @@
   "total": {
     "booking": 112300,
     "dispatch": 60900,
-    "loaded": 40400,
-    "balance": 71900,
-    "progress": 0.3292230005996221,
+    "loaded": 41400,
+    "balance": 70900,
+    "progress": 0.3379186527735352,
     "stockpile": 13500
   },
   "alpha": [
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "17:04"
+      "activity_time": "17:05"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 108000
+      "y2026": 109000
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13431710
+    "y2026": 13432710
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 11000
+      "qty": 12000
     },
     {
       "shift": "2ND SHIFT",
