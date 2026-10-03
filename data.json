@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T17:27:08+08:00",
+  "updated_at": "2026-10-03T17:36:21+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "09:26"
+      "activity_time": "09:35"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "17:00",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "FL 3",
-      "activity_time": "00:26"
+      "activity_time": "00:35"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:26"
+      "activity_time": "17:35"
     },
     {
       "berth": "Berth 7",
@@ -104,22 +104,22 @@
       "time": "15:36",
       "remarks": "LOADING TONNER S35",
       "equipment": "FL 1",
-      "activity_time": "01:50"
+      "activity_time": "01:59"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF ROSARY",
       "voyage": 8,
       "booking": 23000,
-      "dispatch": 8000,
-      "loaded": 3000,
-      "balance": 20000,
-      "progress": 0.13043478260869565,
+      "dispatch": 7500,
+      "loaded": 2500,
+      "balance": 20500,
+      "progress": 0.10869565217391304,
       "stockpile": 0,
       "time": "17:11",
       "remarks": "WAITING DELIVERY PORTLAND",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "00:24"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:39",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "02:47"
+      "activity_time": "02:56"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "16:25",
       "remarks": "LOADING SLING GEO 5",
       "equipment": "FL 2",
-      "activity_time": "01:01"
+      "activity_time": "01:10"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 112300,
-    "dispatch": 61900,
-    "loaded": 47400,
-    "balance": 64900,
-    "progress": 0.38611469526751063,
+    "dispatch": 61400,
+    "loaded": 46900,
+    "balance": 65400,
+    "progress": 0.38176686918055414,
     "stockpile": 9500
   },
   "alpha": [
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "17:26"
+      "activity_time": "17:35"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 115000
+      "y2026": 114500
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13438710
+    "y2026": 13438210
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 18000
+      "qty": 17500
     },
     {
       "shift": "2ND SHIFT",
