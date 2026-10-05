@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T19:24:56+08:00",
+  "updated_at": "2026-10-05T19:25:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -116,10 +116,10 @@
       "balance": 20500,
       "progress": 0.10869565217391304,
       "stockpile": 0,
-      "time": "17:11",
-      "remarks": "WAITING DELIVERY PORTLAND",
+      "time": "19:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:13"
+      "activity_time": "00:24"
     },
     {
       "berth": "Berth 9",
