@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T19:25:26+08:00",
+  "updated_at": "2026-10-05T20:25:17+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "15:15",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "04:09"
+      "activity_time": "05:09"
     },
     {
       "berth": "Berth 2",
@@ -44,52 +44,52 @@
       "time": "08:30",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "10:54"
+      "activity_time": "11:54"
     },
     {
       "berth": "Berth 4",
       "vessel": "LADY OF REMEDY",
       "voyage": 10,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 2000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 2000,
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:24"
+      "activity_time": "01:24"
     },
     {
       "berth": "Berth 5",
       "vessel": "STAR ILIGAN",
       "voyage": 10,
       "booking": 18000,
-      "dispatch": 15000,
+      "dispatch": 17000,
       "loaded": 13000,
       "balance": 5000,
       "progress": 0.7222222222222222,
-      "stockpile": 2000,
+      "stockpile": 4000,
       "time": "19:00",
       "remarks": "VESSEL CLOSED / BAD WEATHER",
       "equipment": "FL 3",
-      "activity_time": "00:24"
+      "activity_time": "01:24"
     },
     {
       "berth": "Berth 6",
       "vessel": "EMERALD STAR",
       "voyage": 11,
       "booking": 0,
-      "dispatch": 1000,
+      "dispatch": 7000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 1000,
+      "stockpile": 7000,
       "time": "09:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "10:24"
+      "activity_time": "11:24"
     },
     {
       "berth": "Berth 7",
@@ -104,14 +104,14 @@
       "time": "11:10",
       "remarks": "DOCKED & SECURED",
       "equipment": "FL 1",
-      "activity_time": "08:14"
+      "activity_time": "09:14"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF ROSARY",
       "voyage": 8,
       "booking": 23000,
-      "dispatch": 7500,
+      "dispatch": 8500,
       "loaded": 2500,
       "balance": 20500,
       "progress": 0.10869565217391304,
@@ -119,22 +119,22 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:24"
+      "activity_time": "01:24"
     },
     {
       "berth": "Berth 9",
       "vessel": "STAR DINAGAT",
       "voyage": 5,
       "booking": 25000,
-      "dispatch": 18900,
+      "dispatch": 19900,
       "loaded": 18900,
       "balance": 6100,
       "progress": 0.756,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:24"
+      "activity_time": "01:24"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "00:24"
+      "activity_time": "01:24"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 94000,
-    "dispatch": 65400,
+    "dispatch": 77400,
     "loaded": 57400,
     "balance": 36600,
     "progress": 0.6020866114561767,
-    "stockpile": 3000
+    "stockpile": 14000
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "19:24"
+      "activity_time": "20:24"
     }
   ],
   "foreign": {
