@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T19:07:50+08:00",
+  "updated_at": "2026-10-05T19:15:55+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "15:15",
+      "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "04:00"
     },
     {
       "berth": "Berth 2",
@@ -42,9 +42,9 @@
       "progress": 0,
       "stockpile": 0,
       "time": "08:30",
-      "remarks": "-",
+      "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "10:37"
+      "activity_time": "10:45"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "13:00",
+      "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "06:07"
+      "activity_time": "00:15"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 5000,
       "progress": 0.7222222222222222,
       "stockpile": 2000,
-      "time": "11:05",
-      "remarks": "RESUME LOADING BB S45",
+      "time": "19:00",
+      "remarks": "VESSEL CLOSED / BAD WEATHER",
       "equipment": "FL 3",
-      "activity_time": "08:02"
+      "activity_time": "00:15"
     },
     {
       "berth": "Berth 6",
@@ -86,10 +86,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 1000,
-      "time": "00:00",
-      "remarks": "DOCK AND SECURE",
+      "time": "09:00",
+      "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "19:07"
+      "activity_time": "10:15"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0,
       "stockpile": 0,
       "time": "15:36",
-      "remarks": "LADY ARMOUR",
+      "remarks": "DOCKED & SECURED",
       "equipment": "FL 1",
-      "activity_time": "03:31"
+      "activity_time": "03:39"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "17:11",
       "remarks": "WAITING DELIVERY PORTLAND",
       "equipment": "0",
-      "activity_time": "01:56"
+      "activity_time": "02:04"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 6100,
       "progress": 0.756,
       "stockpile": 0,
-      "time": "13:00",
+      "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "06:07"
+      "activity_time": "00:15"
     },
     {
       "berth": "Berth 10",
@@ -146,15 +146,15 @@
       "balance": 5000,
       "progress": 0.8214285714285714,
       "stockpile": 0,
-      "time": "13:00",
+      "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "06:07"
+      "activity_time": "00:15"
     },
     {
       "berth": "Jetty",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "EFG 8",
+      "voyage": 5,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -162,7 +162,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "EFG 8",
       "equipment": "0",
       "activity_time": "00:00"
     }
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "19:07"
+      "activity_time": "19:15"
     }
   ],
   "foreign": {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER,J",
-    "checker": "TORRES/CANOY/OBIAL",
-    "pmc": "VICKY/EBOY",
-    "cranes": 3,
+    "supervisor": "BERNABE,A",
+    "checker": "DALUSA / TORREGOSA",
+    "pmc": "JOAN / WILLIAM",
+    "cranes": 4,
     "forklifts": 6,
-    "stevedores": 43
+    "stevedores": 0
   }
 }
