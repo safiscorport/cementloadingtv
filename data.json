@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T01:18:42+08:00",
+  "updated_at": "2026-10-07T01:20:06+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "00:55",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:23"
+      "activity_time": "00:24"
     },
     {
       "berth": "Berth 2",
@@ -44,7 +44,7 @@
       "time": "21:50",
       "remarks": "LOADING TONNER S50",
       "equipment": "0",
-      "activity_time": "03:28"
+      "activity_time": "03:29"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "06:18"
+      "activity_time": "06:19"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "23:09",
       "remarks": "LOADING POUCH S34",
       "equipment": "0",
-      "activity_time": "02:09"
+      "activity_time": "02:10"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "06:18"
+      "activity_time": "06:19"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "19:00",
       "remarks": "WAITING TONNER",
       "equipment": "0",
-      "activity_time": "06:18"
+      "activity_time": "06:19"
     },
     {
       "berth": "Berth 9",
       "vessel": "STAR DINAGAT",
       "voyage": 5,
       "booking": 25000,
-      "dispatch": 19900,
-      "loaded": 19900,
-      "balance": 5100,
-      "progress": 0.796,
+      "dispatch": 25000,
+      "loaded": 25000,
+      "balance": 0,
+      "progress": 1,
       "stockpile": 0,
       "time": "21:05",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "04:13"
+      "activity_time": "04:14"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "00:26",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "00:53"
     },
     {
       "berth": "Jetty",
@@ -164,15 +164,15 @@
       "time": "10:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "15:18"
+      "activity_time": "15:19"
     }
   ],
   "total": {
     "booking": 223500,
-    "dispatch": 92400,
-    "loaded": 74400,
-    "balance": 149100,
-    "progress": 0.3545268320767042,
+    "dispatch": 97500,
+    "loaded": 79500,
+    "balance": 144000,
+    "progress": 0.3836696892195613,
     "stockpile": 13000
   },
   "alpha": [
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "01:18"
+      "activity_time": "01:19"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 152500,
-      "daily": 26000
+      "september": 157600,
+      "daily": 31100
     },
     {
       "hauler": "LAPU-LAPU",
