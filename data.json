@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T02:15:22+08:00",
+  "updated_at": "2026-10-07T02:19:48+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "00:55",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:19"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 2",
@@ -36,15 +36,15 @@
       "vessel": "JOHANNAH 5",
       "voyage": 4,
       "booking": 22000,
-      "dispatch": 9000,
-      "loaded": 3000,
-      "balance": 19000,
-      "progress": 0.13636363636363635,
-      "stockpile": 6000,
+      "dispatch": 10000,
+      "loaded": 6000,
+      "balance": 16000,
+      "progress": 0.2727272727272727,
+      "stockpile": 4000,
       "time": "00:27",
       "remarks": "LOADING TONNER S31",
       "equipment": "0",
-      "activity_time": "01:47"
+      "activity_time": "01:49"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "07:14"
+      "activity_time": "07:16"
     },
     {
       "berth": "Berth 5",
@@ -82,14 +82,14 @@
       "voyage": 11,
       "booking": 24000,
       "dispatch": 11000,
-      "loaded": 7000,
-      "balance": 17000,
+      "loaded": 9000,
+      "balance": 15000,
       "progress": 0,
-      "stockpile": 4000,
+      "stockpile": 0,
       "time": "01:36",
       "remarks": "LOADING POUCH S54",
       "equipment": "0",
-      "activity_time": "00:38"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "07:14"
+      "activity_time": "07:16"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "19:00",
       "remarks": "WAITING TONNER",
       "equipment": "0",
-      "activity_time": "07:14"
+      "activity_time": "07:16"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "21:05",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "05:09"
+      "activity_time": "05:11"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "00:26",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "01:48"
+      "activity_time": "01:50"
     },
     {
       "berth": "Jetty",
@@ -164,16 +164,16 @@
       "time": "10:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "16:14"
+      "activity_time": "16:16"
     }
   ],
   "total": {
     "booking": 223500,
-    "dispatch": 97000,
-    "loaded": 79000,
-    "balance": 144500,
-    "progress": 0.3810722866221588,
-    "stockpile": 13000
+    "dispatch": 98000,
+    "loaded": 84000,
+    "balance": 139500,
+    "progress": 0.40055280610267824,
+    "stockpile": 7000
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "02:14"
+      "activity_time": "02:16"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 157600,
-      "daily": 31100
+      "september": 158600,
+      "daily": 32100
     },
     {
       "hauler": "LAPU-LAPU",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 189750
+      "y2026": 194750
     },
     {
       "month": "November",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13513460
+    "y2026": 13518460
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 16600
+      "qty": 21600
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 16000
+      "volume": 13000
     },
     {
       "client": "LAPU-LAPU",
@@ -356,7 +356,7 @@
     },
     {
       "client": "BADIE",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "GEO",
