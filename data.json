@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T00:55:04+08:00",
+  "updated_at": "2026-10-07T01:04:38+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "05:54"
+      "activity_time": "06:04"
     },
     {
       "berth": "Berth 2",
@@ -44,7 +44,7 @@
       "time": "21:50",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "03:04"
+      "activity_time": "03:14"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "05:54"
+      "activity_time": "06:04"
     },
     {
       "berth": "Berth 5",
@@ -84,12 +84,12 @@
       "dispatch": 11000,
       "loaded": 7000,
       "balance": 17000,
-      "progress": 0.2916666666666667,
+      "progress": 0,
       "stockpile": 4000,
       "time": "23:09",
       "remarks": "LOADING POUCH S34",
       "equipment": "0",
-      "activity_time": "01:45"
+      "activity_time": "01:55"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "05:54"
+      "activity_time": "06:04"
     },
     {
       "berth": "Berth 8",
@@ -117,9 +117,9 @@
       "progress": 0.1956521739130435,
       "stockpile": 0,
       "time": "19:00",
-      "remarks": "VESSEL CLOSE / RAIN",
+      "remarks": "WAITING TONNER",
       "equipment": "0",
-      "activity_time": "05:54"
+      "activity_time": "06:04"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "21:05",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "03:49"
+      "activity_time": "03:59"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "00:26",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:38"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "10:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "14:54"
+      "activity_time": "15:04"
     }
   ],
   "total": {
@@ -172,7 +172,7 @@
     "dispatch": 88400,
     "loaded": 71400,
     "balance": 152100,
-    "progress": 0.3404193114004495,
+    "progress": 0.3473839749338471,
     "stockpile": 12000
   },
   "alpha": [
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "00:54"
+      "activity_time": "01:04"
     }
   ],
   "foreign": {
