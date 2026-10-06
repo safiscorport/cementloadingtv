@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T12:09:04+08:00",
+  "updated_at": "2026-10-06T12:17:18+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "10:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:08"
+      "activity_time": "02:16"
     },
     {
       "berth": "Berth 2",
@@ -41,10 +41,10 @@
       "balance": 21000,
       "progress": 0.045454545454545456,
       "stockpile": 0,
-      "time": "07:53",
+      "time": "10:04",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "04:15"
+      "activity_time": "02:12"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 21000,
       "progress": 0.16,
       "stockpile": 1000,
-      "time": "09:39",
-      "remarks": "LOADING G6 SLING BAGS",
+      "time": "11:20",
+      "remarks": "LOADING S6 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:29"
+      "activity_time": "00:56"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "09:35",
       "remarks": "LOADING G1 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:33"
+      "activity_time": "02:41"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "07:50",
       "remarks": "LOADING S54 SLING BAGS",
       "equipment": "0",
-      "activity_time": "04:18"
+      "activity_time": "04:26"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "10:08",
       "remarks": "LOADING S53 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "02:00"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 5100,
       "progress": 0.796,
       "stockpile": 0,
-      "time": "10:30",
-      "remarks": "LOADING F2 TONNER BAGS",
+      "time": "11:18",
+      "remarks": "LOADING S25 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:38"
+      "activity_time": "00:58"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 3000,
       "progress": 0.8928571428571429,
       "stockpile": 0,
-      "time": "09:36",
-      "remarks": "LOADING S26 TONNER BAGS",
+      "time": "11:10",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:32"
+      "activity_time": "01:06"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "10:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:08"
+      "activity_time": "02:16"
     }
   ],
   "total": {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "12:08"
+      "activity_time": "12:16"
     }
   ],
   "foreign": {
