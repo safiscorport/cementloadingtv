@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T10:14:41+08:00",
+  "updated_at": "2026-10-06T10:15:23+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -112,9 +112,9 @@
       "voyage": 8,
       "booking": 23000,
       "dispatch": 9500,
-      "loaded": 3500,
-      "balance": 19500,
-      "progress": 0.15217391304347827,
+      "loaded": 4500,
+      "balance": 18500,
+      "progress": 0.1956521739130435,
       "stockpile": 0,
       "time": "10:08",
       "remarks": "LOADING S53 TONNER BAGS",
@@ -170,9 +170,9 @@
   "total": {
     "booking": 164000,
     "dispatch": 71400,
-    "loaded": 51400,
-    "balance": 112600,
-    "progress": 0.28062348417627925,
+    "loaded": 52400,
+    "balance": 111600,
+    "progress": 0.2868346643005028,
     "stockpile": 14000
   },
   "alpha": [
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 157050
+      "y2026": 158050
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13480760
+    "y2026": 13481760
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 9000
+      "qty": 10000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 19000
+      "volume": 18000
     },
     {
       "client": "LAPU-LAPU",
