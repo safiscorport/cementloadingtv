@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T09:04:59+08:00",
+  "updated_at": "2026-10-06T09:07:00+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "15:15",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "17:49"
+      "activity_time": "17:51"
     },
     {
       "berth": "Berth 2",
@@ -44,7 +44,7 @@
       "time": "07:53",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "01:11"
+      "activity_time": "01:13"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:36",
       "remarks": "LOADING S45 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:28"
+      "activity_time": "01:30"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSED",
       "equipment": "0",
-      "activity_time": "14:04"
+      "activity_time": "14:06"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0,
       "stockpile": 1000,
       "time": "11:10",
-      "remarks": "-",
+      "remarks": "LOADING S54 SLING BAGS",
       "equipment": "0",
-      "activity_time": "21:54"
+      "activity_time": "21:56"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 20500,
       "progress": 0.10869565217391304,
       "stockpile": 0,
-      "time": "20:00",
-      "remarks": "VESSEL CLOSED",
+      "time": "07:51",
+      "remarks": "LOADING S59 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "13:04"
+      "activity_time": "01:15"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:33",
       "remarks": "LOADING G2 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:31"
+      "activity_time": "01:33"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:47",
       "remarks": "LOADING S38 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:17"
+      "activity_time": "01:19"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:04"
+      "activity_time": "02:06"
     }
   ],
   "total": {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "09:04"
+      "activity_time": "09:06"
     }
   ],
   "foreign": {
