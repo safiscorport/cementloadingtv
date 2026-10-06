@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T10:12:06+08:00",
+  "updated_at": "2026-10-06T10:12:37+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "15:15",
-      "remarks": "DOCKED & SECURED",
+      "time": "10:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "18:56"
+      "activity_time": "00:11"
     },
     {
       "berth": "Berth 2",
@@ -161,10 +161,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "09:00",
+      "time": "10:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:11"
+      "activity_time": "00:11"
     }
   ],
   "total": {
