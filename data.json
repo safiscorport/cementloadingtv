@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T17:54:30+08:00",
+  "updated_at": "2026-10-07T17:54:52+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:28",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:25"
+      "activity_time": "04:26"
     },
     {
       "berth": "Berth 2",
@@ -44,7 +44,7 @@
       "time": "13:10",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "04:43"
+      "activity_time": "04:44"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "13:10",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "04:43"
+      "activity_time": "04:44"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "13:10",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "04:43"
+      "activity_time": "04:44"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "13:10",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "04:43"
+      "activity_time": "04:44"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "13:10",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "04:43"
+      "activity_time": "04:44"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "17:11",
       "remarks": "LOADING S53 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:42"
+      "activity_time": "00:43"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "13:10",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "04:43"
+      "activity_time": "04:44"
     }
   ],
   "total": {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "17:53"
+      "activity_time": "17:54"
     }
   ],
   "foreign": {
