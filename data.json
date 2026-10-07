@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T06:21:42+08:00",
+  "updated_at": "2026-10-07T08:05:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "00:55",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "05:25"
+      "activity_time": "07:10"
     },
     {
       "berth": "Berth 2",
@@ -41,10 +41,10 @@
       "balance": 13000,
       "progress": 0.4090909090909091,
       "stockpile": 2000,
-      "time": "04:39",
+      "time": "08:02",
       "remarks": "LOADING TONNER S31",
       "equipment": "0",
-      "activity_time": "01:41"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 4",
@@ -57,9 +57,9 @@
       "progress": 0.28,
       "stockpile": 1000,
       "time": "05:08",
-      "remarks": "LOADING SLING S39",
+      "remarks": "LOADING S38 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:12"
+      "activity_time": "02:57"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "03:41",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:39"
+      "activity_time": "04:24"
     },
     {
       "berth": "Berth 7",
@@ -102,9 +102,9 @@
       "progress": 0.058823529411764705,
       "stockpile": 1000,
       "time": "19:00",
-      "remarks": "VESSEL CLOSE / RAIN",
+      "remarks": "LOADING S24 SLING BAGS",
       "equipment": "0",
-      "activity_time": "11:20"
+      "activity_time": "13:05"
     },
     {
       "berth": "Berth 8",
@@ -119,37 +119,37 @@
       "time": "19:00",
       "remarks": "WAITING TONNER",
       "equipment": "0",
-      "activity_time": "11:20"
+      "activity_time": "13:05"
     },
     {
       "berth": "Berth 9",
-      "vessel": "STAR DINAGAT",
-      "voyage": 5,
-      "booking": 25000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
       "dispatch": 25000,
       "loaded": 25000,
-      "balance": 0,
-      "progress": 1,
+      "balance": -25000,
+      "progress": 0,
       "stockpile": 0,
-      "time": "21:05",
-      "remarks": "LOADING COMPLETE",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "09:15"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 10",
-      "vessel": "NIEVES",
-      "voyage": 3,
-      "booking": 27500,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
       "dispatch": 27500,
       "loaded": 27500,
-      "balance": 0,
-      "progress": 1,
+      "balance": -27500,
+      "progress": 0,
       "stockpile": 0,
-      "time": "00:26",
-      "remarks": "LOADING COMPLETE",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "05:54"
+      "activity_time": "00:00"
     },
     {
       "berth": "Jetty",
@@ -164,15 +164,15 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "11:20"
+      "activity_time": "13:05"
     }
   ],
   "total": {
-    "booking": 223500,
+    "booking": 171000,
     "dispatch": 101000,
     "loaded": 92000,
-    "balance": 131500,
-    "progress": 0.43717618272605485,
+    "balance": 79000,
+    "progress": 0.2120466558164768,
     "stockpile": 4000
   },
   "alpha": [
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "06:20"
+      "activity_time": "08:05"
     }
   ],
   "foreign": {
@@ -230,7 +230,7 @@
       "hauler": "SAFISCOR",
       "august": 1047550,
       "september": 161600,
-      "daily": 35100
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
@@ -242,13 +242,13 @@
       "hauler": "BADIE",
       "august": 39000,
       "september": 11000,
-      "daily": 2000
+      "daily": "-"
     },
     {
       "hauler": "GEO",
       "august": 148200,
       "september": 28650,
-      "daily": 1600
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -260,13 +260,13 @@
       "hauler": "APLUS",
       "august": 45000,
       "september": 4000,
-      "daily": 1000
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
       "august": 21000,
       "september": 5500,
-      "daily": 1000
+      "daily": "-"
     }
   ],
   "monthly": [
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 20000
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 29600
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
@@ -376,9 +376,9 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "DALUSA,E",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "TORRES,J/OBIAL,R/CANOY,E",
+    "pmc": "VICKY/EBOY",
     "cranes": 4,
     "forklifts": 6,
     "stevedores": 42
