@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-07T11:39:58+08:00",
+  "updated_at": "2026-10-07T14:44:42+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "SF JOURNEY",
       "voyage": 3,
       "booking": 60000,
-      "dispatch": 7000,
+      "dispatch": 8000,
       "loaded": 7000,
       "balance": 53000,
       "progress": 0.11666666666666667,
-      "stockpile": 0,
-      "time": "00:55",
+      "stockpile": 1000,
+      "time": "13:28",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "10:44"
+      "activity_time": "01:16"
     },
     {
       "berth": "Berth 2",
@@ -36,15 +36,15 @@
       "vessel": "JOHANNAH 5",
       "voyage": 4,
       "booking": 22000,
-      "dispatch": 11000,
-      "loaded": 9000,
-      "balance": 13000,
-      "progress": 0.4090909090909091,
-      "stockpile": 2000,
-      "time": "11:13",
-      "remarks": "LOADING TONNER S31",
+      "dispatch": 16000,
+      "loaded": 10000,
+      "balance": 12000,
+      "progress": 0.45454545454545453,
+      "stockpile": 6000,
+      "time": "13:10",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "00:26"
+      "activity_time": "01:34"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 17000,
       "progress": 0.32,
       "stockpile": 0,
-      "time": "05:08",
-      "remarks": "LOADING S38 SLING BAGS",
+      "time": "13:10",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "06:31"
+      "activity_time": "01:34"
     },
     {
       "berth": "Berth 5",
@@ -81,54 +81,54 @@
       "vessel": "EMERALD STAR",
       "voyage": 11,
       "booking": 24000,
-      "dispatch": 11000,
+      "dispatch": 13000,
       "loaded": 11000,
       "balance": 13000,
       "progress": 0,
       "stockpile": 0,
-      "time": "03:41",
-      "remarks": "WAITING MATERIAL",
+      "time": "13:10",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "07:58"
+      "activity_time": "01:34"
     },
     {
       "berth": "Berth 7",
       "vessel": "LADY ARMOR",
       "voyage": 8,
       "booking": 17000,
-      "dispatch": 4000,
-      "loaded": 1000,
-      "balance": 16000,
-      "progress": 0.058823529411764705,
-      "stockpile": 3000,
-      "time": "19:00",
-      "remarks": "LOADING S53 SLING BAGS",
+      "dispatch": 9000,
+      "loaded": 2000,
+      "balance": 15000,
+      "progress": 0.11764705882352941,
+      "stockpile": 7000,
+      "time": "13:10",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "16:39"
+      "activity_time": "01:34"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF ROSARY",
       "voyage": 8,
       "booking": 23000,
-      "dispatch": 9500,
-      "loaded": 4500,
-      "balance": 18500,
-      "progress": 0.1956521739130435,
+      "dispatch": 9900,
+      "loaded": 4900,
+      "balance": 18100,
+      "progress": 0.21304347826086956,
       "stockpile": 0,
-      "time": "19:00",
-      "remarks": "WAITING TONNER",
+      "time": "13:10",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "16:39"
+      "activity_time": "01:34"
     },
     {
       "berth": "Berth 9",
       "vessel": "EASTERN CEBU",
       "voyage": 12,
       "booking": 0,
-      "dispatch": 25000,
-      "loaded": 25000,
-      "balance": -25000,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
@@ -141,9 +141,9 @@
       "vessel": "VACANT",
       "voyage": "-",
       "booking": 0,
-      "dispatch": 27500,
-      "loaded": 27500,
-      "balance": -27500,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
@@ -161,19 +161,19 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "19:00",
+      "time": "13:10",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "16:39"
+      "activity_time": "01:34"
     }
   ],
   "total": {
     "booking": 171000,
-    "dispatch": 103000,
-    "loaded": 93000,
-    "balance": 78000,
-    "progress": 0.22004665581647678,
-    "stockpile": 5000
+    "dispatch": 63900,
+    "loaded": 42900,
+    "balance": 128100,
+    "progress": 0.244380531659304,
+    "stockpile": 14000
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "11:39"
+      "activity_time": "14:44"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 163600,
-      "daily": 2000
+      "september": 174600,
+      "daily": 13000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 148200,
-      "september": 28650,
-      "daily": "-"
+      "september": 30050,
+      "daily": 1400
     },
     {
       "hauler": "UCES",
@@ -259,14 +259,14 @@
     {
       "hauler": "APLUS",
       "august": 45000,
-      "september": 4000,
-      "daily": "-"
+      "september": 5000,
+      "daily": 1000
     },
     {
       "hauler": "FULACHE",
       "august": 21000,
-      "september": 5500,
-      "daily": "-"
+      "september": 6500,
+      "daily": 1000
     }
   ],
   "monthly": [
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 203750
+      "y2026": 206150
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13527460
+    "y2026": 13529860
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 1000
+      "qty": 3400
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 10000
+      "volume": 18000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "UCES",
@@ -368,11 +368,11 @@
     },
     {
       "client": "APLUS",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "FULACHE",
-      "volume": "-"
+      "volume": 1000
     }
   ],
   "status": {
