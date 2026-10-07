@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T20:32:10+08:00",
+  "updated_at": "2026-10-07T20:35:03+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,19 +11,19 @@
       "balance": 52000,
       "progress": 0.13333333333333333,
       "stockpile": 1000,
-      "time": "19:00",
-      "remarks": "KY PRE LOADING PREP",
+      "time": "20:00",
+      "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "01:31"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 2",
       "vessel": "INFINITY 8",
       "voyage": 6,
-      "booking": 0,
+      "booking": 45000,
       "dispatch": 4000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 45000,
       "progress": 0,
       "stockpile": 4000,
       "time": "00:00",
@@ -41,10 +41,10 @@
       "balance": 7000,
       "progress": 0.6818181818181818,
       "stockpile": 6000,
-      "time": "19:00",
-      "remarks": "KY PRE LOADING PREP",
+      "time": "20:00",
+      "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:31"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 17000,
       "progress": 0.32,
       "stockpile": 2000,
-      "time": "19:00",
-      "remarks": "KY PRE LOADING PREP",
+      "time": "20:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:31"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 5",
@@ -86,10 +86,10 @@
       "balance": 10000,
       "progress": 0,
       "stockpile": 0,
-      "time": "19:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "20:00",
+      "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "01:31"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 12000,
       "progress": 0.29411764705882354,
       "stockpile": 8000,
-      "time": "19:00",
-      "remarks": "KY PRE LOADING PREP",
+      "time": "20:00",
+      "remarks": "REFUSE TO OPEN HATCH",
       "equipment": "0",
-      "activity_time": "01:31"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 18100,
       "progress": 0.21304347826086956,
       "stockpile": 0,
-      "time": "19:00",
+      "time": "20:00",
       "remarks": "WAITING TONNER",
       "equipment": "0",
-      "activity_time": "01:31"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "20:00",
+      "remarks": "WAITING SHORECRANE ASSIST",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 10",
@@ -149,30 +149,30 @@
       "time": "20:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "00:31"
+      "activity_time": "00:34"
     },
     {
       "berth": "Jetty",
-      "vessel": "EFG 8",
-      "voyage": 5,
+      "vessel": "VACANT",
+      "voyage": "-",
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "19:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "01:31"
+      "activity_time": "20:34"
     }
   ],
   "total": {
-    "booking": 224000,
+    "booking": 269000,
     "dispatch": 81900,
     "loaded": 54900,
-    "balance": 142100,
-    "progress": 0.23461609149588686,
+    "balance": 187100,
+    "progress": 0.205289080058901,
     "stockpile": 21000
   },
   "alpha": [
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "20:31"
+      "activity_time": "20:34"
     }
   ],
   "foreign": {
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 34000
+      "volume": 282726
     },
     {
       "client": "LAPU-LAPU",
