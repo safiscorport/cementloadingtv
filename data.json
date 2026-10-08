@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T04:36:10+08:00",
+  "updated_at": "2026-10-09T04:36:37+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "02:13",
       "remarks": "LOADING POUCH S50",
       "equipment": "0",
-      "activity_time": "02:22"
+      "activity_time": "02:23"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "02:44",
       "remarks": "LOADING TONNER S37",
       "equipment": "CRANE 2",
-      "activity_time": "01:51"
+      "activity_time": "01:52"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "20:22",
       "remarks": "LOADING TONNER S25",
       "equipment": "0",
-      "activity_time": "08:13"
+      "activity_time": "08:14"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "20:40",
       "remarks": "LOADING POUCH S47",
       "equipment": "0",
-      "activity_time": "07:55"
+      "activity_time": "07:56"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "23:28",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "05:07"
+      "activity_time": "05:08"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 12125,
       "progress": 0.47282608695652173,
       "stockpile": 0,
-      "time": "23:23",
-      "remarks": "LOADING TONNER S43",
+      "time": "04:00",
+      "remarks": "VESSEL CLOSE / REFUSE",
       "equipment": "CRANE 4",
-      "activity_time": "05:12"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "04:13",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "00:22"
+      "activity_time": "00:23"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "23:01",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "05:34"
+      "activity_time": "05:35"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "04:35"
+      "activity_time": "04:36"
     }
   ],
   "total": {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "04:35"
+      "activity_time": "04:36"
     }
   ],
   "foreign": {
