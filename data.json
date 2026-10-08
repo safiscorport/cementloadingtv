@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T19:44:06+08:00",
+  "updated_at": "2026-10-08T20:20:08+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,22 +14,22 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 2",
       "vessel": "INFINITY 8",
       "voyage": 6,
       "booking": 45000,
-      "dispatch": 13000,
+      "dispatch": 14000,
       "loaded": 8000,
       "balance": 37000,
       "progress": 0.17777777777777778,
-      "stockpile": 5000,
+      "stockpile": 6000,
       "time": "19:00",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 7",
@@ -104,14 +104,14 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "CRANE 4",
-      "activity_time": "00:43"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF ROSARY",
       "voyage": 8,
       "booking": 23000,
-      "dispatch": 16875,
+      "dispatch": 17875,
       "loaded": 6875,
       "balance": 16125,
       "progress": 0.29891304347826086,
@@ -119,7 +119,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "CRANE 3",
-      "activity_time": "00:43"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "01:19"
     },
     {
       "berth": "Jetty",
@@ -164,16 +164,16 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "19:43"
+      "activity_time": "20:19"
     }
   ],
   "total": {
     "booking": 247000,
-    "dispatch": 90375,
+    "dispatch": 92375,
     "loaded": 71875,
     "balance": 148125,
     "progress": 0.2808437867900783,
-    "stockpile": 8000
+    "stockpile": 9000
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "19:43"
+      "activity_time": "20:19"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 234100,
-      "daily": 19500
+      "september": 237100,
+      "daily": 22500
     },
     {
       "hauler": "LAPU-LAPU",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 278125
+      "y2026": 279125
     },
     {
       "month": "November",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13611835
+    "y2026": 13612835
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 0
+      "qty": 1000
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 23500
+      "volume": 25500
     },
     {
       "client": "LAPU-LAPU",
