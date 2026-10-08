@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T05:51:42+08:00",
+  "updated_at": "2026-10-09T07:55:00+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "03:35",
       "remarks": "LOADING POUCH B7",
       "equipment": "0",
-      "activity_time": "02:16"
+      "activity_time": "04:19"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "04:50",
       "remarks": "LOADING TONNER S61",
       "equipment": "CRANE 2",
-      "activity_time": "01:01"
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "23:05",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "06:46"
+      "activity_time": "08:49"
     },
     {
       "berth": "Berth 5",
@@ -89,22 +89,22 @@
       "time": "03:23",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:28"
+      "activity_time": "04:31"
     },
     {
       "berth": "Berth 7",
-      "vessel": "LADY ARMOR",
-      "voyage": 8,
-      "booking": 17000,
-      "dispatch": 17000,
-      "loaded": 17000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "23:28",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "06:23"
+      "activity_time": "08:26"
     },
     {
       "berth": "Berth 8",
@@ -119,13 +119,13 @@
       "time": "04:00",
       "remarks": "VESSEL CLOSE / REFUSE",
       "equipment": "CRANE 4",
-      "activity_time": "01:51"
+      "activity_time": "03:54"
     },
     {
       "berth": "Berth 9",
-      "vessel": "EASTERN CEBU",
-      "voyage": 13,
-      "booking": 27000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
       "dispatch": 0,
       "loaded": 0,
       "balance": 0,
@@ -134,22 +134,22 @@
       "time": "04:13",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "01:38"
+      "activity_time": "03:41"
     },
     {
       "berth": "Berth 10",
       "vessel": "NAPOLI",
       "voyage": 12,
       "booking": 26000,
-      "dispatch": 0,
-      "loaded": 0,
-      "balance": 26000,
-      "progress": 0,
+      "dispatch": 8000,
+      "loaded": 8000,
+      "balance": 18000,
+      "progress": 0.3076923076923077,
       "stockpile": 0,
       "time": "23:01",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "06:50"
+      "activity_time": "08:53"
     },
     {
       "berth": "Jetty",
@@ -164,15 +164,15 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "05:51"
+      "activity_time": "07:54"
     }
   ],
   "total": {
-    "booking": 247000,
-    "dispatch": 109000,
-    "loaded": 96375,
-    "balance": 123625,
-    "progress": 0.3934610075914424,
+    "booking": 203000,
+    "dispatch": 100000,
+    "loaded": 87375,
+    "balance": 115625,
+    "progress": 0.41238387216648087,
     "stockpile": 4000
   },
   "alpha": [
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "05:51"
+      "activity_time": "07:54"
     }
   ],
   "foreign": {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "DALUSA,E",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "TORRES,J",
+    "pmc": "VICKY/EBOY",
     "cranes": 4,
     "forklifts": 6,
-    "stevedores": 0
+    "stevedores": 45
   }
 }
