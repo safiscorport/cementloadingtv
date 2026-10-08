@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T04:35:23+08:00",
+  "updated_at": "2026-10-09T04:36:10+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -101,10 +101,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 0,
-      "time": "23:05",
-      "remarks": "LOADING POUCH S32",
+      "time": "23:28",
+      "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "05:30"
+      "activity_time": "05:07"
     },
     {
       "berth": "Berth 8",
