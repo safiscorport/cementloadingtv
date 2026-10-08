@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T03:59:56+08:00",
+  "updated_at": "2026-10-09T04:02:44+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 49000,
       "progress": 0.18333333333333332,
       "stockpile": 4000,
-      "time": "20:00",
-      "remarks": "WAITING ONBOARD FL",
+      "time": "22:35",
+      "remarks": "LOADING POUCH GEO 6",
       "equipment": "0",
-      "activity_time": "07:59"
+      "activity_time": "05:27"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 37000,
       "progress": 0.17777777777777778,
       "stockpile": 7000,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE / CLOUDY",
+      "time": "22:13",
+      "remarks": "LOADING SLING S60",
       "equipment": "0",
-      "activity_time": "08:59"
+      "activity_time": "05:49"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 10000,
       "progress": 0.6,
       "stockpile": 0,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE / CLOUDY",
+      "time": "20:22",
+      "remarks": "LOADING TONNER S25",
       "equipment": "0",
-      "activity_time": "08:59"
+      "activity_time": "07:40"
     },
     {
       "berth": "Berth 5",
@@ -86,10 +86,10 @@
       "balance": 3500,
       "progress": 0,
       "stockpile": 0,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE / CLOUDY",
+      "time": "20:40",
+      "remarks": "LOADING POUCH S47",
       "equipment": "0",
-      "activity_time": "08:59"
+      "activity_time": "07:22"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 3000,
       "progress": 0.8235294117647058,
       "stockpile": 1000,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE / CLOUDY",
+      "time": "23:05",
+      "remarks": "LOADING POUCH S32",
       "equipment": "CRANE 4",
-      "activity_time": "08:59"
+      "activity_time": "04:57"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 14125,
       "progress": 0.3858695652173913,
       "stockpile": 0,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE / CLOUDY",
+      "time": "23:23",
+      "remarks": "LOADING TONNER S43",
       "equipment": "0",
-      "activity_time": "08:59"
+      "activity_time": "04:39"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "19:47",
-      "remarks": "LOADING SLING S35",
+      "time": "23:35",
+      "remarks": "LOADING SLING S6",
       "equipment": "CRANE 3",
-      "activity_time": "08:12"
+      "activity_time": "04:27"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 26000,
       "progress": 0,
       "stockpile": 0,
-      "time": "19:00",
+      "time": "23:01",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "08:59"
+      "activity_time": "05:01"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "03:59"
+      "activity_time": "04:02"
     }
   ],
   "total": {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "03:59"
+      "activity_time": "04:02"
     }
   ],
   "foreign": {
