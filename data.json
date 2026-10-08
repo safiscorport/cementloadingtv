@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-10-08T11:28:55+08:00",
+  "updated_at": "2026-10-08T13:35:45+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "SF JOURNEY",
       "voyage": 3,
       "booking": 60000,
-      "dispatch": 11000,
+      "dispatch": 13000,
       "loaded": 11000,
       "balance": 49000,
       "progress": 0.18333333333333332,
-      "stockpile": 0,
+      "stockpile": 2000,
       "time": "11:27",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 2",
       "vessel": "INFINITY 8",
       "voyage": 6,
       "booking": 45000,
-      "dispatch": 10000,
+      "dispatch": 11000,
       "loaded": 8000,
       "balance": 37000,
       "progress": 0.17777777777777778,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "11:27",
       "remarks": "DEFECTIVE VESSEL CRANE",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "10:20",
       "remarks": "COMPLETE LOADING S29",
       "equipment": "0",
-      "activity_time": "01:08"
+      "activity_time": "03:15"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "11:27",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "11:27",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 7",
@@ -104,14 +104,14 @@
       "time": "11:27",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF ROSARY",
       "voyage": 8,
       "booking": 23000,
-      "dispatch": 13875,
+      "dispatch": 15875,
       "loaded": 4900,
       "balance": 18100,
       "progress": 0.21304347826086956,
@@ -119,7 +119,7 @@
       "time": "11:25",
       "remarks": "WAITING ONBOARD FL",
       "equipment": "0",
-      "activity_time": "00:03"
+      "activity_time": "02:10"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "11:27",
       "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "11:27",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "02:08"
     },
     {
       "berth": "Jetty",
@@ -164,16 +164,16 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "11:28"
+      "activity_time": "13:35"
     }
   ],
   "total": {
     "booking": 269000,
-    "dispatch": 101875,
+    "dispatch": 106875,
     "loaded": 83900,
     "balance": 158100,
     "progress": 0.3205928530832623,
-    "stockpile": 8000
+    "stockpile": 11000
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "11:28"
+      "activity_time": "13:35"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 218600,
-      "daily": 4000
+      "september": 224600,
+      "daily": 10000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 148200,
-      "september": 36050,
-      "daily": 1000
+      "september": 37050,
+      "daily": 2000
     },
     {
       "hauler": "UCES",
@@ -265,8 +265,8 @@
     {
       "hauler": "FULACHE",
       "august": 21000,
-      "september": 8500,
-      "daily": 1000
+      "september": 9500,
+      "daily": 2000
     }
   ],
   "monthly": [
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 18000
+      "volume": 24000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 2000
+      "volume": 3000
     },
     {
       "client": "UCES",
@@ -372,7 +372,7 @@
     },
     {
       "client": "FULACHE",
-      "volume": 1000
+      "volume": 2000
     }
   ],
   "status": {
