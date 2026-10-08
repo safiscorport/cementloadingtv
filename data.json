@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T10:21:05+08:00",
+  "updated_at": "2026-10-08T10:24:01+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "10:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:20"
+      "activity_time": "00:23"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "08:00",
       "remarks": "LOADING S60 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:20"
+      "activity_time": "02:23"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "10:15",
       "remarks": "DEFECTIVE VESSEL CRANE",
       "equipment": "0",
-      "activity_time": "00:05"
+      "activity_time": "00:08"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "09:00",
       "remarks": "LOAIDNG S41 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:20"
+      "activity_time": "01:23"
     },
     {
       "berth": "Berth 5",
@@ -89,7 +89,7 @@
       "time": "09:32",
       "remarks": "LOADING S22 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:48"
+      "activity_time": "00:51"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "09:48",
       "remarks": "LOADING S6 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:32"
+      "activity_time": "00:35"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "08:10",
       "remarks": "WAITING ONBOARD FL",
       "equipment": "0",
-      "activity_time": "02:10"
+      "activity_time": "02:13"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "09:22",
       "remarks": "LOADING S50 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:58"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "10:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:20"
+      "activity_time": "00:23"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "10:20"
+      "activity_time": "10:23"
     }
   ],
   "total": {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "10:20"
+      "activity_time": "10:23"
     }
   ],
   "foreign": {
@@ -338,7 +338,7 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 9000
+      "qty": 10000
     },
     {
       "shift": "2ND SHIFT",
