@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-09T23:57:12+08:00",
+  "updated_at": "2026-10-09T23:58:08+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "SF JOURNEY",
       "voyage": 3,
       "booking": 60000,
-      "dispatch": 29000,
-      "loaded": 22000,
-      "balance": 38000,
-      "progress": 0.36666666666666664,
-      "stockpile": 7000,
+      "dispatch": 30000,
+      "loaded": 24000,
+      "balance": 36000,
+      "progress": 0.4,
+      "stockpile": 6000,
       "time": "22:53",
       "remarks": "LOADING POUCH S34",
       "equipment": "0",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 305500,
-    "dispatch": 161375,
-    "loaded": 135375,
-    "balance": 142625,
-    "progress": 0.4307638888888889,
-    "stockpile": 26000
+    "dispatch": 162375,
+    "loaded": 137375,
+    "balance": 140625,
+    "progress": 0.4349305555555556,
+    "stockpile": 25000
   },
   "alpha": [
     {
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "august": 45000,
-      "september": 9000,
-      "daily": 1000
+      "september": 10000,
+      "daily": 2000
     },
     {
       "hauler": "FULACHE",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 364625
+      "y2026": 366625
     },
     {
       "month": "November",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13698335
+    "y2026": 13700335
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 16500
+      "qty": 18500
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 24000
+      "volume": 23000
     },
     {
       "client": "LAPU-LAPU",
