@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T21:16:34+08:00",
+  "updated_at": "2026-10-09T21:17:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -220,7 +220,7 @@
     "discharge": "10%",
     "balance": "90%",
     "progress": "10%",
-    "time": "00:00",
+    "time": "1952H",
     "remarks": "DISCHARGING",
     "equip": "SDLG 8, 5, 3",
     "activity_time": "00:00"
