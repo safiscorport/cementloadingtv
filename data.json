@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T21:17:11+08:00",
+  "updated_at": "2026-10-09T21:36:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,22 +14,22 @@
       "time": "20:00",
       "remarks": "WAITING SC PULL OUT FL",
       "equipment": "FL1",
-      "activity_time": "01:16"
+      "activity_time": "01:36"
     },
     {
       "berth": "Berth 2",
       "vessel": "INFINITY 8",
       "voyage": 6,
       "booking": 45000,
-      "dispatch": 27000,
+      "dispatch": 28000,
       "loaded": 24000,
       "balance": 21000,
       "progress": 0.5333333333333333,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "19:30",
       "remarks": "LOADING TONNER",
       "equipment": "CRANE 2",
-      "activity_time": "01:46"
+      "activity_time": "02:06"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "VESSEL CRANE INSPECTION",
       "equipment": "0",
-      "activity_time": "02:16"
+      "activity_time": "02:36"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:30",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:46"
+      "activity_time": "02:06"
     },
     {
       "berth": "Berth 5",
@@ -89,22 +89,22 @@
       "time": "19:30",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "01:46"
+      "activity_time": "02:06"
     },
     {
       "berth": "Berth 7",
       "vessel": "STAR FREEDOM",
       "voyage": 12,
       "booking": 25000,
-      "dispatch": 9000,
+      "dispatch": 10000,
       "loaded": 0,
       "balance": 25000,
       "progress": 0,
-      "stockpile": 9000,
+      "stockpile": 10000,
       "time": "20:00",
       "remarks": "VESSEL CLEANING HATCH",
       "equipment": "FL 2",
-      "activity_time": "01:16"
+      "activity_time": "01:36"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "FL 3",
-      "activity_time": "01:46"
+      "activity_time": "02:06"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "19:00",
       "remarks": "NEW SECURED",
       "equipment": "0",
-      "activity_time": "02:16"
+      "activity_time": "02:36"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:30",
       "remarks": "LOADING POUCH",
       "equipment": "CRANE 3",
-      "activity_time": "01:46"
+      "activity_time": "02:06"
     },
     {
       "berth": "Jetty",
@@ -164,16 +164,16 @@
       "time": "00:00",
       "remarks": "no vessel",
       "equipment": "0",
-      "activity_time": "21:16"
+      "activity_time": "21:36"
     }
   ],
   "total": {
     "booking": 278000,
-    "dispatch": 154875,
+    "dispatch": 156875,
     "loaded": 118375,
     "balance": 159625,
     "progress": 0.42439640070074847,
-    "stockpile": 36500
+    "stockpile": 38500
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "COMPLETE",
       "equip": "0",
-      "activity_time": "21:16"
+      "activity_time": "21:36"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:16"
+      "activity_time": "21:36"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 296600,
-      "daily": 41500
+      "september": 298600,
+      "daily": 43500
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 32500
+      "volume": 34500
     },
     {
       "client": "LAPU-LAPU",
