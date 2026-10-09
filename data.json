@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T21:45:27+08:00",
+  "updated_at": "2026-10-09T21:45:54+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -141,11 +141,11 @@
       "vessel": "NAPOLI",
       "voyage": 12,
       "booking": 26000,
-      "dispatch": 13000,
+      "dispatch": 14000,
       "loaded": 10000,
       "balance": 16000,
       "progress": 0.38461538461538464,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "19:30",
       "remarks": "LOADING POUCH",
       "equipment": "CRANE 3",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 278000,
-    "dispatch": 157875,
+    "dispatch": 158875,
     "loaded": 122875,
     "balance": 155125,
     "progress": 0.4364598927642405,
-    "stockpile": 35000
+    "stockpile": 36000
   },
   "alpha": [
     {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 298600,
-      "daily": 43500
+      "september": 299600,
+      "daily": 44500
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 32000
+      "volume": 33000
     },
     {
       "client": "LAPU-LAPU",
