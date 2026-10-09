@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T21:52:51+08:00",
+  "updated_at": "2026-10-09T21:53:08+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -112,10 +112,10 @@
       "voyage": 8,
       "booking": 23000,
       "dispatch": 24500,
-      "loaded": 21500,
-      "balance": 1500,
-      "progress": 0.9347826086956522,
-      "stockpile": 3000,
+      "loaded": 22500,
+      "balance": 500,
+      "progress": 0.9782608695652174,
+      "stockpile": 2000,
       "time": "21:25",
       "remarks": "LOADING COMPLETE",
       "equipment": "FL 17",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 278000,
     "dispatch": 160875,
-    "loaded": 124875,
-    "balance": 153125,
-    "progress": 0.4488822530126878,
-    "stockpile": 36000
+    "loaded": 125875,
+    "balance": 152125,
+    "progress": 0.45509343313691136,
+    "stockpile": 35000
   },
   "alpha": [
     {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 354125
+      "y2026": 355125
     },
     {
       "month": "November",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13687835
+    "y2026": 13688835
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 6500
+      "qty": 7500
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 33000
+      "volume": 32000
     },
     {
       "client": "LAPU-LAPU",
