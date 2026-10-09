@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T20:00:01+08:00",
+  "updated_at": "2026-10-09T20:10:29+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 39000,
       "progress": 0.35,
       "stockpile": 8000,
-      "time": "03:35",
-      "remarks": "LOADING POUCH B7",
+      "time": "20:20",
+      "remarks": "LOADING TONNER S51",
       "equipment": "0",
-      "activity_time": "16:24"
+      "activity_time": "23:50"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 21000,
       "progress": 0.5333333333333333,
       "stockpile": 2000,
-      "time": "04:50",
-      "remarks": "LOADING TONNER S61",
-      "equipment": "CRANE 2",
-      "activity_time": "15:09"
+      "time": "20:28",
+      "remarks": "WAITING MATERIAL",
+      "equipment": "#REF!",
+      "activity_time": "23:42"
     },
     {
       "berth": "Berth 3",
@@ -40,10 +40,10 @@
       "loaded": 0,
       "balance": 50000,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 8000,
       "time": "00:00",
       "remarks": "-",
-      "equipment": "0",
+      "equipment": "#REF!",
       "activity_time": "00:00"
     },
     {
@@ -56,10 +56,10 @@
       "balance": 3625,
       "progress": 0.855,
       "stockpile": 1000,
-      "time": "23:05",
-      "remarks": "WAITING MATERIAL",
+      "time": "20:34",
+      "remarks": "LOADING SLING S56",
       "equipment": "0",
-      "activity_time": "20:54"
+      "activity_time": "23:36"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
-      "equipment": "0",
-      "activity_time": "00:00"
+      "time": "20:00",
+      "remarks": "WAITING SHORECRANE",
+      "equipment": "FL 2",
+      "activity_time": "00:10"
     },
     {
       "berth": "Berth 6",
@@ -85,11 +85,11 @@
       "loaded": 22500,
       "balance": 1500,
       "progress": 0,
-      "stockpile": 0,
-      "time": "03:23",
-      "remarks": "WAITING MATERIAL",
-      "equipment": "0",
-      "activity_time": "16:36"
+      "stockpile": 1500,
+      "time": "19:00",
+      "remarks": "NO BOOKING",
+      "equipment": "#REF!",
+      "activity_time": "01:10"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 25000,
       "progress": 0,
       "stockpile": 7000,
-      "time": "23:28",
+      "time": "21:00",
       "remarks": "LOADING COMPLETE",
-      "equipment": "0",
-      "activity_time": "20:31"
+      "equipment": "CRANE 3",
+      "activity_time": "23:10"
     },
     {
       "berth": "Berth 8",
@@ -115,11 +115,11 @@
       "loaded": 19500,
       "balance": 3500,
       "progress": 0.8478260869565217,
-      "stockpile": 0,
-      "time": "04:00",
-      "remarks": "VESSEL CLOSE / REFUSE",
-      "equipment": "CRANE 4",
-      "activity_time": "15:59"
+      "stockpile": 3000,
+      "time": "00:00",
+      "remarks": "-",
+      "equipment": "0",
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "04:13",
-      "remarks": "LOADING COMPLETE",
+      "time": "17:50",
+      "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "15:46"
+      "activity_time": "02:20"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 16000,
       "progress": 0.38461538461538464,
       "stockpile": 3000,
-      "time": "23:01",
-      "remarks": "WAITING MATERIAL",
+      "time": "20:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "20:58"
+      "activity_time": "00:10"
     },
     {
       "berth": "Jetty",
@@ -163,8 +163,8 @@
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
-      "equipment": "0",
-      "activity_time": "19:59"
+      "equipment": "#REF!",
+      "activity_time": "00:00"
     }
   ],
   "total": {
@@ -173,7 +173,7 @@
     "loaded": 118375,
     "balance": 159625,
     "progress": 0.42439640070074847,
-    "stockpile": 21000
+    "stockpile": 33500
   },
   "alpha": [
     {
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "19:59"
+      "activity_time": "20:10"
     }
   ],
   "foreign": {
