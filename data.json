@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T20:21:57+08:00",
+  "updated_at": "2026-10-09T20:37:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 39000,
       "progress": 0.35,
       "stockpile": 8000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "20:00",
+      "remarks": "WAITING SC PULL OUT FL",
       "equipment": "FL1",
-      "activity_time": "01:21"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 21000,
       "progress": 0.5333333333333333,
       "stockpile": 3000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "19:30",
+      "remarks": "LOADING TONNER",
       "equipment": "CRANE 2",
-      "activity_time": "01:21"
+      "activity_time": "01:07"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "VESSEL CRANE INSPECTION",
       "equipment": "0",
-      "activity_time": "01:21"
+      "activity_time": "01:37"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 3625,
       "progress": 0.855,
       "stockpile": 1000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "19:30",
+      "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:21"
+      "activity_time": "01:07"
     },
     {
       "berth": "Berth 5",
@@ -86,10 +86,10 @@
       "balance": 1500,
       "progress": 0,
       "stockpile": 1500,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "19:30",
+      "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "01:21"
+      "activity_time": "01:07"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 25000,
       "progress": 0,
       "stockpile": 9000,
-      "time": "19:00",
-      "remarks": "WAITING FORKLIFT ONBOARD",
+      "time": "20:00",
+      "remarks": "VESSEL CLEANING HATCH",
       "equipment": "FL 2",
-      "activity_time": "01:21"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 3500,
       "progress": 0.8478260869565217,
       "stockpile": 3000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "19:30",
+      "remarks": "LOADING SLING",
       "equipment": "FL 3",
-      "activity_time": "01:21"
+      "activity_time": "01:07"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "19:00",
       "remarks": "NEW SECURED",
       "equipment": "0",
-      "activity_time": "01:21"
+      "activity_time": "01:37"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 16000,
       "progress": 0.38461538461538464,
       "stockpile": 3000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "19:30",
+      "remarks": "LOADING POUCH",
       "equipment": "CRANE 3",
-      "activity_time": "01:21"
+      "activity_time": "01:07"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "00:00",
       "remarks": "no vessel",
       "equipment": "0",
-      "activity_time": "20:21"
+      "activity_time": "20:37"
     }
   ],
   "total": {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:21"
+      "activity_time": "20:37"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:21"
+      "activity_time": "20:37"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:21"
+      "activity_time": "20:37"
     }
   ],
   "foreign": {
