@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T11:27:43+08:00",
+  "updated_at": "2026-10-10T11:28:29+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "11:00",
       "remarks": "TEMP PULL OUT / ONBOARD CLAMSHELL",
       "equipment": "CRANE 2",
-      "activity_time": "00:27"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "11:00",
       "remarks": "TEMP PULL OUT / ONBOARD CLAMSHELL",
       "equipment": "CRANE 4",
-      "activity_time": "00:27"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "11:20",
       "remarks": "LOADING S54 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "00:07"
+      "activity_time": "00:08"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "11:20",
       "remarks": "LOADING F1 SLING BAGS",
       "equipment": "FL 2",
-      "activity_time": "00:07"
+      "activity_time": "00:08"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "11:20",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "00:07"
+      "activity_time": "00:08"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "11:27",
       "remarks": "VESSEL CLOSE",
       "equipment": "CRANE 3",
-      "activity_time": "00:00"
+      "activity_time": "00:01"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "COMPLETE",
       "equip": "0",
-      "activity_time": "11:27"
+      "activity_time": "11:28"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:27"
+      "activity_time": "11:28"
     },
     {
       "berth": "R3",
@@ -381,6 +381,6 @@
     "pmc": "VICKY/EBOY",
     "cranes": 4,
     "forklifts": 6,
-    "stevedores": 39
+    "stevedores": 0
   }
 }
