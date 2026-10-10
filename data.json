@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T11:23:09+08:00",
+  "updated_at": "2026-10-10T11:27:27+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 31000,
       "progress": 0.48333333333333334,
       "stockpile": 4000,
-      "time": "09:00",
+      "time": "11:00",
       "remarks": "TEMP PULL OUT / ONBOARD CLAMSHELL",
       "equipment": "CRANE 2",
-      "activity_time": "02:22"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 10000,
       "progress": 0.7777777777777778,
       "stockpile": 1000,
-      "time": "09:00",
+      "time": "11:00",
       "remarks": "TEMP PULL OUT / ONBOARD CLAMSHELL",
       "equipment": "CRANE 4",
-      "activity_time": "02:22"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 41000,
       "progress": 0.18,
       "stockpile": 1000,
-      "time": "09:12",
+      "time": "11:20",
       "remarks": "LOADING S54 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "02:10"
+      "activity_time": "00:07"
     },
     {
       "berth": "Berth 4",
@@ -101,10 +101,10 @@
       "balance": 15000,
       "progress": 0.4,
       "stockpile": 0,
-      "time": "09:22",
-      "remarks": "LOADING S7 SLING BAGS",
+      "time": "11:20",
+      "remarks": "LOADING F1 SLING BAGS",
       "equipment": "FL 2",
-      "activity_time": "02:00"
+      "activity_time": "00:07"
     },
     {
       "berth": "Berth 8",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 3000,
-      "time": "09:22",
-      "remarks": "LOADING S6 LOOSEBAG",
+      "time": "11:20",
+      "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "02:00"
+      "activity_time": "00:07"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 11000,
       "progress": 0.5769230769230769,
       "stockpile": 7000,
-      "time": "09:35",
-      "remarks": "LOAIDNG S43 SLING BAGS",
+      "time": "11:00",
+      "remarks": "VESSEL CLOSE",
       "equipment": "CRANE 3",
-      "activity_time": "01:47"
+      "activity_time": "00:27"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "COMPLETE",
       "equip": "0",
-      "activity_time": "11:22"
+      "activity_time": "11:27"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:22"
+      "activity_time": "11:27"
     },
     {
       "berth": "R3",
