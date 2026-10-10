@@ -1,31 +1,31 @@
 {
-  "updated_at": "2026-10-10T22:43:00+08:00",
+  "updated_at": "2026-10-11T02:31:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "SF JOURNEY",
       "voyage": 3,
       "booking": 60000,
-      "dispatch": 35000,
+      "dispatch": 38000,
       "loaded": 32000,
       "balance": 28000,
       "progress": 0.5333333333333333,
-      "stockpile": 3000,
+      "stockpile": 6000,
       "time": "21:36",
       "remarks": "LOADING TONNER A1",
       "equipment": "CRANE 2",
-      "activity_time": "01:06"
+      "activity_time": "04:55"
     },
     {
       "berth": "Berth 2",
       "vessel": "INFINITY 8",
       "voyage": 6,
       "booking": 45000,
-      "dispatch": 41000,
+      "dispatch": 42000,
       "loaded": 35000,
       "balance": 10000,
       "progress": 0.7777777777777778,
-      "stockpile": 6000,
+      "stockpile": 7000,
       "time": "00:00",
       "remarks": "-",
       "equipment": "CRANE 4",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "FL 1",
-      "activity_time": "03:42"
+      "activity_time": "07:31"
     },
     {
       "berth": "Berth 4",
@@ -66,15 +66,15 @@
       "vessel": "LADY OF PEACE",
       "voyage": 10,
       "booking": 25000,
-      "dispatch": 20850,
+      "dispatch": 22850,
       "loaded": 2850,
       "balance": 22150,
       "progress": 0.114,
-      "stockpile": 18000,
-      "time": "20:00",
-      "remarks": "LOADING POUCH",
+      "stockpile": 20000,
+      "time": "22:59",
+      "remarks": "LOADING POUCH S42",
       "equipment": "0",
-      "activity_time": "02:42"
+      "activity_time": "03:32"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 15000,
       "progress": 0.4,
       "stockpile": 5000,
-      "time": "21:30",
-      "remarks": "LOADING SLING",
+      "time": "22:09",
+      "remarks": "LOADING SLING S27",
       "equipment": "FL 2",
-      "activity_time": "01:12"
+      "activity_time": "04:22"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "03:42"
+      "activity_time": "07:31"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "03:42"
+      "activity_time": "07:31"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 7000,
       "progress": 0.7307692307692307,
       "stockpile": 7000,
-      "time": "21:15",
-      "remarks": "LOADING SLING S5",
+      "time": "22:51",
+      "remarks": "LOADING SLING S43",
       "equipment": "CRANE 3",
-      "activity_time": "01:27"
+      "activity_time": "03:40"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 288500,
-    "dispatch": 157850,
+    "dispatch": 163850,
     "loaded": 107850,
     "balance": 153150,
     "progress": 0.34198504273504277,
-    "stockpile": 50000
+    "stockpile": 56000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:42"
+      "activity_time": "02:31"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 355575,
-      "daily": 44850
+      "september": 360575,
+      "daily": 49850
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 148200,
-      "september": 54050,
-      "daily": 6000
+      "september": 55050,
+      "daily": 7000
     },
     {
       "hauler": "UCES",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 46000
+      "volume": 51000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "GEO",
-      "volume": 3000
+      "volume": 4000
     },
     {
       "client": "UCES",
