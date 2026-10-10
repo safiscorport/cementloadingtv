@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T10:32:15+08:00",
+  "updated_at": "2026-10-10T11:23:09+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "09:00",
       "remarks": "TEMP PULL OUT / ONBOARD CLAMSHELL",
       "equipment": "CRANE 2",
-      "activity_time": "01:32"
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "09:00",
       "remarks": "TEMP PULL OUT / ONBOARD CLAMSHELL",
       "equipment": "CRANE 4",
-      "activity_time": "01:32"
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 3",
@@ -37,14 +37,14 @@
       "voyage": 6,
       "booking": 50000,
       "dispatch": 10000,
-      "loaded": 7000,
-      "balance": 43000,
-      "progress": 0.14,
-      "stockpile": 3000,
+      "loaded": 9000,
+      "balance": 41000,
+      "progress": 0.18,
+      "stockpile": 1000,
       "time": "09:12",
       "remarks": "LOADING S54 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "01:20"
+      "activity_time": "02:10"
     },
     {
       "berth": "Berth 4",
@@ -97,14 +97,14 @@
       "voyage": 12,
       "booking": 25000,
       "dispatch": 10000,
-      "loaded": 8000,
-      "balance": 17000,
-      "progress": 0.32,
-      "stockpile": 2000,
+      "loaded": 10000,
+      "balance": 15000,
+      "progress": 0.4,
+      "stockpile": 0,
       "time": "09:22",
       "remarks": "LOADING S7 SLING BAGS",
       "equipment": "FL 2",
-      "activity_time": "01:10"
+      "activity_time": "02:00"
     },
     {
       "berth": "Berth 8",
@@ -134,22 +134,22 @@
       "time": "09:22",
       "remarks": "LOADING S6 LOOSEBAG",
       "equipment": "0",
-      "activity_time": "01:10"
+      "activity_time": "02:00"
     },
     {
       "berth": "Berth 10",
       "vessel": "NAPOLI",
       "voyage": 12,
       "booking": 26000,
-      "dispatch": 19000,
+      "dispatch": 22000,
       "loaded": 15000,
       "balance": 11000,
       "progress": 0.5769230769230769,
-      "stockpile": 4000,
+      "stockpile": 7000,
       "time": "09:35",
       "remarks": "LOAIDNG S43 SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "00:57"
+      "activity_time": "01:47"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 258500,
-    "dispatch": 141850,
-    "loaded": 119000,
-    "balance": 112000,
-    "progress": 0.4711477411477411,
-    "stockpile": 22850
+    "dispatch": 144850,
+    "loaded": 123000,
+    "balance": 108000,
+    "progress": 0.48829059829059823,
+    "stockpile": 21850
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "COMPLETE",
       "equip": "0",
-      "activity_time": "10:32"
+      "activity_time": "11:22"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:32"
+      "activity_time": "11:22"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 323575,
-      "daily": 12850
+      "september": 326575,
+      "daily": 15850
     },
     {
       "hauler": "LAPU-LAPU",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 395250
+      "y2026": 399250
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13728960
+    "y2026": 13732960
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 2000
+      "qty": 6000
     },
     {
       "shift": "2ND SHIFT",
@@ -372,7 +372,7 @@
     },
     {
       "client": "FULACHE",
-      "volume": 1000
+      "volume": "-"
     }
   ],
   "status": {
