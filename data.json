@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T14:52:28+08:00",
+  "updated_at": "2026-10-10T15:30:10+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,22 +14,22 @@
       "time": "13:10",
       "remarks": "TEMP PULL OUT / ONBOARD CLAMSHELL",
       "equipment": "CRANE 2",
-      "activity_time": "01:42"
+      "activity_time": "02:19"
     },
     {
       "berth": "Berth 2",
       "vessel": "INFINITY 8",
       "voyage": 6,
       "booking": 45000,
-      "dispatch": 37000,
+      "dispatch": 38000,
       "loaded": 35000,
       "balance": 10000,
       "progress": 0.7777777777777778,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "13:15",
       "remarks": "TEMP PULL OUT / ONBOARD CLAMSHELL",
       "equipment": "CRANE 4",
-      "activity_time": "01:37"
+      "activity_time": "02:14"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "13:14",
       "remarks": "LOADING S3 LOOSEBAG",
       "equipment": "FL 1",
-      "activity_time": "01:38"
+      "activity_time": "02:15"
     },
     {
       "berth": "Berth 4",
@@ -66,15 +66,15 @@
       "vessel": "LADY OF PEACE",
       "voyage": 9,
       "booking": 25000,
-      "dispatch": 33850,
+      "dispatch": 36850,
       "loaded": 25000,
       "balance": 0,
       "progress": 1,
-      "stockpile": 8850,
+      "stockpile": 11850,
       "time": "13:23",
       "remarks": "LOADING S9 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:29"
+      "activity_time": "02:06"
     },
     {
       "berth": "Berth 6",
@@ -96,24 +96,24 @@
       "vessel": "STAR FREEDOM",
       "voyage": 12,
       "booking": 25000,
-      "dispatch": 10000,
+      "dispatch": 11000,
       "loaded": 10000,
       "balance": 15000,
       "progress": 0.4,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "13:10",
       "remarks": "LOADING G1 SLING BAGS",
       "equipment": "FL 2",
-      "activity_time": "01:42"
+      "activity_time": "02:19"
     },
     {
       "berth": "Berth 8",
-      "vessel": "VACANT",
-      "voyage": "-",
-      "booking": 0,
+      "vessel": "LADY OF WISDOM",
+      "voyage": 8,
+      "booking": 30000,
       "dispatch": 0,
       "loaded": 0,
-      "balance": 0,
+      "balance": 30000,
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
@@ -126,15 +126,15 @@
       "vessel": "ADOLFO SR",
       "voyage": 11,
       "booking": 27500,
-      "dispatch": 5000,
+      "dispatch": 6000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 5000,
+      "stockpile": 6000,
       "time": "13:20",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "01:32"
+      "activity_time": "02:09"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:15",
       "remarks": "LOADING S43 SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "01:37"
+      "activity_time": "02:14"
     },
     {
       "berth": "Jetty",
@@ -168,12 +168,12 @@
     }
   ],
   "total": {
-    "booking": 258500,
-    "dispatch": 155850,
+    "booking": 288500,
+    "dispatch": 161850,
     "loaded": 123000,
-    "balance": 108000,
-    "progress": 0.48829059829059823,
-    "stockpile": 32850
+    "balance": 138000,
+    "progress": 0.4272542735042735,
+    "stockpile": 38850
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "COMPLETE",
       "equip": "0",
-      "activity_time": "14:52"
+      "activity_time": "15:29"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:52"
+      "activity_time": "15:29"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 335575,
-      "daily": 24850
+      "september": 341575,
+      "daily": 30850
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 30850
+      "volume": 36850
     },
     {
       "client": "LAPU-LAPU",
