@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T19:03:47+08:00",
+  "updated_at": "2026-10-10T19:12:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "15:20",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 2",
-      "activity_time": "03:43"
+      "activity_time": "03:52"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "15:20",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 4",
-      "activity_time": "03:43"
+      "activity_time": "03:52"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "15:20",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "FL 1",
-      "activity_time": "03:43"
+      "activity_time": "03:52"
     },
     {
       "berth": "Berth 4",
@@ -74,7 +74,7 @@
       "time": "15:20",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "03:43"
+      "activity_time": "03:52"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "15:20",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "FL 2",
-      "activity_time": "03:43"
+      "activity_time": "03:52"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "15:20",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "03:43"
+      "activity_time": "03:52"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "15:20",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 3",
-      "activity_time": "03:43"
+      "activity_time": "03:52"
     },
     {
       "berth": "Jetty",
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "COMPLETE",
       "equip": "0",
-      "activity_time": "19:03"
+      "activity_time": "19:12"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:03"
+      "activity_time": "19:12"
     },
     {
       "berth": "R3",
