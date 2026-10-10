@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T17:44:40+08:00",
+  "updated_at": "2026-10-10T19:03:47+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "15:20",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 2",
-      "activity_time": "02:24"
+      "activity_time": "03:43"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "15:20",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 4",
-      "activity_time": "02:24"
+      "activity_time": "03:43"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "15:20",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "FL 1",
-      "activity_time": "02:24"
+      "activity_time": "03:43"
     },
     {
       "berth": "Berth 4",
@@ -66,15 +66,15 @@
       "vessel": "LADY OF PEACE",
       "voyage": 9,
       "booking": 25000,
-      "dispatch": 39350,
-      "loaded": 27350,
-      "balance": -2350,
-      "progress": 1.094,
+      "dispatch": 39850,
+      "loaded": 27850,
+      "balance": -2850,
+      "progress": 1.114,
       "stockpile": 12000,
       "time": "15:20",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "02:24"
+      "activity_time": "03:43"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "15:20",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "FL 2",
-      "activity_time": "02:24"
+      "activity_time": "03:43"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "15:20",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "02:24"
+      "activity_time": "03:43"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "15:20",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 3",
-      "activity_time": "02:24"
+      "activity_time": "03:43"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 288500,
-    "dispatch": 168350,
-    "loaded": 126350,
-    "balance": 134650,
-    "progress": 0.4438119658119658,
+    "dispatch": 168850,
+    "loaded": 126850,
+    "balance": 134150,
+    "progress": 0.4463119658119658,
     "stockpile": 42000
   },
   "alpha": [
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "COMPLETE",
       "equip": "0",
-      "activity_time": "17:44"
+      "activity_time": "19:03"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:44"
+      "activity_time": "19:03"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 346075,
-      "daily": 35350
+      "september": 345575,
+      "daily": 34850
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "GEO",
       "august": 148200,
-      "september": 50050,
-      "daily": 2000
+      "september": 51050,
+      "daily": 3000
     },
     {
       "hauler": "UCES",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 402600
+      "y2026": 403100
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13736310
+    "y2026": 13736810
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 9350
+      "qty": 9850
     },
     {
       "shift": "2ND SHIFT",
