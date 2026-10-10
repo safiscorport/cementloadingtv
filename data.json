@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T22:00:12+08:00",
+  "updated_at": "2026-10-10T22:00:59+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -7,10 +7,10 @@
       "voyage": 3,
       "booking": 60000,
       "dispatch": 35000,
-      "loaded": 29000,
-      "balance": 31000,
-      "progress": 0.48333333333333334,
-      "stockpile": 6000,
+      "loaded": 31000,
+      "balance": 29000,
+      "progress": 0.5166666666666667,
+      "stockpile": 4000,
       "time": "20:44",
       "remarks": "LOADING TONNER S28",
       "equipment": "CRANE 2",
@@ -142,10 +142,10 @@
       "voyage": 12,
       "booking": 26000,
       "dispatch": 26000,
-      "loaded": 18000,
-      "balance": 8000,
-      "progress": 0.6923076923076923,
-      "stockpile": 8000,
+      "loaded": 19000,
+      "balance": 7000,
+      "progress": 0.7307692307692307,
+      "stockpile": 7000,
       "time": "21:15",
       "remarks": "LOADING SLING S5",
       "equipment": "CRANE 3",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 288500,
     "dispatch": 157850,
-    "loaded": 103850,
-    "balance": 157150,
-    "progress": 0.33092735042735044,
-    "stockpile": 54000
+    "loaded": 106850,
+    "balance": 154150,
+    "progress": 0.33990170940170944,
+    "stockpile": 51000
   },
   "alpha": [
     {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 405100
+      "y2026": 408100
     },
     {
       "month": "November",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13738810
+    "y2026": 13741810
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 2000
+      "qty": 5000
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 48000
+      "volume": 46000
     },
     {
       "client": "LAPU-LAPU",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": 2000
+      "volume": 1000
     },
     {
       "client": "FULACHE",
