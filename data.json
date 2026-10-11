@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T05:27:03+08:00",
+  "updated_at": "2026-10-12T05:35:23+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 15150,
       "progress": 0.7475,
       "stockpile": 0,
-      "time": "21:15",
-      "remarks": "LOADING S17 SLING BAGS",
+      "time": "06:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "08:11"
+      "activity_time": "23:35"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 10000,
       "progress": 0.7777777777777778,
       "stockpile": 7000,
-      "time": "19:30",
+      "time": "06:00",
       "remarks": "WAITING SORE CRANE",
       "equipment": "0",
-      "activity_time": "09:56"
+      "activity_time": "23:35"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 41000,
       "progress": 0.18,
       "stockpile": 4000,
-      "time": "19:20",
+      "time": "06:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "FL 2",
-      "activity_time": "10:06"
+      "activity_time": "23:35"
     },
     {
       "berth": "Berth 4",
@@ -71,10 +71,10 @@
       "balance": 150,
       "progress": 0.994,
       "stockpile": 1000,
-      "time": "22:10",
-      "remarks": "LOADING S50 SLING BAGS",
+      "time": "06:00",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "FL 16",
-      "activity_time": "07:16"
+      "activity_time": "23:35"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 9850,
       "progress": 0.606,
       "stockpile": 6000,
-      "time": "19:20",
+      "time": "06:00",
       "remarks": "WAITING SORE CRANE",
       "equipment": "CRANE2/FL3",
-      "activity_time": "10:06"
+      "activity_time": "23:35"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 28000,
       "progress": 0.06666666666666667,
       "stockpile": 1000,
-      "time": "19:40",
+      "time": "06:00",
       "remarks": "WAITING BADIE TRUCKING",
       "equipment": "0",
-      "activity_time": "09:46"
+      "activity_time": "23:35"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 6000,
-      "time": "19:30",
+      "time": "06:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "09:56"
+      "activity_time": "23:35"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "14:01",
       "remarks": "COMPLETE LOADING S22",
       "equipment": "FL 1",
-      "activity_time": "15:25"
+      "activity_time": "15:34"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:26"
+      "activity_time": "05:35"
     },
     {
       "berth": "R3",
