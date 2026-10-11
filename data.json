@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T10:48:46+08:00",
+  "updated_at": "2026-10-11T11:27:18+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 25000,
       "progress": 0.5833333333333334,
       "stockpile": 3850,
-      "time": "08:00",
-      "remarks": "LOADING S44 SLING BAGS",
+      "time": "11:00",
+      "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "02:48"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 10000,
       "progress": 0.7777777777777778,
       "stockpile": 7000,
-      "time": "08:00",
+      "time": "11:00",
       "remarks": "WAITING SORE CRANE",
       "equipment": "0",
-      "activity_time": "02:48"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 41000,
       "progress": 0.18,
       "stockpile": 4000,
-      "time": "08:00",
+      "time": "11:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "FL 2",
-      "activity_time": "02:48"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 4",
@@ -71,10 +71,10 @@
       "balance": 17150,
       "progress": 0.314,
       "stockpile": 18150,
-      "time": "08:11",
-      "remarks": "LOADING S31 LOOSEBAG",
+      "time": "11:00",
+      "remarks": "SORE CRANE OVERHIT",
       "equipment": "FL 16",
-      "activity_time": "02:37"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 10000,
       "progress": 0.6,
       "stockpile": 6000,
-      "time": "08:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "11:00",
+      "remarks": "WAITING STEVEDORES",
       "equipment": "CRANE2/FL3",
-      "activity_time": "02:48"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 30000,
       "progress": 0,
       "stockpile": 1000,
-      "time": "08:00",
+      "time": "11:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "02:48"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 6000,
-      "time": "08:00",
+      "time": "11:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "02:48"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 10",
@@ -142,14 +142,14 @@
       "voyage": 12,
       "booking": 26000,
       "dispatch": 26000,
-      "loaded": 21000,
-      "balance": 5000,
-      "progress": 0.8076923076923077,
-      "stockpile": 5000,
-      "time": "10:19",
-      "remarks": "LOADING S38 SLING BAGS",
+      "loaded": 25000,
+      "balance": 1000,
+      "progress": 0.9615384615384616,
+      "stockpile": 1000,
+      "time": "11:07",
+      "remarks": "LOADING S45 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "00:29"
+      "activity_time": "00:20"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 288500,
     "dispatch": 173850,
-    "loaded": 122850,
-    "balance": 138150,
-    "progress": 0.4078504273504273,
-    "stockpile": 51000
+    "loaded": 126850,
+    "balance": 134150,
+    "progress": 0.4270811965811966,
+    "stockpile": 47000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:48"
+      "activity_time": "11:27"
     },
     {
       "berth": "R3",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 424100
+      "y2026": 428100
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13757810
+    "y2026": 13761810
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 0
+      "qty": 4000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 46000
+      "volume": 42000
     },
     {
       "client": "LAPU-LAPU",
