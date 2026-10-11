@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T22:23:09+08:00",
+  "updated_at": "2026-10-11T22:24:46+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 18000,
       "progress": 0.7,
       "stockpile": 850,
-      "time": "19:20",
-      "remarks": "LOADING S28 SLING BAGS",
+      "time": "21:15",
+      "remarks": "LOADING S17 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:02"
+      "activity_time": "01:09"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "19:30",
       "remarks": "WAITING SORE CRANE",
       "equipment": "0",
-      "activity_time": "02:52"
+      "activity_time": "02:54"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:20",
       "remarks": "WAITING STEVEDORES",
       "equipment": "FL 2",
-      "activity_time": "03:02"
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 4",
@@ -71,10 +71,10 @@
       "balance": 7150,
       "progress": 0.714,
       "stockpile": 8000,
-      "time": "19:20",
-      "remarks": "LOADING S10 SLING BAGS",
+      "time": "22:10",
+      "remarks": "LOADING S50 SLING BAGS",
       "equipment": "FL 16",
-      "activity_time": "03:02"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "19:20",
       "remarks": "WAITING SORE CRANE",
       "equipment": "CRANE2/FL3",
-      "activity_time": "03:02"
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "19:40",
       "remarks": "WAITING BADIE TRUCKING",
       "equipment": "0",
-      "activity_time": "02:42"
+      "activity_time": "02:44"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "19:30",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "02:52"
+      "activity_time": "02:54"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "14:01",
       "remarks": "COMPLETE LOADING S22",
       "equipment": "FL 1",
-      "activity_time": "08:21"
+      "activity_time": "08:23"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:22"
+      "activity_time": "22:24"
     },
     {
       "berth": "R3",
