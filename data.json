@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T16:02:16+08:00",
+  "updated_at": "2026-10-11T16:31:17+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 23000,
       "progress": 0.6166666666666667,
       "stockpile": 1850,
-      "time": "11:00",
-      "remarks": "WAITING STEVEDORES",
+      "time": "14:55",
+      "remarks": "LOADING S53 SLING BAGS",
       "equipment": "0",
-      "activity_time": "05:02"
+      "activity_time": "01:36"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "11:00",
       "remarks": "WAITING SORE CRANE",
       "equipment": "0",
-      "activity_time": "05:02"
+      "activity_time": "05:31"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "11:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "FL 2",
-      "activity_time": "05:02"
+      "activity_time": "05:31"
     },
     {
       "berth": "Berth 4",
@@ -71,10 +71,10 @@
       "balance": 14150,
       "progress": 0.434,
       "stockpile": 15150,
-      "time": "11:00",
-      "remarks": "SORE CRANE OVERHIT",
+      "time": "14:36",
+      "remarks": "LOADING S49 SLING BAGS",
       "equipment": "FL 16",
-      "activity_time": "05:02"
+      "activity_time": "01:55"
     },
     {
       "berth": "Berth 6",
@@ -104,22 +104,22 @@
       "time": "11:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "CRANE2/FL3",
-      "activity_time": "05:02"
+      "activity_time": "05:31"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF WISDOM",
       "voyage": 8,
       "booking": 30000,
-      "dispatch": 2000,
-      "loaded": 1000,
-      "balance": 29000,
-      "progress": 0.03333333333333333,
+      "dispatch": 3000,
+      "loaded": 2000,
+      "balance": 28000,
+      "progress": 0.06666666666666667,
       "stockpile": 1000,
-      "time": "11:00",
-      "remarks": "WAITING STEVEDORES",
+      "time": "15:19",
+      "remarks": "LOADING S45 SLING BAGS",
       "equipment": "0",
-      "activity_time": "05:02"
+      "activity_time": "01:12"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "11:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "05:02"
+      "activity_time": "05:31"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "14:01",
       "remarks": "COMPLETE LOADING S22",
       "equipment": "FL 1",
-      "activity_time": "02:01"
+      "activity_time": "02:30"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 288500,
-    "dispatch": 174850,
-    "loaded": 132850,
-    "balance": 128150,
-    "progress": 0.4504145299145299,
+    "dispatch": 175850,
+    "loaded": 133850,
+    "balance": 127150,
+    "progress": 0.4545811965811966,
     "stockpile": 42000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:02"
+      "activity_time": "16:31"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 369575,
-      "daily": 8000
+      "september": 370575,
+      "daily": 9000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 434100
+      "y2026": 435100
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13767810
+    "y2026": 13768810
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 10000
+      "qty": 11000
     },
     {
       "shift": "2ND SHIFT",
