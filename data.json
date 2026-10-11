@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-11T17:39:14+08:00",
+  "updated_at": "2026-10-11T22:21:22+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "SF JOURNEY",
       "voyage": 3,
       "booking": 60000,
-      "dispatch": 40850,
+      "dispatch": 41850,
       "loaded": 40000,
       "balance": 20000,
       "progress": 0.6666666666666666,
-      "stockpile": 850,
-      "time": "17:06",
-      "remarks": "LOADING S38 SLING BAGS",
+      "stockpile": 1850,
+      "time": "19:20",
+      "remarks": "LOADING S28 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:33"
+      "activity_time": "03:01"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 10000,
       "progress": 0.7777777777777778,
       "stockpile": 7000,
-      "time": "17:00",
+      "time": "19:30",
       "remarks": "WAITING SORE CRANE",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "02:51"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 41000,
       "progress": 0.18,
       "stockpile": 4000,
-      "time": "17:00",
+      "time": "19:20",
       "remarks": "WAITING STEVEDORES",
       "equipment": "FL 2",
-      "activity_time": "00:39"
+      "activity_time": "03:01"
     },
     {
       "berth": "Berth 4",
@@ -66,15 +66,15 @@
       "vessel": "LADY OF PEACE",
       "voyage": 10,
       "booking": 25000,
-      "dispatch": 26000,
+      "dispatch": 25850,
       "loaded": 14850,
       "balance": 10150,
       "progress": 0.594,
-      "stockpile": 11150,
-      "time": "17:20",
-      "remarks": "LOADING S9 SLING BAGS",
+      "stockpile": 11000,
+      "time": "19:20",
+      "remarks": "LOADING S10 SLING BAGS",
       "equipment": "FL 16",
-      "activity_time": "00:19"
+      "activity_time": "03:01"
     },
     {
       "berth": "Berth 6",
@@ -96,15 +96,15 @@
       "vessel": "STAR FREEDOM",
       "voyage": 12,
       "booking": 25000,
-      "dispatch": 21000,
+      "dispatch": 21150,
       "loaded": 15000,
       "balance": 10000,
       "progress": 0.6,
-      "stockpile": 6000,
-      "time": "17:00",
+      "stockpile": 6150,
+      "time": "19:20",
       "remarks": "WAITING SORE CRANE",
       "equipment": "CRANE2/FL3",
-      "activity_time": "00:39"
+      "activity_time": "03:01"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 28000,
       "progress": 0.06666666666666667,
       "stockpile": 1000,
-      "time": "17:00",
+      "time": "19:40",
       "remarks": "WAITING BADIE TRUCKING",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "02:41"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 6000,
-      "time": "17:00",
+      "time": "19:30",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "02:51"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "14:01",
       "remarks": "COMPLETE LOADING S22",
       "equipment": "FL 1",
-      "activity_time": "03:38"
+      "activity_time": "08:20"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 288500,
-    "dispatch": 177850,
+    "dispatch": 178850,
     "loaded": 141850,
     "balance": 119150,
     "progress": 0.4856388888888889,
-    "stockpile": 36000
+    "stockpile": 37000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:39"
+      "activity_time": "22:21"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 372575,
-      "daily": 11000
+      "september": 373575,
+      "daily": 12000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 32000
+      "volume": 33000
     },
     {
       "client": "LAPU-LAPU",
