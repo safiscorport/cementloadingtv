@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T08:54:29+08:00",
+  "updated_at": "2026-10-12T08:54:56+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -381,6 +381,6 @@
     "pmc": "WILLIAM",
     "cranes": 4,
     "forklifts": 6,
-    "stevedores": 0
+    "stevedores": 38
   }
 }
