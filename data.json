@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T10:27:53+08:00",
+  "updated_at": "2026-10-12T10:28:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "10:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "00:27"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "03:27"
+      "activity_time": "03:28"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:45",
       "remarks": "LOADING COMPLETE",
       "equipment": "FL 16",
-      "activity_time": "01:42"
+      "activity_time": "01:43"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "LOADING LOOSEBAGS",
       "equipment": "FL 2",
-      "activity_time": "02:27"
+      "activity_time": "02:28"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "02:27"
+      "activity_time": "02:28"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "08:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "CRANE2/FL3",
-      "activity_time": "02:27"
+      "activity_time": "02:28"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 27000,
       "progress": 0.1,
       "stockpile": 2000,
-      "time": "08:37",
-      "remarks": "LOADING POUCH B7",
+      "time": "09:05",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "01:23"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "09:10",
       "remarks": "LOADING LOOSEBAGS S6",
       "equipment": "0",
-      "activity_time": "01:17"
+      "activity_time": "01:18"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "14:01",
       "remarks": "COMPLETE LOADING S22",
       "equipment": "0",
-      "activity_time": "20:26"
+      "activity_time": "20:27"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:27"
+      "activity_time": "10:28"
     },
     {
       "berth": "R3",
