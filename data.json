@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T10:57:49+08:00",
+  "updated_at": "2026-10-12T12:56:23+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "10:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "02:56"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "03:57"
+      "activity_time": "05:56"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:45",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "02:12"
+      "activity_time": "04:11"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 41000,
       "progress": 0.18,
       "stockpile": 4000,
-      "time": "08:00",
-      "remarks": "LOADING LOOSEBAGS",
+      "time": "10:24",
+      "remarks": "LOADING LOOSEBAGS S49",
       "equipment": "FL 1",
-      "activity_time": "02:57"
+      "activity_time": "02:32"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 50000,
       "progress": 0,
       "stockpile": 0,
-      "time": "08:00",
-      "remarks": "LOADING SLING",
+      "time": "11:05",
+      "remarks": "LOADING SLING S58",
       "equipment": "FL 17",
-      "activity_time": "02:57"
+      "activity_time": "01:51"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "08:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "02:57"
+      "activity_time": "04:56"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 27000,
       "progress": 0.1,
       "stockpile": 2000,
-      "time": "09:05",
-      "remarks": "WAITING MATERIAL",
+      "time": "11:12",
+      "remarks": "LOADING POUCH S60",
       "equipment": "0",
-      "activity_time": "01:52"
+      "activity_time": "01:44"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "09:10",
       "remarks": "LOADING LOOSEBAGS S6",
       "equipment": "FL 2",
-      "activity_time": "01:47"
+      "activity_time": "03:46"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "14:01",
       "remarks": "COMPLETE LOADING S22",
       "equipment": "0",
-      "activity_time": "20:56"
+      "activity_time": "22:55"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:57"
+      "activity_time": "12:56"
     },
     {
       "berth": "R3",
