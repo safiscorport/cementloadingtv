@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T17:23:48+08:00",
+  "updated_at": "2026-10-12T17:25:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "16:28",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "00:55"
+      "activity_time": "00:57"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "10:23"
+      "activity_time": "10:25"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "11:30",
       "remarks": "DOCKED AND SECURED",
       "equipment": "0",
-      "activity_time": "05:53"
+      "activity_time": "05:55"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "16:09",
       "remarks": "LOADING LOOSEBAGS S51",
       "equipment": "FL 1",
-      "activity_time": "01:14"
+      "activity_time": "01:16"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "13:00",
       "remarks": "CLOSE HATCH / CLOUDY",
       "equipment": "FL 17",
-      "activity_time": "04:23"
+      "activity_time": "04:25"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 7850,
       "progress": 0.686,
       "stockpile": 4000,
-      "time": "14:25",
-      "remarks": "LOADING SLING GEO 1",
+      "time": "17:01",
+      "remarks": "LOADING SLING S40",
       "equipment": "0",
-      "activity_time": "02:58"
+      "activity_time": "00:24"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "13:00",
       "remarks": "CLOSE HATCH / CLOUDY",
       "equipment": "0",
-      "activity_time": "04:23"
+      "activity_time": "04:25"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "15:34",
       "remarks": "LOADING  LOOSEBAGS S34",
       "equipment": "FL 2",
-      "activity_time": "01:49"
+      "activity_time": "01:51"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "08:10",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "09:13"
+      "activity_time": "09:15"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:23"
+      "activity_time": "17:25"
     },
     {
       "berth": "R3",
