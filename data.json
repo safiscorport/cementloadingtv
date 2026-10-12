@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T15:27:17+08:00",
+  "updated_at": "2026-10-12T15:27:36+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -33,13 +33,13 @@
     },
     {
       "berth": "Berth 3",
-      "vessel": "LADY OF PEACE",
+      "vessel": "LADY OF COURAGE",
       "voyage": 10,
-      "booking": 25000,
-      "dispatch": 25850,
-      "loaded": 25850,
-      "balance": -850,
-      "progress": 1.034,
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
       "stockpile": 0,
       "time": "11:30",
       "remarks": "DOCKED AND SECURED",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 312500,
-    "dispatch": 170850,
-    "loaded": 142850,
-    "balance": 144150,
-    "progress": 0.46600063131313135,
+    "booking": 287500,
+    "dispatch": 145000,
+    "loaded": 117000,
+    "balance": 0,
+    "progress": 0,
     "stockpile": 28000
   },
   "alpha": [
