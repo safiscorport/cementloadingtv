@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T08:14:11+08:00",
+  "updated_at": "2026-10-13T08:28:00+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "08:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "00:13"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 2",
@@ -35,16 +35,16 @@
       "berth": "Berth 3",
       "vessel": "LADY OF COURAGE",
       "voyage": 10,
-      "booking": 0,
+      "booking": 25000,
       "dispatch": 5000,
       "loaded": 3000,
-      "balance": -3000,
-      "progress": 0,
+      "balance": 22000,
+      "progress": 0.12,
       "stockpile": 2000,
       "time": "08:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:13"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "LOADING SLINGBAGS",
       "equipment": "FL 1",
-      "activity_time": "00:13"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "08:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:13"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 6",
@@ -149,7 +149,7 @@
       "time": "08:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "00:13"
+      "activity_time": "00:27"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 302500,
+    "booking": 327500,
     "dispatch": 128850,
     "loaded": 94850,
-    "balance": 189150,
-    "progress": 0.2761580086580086,
+    "balance": 214150,
+    "progress": 0.2566382575757576,
     "stockpile": 34000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:13"
+      "activity_time": "08:27"
     },
     {
       "berth": "R3",
