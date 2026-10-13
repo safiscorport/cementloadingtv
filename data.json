@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T07:42:08+08:00",
+  "updated_at": "2026-10-13T08:03:28+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 8150,
       "progress": 0.8641666666666666,
       "stockpile": 5000,
-      "time": "05:20",
-      "remarks": "LOADING S28 TONNER BAGS",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:21"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 0,
-      "time": "01:25",
-      "remarks": "COMPLETE LOADING S22",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "06:16"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": -3000,
       "progress": 0,
       "stockpile": 2000,
-      "time": "05:30",
-      "remarks": "LOADING S51 TONNER BAGS",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:11"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 32000,
       "progress": 0.36,
       "stockpile": 10000,
-      "time": "05:45",
-      "remarks": "LOADING S58 SLING BAGS",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 1",
-      "activity_time": "01:56"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 48000,
       "progress": 0.04,
       "stockpile": 7000,
-      "time": "06:00",
-      "remarks": "WAITING STEVEDORES",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 17",
-      "activity_time": "01:41"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 850,
       "progress": 0.966,
       "stockpile": 0,
-      "time": "21:55",
-      "remarks": "COMPLETE LOADING S29",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "09:46"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 22000,
       "progress": 0.26666666666666666,
       "stockpile": 3000,
-      "time": "05:22",
-      "remarks": "LOADING S25 SLING BAGS",
+      "time": "07:00",
+      "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "02:19"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0.32727272727272727,
       "stockpile": 3000,
-      "time": "04:10",
-      "remarks": "LOADING S61 SLING BAGS",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "03:31"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": -3000,
       "progress": 0,
       "stockpile": 3000,
-      "time": "06:00",
-      "remarks": "VESSEL CRANE TAKE REST",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:41"
+      "activity_time": "01:03"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:41"
+      "activity_time": "08:03"
     },
     {
       "berth": "R3",
@@ -230,7 +230,7 @@
       "hauler": "SAFISCOR",
       "august": 1047550,
       "september": 434575,
-      "daily": 58000
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
@@ -248,7 +248,7 @@
       "hauler": "GEO",
       "august": 148200,
       "september": 65050,
-      "daily": 8000
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 21000
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 38000
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
