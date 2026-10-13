@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T08:03:28+08:00",
+  "updated_at": "2026-10-13T08:04:55+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 8150,
       "progress": 0.8641666666666666,
       "stockpile": 5000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 2",
@@ -41,10 +41,10 @@
       "balance": -3000,
       "progress": 0,
       "stockpile": 2000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 32000,
       "progress": 0.36,
       "stockpile": 10000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING SLINGBAGS",
       "equipment": "FL 1",
-      "activity_time": "01:03"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 48000,
       "progress": 0.04,
       "stockpile": 7000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING TONNER",
       "equipment": "FL 17",
-      "activity_time": "01:03"
+      "activity_time": "00:04"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 22000,
       "progress": 0.26666666666666666,
       "stockpile": 3000,
-      "time": "07:00",
-      "remarks": "WAITING FL ONBOARD",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0.32727272727272727,
       "stockpile": 3000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "8:00",
+      "remarks": "LOADING POUCH",
       "equipment": "FL 2",
-      "activity_time": "01:03"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": -3000,
       "progress": 0,
       "stockpile": 3000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "00:04"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:03"
+      "activity_time": "08:04"
     },
     {
       "berth": "R3",
