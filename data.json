@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T08:04:55+08:00",
+  "updated_at": "2026-10-13T08:05:52+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,17 +14,17 @@
       "time": "08:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "00:04"
+      "activity_time": "00:05"
     },
     {
       "berth": "Berth 2",
-      "vessel": "INFINITY 8",
-      "voyage": 6,
+      "vessel": "VACANT",
+      "voyage": "-",
       "booking": 45000,
-      "dispatch": 45000,
-      "loaded": 45000,
-      "balance": 0,
-      "progress": 1,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 45000,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:04"
+      "activity_time": "00:05"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "LOADING SLINGBAGS",
       "equipment": "FL 1",
-      "activity_time": "00:04"
+      "activity_time": "00:05"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "08:00",
       "remarks": "LOADING TONNER",
       "equipment": "FL 17",
-      "activity_time": "00:04"
+      "activity_time": "00:05"
     },
     {
       "berth": "Berth 6",
@@ -93,13 +93,13 @@
     },
     {
       "berth": "Berth 7",
-      "vessel": "STAR FREEDOM",
-      "voyage": 12,
-      "booking": 25000,
-      "dispatch": 24150,
-      "loaded": 24150,
-      "balance": 850,
-      "progress": 0.966,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
@@ -140,16 +140,16 @@
       "berth": "Berth 10",
       "vessel": "QUEEN CAROLYN",
       "voyage": 10,
-      "booking": 0,
+      "booking": 40000,
       "dispatch": 6000,
       "loaded": 3000,
-      "balance": -3000,
-      "progress": 0,
+      "balance": 37000,
+      "progress": 0.075,
       "stockpile": 3000,
       "time": "08:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "00:04"
+      "activity_time": "00:05"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 287500,
-    "dispatch": 197000,
-    "loaded": 164000,
-    "balance": 105000,
-    "progress": 0.5463008658008658,
+    "booking": 302500,
+    "dispatch": 127850,
+    "loaded": 94850,
+    "balance": 189150,
+    "progress": 0.2761580086580086,
     "stockpile": 33000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:04"
+      "activity_time": "08:05"
     },
     {
       "berth": "R3",
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER, JOVIC",
-    "checker": "TORRES, J",
-    "pmc": "VICKY / EBOY",
+    "supervisor": "BERNABE",
+    "checker": "OBIAL / DALUSA",
+    "pmc": "JOAN / WILLIAM",
     "cranes": 4,
     "forklifts": 6,
-    "stevedores": 40
+    "stevedores": 0
   }
 }
