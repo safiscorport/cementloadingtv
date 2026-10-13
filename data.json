@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T00:57:01+08:00",
+  "updated_at": "2026-10-14T01:01:28+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:49",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "05:07"
+      "activity_time": "05:12"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "10:30",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "14:26"
+      "activity_time": "14:31"
     },
     {
       "berth": "Berth 3",
@@ -44,22 +44,22 @@
       "time": "21:38",
       "remarks": "LOADING S41 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:18"
+      "activity_time": "03:23"
     },
     {
       "berth": "Berth 4",
       "vessel": "EFG 8",
       "voyage": 6,
       "booking": 50000,
-      "dispatch": 35000,
-      "loaded": 28000,
-      "balance": 22000,
-      "progress": 0.56,
+      "dispatch": 36000,
+      "loaded": 29000,
+      "balance": 21000,
+      "progress": 0.58,
       "stockpile": 7000,
       "time": "19:20",
       "remarks": "LOADING S41 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "05:36"
+      "activity_time": "05:41"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "21:41",
       "remarks": "LOADING S54 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "03:15"
+      "activity_time": "03:20"
     },
     {
       "berth": "Berth 6",
@@ -96,15 +96,15 @@
       "vessel": "EASTERN CEBU",
       "voyage": 14,
       "booking": 27000,
-      "dispatch": 10000,
-      "loaded": 0,
-      "balance": 27000,
-      "progress": 0,
-      "stockpile": 10000,
+      "dispatch": 11000,
+      "loaded": 2000,
+      "balance": 25000,
+      "progress": 0.07407407407407407,
+      "stockpile": 9000,
       "time": "19:25",
       "remarks": "LOADING S37 SLING BAGS",
       "equipment": "0",
-      "activity_time": "05:31"
+      "activity_time": "05:36"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "21:23",
       "remarks": "LOADING S36 SLING BAGS",
       "equipment": "FL 3",
-      "activity_time": "03:33"
+      "activity_time": "03:38"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "21:25",
       "remarks": "LOADING S26 SLING BAGS",
       "equipment": "CRANE2/FL2",
-      "activity_time": "03:31"
+      "activity_time": "03:36"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "21:34",
       "remarks": "LOADING S51 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:22"
+      "activity_time": "03:27"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 309500,
-    "dispatch": 175800,
-    "loaded": 144600,
-    "balance": 153200,
-    "progress": 0.4172348484848485,
-    "stockpile": 31200
+    "dispatch": 177800,
+    "loaded": 147600,
+    "balance": 150200,
+    "progress": 0.42899410774410773,
+    "stockpile": 30200
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "00:56"
+      "activity_time": "01:01"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 476550,
-      "daily": 41975
+      "september": 477550,
+      "daily": 42975
     },
     {
       "hauler": "LAPU-LAPU",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 566850
+      "y2026": 569850
     },
     {
       "month": "November",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13900560
+    "y2026": 13903560
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 14975
+      "qty": 17975
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 28200
+      "volume": 27200
     },
     {
       "client": "LAPU-LAPU",
