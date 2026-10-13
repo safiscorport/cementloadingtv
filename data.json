@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T08:28:16+08:00",
+  "updated_at": "2026-10-13T08:46:16+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "08:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "00:27"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 2",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:27"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "LOADING SLINGBAGS",
       "equipment": "FL 1",
-      "activity_time": "00:27"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "08:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:27"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 6",
@@ -149,7 +149,7 @@
       "time": "08:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "00:27"
+      "activity_time": "00:46"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:27"
+      "activity_time": "08:46"
     },
     {
       "berth": "R3",
@@ -216,12 +216,12 @@
   "foreign": {
     "berth": "Jetty",
     "vessel": "RED DIAMOND",
-    "materials": "SLUG / 17,329",
-    "discharge": "55%",
-    "balance": "45%",
-    "progress": "55%",
-    "time": "1500H",
-    "remarks": "HATCH 1,4,2",
+    "materials": "SLUG / 9,145 MT",
+    "discharge": "80%",
+    "balance": "20%",
+    "progress": "80%",
+    "time": "0838H",
+    "remarks": "HATCH 3 & 4",
     "equip": "SDLG 8, 5, 3",
     "activity_time": "00:00"
   },
