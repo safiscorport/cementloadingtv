@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T09:52:02+08:00",
+  "updated_at": "2026-10-13T09:57:39+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "08:29",
       "remarks": "LOADING POUCH S50",
       "equipment": "CRANE 4",
-      "activity_time": "01:22"
+      "activity_time": "01:28"
     },
     {
       "berth": "Berth 2",
@@ -36,15 +36,15 @@
       "vessel": "LADY OF COURAGE",
       "voyage": 10,
       "booking": 25000,
-      "dispatch": 5000,
+      "dispatch": 6000,
       "loaded": 4000,
       "balance": 21000,
       "progress": 0.16,
-      "stockpile": 1000,
+      "stockpile": 2000,
       "time": "09:06",
       "remarks": "LOADING TONNER S26",
       "equipment": "0",
-      "activity_time": "00:45"
+      "activity_time": "00:51"
     },
     {
       "berth": "Berth 4",
@@ -59,22 +59,22 @@
       "time": "08:00",
       "remarks": "LOADING SLINGBAGS",
       "equipment": "FL 1",
-      "activity_time": "01:51"
+      "activity_time": "01:57"
     },
     {
       "berth": "Berth 5",
       "vessel": "EFG 7",
       "voyage": 5,
       "booking": 50000,
-      "dispatch": 11000,
+      "dispatch": 12000,
       "loaded": 3000,
       "balance": 47000,
       "progress": 0.06,
-      "stockpile": 8000,
+      "stockpile": 9000,
       "time": "08:00",
       "remarks": "LOADING SLING S37",
       "equipment": "0",
-      "activity_time": "01:51"
+      "activity_time": "01:57"
     },
     {
       "berth": "Berth 6",
@@ -111,15 +111,15 @@
       "vessel": "LADY OF WISDOM",
       "voyage": 8,
       "booking": 30000,
-      "dispatch": 11000,
+      "dispatch": 12000,
       "loaded": 8000,
       "balance": 22000,
       "progress": 0.26666666666666666,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "07:00",
       "remarks": "WAITING STEVEDORE",
       "equipment": "FL 3",
-      "activity_time": "02:51"
+      "activity_time": "02:57"
     },
     {
       "berth": "Berth 9",
@@ -141,15 +141,15 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 10,
       "booking": 40000,
-      "dispatch": 6000,
+      "dispatch": 7000,
       "loaded": 5000,
       "balance": 35000,
       "progress": 0.125,
-      "stockpile": 1000,
+      "stockpile": 2000,
       "time": "09:02",
       "remarks": "LOADING POUCH S36",
       "equipment": "0",
-      "activity_time": "00:49"
+      "activity_time": "00:55"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 327500,
-    "dispatch": 129850,
+    "dispatch": 133850,
     "loaded": 99850,
     "balance": 209150,
     "progress": 0.2724715909090909,
-    "stockpile": 30000
+    "stockpile": 34000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:51"
+      "activity_time": "09:57"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 436575,
-      "daily": 2000
+      "september": 440575,
+      "daily": 6000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 26000
+      "volume": 30000
     },
     {
       "client": "LAPU-LAPU",
