@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T15:37:34+08:00",
+  "updated_at": "2026-10-13T15:41:12+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING POUCH",
       "equipment": "CRANE 4",
-      "activity_time": "00:37"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "10:30",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "05:07"
+      "activity_time": "05:10"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "FL 1",
-      "activity_time": "00:37"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 6",
@@ -95,10 +95,10 @@
       "berth": "Berth 7",
       "vessel": "EASTERN CEBU",
       "voyage": 14,
-      "booking": 0,
+      "booking": 27000,
       "dispatch": 2000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 27000,
       "progress": 0,
       "stockpile": 2000,
       "time": "00:00",
@@ -119,7 +119,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING POUCH",
       "equipment": "FL 3",
-      "activity_time": "00:37"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING POUCH",
       "equipment": "CRANE2/FL2",
-      "activity_time": "00:37"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING POUCH",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:40"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 282500,
+    "booking": 309500,
     "dispatch": 154825,
     "loaded": 105650,
-    "balance": 159150,
-    "progress": 0.3307900432900433,
+    "balance": 186150,
+    "progress": 0.28944128787878787,
     "stockpile": 49175
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:37"
+      "activity_time": "15:40"
     },
     {
       "berth": "R3",
