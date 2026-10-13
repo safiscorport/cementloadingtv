@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T16:57:55+08:00",
+  "updated_at": "2026-10-13T17:14:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "15:20",
       "remarks": "LOADING TONNER S35",
       "equipment": "CRANE 4",
-      "activity_time": "01:37"
+      "activity_time": "01:53"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "10:30",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "06:27"
+      "activity_time": "06:43"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "14:55",
       "remarks": "RESUME LOADING TONNER S10",
       "equipment": "0",
-      "activity_time": "02:02"
+      "activity_time": "02:18"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "15:19",
       "remarks": "LOADING SLING S60",
       "equipment": "FL 1",
-      "activity_time": "01:38"
+      "activity_time": "01:54"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 45000,
       "progress": 0.1,
       "stockpile": 11000,
-      "time": "14:57",
-      "remarks": "RESUME LOADING TONNER S6",
+      "time": "16:39",
+      "remarks": "LOADING TONNER S3",
       "equipment": "0",
-      "activity_time": "02:00"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 20000,
       "progress": 0.3333333333333333,
       "stockpile": 4000,
-      "time": "14:57",
-      "remarks": "RESUME LOADING POUCH S57",
+      "time": "16:08",
+      "remarks": "LOADING POUCH S39",
       "equipment": "FL 3",
-      "activity_time": "02:00"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING POUCH",
       "equipment": "CRANE2/FL2",
-      "activity_time": "01:57"
+      "activity_time": "02:13"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "15:28",
       "remarks": "LOADING POUCH S19",
       "equipment": "0",
-      "activity_time": "01:29"
+      "activity_time": "01:45"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:57"
+      "activity_time": "17:13"
     },
     {
       "berth": "R3",
