@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T15:24:07+08:00",
+  "updated_at": "2026-10-13T15:29:15+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 5150,
       "progress": 0.9141666666666667,
       "stockpile": 3000,
-      "time": "10:45",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "time": "15:00",
+      "remarks": "RESUME LOADING POUCH",
       "equipment": "CRANE 4",
-      "activity_time": "04:38"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "10:30",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "04:53"
+      "activity_time": "04:58"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 21000,
       "progress": 0.16,
       "stockpile": 2000,
-      "time": "10:45",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "time": "15:00",
+      "remarks": "RESUME LOADING TONNER",
       "equipment": "0",
-      "activity_time": "04:38"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 31000,
       "progress": 0.38,
       "stockpile": 9000,
-      "time": "10:45",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "time": "15:00",
+      "remarks": "RESUME LOADING SLING",
       "equipment": "FL 1",
-      "activity_time": "04:38"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 46000,
       "progress": 0.08,
       "stockpile": 11000,
-      "time": "10:45",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "time": "15:00",
+      "remarks": "RESUME LOADING SLING",
       "equipment": "0",
-      "activity_time": "04:38"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 21000,
       "progress": 0.3,
       "stockpile": 5000,
-      "time": "10:45",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "time": "15:00",
+      "remarks": "RESUME LOADING POUCH",
       "equipment": "FL 3",
-      "activity_time": "04:38"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0.3563636363636364,
       "stockpile": 7200,
-      "time": "10:45",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "time": "15:00",
+      "remarks": "RESUME LOADING POUCH",
       "equipment": "CRANE2/FL2",
-      "activity_time": "04:38"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 35000,
       "progress": 0.125,
       "stockpile": 6000,
-      "time": "10:45",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "time": "15:00",
+      "remarks": "RESUME LOADING POUCH",
       "equipment": "0",
-      "activity_time": "04:38"
+      "activity_time": "00:28"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:23"
+      "activity_time": "15:28"
     },
     {
       "berth": "R3",
