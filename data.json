@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T13:29:18+08:00",
+  "updated_at": "2026-10-13T13:29:44+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -126,11 +126,11 @@
       "vessel": "ADOLFO SR",
       "voyage": 11,
       "booking": 27500,
-      "dispatch": 14000,
+      "dispatch": 15000,
       "loaded": 9800,
       "balance": 0,
       "progress": 0.3563636363636364,
-      "stockpile": 4200,
+      "stockpile": 5200,
       "time": "10:45",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "CRANE2/FL2",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 327500,
-    "dispatch": 143850,
+    "dispatch": 144850,
     "loaded": 105650,
     "balance": 204150,
     "progress": 0.28944128787878787,
-    "stockpile": 38200
+    "stockpile": 39200
   },
   "alpha": [
     {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 449575,
-      "daily": 15000
+      "september": 450575,
+      "daily": 16000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 33200
+      "volume": 34200
     },
     {
       "client": "LAPU-LAPU",
