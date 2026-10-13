@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T08:56:25+08:00",
+  "updated_at": "2026-10-13T09:40:19+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 8150,
       "progress": 0.8641666666666666,
       "stockpile": 5000,
-      "time": "08:00",
-      "remarks": "LOADING POUCH",
+      "time": "08:29",
+      "remarks": "LOADING POUCH S50",
       "equipment": "CRANE 4",
-      "activity_time": "00:56"
+      "activity_time": "01:11"
     },
     {
       "berth": "Berth 2",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "01:40"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "LOADING SLINGBAGS",
       "equipment": "FL 1",
-      "activity_time": "00:56"
+      "activity_time": "01:40"
     },
     {
       "berth": "Berth 5",
@@ -72,9 +72,9 @@
       "progress": 0.04,
       "stockpile": 8000,
       "time": "08:00",
-      "remarks": "LOADING TONNER",
+      "remarks": "LOADING SLING S37",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "01:40"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 22000,
       "progress": 0.26666666666666666,
       "stockpile": 3000,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "07:00",
+      "remarks": "WAITING STEVEDORE",
       "equipment": "FL 3",
-      "activity_time": "00:00"
+      "activity_time": "02:40"
     },
     {
       "berth": "Berth 9",
@@ -146,10 +146,10 @@
       "balance": 37000,
       "progress": 0.075,
       "stockpile": 3000,
-      "time": "08:00",
-      "remarks": "LOADING POUCH",
+      "time": "09:02",
+      "remarks": "LOADING POUCH S36",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "00:38"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:56"
+      "activity_time": "09:40"
     },
     {
       "berth": "R3",
