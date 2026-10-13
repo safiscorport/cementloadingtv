@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-13T13:54:01+08:00",
+  "updated_at": "2026-10-13T14:02:59+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "SF JOURNEY",
       "voyage": 3,
       "booking": 60000,
-      "dispatch": 56850,
+      "dispatch": 57850,
       "loaded": 54850,
       "balance": 5150,
       "progress": 0.9141666666666667,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "10:45",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "CRANE 4",
-      "activity_time": "03:08"
+      "activity_time": "03:17"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "10:30",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "03:23"
+      "activity_time": "03:32"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "10:45",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "03:08"
+      "activity_time": "03:17"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "10:45",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "FL 1",
-      "activity_time": "03:08"
+      "activity_time": "03:17"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "10:45",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "03:08"
+      "activity_time": "03:17"
     },
     {
       "berth": "Berth 6",
@@ -119,37 +119,37 @@
       "time": "10:45",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "FL 3",
-      "activity_time": "03:08"
+      "activity_time": "03:17"
     },
     {
       "berth": "Berth 9",
       "vessel": "ADOLFO SR",
       "voyage": 11,
       "booking": 27500,
-      "dispatch": 15000,
+      "dispatch": 17000,
       "loaded": 9800,
       "balance": 0,
       "progress": 0.3563636363636364,
-      "stockpile": 5200,
+      "stockpile": 7200,
       "time": "10:45",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "CRANE2/FL2",
-      "activity_time": "03:08"
+      "activity_time": "03:17"
     },
     {
       "berth": "Berth 10",
       "vessel": "QUEEN CAROLYN",
       "voyage": 10,
       "booking": 40000,
-      "dispatch": 10000,
+      "dispatch": 11000,
       "loaded": 5000,
       "balance": 35000,
       "progress": 0.125,
-      "stockpile": 5000,
+      "stockpile": 6000,
       "time": "10:45",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "03:08"
+      "activity_time": "03:17"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 327500,
-    "dispatch": 144850,
+    "dispatch": 148850,
     "loaded": 105650,
     "balance": 204150,
     "progress": 0.28944128787878787,
-    "stockpile": 39200
+    "stockpile": 43200
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:53"
+      "activity_time": "14:02"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 450575,
-      "daily": 16000
+      "september": 454575,
+      "daily": 20000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 34200
+      "volume": 38200
     },
     {
       "client": "LAPU-LAPU",
