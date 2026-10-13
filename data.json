@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T15:42:08+08:00",
+  "updated_at": "2026-10-13T16:04:30+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 5150,
       "progress": 0.9141666666666667,
       "stockpile": 3975,
-      "time": "15:00",
-      "remarks": "RESUME LOADING POUCH",
+      "time": "15:20",
+      "remarks": "LOADING TONNER S35",
       "equipment": "CRANE 4",
-      "activity_time": "00:41"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "10:30",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "05:11"
+      "activity_time": "05:34"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:41"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 31000,
       "progress": 0.38,
       "stockpile": 9000,
-      "time": "15:00",
-      "remarks": "RESUME LOADING SLING",
+      "time": "14:56",
+      "remarks": "RESUME LOADING SLING S44",
       "equipment": "FL 1",
-      "activity_time": "00:41"
+      "activity_time": "01:08"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:41"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 21000,
       "progress": 0.3,
       "stockpile": 5000,
-      "time": "15:00",
-      "remarks": "RESUME LOADING POUCH",
+      "time": "14:57",
+      "remarks": "RESUME LOADING POUCH S57",
       "equipment": "FL 3",
-      "activity_time": "00:41"
+      "activity_time": "01:07"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING POUCH",
       "equipment": "CRANE2/FL2",
-      "activity_time": "00:41"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING POUCH",
       "equipment": "0",
-      "activity_time": "00:41"
+      "activity_time": "01:04"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:41"
+      "activity_time": "16:04"
     },
     {
       "berth": "R3",
