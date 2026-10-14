@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T13:58:44+08:00",
+  "updated_at": "2026-10-14T14:32:36+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "12:15",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "01:43"
+      "activity_time": "02:17"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "12:15",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "FL2",
-      "activity_time": "01:43"
+      "activity_time": "02:17"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "12:15",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "01:43"
+      "activity_time": "02:17"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "10:44",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "FL 1",
-      "activity_time": "03:14"
+      "activity_time": "03:48"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "12:15",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "01:43"
+      "activity_time": "02:17"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "12:15",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "01:43"
+      "activity_time": "02:17"
     },
     {
       "berth": "Berth 9",
@@ -128,13 +128,13 @@
       "booking": 27500,
       "dispatch": 23000,
       "loaded": 17800,
-      "balance": 0,
+      "balance": 9700,
       "progress": 0.6472727272727272,
       "stockpile": 5200,
       "time": "12:15",
       "remarks": "VESSEL CLOSE / RAIN",
-      "equipment": "0",
-      "activity_time": "01:43"
+      "equipment": "CRANE 3",
+      "activity_time": "02:17"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "09:06",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 3",
-      "activity_time": "04:52"
+      "activity_time": "05:26"
     },
     {
       "berth": "Jetty",
@@ -171,7 +171,7 @@
     "booking": 315500,
     "dispatch": 159800,
     "loaded": 109600,
-    "balance": 196200,
+    "balance": 205900,
     "progress": 0.38000210437710435,
     "stockpile": 50200
   },
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:58"
+      "activity_time": "14:32"
     },
     {
       "berth": "R3",
