@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T16:40:04+08:00",
+  "updated_at": "2026-10-14T16:41:22+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "12:15",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:24"
+      "activity_time": "04:26"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "15:29",
       "remarks": "LOADING TONNER S29",
       "equipment": "FL2",
-      "activity_time": "01:10"
+      "activity_time": "01:12"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING LOOSEBAGS",
       "equipment": "0",
-      "activity_time": "01:39"
+      "activity_time": "01:41"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING TONNER S1",
       "equipment": "FL 1",
-      "activity_time": "01:39"
+      "activity_time": "01:41"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "16:00",
       "remarks": "VESSEL BUNKERING",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 15200,
       "progress": 0.49333333333333335,
       "stockpile": 5000,
-      "time": "15:00",
-      "remarks": "RESUME LOADING POUCH",
+      "time": "15:28",
+      "remarks": "RESUME LOADING POUCH S9",
       "equipment": "0",
-      "activity_time": "01:39"
+      "activity_time": "01:13"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "15:00",
       "remarks": "RESUME LOADING LOOSEBAGS",
       "equipment": "CRANE 3",
-      "activity_time": "01:39"
+      "activity_time": "01:41"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 27000,
       "progress": 0.325,
       "stockpile": 1000,
-      "time": "15:0O",
-      "remarks": "LOADING POUCH A1",
+      "time": "15:13",
+      "remarks": "WAITING MATERIAL",
       "equipment": "FL 3",
-      "activity_time": "00:00"
+      "activity_time": "01:28"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:39"
+      "activity_time": "16:41"
     },
     {
       "berth": "R3",
