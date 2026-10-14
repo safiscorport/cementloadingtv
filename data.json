@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T07:59:55+08:00",
+  "updated_at": "2026-10-14T08:12:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -36,30 +36,30 @@
       "vessel": "LADY OF COURAGE",
       "voyage": 10,
       "booking": 25000,
-      "dispatch": 12000,
+      "dispatch": 15000,
       "loaded": 7000,
       "balance": 18000,
       "progress": 0.28,
-      "stockpile": 5000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "stockpile": 8000,
+      "time": "08:00",
+      "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:59"
+      "activity_time": "00:12"
     },
     {
       "berth": "Berth 4",
       "vessel": "EFG 8",
       "voyage": 6,
       "booking": 50000,
-      "dispatch": 38000,
+      "dispatch": 48000,
       "loaded": 31000,
       "balance": 19000,
       "progress": 0.62,
-      "stockpile": 7000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "stockpile": 17000,
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "FL 1",
-      "activity_time": "00:59"
+      "activity_time": "00:12"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 37000,
       "progress": 0.26,
       "stockpile": 3000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:59"
+      "activity_time": "00:12"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 24000,
       "progress": 0.1111111111111111,
       "stockpile": 8000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:59"
+      "activity_time": "00:12"
     },
     {
       "berth": "Berth 8",
@@ -116,40 +116,40 @@
       "balance": 16200,
       "progress": 0.46,
       "stockpile": 1000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING POUCH",
       "equipment": "FL 3",
-      "activity_time": "00:59"
+      "activity_time": "00:12"
     },
     {
       "berth": "Berth 9",
       "vessel": "ADOLFO SR",
       "voyage": 11,
       "booking": 27500,
-      "dispatch": 20000,
+      "dispatch": 22000,
       "loaded": 16800,
       "balance": 0,
       "progress": 0.610909090909091,
-      "stockpile": 3200,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "stockpile": 5200,
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "CRANE2/FL2",
-      "activity_time": "00:59"
+      "activity_time": "00:12"
     },
     {
       "berth": "Berth 10",
       "vessel": "QUEEN CAROLYN",
       "voyage": 10,
       "booking": 40000,
-      "dispatch": 12000,
+      "dispatch": 13000,
       "loaded": 12000,
       "balance": 28000,
       "progress": 0.3,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "20:00",
       "remarks": "WAITING PTMS TRUCKING",
       "equipment": "0",
-      "activity_time": "11:59"
+      "activity_time": "12:12"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 249500,
-    "dispatch": 123800,
+    "dispatch": 139800,
     "loaded": 96600,
     "balance": 142200,
     "progress": 0.3774314574314574,
-    "stockpile": 27200
+    "stockpile": 43200
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:59"
+      "activity_time": "08:12"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 480550,
-      "daily": 45975
+      "september": 495550,
+      "daily": 15000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -260,7 +260,7 @@
       "hauler": "APLUS",
       "august": 45000,
       "september": 13975,
-      "daily": 1975
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
@@ -338,17 +338,17 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 34775
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 25975
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 24200
+      "volume": 39200
     },
     {
       "client": "LAPU-LAPU",
