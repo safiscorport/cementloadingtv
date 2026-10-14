@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T01:14:07+08:00",
+  "updated_at": "2026-10-15T05:21:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "23:31",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "01:42"
+      "activity_time": "05:50"
     },
     {
       "berth": "Berth 3",
@@ -37,14 +37,14 @@
       "voyage": 10,
       "booking": 25000,
       "dispatch": 19000,
-      "loaded": 12000,
-      "balance": 13000,
-      "progress": 0.48,
-      "stockpile": 7000,
+      "loaded": 13000,
+      "balance": 12000,
+      "progress": 0.52,
+      "stockpile": 6000,
       "time": "23:31",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "FL2",
-      "activity_time": "01:42"
+      "activity_time": "05:50"
     },
     {
       "berth": "Berth 4",
@@ -59,22 +59,22 @@
       "time": "23:31",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "01:42"
+      "activity_time": "05:50"
     },
     {
       "berth": "Berth 5",
       "vessel": "EFG 7",
       "voyage": 5,
       "booking": 50000,
-      "dispatch": 23000,
-      "loaded": 18000,
-      "balance": 32000,
-      "progress": 0.36,
-      "stockpile": 5000,
+      "dispatch": 24000,
+      "loaded": 20000,
+      "balance": 30000,
+      "progress": 0.4,
+      "stockpile": 4000,
       "time": "23:31",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "FL 1",
-      "activity_time": "01:42"
+      "activity_time": "05:50"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "23:31",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "01:42"
+      "activity_time": "05:50"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 8,
       "booking": 30000,
       "dispatch": 21800,
-      "loaded": 16800,
-      "balance": 13200,
-      "progress": 0.56,
-      "stockpile": 5000,
+      "loaded": 19800,
+      "balance": 10200,
+      "progress": 0.66,
+      "stockpile": 2000,
       "time": "23:31",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "01:42"
+      "activity_time": "05:50"
     },
     {
       "berth": "Berth 9",
@@ -127,14 +127,14 @@
       "voyage": 11,
       "booking": 27500,
       "dispatch": 23000,
-      "loaded": 20000,
-      "balance": 7500,
-      "progress": 0.7272727272727273,
-      "stockpile": 3000,
+      "loaded": 23000,
+      "balance": 4500,
+      "progress": 0.8363636363636363,
+      "stockpile": 0,
       "time": "23:31",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 3",
-      "activity_time": "01:42"
+      "activity_time": "05:50"
     },
     {
       "berth": "Berth 10",
@@ -142,14 +142,14 @@
       "voyage": 10,
       "booking": 40000,
       "dispatch": 17000,
-      "loaded": 14000,
-      "balance": 26000,
-      "progress": 0.35,
-      "stockpile": 3000,
+      "loaded": 16000,
+      "balance": 24000,
+      "progress": 0.4,
+      "stockpile": 1000,
       "time": "23:31",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "FL 3",
-      "activity_time": "01:42"
+      "activity_time": "05:50"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 315500,
-    "dispatch": 176800,
-    "loaded": 120800,
-    "balance": 194700,
-    "progress": 0.42396043771043773,
-    "stockpile": 56000
+    "dispatch": 177800,
+    "loaded": 131800,
+    "balance": 183700,
+    "progress": 0.46634680134680134,
+    "stockpile": 46000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "01:13"
+      "activity_time": "05:21"
     },
     {
       "berth": "R3",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 602050
+      "y2026": 613050
     },
     {
       "month": "November",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13935760
+    "y2026": 13946760
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 0
+      "qty": 11000
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 50000
+      "volume": 42000
     },
     {
       "client": "LAPU-LAPU",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "FULACHE",
