@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T10:11:34+08:00",
+  "updated_at": "2026-10-14T10:12:02+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -51,11 +51,11 @@
       "vessel": "EFG 8",
       "voyage": 6,
       "booking": 50000,
-      "dispatch": 58000,
+      "dispatch": 59000,
       "loaded": 31000,
       "balance": 19000,
       "progress": 0.62,
-      "stockpile": 27000,
+      "stockpile": 28000,
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "FL 1",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 249500,
-    "dispatch": 152800,
+    "dispatch": 153800,
     "loaded": 102600,
     "balance": 137200,
     "progress": 0.40535113035113035,
-    "stockpile": 50200
+    "stockpile": 51200
   },
   "alpha": [
     {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 507550,
-      "daily": 27000
+      "september": 508550,
+      "daily": 28000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 46200
+      "volume": 47200
     },
     {
       "client": "LAPU-LAPU",
