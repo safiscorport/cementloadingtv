@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T11:22:02+08:00",
+  "updated_at": "2026-10-14T11:22:19+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -20,10 +20,10 @@
       "berth": "Berth 2",
       "vessel": "RKK 5",
       "voyage": 1,
-      "booking": 0,
+      "booking": 66000,
       "dispatch": 1000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 66000,
       "progress": 0,
       "stockpile": 1000,
       "time": "00:00",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 249500,
+    "booking": 315500,
     "dispatch": 154800,
     "loaded": 103600,
-    "balance": 136200,
-    "progress": 0.4110654160654161,
+    "balance": 202200,
+    "progress": 0.35968223905723906,
     "stockpile": 51200
   },
   "alpha": [
