@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T22:14:47+08:00",
+  "updated_at": "2026-10-15T22:40:08+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "19:20",
       "remarks": "LOADING S57 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:54"
+      "activity_time": "03:19"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 3000,
       "progress": 0.88,
       "stockpile": 3000,
-      "time": "19:25",
+      "time": "20:26",
       "remarks": "LOADING S19 TONNER BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "02:49"
+      "activity_time": "02:13"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:20",
       "remarks": "LOADING S7 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "02:54"
+      "activity_time": "03:19"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 21000,
       "progress": 0.58,
       "stockpile": 1000,
-      "time": "19:25",
-      "remarks": "LOADING S34 TONNER BAGS",
+      "time": "22:15",
+      "remarks": "LOADING S55 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "02:49"
+      "activity_time": "00:24"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:14"
+      "activity_time": "03:39"
     },
     {
       "berth": "Berth 7",
@@ -101,10 +101,10 @@
       "balance": 11000,
       "progress": 0.5925925925925926,
       "stockpile": 2000,
-      "time": "19:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "21:28",
+      "remarks": "LOADING S8 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "03:14"
+      "activity_time": "01:11"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 6200,
       "progress": 0.7933333333333333,
       "stockpile": 0,
-      "time": "19:25",
+      "time": "20:18",
       "remarks": "LOADING A1 SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "02:49"
+      "activity_time": "02:21"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 0,
-      "time": "19:20",
-      "remarks": "LOADING S1 TONNER BAGS",
+      "time": "21:27",
+      "remarks": "COMPLETE LOADING",
       "equipment": "0",
-      "activity_time": "02:54"
+      "activity_time": "01:12"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 17000,
       "progress": 0.575,
       "stockpile": 2500,
-      "time": "19:30",
+      "time": "22:05",
       "remarks": "LOADING S35 SLING BAGS",
       "equipment": "FL 3",
-      "activity_time": "02:44"
+      "activity_time": "00:34"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:14"
+      "activity_time": "22:39"
     },
     {
       "berth": "R3",
