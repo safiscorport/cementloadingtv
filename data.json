@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T13:31:52+08:00",
+  "updated_at": "2026-10-15T13:33:59+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 63000,
       "progress": 0.045454545454545456,
       "stockpile": 1000,
-      "time": "11:46",
-      "remarks": "WAITING MATERIAL",
+      "time": "13:00",
+      "remarks": "LOADING POUCH S8",
       "equipment": "0",
-      "activity_time": "01:45"
+      "activity_time": "00:33"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 7000,
       "progress": 0.72,
       "stockpile": 6000,
-      "time": "10:51",
-      "remarks": "LOADING TONNER S45",
+      "time": "13:00",
+      "remarks": "LOADING TONNER",
       "equipment": "FL2",
-      "activity_time": "02:40"
+      "activity_time": "00:33"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 13000,
       "progress": 0.74,
       "stockpile": 22000,
-      "time": "10:31",
-      "remarks": "LOADING SLING P9",
+      "time": "13:00",
+      "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "03:00"
+      "activity_time": "00:33"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 26000,
       "progress": 0.48,
       "stockpile": 3000,
-      "time": "11:09",
-      "remarks": "WAITING MATERIAL",
+      "time": "13:00",
+      "remarks": "LOADING TONNER",
       "equipment": "FL 1",
-      "activity_time": "02:22"
+      "activity_time": "00:33"
     },
     {
       "berth": "Berth 6",
@@ -86,10 +86,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "10:40",
+      "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "02:53"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "10:41",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:50"
+      "activity_time": "02:52"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 8200,
       "progress": 0.7266666666666667,
       "stockpile": 1000,
-      "time": "08:50",
-      "remarks": "WAITING MATERIAL",
+      "time": "13:00",
+      "remarks": "LOADING POUCH S61",
       "equipment": "0",
-      "activity_time": "04:41"
+      "activity_time": "00:33"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 4500,
       "progress": 0.8363636363636363,
       "stockpile": 2000,
-      "time": "07:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "13:00",
+      "remarks": "LOADING TONNER",
       "equipment": "CRANE 3",
-      "activity_time": "06:31"
+      "activity_time": "00:33"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "11:36",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 3",
-      "activity_time": "01:55"
+      "activity_time": "01:57"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:31"
+      "activity_time": "13:33"
     },
     {
       "berth": "R3",
