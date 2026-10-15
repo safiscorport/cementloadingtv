@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T07:53:30+08:00",
+  "updated_at": "2026-10-15T08:08:49+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 65000,
       "progress": 0.015151515151515152,
       "stockpile": 1000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "WAITING PTMS TRUCKING",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "00:08"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 10000,
       "progress": 0.6,
       "stockpile": 5000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING TONNER",
       "equipment": "FL2",
-      "activity_time": "00:53"
+      "activity_time": "00:08"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 17000,
       "progress": 0.66,
       "stockpile": 26000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "00:08"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 29000,
       "progress": 0.42,
       "stockpile": 3000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING TONNER",
       "equipment": "FL 1",
-      "activity_time": "00:53"
+      "activity_time": "00:08"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 17000,
       "progress": 0.37037037037037035,
       "stockpile": 3000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "00:08"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 9200,
       "progress": 0.6933333333333334,
       "stockpile": 1000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING POUCH S8",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "00:08"
     },
     {
       "berth": "Berth 9",
@@ -132,9 +132,9 @@
       "progress": 0.8363636363636363,
       "stockpile": 0,
       "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "00:53"
+      "activity_time": "01:08"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 3",
-      "activity_time": "00:53"
+      "activity_time": "01:08"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:53"
+      "activity_time": "08:08"
     },
     {
       "berth": "R3",
@@ -230,7 +230,7 @@
       "hauler": "SAFISCOR",
       "august": 1047550,
       "september": 527550,
-      "daily": 47000
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
@@ -260,13 +260,13 @@
       "hauler": "APLUS",
       "august": 45000,
       "september": 16975,
-      "daily": 3000
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
       "august": 21000,
       "september": 12500,
-      "daily": 1000
+      "daily": "-"
     }
   ],
   "monthly": [
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 24200
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 20000
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
