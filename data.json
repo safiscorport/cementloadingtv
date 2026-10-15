@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T11:12:19+08:00",
+  "updated_at": "2026-10-15T11:14:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -22,14 +22,14 @@
       "voyage": 1,
       "booking": 66000,
       "dispatch": 2000,
-      "loaded": 1000,
-      "balance": 65000,
-      "progress": 0.015151515151515152,
-      "stockpile": 1000,
+      "loaded": 2000,
+      "balance": 64000,
+      "progress": 0.030303030303030304,
+      "stockpile": 0,
       "time": "09:12",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:00"
+      "activity_time": "02:02"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:20",
       "remarks": "LOADING TONNER S37",
       "equipment": "FL2",
-      "activity_time": "02:52"
+      "activity_time": "02:54"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "09:12",
       "remarks": "LOADING SLING S56",
       "equipment": "0",
-      "activity_time": "02:00"
+      "activity_time": "02:02"
     },
     {
       "berth": "Berth 5",
@@ -67,14 +67,14 @@
       "voyage": 5,
       "booking": 50000,
       "dispatch": 26000,
-      "loaded": 21000,
-      "balance": 29000,
-      "progress": 0.42,
-      "stockpile": 5000,
+      "loaded": 23000,
+      "balance": 27000,
+      "progress": 0.46,
+      "stockpile": 3000,
       "time": "09:17",
       "remarks": "LOADING TONNER P3",
       "equipment": "FL 1",
-      "activity_time": "01:55"
+      "activity_time": "01:57"
     },
     {
       "berth": "Berth 6",
@@ -96,15 +96,15 @@
       "vessel": "EASTERN CEBU",
       "voyage": 14,
       "booking": 27000,
-      "dispatch": 14000,
-      "loaded": 12000,
-      "balance": 15000,
-      "progress": 0.4444444444444444,
-      "stockpile": 2000,
+      "dispatch": 15000,
+      "loaded": 15000,
+      "balance": 12000,
+      "progress": 0.5555555555555556,
+      "stockpile": 0,
       "time": "10:41",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:31"
+      "activity_time": "00:33"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "08:50",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:22"
+      "activity_time": "02:24"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "04:12"
+      "activity_time": "04:14"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 3",
-      "activity_time": "04:12"
+      "activity_time": "04:14"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 315500,
-    "dispatch": 189800,
-    "loaded": 146800,
-    "balance": 168700,
-    "progress": 0.5259532828282828,
-    "stockpile": 43000
+    "dispatch": 190800,
+    "loaded": 152800,
+    "balance": 162700,
+    "progress": 0.5467361111111111,
+    "stockpile": 38000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:12"
+      "activity_time": "11:14"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 535550,
-      "daily": 8000
+      "september": 536550,
+      "daily": 9000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 628050
+      "y2026": 634050
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 13961760
+    "y2026": 13967760
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 6000
+      "qty": 12000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 38000
+      "volume": 36000
     },
     {
       "client": "LAPU-LAPU",
