@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T14:39:19+08:00",
+  "updated_at": "2026-10-15T15:15:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 63000,
       "progress": 0.045454545454545456,
       "stockpile": 2000,
-      "time": "13:00",
+      "time": "00:00",
       "remarks": "LOADING POUCH S8",
       "equipment": "0",
-      "activity_time": "01:39"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "13:00",
       "remarks": "LOADING TONNER",
       "equipment": "CRANE 4",
-      "activity_time": "01:39"
+      "activity_time": "02:15"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 13000,
       "progress": 0.74,
       "stockpile": 22000,
-      "time": "13:00",
-      "remarks": "LOADING TONNER",
+      "time": "13:59",
+      "remarks": "LOADING TONNER S54",
       "equipment": "FL 1",
-      "activity_time": "01:39"
+      "activity_time": "01:16"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 26000,
       "progress": 0.48,
       "stockpile": 4000,
-      "time": "13:00",
-      "remarks": "LOADING TONNER",
+      "time": "13:40",
+      "remarks": "LOADING TONNER P8",
       "equipment": "0",
-      "activity_time": "01:39"
+      "activity_time": "01:35"
     },
     {
       "berth": "Berth 6",
@@ -89,7 +89,7 @@
       "time": "10:40",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "03:59"
+      "activity_time": "04:35"
     },
     {
       "berth": "Berth 7",
@@ -104,7 +104,7 @@
       "time": "10:41",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:58"
+      "activity_time": "04:34"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 8200,
       "progress": 0.7266666666666667,
       "stockpile": 1000,
-      "time": "13:00",
+      "time": "13:38",
       "remarks": "LOADING POUCH S61",
       "equipment": "CRANE 3",
-      "activity_time": "01:39"
+      "activity_time": "01:37"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:39"
+      "activity_time": "02:15"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:00",
       "remarks": "WAITING SC PULLOUT FL",
       "equipment": "FL 3",
-      "activity_time": "01:39"
+      "activity_time": "02:15"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:39"
+      "activity_time": "15:15"
     },
     {
       "berth": "R3",
