@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T15:46:15+08:00",
+  "updated_at": "2026-10-16T15:49:43+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "12:27",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "03:18"
+      "activity_time": "03:22"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "11:03",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "04:42"
+      "activity_time": "04:46"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "12:27",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "03:18"
+      "activity_time": "03:22"
     },
     {
       "berth": "Berth 6",
@@ -104,22 +104,22 @@
       "time": "12:27",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "03:18"
+      "activity_time": "03:22"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF WISDOM",
       "voyage": 8,
       "booking": 30000,
-      "dispatch": 26800,
+      "dispatch": 36800,
       "loaded": 25800,
       "balance": 4200,
       "progress": 0.86,
-      "stockpile": 1000,
+      "stockpile": 11000,
       "time": "12:27",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "CRANE 3",
-      "activity_time": "03:18"
+      "activity_time": "03:22"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "08:45"
+      "activity_time": "08:49"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "12:27",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "CRANE 2",
-      "activity_time": "03:18"
+      "activity_time": "03:22"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 308000,
-    "dispatch": 183300,
+    "dispatch": 193300,
     "loaded": 166300,
     "balance": 141700,
     "progress": 0.5170612373737373,
-    "stockpile": 17000
+    "stockpile": 27000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:45"
+      "activity_time": "15:49"
     },
     {
       "berth": "R3",
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "august": 45000,
-      "september": 17975,
-      "daily": "-"
+      "september": 27975,
+      "daily": 10000
     },
     {
       "hauler": "FULACHE",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": "-"
+      "volume": 10000
     },
     {
       "client": "FULACHE",
