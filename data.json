@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T09:09:03+08:00",
+  "updated_at": "2026-10-16T09:22:02+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "08:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "01:08"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "FL 1",
-      "activity_time": "01:08"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 5",
@@ -74,18 +74,18 @@
       "time": "08:30",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:38"
+      "activity_time": "00:51"
     },
     {
       "berth": "Berth 6",
-      "vessel": "LADY ARMOR",
-      "voyage": 9,
+      "vessel": "VACANT",
+      "voyage": "-",
       "booking": 0,
-      "dispatch": 2000,
+      "dispatch": 0,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 2000,
+      "stockpile": 0,
       "time": "00:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
@@ -104,7 +104,7 @@
       "time": "08:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:08"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 8",
@@ -119,18 +119,18 @@
       "time": "08:00",
       "remarks": "LOADING POUCH P3",
       "equipment": "CRANE 3",
-      "activity_time": "01:08"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 9",
-      "vessel": "ADOLFO SR",
-      "voyage": 11,
-      "booking": 27500,
-      "dispatch": 27500,
-      "loaded": 27500,
-      "balance": 0,
-      "progress": 1,
-      "stockpile": 0,
+      "vessel": "LADY ARMOR",
+      "voyage": 9,
+      "booking": 17000,
+      "dispatch": 2000,
+      "loaded": 0,
+      "balance": 17000,
+      "progress": 0,
+      "stockpile": 2000,
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
@@ -149,7 +149,7 @@
       "time": "08:00",
       "remarks": "LOADING POUCH",
       "equipment": "FL 3",
-      "activity_time": "01:08"
+      "activity_time": "01:21"
     },
     {
       "berth": "Jetty",
@@ -168,9 +168,9 @@
     }
   ],
   "total": {
-    "booking": 290500,
-    "dispatch": 209800,
-    "loaded": 174300,
+    "booking": 280000,
+    "dispatch": 182300,
+    "loaded": 146800,
     "balance": 0,
     "progress": 0,
     "stockpile": 35500
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:08"
+      "activity_time": "09:21"
     },
     {
       "berth": "R3",
