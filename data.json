@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T12:09:07+08:00",
+  "updated_at": "2026-10-16T12:40:30+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 58000,
       "progress": 0.12121212121212122,
       "stockpile": 4000,
-      "time": "10:10",
-      "remarks": "LOADING POUCH P5",
+      "time": "12:27",
+      "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "01:58"
+      "activity_time": "00:13"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "11:03",
       "remarks": "LOADING COMPLETE",
       "equipment": "FL 1",
-      "activity_time": "01:05"
+      "activity_time": "01:37"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 18000,
       "progress": 0.64,
       "stockpile": 2000,
-      "time": "10:12",
-      "remarks": "LOADING TONNER S47",
+      "time": "12:27",
+      "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "01:56"
+      "activity_time": "00:13"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 6000,
       "progress": 0.7777777777777778,
       "stockpile": 0,
-      "time": "10:32",
-      "remarks": "LOADING POUCH P16",
+      "time": "12:27",
+      "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "01:36"
+      "activity_time": "00:13"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 4200,
       "progress": 0.86,
       "stockpile": 0,
-      "time": "09:16",
-      "remarks": "WAITING MATERIAL",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "CRANE 3",
-      "activity_time": "02:52"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "05:08"
+      "activity_time": "05:40"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 10500,
       "progress": 0.7375,
       "stockpile": 1000,
-      "time": "10:50",
-      "remarks": "LOADING TONNER P17",
+      "time": "12:27",
+      "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "FL 3",
-      "activity_time": "01:18"
+      "activity_time": "00:13"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:08"
+      "activity_time": "12:40"
     },
     {
       "berth": "R3",
