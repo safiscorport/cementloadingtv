@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T07:52:13+08:00",
+  "updated_at": "2026-10-17T07:52:49+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -102,7 +102,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "COMPLETE LOADING P11",
+      "remarks": "-",
       "equipment": "0",
       "activity_time": "00:00"
     },
