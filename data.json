@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T05:05:08+08:00",
+  "updated_at": "2026-10-17T05:12:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 49000,
       "progress": 0.25757575757575757,
       "stockpile": 2000,
-      "time": "23:18",
-      "remarks": "VESSEL CLOSE / RAIN",
+      "time": "04:08",
+      "remarks": "LOADING S21 SLING BAGS",
       "equipment": "0",
-      "activity_time": "05:46"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 20500,
       "progress": 0.26785714285714285,
       "stockpile": 5300,
-      "time": "23:10",
-      "remarks": "LOADING P3 SLING  BAGS",
+      "time": "02:00",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "05:54"
+      "activity_time": "03:12"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "11:03",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "18:01"
+      "activity_time": "18:09"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 15000,
       "progress": 0.7,
       "stockpile": 1000,
-      "time": "23:18",
-      "remarks": "VESSEL CLOSE / RAIN",
+      "time": "03:49",
+      "remarks": "LOADING S28 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "05:46"
+      "activity_time": "01:23"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "VESSEL CLOSE / RAIN",
+      "time": "03:41",
+      "remarks": "COMPLETE LOADING P11",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "01:31"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 2200,
       "progress": 0.9266666666666666,
       "stockpile": 3200,
-      "time": "23:18",
+      "time": "02:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 3",
-      "activity_time": "05:46"
+      "activity_time": "03:12"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "21:21",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "07:43"
+      "activity_time": "07:51"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 6500,
       "progress": 0.8375,
       "stockpile": 1000,
-      "time": "23:18",
-      "remarks": "VESSEL CLOSE / RAIN",
+      "time": "04:16",
+      "remarks": "LOAIDNG S35 TONNER BAGS",
       "equipment": "CRANE 2",
-      "activity_time": "05:46"
+      "activity_time": "00:56"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:04"
+      "activity_time": "05:12"
     },
     {
       "berth": "R3",
