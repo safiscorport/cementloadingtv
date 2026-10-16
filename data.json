@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T07:48:05+08:00",
+  "updated_at": "2026-10-17T07:52:13+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:47"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:47"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 4",
@@ -71,10 +71,10 @@
       "balance": 13000,
       "progress": 0.74,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "07:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 1000,
       "progress": 0.9666666666666667,
       "stockpile": 2000,
-      "time": "05:22",
-      "remarks": "LADY OF WISDOM",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE 3",
-      "activity_time": "02:25"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 17000,
       "progress": 0,
       "stockpile": 0,
-      "time": "06:00",
-      "remarks": "LADY ARMOR",
+      "time": "07:00",
+      "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "01:47"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 4500,
       "progress": 0.8875,
       "stockpile": 1000,
-      "time": "05:25",
-      "remarks": "QUEEN CAROLYN",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE 2",
-      "activity_time": "02:22"
+      "activity_time": "00:52"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:47"
+      "activity_time": "07:52"
     },
     {
       "berth": "R3",
