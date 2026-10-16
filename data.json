@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T09:38:50+08:00",
+  "updated_at": "2026-10-16T09:39:47+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "08:20",
       "remarks": "LOADING POUCH S6",
       "equipment": "0",
-      "activity_time": "01:18"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "FL 1",
-      "activity_time": "01:38"
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "08:30",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:08"
+      "activity_time": "01:09"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 7000,
       "progress": 0.7407407407407407,
       "stockpile": 1000,
-      "time": "09:03",
-      "remarks": "LOADING TONNER S27",
+      "time": "09:28",
+      "remarks": "WAITING PTMS",
       "equipment": "0",
-      "activity_time": "00:35"
+      "activity_time": "00:11"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "09:03",
       "remarks": "LOADING POUCH P3",
       "equipment": "CRANE 3",
-      "activity_time": "00:35"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "WAITING STEVEDORES",
       "equipment": "0",
-      "activity_time": "02:38"
+      "activity_time": "02:39"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "08:40",
       "remarks": "LOADING POUCH S21",
       "equipment": "FL 3",
-      "activity_time": "00:58"
+      "activity_time": "00:59"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:38"
+      "activity_time": "09:39"
     },
     {
       "berth": "R3",
