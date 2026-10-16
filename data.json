@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T16:15:08+08:00",
+  "updated_at": "2026-10-16T16:50:40+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "12:27",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "03:47"
+      "activity_time": "04:23"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "15:58",
       "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "00:16"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "11:03",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "05:11"
+      "activity_time": "05:47"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "12:27",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "03:47"
+      "activity_time": "04:23"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "12:27",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "03:47"
+      "activity_time": "04:23"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 4200,
       "progress": 0.86,
       "stockpile": 11000,
-      "time": "12:27",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "time": "16:26",
+      "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "03:47"
+      "activity_time": "00:24"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "09:14"
+      "activity_time": "09:50"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 9500,
       "progress": 0.7625,
       "stockpile": 1000,
-      "time": "15:45",
-      "remarks": "RESUME LOADING POUCH S32",
+      "time": "16:24",
+      "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "00:29"
+      "activity_time": "00:26"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:14"
+      "activity_time": "16:50"
     },
     {
       "berth": "R3",
