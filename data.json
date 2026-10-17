@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T09:22:13+08:00",
+  "updated_at": "2026-10-17T09:26:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 47000,
       "progress": 0.2878787878787879,
       "stockpile": 1000,
-      "time": "08:00",
-      "remarks": "LOADING POUCH",
+      "time": "08:05",
+      "remarks": "LOADING POUCH S8",
       "equipment": "CRANE4/FL1",
-      "activity_time": "01:21"
+      "activity_time": "01:20"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:21"
+      "activity_time": "01:25"
     },
     {
       "berth": "Berth 4",
@@ -74,7 +74,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:21"
+      "activity_time": "02:25"
     },
     {
       "berth": "Berth 6",
@@ -119,7 +119,7 @@
       "time": "08:00",
       "remarks": "WAITING PTMS",
       "equipment": "CRANE 3",
-      "activity_time": "01:21"
+      "activity_time": "01:25"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "02:21"
+      "activity_time": "02:25"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "08:31",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "00:50"
+      "activity_time": "00:54"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:21"
+      "activity_time": "09:25"
     },
     {
       "berth": "R3",
