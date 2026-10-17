@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T05:55:58+08:00",
+  "updated_at": "2026-10-18T07:56:59+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -27,9 +27,9 @@
       "progress": 0.4393939393939394,
       "stockpile": 0,
       "time": "05:33",
-      "remarks": "LOADING S32 SLING BAGS",
+      "remarks": "RKK 5",
       "equipment": "CRANE4/FL1",
-      "activity_time": "00:21"
+      "activity_time": "02:23"
     },
     {
       "berth": "Berth 3",
@@ -42,9 +42,9 @@
       "progress": 1,
       "stockpile": -500,
       "time": "04:30",
-      "remarks": "LOADING S25 TONNER BAGS",
+      "remarks": "NIEVES",
       "equipment": "0",
-      "activity_time": "01:24"
+      "activity_time": "03:26"
     },
     {
       "berth": "Berth 4",
@@ -57,9 +57,9 @@
       "progress": 0.26666666666666666,
       "stockpile": 0,
       "time": "05:40",
-      "remarks": "LOADING P4 TONNER BAGS",
+      "remarks": "SALVACION VI",
       "equipment": "0",
-      "activity_time": "00:14"
+      "activity_time": "02:16"
     },
     {
       "berth": "Berth 5",
@@ -72,9 +72,9 @@
       "progress": 0.89,
       "stockpile": 0,
       "time": "03:46",
-      "remarks": "LOADING S41 TONNER BAGS",
+      "remarks": "EFG 7",
       "equipment": "0",
-      "activity_time": "02:08"
+      "activity_time": "04:10"
     },
     {
       "berth": "Berth 6",
@@ -102,9 +102,9 @@
       "progress": 0.25,
       "stockpile": 1000,
       "time": "23:47",
-      "remarks": "WAITING SORE CRANE",
+      "remarks": "LADY OF DIVINE GRACE",
       "equipment": "0",
-      "activity_time": "06:07"
+      "activity_time": "08:09"
     },
     {
       "berth": "Berth 8",
@@ -117,24 +117,24 @@
       "progress": 0,
       "stockpile": 0,
       "time": "05:25",
-      "remarks": "LOADING P5 SLING BAGS",
+      "remarks": "EMERALD STAR",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "02:31"
     },
     {
       "berth": "Berth 9",
-      "vessel": "LADY ARMOR",
-      "voyage": 9,
-      "booking": 17000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
       "dispatch": 0,
       "loaded": 0,
-      "balance": 17000,
+      "balance": 0,
       "progress": 0,
       "stockpile": 0,
       "time": "19:00",
       "remarks": "PULL OUT",
       "equipment": "0",
-      "activity_time": "10:54"
+      "activity_time": "12:56"
     },
     {
       "berth": "Berth 10",
@@ -147,9 +147,9 @@
       "progress": 0.9125,
       "stockpile": 2000,
       "time": "19:00",
-      "remarks": "DEFECTIVE CRANE",
+      "remarks": "QUEEN CAROLYN",
       "equipment": "CRANE 2",
-      "activity_time": "10:54"
+      "activity_time": "12:56"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 228500,
+    "booking": 211500,
     "dispatch": 171500,
     "loaded": 169000,
-    "balance": 59500,
-    "progress": 0.5369372294372294,
+    "balance": 42500,
+    "progress": 0.6264267676767677,
     "stockpile": 2500
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:54"
+      "activity_time": "07:56"
     },
     {
       "berth": "R3",
