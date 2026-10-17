@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T16:34:50+08:00",
+  "updated_at": "2026-10-17T16:35:08+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -56,10 +56,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "11:30",
+      "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "05:04"
     },
     {
       "berth": "Berth 5",
