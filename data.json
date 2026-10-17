@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T08:42:24+08:00",
+  "updated_at": "2026-10-17T08:43:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -117,7 +117,7 @@
       "progress": 0.9666666666666667,
       "stockpile": 2000,
       "time": "08:00",
-      "remarks": "LOADING POUCH",
+      "remarks": "WAITING PTMS",
       "equipment": "CRANE 3",
       "activity_time": "00:42"
     },
@@ -381,6 +381,6 @@
     "pmc": "JOAN / WILLIAM",
     "cranes": 3,
     "forklifts": 6,
-    "stevedores": 0
+    "stevedores": 40
   }
 }
