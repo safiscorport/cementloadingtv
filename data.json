@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T07:52:49+08:00",
+  "updated_at": "2026-10-17T08:20:21+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 47000,
       "progress": 0.2878787878787879,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "00:20"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 16500,
       "progress": 0.4107142857142857,
       "stockpile": 1300,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "00:20"
     },
     {
       "berth": "Berth 4",
@@ -74,7 +74,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "01:20"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 1000,
       "progress": 0.9666666666666667,
       "stockpile": 2000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING POUCH",
       "equipment": "CRANE 3",
-      "activity_time": "00:52"
+      "activity_time": "00:20"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "01:20"
     },
     {
       "berth": "Berth 10",
@@ -147,9 +147,9 @@
       "progress": 0.8875,
       "stockpile": 1000,
       "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "remarks": "LOADING POUCH",
       "equipment": "CRANE 2",
-      "activity_time": "00:52"
+      "activity_time": "01:20"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:52"
+      "activity_time": "08:20"
     },
     {
       "berth": "R3",
@@ -230,7 +230,7 @@
       "hauler": "SAFISCOR",
       "august": 1047550,
       "september": 590550,
-      "daily": 37000
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
@@ -260,13 +260,13 @@
       "hauler": "APLUS",
       "august": 45000,
       "september": 18975,
-      "daily": 1000
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
       "august": 21000,
       "september": 16500,
-      "daily": 2000
+      "daily": "-"
     }
   ],
   "monthly": [
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 32500
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 29700
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
