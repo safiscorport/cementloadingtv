@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T17:25:14+08:00",
+  "updated_at": "2026-10-17T17:30:42+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "16:01",
       "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "CRANE4/FL1",
-      "activity_time": "01:24"
+      "activity_time": "01:29"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "16:50",
       "remarks": "LOADING SLING S51",
       "equipment": "0",
-      "activity_time": "00:35"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "11:30",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "05:55"
+      "activity_time": "06:00"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "16:11",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:14"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 6",
@@ -108,12 +108,12 @@
     },
     {
       "berth": "Berth 8",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "EMERALD STAR",
+      "voyage": 8,
       "booking": 0,
-      "dispatch": 0,
-      "loaded": 0,
-      "balance": 0,
+      "dispatch": 24000,
+      "loaded": 24000,
+      "balance": -24000,
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "10:25"
+      "activity_time": "10:30"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "09:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "CRANE 2",
-      "activity_time": "08:25"
+      "activity_time": "08:30"
     },
     {
       "berth": "Jetty",
@@ -169,9 +169,9 @@
   ],
   "total": {
     "booking": 221000,
-    "dispatch": 132500,
-    "loaded": 125800,
-    "balance": 95200,
+    "dispatch": 156500,
+    "loaded": 149800,
+    "balance": 71200,
     "progress": 0.4853336940836941,
     "stockpile": 6700
   },
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:25"
+      "activity_time": "17:30"
     },
     {
       "berth": "R3",
