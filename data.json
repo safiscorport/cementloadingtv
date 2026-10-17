@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T14:09:39+08:00",
+  "updated_at": "2026-10-17T15:04:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "13:00",
       "remarks": "RESUME LOADING POUCH",
       "equipment": "CRANE4/FL1",
-      "activity_time": "01:09"
+      "activity_time": "02:04"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 12700,
       "progress": 0.5464285714285714,
       "stockpile": 5500,
-      "time": "13:00",
-      "remarks": "RESUME LOADING SLING",
+      "time": "14:22",
+      "remarks": "LOADING SLING S28",
       "equipment": "0",
-      "activity_time": "01:09"
+      "activity_time": "00:42"
     },
     {
       "berth": "Berth 4",
@@ -71,10 +71,10 @@
       "balance": 12000,
       "progress": 0.76,
       "stockpile": 2000,
-      "time": "13:00",
-      "remarks": "RESUME LOADING TONNER",
+      "time": "14:00",
+      "remarks": "LOADING TONNER S19",
       "equipment": "0",
-      "activity_time": "01:09"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 6",
@@ -119,7 +119,7 @@
       "time": "09:39",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "04:30"
+      "activity_time": "05:25"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "07:09"
+      "activity_time": "08:04"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "09:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "CRANE 2",
-      "activity_time": "05:09"
+      "activity_time": "06:04"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:09"
+      "activity_time": "15:04"
     },
     {
       "berth": "R3",
