@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T22:15:56+08:00",
+  "updated_at": "2026-10-17T23:46:56+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,22 +29,22 @@
       "time": "19:20",
       "remarks": "LOADING S41 SLING BAGS",
       "equipment": "CRANE4/FL1",
-      "activity_time": "02:55"
+      "activity_time": "04:26"
     },
     {
       "berth": "Berth 3",
       "vessel": "NIEVES",
       "voyage": 4,
       "booking": 28000,
-      "dispatch": 26000,
+      "dispatch": 27000,
       "loaded": 21300,
       "balance": 6700,
       "progress": 0.7607142857142857,
-      "stockpile": 4700,
+      "stockpile": 5700,
       "time": "19:20",
       "remarks": "LOADING S21 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:55"
+      "activity_time": "04:26"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:20",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:55"
+      "activity_time": "04:26"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "19:20",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:55"
+      "activity_time": "04:26"
     },
     {
       "berth": "Berth 6",
@@ -119,7 +119,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:15"
+      "activity_time": "04:46"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "19:00",
       "remarks": "PULL OUT",
       "equipment": "0",
-      "activity_time": "03:15"
+      "activity_time": "04:46"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "CRANE 2",
-      "activity_time": "03:15"
+      "activity_time": "04:46"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 228500,
-    "dispatch": 165000,
+    "dispatch": 166000,
     "loaded": 149800,
     "balance": 78700,
     "progress": 0.4160003092145949,
-    "stockpile": 15200
+    "stockpile": 16200
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:15"
+      "activity_time": "23:46"
     },
     {
       "berth": "R3",
