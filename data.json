@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T08:22:41+08:00",
+  "updated_at": "2026-10-18T08:22:58+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -28,7 +28,7 @@
       "stockpile": 0,
       "time": "08:00",
       "remarks": "LOADING POUCH",
-      "equipment": "CRANE4/FL1",
+      "equipment": "CRANE 4",
       "activity_time": "00:22"
     },
     {
@@ -148,7 +148,7 @@
       "stockpile": 0,
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE",
-      "equipment": "CRANE 2",
+      "equipment": "0",
       "activity_time": "01:22"
     },
     {
