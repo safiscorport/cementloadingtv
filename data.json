@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T07:56:59+08:00",
+  "updated_at": "2026-10-18T08:10:48+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 37000,
       "progress": 0.4393939393939394,
       "stockpile": 0,
-      "time": "05:33",
-      "remarks": "RKK 5",
+      "time": "08:00",
+      "remarks": "LOADING POUCH",
       "equipment": "CRANE4/FL1",
-      "activity_time": "02:23"
+      "activity_time": "00:10"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": -500,
-      "time": "04:30",
-      "remarks": "NIEVES",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "03:26"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 5500,
       "progress": 0.26666666666666666,
       "stockpile": 0,
-      "time": "05:40",
-      "remarks": "SALVACION VI",
+      "time": "07:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:16"
+      "activity_time": "01:10"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 5500,
       "progress": 0.89,
       "stockpile": 0,
-      "time": "03:46",
-      "remarks": "EFG 7",
+      "time": "07:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:10"
+      "activity_time": "01:10"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 15000,
       "progress": 0.25,
       "stockpile": 1000,
-      "time": "23:47",
-      "remarks": "LADY OF DIVINE GRACE",
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "08:09"
+      "activity_time": "00:10"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": -24000,
       "progress": 0,
       "stockpile": 0,
-      "time": "05:25",
-      "remarks": "EMERALD STAR",
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "02:31"
+      "activity_time": "00:10"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "19:00",
-      "remarks": "PULL OUT",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "12:56"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 3500,
       "progress": 0.9125,
       "stockpile": 2000,
-      "time": "19:00",
-      "remarks": "QUEEN CAROLYN",
+      "time": "07:00",
+      "remarks": "DEFECTIVE CRANE",
       "equipment": "CRANE 2",
-      "activity_time": "12:56"
+      "activity_time": "01:10"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:56"
+      "activity_time": "08:10"
     },
     {
       "berth": "R3",
@@ -230,7 +230,7 @@
       "hauler": "SAFISCOR",
       "august": 1047550,
       "september": 631550,
-      "daily": 41000
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
@@ -266,7 +266,7 @@
       "hauler": "FULACHE",
       "august": 21000,
       "september": 17500,
-      "daily": 1000
+      "daily": "-"
     }
   ],
   "monthly": [
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 24800
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 24000
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "ABSENT",
-    "checker": "TORRES, J / TORREGOSA, J",
-    "pmc": "VICKY / EBOY",
+    "supervisor": "BERNABE",
+    "checker": "OBIAL / DALUSA",
+    "pmc": "JOAN / WILLIAM",
     "cranes": 3,
     "forklifts": 6,
-    "stevedores": 40
+    "stevedores": 0
   }
 }
