@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T10:05:53+08:00",
+  "updated_at": "2026-10-18T10:07:50+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "08:00",
       "remarks": "LOADING POUCH",
       "equipment": "CRANE 4",
-      "activity_time": "02:05"
+      "activity_time": "02:07"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:05"
+      "activity_time": "03:07"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:05"
+      "activity_time": "03:07"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:05"
+      "activity_time": "03:07"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "02:05"
+      "activity_time": "02:07"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "02:05"
+      "activity_time": "02:07"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "03:05"
+      "activity_time": "03:07"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:05"
+      "activity_time": "10:07"
     },
     {
       "berth": "R3",
@@ -241,8 +241,8 @@
     {
       "hauler": "BADIE",
       "august": 39000,
-      "september": 24975,
-      "daily": "-"
+      "september": 25975,
+      "daily": 1000
     },
     {
       "hauler": "GEO",
