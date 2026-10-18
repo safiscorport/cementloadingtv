@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T15:08:59+08:00",
+  "updated_at": "2026-10-18T15:15:17+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 33000,
       "progress": 0.5,
       "stockpile": 2000,
-      "time": "13:00",
-      "remarks": "CLOSE HATCH / CLOUDY",
+      "time": "14:30",
+      "remarks": "VESSEL PULLED OUT",
       "equipment": "CRANE 4",
-      "activity_time": "02:08"
+      "activity_time": "00:45"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 5500,
       "progress": 0.26666666666666666,
       "stockpile": 1000,
-      "time": "07:00",
+      "time": "14:31",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "08:08"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 5000,
       "progress": 0.9,
       "stockpile": 3000,
-      "time": "13:00",
-      "remarks": "CLOSE HATCH / CLOUDY",
+      "time": "14:13",
+      "remarks": "LOADING TONNER S1",
       "equipment": "CRANE 3",
-      "activity_time": "02:08"
+      "activity_time": "01:02"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL2",
-      "activity_time": "02:08"
+      "activity_time": "02:15"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 0,
-      "time": "13:00",
-      "remarks": "CLOSE HATCH / CLOUDY",
+      "time": "14:30",
+      "remarks": "LOADING SLING S61",
       "equipment": "FL 1",
-      "activity_time": "02:08"
+      "activity_time": "00:45"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:08"
+      "activity_time": "02:15"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "08:08"
+      "activity_time": "08:15"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:08"
+      "activity_time": "15:15"
     },
     {
       "berth": "R3",
