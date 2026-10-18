@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T10:05:26+08:00",
+  "updated_at": "2026-10-18T10:05:53+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -110,11 +110,11 @@
       "berth": "Berth 8",
       "vessel": "EMERALD STAR",
       "voyage": 8,
-      "booking": 0,
+      "booking": 24000,
       "dispatch": 24000,
       "loaded": 24000,
-      "balance": -24000,
-      "progress": 0,
+      "balance": 0,
+      "progress": 1,
       "stockpile": 0,
       "time": "08:00",
       "remarks": "LOADING SLING",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 211500,
+    "booking": 235500,
     "dispatch": 171500,
     "loaded": 168500,
-    "balance": 43000,
-    "progress": 0.6234505772005772,
+    "balance": 67000,
+    "progress": 0.677243351886209,
     "stockpile": 3000
   },
   "alpha": [
