@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T13:37:47+08:00",
+  "updated_at": "2026-10-18T13:38:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -73,7 +73,7 @@
       "stockpile": 1000,
       "time": "10:32",
       "remarks": "LOADING TONNER S32",
-      "equipment": "0",
+      "equipment": "CRANE 3",
       "activity_time": "03:05"
     },
     {
@@ -103,7 +103,7 @@
       "stockpile": 0,
       "time": "10:54",
       "remarks": "LOADING SLING S6",
-      "equipment": "FL 2",
+      "equipment": "CRANE2/FL2",
       "activity_time": "02:43"
     },
     {
