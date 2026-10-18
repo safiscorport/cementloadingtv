@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T21:53:45+08:00",
+  "updated_at": "2026-10-18T22:01:15+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -44,7 +44,7 @@
       "time": "19:30",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "02:23"
+      "activity_time": "02:30"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:30",
       "remarks": "LOADING POUCH S51",
       "equipment": "0",
-      "activity_time": "02:23"
+      "activity_time": "02:30"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "15:39",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "06:14"
+      "activity_time": "06:21"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL2",
-      "activity_time": "08:53"
+      "activity_time": "09:00"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 0,
-      "time": "20:19",
-      "remarks": "LOADING SLING S35",
+      "time": "21:25",
+      "remarks": "LOADING SLING S8",
       "equipment": "FL 1",
-      "activity_time": "01:34"
+      "activity_time": "00:35"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "08:53"
+      "activity_time": "09:00"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "14:53"
+      "activity_time": "15:00"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:53"
+      "activity_time": "22:00"
     },
     {
       "berth": "R3",
