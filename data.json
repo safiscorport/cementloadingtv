@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T22:30:48+08:00",
+  "updated_at": "2026-10-18T22:34:15+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,22 +29,22 @@
       "time": "21:25",
       "remarks": "LOADING POUCH S3",
       "equipment": "CRANE 4",
-      "activity_time": "01:05"
+      "activity_time": "01:09"
     },
     {
       "berth": "Berth 3",
       "vessel": "STAR SOGOD",
       "voyage": 11,
       "booking": 0,
-      "dispatch": 8000,
+      "dispatch": 9000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 8000,
+      "stockpile": 9000,
       "time": "22:00",
       "remarks": "FL ONBOARD READY",
       "equipment": "0",
-      "activity_time": "00:30"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:30",
       "remarks": "LOADING POUCH S51",
       "equipment": "0",
-      "activity_time": "03:00"
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "15:39",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "06:51"
+      "activity_time": "06:55"
     },
     {
       "berth": "Berth 6",
@@ -104,22 +104,22 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL2",
-      "activity_time": "09:30"
+      "activity_time": "09:34"
     },
     {
       "berth": "Berth 8",
       "vessel": "EMERALD STAR",
-      "voyage": 8,
+      "voyage": 12,
       "booking": 24000,
-      "dispatch": 24000,
-      "loaded": 24000,
-      "balance": 0,
-      "progress": 1,
-      "stockpile": 0,
+      "dispatch": 22000,
+      "loaded": 18800,
+      "balance": 5200,
+      "progress": 0.7833333333333333,
+      "stockpile": 3200,
       "time": "21:25",
       "remarks": "LOADING SLING S8",
       "equipment": "FL 1",
-      "activity_time": "01:05"
+      "activity_time": "01:09"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "09:30"
+      "activity_time": "09:34"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "15:30"
+      "activity_time": "15:34"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 224500,
-    "dispatch": 170500,
-    "loaded": 158500,
-    "balance": 66000,
-    "progress": 0.6309199134199134,
-    "stockpile": 12000
+    "dispatch": 169500,
+    "loaded": 153300,
+    "balance": 71200,
+    "progress": 0.5999675324675324,
+    "stockpile": 16200
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:30"
+      "activity_time": "22:34"
     },
     {
       "berth": "R3",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 11000
+      "volume": 14200
     },
     {
       "client": "LAPU-LAPU",
