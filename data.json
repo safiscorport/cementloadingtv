@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T11:32:07+08:00",
+  "updated_at": "2026-10-18T11:32:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "09:37",
       "remarks": "LOADING POUCH S30",
       "equipment": "CRANE 4",
-      "activity_time": "01:54"
+      "activity_time": "01:55"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "11:03",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:31"
+      "activity_time": "04:32"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "10:32",
       "remarks": "LOADING TONNER S32",
       "equipment": "0",
-      "activity_time": "00:59"
+      "activity_time": "01:00"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "10:54",
       "remarks": "LOADING SLING S6",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:38"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "10:32",
       "remarks": "LOADING SLING P8",
       "equipment": "0",
-      "activity_time": "00:59"
+      "activity_time": "01:00"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "04:31"
+      "activity_time": "04:32"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:31"
+      "activity_time": "11:32"
     },
     {
       "berth": "R3",
