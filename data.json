@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T17:20:06+08:00",
+  "updated_at": "2026-10-18T19:32:12+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -21,30 +21,30 @@
       "vessel": "RKK 5",
       "voyage": 1,
       "booking": 66000,
-      "dispatch": 37000,
+      "dispatch": 38000,
       "loaded": 34000,
       "balance": 32000,
       "progress": 0.5151515151515151,
-      "stockpile": 3000,
-      "time": "14:30",
-      "remarks": "VESSEL PULLED OUT",
+      "stockpile": 4000,
+      "time": "19:00",
+      "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "CRANE 4",
-      "activity_time": "02:49"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 3",
       "vessel": "STAR SOGOD",
       "voyage": 11,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 3000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
-      "time": "14:30",
-      "remarks": "DOCKED & SECURED",
+      "stockpile": 3000,
+      "time": "19:00",
+      "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "02:49"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 4500,
       "progress": 0.4,
       "stockpile": 1000,
-      "time": "14:31",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:00",
+      "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "0",
-      "activity_time": "02:48"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "15:39",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "01:40"
+      "activity_time": "03:53"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL2",
-      "activity_time": "04:19"
+      "activity_time": "06:32"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 0,
-      "time": "16:38",
-      "remarks": "LOADING SLING S49",
+      "time": "19:00",
+      "remarks": "VESSEL CLOSE / CLOUDY",
       "equipment": "FL 1",
-      "activity_time": "00:41"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:19"
+      "activity_time": "06:32"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "10:19"
+      "activity_time": "12:32"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 224500,
-    "dispatch": 158500,
+    "dispatch": 162500,
     "loaded": 154500,
     "balance": 70000,
     "progress": 0.6053787878787878,
-    "stockpile": 4000
+    "stockpile": 8000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:19"
+      "activity_time": "19:32"
     },
     {
       "berth": "R3",
@@ -207,7 +207,7 @@
       "discharge": "80%",
       "balance": "20%",
       "progress": "80%",
-      "time": "1325H",
+      "time": "1920H",
       "remarks": "ONGOING DISCHARGE",
       "equip": "2 PL FEED TO DUST HOUSE",
       "activity_time": "00:00"
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 655750,
-      "daily": 26200
+      "september": 659750,
+      "daily": 30200
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 5000
+      "volume": 9000
     },
     {
       "client": "LAPU-LAPU",
