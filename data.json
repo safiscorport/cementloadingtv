@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T02:39:17+08:00",
+  "updated_at": "2026-10-19T02:40:55+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "22:58",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "03:41"
+      "activity_time": "03:42"
     },
     {
       "berth": "Berth 3",
@@ -37,14 +37,14 @@
       "voyage": 11,
       "booking": 0,
       "dispatch": 10000,
-      "loaded": 0,
-      "balance": 0,
+      "loaded": 1000,
+      "balance": -1000,
       "progress": 0,
-      "stockpile": 10000,
+      "stockpile": 9000,
       "time": "01:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:39"
+      "activity_time": "01:40"
     },
     {
       "berth": "Berth 4",
@@ -52,14 +52,14 @@
       "voyage": 4,
       "booking": 7500,
       "dispatch": 6000,
-      "loaded": 4000,
-      "balance": 3500,
-      "progress": 0.5333333333333333,
-      "stockpile": 2000,
+      "loaded": 6000,
+      "balance": 1500,
+      "progress": 0.8,
+      "stockpile": 0,
       "time": "22:07",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:32"
+      "activity_time": "04:33"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "15:39",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "11:00"
+      "activity_time": "11:01"
     },
     {
       "berth": "Berth 6",
@@ -97,14 +97,14 @@
       "voyage": 9,
       "booking": 20000,
       "dispatch": 10000,
-      "loaded": 9000,
-      "balance": 11000,
-      "progress": 0.45,
-      "stockpile": 1000,
+      "loaded": 10000,
+      "balance": 10000,
+      "progress": 0.5,
+      "stockpile": 0,
       "time": "23:25",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL2",
-      "activity_time": "03:14"
+      "activity_time": "03:15"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 12,
       "booking": 24000,
       "dispatch": 22000,
-      "loaded": 20800,
-      "balance": 3200,
-      "progress": 0.8666666666666667,
-      "stockpile": 1200,
+      "loaded": 22000,
+      "balance": 2000,
+      "progress": 0.9166666666666666,
+      "stockpile": 0,
       "time": "01:53",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "00:46"
+      "activity_time": "00:47"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "13:39"
+      "activity_time": "13:40"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "19:39"
+      "activity_time": "19:40"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 224500,
     "dispatch": 170500,
-    "loaded": 156300,
-    "balance": 68200,
-    "progress": 0.6140367965367967,
-    "stockpile": 14200
+    "loaded": 161500,
+    "balance": 63000,
+    "progress": 0.666417748917749,
+    "stockpile": 9000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "02:39"
+      "activity_time": "02:40"
     },
     {
       "berth": "R3",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 826050
+      "y2026": 831250
     },
     {
       "month": "November",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14159760
+    "y2026": 14164960
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 11000
+      "qty": 16200
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 12200
+      "volume": 8000
     },
     {
       "client": "LAPU-LAPU",
