@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T16:36:14+08:00",
+  "updated_at": "2026-10-18T16:39:22+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "14:30",
       "remarks": "VESSEL PULLED OUT",
       "equipment": "CRANE 4",
-      "activity_time": "02:06"
+      "activity_time": "02:09"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "14:30",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "02:06"
+      "activity_time": "02:09"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "14:31",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:05"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "15:23",
       "remarks": "LOADING TONNER S30",
       "equipment": "CRANE 3",
-      "activity_time": "01:13"
+      "activity_time": "01:16"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL2",
-      "activity_time": "03:36"
+      "activity_time": "03:39"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 0,
-      "time": "14:30",
-      "remarks": "LOADING SLING S61",
+      "time": "15:17",
+      "remarks": "LOADING SLING S22",
       "equipment": "FL 1",
-      "activity_time": "02:06"
+      "activity_time": "01:22"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:36"
+      "activity_time": "03:39"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "09:36"
+      "activity_time": "09:39"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:36"
+      "activity_time": "16:39"
     },
     {
       "berth": "R3",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 811050
+      "y2026": 812050
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14144760
+    "y2026": 14145760
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 20000
+      "qty": 21000
     },
     {
       "shift": "2ND SHIFT",
