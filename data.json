@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T19:32:29+08:00",
+  "updated_at": "2026-10-18T19:32:56+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -377,8 +377,8 @@
   ],
   "status": {
     "supervisor": "BERNABE",
-    "checker": "OBIAL / DALUSA",
-    "pmc": "JOAN / WILLIAM",
+    "checker": "OBIAL / DALUSA / TORREGOSA",
+    "pmc": "EBOY / VICKY",
     "cranes": 7,
     "forklifts": 7,
     "stevedores": 25
