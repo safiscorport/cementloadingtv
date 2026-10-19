@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T19:20:37+08:00",
+  "updated_at": "2026-10-19T19:37:28+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:20"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 26000,
       "progress": 0.6060606060606061,
       "stockpile": 1000,
-      "time": "19:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:30",
+      "remarks": "PRE LOADING PREP",
       "equipment": "CRANE 4",
-      "activity_time": "00:20"
+      "activity_time": "00:07"
     },
     {
       "berth": "Berth 3",
@@ -44,37 +44,37 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:20"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 4",
-      "vessel": "SALVACION VI",
-      "voyage": 4,
-      "booking": 7500,
-      "dispatch": 7500,
-      "loaded": 7500,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "15:00",
-      "remarks": "COMPLETE LOADING S43",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "04:20"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 5",
-      "vessel": "EFG 7",
-      "voyage": 5,
-      "booking": 50000,
-      "dispatch": 50000,
-      "loaded": 50000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "11:43",
-      "remarks": "COMPLETE LOADING S47",
-      "equipment": "CRANE 3",
-      "activity_time": "07:37"
+      "time": "00:00",
+      "remarks": "-",
+      "equipment": "0",
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 7500,
       "progress": 0.625,
       "stockpile": 2000,
-      "time": "19:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:30",
+      "remarks": "PRE LOADING PREP",
       "equipment": "CRANE2/FL2",
-      "activity_time": "00:20"
+      "activity_time": "00:07"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 2000,
       "progress": 0.9166666666666666,
       "stockpile": 2000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "19:30",
+      "remarks": "LOADING POUCH",
       "equipment": "FL 1",
-      "activity_time": "00:20"
+      "activity_time": "00:07"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:20"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "00:20"
+      "activity_time": "00:37"
     },
     {
       "berth": "Jetty",
@@ -164,15 +164,15 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:20"
+      "activity_time": "00:37"
     }
   ],
   "total": {
-    "booking": 293000,
-    "dispatch": 187500,
-    "loaded": 182500,
+    "booking": 235500,
+    "dispatch": 130000,
+    "loaded": 125000,
     "balance": 110500,
-    "progress": 0.5824338978015449,
+    "progress": 0.4780423722519311,
     "stockpile": 5000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:20"
+      "activity_time": "19:37"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:20"
+      "activity_time": "19:37"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 690550,
-      "daily": 23800
+      "september": 691550,
+      "daily": 24800
     },
     {
       "hauler": "LAPU-LAPU",
@@ -241,8 +241,8 @@
     {
       "hauler": "BADIE",
       "august": 39000,
-      "september": 27975,
-      "daily": 1000
+      "september": 28975,
+      "daily": 2000
     },
     {
       "hauler": "GEO",
