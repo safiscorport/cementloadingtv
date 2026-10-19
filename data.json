@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T00:56:27+08:00",
+  "updated_at": "2026-10-20T01:05:57+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "22:11",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL1",
-      "activity_time": "02:45"
+      "activity_time": "02:54"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "20:40",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:16"
+      "activity_time": "04:25"
     },
     {
       "berth": "Berth 3",
@@ -44,22 +44,22 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "05:56"
+      "activity_time": "06:05"
     },
     {
       "berth": "Berth 4",
-      "vessel": "VACANT",
-      "voyage": "-",
-      "booking": 0,
-      "dispatch": 0,
-      "loaded": 0,
-      "balance": 0,
-      "progress": 0,
-      "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
-      "equipment": "0",
-      "activity_time": "00:00"
+      "vessel": "AGRO MARINE 5",
+      "voyage": 1,
+      "booking": 28500,
+      "dispatch": 17500,
+      "loaded": 3800,
+      "balance": 24700,
+      "progress": 0.13333333333333333,
+      "stockpile": 13700,
+      "time": "23:00",
+      "remarks": "SHIFTING BERTH",
+      "equipment": "CRANE4/FL2",
+      "activity_time": "02:05"
     },
     {
       "berth": "Berth 5",
@@ -104,7 +104,7 @@
       "time": "20:32",
       "remarks": "LOADING TONNER S24",
       "equipment": "0",
-      "activity_time": "04:24"
+      "activity_time": "04:33"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "20:34",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "04:22"
+      "activity_time": "04:31"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 15000,
       "progress": 0.11764705882352941,
       "stockpile": 1000,
-      "time": "19:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "01:00",
+      "remarks": "VESSEL REFUSE TO OPEN HATCH",
       "equipment": "CRANE 3",
-      "activity_time": "05:56"
+      "activity_time": "00:05"
     },
     {
       "berth": "Berth 10",
@@ -149,31 +149,31 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "05:56"
+      "activity_time": "06:05"
     },
     {
       "berth": "Jetty",
       "vessel": "VACANT",
       "voyage": "-",
-      "booking": 28500,
+      "booking": 0,
       "dispatch": 0,
       "loaded": 0,
-      "balance": 28500,
+      "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "20:36",
-      "remarks": "LOADING SLING B5",
-      "equipment": "CRANE4/FL2",
-      "activity_time": "04:20"
+      "time": "22:00",
+      "remarks": "SHIFTING BERTH TO 4",
+      "equipment": "0",
+      "activity_time": "03:05"
     }
   ],
   "total": {
     "booking": 235500,
-    "dispatch": 136000,
-    "loaded": 130000,
-    "balance": 105500,
-    "progress": 0.5022847964943553,
-    "stockpile": 6000
+    "dispatch": 153500,
+    "loaded": 133800,
+    "balance": 101700,
+    "progress": 0.518951463161022,
+    "stockpile": 19700
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "00:56"
+      "activity_time": "01:05"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "00:56"
+      "activity_time": "01:05"
     }
   ],
   "foreign": {
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 4000
+      "volume": 17700
     },
     {
       "client": "LAPU-LAPU",
