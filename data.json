@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T19:37:28+08:00",
+  "updated_at": "2026-10-19T19:37:45+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -161,10 +161,10 @@
       "balance": 28500,
       "progress": 0,
       "stockpile": 0,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "19:30",
+      "remarks": "PRE LOADING PREP",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:07"
     }
   ],
   "total": {
