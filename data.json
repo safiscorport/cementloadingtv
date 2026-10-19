@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T18:57:12+08:00",
+  "updated_at": "2026-10-19T18:59:00+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "23:56"
+      "activity_time": "23:58"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "23:56"
+      "activity_time": "23:58"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "23:56"
+      "activity_time": "23:58"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "15:00",
       "remarks": "COMPLETE LOADING S43",
       "equipment": "0",
-      "activity_time": "03:56"
+      "activity_time": "03:58"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "11:43",
       "remarks": "COMPLETE LOADING S47",
       "equipment": "CRANE 3",
-      "activity_time": "07:13"
+      "activity_time": "07:15"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL2",
-      "activity_time": "23:56"
+      "activity_time": "23:58"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 1",
-      "activity_time": "23:56"
+      "activity_time": "23:58"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "23:56"
+      "activity_time": "23:58"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "23:56"
+      "activity_time": "23:58"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "23:56"
+      "activity_time": "23:58"
     }
   ],
   "total": {
@@ -198,19 +198,19 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "18:56"
+      "activity_time": "18:58"
     },
     {
       "berth": "R3",
-      "vessel": "POSEIDON 47",
-      "materials": "COAL",
-      "discharge": "80%",
-      "balance": "20%",
-      "progress": "80%",
-      "time": "1920H",
-      "remarks": "ONGOING DISCHARGE",
-      "equip": "2 PL FEED TO DUST HOUSE",
-      "activity_time": "00:00"
+      "vessel": "VACANT",
+      "materials": "0",
+      "discharge": "0%",
+      "balance": "0%",
+      "progress": "0%",
+      "time": "00:00",
+      "remarks": "0",
+      "equip": "0",
+      "activity_time": "18:58"
     }
   ],
   "foreign": {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER, JOVIC",
-    "checker": "OBIAL, R / CANOY, E / TORRES, J",
-    "pmc": "VICKY",
-    "cranes": 7,
-    "forklifts": 7,
-    "stevedores": 40
+    "supervisor": "BERNABE.A",
+    "checker": "DALUSA.E / TORREGOSA.J",
+    "pmc": "JOAN / WILLIAM",
+    "cranes": 4,
+    "forklifts": 6,
+    "stevedores": 0
   }
 }
