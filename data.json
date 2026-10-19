@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T20:41:23+08:00",
+  "updated_at": "2026-10-19T20:42:10+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 691550,
-      "daily": 24800
+      "september": 692550,
+      "daily": 25800
     },
     {
       "hauler": "LAPU-LAPU",
