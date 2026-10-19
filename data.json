@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T09:45:23+08:00",
+  "updated_at": "2026-10-19T10:02:43+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "09:43",
       "remarks": "WAITING MATERIALS",
       "equipment": "CRANE 4",
-      "activity_time": "00:02"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 3",
@@ -37,14 +37,14 @@
       "voyage": 11,
       "booking": 18000,
       "dispatch": 10000,
-      "loaded": 8000,
-      "balance": 10000,
-      "progress": 0.4444444444444444,
-      "stockpile": 2000,
+      "loaded": 10000,
+      "balance": 8000,
+      "progress": 0.5555555555555556,
+      "stockpile": 0,
       "time": "07:44",
       "remarks": "LOADING S19 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:01"
+      "activity_time": "02:18"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "09:43",
       "remarks": "WAITING MATERIALS",
       "equipment": "0",
-      "activity_time": "00:02"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "09:43",
       "remarks": "WAITING MATERIALS",
       "equipment": "CRANE 3",
-      "activity_time": "00:02"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "09:43",
       "remarks": "WAITING MATERIALS",
       "equipment": "CRANE2/FL2",
-      "activity_time": "00:02"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "09:43",
       "remarks": "WAITING MATERIALS",
       "equipment": "FL 1",
-      "activity_time": "00:02"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "09:43",
       "remarks": "WAITING MATERIALS",
       "equipment": "0",
-      "activity_time": "00:02"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "09:44",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "00:18"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 242500,
     "dispatch": 171500,
-    "loaded": 169500,
-    "balance": 73000,
-    "progress": 0.6460240270350565,
-    "stockpile": 2000
+    "loaded": 171500,
+    "balance": 71000,
+    "progress": 0.6599129159239453,
+    "stockpile": 0
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:45"
+      "activity_time": "10:02"
     },
     {
       "berth": "R3",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 839250
+      "y2026": 841250
     },
     {
       "month": "November",
@@ -333,22 +333,22 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14172960
+    "y2026": 14174960
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 0
+      "qty": 3000
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 1000
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 3000
+      "volume": 1000
     },
     {
       "client": "LAPU-LAPU",
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE",
-    "checker": "OBIAL / DALUSA / TORREGOSA",
-    "pmc": "EBOY / VICKY",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "OBIAL, R / CANOY, E / TORRES, J",
+    "pmc": "VICKY",
     "cranes": 7,
     "forklifts": 7,
-    "stevedores": 25
+    "stevedores": 40
   }
 }
