@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-19T10:08:59+08:00",
+  "updated_at": "2026-10-19T13:18:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "JOHANNAH 5",
       "voyage": 5,
       "booking": 22000,
-      "dispatch": 0,
+      "dispatch": 1000,
       "loaded": 0,
       "balance": 22000,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
@@ -21,15 +21,15 @@
       "vessel": "RKK 5",
       "voyage": 1,
       "booking": 66000,
-      "dispatch": 38000,
+      "dispatch": 39000,
       "loaded": 38000,
       "balance": 28000,
       "progress": 0.5757575757575758,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "09:43",
       "remarks": "WAITING MATERIALS",
       "equipment": "CRANE 4",
-      "activity_time": "00:25"
+      "activity_time": "03:35"
     },
     {
       "berth": "Berth 3",
@@ -44,37 +44,37 @@
       "time": "09:45",
       "remarks": "LOADING S19 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:23"
+      "activity_time": "03:33"
     },
     {
       "berth": "Berth 4",
       "vessel": "SALVACION VI",
       "voyage": 4,
       "booking": 7500,
-      "dispatch": 6000,
+      "dispatch": 7500,
       "loaded": 6000,
       "balance": 1500,
       "progress": 0.8,
-      "stockpile": 0,
+      "stockpile": 1500,
       "time": "09:43",
       "remarks": "WAITING MATERIALS",
       "equipment": "0",
-      "activity_time": "00:25"
+      "activity_time": "03:35"
     },
     {
       "berth": "Berth 5",
       "vessel": "EFG 7",
       "voyage": 5,
       "booking": 50000,
-      "dispatch": 48000,
-      "loaded": 48000,
-      "balance": 2000,
-      "progress": 0.96,
+      "dispatch": 50000,
+      "loaded": 50000,
+      "balance": 0,
+      "progress": 1,
       "stockpile": 0,
       "time": "09:43",
       "remarks": "WAITING MATERIALS",
       "equipment": "CRANE 3",
-      "activity_time": "00:25"
+      "activity_time": "03:35"
     },
     {
       "berth": "Berth 6",
@@ -96,15 +96,15 @@
       "vessel": "LADY OF DIVINE GRACE",
       "voyage": 9,
       "booking": 20000,
-      "dispatch": 10000,
+      "dispatch": 10500,
       "loaded": 10000,
       "balance": 10000,
       "progress": 0.5,
-      "stockpile": 0,
+      "stockpile": 500,
       "time": "09:43",
       "remarks": "WAITING MATERIALS",
       "equipment": "CRANE2/FL2",
-      "activity_time": "00:25"
+      "activity_time": "03:35"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "09:43",
       "remarks": "WAITING MATERIALS",
       "equipment": "FL 1",
-      "activity_time": "00:25"
+      "activity_time": "03:35"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "09:43",
       "remarks": "WAITING MATERIALS",
       "equipment": "0",
-      "activity_time": "00:25"
+      "activity_time": "03:35"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "09:44",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "00:24"
+      "activity_time": "03:34"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 264500,
-    "dispatch": 171500,
-    "loaded": 171500,
-    "balance": 93000,
-    "progress": 0.5865892585990625,
-    "stockpile": 0
+    "dispatch": 177500,
+    "loaded": 173500,
+    "balance": 91000,
+    "progress": 0.5910337030435069,
+    "stockpile": 4000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:08"
+      "activity_time": "13:18"
     },
     {
       "berth": "R3",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 666750,
-      "daily": "-"
+      "september": 672750,
+      "daily": 6000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 841250
+      "y2026": 843250
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14174960
+    "y2026": 14176960
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 3000
+      "qty": 5000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 1000
+      "volume": 5000
     },
     {
       "client": "LAPU-LAPU",
