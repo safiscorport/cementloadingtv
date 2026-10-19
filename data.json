@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T18:59:47+08:00",
+  "updated_at": "2026-10-19T19:20:37+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,22 +14,22 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "23:59"
+      "activity_time": "00:20"
     },
     {
       "berth": "Berth 2",
       "vessel": "RKK 5",
       "voyage": 1,
       "booking": 66000,
-      "dispatch": 40000,
+      "dispatch": 41000,
       "loaded": 40000,
       "balance": 26000,
       "progress": 0.6060606060606061,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "23:59"
+      "activity_time": "00:20"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "23:59"
+      "activity_time": "00:20"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "15:00",
       "remarks": "COMPLETE LOADING S43",
       "equipment": "0",
-      "activity_time": "03:59"
+      "activity_time": "04:20"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "11:43",
       "remarks": "COMPLETE LOADING S47",
       "equipment": "CRANE 3",
-      "activity_time": "07:16"
+      "activity_time": "07:37"
     },
     {
       "berth": "Berth 6",
@@ -96,30 +96,30 @@
       "vessel": "LADY OF DIVINE GRACE",
       "voyage": 9,
       "booking": 20000,
-      "dispatch": 12500,
+      "dispatch": 14500,
       "loaded": 12500,
       "balance": 7500,
       "progress": 0.625,
-      "stockpile": 0,
+      "stockpile": 2000,
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL2",
-      "activity_time": "23:59"
+      "activity_time": "00:20"
     },
     {
       "berth": "Berth 8",
       "vessel": "EMERALD STAR",
       "voyage": 12,
       "booking": 24000,
-      "dispatch": 23000,
+      "dispatch": 24000,
       "loaded": 22000,
       "balance": 2000,
       "progress": 0.9166666666666666,
-      "stockpile": 1000,
+      "stockpile": 2000,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 1",
-      "activity_time": "23:59"
+      "activity_time": "00:20"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "23:59"
+      "activity_time": "00:20"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "23:59"
+      "activity_time": "00:20"
     },
     {
       "berth": "Jetty",
@@ -164,16 +164,16 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "23:59"
+      "activity_time": "00:20"
     }
   ],
   "total": {
     "booking": 293000,
-    "dispatch": 183500,
+    "dispatch": 187500,
     "loaded": 182500,
     "balance": 110500,
     "progress": 0.5824338978015449,
-    "stockpile": 1000
+    "stockpile": 5000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "18:59"
+      "activity_time": "19:20"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "18:59"
+      "activity_time": "19:20"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 683550,
-      "daily": 16800
+      "september": 690550,
+      "daily": 23800
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 2000
+      "volume": 6000
     },
     {
       "client": "LAPU-LAPU",
