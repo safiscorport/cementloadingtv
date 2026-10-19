@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T17:35:45+08:00",
+  "updated_at": "2026-10-19T18:56:54+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 20000,
       "progress": 0.09090909090909091,
       "stockpile": 0,
-      "time": "17:20",
+      "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "23:56"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 26000,
       "progress": 0.6060606060606061,
       "stockpile": 0,
-      "time": "17:30",
-      "remarks": "WAITING MATERIALS",
+      "time": "19:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "00:05"
+      "activity_time": "23:56"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 8000,
       "progress": 0.5555555555555556,
       "stockpile": 0,
-      "time": "17:30",
+      "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:05"
+      "activity_time": "23:56"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "15:00",
       "remarks": "COMPLETE LOADING S43",
       "equipment": "0",
-      "activity_time": "02:35"
+      "activity_time": "03:56"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "11:43",
       "remarks": "COMPLETE LOADING S47",
       "equipment": "CRANE 3",
-      "activity_time": "05:52"
+      "activity_time": "07:13"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 7500,
       "progress": 0.625,
       "stockpile": 0,
-      "time": "17:20",
-      "remarks": "WAITING MATERIALS",
+      "time": "19:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL2",
-      "activity_time": "00:15"
+      "activity_time": "23:56"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 2000,
       "progress": 0.9166666666666666,
       "stockpile": 1000,
-      "time": "17:30",
-      "remarks": "WAITING MATERIALS",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 1",
-      "activity_time": "00:05"
+      "activity_time": "23:56"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 15000,
       "progress": 0.11764705882352941,
       "stockpile": 0,
-      "time": "17:30",
-      "remarks": "WAITING MATERIALS",
+      "time": "19:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:05"
+      "activity_time": "23:56"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 3500,
       "progress": 0.9125,
       "stockpile": 0,
-      "time": "17:30",
+      "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "00:05"
+      "activity_time": "23:56"
     },
     {
       "berth": "Jetty",
@@ -161,10 +161,10 @@
       "balance": 28500,
       "progress": 0,
       "stockpile": 0,
-      "time": "17:07",
-      "remarks": "LOADING S1 SLING BAGS",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "23:56"
     }
   ],
   "total": {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:35"
+      "activity_time": "18:56"
     },
     {
       "berth": "R3",
