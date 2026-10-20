@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T04:41:09+08:00",
+  "updated_at": "2026-10-21T04:54:59+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "03:26",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "01:14"
+      "activity_time": "01:28"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "02:46",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:54"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "09:40"
+      "activity_time": "09:54"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "02:38",
       "remarks": "LOADING POUCH S30",
       "equipment": "CRANE 4",
-      "activity_time": "02:02"
+      "activity_time": "02:16"
     },
     {
       "berth": "Berth 5",
@@ -104,7 +104,7 @@
       "time": "04:24",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:16"
+      "activity_time": "00:30"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "02:45",
       "remarks": "LOADING POUCH",
       "equipment": "CRANE2/FL2",
-      "activity_time": "01:55"
+      "activity_time": "02:09"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "09:40"
+      "activity_time": "09:54"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "04:40"
+      "activity_time": "04:54"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "04:40"
+      "activity_time": "04:54"
     }
   ],
   "foreign": {
