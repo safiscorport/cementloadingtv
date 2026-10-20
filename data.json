@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T02:39:37+08:00",
+  "updated_at": "2026-10-21T03:20:01+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "01:00",
       "remarks": "RESUME LOADING S45",
       "equipment": "CRANE 3",
-      "activity_time": "01:39"
+      "activity_time": "02:19"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "01:00",
       "remarks": "LOADING POUCH S38",
       "equipment": "0",
-      "activity_time": "01:39"
+      "activity_time": "02:19"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "07:39"
+      "activity_time": "08:19"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "07:39"
+      "activity_time": "08:19"
     },
     {
       "berth": "Berth 5",
@@ -96,11 +96,11 @@
       "vessel": "STAR FREEDOM",
       "voyage": 13,
       "booking": 25000,
-      "dispatch": 1000,
+      "dispatch": 2000,
       "loaded": 0,
       "balance": 25000,
       "progress": 0,
-      "stockpile": 1000,
+      "stockpile": 2000,
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
@@ -111,30 +111,30 @@
       "vessel": "LADY OF REMEDY",
       "voyage": 11,
       "booking": 20000,
-      "dispatch": 12000,
+      "dispatch": 13000,
       "loaded": 12000,
       "balance": 8000,
       "progress": 0.6,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "21:49",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:50"
+      "activity_time": "05:30"
     },
     {
       "berth": "Berth 9",
       "vessel": "LADY ARMOR",
       "voyage": 9,
       "booking": 17000,
-      "dispatch": 9000,
+      "dispatch": 10000,
       "loaded": 5000,
       "balance": 12000,
       "progress": 0.29411764705882354,
-      "stockpile": 4000,
+      "stockpile": 5000,
       "time": "02:30",
       "remarks": "OPENING HATCH",
       "equipment": "CRANE2/FL2",
-      "activity_time": "00:09"
+      "activity_time": "00:49"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "07:39"
+      "activity_time": "08:19"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 236500,
-    "dispatch": 154000,
+    "dispatch": 157000,
     "loaded": 144000,
     "balance": 92500,
     "progress": 0.5443745211401945,
-    "stockpile": 10000
+    "stockpile": 13000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "02:39"
+      "activity_time": "03:19"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "02:39"
+      "activity_time": "03:19"
     }
   ],
   "foreign": {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABA,A",
+    "supervisor": "BERNABE,A",
     "checker": "DALUSA / TORREGOSA",
     "pmc": "JOAN / WILLIAM",
     "cranes": 4,
     "forklifts": 6,
-    "stevedores": 0
+    "stevedores": 39
   }
 }
