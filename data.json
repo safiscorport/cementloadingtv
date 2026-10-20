@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T02:34:29+08:00",
+  "updated_at": "2026-10-21T02:39:37+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -13,8 +13,8 @@
       "stockpile": 2000,
       "time": "01:00",
       "remarks": "RESUME LOADING S45",
-      "equipment": "CRANE3/FL1",
-      "activity_time": "01:34"
+      "equipment": "CRANE 3",
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "01:00",
       "remarks": "LOADING POUCH S38",
       "equipment": "0",
-      "activity_time": "01:34"
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "07:34"
+      "activity_time": "07:39"
     },
     {
       "berth": "Berth 4",
@@ -58,8 +58,8 @@
       "stockpile": 1000,
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
-      "equipment": "0",
-      "activity_time": "07:34"
+      "equipment": "CRANE 4",
+      "activity_time": "07:39"
     },
     {
       "berth": "Berth 5",
@@ -95,10 +95,10 @@
       "berth": "Berth 7",
       "vessel": "STAR FREEDOM",
       "voyage": 13,
-      "booking": 0,
+      "booking": 25000,
       "dispatch": 1000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 25000,
       "progress": 0,
       "stockpile": 1000,
       "time": "00:00",
@@ -118,8 +118,8 @@
       "stockpile": 0,
       "time": "21:49",
       "remarks": "WAITING MATERIAL",
-      "equipment": "CRANE 2",
-      "activity_time": "04:45"
+      "equipment": "0",
+      "activity_time": "04:50"
     },
     {
       "berth": "Berth 9",
@@ -133,8 +133,8 @@
       "stockpile": 4000,
       "time": "02:30",
       "remarks": "OPENING HATCH",
-      "equipment": "0",
-      "activity_time": "00:04"
+      "equipment": "CRANE2/FL2",
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "07:34"
+      "activity_time": "07:39"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 211500,
+    "booking": 236500,
     "dispatch": 154000,
     "loaded": 144000,
-    "balance": 67500,
-    "progress": 0.6221423098745079,
+    "balance": 92500,
+    "progress": 0.5443745211401945,
     "stockpile": 10000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "02:34"
+      "activity_time": "02:39"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "02:34"
+      "activity_time": "02:39"
     }
   ],
   "foreign": {
