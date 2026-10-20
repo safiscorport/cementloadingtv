@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-10-20T22:40:47+08:00",
+  "updated_at": "2026-10-21T01:07:16+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "JOHANNAH 5",
       "voyage": 5,
       "booking": 22000,
-      "dispatch": 10000,
+      "dispatch": 11000,
       "loaded": 8000,
       "balance": 14000,
       "progress": 0.36363636363636365,
-      "stockpile": 2000,
-      "time": "21:12",
-      "remarks": "LOADING POUCH B5",
+      "stockpile": 3000,
+      "time": "23:13",
+      "remarks": "LOADING POUCH B7",
       "equipment": "CRANE3/FL1",
-      "activity_time": "01:28"
+      "activity_time": "01:53"
     },
     {
       "berth": "Berth 2",
       "vessel": "RKK 5",
       "voyage": 1,
       "booking": 66000,
-      "dispatch": 50000,
+      "dispatch": 52000,
       "loaded": 50000,
       "balance": 16000,
       "progress": 0.7575757575757576,
-      "stockpile": 0,
+      "stockpile": 2000,
       "time": "21:21",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:19"
+      "activity_time": "03:45"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:40"
+      "activity_time": "06:06"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:40"
+      "activity_time": "06:06"
     },
     {
       "berth": "Berth 5",
@@ -96,11 +96,11 @@
       "vessel": "STAR FREEDOM",
       "voyage": 13,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 1000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
@@ -119,22 +119,22 @@
       "time": "21:49",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "00:51"
+      "activity_time": "03:17"
     },
     {
       "berth": "Berth 9",
       "vessel": "LADY ARMOR",
       "voyage": 9,
       "booking": 17000,
-      "dispatch": 7000,
+      "dispatch": 8000,
       "loaded": 5000,
       "balance": 12000,
       "progress": 0.29411764705882354,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "19:00",
       "remarks": "WAITING SHORECRANE ASSIST",
       "equipment": "0",
-      "activity_time": "03:40"
+      "activity_time": "06:06"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "03:40"
+      "activity_time": "06:06"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 211500,
-    "dispatch": 146000,
+    "dispatch": 151000,
     "loaded": 142000,
     "balance": 69500,
     "progress": 0.609155296887495,
-    "stockpile": 4000
+    "stockpile": 9000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:40"
+      "activity_time": "01:06"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:40"
+      "activity_time": "01:06"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 726250,
-      "daily": 21000
+      "september": 728250,
+      "daily": 23000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -241,8 +241,8 @@
     {
       "hauler": "BADIE",
       "august": 39000,
-      "september": 32975,
-      "daily": 3000
+      "september": 33975,
+      "daily": 4000
     },
     {
       "hauler": "GEO",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 5000
+      "volume": 7000
     },
     {
       "client": "LAPU-LAPU",
@@ -356,7 +356,7 @@
     },
     {
       "client": "BADIE",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "GEO",
