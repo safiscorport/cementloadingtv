@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T19:07:47+08:00",
+  "updated_at": "2026-10-20T19:09:46+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 17000,
       "progress": 0.22727272727272727,
       "stockpile": 0,
-      "time": "15:20",
+      "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL1",
-      "activity_time": "03:47"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 18000,
       "progress": 0.7272727272727273,
       "stockpile": 0,
-      "time": "17:30",
+      "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:37"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 5000,
       "progress": 0.7222222222222222,
       "stockpile": 0,
-      "time": "17:30",
+      "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:37"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 11000,
       "progress": 0.6140350877192983,
       "stockpile": 0,
-      "time": "17:30",
+      "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE4/FL2",
-      "activity_time": "01:37"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 5",
@@ -116,10 +116,10 @@
       "balance": 13000,
       "progress": 0.35,
       "stockpile": 0,
-      "time": "17:10",
-      "remarks": "LOADING S24 TONNER BAGS",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:57"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 12000,
       "progress": 0.29411764705882354,
       "stockpile": 0,
-      "time": "17:30",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE 3",
-      "activity_time": "01:37"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 3500,
       "progress": 0.9125,
       "stockpile": 0,
-      "time": "17:30",
+      "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "01:37"
+      "activity_time": "00:09"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:07"
+      "activity_time": "19:09"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:07"
+      "activity_time": "19:09"
     }
   ],
   "foreign": {
