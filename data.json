@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T09:52:30+08:00",
+  "updated_at": "2026-10-20T10:49:35+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,22 +14,22 @@
       "time": "09:20",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:32"
+      "activity_time": "01:29"
     },
     {
       "berth": "Berth 2",
       "vessel": "RKK 5",
       "voyage": 1,
       "booking": 66000,
-      "dispatch": 46000,
-      "loaded": 45000,
-      "balance": 21000,
-      "progress": 0.6818181818181818,
+      "dispatch": 47000,
+      "loaded": 46000,
+      "balance": 20000,
+      "progress": 0.696969696969697,
       "stockpile": 1000,
       "time": "09:20",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:32"
+      "activity_time": "01:29"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:50",
       "remarks": "LOADING S48 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:02"
+      "activity_time": "01:59"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "09:24",
       "remarks": "LOADING S40 SLING BAGS",
       "equipment": "CRANE4/FL2",
-      "activity_time": "00:28"
+      "activity_time": "01:25"
     },
     {
       "berth": "Berth 5",
@@ -111,10 +111,10 @@
       "vessel": "LADY OF REMEDY",
       "voyage": 11,
       "booking": 20000,
-      "dispatch": 1000,
-      "loaded": 0,
-      "balance": 20000,
-      "progress": 0,
+      "dispatch": 2000,
+      "loaded": 1000,
+      "balance": 19000,
+      "progress": 0.05,
       "stockpile": 1000,
       "time": "00:00",
       "remarks": "-",
@@ -134,7 +134,7 @@
       "time": "09:26",
       "remarks": "LOADING B7 SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "00:26"
+      "activity_time": "01:23"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "09:30",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "00:22"
+      "activity_time": "01:19"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 211500,
-    "dispatch": 121000,
-    "loaded": 114300,
-    "balance": 97200,
-    "progress": 0.4453027064095176,
+    "dispatch": 123000,
+    "loaded": 116300,
+    "balance": 95200,
+    "progress": 0.4546100657168769,
     "stockpile": 6700
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:52"
+      "activity_time": "10:49"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:52"
+      "activity_time": "10:49"
     }
   ],
   "foreign": {
@@ -241,8 +241,8 @@
     {
       "hauler": "BADIE",
       "august": 39000,
-      "september": 29975,
-      "daily": "-"
+      "september": 30975,
+      "daily": 1000
     },
     {
       "hauler": "GEO",
@@ -265,8 +265,8 @@
     {
       "hauler": "FULACHE",
       "august": 21000,
-      "september": 17500,
-      "daily": "-"
+      "september": 18500,
+      "daily": 1000
     }
   ],
   "monthly": [
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 883050
+      "y2026": 885050
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14216760
+    "y2026": 14218760
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 3000
+      "qty": 5000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 6700
+      "volume": 5700
     },
     {
       "client": "LAPU-LAPU",
@@ -356,7 +356,7 @@
     },
     {
       "client": "BADIE",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "GEO",
@@ -372,7 +372,7 @@
     },
     {
       "client": "FULACHE",
-      "volume": "-"
+      "volume": 1000
     }
   ],
   "status": {
