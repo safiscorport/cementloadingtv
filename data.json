@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-20T19:16:13+08:00",
+  "updated_at": "2026-10-20T19:41:45+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "JOHANNAH 5",
       "voyage": 5,
       "booking": 22000,
-      "dispatch": 6000,
+      "dispatch": 7000,
       "loaded": 5000,
       "balance": 17000,
       "progress": 0.22727272727272727,
-      "stockpile": 1000,
+      "stockpile": 2000,
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:15"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE4/FL2",
-      "activity_time": "00:15"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 5",
@@ -119,7 +119,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 3",
-      "activity_time": "00:15"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "00:41"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 211500,
-    "dispatch": 136000,
+    "dispatch": 137000,
     "loaded": 132000,
     "balance": 79500,
     "progress": 0.5496314873636855,
-    "stockpile": 4000
+    "stockpile": 5000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:15"
+      "activity_time": "19:41"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:15"
+      "activity_time": "19:41"
     }
   ],
   "foreign": {
@@ -241,8 +241,8 @@
     {
       "hauler": "BADIE",
       "august": 39000,
-      "september": 31975,
-      "daily": 2000
+      "september": 32975,
+      "daily": 3000
     },
     {
       "hauler": "GEO",
@@ -356,7 +356,7 @@
     },
     {
       "client": "BADIE",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "GEO",
