@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T17:47:55+08:00",
+  "updated_at": "2026-10-21T19:31:29+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,40 +11,40 @@
       "balance": 10000,
       "progress": 0.5454545454545454,
       "stockpile": 0,
-      "time": "13:20",
+      "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "04:27"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 2",
       "vessel": "RKK 5",
       "voyage": 1,
       "booking": 66000,
-      "dispatch": 56000,
+      "dispatch": 55000,
       "loaded": 55000,
       "balance": 11000,
       "progress": 0.8333333333333334,
-      "stockpile": 1000,
-      "time": "16:00",
+      "stockpile": 0,
+      "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:47"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 3",
       "vessel": "STAR SOGOD",
       "voyage": 11,
       "booking": 18000,
-      "dispatch": 15040,
+      "dispatch": 16120,
       "loaded": 15040,
       "balance": 2960,
       "progress": 0.8355555555555556,
-      "stockpile": 0,
-      "time": "14:00",
-      "remarks": "WAITING MATERIAL",
+      "stockpile": 1080,
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "03:47"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 4",
@@ -56,25 +56,25 @@
       "balance": 9000,
       "progress": 0.6842105263157895,
       "stockpile": 0,
-      "time": "17:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE 4",
-      "activity_time": "00:47"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 5",
       "vessel": "LADY OF ROSARY",
       "voyage": 9,
       "booking": 23000,
-      "dispatch": 2000,
+      "dispatch": 3000,
       "loaded": 2000,
       "balance": 21000,
       "progress": 0.08695652173913043,
-      "stockpile": 0,
-      "time": "16:00",
-      "remarks": "WAITING MATERIAL",
+      "stockpile": 1000,
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:47"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 6",
@@ -96,45 +96,45 @@
       "vessel": "STAR FREEDOM",
       "voyage": 13,
       "booking": 25000,
-      "dispatch": 13000,
+      "dispatch": 17000,
       "loaded": 11000,
       "balance": 14000,
       "progress": 0.44,
-      "stockpile": 2000,
-      "time": "16:52",
-      "remarks": "LOADING S8 SLING BAGS",
+      "stockpile": 6000,
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:55"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF REMEDY",
       "voyage": 11,
       "booking": 20000,
-      "dispatch": 14000,
+      "dispatch": 15000,
       "loaded": 14000,
       "balance": 6000,
       "progress": 0.7,
-      "stockpile": 0,
-      "time": "17:00",
-      "remarks": "WAITING MATERIAL",
+      "stockpile": 1000,
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:47"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 9",
       "vessel": "LADY ARMOR",
       "voyage": 9,
       "booking": 17000,
-      "dispatch": 14000,
+      "dispatch": 16000,
       "loaded": 14000,
       "balance": 3000,
       "progress": 0.8235294117647058,
-      "stockpile": 0,
-      "time": "15:00",
-      "remarks": "WAITING MATERIAL",
+      "stockpile": 2000,
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE2/FL2",
-      "activity_time": "02:47"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 3500,
       "progress": 0.9125,
       "stockpile": 0,
-      "time": "14:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:00",
+      "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "03:47"
+      "activity_time": "00:31"
     },
     {
       "berth": "Jetty",
@@ -161,19 +161,19 @@
       "balance": 45000,
       "progress": 0,
       "stockpile": 0,
-      "time": "17:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:47"
+      "activity_time": "00:31"
     }
   ],
   "total": {
     "booking": 304500,
-    "dispatch": 182040,
+    "dispatch": 190120,
     "loaded": 179040,
     "balance": 125460,
     "progress": 0.5861539894163059,
-    "stockpile": 3000
+    "stockpile": 11080
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:47"
+      "activity_time": "19:31"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:47"
+      "activity_time": "19:31"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 750250,
-      "daily": 18700
+      "september": 759330,
+      "daily": 27780
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 3000
+      "volume": 11080
     },
     {
       "client": "LAPU-LAPU",
@@ -380,7 +380,7 @@
     "checker": "DALUSA / TORREGOSA",
     "pmc": "JOAN / WILLIAM",
     "cranes": 4,
-    "forklifts": 6,
-    "stevedores": 39
+    "forklifts": 8,
+    "stevedores": 0
   }
 }
