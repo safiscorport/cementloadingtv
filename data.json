@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T11:19:14+08:00",
+  "updated_at": "2026-10-21T11:25:44+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "08:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "03:18"
+      "activity_time": "03:25"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "08:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:18"
+      "activity_time": "03:25"
     },
     {
       "berth": "Berth 3",
@@ -37,14 +37,14 @@
       "voyage": 11,
       "booking": 18000,
       "dispatch": 14040,
-      "loaded": 13000,
-      "balance": 5000,
-      "progress": 0.7222222222222222,
-      "stockpile": 1040,
+      "loaded": 14040,
+      "balance": 3960,
+      "progress": 0.78,
+      "stockpile": 0,
       "time": "08:00",
       "remarks": "LOADING P14 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:18"
+      "activity_time": "03:25"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "03:18"
+      "activity_time": "03:25"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "09:47",
       "remarks": "LOADING P9 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:31"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 6",
@@ -96,15 +96,15 @@
       "vessel": "STAR FREEDOM",
       "voyage": 13,
       "booking": 25000,
-      "dispatch": 7300,
-      "loaded": 1300,
-      "balance": 23700,
-      "progress": 0.052,
+      "dispatch": 8300,
+      "loaded": 2300,
+      "balance": 22700,
+      "progress": 0.092,
       "stockpile": 6000,
       "time": "08:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:18"
+      "activity_time": "03:25"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 11,
       "booking": 20000,
       "dispatch": 14000,
-      "loaded": 12000,
-      "balance": 8000,
-      "progress": 0.6,
-      "stockpile": 2000,
+      "loaded": 13000,
+      "balance": 7000,
+      "progress": 0.65,
+      "stockpile": 1000,
       "time": "08:15",
       "remarks": "LOADING P17 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "03:03"
+      "activity_time": "03:10"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "10:00",
       "remarks": "LOADING P16 SLING BAGS",
       "equipment": "CRANE2/FL2",
-      "activity_time": "01:18"
+      "activity_time": "01:25"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "08:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "03:18"
+      "activity_time": "03:25"
     },
     {
       "berth": "Jetty",
@@ -164,16 +164,16 @@
       "time": "09:33",
       "remarks": "LOADING S48 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:45"
+      "activity_time": "01:52"
     }
   ],
   "total": {
     "booking": 304500,
-    "dispatch": 170340,
-    "loaded": 158300,
-    "balance": 146200,
-    "progress": 0.5018538976383841,
-    "stockpile": 12040
+    "dispatch": 171340,
+    "loaded": 161340,
+    "balance": 143160,
+    "progress": 0.5166316754161618,
+    "stockpile": 10000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:18"
+      "activity_time": "11:25"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:18"
+      "activity_time": "11:25"
     }
   ],
   "foreign": {
@@ -265,8 +265,8 @@
     {
       "hauler": "FULACHE",
       "august": 21000,
-      "september": 19500,
-      "daily": "-"
+      "september": 20500,
+      "daily": 1000
     }
   ],
   "monthly": [
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 928050
+      "y2026": 931090
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14261760
+    "y2026": 14264800
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 6000
+      "qty": 9040
     },
     {
       "shift": "2ND SHIFT",
