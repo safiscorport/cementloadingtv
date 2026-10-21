@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T10:01:26+08:00",
+  "updated_at": "2026-10-21T10:02:03+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -71,10 +71,10 @@
       "balance": 22000,
       "progress": 0.043478260869565216,
       "stockpile": 0,
-      "time": "08:10",
+      "time": "09:47",
       "remarks": "LOADING P9 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:51"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 6",
