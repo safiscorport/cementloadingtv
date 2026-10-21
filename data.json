@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T06:20:36+08:00",
+  "updated_at": "2026-10-22T07:28:29+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 7000,
       "progress": 0.6818181818181818,
       "stockpile": 0,
-      "time": "03:56",
-      "remarks": "WAITING MATERIAL",
+      "time": "00:00",
+      "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "02:24"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 2",
@@ -27,9 +27,9 @@
       "progress": 0.8636363636363636,
       "stockpile": 0,
       "time": "02:40",
-      "remarks": "WAITING MATERIAL",
+      "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "03:40"
+      "activity_time": "04:48"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 720,
       "progress": 0.96,
       "stockpile": 0,
-      "time": "02:30",
-      "remarks": "LOADING COMPLETE",
+      "time": "00:00",
+      "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "03:50"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 8000,
       "progress": 0.7192982456140351,
       "stockpile": 0,
-      "time": "03:33",
-      "remarks": "WAITING MATERIAL",
+      "time": "00:00",
+      "remarks": "WAITING DELIVERY",
       "equipment": "CRANE 4",
-      "activity_time": "02:47"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 20000,
       "progress": 0.13043478260869565,
       "stockpile": 0,
-      "time": "20:31",
-      "remarks": "WAITING MATERIAL",
+      "time": "00:00",
+      "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "09:49"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 8000,
       "progress": 0.68,
       "stockpile": 0,
-      "time": "01:36",
-      "remarks": "WAITING MATERIAL",
+      "time": "00:00",
+      "remarks": "WAITING DELIVERY",
       "equipment": "FL 2",
-      "activity_time": "04:44"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 5000,
       "progress": 0.75,
       "stockpile": 0,
-      "time": "20:25",
-      "remarks": "WAITING MATERIAL",
+      "time": "00:00",
+      "remarks": "WAITING DELIVERY",
       "equipment": "CRANE 3",
-      "activity_time": "09:55"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 0,
-      "time": "21:57",
-      "remarks": "LOADING COMPLETE",
+      "time": "00:00",
+      "remarks": "VESSEL COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "08:23"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 10",
@@ -147,9 +147,9 @@
       "progress": 0.9125,
       "stockpile": 0,
       "time": "19:00",
-      "remarks": "DEFECTIVE CRANE",
+      "remarks": "VESSEL DEFECTIVE",
       "equipment": "0",
-      "activity_time": "11:20"
+      "activity_time": "12:28"
     },
     {
       "berth": "Jetty",
@@ -161,10 +161,10 @@
       "balance": 37000,
       "progress": 0.17777777777777778,
       "stockpile": 5000,
-      "time": "22:07",
-      "remarks": "CRANE OPTR TAKE REST",
+      "time": "00:00",
+      "remarks": "INFINITY 8",
       "equipment": "FL 1",
-      "activity_time": "08:13"
+      "activity_time": "00:00"
     }
   ],
   "total": {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "06:20"
+      "activity_time": "07:28"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "06:20"
+      "activity_time": "07:28"
     }
   ],
   "foreign": {
