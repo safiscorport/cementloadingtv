@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T17:30:24+08:00",
+  "updated_at": "2026-10-21T17:35:03+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:20",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "04:10"
+      "activity_time": "04:14"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "15:30",
       "remarks": "LOADING S48 TONNER",
       "equipment": "0",
-      "activity_time": "02:00"
+      "activity_time": "02:04"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "13:37",
       "remarks": "LOADING P17 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:53"
+      "activity_time": "03:57"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "13:20",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "04:10"
+      "activity_time": "04:14"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "13:20",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:10"
+      "activity_time": "04:14"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "16:52",
       "remarks": "LOADING S8 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:38"
+      "activity_time": "00:42"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "16:04",
       "remarks": "LOADING B5 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:26"
+      "activity_time": "01:30"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:35",
       "remarks": "LOADING S55 TONNER BAGS",
       "equipment": "CRANE2/FL2",
-      "activity_time": "02:55"
+      "activity_time": "02:59"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:20",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "04:10"
+      "activity_time": "04:14"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "13:33",
       "remarks": "LOADING B7 SLINGBAGS",
       "equipment": "0",
-      "activity_time": "03:57"
+      "activity_time": "04:01"
     }
   ],
   "total": {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:30"
+      "activity_time": "17:34"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:30"
+      "activity_time": "17:34"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 747250,
-      "daily": 15700
+      "september": 750250,
+      "daily": 18700
     },
     {
       "hauler": "LAPU-LAPU",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 949790
+      "y2026": 953790
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14283500
+    "y2026": 14287500
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 27740
+      "qty": 31740
     },
     {
       "shift": "2ND SHIFT",
