@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T07:28:46+08:00",
+  "updated_at": "2026-10-22T07:29:54+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "02:40",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "04:48"
+      "activity_time": "04:49"
     },
     {
       "berth": "Berth 3",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEFECTIVE",
       "equipment": "0",
-      "activity_time": "12:28"
+      "activity_time": "12:29"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:28"
+      "activity_time": "07:29"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:28"
+      "activity_time": "07:29"
     }
   ],
   "foreign": {
@@ -376,9 +376,9 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "DALUSA / TORREGOSA",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "0",
+    "checker": "TORRES/OBIAL/CANOY",
+    "pmc": "VICKY AND EBOY",
     "cranes": 4,
     "forklifts": 8,
     "stevedores": 44
