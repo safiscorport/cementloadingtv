@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T04:54:39+08:00",
+  "updated_at": "2026-10-22T04:54:58+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 10000,
       "progress": 0.5454545454545454,
       "stockpile": 3000,
-      "time": "02:38",
-      "remarks": "LOADING TONNER S57",
+      "time": "03:04",
+      "remarks": "WAITING PTMS",
       "equipment": "0",
-      "activity_time": "02:16"
+      "activity_time": "01:50"
     },
     {
       "berth": "Berth 2",
