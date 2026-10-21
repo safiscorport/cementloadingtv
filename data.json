@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T19:56:38+08:00",
+  "updated_at": "2026-10-21T20:10:38+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -13,8 +13,8 @@
       "stockpile": 0,
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
-      "equipment": "CRANE 3",
-      "activity_time": "00:56"
+      "equipment": "0",
+      "activity_time": "01:10"
     },
     {
       "berth": "Berth 2",
@@ -29,22 +29,22 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "01:10"
     },
     {
       "berth": "Berth 3",
       "vessel": "STAR SOGOD",
       "voyage": 11,
       "booking": 18000,
-      "dispatch": 16120,
-      "loaded": 15040,
-      "balance": 2960,
-      "progress": 0.8355555555555556,
+      "dispatch": 16200,
+      "loaded": 15120,
+      "balance": 2880,
+      "progress": 0.84,
       "stockpile": 1080,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "20:00",
+      "remarks": "LOADING POUCH S5",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "00:10"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 4",
-      "activity_time": "00:56"
+      "activity_time": "01:10"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 21000,
       "progress": 0.08695652173913043,
       "stockpile": 1000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "time": "20:00",
+      "remarks": "LOADING POUCH S30",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "00:10"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 14000,
       "progress": 0.44,
       "stockpile": 6000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
-      "equipment": "0",
-      "activity_time": "00:56"
+      "time": "20:00",
+      "remarks": "LOADING SLING",
+      "equipment": "FL 2",
+      "activity_time": "00:10"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 6000,
       "progress": 0.7,
       "stockpile": 1000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
-      "equipment": "0",
-      "activity_time": "00:56"
+      "time": "20:00",
+      "remarks": "LOADING TONNER S43",
+      "equipment": "CRANE 3",
+      "activity_time": "00:10"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 3000,
       "progress": 0.8235294117647058,
       "stockpile": 2000,
-      "time": "19:00",
-      "remarks": "KY TOOLBOX",
-      "equipment": "CRANE2/FL2",
-      "activity_time": "00:56"
+      "time": "20:00",
+      "remarks": "LOADING TONNER",
+      "equipment": "CRANE 2",
+      "activity_time": "00:10"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "01:10"
     },
     {
       "berth": "Jetty",
@@ -163,16 +163,16 @@
       "stockpile": 0,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
-      "equipment": "0",
-      "activity_time": "00:56"
+      "equipment": "FL 1",
+      "activity_time": "01:10"
     }
   ],
   "total": {
     "booking": 304500,
-    "dispatch": 191120,
-    "loaded": 179040,
-    "balance": 125460,
-    "progress": 0.5861539894163059,
+    "dispatch": 191200,
+    "loaded": 179120,
+    "balance": 125380,
+    "progress": 0.5865984338607504,
     "stockpile": 12080
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:56"
+      "activity_time": "20:10"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:56"
+      "activity_time": "20:10"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 953790
+      "y2026": 953870
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14287500
+    "y2026": 14287580
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 31740
+      "qty": 31820
     },
     {
       "shift": "2ND SHIFT",
