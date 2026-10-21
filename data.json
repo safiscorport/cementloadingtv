@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T23:02:36+08:00",
+  "updated_at": "2026-10-21T23:02:57+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -57,7 +57,7 @@
       "progress": 0.6842105263157895,
       "stockpile": 0,
       "time": "19:00",
-      "remarks": "KY TOOLBOX",
+      "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
       "activity_time": "04:02"
     },
