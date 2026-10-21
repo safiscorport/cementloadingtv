@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T07:30:48+08:00",
+  "updated_at": "2026-10-22T07:33:56+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,17 +29,17 @@
       "time": "02:40",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "04:50"
+      "activity_time": "04:53"
     },
     {
       "berth": "Berth 3",
-      "vessel": "STAR SOGOD",
-      "voyage": 11,
-      "booking": 18000,
-      "dispatch": 17280,
-      "loaded": 17280,
-      "balance": 720,
-      "progress": 0.96,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "VESSEL COMPLETE",
@@ -123,17 +123,17 @@
     },
     {
       "berth": "Berth 9",
-      "vessel": "LADY ARMOR",
-      "voyage": 9,
-      "booking": 17000,
-      "dispatch": 17000,
-      "loaded": 17000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "VESSEL COMPLETE",
-      "equipment": "CRANE 2",
+      "equipment": "0",
       "activity_time": "00:00"
     },
     {
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEFECTIVE",
       "equipment": "0",
-      "activity_time": "12:30"
+      "activity_time": "12:33"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 304500,
-    "dispatch": 211280,
-    "loaded": 206280,
-    "balance": 98220,
-    "progress": 0.6875465351455053,
+    "booking": 269500,
+    "dispatch": 177000,
+    "loaded": 172000,
+    "balance": 97500,
+    "progress": 0.6144331689318818,
     "stockpile": 5000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:30"
+      "activity_time": "07:33"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:30"
+      "activity_time": "07:33"
     }
   ],
   "foreign": {
