@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T10:50:20+08:00",
+  "updated_at": "2026-10-22T11:27:33+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "02:40",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "08:10"
+      "activity_time": "08:47"
     },
     {
       "berth": "Berth 3",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEFECTIVE",
       "equipment": "0",
-      "activity_time": "15:50"
+      "activity_time": "16:27"
     },
     {
       "berth": "Jetty",
@@ -157,23 +157,23 @@
       "voyage": 7,
       "booking": 45000,
       "dispatch": 18000,
-      "loaded": 11000,
-      "balance": 34000,
-      "progress": 0.24444444444444444,
-      "stockpile": 7000,
+      "loaded": 12000,
+      "balance": 33000,
+      "progress": 0.26666666666666666,
+      "stockpile": 6000,
       "time": "10:10",
       "remarks": "LOADING P17 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "00:40"
+      "activity_time": "01:17"
     }
   ],
   "total": {
     "booking": 289500,
     "dispatch": 201280,
-    "loaded": 192280,
-    "balance": 97220,
-    "progress": 0.6495702242357467,
-    "stockpile": 9000
+    "loaded": 193280,
+    "balance": 96220,
+    "progress": 0.6520393600382159,
+    "stockpile": 8000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:50"
+      "activity_time": "11:27"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:50"
+      "activity_time": "11:27"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 978030
+      "y2026": 979030
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14312740
+    "y2026": 14313740
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 3000
+      "qty": 4000
     },
     {
       "shift": "2ND SHIFT",
