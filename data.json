@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T15:59:22+08:00",
+  "updated_at": "2026-10-22T15:59:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -21,11 +21,11 @@
       "vessel": "RKK 5",
       "voyage": 1,
       "booking": 66000,
-      "dispatch": 60000,
+      "dispatch": 60500,
       "loaded": 57000,
       "balance": 9000,
       "progress": 0.8636363636363636,
-      "stockpile": 3000,
+      "stockpile": 3500,
       "time": "13:30",
       "remarks": "LOADING B7 TONNER BAGS",
       "equipment": "0",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 289500,
-    "dispatch": 213860,
+    "dispatch": 214360,
     "loaded": 198280,
     "balance": 91220,
     "progress": 0.6678923342245233,
-    "stockpile": 15580
+    "stockpile": 16080
   },
   "alpha": [
     {
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 20580
+      "volume": 21080
     },
     {
       "client": "LAPU-LAPU",
