@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T14:27:49+08:00",
+  "updated_at": "2026-10-22T14:31:28+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "13:30",
       "remarks": "LOADING B7 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "13:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "13:30",
       "remarks": "LOADING S57 SLING BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "00:57"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "13:30",
       "remarks": "LOADING S55 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "13:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "00:57"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "13:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "00:57"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "13:30",
       "remarks": "LOADING S43 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "01:01"
     },
     {
       "berth": "Jetty",
@@ -157,23 +157,23 @@
       "voyage": 7,
       "booking": 45000,
       "dispatch": 19000,
-      "loaded": 12000,
-      "balance": 33000,
-      "progress": 0.26666666666666666,
-      "stockpile": 7000,
+      "loaded": 13000,
+      "balance": 32000,
+      "progress": 0.28888888888888886,
+      "stockpile": 6000,
       "time": "13:30",
       "remarks": "LOADING S59 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "00:57"
+      "activity_time": "01:01"
     }
   ],
   "total": {
     "booking": 289500,
     "dispatch": 205280,
-    "loaded": 194280,
-    "balance": 95220,
-    "progress": 0.6570898650887209,
-    "stockpile": 11000
+    "loaded": 195280,
+    "balance": 94220,
+    "progress": 0.65955900089119,
+    "stockpile": 10000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:27"
+      "activity_time": "14:31"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:27"
+      "activity_time": "14:31"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 980030
+      "y2026": 981030
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14314740
+    "y2026": 14315740
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 5000
+      "qty": 6000
     },
     {
       "shift": "2ND SHIFT",
