@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T22:17:09+08:00",
+  "updated_at": "2026-10-22T22:18:37+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:16"
+      "activity_time": "03:18"
     },
     {
       "berth": "Berth 2",
@@ -27,7 +27,7 @@
       "progress": 0.8863636363636364,
       "stockpile": 5500,
       "time": "00:00",
-      "remarks": "LOADING TONNER",
+      "remarks": "LOADING TONNER S28",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -41,10 +41,10 @@
       "balance": 1640,
       "progress": 0.918,
       "stockpile": 1080,
-      "time": "20:00",
-      "remarks": "LOADING POUCH",
+      "time": "20:40",
+      "remarks": "LOADING POUCH S19",
       "equipment": "CRANE 4",
-      "activity_time": "02:16"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 6000,
       "progress": 0.7894736842105263,
       "stockpile": 0,
-      "time": "20:00",
-      "remarks": "LOADING POUCH",
+      "time": "20:45",
+      "remarks": "LOADING POUCH S45",
       "equipment": "0",
-      "activity_time": "02:16"
+      "activity_time": "01:33"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "20:46",
       "remarks": "LOADING POUCH B5",
       "equipment": "0",
-      "activity_time": "01:30"
+      "activity_time": "01:32"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "13:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "08:46"
+      "activity_time": "08:48"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "13:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "08:46"
+      "activity_time": "08:48"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "17:10",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "05:06"
+      "activity_time": "05:08"
     },
     {
       "berth": "Jetty",
@@ -161,10 +161,10 @@
       "balance": 31000,
       "progress": 0.3111111111111111,
       "stockpile": 7000,
-      "time": "20:00",
-      "remarks": "LOADING POUCH",
+      "time": "20:43",
+      "remarks": "LOADING POUCH F2",
       "equipment": "0",
-      "activity_time": "02:16"
+      "activity_time": "01:35"
     }
   ],
   "total": {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:16"
+      "activity_time": "22:18"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:16"
+      "activity_time": "22:18"
     }
   ],
   "foreign": {
