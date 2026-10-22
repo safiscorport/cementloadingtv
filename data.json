@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T11:27:33+08:00",
+  "updated_at": "2026-10-22T11:28:31+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "02:40",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "08:47"
+      "activity_time": "08:48"
     },
     {
       "berth": "Berth 3",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEFECTIVE",
       "equipment": "0",
-      "activity_time": "16:27"
+      "activity_time": "16:28"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "10:10",
       "remarks": "LOADING P17 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "01:17"
+      "activity_time": "01:18"
     }
   ],
   "total": {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:27"
+      "activity_time": "11:28"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:27"
+      "activity_time": "11:28"
     }
   ],
   "foreign": {
