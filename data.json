@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T11:31:08+08:00",
+  "updated_at": "2026-10-22T12:04:21+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -7,10 +7,10 @@
       "voyage": 5,
       "booking": 22000,
       "dispatch": 16000,
-      "loaded": 15000,
-      "balance": 7000,
-      "progress": 0.6818181818181818,
-      "stockpile": 1000,
+      "loaded": 16000,
+      "balance": 6000,
+      "progress": 0.7272727272727273,
+      "stockpile": 0,
       "time": "00:00",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
@@ -29,7 +29,7 @@
       "time": "02:40",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "08:50"
+      "activity_time": "09:24"
     },
     {
       "berth": "Berth 3",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEFECTIVE",
       "equipment": "0",
-      "activity_time": "16:30"
+      "activity_time": "17:04"
     },
     {
       "berth": "Jetty",
@@ -164,16 +164,16 @@
       "time": "10:10",
       "remarks": "LOADING P17 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "01:20"
+      "activity_time": "01:54"
     }
   ],
   "total": {
     "booking": 289500,
     "dispatch": 203280,
-    "loaded": 193280,
-    "balance": 96220,
-    "progress": 0.6520393600382159,
-    "stockpile": 10000
+    "loaded": 194280,
+    "balance": 95220,
+    "progress": 0.6570898650887209,
+    "stockpile": 9000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:30"
+      "activity_time": "12:04"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:30"
+      "activity_time": "12:04"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 979030
+      "y2026": 980030
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14313740
+    "y2026": 14314740
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 4000
+      "qty": 5000
     },
     {
       "shift": "2ND SHIFT",
