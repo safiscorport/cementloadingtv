@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T10:48:33+08:00",
+  "updated_at": "2026-10-22T10:49:52+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "02:40",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "08:08"
+      "activity_time": "08:09"
     },
     {
       "berth": "Berth 3",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEFECTIVE",
       "equipment": "0",
-      "activity_time": "15:48"
+      "activity_time": "15:49"
     },
     {
       "berth": "Jetty",
@@ -161,10 +161,10 @@
       "balance": 34000,
       "progress": 0.24444444444444444,
       "stockpile": 7000,
-      "time": "09:22",
-      "remarks": "LOADING S22 SLING BAG",
+      "time": "10:10",
+      "remarks": "LOADING S43 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "01:26"
+      "activity_time": "00:39"
     }
   ],
   "total": {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:48"
+      "activity_time": "10:49"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:48"
+      "activity_time": "10:49"
     }
   ],
   "foreign": {
