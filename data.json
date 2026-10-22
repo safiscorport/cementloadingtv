@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T12:04:21+08:00",
+  "updated_at": "2026-10-22T12:05:59+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 6000,
       "progress": 0.7272727272727273,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "WAITING DELIVERY",
+      "time": "08:45",
+      "remarks": "LOADING P4 TONNER",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "03:20"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "02:40",
       "remarks": "WAITING DELIVERY",
       "equipment": "0",
-      "activity_time": "09:24"
+      "activity_time": "09:25"
     },
     {
       "berth": "Berth 3",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEFECTIVE",
       "equipment": "0",
-      "activity_time": "17:04"
+      "activity_time": "17:05"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "10:10",
       "remarks": "LOADING P17 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "01:54"
+      "activity_time": "01:55"
     }
   ],
   "total": {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:04"
+      "activity_time": "12:05"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:04"
+      "activity_time": "12:05"
     }
   ],
   "foreign": {
