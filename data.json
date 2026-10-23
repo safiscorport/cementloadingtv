@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T08:42:26+08:00",
+  "updated_at": "2026-10-23T09:09:38+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -149,7 +149,7 @@
       "time": "17:10",
       "remarks": "NAPOLI",
       "equipment": "0",
-      "activity_time": "15:32"
+      "activity_time": "15:59"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:42"
+      "activity_time": "09:09"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:42"
+      "activity_time": "09:09"
     }
   ],
   "foreign": {
@@ -381,6 +381,6 @@
     "pmc": "VICKY/EBOY",
     "cranes": 4,
     "forklifts": 6,
-    "stevedores": 43
+    "stevedores": 39
   }
 }
