@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T09:44:41+08:00",
+  "updated_at": "2026-10-23T09:45:39+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -149,17 +149,17 @@
       "time": "17:10",
       "remarks": "NAPOLI",
       "equipment": "0",
-      "activity_time": "16:34"
+      "activity_time": "16:35"
     },
     {
       "berth": "Jetty",
       "vessel": "INFINITY 8",
       "voyage": 7,
       "booking": 45000,
-      "dispatch": 25000,
-      "loaded": 16000,
-      "balance": 29000,
-      "progress": 0.35555555555555557,
+      "dispatch": 26000,
+      "loaded": 17000,
+      "balance": 28000,
+      "progress": 0.37777777777777777,
       "stockpile": 9000,
       "time": "00:00",
       "remarks": "WAITING MATERIAL",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 229500,
-    "dispatch": 176440,
-    "loaded": 155000,
-    "balance": 74500,
-    "progress": 0.6481379998084803,
+    "dispatch": 177440,
+    "loaded": 156000,
+    "balance": 73500,
+    "progress": 0.6513126029830835,
     "stockpile": 21440
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:44"
+      "activity_time": "09:45"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:44"
+      "activity_time": "09:45"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 797570,
-      "daily": 5000
+      "september": 798570,
+      "daily": 6000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 999670
+      "y2026": 1000670
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14334380
+    "y2026": 14335380
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 2000
+      "qty": 3000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 26000
+      "volume": 27000
     },
     {
       "client": "LAPU-LAPU",
