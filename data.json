@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T05:48:08+08:00",
+  "updated_at": "2026-10-24T05:50:55+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "15:46",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "14:01"
+      "activity_time": "14:04"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "05:10",
       "remarks": "LOADING POUCH P5",
       "equipment": "CRANE 2",
-      "activity_time": "00:37"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "05:14",
       "remarks": "LOADING SLING S37",
       "equipment": "CRANE 4",
-      "activity_time": "00:33"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "10:47"
+      "activity_time": "10:50"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "01:30",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "FL 1",
-      "activity_time": "04:17"
+      "activity_time": "04:20"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "01:30",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "04:17"
+      "activity_time": "04:20"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "05:03",
       "remarks": "RESUME LOADING S24",
       "equipment": "0",
-      "activity_time": "00:44"
+      "activity_time": "00:47"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "01:30",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "CRANE 3",
-      "activity_time": "04:17"
+      "activity_time": "04:20"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:47"
+      "activity_time": "05:50"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:47"
+      "activity_time": "05:50"
     }
   ],
   "foreign": {
