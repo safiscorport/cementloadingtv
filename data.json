@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T08:37:56+08:00",
+  "updated_at": "2026-10-23T08:38:13+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -132,7 +132,7 @@
       "progress": 0,
       "stockpile": 3000,
       "time": "00:00",
-      "remarks": "JOHANNAH 5",
+      "remarks": "NAPOLI",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -149,7 +149,7 @@
       "time": "17:10",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "15:27"
+      "activity_time": "15:28"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:37"
+      "activity_time": "08:38"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:37"
+      "activity_time": "08:38"
     }
   ],
   "foreign": {
