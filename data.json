@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T10:42:44+08:00",
+  "updated_at": "2026-10-23T10:46:53+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 4560,
       "progress": 0.7927272727272727,
       "stockpile": 2500,
-      "time": "10:16H",
-      "remarks": "LOADING P15 TONNER BAGS",
+      "time": "10:30",
+      "remarks": "VESSEL CLOSE DUE RAIN",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:16"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "08:50",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "01:52"
+      "activity_time": "01:56"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 6000,
       "progress": 0.7894736842105263,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "AGRO MARINE 5",
+      "time": "10:30",
+      "remarks": "VESSEL CLOSE DUE RAIN",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:16"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 18000,
       "progress": 0.21739130434782608,
       "stockpile": 2000,
-      "time": "00:00",
-      "remarks": "LADY OF ROSARY",
+      "time": "10:30",
+      "remarks": "VESSEL CLOSE DUE RAIN",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:16"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 7000,
       "progress": 0.72,
       "stockpile": 1000,
-      "time": "00:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "10:30",
+      "remarks": "VESSEL CLOSE DUE RAIN",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:16"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 5000,
       "progress": 0.75,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "10:30",
+      "remarks": "VESSEL CLOSE DUE RAIN",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:16"
     },
     {
       "berth": "Berth 9",
@@ -146,10 +146,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 3000,
-      "time": "17:10",
-      "remarks": "NAPOLI",
+      "time": "10:30",
+      "remarks": "VESSEL CLOSE DUE RAIN",
       "equipment": "0",
-      "activity_time": "17:32"
+      "activity_time": "00:16"
     },
     {
       "berth": "Jetty",
@@ -161,10 +161,10 @@
       "balance": 27000,
       "progress": 0.4,
       "stockpile": 8000,
-      "time": "08:49",
-      "remarks": "LOADING S19 SLINGBGAS",
+      "time": "10:30",
+      "remarks": "VESSEL CLOSE DUE RAIN",
       "equipment": "0",
-      "activity_time": "01:53"
+      "activity_time": "00:16"
     }
   ],
   "total": {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:42"
+      "activity_time": "10:46"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:42"
+      "activity_time": "10:46"
     }
   ],
   "foreign": {
