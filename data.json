@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T08:35:48+08:00",
+  "updated_at": "2026-10-23T08:37:56+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -123,14 +123,14 @@
     },
     {
       "berth": "Berth 9",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "NAPOLI",
+      "voyage": 13,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 3000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 3000,
       "time": "00:00",
       "remarks": "JOHANNAH 5",
       "equipment": "0",
@@ -149,7 +149,7 @@
       "time": "17:10",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "15:25"
+      "activity_time": "15:27"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 289500,
-    "dispatch": 231440,
+    "dispatch": 234440,
     "loaded": 211920,
     "balance": 77580,
     "progress": 0.7169625520395925,
-    "stockpile": 19520
+    "stockpile": 22520
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:35"
+      "activity_time": "08:37"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:35"
+      "activity_time": "08:37"
     }
   ],
   "foreign": {
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 25080
+      "volume": 27080
     },
     {
       "client": "LAPU-LAPU",
@@ -376,9 +376,9 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "DALUSA / TORREGOSA",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "PELIMER,J",
+    "checker": "TORRES/OBIAL/CANOY",
+    "pmc": "VICKY/EBOY",
     "cranes": 4,
     "forklifts": 6,
     "stevedores": 43
