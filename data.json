@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T08:38:13+08:00",
+  "updated_at": "2026-10-23T08:39:20+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -123,6 +123,21 @@
     },
     {
       "berth": "Berth 9",
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
+      "stockpile": 0,
+      "time": "00:00",
+      "remarks": "NAPOLI",
+      "equipment": "0",
+      "activity_time": "00:00"
+    },
+    {
+      "berth": "Berth 10",
       "vessel": "NAPOLI",
       "voyage": 13,
       "booking": 0,
@@ -131,25 +146,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 3000,
-      "time": "00:00",
-      "remarks": "NAPOLI",
-      "equipment": "0",
-      "activity_time": "00:00"
-    },
-    {
-      "berth": "Berth 10",
-      "vessel": "QUEEN CAROLYN",
-      "voyage": 10,
-      "booking": 40000,
-      "dispatch": 40000,
-      "loaded": 40000,
-      "balance": 0,
-      "progress": 1,
-      "stockpile": 0,
       "time": "17:10",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "15:28"
+      "activity_time": "15:29"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 289500,
-    "dispatch": 234440,
-    "loaded": 211920,
+    "booking": 249500,
+    "dispatch": 194440,
+    "loaded": 171920,
     "balance": 77580,
-    "progress": 0.7169625520395925,
+    "progress": 0.6815828710445415,
     "stockpile": 22520
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:38"
+      "activity_time": "08:39"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:38"
+      "activity_time": "08:39"
     }
   ],
   "foreign": {
