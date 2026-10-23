@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T08:40:08+08:00",
+  "updated_at": "2026-10-23T08:42:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -33,17 +33,17 @@
     },
     {
       "berth": "Berth 3",
-      "vessel": "STAR SOGOD",
-      "voyage": 11,
-      "booking": 20000,
-      "dispatch": 20000,
-      "loaded": 18920,
-      "balance": 1080,
-      "progress": 0.946,
-      "stockpile": 1080,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
+      "stockpile": 0,
       "time": "00:00",
       "remarks": "VESSEL COMPLETE",
-      "equipment": "CRANE 4",
+      "equipment": "0",
       "activity_time": "00:00"
     },
     {
@@ -132,7 +132,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "NAPOLI",
+      "remarks": "-",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -147,9 +147,9 @@
       "progress": 0,
       "stockpile": 3000,
       "time": "17:10",
-      "remarks": "VESSEL COMPLETE",
+      "remarks": "NAPOLI",
       "equipment": "0",
-      "activity_time": "15:29"
+      "activity_time": "15:32"
     },
     {
       "berth": "Jetty",
@@ -168,12 +168,12 @@
     }
   ],
   "total": {
-    "booking": 249500,
-    "dispatch": 194440,
-    "loaded": 171920,
-    "balance": 77580,
-    "progress": 0.6815828710445415,
-    "stockpile": 22520
+    "booking": 229500,
+    "dispatch": 174440,
+    "loaded": 153000,
+    "balance": 76500,
+    "progress": 0.6438089954794759,
+    "stockpile": 21440
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:39"
+      "activity_time": "08:42"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:39"
+      "activity_time": "08:42"
     }
   ],
   "foreign": {
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 27080
+      "volume": 26000
     },
     {
       "client": "LAPU-LAPU",
