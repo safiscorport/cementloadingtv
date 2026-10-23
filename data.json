@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T07:44:40+08:00",
+  "updated_at": "2026-10-24T07:50:58+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -12,7 +12,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "BARGE JB 5",
+      "remarks": "NEW DOCKING VESSEL",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -27,9 +27,9 @@
       "progress": 0.7777777777777778,
       "stockpile": 0,
       "time": "05:10",
-      "remarks": "INFINITY 8",
+      "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "02:34"
+      "activity_time": "02:40"
     },
     {
       "berth": "Berth 3",
@@ -42,7 +42,7 @@
       "progress": 0,
       "stockpile": 8000,
       "time": "00:00",
-      "remarks": "EASTERN CEBU",
+      "remarks": "CONT. LOADING SLNG BAGS",
       "equipment": "CRANE 4",
       "activity_time": "00:00"
     },
@@ -57,7 +57,7 @@
       "progress": 0.7894736842105263,
       "stockpile": 1000,
       "time": "00:00",
-      "remarks": "AGRO MARINE 5",
+      "remarks": "CONTINUE LOADING TONNER BAGS",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -72,7 +72,7 @@
       "progress": 0.391304347826087,
       "stockpile": 1000,
       "time": "00:00",
-      "remarks": "LADY OF ROSARY",
+      "remarks": "CONT LOADING SLING BAGS",
       "equipment": "FL 1",
       "activity_time": "00:00"
     },
@@ -102,7 +102,7 @@
       "progress": 0.84,
       "stockpile": 1000,
       "time": "00:00",
-      "remarks": "STAR FREEDOM",
+      "remarks": "CONT LOADING SLING BAGS",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -117,7 +117,7 @@
       "progress": 0.8,
       "stockpile": 8000,
       "time": "00:00",
-      "remarks": "LADY OF REMEDY",
+      "remarks": "CONT LOADING SLNG BAGS",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -147,9 +147,9 @@
       "progress": 0,
       "stockpile": 2000,
       "time": "01:30",
-      "remarks": "NAPOLI",
+      "remarks": "CONT LOADING SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "06:14"
+      "activity_time": "06:20"
     },
     {
       "berth": "Jetty",
@@ -162,7 +162,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "INFINITY 8",
+      "remarks": "-",
       "equipment": "0",
       "activity_time": "00:00"
     }
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:44"
+      "activity_time": "07:50"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:44"
+      "activity_time": "07:50"
     }
   ],
   "foreign": {
