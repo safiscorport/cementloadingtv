@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T07:42:12+08:00",
+  "updated_at": "2026-10-24T07:44:40+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "05:10",
       "remarks": "INFINITY 8",
       "equipment": "CRANE 2",
-      "activity_time": "02:31"
+      "activity_time": "02:34"
     },
     {
       "berth": "Berth 3",
@@ -42,7 +42,7 @@
       "progress": 0,
       "stockpile": 8000,
       "time": "00:00",
-      "remarks": "STAR SOGOD",
+      "remarks": "EASTERN CEBU",
       "equipment": "CRANE 4",
       "activity_time": "00:00"
     },
@@ -149,7 +149,7 @@
       "time": "01:30",
       "remarks": "NAPOLI",
       "equipment": "CRANE 3",
-      "activity_time": "06:11"
+      "activity_time": "06:14"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:41"
+      "activity_time": "07:44"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:41"
+      "activity_time": "07:44"
     }
   ],
   "foreign": {
