@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T10:16:52+08:00",
+  "updated_at": "2026-10-23T10:32:32+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 4500,
       "progress": 0.9318181818181818,
       "stockpile": 5500,
-      "time": "08:30",
-      "remarks": "LOADING S61 TONNER BAGS",
+      "time": "08:50",
+      "remarks": "VESSEL COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "01:46"
+      "activity_time": "01:42"
     },
     {
       "berth": "Berth 3",
@@ -149,7 +149,7 @@
       "time": "17:10",
       "remarks": "NAPOLI",
       "equipment": "0",
-      "activity_time": "17:06"
+      "activity_time": "17:22"
     },
     {
       "berth": "Jetty",
@@ -164,7 +164,7 @@
       "time": "08:49",
       "remarks": "LOADING S19 SLINGBGAS",
       "equipment": "0",
-      "activity_time": "01:27"
+      "activity_time": "01:43"
     }
   ],
   "total": {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:16"
+      "activity_time": "10:32"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:16"
+      "activity_time": "10:32"
     }
   ],
   "foreign": {
