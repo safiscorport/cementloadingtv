@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T09:09:38+08:00",
+  "updated_at": "2026-10-23T09:44:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -21,10 +21,10 @@
       "vessel": "RKK 5",
       "voyage": 1,
       "booking": 66000,
-      "dispatch": 65000,
-      "loaded": 59500,
-      "balance": 6500,
-      "progress": 0.9015151515151515,
+      "dispatch": 67000,
+      "loaded": 61500,
+      "balance": 4500,
+      "progress": 0.9318181818181818,
       "stockpile": 5500,
       "time": "00:00",
       "remarks": "RKK 5",
@@ -149,7 +149,7 @@
       "time": "17:10",
       "remarks": "NAPOLI",
       "equipment": "0",
-      "activity_time": "15:59"
+      "activity_time": "16:34"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 229500,
-    "dispatch": 174440,
-    "loaded": 153000,
-    "balance": 76500,
-    "progress": 0.6438089954794759,
+    "dispatch": 176440,
+    "loaded": 155000,
+    "balance": 74500,
+    "progress": 0.6481379998084803,
     "stockpile": 21440
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:09"
+      "activity_time": "09:44"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:09"
+      "activity_time": "09:44"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 795570,
-      "daily": 3000
+      "september": 797570,
+      "daily": 5000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 997670
+      "y2026": 999670
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14332380
+    "y2026": 14334380
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 0
+      "qty": 2000
     },
     {
       "shift": "2ND SHIFT",
