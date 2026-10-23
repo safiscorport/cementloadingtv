@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T07:41:03+08:00",
+  "updated_at": "2026-10-24T07:42:12+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "15:46",
-      "remarks": "VESSEL COMPLETE",
+      "time": "00:00",
+      "remarks": "BARGE JB 5",
       "equipment": "0",
-      "activity_time": "15:54"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 2",
@@ -27,9 +27,9 @@
       "progress": 0.7777777777777778,
       "stockpile": 0,
       "time": "05:10",
-      "remarks": "LOADING POUCH P5",
+      "remarks": "INFINITY 8",
       "equipment": "CRANE 2",
-      "activity_time": "02:30"
+      "activity_time": "02:31"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": -6000,
       "progress": 0,
       "stockpile": 8000,
-      "time": "05:14",
-      "remarks": "LOADING SLING S37",
+      "time": "00:00",
+      "remarks": "STAR SOGOD",
       "equipment": "CRANE 4",
-      "activity_time": "02:26"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 6000,
       "progress": 0.7894736842105263,
       "stockpile": 1000,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "time": "00:00",
+      "remarks": "AGRO MARINE 5",
       "equipment": "0",
-      "activity_time": "12:40"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 14000,
       "progress": 0.391304347826087,
       "stockpile": 1000,
-      "time": "01:30",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "time": "00:00",
+      "remarks": "LADY OF ROSARY",
       "equipment": "FL 1",
-      "activity_time": "06:10"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 4000,
       "progress": 0.84,
       "stockpile": 1000,
-      "time": "01:30",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "time": "00:00",
+      "remarks": "STAR FREEDOM",
       "equipment": "0",
-      "activity_time": "06:10"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 4000,
       "progress": 0.8,
       "stockpile": 8000,
-      "time": "05:03",
-      "remarks": "RESUME LOADING S24",
+      "time": "00:00",
+      "remarks": "LADY OF REMEDY",
       "equipment": "0",
-      "activity_time": "02:37"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
@@ -147,9 +147,9 @@
       "progress": 0,
       "stockpile": 2000,
       "time": "01:30",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "remarks": "NAPOLI",
       "equipment": "CRANE 3",
-      "activity_time": "06:10"
+      "activity_time": "06:11"
     },
     {
       "berth": "Jetty",
@@ -162,7 +162,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "INFINITY 8",
       "equipment": "0",
       "activity_time": "00:00"
     }
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:40"
+      "activity_time": "07:41"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:40"
+      "activity_time": "07:41"
     }
   ],
   "foreign": {
