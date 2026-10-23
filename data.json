@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T15:17:57+08:00",
+  "updated_at": "2026-10-23T15:19:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "14:51",
       "remarks": "LOADING S3 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:26"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "08:50",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "06:27"
+      "activity_time": "06:29"
     },
     {
       "berth": "Berth 3",
@@ -59,22 +59,22 @@
       "time": "14:00",
       "remarks": "VESSEL CLOSE DUE RAIN",
       "equipment": "0",
-      "activity_time": "01:17"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 5",
       "vessel": "LADY OF ROSARY",
       "voyage": 9,
       "booking": 23000,
-      "dispatch": 8000,
+      "dispatch": 9000,
       "loaded": 6000,
       "balance": 17000,
       "progress": 0.2608695652173913,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "14:00",
       "remarks": "VESSEL CLOSE DUE RAIN",
       "equipment": "0",
-      "activity_time": "01:17"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 6",
@@ -104,22 +104,22 @@
       "time": "14:00",
       "remarks": "VESSEL CLOSE DUE RAIN",
       "equipment": "0",
-      "activity_time": "01:17"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF REMEDY",
       "voyage": 11,
       "booking": 20000,
-      "dispatch": 18000,
+      "dispatch": 19000,
       "loaded": 15000,
       "balance": 5000,
       "progress": 0.75,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "14:00",
       "remarks": "VESSEL CLOSE DUE RAIN",
       "equipment": "0",
-      "activity_time": "01:17"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "14:00",
       "remarks": "VESSEL CLOSE DUE RAIN",
       "equipment": "0",
-      "activity_time": "01:17"
+      "activity_time": "01:19"
     },
     {
       "berth": "Jetty",
@@ -164,16 +164,16 @@
       "time": "14:00",
       "remarks": "VESSEL CLOSE DUE RAIN",
       "equipment": "0",
-      "activity_time": "01:17"
+      "activity_time": "01:19"
     }
   ],
   "total": {
     "booking": 163500,
-    "dispatch": 122440,
+    "dispatch": 124440,
     "loaded": 97940,
     "balance": 65560,
     "progress": 0.6264208446016226,
-    "stockpile": 24500
+    "stockpile": 26500
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:17"
+      "activity_time": "15:19"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:17"
+      "activity_time": "15:19"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 807570,
-      "daily": 15000
+      "september": 809570,
+      "daily": 17000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 29500
+      "volume": 31500
     },
     {
       "client": "LAPU-LAPU",
