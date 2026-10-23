@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T01:58:49+08:00",
+  "updated_at": "2026-10-24T04:41:21+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "15:46",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "10:12"
+      "activity_time": "12:55"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "23:16",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "02:42"
+      "activity_time": "05:25"
     },
     {
       "berth": "Berth 3",
@@ -44,37 +44,37 @@
       "time": "21:00",
       "remarks": "WAITING SHORECRANE ASSIST",
       "equipment": "CRANE 4",
-      "activity_time": "04:58"
+      "activity_time": "07:41"
     },
     {
       "berth": "Berth 4",
       "vessel": "AGRO MARINE 5",
       "voyage": 1,
       "booking": 28500,
-      "dispatch": 22500,
+      "dispatch": 23500,
       "loaded": 22500,
       "balance": 6000,
       "progress": 0.7894736842105263,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "19:00",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "06:58"
+      "activity_time": "09:41"
     },
     {
       "berth": "Berth 5",
       "vessel": "LADY OF ROSARY",
       "voyage": 9,
       "booking": 23000,
-      "dispatch": 9000,
+      "dispatch": 10000,
       "loaded": 9000,
       "balance": 14000,
       "progress": 0.391304347826087,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "21:46",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "04:12"
+      "activity_time": "06:55"
     },
     {
       "berth": "Berth 6",
@@ -104,22 +104,22 @@
       "time": "21:21",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:37"
+      "activity_time": "07:20"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF REMEDY",
       "voyage": 11,
       "booking": 20000,
-      "dispatch": 23000,
+      "dispatch": 24000,
       "loaded": 15000,
       "balance": 5000,
       "progress": 0.75,
-      "stockpile": 8000,
+      "stockpile": 9000,
       "time": "19:00",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "06:58"
+      "activity_time": "09:41"
     },
     {
       "berth": "Berth 9",
@@ -141,15 +141,15 @@
       "vessel": "NAPOLI",
       "voyage": 13,
       "booking": 0,
-      "dispatch": 3000,
+      "dispatch": 4000,
       "loaded": 2000,
       "balance": -2000,
       "progress": 0,
-      "stockpile": 1000,
+      "stockpile": 2000,
       "time": "19:00",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "CRANE 3",
-      "activity_time": "06:58"
+      "activity_time": "09:41"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 163500,
-    "dispatch": 150500,
+    "dispatch": 154500,
     "loaded": 124500,
     "balance": 39000,
     "progress": 0.7506852275616578,
-    "stockpile": 26000
+    "stockpile": 30000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "01:58"
+      "activity_time": "04:41"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "01:58"
+      "activity_time": "04:41"
     }
   ],
   "foreign": {
