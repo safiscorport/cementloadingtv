@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T08:00:36+08:00",
+  "updated_at": "2026-10-23T08:35:48+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -149,7 +149,7 @@
       "time": "17:10",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "14:50"
+      "activity_time": "15:25"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:00"
+      "activity_time": "08:35"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:00"
+      "activity_time": "08:35"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 793570,
-      "daily": 1000
+      "september": 795570,
+      "daily": 3000
     },
     {
       "hauler": "LAPU-LAPU",
