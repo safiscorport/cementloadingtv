@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-23T19:30:50+08:00",
+  "updated_at": "2026-10-23T19:44:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "JOHANNAH 5",
       "voyage": 5,
       "booking": 22000,
-      "dispatch": 21990,
-      "loaded": 21990,
-      "balance": 10,
-      "progress": 0.9995454545454545,
+      "dispatch": 22000,
+      "loaded": 22000,
+      "balance": 0,
+      "progress": 1,
       "stockpile": 0,
       "time": "15:46",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "03:44"
+      "activity_time": "03:58"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "00:30"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "00:30"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "00:30"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "00:30"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "00:30"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "00:30"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "00:30"
+      "activity_time": "00:44"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 163500,
-    "dispatch": 133490,
-    "loaded": 103490,
-    "balance": 60010,
-    "progress": 0.6533147839955621,
+    "dispatch": 133500,
+    "loaded": 103500,
+    "balance": 60000,
+    "progress": 0.6533905415713196,
     "stockpile": 30000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:30"
+      "activity_time": "19:44"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:30"
+      "activity_time": "19:44"
     }
   ],
   "foreign": {
@@ -338,7 +338,7 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 10490
+      "qty": 10500
     },
     {
       "shift": "2ND SHIFT",
