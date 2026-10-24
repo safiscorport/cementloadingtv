@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-24T09:58:14+08:00",
+  "updated_at": "2026-10-24T10:58:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "BARGE JB 5",
       "voyage": 2,
-      "booking": 0,
-      "dispatch": 0,
+      "booking": 66000,
+      "dispatch": 3000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 66000,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 3000,
       "time": "08:20",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:38"
+      "activity_time": "02:38"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "08:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "01:28"
+      "activity_time": "02:28"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "09:00",
       "remarks": "LOADING P15 SLING BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "00:58"
+      "activity_time": "01:58"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "09:20",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:38"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "09:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "00:28"
+      "activity_time": "01:28"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "09:20",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:38"
+      "activity_time": "01:38"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 11,
       "booking": 20000,
       "dispatch": 25000,
-      "loaded": 18000,
-      "balance": 2000,
-      "progress": 0.9,
-      "stockpile": 7000,
+      "loaded": 20000,
+      "balance": 0,
+      "progress": 1,
+      "stockpile": 5000,
       "time": "08:12",
       "remarks": "CONT LOADING S57 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:46"
+      "activity_time": "02:46"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "09:10",
       "remarks": "LOADING P14 SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "00:48"
+      "activity_time": "01:48"
     },
     {
       "berth": "Jetty",
@@ -168,12 +168,12 @@
     }
   ],
   "total": {
-    "booking": 164500,
-    "dispatch": 133500,
-    "loaded": 116500,
-    "balance": 48000,
-    "progress": 0.652078142215442,
-    "stockpile": 17000
+    "booking": 230500,
+    "dispatch": 136500,
+    "loaded": 118500,
+    "balance": 112000,
+    "progress": 0.5732098361846646,
+    "stockpile": 18000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:58"
+      "activity_time": "10:58"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:58"
+      "activity_time": "10:58"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1038660
+      "y2026": 1040660
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14373370
+    "y2026": 14375370
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 1000
+      "qty": 3000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 7000
+      "volume": 5000
     },
     {
       "client": "LAPU-LAPU",
