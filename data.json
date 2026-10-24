@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T11:28:28+08:00",
+  "updated_at": "2026-10-24T11:29:16+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 66000,
       "progress": 0,
       "stockpile": 5000,
-      "time": "08:20",
+      "time": "11:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:08"
+      "activity_time": "23:59"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 10000,
       "progress": 0.7777777777777778,
       "stockpile": 2000,
-      "time": "08:30",
+      "time": "11:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "02:58"
+      "activity_time": "23:59"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "11:00",
       "remarks": "LOADING S47 SLING BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "00:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "10:20",
       "remarks": "LOADING P4 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:08"
+      "activity_time": "01:09"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 13000,
       "progress": 0.43478260869565216,
       "stockpile": 0,
-      "time": "09:30",
+      "time": "11:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "01:58"
+      "activity_time": "23:59"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 3000,
       "progress": 0.88,
       "stockpile": 0,
-      "time": "09:20",
+      "time": "11:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:08"
+      "activity_time": "23:59"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "11:00",
       "remarks": "LOADING S7 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "11:00",
       "remarks": "LOADING P14 SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "00:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:28"
+      "activity_time": "11:29"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:28"
+      "activity_time": "11:29"
     }
   ],
   "foreign": {
