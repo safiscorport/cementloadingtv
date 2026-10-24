@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T07:50:58+08:00",
+  "updated_at": "2026-10-24T08:40:43+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "05:10",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "02:40"
+      "activity_time": "03:30"
     },
     {
       "berth": "Berth 3",
@@ -142,14 +142,14 @@
       "voyage": 13,
       "booking": 0,
       "dispatch": 4000,
-      "loaded": 2000,
-      "balance": -2000,
+      "loaded": 3000,
+      "balance": -3000,
       "progress": 0,
-      "stockpile": 2000,
+      "stockpile": 1000,
       "time": "01:30",
       "remarks": "CONT LOADING SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "06:20"
+      "activity_time": "07:10"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 141500,
     "dispatch": 132500,
-    "loaded": 111500,
-    "balance": 30000,
+    "loaded": 112500,
+    "balance": 29000,
     "progress": 0.7197111619628782,
-    "stockpile": 21000
+    "stockpile": 20000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:50"
+      "activity_time": "08:40"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:50"
+      "activity_time": "08:40"
     }
   ],
   "foreign": {
@@ -230,7 +230,7 @@
       "hauler": "SAFISCOR",
       "august": 1047550,
       "september": 823570,
-      "daily": 31000
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
@@ -242,7 +242,7 @@
       "hauler": "BADIE",
       "august": 39000,
       "september": 40975,
-      "daily": 1000
+      "daily": "-"
     },
     {
       "hauler": "GEO",
@@ -266,7 +266,7 @@
       "hauler": "FULACHE",
       "august": 21000,
       "september": 24500,
-      "daily": 1000
+      "daily": "-"
     }
   ],
   "monthly": [
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 10500
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 19000
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
