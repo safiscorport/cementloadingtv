@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-10-24T11:07:00+08:00",
+  "updated_at": "2026-10-24T11:28:10+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "BARGE JB 5",
       "voyage": 2,
       "booking": 66000,
-      "dispatch": 3000,
+      "dispatch": 5000,
       "loaded": 0,
       "balance": 66000,
       "progress": 0,
-      "stockpile": 3000,
+      "stockpile": 5000,
       "time": "08:20",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:46"
+      "activity_time": "03:07"
     },
     {
       "berth": "Berth 2",
       "vessel": "INFINITY 8",
       "voyage": 7,
       "booking": 45000,
-      "dispatch": 35000,
+      "dispatch": 37000,
       "loaded": 35000,
       "balance": 10000,
       "progress": 0.7777777777777778,
-      "stockpile": 0,
+      "stockpile": 2000,
       "time": "08:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "02:36"
+      "activity_time": "02:57"
     },
     {
       "berth": "Berth 3",
@@ -41,25 +41,25 @@
       "balance": -11000,
       "progress": 0,
       "stockpile": 3000,
-      "time": "09:00",
-      "remarks": "LOADING P15 SLING BAGS",
+      "time": "11:00",
+      "remarks": "LOADING S47 SLING BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "02:06"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 4",
       "vessel": "AGRO MARINE 5",
       "voyage": 1,
       "booking": 28500,
-      "dispatch": 23500,
+      "dispatch": 24500,
       "loaded": 23500,
       "balance": 5000,
       "progress": 0.8245614035087719,
-      "stockpile": 0,
-      "time": "09:20",
-      "remarks": "WAITING MATERIAL",
+      "stockpile": 1000,
+      "time": "10:20",
+      "remarks": "LOADING P4 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:46"
+      "activity_time": "01:07"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "09:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "01:36"
+      "activity_time": "01:57"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "09:20",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:46"
+      "activity_time": "02:07"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 5000,
-      "time": "08:12",
-      "remarks": "CONT LOADING S57 TONNER BAGS",
+      "time": "11:00",
+      "remarks": "LOADING S7 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "02:54"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 9",
@@ -146,10 +146,10 @@
       "balance": 20000,
       "progress": 0.13043478260869565,
       "stockpile": 1000,
-      "time": "09:10",
+      "time": "11:00",
       "remarks": "LOADING P14 SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "01:56"
+      "activity_time": "00:27"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 230500,
-    "dispatch": 136500,
+    "dispatch": 141500,
     "loaded": 124500,
     "balance": 106000,
     "progress": 0.5782223675129854,
-    "stockpile": 12000
+    "stockpile": 17000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:06"
+      "activity_time": "11:27"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:06"
+      "activity_time": "11:27"
     }
   ],
   "foreign": {
