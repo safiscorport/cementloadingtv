@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-24T19:27:25+08:00",
+  "updated_at": "2026-10-25T07:52:53+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "BARGE JB 5",
       "voyage": 2,
       "booking": 66000,
-      "dispatch": 9000,
+      "dispatch": 14000,
       "loaded": 0,
       "balance": 66000,
       "progress": 0,
-      "stockpile": 9000,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "stockpile": 14000,
+      "time": "07:20",
+      "remarks": "VESSEL CLOSE / BADWEATHER",
       "equipment": "0",
-      "activity_time": "00:27"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 10000,
       "progress": 0.7777777777777778,
       "stockpile": 6000,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "07:20",
+      "remarks": "VESSEL CLOSE / BADWEATHER",
       "equipment": "CRANE 2",
-      "activity_time": "00:27"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": -11000,
       "progress": 0,
       "stockpile": 3000,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "07:20",
+      "remarks": "VESSEL CLOSE / BADWEATHER",
       "equipment": "CRANE 4",
-      "activity_time": "00:27"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 5000,
       "progress": 0.8245614035087719,
       "stockpile": 4000,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "07:50",
+      "remarks": "LOADING TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:27"
+      "activity_time": "00:02"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 13000,
       "progress": 0.43478260869565216,
       "stockpile": 0,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "07:20",
+      "remarks": "VESSEL CLOSE / BADWEATHER",
       "equipment": "FL 1",
-      "activity_time": "00:27"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 3000,
       "progress": 0.88,
       "stockpile": 3000,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "07:50",
+      "remarks": "LOADING S61 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:27"
+      "activity_time": "00:02"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": -1000,
       "progress": 1.05,
       "stockpile": 4000,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "07:50",
+      "remarks": "LOADING S38 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:27"
+      "activity_time": "00:02"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "07:20",
+      "remarks": "VESSEL CLOSE / BADWEATHER",
       "equipment": "0",
-      "activity_time": "00:27"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 20000,
       "progress": 0.13043478260869565,
       "stockpile": 1000,
-      "time": "19:00",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "07:50",
+      "remarks": "LOADING S50 SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "00:27"
+      "activity_time": "00:02"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 230500,
-    "dispatch": 155500,
+    "dispatch": 160500,
     "loaded": 125500,
     "balance": 105000,
     "progress": 0.5853652246558425,
-    "stockpile": 30000
+    "stockpile": 35000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:27"
+      "activity_time": "07:52"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:27"
+      "activity_time": "07:52"
     }
   ],
   "foreign": {
