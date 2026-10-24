@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T08:41:11+08:00",
+  "updated_at": "2026-10-24T09:12:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "05:10",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "03:30"
+      "activity_time": "04:02"
     },
     {
       "berth": "Berth 3",
@@ -111,11 +111,11 @@
       "vessel": "LADY OF REMEDY",
       "voyage": 11,
       "booking": 20000,
-      "dispatch": 24000,
+      "dispatch": 25000,
       "loaded": 16000,
       "balance": 4000,
       "progress": 0.8,
-      "stockpile": 8000,
+      "stockpile": 9000,
       "time": "00:00",
       "remarks": "CONT LOADING SLNG BAGS",
       "equipment": "0",
@@ -149,7 +149,7 @@
       "time": "08:06",
       "remarks": "CONT LOADING  S50 SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "00:34"
+      "activity_time": "01:06"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 141500,
-    "dispatch": 132500,
+    "dispatch": 133500,
     "loaded": 112500,
     "balance": 29000,
     "progress": 0.7197111619628782,
-    "stockpile": 20000
+    "stockpile": 21000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:40"
+      "activity_time": "09:12"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:40"
+      "activity_time": "09:12"
     }
   ],
   "foreign": {
