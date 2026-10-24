@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T14:25:51+08:00",
+  "updated_at": "2026-10-24T15:43:01+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "14:10",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "01:32"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "14:10",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "CRANE 2",
-      "activity_time": "00:15"
+      "activity_time": "01:32"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "14:10",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "CRANE 4",
-      "activity_time": "00:15"
+      "activity_time": "01:32"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "14:10",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "01:32"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "14:10",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "FL 1",
-      "activity_time": "00:15"
+      "activity_time": "01:32"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "14:10",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "01:32"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 11,
       "booking": 20000,
       "dispatch": 25000,
-      "loaded": 20000,
-      "balance": 0,
-      "progress": 1,
-      "stockpile": 5000,
+      "loaded": 21000,
+      "balance": -1000,
+      "progress": 1.05,
+      "stockpile": 4000,
       "time": "14:10",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "01:32"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:10",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "01:32"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "14:10",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "CRANE 3",
-      "activity_time": "00:15"
+      "activity_time": "01:32"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 230500,
     "dispatch": 148500,
-    "loaded": 124500,
-    "balance": 106000,
-    "progress": 0.5782223675129854,
-    "stockpile": 24000
+    "loaded": 125500,
+    "balance": 105000,
+    "progress": 0.5853652246558425,
+    "stockpile": 23000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:25"
+      "activity_time": "15:42"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:25"
+      "activity_time": "15:42"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1044660
+      "y2026": 1045660
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14379370
+    "y2026": 14380370
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 7000
+      "qty": 8000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 3000
+      "volume": 2000
     },
     {
       "client": "LAPU-LAPU",
