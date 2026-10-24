@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T16:36:04+08:00",
+  "updated_at": "2026-10-24T16:36:33+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "16:00",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "00:35"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "16:00",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "CRANE 2",
-      "activity_time": "00:35"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "16:00",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "CRANE 4",
-      "activity_time": "00:35"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "16:00",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "00:35"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "16:00",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "FL 1",
-      "activity_time": "00:35"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "16:00",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "00:35"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "16:00",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "00:35"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "16:00",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "00:35"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "16:00",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "CRANE 3",
-      "activity_time": "00:35"
+      "activity_time": "00:36"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:35"
+      "activity_time": "16:36"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:35"
+      "activity_time": "16:36"
     }
   ],
   "foreign": {
