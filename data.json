@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T15:55:44+08:00",
+  "updated_at": "2026-10-25T15:59:02+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:30",
       "remarks": "LOADING S24 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:25"
+      "activity_time": "02:28"
     },
     {
       "berth": "Berth 2",
@@ -26,25 +26,25 @@
       "balance": 5000,
       "progress": 0.8888888888888888,
       "stockpile": 1000,
-      "time": "13:30",
-      "remarks": "LOADING S28 SLING BAGS",
+      "time": "14:12",
+      "remarks": "LOADING B7 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "02:25"
+      "activity_time": "01:46"
     },
     {
       "berth": "Berth 3",
       "vessel": "EASTERN CEBU",
       "voyage": 15,
       "booking": 0,
-      "dispatch": 19000,
+      "dispatch": 20000,
       "loaded": 13000,
       "balance": -13000,
       "progress": 0,
-      "stockpile": 6000,
+      "stockpile": 7000,
       "time": "13:26",
       "remarks": "LOADING S54 TONNER BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "02:29"
+      "activity_time": "02:32"
     },
     {
       "berth": "Berth 4",
@@ -59,22 +59,22 @@
       "time": "10:22",
       "remarks": "COMPLETE LOADING P15",
       "equipment": "0",
-      "activity_time": "05:33"
+      "activity_time": "05:36"
     },
     {
       "berth": "Berth 5",
       "vessel": "LADY OF ROSARY",
       "voyage": 9,
       "booking": 23000,
-      "dispatch": 14000,
+      "dispatch": 15000,
       "loaded": 11000,
       "balance": 12000,
       "progress": 0.4782608695652174,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "13:26",
       "remarks": "LOADING S39 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:29"
+      "activity_time": "02:32"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "13:30",
       "remarks": "LOADING S57 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:25"
+      "activity_time": "02:28"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "09:00",
       "remarks": "COMPLETE LOADING P3",
       "equipment": "CRANE 2",
-      "activity_time": "06:55"
+      "activity_time": "06:58"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:20",
       "remarks": "WAITING 2 GROUPS STEVEDORES",
       "equipment": "0",
-      "activity_time": "02:35"
+      "activity_time": "02:38"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:25",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "02:30"
+      "activity_time": "02:33"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 258000,
-    "dispatch": 154500,
+    "dispatch": 156500,
     "loaded": 124500,
     "balance": 133500,
     "progress": 0.4858311374615722,
-    "stockpile": 30000
+    "stockpile": 32000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:55"
+      "activity_time": "15:58"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:55"
+      "activity_time": "15:58"
     }
   ],
   "foreign": {
