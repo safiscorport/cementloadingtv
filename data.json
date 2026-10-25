@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T13:36:45+08:00",
+  "updated_at": "2026-10-25T15:55:44+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:30",
       "remarks": "LOADING S24 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:06"
+      "activity_time": "02:25"
     },
     {
       "berth": "Berth 2",
@@ -22,14 +22,14 @@
       "voyage": 7,
       "booking": 45000,
       "dispatch": 41000,
-      "loaded": 38000,
-      "balance": 7000,
-      "progress": 0.8444444444444444,
-      "stockpile": 3000,
+      "loaded": 40000,
+      "balance": 5000,
+      "progress": 0.8888888888888888,
+      "stockpile": 1000,
       "time": "13:30",
       "remarks": "LOADING S28 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:06"
+      "activity_time": "02:25"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "13:26",
       "remarks": "LOADING S54 TONNER BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "00:10"
+      "activity_time": "02:29"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "10:22",
       "remarks": "COMPLETE LOADING P15",
       "equipment": "0",
-      "activity_time": "03:14"
+      "activity_time": "05:33"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "13:26",
       "remarks": "LOADING S39 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:10"
+      "activity_time": "02:29"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "13:30",
       "remarks": "LOADING S57 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:06"
+      "activity_time": "02:25"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "09:00",
       "remarks": "COMPLETE LOADING P3",
       "equipment": "CRANE 2",
-      "activity_time": "04:36"
+      "activity_time": "06:55"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:20",
       "remarks": "WAITING 2 GROUPS STEVEDORES",
       "equipment": "0",
-      "activity_time": "00:16"
+      "activity_time": "02:35"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:25",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "00:11"
+      "activity_time": "02:30"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 258000,
     "dispatch": 154500,
-    "loaded": 122500,
-    "balance": 135500,
-    "progress": 0.48027558190601666,
-    "stockpile": 32000
+    "loaded": 124500,
+    "balance": 133500,
+    "progress": 0.4858311374615722,
+    "stockpile": 30000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:36"
+      "activity_time": "15:55"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:36"
+      "activity_time": "15:55"
     }
   ],
   "foreign": {
