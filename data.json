@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T07:43:25+08:00",
+  "updated_at": "2026-10-26T07:46:23+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 4",
@@ -74,7 +74,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "00:46"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:43"
+      "activity_time": "07:46"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:43"
+      "activity_time": "07:46"
     }
   ],
   "foreign": {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "0",
-    "checker": "OBIAL,R / CANOY, E / TORRES, J",
-    "pmc": "EBOY",
-    "cranes": 4,
-    "forklifts": 6,
-    "stevedores": 25
+    "supervisor": "BERNABE",
+    "checker": "CANOY/ BIAL / DALUSA",
+    "pmc": "JOAN / WILLIAM",
+    "cranes": 3,
+    "forklifts": 8,
+    "stevedores": 0
   }
 }
