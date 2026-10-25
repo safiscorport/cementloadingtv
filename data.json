@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T07:38:02+08:00",
+  "updated_at": "2026-10-26T07:39:19+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "10:22",
       "remarks": "COMPLETE LOADING P15",
       "equipment": "0",
-      "activity_time": "21:15"
+      "activity_time": "21:17"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 11,
       "booking": 25000,
       "dispatch": 25000,
-      "loaded": 24000,
-      "balance": 1000,
-      "progress": 0.96,
-      "stockpile": 1000,
+      "loaded": 25000,
+      "balance": 0,
+      "progress": 1,
+      "stockpile": 0,
       "time": "09:00",
       "remarks": "COMPLETE LOADING P3",
       "equipment": "0",
-      "activity_time": "22:37"
+      "activity_time": "22:39"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:39"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 263000,
     "dispatch": 173000,
-    "loaded": 154000,
-    "balance": 109000,
-    "progress": 0.5400164690382082,
-    "stockpile": 19000
+    "loaded": 155000,
+    "balance": 108000,
+    "progress": 0.5450164690382082,
+    "stockpile": 18000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:37"
+      "activity_time": "07:39"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:37"
+      "activity_time": "07:39"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1049660
+      "y2026": 1050660
     },
     {
       "month": "November",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14384370
+    "y2026": 14385370
   },
   "daily_production": [
     {
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "LAPU-LAPU",
