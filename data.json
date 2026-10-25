@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T07:39:19+08:00",
+  "updated_at": "2026-10-26T07:41:57+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 3",
@@ -44,22 +44,22 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 4",
-      "vessel": "AGRO MARINE 5",
-      "voyage": 1,
-      "booking": 28500,
-      "dispatch": 28500,
-      "loaded": 28500,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "10:22",
-      "remarks": "COMPLETE LOADING P15",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "21:17"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 6",
@@ -104,37 +104,37 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 8",
-      "vessel": "LADY OF REMEDY",
-      "voyage": 11,
-      "booking": 25000,
-      "dispatch": 25000,
-      "loaded": 25000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "09:00",
-      "remarks": "COMPLETE LOADING P3",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "22:39"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
       "vessel": "ADOLFO SR",
-      "voyage": 13,
+      "voyage": 12,
       "booking": 27500,
-      "dispatch": 0,
+      "dispatch": 6000,
       "loaded": 0,
       "balance": 27500,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 6000,
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "00:41"
     },
     {
       "berth": "Jetty",
@@ -168,12 +168,12 @@
     }
   ],
   "total": {
-    "booking": 263000,
-    "dispatch": 173000,
-    "loaded": 155000,
+    "booking": 209500,
+    "dispatch": 125500,
+    "loaded": 101500,
     "balance": 108000,
-    "progress": 0.5450164690382082,
-    "stockpile": 18000
+    "progress": 0.39335529205094427,
+    "stockpile": 24000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:39"
+      "activity_time": "07:41"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:39"
+      "activity_time": "07:41"
     }
   ],
   "foreign": {
