@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T07:53:10+08:00",
+  "updated_at": "2026-10-25T08:14:27+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:20",
       "remarks": "VESSEL CLOSE / BADWEATHER",
       "equipment": "0",
-      "activity_time": "00:32"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 2",
@@ -28,8 +28,8 @@
       "stockpile": 6000,
       "time": "07:20",
       "remarks": "VESSEL CLOSE / BADWEATHER",
-      "equipment": "CRANE 2",
-      "activity_time": "00:32"
+      "equipment": "0",
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:20",
       "remarks": "VESSEL CLOSE / BADWEATHER",
       "equipment": "CRANE 4",
-      "activity_time": "00:32"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:50",
       "remarks": "LOADING TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:02"
+      "activity_time": "00:24"
     },
     {
       "berth": "Berth 5",
@@ -73,8 +73,8 @@
       "stockpile": 0,
       "time": "07:20",
       "remarks": "VESSEL CLOSE / BADWEATHER",
-      "equipment": "FL 1",
-      "activity_time": "00:32"
+      "equipment": "0",
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "07:50",
       "remarks": "LOADING S61 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:02"
+      "activity_time": "00:24"
     },
     {
       "berth": "Berth 8",
@@ -118,23 +118,23 @@
       "stockpile": 4000,
       "time": "07:50",
       "remarks": "LOADING S38 TONNER BAGS",
-      "equipment": "0",
-      "activity_time": "00:02"
+      "equipment": "CRANE 2",
+      "activity_time": "00:24"
     },
     {
       "berth": "Berth 9",
       "vessel": "ADOLFO SR",
       "voyage": 13,
-      "booking": 0,
+      "booking": 27500,
       "dispatch": 0,
       "loaded": 0,
-      "balance": 0,
+      "balance": 27500,
       "progress": 0,
       "stockpile": 0,
       "time": "07:20",
       "remarks": "VESSEL CLOSE / BADWEATHER",
       "equipment": "0",
-      "activity_time": "00:32"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:50",
       "remarks": "LOADING S50 SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "00:02"
+      "activity_time": "00:24"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 230500,
+    "booking": 258000,
     "dispatch": 160500,
     "loaded": 125500,
-    "balance": 105000,
-    "progress": 0.5853652246558425,
+    "balance": 132500,
+    "progress": 0.5121945715738622,
     "stockpile": 35000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:52"
+      "activity_time": "08:14"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:52"
+      "activity_time": "08:14"
     }
   ],
   "foreign": {
@@ -338,7 +338,7 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 8000
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER,J",
-    "checker": "CANOY,TORRES,OBIAL",
-    "pmc": "EBOY/WILLIAM",
+    "supervisor": "0",
+    "checker": "OBIAL,R / CANOY, E / TORRES, J",
+    "pmc": "EBOY",
     "cranes": 4,
     "forklifts": 6,
-    "stevedores": 45
+    "stevedores": 25
   }
 }
