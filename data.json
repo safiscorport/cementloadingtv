@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T05:47:24+08:00",
+  "updated_at": "2026-10-26T07:37:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 57000,
       "progress": 0.13636363636363635,
       "stockpile": 9000,
-      "time": "05:46",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 3000,
       "progress": 0.9333333333333333,
       "stockpile": 1000,
-      "time": "05:46",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": -20500,
       "progress": 0,
       "stockpile": 3000,
-      "time": "05:46",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
-      "equipment": "CRANE 4",
-      "activity_time": "00:01"
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
+      "equipment": "0",
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "10:22",
       "remarks": "COMPLETE LOADING P15",
       "equipment": "0",
-      "activity_time": "19:25"
+      "activity_time": "21:15"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 5000,
       "progress": 0.782608695652174,
       "stockpile": 2000,
-      "time": "05:46",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 6",
@@ -101,25 +101,25 @@
       "balance": 21000,
       "progress": 0.16,
       "stockpile": 0,
-      "time": "05:46",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "07:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF REMEDY",
       "voyage": 11,
-      "booking": 20000,
+      "booking": 25000,
       "dispatch": 25000,
       "loaded": 24000,
-      "balance": -4000,
-      "progress": 1.2,
+      "balance": 1000,
+      "progress": 0.96,
       "stockpile": 1000,
       "time": "09:00",
       "remarks": "COMPLETE LOADING P3",
-      "equipment": "CRANE 2",
-      "activity_time": "20:47"
+      "equipment": "0",
+      "activity_time": "22:37"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 27500,
       "progress": 0,
       "stockpile": 0,
-      "time": "05:46",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 15000,
       "progress": 0.34782608695652173,
       "stockpile": 3000,
-      "time": "05:46",
-      "remarks": "VESSEL CLOSE DUE TO RAIN",
-      "equipment": "CRANE 3",
-      "activity_time": "00:01"
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
+      "equipment": "0",
+      "activity_time": "00:37"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 258000,
+    "booking": 263000,
     "dispatch": 173000,
     "loaded": 154000,
-    "balance": 104000,
-    "progress": 0.5700164690382081,
+    "balance": 109000,
+    "progress": 0.5400164690382082,
     "stockpile": 19000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:47"
+      "activity_time": "07:37"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:47"
+      "activity_time": "07:37"
     }
   ],
   "foreign": {
