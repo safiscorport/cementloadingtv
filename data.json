@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T11:36:13+08:00",
+  "updated_at": "2026-10-25T11:44:22+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -7,14 +7,14 @@
       "voyage": 2,
       "booking": 66000,
       "dispatch": 18000,
-      "loaded": 0,
-      "balance": 66000,
-      "progress": 0,
-      "stockpile": 18000,
+      "loaded": 1000,
+      "balance": 65000,
+      "progress": 0.015151515151515152,
+      "stockpile": 17000,
       "time": "07:20",
       "remarks": "VESSEL CLOSE / BADWEATHER",
       "equipment": "0",
-      "activity_time": "04:15"
+      "activity_time": "04:24"
     },
     {
       "berth": "Berth 2",
@@ -22,14 +22,14 @@
       "voyage": 7,
       "booking": 45000,
       "dispatch": 41000,
-      "loaded": 35000,
-      "balance": 10000,
-      "progress": 0.7777777777777778,
-      "stockpile": 6000,
+      "loaded": 38000,
+      "balance": 7000,
+      "progress": 0.8444444444444444,
+      "stockpile": 3000,
       "time": "07:20",
       "remarks": "VESSEL CLOSE / BADWEATHER",
       "equipment": "0",
-      "activity_time": "04:15"
+      "activity_time": "04:24"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "11:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "00:05"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 4",
@@ -59,22 +59,22 @@
       "time": "10:22",
       "remarks": "COMPLETE LOADING P15",
       "equipment": "0",
-      "activity_time": "01:13"
+      "activity_time": "01:22"
     },
     {
       "berth": "Berth 5",
       "vessel": "LADY OF ROSARY",
       "voyage": 9,
       "booking": 23000,
-      "dispatch": 12000,
-      "loaded": 10000,
-      "balance": 13000,
-      "progress": 0.43478260869565216,
+      "dispatch": 13000,
+      "loaded": 11000,
+      "balance": 12000,
+      "progress": 0.4782608695652174,
       "stockpile": 2000,
       "time": "07:20",
       "remarks": "VESSEL CLOSE / BADWEATHER",
       "equipment": "0",
-      "activity_time": "04:15"
+      "activity_time": "04:24"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "08:54",
       "remarks": "COMPLETE LOADING S37",
       "equipment": "0",
-      "activity_time": "02:41"
+      "activity_time": "02:50"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "09:00",
       "remarks": "COMPLETE LOADING P3",
       "equipment": "CRANE 2",
-      "activity_time": "02:35"
+      "activity_time": "02:44"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:20",
       "remarks": "VESSEL CLOSE / BADWEATHER",
       "equipment": "0",
-      "activity_time": "04:15"
+      "activity_time": "04:24"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "11:00",
       "remarks": "LOADING S21 SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "00:35"
+      "activity_time": "00:44"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 258000,
-    "dispatch": 176500,
-    "loaded": 141500,
-    "balance": 116500,
-    "progress": 0.5846135265700483,
-    "stockpile": 35000
+    "dispatch": 177500,
+    "loaded": 146500,
+    "balance": 111500,
+    "progress": 0.6002755819060166,
+    "stockpile": 31000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:35"
+      "activity_time": "11:44"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:35"
+      "activity_time": "11:44"
     }
   ],
   "foreign": {
