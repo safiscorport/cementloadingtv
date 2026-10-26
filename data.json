@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-26T08:29:58+08:00",
+  "updated_at": "2026-10-26T09:23:54+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "BARGE JB 5",
       "voyage": 2,
       "booking": 66000,
-      "dispatch": 18000,
+      "dispatch": 19000,
       "loaded": 9000,
       "balance": 57000,
       "progress": 0.13636363636363635,
-      "stockpile": 9000,
+      "stockpile": 10000,
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "01:23"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "08:00",
       "remarks": "WAITING PTMS",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "01:23"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "DOCKING MANUEVER",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "01:23"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "01:23"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "08:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "01:23"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:29"
+      "activity_time": "02:23"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "08:00",
       "remarks": "FORKLIFT ONBOARD",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "01:23"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 15000,
       "progress": 0.34782608695652173,
       "stockpile": 3000,
-      "time": "08:00",
-      "remarks": "WAITING PTMS",
+      "time": "08:35",
+      "remarks": "LOADING POUCH P15",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "00:48"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 236500,
-    "dispatch": 125500,
+    "dispatch": 126500,
     "loaded": 101500,
     "balance": 135000,
     "progress": 0.4456272873664179,
-    "stockpile": 24000
+    "stockpile": 25000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:29"
+      "activity_time": "09:23"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:29"
+      "activity_time": "09:23"
     }
   ],
   "foreign": {
