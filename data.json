@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T08:29:00+08:00",
+  "updated_at": "2026-10-26T08:29:58+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 57000,
       "progress": 0.13636363636363635,
       "stockpile": 9000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "08:00",
       "remarks": "WAITING PTMS",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "DOCKING MANUEVER",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 6500,
       "progress": 0.7592592592592593,
       "stockpile": 3000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 5000,
       "progress": 0.782608695652174,
       "stockpile": 2000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:28"
+      "activity_time": "01:29"
     },
     {
       "berth": "Berth 8",
@@ -131,10 +131,10 @@
       "balance": 27500,
       "progress": 0,
       "stockpile": 6000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "FORKLIFT ONBOARD",
       "equipment": "0",
-      "activity_time": "01:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "08:00",
       "remarks": "WAITING PTMS",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Jetty",
@@ -171,8 +171,8 @@
     "booking": 236500,
     "dispatch": 125500,
     "loaded": 101500,
-    "balance": 0,
-    "progress": 0,
+    "balance": 135000,
+    "progress": 0.4456272873664179,
     "stockpile": 24000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:28"
+      "activity_time": "08:29"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:28"
+      "activity_time": "08:29"
     }
   ],
   "foreign": {
