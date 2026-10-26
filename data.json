@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T14:03:41+08:00",
+  "updated_at": "2026-10-26T14:05:18+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "CRANE2/FL2",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "13:00",
       "remarks": "WAITING PTMS",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "10:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "04:03"
+      "activity_time": "04:05"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "11:01",
       "remarks": "WAITING LAST TRUCK",
       "equipment": "CRANE 4",
-      "activity_time": "03:02"
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "13:00",
       "remarks": "LOADING LAST TRUCK",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 6",
@@ -104,22 +104,22 @@
       "time": "13:00",
       "remarks": "WAITING APLUS & PTMS",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 8",
       "vessel": "EMERALD STAR",
       "voyage": 13,
       "booking": 24000,
-      "dispatch": 6000,
+      "dispatch": 8000,
       "loaded": 0,
       "balance": 24000,
       "progress": 0,
-      "stockpile": 6000,
+      "stockpile": 8000,
       "time": "13:00",
       "remarks": "BERTH UNSAFE TO LOAD",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:00",
       "remarks": "RESUME LOADING LOOSEBAGS",
       "equipment": "FL 1",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:00",
       "remarks": "WAITING PTMS & FULACHE",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 260500,
-    "dispatch": 152500,
+    "dispatch": 154500,
     "loaded": 118500,
     "balance": 142000,
     "progress": 0.4617552334943639,
-    "stockpile": 34000
+    "stockpile": 36000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:03"
+      "activity_time": "14:05"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:03"
+      "activity_time": "14:05"
     }
   ],
   "foreign": {
@@ -259,14 +259,14 @@
     {
       "hauler": "APLUS",
       "august": 45000,
-      "september": 19975,
-      "daily": 1000
+      "september": 20975,
+      "daily": 2000
     },
     {
       "hauler": "FULACHE",
       "august": 21000,
-      "september": 29500,
-      "daily": 2000
+      "september": 30500,
+      "daily": 3000
     }
   ],
   "monthly": [
@@ -368,11 +368,11 @@
     },
     {
       "client": "APLUS",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "FULACHE",
-      "volume": 2000
+      "volume": 3000
     }
   ],
   "status": {
