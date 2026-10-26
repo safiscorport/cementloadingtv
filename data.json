@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T11:27:21+08:00",
+  "updated_at": "2026-10-26T11:27:48+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -7,10 +7,10 @@
       "voyage": 2,
       "booking": 66000,
       "dispatch": 22000,
-      "loaded": 11000,
-      "balance": 55000,
-      "progress": 0.16666666666666666,
-      "stockpile": 11000,
+      "loaded": 12000,
+      "balance": 54000,
+      "progress": 0.18181818181818182,
+      "stockpile": 10000,
       "time": "10:03",
       "remarks": "LOADING SLING F1",
       "equipment": "CRANE2/FL2",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 236500,
     "dispatch": 139500,
-    "loaded": 113500,
-    "balance": 123000,
-    "progress": 0.5052546165589644,
-    "stockpile": 26000
+    "loaded": 114500,
+    "balance": 122000,
+    "progress": 0.5074191187234666,
+    "stockpile": 25000
   },
   "alpha": [
     {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1119160
+      "y2026": 1120160
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14453870
+    "y2026": 14454870
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 10000
+      "qty": 11000
     },
     {
       "shift": "2ND SHIFT",
@@ -372,7 +372,7 @@
     },
     {
       "client": "FULACHE",
-      "volume": 2000
+      "volume": 1000
     }
   ],
   "status": {
