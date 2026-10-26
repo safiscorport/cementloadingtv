@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T13:29:38+08:00",
+  "updated_at": "2026-10-26T14:03:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "CRANE2/FL2",
-      "activity_time": "00:29"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "13:00",
       "remarks": "WAITING PTMS",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 3",
@@ -44,22 +44,22 @@
       "time": "10:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "03:29"
+      "activity_time": "04:03"
     },
     {
       "berth": "Berth 4",
       "vessel": "EASTERN CEBU",
       "voyage": 15,
       "booking": 27000,
-      "dispatch": 25500,
+      "dispatch": 26000,
       "loaded": 23500,
       "balance": 3500,
       "progress": 0.8703703703703703,
-      "stockpile": 2000,
+      "stockpile": 2500,
       "time": "11:01",
       "remarks": "WAITING LAST TRUCK",
       "equipment": "CRANE 4",
-      "activity_time": "02:28"
+      "activity_time": "03:02"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "13:00",
       "remarks": "LOADING LAST TRUCK",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 6",
@@ -96,30 +96,30 @@
       "vessel": "LADY OF COURAGE",
       "voyage": 11,
       "booking": 25000,
-      "dispatch": 7000,
+      "dispatch": 8000,
       "loaded": 5000,
       "balance": 20000,
       "progress": 0.2,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "13:00",
       "remarks": "WAITING APLUS & PTMS",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 8",
       "vessel": "EMERALD STAR",
       "voyage": 13,
-      "booking": 0,
+      "booking": 24000,
       "dispatch": 6000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 24000,
       "progress": 0,
       "stockpile": 6000,
       "time": "13:00",
       "remarks": "BERTH UNSAFE TO LOAD",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 9",
@@ -134,22 +134,22 @@
       "time": "13:00",
       "remarks": "RESUME LOADING LOOSEBAGS",
       "equipment": "FL 1",
-      "activity_time": "00:29"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 10",
       "vessel": "NAPOLI",
       "voyage": 13,
       "booking": 23000,
-      "dispatch": 14000,
+      "dispatch": 15500,
       "loaded": 12000,
       "balance": 11000,
       "progress": 0.5217391304347826,
-      "stockpile": 2000,
+      "stockpile": 3500,
       "time": "13:00",
       "remarks": "WAITING PTMS & FULACHE",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "01:03"
     },
     {
       "berth": "Jetty",
@@ -168,12 +168,12 @@
     }
   ],
   "total": {
-    "booking": 236500,
-    "dispatch": 149500,
+    "booking": 260500,
+    "dispatch": 152500,
     "loaded": 118500,
-    "balance": 118000,
-    "progress": 0.5277202668507016,
-    "stockpile": 31000
+    "balance": 142000,
+    "progress": 0.4617552334943639,
+    "stockpile": 34000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:29"
+      "activity_time": "14:03"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:29"
+      "activity_time": "14:03"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 898070,
-      "daily": 14000
+      "september": 901070,
+      "daily": 17000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 21000
+      "volume": 24000
     },
     {
       "client": "LAPU-LAPU",
