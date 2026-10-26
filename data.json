@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T09:23:54+08:00",
+  "updated_at": "2026-10-26T09:24:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -131,10 +131,10 @@
       "balance": 27500,
       "progress": 0,
       "stockpile": 6000,
-      "time": "08:00",
-      "remarks": "FORKLIFT ONBOARD",
+      "time": "08:20",
+      "remarks": "COMMENCE LOOSEBAGS",
       "equipment": "0",
-      "activity_time": "01:23"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 10",
