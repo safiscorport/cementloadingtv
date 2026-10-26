@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T17:08:43+08:00",
+  "updated_at": "2026-10-26T17:18:32+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 51000,
       "progress": 0.22727272727272727,
       "stockpile": 13000,
-      "time": "14:14",
-      "remarks": "LOADING SLING B5",
+      "time": "16:40",
+      "remarks": "LOADING SLING S51",
       "equipment": "CRANE2/FL2",
-      "activity_time": "02:54"
+      "activity_time": "00:38"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "14:17",
       "remarks": "LOADING POUCH S43",
       "equipment": "0",
-      "activity_time": "02:51"
+      "activity_time": "03:01"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "10:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "07:08"
+      "activity_time": "07:18"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "14:30",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "02:38"
+      "activity_time": "02:48"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "13:31",
       "remarks": "LOADING TONNER S39",
       "equipment": "0",
-      "activity_time": "03:37"
+      "activity_time": "03:47"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "13:49",
       "remarks": "LOADING POUCH P9",
       "equipment": "0",
-      "activity_time": "03:19"
+      "activity_time": "03:29"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "16:27",
       "remarks": "COMMENCE LOADING S35",
       "equipment": "0",
-      "activity_time": "00:41"
+      "activity_time": "00:51"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "15:35",
       "remarks": "LOADING LOOSEBAGS S26",
       "equipment": "FL 1",
-      "activity_time": "01:33"
+      "activity_time": "01:43"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "15:24",
       "remarks": "LOADING TONNER P4",
       "equipment": "0",
-      "activity_time": "01:44"
+      "activity_time": "01:54"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:08"
+      "activity_time": "17:18"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:08"
+      "activity_time": "17:18"
     }
   ],
   "foreign": {
