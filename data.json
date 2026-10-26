@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T13:29:10+08:00",
+  "updated_at": "2026-10-26T13:29:38+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "CRANE2/FL2",
-      "activity_time": "00:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "13:00",
       "remarks": "WAITING PTMS",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "10:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "03:28"
+      "activity_time": "03:29"
     },
     {
       "berth": "Berth 4",
@@ -57,9 +57,9 @@
       "progress": 0.8703703703703703,
       "stockpile": 2000,
       "time": "11:01",
-      "remarks": "WAITING MATERIAL",
+      "remarks": "WAITING LAST TRUCK",
       "equipment": "CRANE 4",
-      "activity_time": "02:27"
+      "activity_time": "02:28"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "13:00",
       "remarks": "LOADING LAST TRUCK",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "13:00",
       "remarks": "WAITING APLUS & PTMS",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "13:00",
       "remarks": "BERTH UNSAFE TO LOAD",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:00",
       "remarks": "RESUME LOADING LOOSEBAGS",
       "equipment": "FL 1",
-      "activity_time": "00:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:00",
       "remarks": "WAITING PTMS & FULACHE",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:29"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:28"
+      "activity_time": "13:29"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:28"
+      "activity_time": "13:29"
     }
   ],
   "foreign": {
