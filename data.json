@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-26T15:41:22+08:00",
+  "updated_at": "2026-10-26T16:13:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "BARGE JB 5",
       "voyage": 2,
       "booking": 66000,
-      "dispatch": 25000,
+      "dispatch": 26000,
       "loaded": 15000,
       "balance": 51000,
       "progress": 0.22727272727272727,
-      "stockpile": 10000,
+      "stockpile": 11000,
       "time": "14:14",
       "remarks": "LOADING SLING B5",
       "equipment": "CRANE2/FL2",
-      "activity_time": "01:27"
+      "activity_time": "01:59"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "14:17",
       "remarks": "LOADING POUCH S43",
       "equipment": "0",
-      "activity_time": "01:24"
+      "activity_time": "01:56"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "10:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "05:41"
+      "activity_time": "06:13"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "14:30",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "01:11"
+      "activity_time": "01:43"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "13:31",
       "remarks": "LOADING TONNER S39",
       "equipment": "0",
-      "activity_time": "02:10"
+      "activity_time": "02:42"
     },
     {
       "berth": "Berth 6",
@@ -96,15 +96,15 @@
       "vessel": "LADY OF COURAGE",
       "voyage": 11,
       "booking": 25000,
-      "dispatch": 11000,
+      "dispatch": 13000,
       "loaded": 6000,
       "balance": 19000,
       "progress": 0.24,
-      "stockpile": 5000,
+      "stockpile": 7000,
       "time": "13:49",
       "remarks": "LOADING POUCH P9",
       "equipment": "0",
-      "activity_time": "01:52"
+      "activity_time": "02:24"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "13:00",
       "remarks": "BERTH UNSAFE TO LOAD",
       "equipment": "0",
-      "activity_time": "02:41"
+      "activity_time": "03:13"
     },
     {
       "berth": "Berth 9",
@@ -134,22 +134,22 @@
       "time": "13:00",
       "remarks": "RESUME LOADING LOOSEBAGS",
       "equipment": "FL 1",
-      "activity_time": "02:41"
+      "activity_time": "03:13"
     },
     {
       "berth": "Berth 10",
       "vessel": "NAPOLI",
       "voyage": 13,
       "booking": 23000,
-      "dispatch": 16500,
+      "dispatch": 19500,
       "loaded": 12000,
       "balance": 11000,
       "progress": 0.5217391304347826,
-      "stockpile": 4500,
-      "time": "13:00",
-      "remarks": "WAITING PTMS & FULACHE",
+      "stockpile": 7500,
+      "time": "15:24",
+      "remarks": "LOADING TONNER P4",
       "equipment": "0",
-      "activity_time": "02:41"
+      "activity_time": "00:49"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 260500,
-    "dispatch": 163000,
+    "dispatch": 169000,
     "loaded": 125500,
     "balance": 135000,
     "progress": 0.486120992534036,
-    "stockpile": 37500
+    "stockpile": 43500
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:41"
+      "activity_time": "16:13"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:41"
+      "activity_time": "16:13"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 907570,
-      "daily": 23500
+      "september": 912570,
+      "daily": 28500
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 26500
+      "volume": 31500
     },
     {
       "client": "LAPU-LAPU",
