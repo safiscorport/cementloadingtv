@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T08:28:22+08:00",
+  "updated_at": "2026-10-26T08:29:00+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -41,10 +41,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "DOCKING MANUEVER",
       "equipment": "0",
-      "activity_time": "01:28"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 6500,
       "progress": 0.7592592592592593,
       "stockpile": 3000,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "01:28"
     },
     {
       "berth": "Berth 5",
