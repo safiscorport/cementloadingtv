@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T20:31:44+08:00",
+  "updated_at": "2026-10-26T21:33:21+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:30",
       "remarks": "LOADING S19 SLING BAGS",
       "equipment": "CRANE2/FL2",
-      "activity_time": "01:01"
+      "activity_time": "02:03"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "14:17",
       "remarks": "COMPLETE LOADING S43",
       "equipment": "0",
-      "activity_time": "06:14"
+      "activity_time": "07:16"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:31"
+      "activity_time": "02:33"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "14:30",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "06:01"
+      "activity_time": "07:03"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "13:31",
       "remarks": "COMPLETE LOADING",
       "equipment": "0",
-      "activity_time": "07:00"
+      "activity_time": "08:02"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "19:30",
       "remarks": "LOADING A1 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:01"
+      "activity_time": "02:03"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 13,
       "booking": 24000,
       "dispatch": 9000,
-      "loaded": 2000,
-      "balance": 22000,
-      "progress": 0.08333333333333333,
-      "stockpile": 7000,
-      "time": "19:30",
-      "remarks": "LOADING S56 SLING BAGS",
+      "loaded": 4000,
+      "balance": 20000,
+      "progress": 0.16666666666666666,
+      "stockpile": 5000,
+      "time": "21:00",
+      "remarks": "LOADING S9 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:01"
+      "activity_time": "00:33"
     },
     {
       "berth": "Berth 9",
@@ -134,22 +134,22 @@
       "time": "19:30",
       "remarks": "LOADING S8 LOOSEBAG",
       "equipment": "FL 1",
-      "activity_time": "01:01"
+      "activity_time": "02:03"
     },
     {
       "berth": "Berth 10",
       "vessel": "NAPOLI",
       "voyage": 13,
       "booking": 23000,
-      "dispatch": 22500,
-      "loaded": 15500,
-      "balance": 7500,
-      "progress": 0.6739130434782609,
-      "stockpile": 7000,
-      "time": "19:30",
-      "remarks": "LOADING B7 TONNER BAGS",
+      "dispatch": 23500,
+      "loaded": 17500,
+      "balance": 5500,
+      "progress": 0.7608695652173914,
+      "stockpile": 6000,
+      "time": "21:10",
+      "remarks": "LOADING P5 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:01"
+      "activity_time": "00:23"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 260500,
-    "dispatch": 178000,
-    "loaded": 137000,
-    "balance": 123500,
-    "progress": 0.5384381862099253,
-    "stockpile": 41000
+    "dispatch": 179000,
+    "loaded": 141000,
+    "balance": 119500,
+    "progress": 0.5597244180939832,
+    "stockpile": 38000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:31"
+      "activity_time": "21:33"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:31"
+      "activity_time": "21:33"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1142660
+      "y2026": 1146660
     },
     {
       "month": "November",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14477370
+    "y2026": 14481370
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 0
+      "qty": 4000
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 31000
+      "volume": 29000
     },
     {
       "client": "LAPU-LAPU",
@@ -356,7 +356,7 @@
     },
     {
       "client": "BADIE",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "GEO",
