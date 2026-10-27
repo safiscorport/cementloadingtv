@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T15:10:13+08:00",
+  "updated_at": "2026-10-27T15:18:02+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 33000,
       "progress": 0.5,
       "stockpile": 12000,
-      "time": "13:00",
-      "remarks": "RESUME LOADING SLING",
+      "time": "14:30",
+      "remarks": "LOADING SLING B5",
       "equipment": "CRANE2/FL1",
-      "activity_time": "02:10"
+      "activity_time": "00:47"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "11:30",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "03:40"
+      "activity_time": "03:47"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "13:00",
       "remarks": "ONGOING COMMENCE LOADING",
       "equipment": "FL 2",
-      "activity_time": "02:10"
+      "activity_time": "02:17"
     },
     {
       "berth": "Berth 4",
@@ -101,10 +101,10 @@
       "balance": 7000,
       "progress": 0.72,
       "stockpile": 7000,
-      "time": "13:00",
-      "remarks": "RESUME LOADING S31",
+      "time": "13:42",
+      "remarks": "LOADING SLING S31",
       "equipment": "0",
-      "activity_time": "02:10"
+      "activity_time": "01:35"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 11000,
       "progress": 0.5416666666666666,
       "stockpile": 7000,
-      "time": "13:00",
-      "remarks": "RESUME LOADING SLING",
+      "time": "14:33",
+      "remarks": "LOADING SLING S15",
       "equipment": "0",
-      "activity_time": "02:10"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 19000,
       "progress": 0.3090909090909091,
       "stockpile": 9500,
-      "time": "08:26",
-      "remarks": "WAITING POUCH PREMIUM",
+      "time": "13:40",
+      "remarks": "LOADING POUCH S35",
       "equipment": "0",
-      "activity_time": "06:44"
+      "activity_time": "01:37"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 500,
       "progress": 0.9807692307692307,
       "stockpile": 500,
-      "time": "11:27",
-      "remarks": "WAITING PTMS LAST TRUCK",
+      "time": "14:24",
+      "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "03:43"
+      "activity_time": "00:53"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:10"
+      "activity_time": "15:17"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:10"
+      "activity_time": "15:17"
     }
   ],
   "foreign": {
