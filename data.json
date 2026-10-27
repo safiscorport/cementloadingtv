@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T17:44:12+08:00",
+  "updated_at": "2026-10-27T19:21:44+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 23250,
       "progress": 0.6477272727272727,
       "stockpile": 10000,
-      "time": "17:09",
-      "remarks": "LOADING SLING S22",
+      "time": "19:30",
+      "remarks": "LOADING B5 SLING BAGS",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:34"
+      "activity_time": "23:51"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "11:30",
-      "remarks": "DOCKED & SECURED",
+      "time": "19:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "06:13"
+      "activity_time": "00:21"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 47000,
       "progress": 0.06,
       "stockpile": 6000,
-      "time": "16:58",
-      "remarks": "RESUME LOADING TONNER B7",
+      "time": "19:35",
+      "remarks": "LOADING S49 SLING BAGS",
       "equipment": "FL 2",
-      "activity_time": "00:45"
+      "activity_time": "23:46"
     },
     {
       "berth": "Berth 4",
@@ -101,10 +101,10 @@
       "balance": 3500,
       "progress": 0.86,
       "stockpile": 3500,
-      "time": "16:30",
-      "remarks": "LOADING TONNER S32",
+      "time": "19:30",
+      "remarks": "LOADING S7 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:13"
+      "activity_time": "23:51"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 7000,
       "progress": 0.7083333333333334,
       "stockpile": 3750,
-      "time": "16:41",
-      "remarks": "LOADING SLING S39",
+      "time": "19:35",
+      "remarks": "LOADING S37 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:02"
+      "activity_time": "23:46"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 14200,
       "progress": 0.48363636363636364,
       "stockpile": 8200,
-      "time": "17:13",
-      "remarks": "LOADING POUCH S4",
+      "time": "19:30",
+      "remarks": "LOADING S30 SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "00:30"
+      "activity_time": "23:51"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "14:24",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "03:19"
+      "activity_time": "04:57"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:43"
+      "activity_time": "19:21"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:43"
+      "activity_time": "19:21"
     }
   ],
   "foreign": {
@@ -376,9 +376,9 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "OBIAL / CANOY / DALUSA",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "TORRES, J",
+    "pmc": "VICKY/EBOY",
     "cranes": 3,
     "forklifts": 8,
     "stevedores": 43
