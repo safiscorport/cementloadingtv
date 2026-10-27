@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-27T09:09:20+08:00",
+  "updated_at": "2026-10-27T09:33:55+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "BARGE JB 5",
       "voyage": 2,
       "booking": 66000,
-      "dispatch": 34000,
+      "dispatch": 35000,
       "loaded": 29000,
       "balance": 37000,
       "progress": 0.4393939393939394,
-      "stockpile": 5000,
+      "stockpile": 6000,
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:09"
+      "activity_time": "01:33"
     },
     {
       "berth": "Berth 2",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "01:09"
+      "activity_time": "01:33"
     },
     {
       "berth": "Berth 4",
@@ -104,22 +104,22 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:09"
+      "activity_time": "01:33"
     },
     {
       "berth": "Berth 8",
       "vessel": "EMERALD STAR",
       "voyage": 13,
       "booking": 24000,
-      "dispatch": 13000,
-      "loaded": 9000,
-      "balance": 15000,
-      "progress": 0.375,
+      "dispatch": 14000,
+      "loaded": 10000,
+      "balance": 14000,
+      "progress": 0.4166666666666667,
       "stockpile": 4000,
-      "time": "08:15",
-      "remarks": "LOADING SLING S48",
+      "time": "08:42",
+      "remarks": "LOADING SLING A1",
       "equipment": "0",
-      "activity_time": "00:54"
+      "activity_time": "00:51"
     },
     {
       "berth": "Berth 9",
@@ -134,22 +134,22 @@
       "time": "08:26",
       "remarks": "WAITING POUCH PREMIUM",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "01:07"
     },
     {
       "berth": "Berth 10",
       "vessel": "NAPOLI",
       "voyage": 13,
       "booking": 23000,
-      "dispatch": 25000,
-      "loaded": 22500,
-      "balance": 500,
-      "progress": 0.9782608695652174,
+      "dispatch": 26000,
+      "loaded": 23500,
+      "balance": -500,
+      "progress": 1.0217391304347827,
       "stockpile": 2500,
-      "time": "08:16",
-      "remarks": "LOADING TONNER S32",
+      "time": "09:00",
+      "remarks": "LOADING TONNER S36",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "00:33"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 215500,
-    "dispatch": 106000,
-    "loaded": 84000,
-    "balance": 131500,
-    "progress": 0.4502909530083443,
-    "stockpile": 22000
+    "dispatch": 109000,
+    "loaded": 86000,
+    "balance": 129500,
+    "progress": 0.464481774264383,
+    "stockpile": 23000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:09"
+      "activity_time": "09:33"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:09"
+      "activity_time": "09:33"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1047550,
-      "september": 933570,
-      "daily": 6000
+      "september": 935570,
+      "daily": 8000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "august": 45000,
-      "september": 23975,
-      "daily": "-"
+      "september": 24975,
+      "daily": 1000
     },
     {
       "hauler": "FULACHE",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1180660
+      "y2026": 1182660
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14515370
+    "y2026": 14517370
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 3000
+      "qty": 5000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 13000
+      "volume": 14000
     },
     {
       "client": "LAPU-LAPU",
