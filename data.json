@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T11:36:53+08:00",
+  "updated_at": "2026-10-27T13:14:46+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 33000,
       "progress": 0.5,
       "stockpile": 7000,
-      "time": "11:10",
-      "remarks": "LOADING SLING B5",
+      "time": "13:00",
+      "remarks": "RESUME LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:26"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 2",
@@ -41,10 +41,10 @@
       "balance": 50000,
       "progress": 0,
       "stockpile": 3000,
-      "time": "08:00",
-      "remarks": "WAITING FL ONBOARD",
+      "time": "13:00",
+      "remarks": "ONGOING COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "03:36"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 4",
@@ -101,10 +101,10 @@
       "balance": 7000,
       "progress": 0.72,
       "stockpile": 6500,
-      "time": "10:37",
-      "remarks": "LOADING SLING S30",
+      "time": "13:00",
+      "remarks": "RESUME LOADING S31",
       "equipment": "0",
-      "activity_time": "00:59"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 11000,
       "progress": 0.5416666666666666,
       "stockpile": 5000,
-      "time": "10:58",
-      "remarks": "LOADING SLING S55",
+      "time": "13:00",
+      "remarks": "RESUME LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:38"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "08:26",
       "remarks": "WAITING POUCH PREMIUM",
       "equipment": "0",
-      "activity_time": "03:10"
+      "activity_time": "04:48"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "11:27",
       "remarks": "WAITING PTMS LAST TRUCK",
       "equipment": "0",
-      "activity_time": "00:09"
+      "activity_time": "01:47"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:36"
+      "activity_time": "13:14"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:36"
+      "activity_time": "13:14"
     }
   ],
   "foreign": {
