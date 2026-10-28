@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T08:02:14+08:00",
+  "updated_at": "2026-10-28T08:05:02+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,22 +14,22 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 1",
-      "activity_time": "01:01"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 2",
       "vessel": "LADY OF CONFIDENCE",
       "voyage": 1,
-      "booking": 0,
+      "booking": 55000,
       "dispatch": 12750,
       "loaded": 1750,
-      "balance": -1750,
-      "progress": 0,
+      "balance": 53250,
+      "progress": 0.031818181818181815,
       "stockpile": 11000,
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "01:01"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:01"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 4",
@@ -101,10 +101,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "22:19",
-      "remarks": "COMPLETE LOADING P3",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "09:42"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "02:12",
-      "remarks": "LOADING S25 TONNER BAGS",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "05:49"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
@@ -134,22 +134,22 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 3",
-      "activity_time": "01:01"
+      "activity_time": "01:04"
     },
     {
       "berth": "Berth 10",
-      "vessel": "NAPOLI",
-      "voyage": 13,
-      "booking": 26000,
-      "dispatch": 26000,
-      "loaded": 26000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "14:24",
-      "remarks": "LOADING COMPLETE",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "17:37"
+      "activity_time": "00:00"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 169500,
-    "dispatch": 139000,
-    "loaded": 113800,
-    "balance": 55700,
-    "progress": 0.6863257575757575,
+    "booking": 198500,
+    "dispatch": 113000,
+    "loaded": 87800,
+    "balance": 110700,
+    "progress": 0.4442803030303031,
     "stockpile": 25200
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:01"
+      "activity_time": "08:04"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:01"
+      "activity_time": "08:04"
     }
   ],
   "foreign": {
