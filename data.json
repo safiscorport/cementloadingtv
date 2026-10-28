@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T07:57:54+08:00",
+  "updated_at": "2026-10-29T07:59:22+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 31250,
       "progress": 0.4318181818181818,
       "stockpile": 5000,
-      "time": "05:30",
-      "remarks": "LADY OF CONFIDENCE",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:27"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 33000,
       "progress": 0.34,
       "stockpile": 8000,
-      "time": "01:54",
-      "remarks": "EFG 8",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "06:03"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 4",
@@ -134,22 +134,22 @@
       "time": "07:00",
       "remarks": "NEW DOCKING VESSEL",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 10",
       "vessel": "JOHANNAH 5",
-      "voyage": 5,
+      "voyage": 6,
       "booking": 0,
-      "dispatch": 22000,
-      "loaded": 22000,
-      "balance": -22000,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "JOHANNHA 5",
+      "time": "07:00",
+      "remarks": "NEW DOCKING VESSEL",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:59"
     },
     {
       "berth": "Jetty",
@@ -169,9 +169,9 @@
   ],
   "total": {
     "booking": 133000,
-    "dispatch": 75750,
-    "loaded": 62750,
-    "balance": 70250,
+    "dispatch": 53750,
+    "loaded": 40750,
+    "balance": 92250,
     "progress": 0.25727272727272726,
     "stockpile": 13000
   },
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:57"
+      "activity_time": "07:59"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:57"
+      "activity_time": "07:59"
     }
   ],
   "foreign": {
@@ -380,7 +380,7 @@
     "checker": "DALUSA/CANOY/OBIAL",
     "pmc": "JOAN/WILLIAM",
     "cranes": 3,
-    "forklifts": 7,
-    "stevedores": 40
+    "forklifts": 6,
+    "stevedores": 0
   }
 }
