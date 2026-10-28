@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T08:05:02+08:00",
+  "updated_at": "2026-10-28T08:05:30+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 1",
-      "activity_time": "01:04"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "01:04"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:04"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 4",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 3",
-      "activity_time": "01:04"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:04"
+      "activity_time": "08:05"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:04"
+      "activity_time": "08:05"
     }
   ],
   "foreign": {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER, JOVIC",
-    "checker": "TORRES, J",
-    "pmc": "VICKY/EBOY",
+    "supervisor": "BERNABE,A",
+    "checker": "DALUSA / OBIAL / CANOY",
+    "pmc": "JOAN / WILLIAM",
     "cranes": 3,
-    "forklifts": 8,
-    "stevedores": 43
+    "forklifts": 0,
+    "stevedores": 0
   }
 }
