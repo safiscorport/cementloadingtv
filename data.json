@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T08:01:26+08:00",
+  "updated_at": "2026-10-28T08:02:14+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -13,7 +13,7 @@
       "stockpile": 6000,
       "time": "07:00",
       "remarks": "KY TOOLBOX",
-      "equipment": "CRANE2/FL1",
+      "equipment": "FL 1",
       "activity_time": "01:01"
     },
     {
@@ -28,7 +28,7 @@
       "stockpile": 11000,
       "time": "07:00",
       "remarks": "KY TOOLBOX",
-      "equipment": "0",
+      "equipment": "FL 2",
       "activity_time": "01:01"
     },
     {
@@ -43,7 +43,7 @@
       "stockpile": 0,
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
-      "equipment": "FL 2",
+      "equipment": "0",
       "activity_time": "01:01"
     },
     {
@@ -93,13 +93,13 @@
     },
     {
       "berth": "Berth 7",
-      "vessel": "LADY OF COURAGE",
-      "voyage": 11,
-      "booking": 25000,
-      "dispatch": 25000,
-      "loaded": 25000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "22:19",
       "remarks": "COMPLETE LOADING P3",
@@ -108,13 +108,13 @@
     },
     {
       "berth": "Berth 8",
-      "vessel": "EMERALD STAR",
-      "voyage": 13,
-      "booking": 24000,
-      "dispatch": 24000,
-      "loaded": 24000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "02:12",
       "remarks": "LOADING S25 TONNER BAGS",
@@ -133,7 +133,7 @@
       "stockpile": 8200,
       "time": "07:00",
       "remarks": "KY TOOLBOX",
-      "equipment": "CRANE 3",
+      "equipment": "FL 3",
       "activity_time": "01:01"
     },
     {
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 218500,
-    "dispatch": 188000,
-    "loaded": 162800,
+    "booking": 169500,
+    "dispatch": 139000,
+    "loaded": 113800,
     "balance": 55700,
-    "progress": 0.7908838383838385,
+    "progress": 0.6863257575757575,
     "stockpile": 25200
   },
   "alpha": [
