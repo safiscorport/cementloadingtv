@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T13:02:55+08:00",
+  "updated_at": "2026-10-28T13:04:03+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:02"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "13:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "FL 19",
-      "activity_time": "00:02"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 3",
@@ -43,8 +43,8 @@
       "stockpile": 0,
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
-      "equipment": "CRANE4/FL2",
-      "activity_time": "00:02"
+      "equipment": "CRANE4/FL3",
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 4",
@@ -134,7 +134,7 @@
       "time": "13:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "CRANE3/FL2",
-      "activity_time": "00:02"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:02"
+      "activity_time": "13:03"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:02"
+      "activity_time": "13:03"
     }
   ],
   "foreign": {
