@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T15:10:14+08:00",
+  "updated_at": "2026-10-28T15:10:32+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -7,14 +7,14 @@
       "voyage": 2,
       "booking": 85000,
       "dispatch": 77750,
-      "loaded": 63750,
-      "balance": 21250,
-      "progress": 0.75,
-      "stockpile": 14000,
+      "loaded": 64750,
+      "balance": 20250,
+      "progress": 0.7617647058823529,
+      "stockpile": 13000,
       "time": "13:37",
       "remarks": "RESUME LOADING SLING F1",
       "equipment": "CRANE2/FL1",
-      "activity_time": "01:32"
+      "activity_time": "01:33"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "13:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "FL 19",
-      "activity_time": "02:09"
+      "activity_time": "02:10"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "13:40",
       "remarks": "RESUME LOADING LOOSEBAGS",
       "equipment": "CRANE4/FL3",
-      "activity_time": "01:29"
+      "activity_time": "01:30"
     },
     {
       "berth": "Berth 4",
@@ -134,7 +134,7 @@
       "time": "13:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "CRANE3/FL2",
-      "activity_time": "02:09"
+      "activity_time": "02:10"
     },
     {
       "berth": "Berth 10",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 217500,
     "dispatch": 141000,
-    "loaded": 108000,
-    "balance": 109500,
-    "progress": 0.5013636363636363,
-    "stockpile": 33000
+    "loaded": 109000,
+    "balance": 108500,
+    "progress": 0.5043048128342246,
+    "stockpile": 32000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:09"
+      "activity_time": "15:10"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:09"
+      "activity_time": "15:10"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1279660
+      "y2026": 1280660
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14604370
+    "y2026": 14605370
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 20200
+      "qty": 21200
     },
     {
       "shift": "2ND SHIFT",
@@ -372,7 +372,7 @@
     },
     {
       "client": "FULACHE",
-      "volume": 1000
+      "volume": "-"
     }
   ],
   "status": {
