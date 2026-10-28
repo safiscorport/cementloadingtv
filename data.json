@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T17:23:33+08:00",
+  "updated_at": "2026-10-28T19:26:09+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 17250,
       "progress": 0.7970588235294118,
       "stockpile": 13000,
-      "time": "16:47",
-      "remarks": "LOADING SLING P4",
+      "time": "19:40",
+      "remarks": "LOADING A17 SLING BAGS",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:36"
+      "activity_time": "23:45"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 44250,
       "progress": 0.19545454545454546,
       "stockpile": 11000,
-      "time": "16:50",
-      "remarks": "LOADING SLING S3",
+      "time": "19:45",
+      "remarks": "LOADING S37 SLING BAGS",
       "equipment": "FL 19",
-      "activity_time": "00:33"
+      "activity_time": "23:40"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 36000,
       "progress": 0.28,
       "stockpile": 2000,
-      "time": "13:45",
-      "remarks": "LOADING LOOSEBAGS S35",
+      "time": "19:40",
+      "remarks": "LOADING S1 LOOSEBAG",
       "equipment": "CRANE4/FL3",
-      "activity_time": "03:38"
+      "activity_time": "23:45"
     },
     {
       "berth": "Berth 4",
@@ -134,7 +134,7 @@
       "time": "16:24",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE3/FL2",
-      "activity_time": "00:59"
+      "activity_time": "03:01"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:23"
+      "activity_time": "19:25"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:23"
+      "activity_time": "19:25"
     }
   ],
   "foreign": {
@@ -376,9 +376,9 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "DALUSA / OBIAL / CANOY",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "TORRES, J",
+    "pmc": "VICKY/EBOY",
     "cranes": 3,
     "forklifts": 0,
     "stevedores": 44
