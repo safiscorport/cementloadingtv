@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-28T13:54:49+08:00",
+  "updated_at": "2026-10-28T13:55:21+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "BARGE JB 5",
       "voyage": 2,
       "booking": 85000,
-      "dispatch": 76750,
+      "dispatch": 77750,
       "loaded": 60750,
       "balance": 24250,
       "progress": 0.7147058823529412,
-      "stockpile": 16000,
+      "stockpile": 17000,
       "time": "13:00",
       "remarks": "RESUME LOADING SLING",
       "equipment": "CRANE2/FL1",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 217500,
-    "dispatch": 140000,
+    "dispatch": 141000,
     "loaded": 100000,
     "balance": 117500,
     "progress": 0.4607219251336898,
-    "stockpile": 40000
+    "stockpile": 41000
   },
   "alpha": [
     {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1038550,
-      "september": 1010570,
-      "daily": 17000
+      "september": 1011570,
+      "daily": 18000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 28000
+      "volume": 29000
     },
     {
       "client": "LAPU-LAPU",
