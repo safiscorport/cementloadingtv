@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T07:45:50+08:00",
+  "updated_at": "2026-10-29T07:46:38+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "04:11",
       "remarks": "LOADING COMPLETE S15",
       "equipment": "0",
-      "activity_time": "03:34"
+      "activity_time": "03:35"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "05:30",
       "remarks": "LADY OF CONFIDENCE",
       "equipment": "FL 19",
-      "activity_time": "02:15"
+      "activity_time": "02:16"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "01:54",
       "remarks": "EFG 8",
       "equipment": "CRANE4/FL3",
-      "activity_time": "05:51"
+      "activity_time": "05:52"
     },
     {
       "berth": "Berth 4",
@@ -134,16 +134,16 @@
       "time": "07:00",
       "remarks": "NEW DOCKING VESSEL",
       "equipment": "0",
-      "activity_time": "00:45"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 10",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "JOHANNAH 5",
+      "voyage": 5,
       "booking": 0,
-      "dispatch": 0,
-      "loaded": 0,
-      "balance": 0,
+      "dispatch": 22000,
+      "loaded": 22000,
+      "balance": -22000,
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
@@ -169,9 +169,9 @@
   ],
   "total": {
     "booking": 105000,
-    "dispatch": 53750,
-    "loaded": 40750,
-    "balance": 64250,
+    "dispatch": 75750,
+    "loaded": 62750,
+    "balance": 42250,
     "progress": 0.3859090909090909,
     "stockpile": 13000
   },
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:45"
+      "activity_time": "07:46"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:45"
+      "activity_time": "07:46"
     }
   ],
   "foreign": {
