@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T11:05:29+08:00",
+  "updated_at": "2026-10-28T11:06:06+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -21,11 +21,11 @@
       "vessel": "LADY OF CONFIDENCE",
       "voyage": 1,
       "booking": 55000,
-      "dispatch": 14750,
+      "dispatch": 15750,
       "loaded": 3750,
       "balance": 51250,
       "progress": 0.06818181818181818,
-      "stockpile": 11000,
+      "stockpile": 12000,
       "time": "09:04",
       "remarks": "LOADING SLING S17",
       "equipment": "FL 19",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 217500,
-    "dispatch": 127000,
+    "dispatch": 128000,
     "loaded": 94000,
     "balance": 123500,
     "progress": 0.4250534759358289,
-    "stockpile": 33000
+    "stockpile": 34000
   },
   "alpha": [
     {
