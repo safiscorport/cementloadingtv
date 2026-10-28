@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-29T07:42:02+08:00",
+  "updated_at": "2026-10-29T07:45:50+08:00",
   "berths": [
     {
       "berth": "Berth 1",
-      "vessel": "BARGE JB 5",
-      "voyage": 2,
-      "booking": 85000,
-      "dispatch": 83000,
-      "loaded": 83000,
-      "balance": 2000,
-      "progress": 0.9764705882352941,
+      "vessel": "0",
+      "voyage": 0,
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
       "stockpile": 0,
       "time": "04:11",
       "remarks": "LOADING COMPLETE S15",
-      "equipment": "CRANE2/FL1",
-      "activity_time": "03:30"
+      "equipment": "0",
+      "activity_time": "03:34"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "05:30",
       "remarks": "LADY OF CONFIDENCE",
       "equipment": "FL 19",
-      "activity_time": "02:11"
+      "activity_time": "02:15"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "01:54",
       "remarks": "EFG 8",
       "equipment": "CRANE4/FL3",
-      "activity_time": "05:47"
+      "activity_time": "05:51"
     },
     {
       "berth": "Berth 4",
@@ -123,18 +123,18 @@
     },
     {
       "berth": "Berth 9",
-      "vessel": "ADOLFO SR",
-      "voyage": 12,
-      "booking": 27500,
-      "dispatch": 27500,
-      "loaded": 27500,
+      "vessel": "NIEVES",
+      "voyage": 5,
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "07:00",
       "remarks": "NEW DOCKING VESSEL",
-      "equipment": "CRANE3/FL2",
-      "activity_time": "00:41"
+      "equipment": "0",
+      "activity_time": "00:45"
     },
     {
       "berth": "Berth 10",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 217500,
-    "dispatch": 164250,
-    "loaded": 151250,
-    "balance": 66250,
-    "progress": 0.6870721925133689,
+    "booking": 105000,
+    "dispatch": 53750,
+    "loaded": 40750,
+    "balance": 64250,
+    "progress": 0.3859090909090909,
     "stockpile": 13000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:41"
+      "activity_time": "07:45"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:41"
+      "activity_time": "07:45"
     }
   ],
   "foreign": {
