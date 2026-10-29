@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T22:43:48+08:00",
+  "updated_at": "2026-10-29T22:45:06+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "19:30",
       "remarks": "LOADING S42 SLING BAGS",
       "equipment": "CRANE2/FL1",
-      "activity_time": "03:13"
+      "activity_time": "03:14"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "19:35",
       "remarks": "LOADING P14 LOOSEBAG",
       "equipment": "FL 2",
-      "activity_time": "03:08"
+      "activity_time": "03:09"
     },
     {
       "berth": "Berth 6",
@@ -131,10 +131,10 @@
       "balance": 19000,
       "progress": 0.32142857142857145,
       "stockpile": 7000,
-      "time": "20:40",
-      "remarks": "LOADING A20 SLING BAGS",
+      "time": "22:18",
+      "remarks": "LOADING P15 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:03"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 18000,
       "progress": 0.18181818181818182,
       "stockpile": 5000,
-      "time": "21:15",
-      "remarks": "LOADING S2 TONNER  BAGS",
+      "time": "22:19",
+      "remarks": "LOADING S38 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:28"
+      "activity_time": "00:25"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:43"
+      "activity_time": "22:44"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:43"
+      "activity_time": "22:44"
     }
   ],
   "foreign": {
