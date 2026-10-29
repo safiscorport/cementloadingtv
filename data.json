@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T07:05:23+08:00",
+  "updated_at": "2026-10-30T07:05:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -12,7 +12,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "DOCK AND SECURE",
+      "remarks": "NEW DOCKING VESSEL",
       "equipment": "0",
       "activity_time": "00:00"
     },
