@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T13:11:21+08:00",
+  "updated_at": "2026-10-29T13:12:19+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 25250,
       "progress": 0.5409090909090909,
       "stockpile": 8000,
-      "time": "10:56",
-      "remarks": "LOADING SLING P15",
+      "time": "13:00",
+      "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "CRANE2/FL1",
-      "activity_time": "02:15"
+      "activity_time": "00:12"
     },
     {
       "berth": "Berth 3",
@@ -71,10 +71,10 @@
       "balance": 30000,
       "progress": 0.4,
       "stockpile": 12000,
-      "time": "10:20",
-      "remarks": "LOADING SLING A20",
+      "time": "13:00",
+      "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "FL 2",
-      "activity_time": "02:51"
+      "activity_time": "00:12"
     },
     {
       "berth": "Berth 6",
@@ -134,7 +134,7 @@
       "time": "13:00",
       "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "0",
-      "activity_time": "00:11"
+      "activity_time": "00:12"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "08:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "05:11"
+      "activity_time": "05:12"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:11"
+      "activity_time": "13:12"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:11"
+      "activity_time": "13:12"
     }
   ],
   "foreign": {
