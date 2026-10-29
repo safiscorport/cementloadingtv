@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T17:16:17+08:00",
+  "updated_at": "2026-10-29T17:16:55+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -66,10 +66,10 @@
       "vessel": "EFG 8",
       "voyage": 7,
       "booking": 50000,
-      "dispatch": 34000,
-      "loaded": 22000,
-      "balance": 28000,
-      "progress": 0.44,
+      "dispatch": 35000,
+      "loaded": 23000,
+      "balance": 27000,
+      "progress": 0.46,
       "stockpile": 12000,
       "time": "16:32",
       "remarks": "LOADING SLING S25",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 155000,
-    "dispatch": 92750,
-    "loaded": 52750,
-    "balance": 102250,
-    "progress": 0.2541558441558442,
+    "dispatch": 93750,
+    "loaded": 53750,
+    "balance": 101250,
+    "progress": 0.2591558441558442,
     "stockpile": 40000
   },
   "alpha": [
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1038550,
-      "september": 1053820,
-      "daily": 27000
+      "september": 1054820,
+      "daily": 28000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1334910
+      "y2026": 1335910
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14659620
+    "y2026": 14660620
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 12000
+      "qty": 13000
     },
     {
       "shift": "2ND SHIFT",
