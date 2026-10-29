@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T07:04:20+08:00",
+  "updated_at": "2026-10-30T07:04:48+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -27,7 +27,7 @@
       "progress": 0.8136363636363636,
       "stockpile": 2000,
       "time": "04:25",
-      "remarks": "LOADING S5 SLING BAGS",
+      "remarks": "LADY OF CONFIDENCE",
       "equipment": "CRANE2/FL1",
       "activity_time": "02:39"
     },
@@ -71,10 +71,10 @@
       "balance": 23000,
       "progress": 0.54,
       "stockpile": 10000,
-      "time": "23:57",
-      "remarks": "LOADING S58 LOOSEBAG",
+      "time": "00:00",
+      "remarks": "EFG 8",
       "equipment": "FL 2",
-      "activity_time": "07:07"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 6",
@@ -132,7 +132,7 @@
       "progress": 0.6071428571428571,
       "stockpile": 1000,
       "time": "03:40",
-      "remarks": "LOADING S57 SLING BAGS",
+      "remarks": "NIEVES",
       "equipment": "0",
       "activity_time": "03:24"
     },
@@ -146,10 +146,10 @@
       "balance": 16000,
       "progress": 0.2727272727272727,
       "stockpile": 5000,
-      "time": "05:08",
-      "remarks": "LOADING S27 TONNER BAGS",
+      "time": "00:00",
+      "remarks": "JOHANNAH 5",
       "equipment": "0",
-      "activity_time": "01:56"
+      "activity_time": "00:00"
     },
     {
       "berth": "Jetty",
