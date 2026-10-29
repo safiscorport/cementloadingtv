@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T15:10:27+08:00",
+  "updated_at": "2026-10-29T15:53:43+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "13:00",
       "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "CRANE2/FL1",
-      "activity_time": "02:10"
+      "activity_time": "02:53"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "13:00",
       "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "FL 2",
-      "activity_time": "02:10"
+      "activity_time": "02:53"
     },
     {
       "berth": "Berth 6",
@@ -134,22 +134,22 @@
       "time": "13:00",
       "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "0",
-      "activity_time": "02:10"
+      "activity_time": "02:53"
     },
     {
       "berth": "Berth 10",
       "vessel": "JOHANNAH 5",
       "voyage": 6,
-      "booking": 0,
+      "booking": 22000,
       "dispatch": 1000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 22000,
       "progress": 0,
       "stockpile": 1000,
       "time": "08:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "07:10"
+      "activity_time": "07:53"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 133000,
+    "booking": 155000,
     "dispatch": 87750,
     "loaded": 50750,
-    "balance": 82250,
-    "progress": 0.3203030303030303,
+    "balance": 104250,
+    "progress": 0.24022727272727273,
     "stockpile": 37000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:10"
+      "activity_time": "15:53"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:10"
+      "activity_time": "15:53"
     }
   ],
   "foreign": {
