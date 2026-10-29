@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T07:02:38+08:00",
+  "updated_at": "2026-10-30T07:03:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -376,9 +376,9 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER, JOVIC",
-    "checker": "TORRES, J/ TORREGOSA, J",
-    "pmc": "VICKY / EBOY",
+    "supervisor": "0",
+    "checker": "CANOY/DALUSA/OBIAL\\",
+    "pmc": "JOAN/WILLIAM",
     "cranes": 3,
     "forklifts": 6,
     "stevedores": 44
