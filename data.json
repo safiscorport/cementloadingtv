@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T17:12:21+08:00",
+  "updated_at": "2026-10-29T17:13:09+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -67,10 +67,10 @@
       "voyage": 7,
       "booking": 50000,
       "dispatch": 34000,
-      "loaded": 21000,
-      "balance": 29000,
-      "progress": 0.42,
-      "stockpile": 13000,
+      "loaded": 22000,
+      "balance": 28000,
+      "progress": 0.44,
+      "stockpile": 12000,
       "time": "16:30",
       "remarks": "RESUME LOADING SLING",
       "equipment": "FL 2",
@@ -127,14 +127,14 @@
       "voyage": 5,
       "booking": 28000,
       "dispatch": 13000,
-      "loaded": 0,
-      "balance": 28000,
-      "progress": 0,
-      "stockpile": 13000,
-      "time": "16:30",
-      "remarks": "COMMENCE LOADING",
+      "loaded": 1000,
+      "balance": 27000,
+      "progress": 0.03571428571428571,
+      "stockpile": 12000,
+      "time": "16:35",
+      "remarks": "COMMENCE LOADING P6",
       "equipment": "0",
-      "activity_time": "00:42"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 10",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 155000,
     "dispatch": 92750,
-    "loaded": 50750,
-    "balance": 104250,
-    "progress": 0.24022727272727273,
-    "stockpile": 42000
+    "loaded": 52750,
+    "balance": 102250,
+    "progress": 0.2541558441558442,
+    "stockpile": 40000
   },
   "alpha": [
     {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1332910
+      "y2026": 1334910
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14657620
+    "y2026": 14659620
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 10000
+      "qty": 12000
     },
     {
       "shift": "2ND SHIFT",
