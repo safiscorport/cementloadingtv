@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T07:05:05+08:00",
+  "updated_at": "2026-10-30T07:05:23+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -12,7 +12,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "LADY OF GUIDANCE",
+      "remarks": "DOCK AND SECURE",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -29,7 +29,7 @@
       "time": "04:25",
       "remarks": "LADY OF CONFIDENCE",
       "equipment": "CRANE2/FL1",
-      "activity_time": "02:39"
+      "activity_time": "02:40"
     },
     {
       "berth": "Berth 3",
@@ -134,7 +134,7 @@
       "time": "03:40",
       "remarks": "NIEVES",
       "equipment": "0",
-      "activity_time": "03:24"
+      "activity_time": "03:25"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:04"
+      "activity_time": "07:05"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:04"
+      "activity_time": "07:05"
     }
   ],
   "foreign": {
