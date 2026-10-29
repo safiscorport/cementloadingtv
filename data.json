@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-30T06:08:46+08:00",
+  "updated_at": "2026-10-30T07:02:38+08:00",
   "berths": [
     {
       "berth": "Berth 1",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "LADY OF GUIDANCE",
+      "voyage": 2,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -29,7 +29,7 @@
       "time": "04:25",
       "remarks": "LOADING S5 SLING BAGS",
       "equipment": "CRANE2/FL1",
-      "activity_time": "01:43"
+      "activity_time": "02:37"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "23:57",
       "remarks": "LOADING S58 LOOSEBAG",
       "equipment": "FL 2",
-      "activity_time": "06:11"
+      "activity_time": "07:05"
     },
     {
       "berth": "Berth 6",
@@ -134,7 +134,7 @@
       "time": "03:40",
       "remarks": "LOADING S57 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:28"
+      "activity_time": "03:22"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "05:08",
       "remarks": "LOADING S27 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:00"
+      "activity_time": "01:54"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "06:08"
+      "activity_time": "07:02"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "06:08"
+      "activity_time": "07:02"
     }
   ],
   "foreign": {
