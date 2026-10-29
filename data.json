@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T07:03:05+08:00",
+  "updated_at": "2026-10-30T07:03:33+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "04:25",
       "remarks": "LOADING S5 SLING BAGS",
       "equipment": "CRANE2/FL1",
-      "activity_time": "02:37"
+      "activity_time": "02:38"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "23:57",
       "remarks": "LOADING S58 LOOSEBAG",
       "equipment": "FL 2",
-      "activity_time": "07:05"
+      "activity_time": "07:06"
     },
     {
       "berth": "Berth 6",
@@ -134,7 +134,7 @@
       "time": "03:40",
       "remarks": "LOADING S57 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:22"
+      "activity_time": "03:23"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "05:08",
       "remarks": "LOADING S27 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:54"
+      "activity_time": "01:55"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:02"
+      "activity_time": "07:03"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:02"
+      "activity_time": "07:03"
     }
   ],
   "foreign": {
@@ -377,10 +377,10 @@
   ],
   "status": {
     "supervisor": "0",
-    "checker": "CANOY/DALUSA/OBIAL\\",
+    "checker": "CANOY/DALUSA/OBIAL",
     "pmc": "JOAN/WILLIAM",
     "cranes": 3,
     "forklifts": 6,
-    "stevedores": 44
+    "stevedores": 0
   }
 }
