@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T07:46:02+08:00",
+  "updated_at": "2026-10-30T07:46:21+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:35",
       "remarks": "1 DR LOADABLE BUT WAITING GEO TRUCKING P-19",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:10"
+      "activity_time": "00:11"
     },
     {
       "berth": "Berth 3",
@@ -72,9 +72,9 @@
       "progress": 0.54,
       "stockpile": 10000,
       "time": "07:35",
-      "remarks": "CONDUCT KY",
+      "remarks": "LOADING OPEN SLING",
       "equipment": "FL 2",
-      "activity_time": "00:10"
+      "activity_time": "00:11"
     },
     {
       "berth": "Berth 6",
@@ -134,7 +134,7 @@
       "time": "07:35",
       "remarks": "CONDUCT KY",
       "equipment": "0",
-      "activity_time": "00:10"
+      "activity_time": "00:11"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:35",
       "remarks": "LOADING TONNER BAG",
       "equipment": "0",
-      "activity_time": "00:10"
+      "activity_time": "00:11"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:45"
+      "activity_time": "07:46"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:45"
+      "activity_time": "07:46"
     }
   ],
   "foreign": {
