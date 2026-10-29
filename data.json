@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T07:05:41+08:00",
+  "updated_at": "2026-10-30T07:21:01+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -27,9 +27,9 @@
       "progress": 0.8136363636363636,
       "stockpile": 2000,
       "time": "04:25",
-      "remarks": "LADY OF CONFIDENCE",
+      "remarks": "1 DR LOADABLE BUT WAITING GEO TRUCKING P-19",
       "equipment": "CRANE2/FL1",
-      "activity_time": "02:40"
+      "activity_time": "02:55"
     },
     {
       "berth": "Berth 3",
@@ -72,7 +72,7 @@
       "progress": 0.54,
       "stockpile": 10000,
       "time": "00:00",
-      "remarks": "EFG 8",
+      "remarks": "LOADING OPEN SLING",
       "equipment": "FL 2",
       "activity_time": "00:00"
     },
@@ -132,9 +132,9 @@
       "progress": 0.6071428571428571,
       "stockpile": 1000,
       "time": "03:40",
-      "remarks": "NIEVES",
+      "remarks": "LOADING OPEN SLING",
       "equipment": "0",
-      "activity_time": "03:25"
+      "activity_time": "03:40"
     },
     {
       "berth": "Berth 10",
@@ -147,7 +147,7 @@
       "progress": 0.2727272727272727,
       "stockpile": 5000,
       "time": "00:00",
-      "remarks": "JOHANNAH 5",
+      "remarks": "LOADING TONNER BAG",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:05"
+      "activity_time": "07:20"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:05"
+      "activity_time": "07:20"
     }
   ],
   "foreign": {
