@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T17:12:14+08:00",
+  "updated_at": "2026-10-30T17:13:02+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -141,11 +141,11 @@
       "vessel": "JOHANNAH 5",
       "voyage": 6,
       "booking": 22000,
-      "dispatch": 23000,
+      "dispatch": 22000,
       "loaded": 22000,
       "balance": 0,
       "progress": 1,
-      "stockpile": 1000,
+      "stockpile": 0,
       "time": "16:48",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 230000,
-    "dispatch": 164500,
+    "dispatch": 163500,
     "loaded": 137500,
     "balance": 92500,
     "progress": 0.6084090909090909,
-    "stockpile": 27000
+    "stockpile": 26000
   },
   "alpha": [
     {
@@ -229,7 +229,7 @@
     {
       "hauler": "SAFISCOR",
       "august": 1038550,
-      "september": 1109570,
+      "september": 1108570,
       "daily": 40750
     },
     {
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 19000
+      "volume": 18000
     },
     {
       "client": "LAPU-LAPU",
