@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T22:24:21+08:00",
+  "updated_at": "2026-10-30T22:24:49+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -71,10 +71,10 @@
       "balance": 17250,
       "progress": 0.655,
       "stockpile": 15250,
-      "time": "19:35",
+      "time": "22:24",
       "remarks": "HATCH COVER UNDER REPAIR",
       "equipment": "CRANE4/FL16",
-      "activity_time": "02:49"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 6",
