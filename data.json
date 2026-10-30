@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T11:01:41+08:00",
+  "updated_at": "2026-10-30T11:03:20+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -22,14 +22,14 @@
       "voyage": 1,
       "booking": 55000,
       "dispatch": 48750,
-      "loaded": 45750,
-      "balance": 9250,
-      "progress": 0.8318181818181818,
-      "stockpile": 3000,
+      "loaded": 46750,
+      "balance": 8250,
+      "progress": 0.85,
+      "stockpile": 2000,
       "time": "09:09",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL1",
-      "activity_time": "01:52"
+      "activity_time": "01:54"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "07:35",
       "remarks": "LOADING OPEN SLING",
       "equipment": "FL 2",
-      "activity_time": "03:26"
+      "activity_time": "03:28"
     },
     {
       "berth": "Berth 6",
@@ -119,7 +119,7 @@
       "time": "10:27",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:34"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "10:02",
       "remarks": "LOADING SLING S37",
       "equipment": "0",
-      "activity_time": "00:59"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "09:12",
       "remarks": "LOADING TONNER S48",
       "equipment": "0",
-      "activity_time": "01:49"
+      "activity_time": "01:51"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 155000,
     "dispatch": 131750,
-    "loaded": 102750,
-    "balance": 52250,
-    "progress": 0.6351623376623377,
-    "stockpile": 29000
+    "loaded": 103750,
+    "balance": 51250,
+    "progress": 0.6397077922077923,
+    "stockpile": 28000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:01"
+      "activity_time": "11:03"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:01"
+      "activity_time": "11:03"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1384910
+      "y2026": 1385910
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14709620
+    "y2026": 14710620
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 8000
+      "qty": 9000
     },
     {
       "shift": "2ND SHIFT",
