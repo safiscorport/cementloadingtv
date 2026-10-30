@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T17:13:02+08:00",
+  "updated_at": "2026-10-30T17:13:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "16:30",
       "remarks": "LOADING SLING S22",
       "equipment": "0",
-      "activity_time": "00:42"
+      "activity_time": "00:43"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "15:03",
       "remarks": "LOADING TONNER S51",
       "equipment": "CRANE2/FL1",
-      "activity_time": "02:09"
+      "activity_time": "02:10"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "13:00",
       "remarks": "HATCH COVER UNDER REPAIR",
       "equipment": "CRANE4/FL16",
-      "activity_time": "04:12"
+      "activity_time": "04:13"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 20000,
       "progress": 0,
       "stockpile": 4000,
-      "time": "15:00",
-      "remarks": "WAITING SC ONBOARD FL",
+      "time": "16:30",
+      "remarks": "NO VESSEL CRANE OPTR",
       "equipment": "FL 2",
-      "activity_time": "02:12"
+      "activity_time": "00:43"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "16:25",
       "remarks": "LOADING COMPLETE",
       "equipment": "FL 3",
-      "activity_time": "00:47"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "16:48",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "00:24"
+      "activity_time": "00:25"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:12"
+      "activity_time": "17:13"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:12"
+      "activity_time": "17:13"
     }
   ],
   "foreign": {
