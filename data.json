@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T20:42:30+08:00",
+  "updated_at": "2026-10-30T21:05:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:30",
       "remarks": "LOADING A19 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:12"
+      "activity_time": "01:35"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "19:35",
       "remarks": "LOADING S24 TONNER BAGS",
       "equipment": "CRANE2/FL1",
-      "activity_time": "01:07"
+      "activity_time": "01:30"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "19:35",
       "remarks": "HATCH COVER UNDER REPAIR",
       "equipment": "CRANE4/FL16",
-      "activity_time": "01:07"
+      "activity_time": "01:30"
     },
     {
       "berth": "Berth 6",
@@ -111,15 +111,15 @@
       "vessel": "STAR SOGOD",
       "voyage": 12,
       "booking": 20000,
-      "dispatch": 6000,
+      "dispatch": 7000,
       "loaded": 1000,
       "balance": 19000,
       "progress": 0.05,
-      "stockpile": 5000,
+      "stockpile": 6000,
       "time": "19:35",
       "remarks": "LOADING S20 SLING BAGS",
       "equipment": "FL 2",
-      "activity_time": "01:07"
+      "activity_time": "01:30"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "16:25",
       "remarks": "LOADING COMPLETE",
       "equipment": "FL 3",
-      "activity_time": "04:17"
+      "activity_time": "04:40"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "16:48",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "03:54"
+      "activity_time": "04:17"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 230000,
-    "dispatch": 166050,
+    "dispatch": 167050,
     "loaded": 140500,
     "balance": 89500,
     "progress": 0.6228030303030303,
-    "stockpile": 25550
+    "stockpile": 26550
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:42"
+      "activity_time": "21:05"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "20:42"
+      "activity_time": "21:05"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1038550,
-      "september": 1110570,
-      "daily": 42750
+      "september": 1112570,
+      "daily": 44750
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 16550
+      "volume": 17550
     },
     {
       "client": "LAPU-LAPU",
