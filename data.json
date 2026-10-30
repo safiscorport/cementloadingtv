@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T15:06:51+08:00",
+  "updated_at": "2026-10-30T15:08:40+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "12:00",
       "remarks": "HATCH COVER UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "03:06"
+      "activity_time": "03:08"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "13:00",
       "remarks": "RESUME LOADING TONNER",
       "equipment": "CRANE2/FL1",
-      "activity_time": "02:06"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "13:00",
       "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "FL 2",
-      "activity_time": "02:06"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 6",
@@ -119,22 +119,22 @@
       "time": "10:27",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "04:39"
+      "activity_time": "04:41"
     },
     {
       "berth": "Berth 9",
       "vessel": "NIEVES",
       "voyage": 5,
       "booking": 28000,
-      "dispatch": 27000,
-      "loaded": 25000,
-      "balance": 3000,
-      "progress": 0.8928571428571429,
+      "dispatch": 28000,
+      "loaded": 26000,
+      "balance": 2000,
+      "progress": 0.9285714285714286,
       "stockpile": 2000,
       "time": "14:05",
       "remarks": "LOADING SLING S30",
       "equipment": "FL 3",
-      "activity_time": "01:01"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:53",
       "remarks": "LOADING TONNER S42",
       "equipment": "CRANE 3",
-      "activity_time": "01:13"
+      "activity_time": "01:15"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 155000,
-    "dispatch": 155500,
-    "loaded": 121500,
-    "balance": 33500,
-    "progress": 0.7790097402597402,
+    "dispatch": 156500,
+    "loaded": 122500,
+    "balance": 32500,
+    "progress": 0.7879383116883116,
     "stockpile": 34000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:06"
+      "activity_time": "15:08"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:06"
+      "activity_time": "15:08"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1038550,
-      "september": 1100570,
-      "daily": 31750
+      "september": 1101570,
+      "daily": 32750
     },
     {
       "hauler": "LAPU-LAPU",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1403660
+      "y2026": 1404660
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14728370
+    "y2026": 14729370
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 24750
+      "qty": 25750
     },
     {
       "shift": "2ND SHIFT",
