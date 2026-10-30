@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T15:09:37+08:00",
+  "updated_at": "2026-10-30T15:09:55+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 8000,
-      "time": "12:00",
-      "remarks": "HATCH COVER UNDER REPAIR",
+      "time": "15:10",
+      "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "03:09"
+      "activity_time": "23:59"
     },
     {
       "berth": "Berth 2",
