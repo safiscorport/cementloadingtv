@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T19:34:05+08:00",
+  "updated_at": "2026-10-30T19:38:33+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 52000,
       "progress": 0.05454545454545454,
       "stockpile": 5000,
-      "time": "16:30",
-      "remarks": "LOADING SLING S22",
+      "time": "19:30",
+      "remarks": "LOADING A19 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:03"
+      "activity_time": "00:08"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 1250,
       "progress": 0.9772727272727273,
       "stockpile": 300,
-      "time": "16:05",
-      "remarks": "LOADING TONNER S21",
+      "time": "19:35",
+      "remarks": "LOADING S24 TONNER BAGS",
       "equipment": "CRANE2/FL1",
-      "activity_time": "03:28"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 3",
@@ -71,10 +71,10 @@
       "balance": 17250,
       "progress": 0.655,
       "stockpile": 15250,
-      "time": "13:00",
-      "remarks": "HATCH COVER UNDER REPAIR",
+      "time": "19:35",
+      "remarks": "LOADING S50 SLING BAGS",
       "equipment": "CRANE4/FL16",
-      "activity_time": "06:33"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 20000,
       "progress": 0,
       "stockpile": 6000,
-      "time": "16:30",
-      "remarks": "NO VESSEL CRANE OPTR",
+      "time": "19:35",
+      "remarks": "LOADING S20 SLING BAGS",
       "equipment": "FL 2",
-      "activity_time": "03:03"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "16:25",
       "remarks": "LOADING COMPLETE",
       "equipment": "FL 3",
-      "activity_time": "03:08"
+      "activity_time": "03:13"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "16:48",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "02:45"
+      "activity_time": "02:50"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:33"
+      "activity_time": "19:38"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:33"
+      "activity_time": "19:38"
     }
   ],
   "foreign": {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "0",
-    "checker": "CANOY/DALUSA/OBIAL",
-    "pmc": "JOAN/WILLIAM",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "TORRES, J / TORREGOSA, J",
+    "pmc": "VICKY / EBOY",
     "cranes": 3,
     "forklifts": 6,
-    "stevedores": 46
+    "stevedores": 44
   }
 }
