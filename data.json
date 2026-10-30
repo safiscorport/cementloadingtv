@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T07:56:46+08:00",
+  "updated_at": "2026-10-30T08:00:55+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:35",
       "remarks": "WAITING GEO TRUCKING",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:21"
+      "activity_time": "00:25"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "07:35",
       "remarks": "LOADING OPEN SLING",
       "equipment": "FL 2",
-      "activity_time": "00:21"
+      "activity_time": "00:25"
     },
     {
       "berth": "Berth 6",
@@ -134,7 +134,7 @@
       "time": "07:35",
       "remarks": "LOADING OPEN SLING",
       "equipment": "0",
-      "activity_time": "00:21"
+      "activity_time": "00:25"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:35",
       "remarks": "LOADING TONNER BAG",
       "equipment": "0",
-      "activity_time": "00:21"
+      "activity_time": "00:25"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:56"
+      "activity_time": "08:00"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:56"
+      "activity_time": "08:00"
     }
   ],
   "foreign": {
@@ -230,7 +230,7 @@
       "hauler": "SAFISCOR",
       "august": 1038550,
       "september": 1068820,
-      "daily": 42000
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
@@ -260,13 +260,13 @@
       "hauler": "APLUS",
       "august": 45000,
       "september": 37975,
-      "daily": 5000
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
       "august": 21000,
       "september": 36500,
-      "daily": 3000
+      "daily": "-"
     }
   ],
   "monthly": [
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 20000
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 34000
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
