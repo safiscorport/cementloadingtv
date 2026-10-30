@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T12:04:31+08:00",
+  "updated_at": "2026-10-30T13:01:48+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "12:00",
       "remarks": "HATCH COVER UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "00:04"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 8250,
       "progress": 0.85,
       "stockpile": 2000,
-      "time": "00:00",
+      "time": "09:09",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:00"
+      "activity_time": "03:52"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "11:25",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "FL 2",
-      "activity_time": "00:39"
+      "activity_time": "01:36"
     },
     {
       "berth": "Berth 6",
@@ -119,7 +119,7 @@
       "time": "10:27",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "01:37"
+      "activity_time": "02:34"
     },
     {
       "berth": "Berth 9",
@@ -133,8 +133,8 @@
       "stockpile": 3000,
       "time": "11:25",
       "remarks": "VESSEL CLOSED / RAIN",
-      "equipment": "0",
-      "activity_time": "00:39"
+      "equipment": "FL 3",
+      "activity_time": "01:36"
     },
     {
       "berth": "Berth 10",
@@ -148,8 +148,8 @@
       "stockpile": 6000,
       "time": "11:25",
       "remarks": "VESSEL CLOSED / RAIN",
-      "equipment": "0",
-      "activity_time": "00:39"
+      "equipment": "CRANE 3",
+      "activity_time": "01:36"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:04"
+      "activity_time": "13:01"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:04"
+      "activity_time": "13:01"
     }
   ],
   "foreign": {
