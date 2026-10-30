@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-30T16:19:39+08:00",
+  "updated_at": "2026-10-30T16:32:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "LADY OF GUIDANCE",
       "voyage": 2,
-      "booking": 0,
+      "booking": 55000,
       "dispatch": 8000,
       "loaded": 1000,
-      "balance": -1000,
-      "progress": 0,
+      "balance": 54000,
+      "progress": 0.01818181818181818,
       "stockpile": 7000,
       "time": "15:11",
       "remarks": "COMMENCE LOADING S60",
       "equipment": "0",
-      "activity_time": "01:08"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "15:03",
       "remarks": "LOADING TONNER S51",
       "equipment": "CRANE2/FL1",
-      "activity_time": "01:16"
+      "activity_time": "01:29"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "13:00",
       "remarks": "HATCH COVER UNDER REPAIR",
       "equipment": "CRANE4/FL16",
-      "activity_time": "03:19"
+      "activity_time": "03:32"
     },
     {
       "berth": "Berth 6",
@@ -110,16 +110,16 @@
       "berth": "Berth 8",
       "vessel": "STAR SOGOD",
       "voyage": 12,
-      "booking": 0,
+      "booking": 20000,
       "dispatch": 4000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 20000,
       "progress": 0,
       "stockpile": 4000,
       "time": "15:00",
       "remarks": "WAITING SC ONBOARD FL",
       "equipment": "FL 2",
-      "activity_time": "01:19"
+      "activity_time": "01:32"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:30",
       "remarks": "LOADING SLING S38",
       "equipment": "FL 3",
-      "activity_time": "01:49"
+      "activity_time": "02:02"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "15:44",
       "remarks": "LOADING TONNER S48",
       "equipment": "CRANE 3",
-      "activity_time": "00:35"
+      "activity_time": "00:48"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 155000,
+    "booking": 230000,
     "dispatch": 163500,
     "loaded": 127500,
-    "balance": 27500,
-    "progress": 0.8129383116883118,
+    "balance": 102500,
+    "progress": 0.5449891774891776,
     "stockpile": 36000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:19"
+      "activity_time": "16:32"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:19"
+      "activity_time": "16:32"
     }
   ],
   "foreign": {
