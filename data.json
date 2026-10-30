@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T22:56:40+08:00",
+  "updated_at": "2026-10-31T05:33:56+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 48000,
       "progress": 0.12727272727272726,
       "stockpile": 1000,
-      "time": "22:10",
-      "remarks": "LOADING S45 SLING BAGS",
+      "time": "05:30",
+      "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "00:46"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "20:22",
       "remarks": "LOADING COMPLETE S19",
       "equipment": "CRANE2/FL1",
-      "activity_time": "02:34"
+      "activity_time": "09:11"
     },
     {
       "berth": "Berth 3",
@@ -71,10 +71,10 @@
       "balance": 17250,
       "progress": 0.655,
       "stockpile": 15250,
-      "time": "22:24",
-      "remarks": "HATCH COVER UNDER REPAIR",
+      "time": "03:32",
+      "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "CRANE4/FL16",
-      "activity_time": "00:32"
+      "activity_time": "02:01"
     },
     {
       "berth": "Berth 6",
@@ -111,15 +111,15 @@
       "vessel": "STAR SOGOD",
       "voyage": 12,
       "booking": 20000,
-      "dispatch": 10000,
-      "loaded": 5000,
-      "balance": 15000,
-      "progress": 0.25,
-      "stockpile": 5000,
-      "time": "22:05",
-      "remarks": "LOADING P9 SLING BAGS",
+      "dispatch": 13080,
+      "loaded": 11000,
+      "balance": 9000,
+      "progress": 0.55,
+      "stockpile": 2080,
+      "time": "05:30",
+      "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "FL 2",
-      "activity_time": "00:51"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "16:25",
       "remarks": "LOADING COMPLETE",
       "equipment": "FL 3",
-      "activity_time": "06:31"
+      "activity_time": "13:08"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "16:48",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "06:08"
+      "activity_time": "12:45"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 230000,
-    "dispatch": 171050,
-    "loaded": 149800,
-    "balance": 80200,
-    "progress": 0.6721969696969697,
-    "stockpile": 21250
+    "dispatch": 174130,
+    "loaded": 155800,
+    "balance": 74200,
+    "progress": 0.7221969696969697,
+    "stockpile": 18330
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:56"
+      "activity_time": "05:33"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:56"
+      "activity_time": "05:33"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1038550,
-      "september": 1118570,
-      "daily": 50750
+      "september": 1122570,
+      "daily": 54750
     },
     {
       "hauler": "LAPU-LAPU",
@@ -241,8 +241,8 @@
     {
       "hauler": "BADIE",
       "august": 39000,
-      "september": 58975,
-      "daily": 2000
+      "september": 59975,
+      "daily": 3000
     },
     {
       "hauler": "GEO",
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "august": 45000,
-      "september": 40975,
-      "daily": 3000
+      "september": 41975,
+      "daily": 4000
     },
     {
       "hauler": "FULACHE",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1432960
+      "y2026": 1440960
     },
     {
       "month": "November",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14757670
+    "y2026": 14765670
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 11300
+      "qty": 19300
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 18250
+      "volume": 14250
     },
     {
       "client": "LAPU-LAPU",
