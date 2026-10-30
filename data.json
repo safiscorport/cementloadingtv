@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T10:22:49+08:00",
+  "updated_at": "2026-10-30T10:27:28+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "09:09",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL1",
-      "activity_time": "01:13"
+      "activity_time": "01:18"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "07:35",
       "remarks": "LOADING OPEN SLING",
       "equipment": "FL 2",
-      "activity_time": "02:47"
+      "activity_time": "02:52"
     },
     {
       "berth": "Berth 6",
@@ -108,16 +108,16 @@
     },
     {
       "berth": "Berth 8",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "STAR SOGOD",
+      "voyage": 12,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "10:27",
+      "remarks": "DOCKED & SECURED",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -134,7 +134,7 @@
       "time": "08:40",
       "remarks": "LOADING SLING A20",
       "equipment": "0",
-      "activity_time": "01:42"
+      "activity_time": "01:47"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "09:12",
       "remarks": "LOADING TONNER S48",
       "equipment": "0",
-      "activity_time": "01:10"
+      "activity_time": "01:15"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:22"
+      "activity_time": "10:27"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:22"
+      "activity_time": "10:27"
     }
   ],
   "foreign": {
