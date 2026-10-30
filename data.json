@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T15:09:55+08:00",
+  "updated_at": "2026-10-30T15:19:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,22 +14,22 @@
       "time": "15:10",
       "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "23:59"
+      "activity_time": "00:08"
     },
     {
       "berth": "Berth 2",
       "vessel": "LADY OF CONFIDENCE",
       "voyage": 1,
       "booking": 55000,
-      "dispatch": 51750,
+      "dispatch": 52750,
       "loaded": 48750,
       "balance": 6250,
       "progress": 0.8863636363636364,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "13:00",
       "remarks": "RESUME LOADING TONNER",
       "equipment": "CRANE2/FL1",
-      "activity_time": "02:09"
+      "activity_time": "02:18"
     },
     {
       "berth": "Berth 3",
@@ -66,15 +66,15 @@
       "vessel": "EFG 8",
       "voyage": 7,
       "booking": 50000,
-      "dispatch": 44750,
+      "dispatch": 45750,
       "loaded": 32750,
       "balance": 17250,
       "progress": 0.655,
-      "stockpile": 12000,
+      "stockpile": 13000,
       "time": "13:00",
       "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "FL 2",
-      "activity_time": "02:09"
+      "activity_time": "02:18"
     },
     {
       "berth": "Berth 6",
@@ -111,15 +111,15 @@
       "vessel": "STAR SOGOD",
       "voyage": 12,
       "booking": 0,
-      "dispatch": 2000,
+      "dispatch": 3000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "15:00",
       "remarks": "WAITING SC ONBOARD FL",
       "equipment": "0",
-      "activity_time": "00:09"
+      "activity_time": "00:18"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:30",
       "remarks": "LOADING SLING S38",
       "equipment": "FL 3",
-      "activity_time": "00:39"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:53",
       "remarks": "LOADING TONNER S42",
       "equipment": "CRANE 3",
-      "activity_time": "01:16"
+      "activity_time": "01:25"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 155000,
-    "dispatch": 156500,
+    "dispatch": 159500,
     "loaded": 122500,
     "balance": 32500,
     "progress": 0.7879383116883116,
-    "stockpile": 34000
+    "stockpile": 37000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:09"
+      "activity_time": "15:18"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:09"
+      "activity_time": "15:18"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1038550,
-      "september": 1101570,
-      "daily": 32750
+      "september": 1104570,
+      "daily": 35750
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 24000
+      "volume": 27000
     },
     {
       "client": "LAPU-LAPU",
