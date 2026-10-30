@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T09:57:57+08:00",
+  "updated_at": "2026-10-30T10:22:49+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "09:09",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:48"
+      "activity_time": "01:13"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "07:35",
       "remarks": "LOADING OPEN SLING",
       "equipment": "FL 2",
-      "activity_time": "02:22"
+      "activity_time": "02:47"
     },
     {
       "berth": "Berth 6",
@@ -134,7 +134,7 @@
       "time": "08:40",
       "remarks": "LOADING SLING A20",
       "equipment": "0",
-      "activity_time": "01:17"
+      "activity_time": "01:42"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "09:12",
       "remarks": "LOADING TONNER S48",
       "equipment": "0",
-      "activity_time": "00:45"
+      "activity_time": "01:10"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:57"
+      "activity_time": "10:22"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:57"
+      "activity_time": "10:22"
     }
   ],
   "foreign": {
@@ -381,6 +381,6 @@
     "pmc": "JOAN/WILLIAM",
     "cranes": 3,
     "forklifts": 6,
-    "stevedores": 0
+    "stevedores": 46
   }
 }
