@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T15:51:53+08:00",
+  "updated_at": "2026-10-30T15:52:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "15:11",
       "remarks": "COMMENCE LOADING S60",
       "equipment": "0",
-      "activity_time": "00:40"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "15:03",
       "remarks": "LOADING TONNER S51",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:48"
+      "activity_time": "00:49"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "13:00",
       "remarks": "HATCH COVER UNDER REPAIR",
       "equipment": "CRANE4/FL16",
-      "activity_time": "02:51"
+      "activity_time": "02:52"
     },
     {
       "berth": "Berth 6",
@@ -111,15 +111,15 @@
       "vessel": "STAR SOGOD",
       "voyage": 12,
       "booking": 0,
-      "dispatch": 3000,
+      "dispatch": 4000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "15:00",
       "remarks": "WAITING SC ONBOARD FL",
       "equipment": "FL 2",
-      "activity_time": "00:51"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:30",
       "remarks": "LOADING SLING S38",
       "equipment": "FL 3",
-      "activity_time": "01:21"
+      "activity_time": "01:22"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:53",
       "remarks": "LOADING TONNER S42",
       "equipment": "CRANE 3",
-      "activity_time": "01:58"
+      "activity_time": "01:59"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 155000,
-    "dispatch": 159500,
+    "dispatch": 160500,
     "loaded": 126500,
     "balance": 28500,
     "progress": 0.8015746753246753,
-    "stockpile": 33000
+    "stockpile": 34000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:51"
+      "activity_time": "15:52"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:51"
+      "activity_time": "15:52"
     }
   ],
   "foreign": {
