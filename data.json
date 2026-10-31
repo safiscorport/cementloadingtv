@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T15:50:15+08:00",
+  "updated_at": "2026-10-31T16:12:00+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "14:50",
       "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "CRANE4/FL2",
-      "activity_time": "00:59"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 2",
@@ -74,7 +74,7 @@
       "time": "14:28",
       "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "CRANE2/FL1",
-      "activity_time": "01:21"
+      "activity_time": "01:43"
     },
     {
       "berth": "Berth 6",
@@ -104,22 +104,22 @@
       "time": "14:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "01:49"
+      "activity_time": "02:11"
     },
     {
       "berth": "Berth 8",
       "vessel": "STAR SOGOD",
       "voyage": 12,
       "booking": 20000,
-      "dispatch": 17080,
+      "dispatch": 18160,
       "loaded": 15080,
       "balance": 4920,
       "progress": 0.754,
-      "stockpile": 2000,
+      "stockpile": 3080,
       "time": "14:50",
       "remarks": "VESSEL CLOSED / CLOUDY",
       "equipment": "CRANE3",
-      "activity_time": "00:59"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:24",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "01:25"
+      "activity_time": "01:47"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 150000,
-    "dispatch": 100530,
+    "dispatch": 101610,
     "loaded": 64580,
     "balance": 85420,
     "progress": 0.4283863636363636,
-    "stockpile": 35950
+    "stockpile": 37030
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:49"
+      "activity_time": "16:11"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:49"
+      "activity_time": "16:11"
     }
   ],
   "foreign": {
