@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T13:08:34+08:00",
+  "updated_at": "2026-10-31T13:15:22+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -12,9 +12,9 @@
       "progress": 0.30454545454545456,
       "stockpile": 14700,
       "time": "13:00",
-      "remarks": "RESUME LOADING SLING",
+      "remarks": "VESSEL BUNKERING",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:08"
+      "activity_time": "00:15"
     },
     {
       "berth": "Berth 2",
@@ -74,7 +74,7 @@
       "time": "08:00",
       "remarks": "HATCH COVER UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "05:08"
+      "activity_time": "05:15"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 6920,
       "progress": 0.654,
       "stockpile": 2000,
-      "time": "09:37",
-      "remarks": "WAITING MASONRY",
+      "time": "13:00",
+      "remarks": "WAITING BADIE TRUCKING",
       "equipment": "FL 2",
-      "activity_time": "03:31"
+      "activity_time": "00:15"
     },
     {
       "berth": "Berth 9",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:08"
+      "activity_time": "13:15"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:08"
+      "activity_time": "13:15"
     }
   ],
   "foreign": {
