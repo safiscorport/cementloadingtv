@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T11:34:37+08:00",
+  "updated_at": "2026-10-31T11:37:15+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "10:09",
       "remarks": "LOADING SLING S48",
       "equipment": "0",
-      "activity_time": "01:25"
+      "activity_time": "01:27"
     },
     {
       "berth": "Berth 2",
@@ -74,7 +74,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "03:34"
+      "activity_time": "03:36"
     },
     {
       "berth": "Berth 6",
@@ -112,14 +112,14 @@
       "voyage": 12,
       "booking": 20000,
       "dispatch": 14080,
-      "loaded": 13000,
-      "balance": 7000,
-      "progress": 0.65,
-      "stockpile": 1080,
+      "loaded": 13080,
+      "balance": 6920,
+      "progress": 0.654,
+      "stockpile": 1000,
       "time": "09:15",
       "remarks": "LOADING POUCH P3",
       "equipment": "FL 2",
-      "activity_time": "02:19"
+      "activity_time": "02:21"
     },
     {
       "berth": "Berth 9",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 125000,
     "dispatch": 84530,
-    "loaded": 59500,
-    "balance": 65500,
-    "progress": 0.5183333333333334,
-    "stockpile": 25030
+    "loaded": 59580,
+    "balance": 65420,
+    "progress": 0.5196666666666667,
+    "stockpile": 24950
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:34"
+      "activity_time": "11:36"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:34"
+      "activity_time": "11:36"
     }
   ],
   "foreign": {
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1446710
+      "y2026": 1446790
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14771420
+    "y2026": 14771500
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 5750
+      "qty": 5830
     },
     {
       "shift": "2ND SHIFT",
