@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-31T13:53:44+08:00",
+  "updated_at": "2026-10-31T13:55:03+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "LADY OF GUIDANCE",
       "voyage": 2,
       "booking": 55000,
-      "dispatch": 32450,
+      "dispatch": 34450,
       "loaded": 16750,
       "balance": 38250,
       "progress": 0.30454545454545456,
-      "stockpile": 15700,
+      "stockpile": 17700,
       "time": "13:00",
       "remarks": "VESSEL BUNKERING",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:53"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 2",
@@ -74,7 +74,7 @@
       "time": "08:00",
       "remarks": "HATCH COVER UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "05:53"
+      "activity_time": "05:54"
     },
     {
       "berth": "Berth 6",
@@ -119,7 +119,7 @@
       "time": "13:00",
       "remarks": "WAITING BADIE TRUCKING",
       "equipment": "CRANE3",
-      "activity_time": "00:53"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 9",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 125000,
-    "dispatch": 96530,
+    "dispatch": 98530,
     "loaded": 62580,
     "balance": 62420,
     "progress": 0.5378484848484849,
-    "stockpile": 33950
+    "stockpile": 35950
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:53"
+      "activity_time": "13:54"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:53"
+      "activity_time": "13:54"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1038550,
-      "september": 1132570,
-      "daily": 10000
+      "september": 1134570,
+      "daily": 12000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 26950
+      "volume": 28950
     },
     {
       "client": "LAPU-LAPU",
