@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T05:33:56+08:00",
+  "updated_at": "2026-10-31T11:24:54+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "05:30",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "0",
-      "activity_time": "00:03"
+      "activity_time": "05:54"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "20:22",
       "remarks": "LOADING COMPLETE S19",
       "equipment": "CRANE2/FL1",
-      "activity_time": "09:11"
+      "activity_time": "15:02"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "03:32",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "CRANE4/FL16",
-      "activity_time": "02:01"
+      "activity_time": "07:52"
     },
     {
       "berth": "Berth 6",
@@ -119,7 +119,7 @@
       "time": "05:30",
       "remarks": "VESSEL CLOSE DUE TO RAIN",
       "equipment": "FL 2",
-      "activity_time": "00:03"
+      "activity_time": "05:54"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "16:25",
       "remarks": "LOADING COMPLETE",
       "equipment": "FL 3",
-      "activity_time": "13:08"
+      "activity_time": "18:59"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "16:48",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "12:45"
+      "activity_time": "18:36"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:33"
+      "activity_time": "11:24"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:33"
+      "activity_time": "11:24"
     }
   ],
   "foreign": {
@@ -230,7 +230,7 @@
       "hauler": "SAFISCOR",
       "august": 1038550,
       "september": 1122570,
-      "daily": 54750
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
@@ -242,7 +242,7 @@
       "hauler": "BADIE",
       "august": 39000,
       "september": 59975,
-      "daily": 3000
+      "daily": "-"
     },
     {
       "hauler": "GEO",
@@ -260,7 +260,7 @@
       "hauler": "APLUS",
       "august": 45000,
       "september": 41975,
-      "daily": 4000
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 42750
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 19300
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
