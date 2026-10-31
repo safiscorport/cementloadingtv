@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T13:15:22+08:00",
+  "updated_at": "2026-10-31T13:15:40+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -118,7 +118,7 @@
       "stockpile": 2000,
       "time": "13:00",
       "remarks": "WAITING BADIE TRUCKING",
-      "equipment": "FL 2",
+      "equipment": "CRANE3",
       "activity_time": "00:15"
     },
     {
