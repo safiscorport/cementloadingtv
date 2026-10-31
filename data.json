@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-10-31T11:40:05+08:00",
+  "updated_at": "2026-10-31T11:43:23+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "LADY OF GUIDANCE",
       "voyage": 2,
       "booking": 55000,
-      "dispatch": 22450,
-      "loaded": 13750,
-      "balance": 41250,
-      "progress": 0.25,
-      "stockpile": 8700,
+      "dispatch": 23450,
+      "loaded": 15750,
+      "balance": 39250,
+      "progress": 0.2863636363636364,
+      "stockpile": 7700,
       "time": "10:57",
       "remarks": "LOADING SLING P16",
       "equipment": "0",
-      "activity_time": "00:42"
+      "activity_time": "00:46"
     },
     {
       "berth": "Berth 2",
@@ -74,7 +74,7 @@
       "time": "08:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "03:39"
+      "activity_time": "03:43"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 6920,
       "progress": 0.654,
       "stockpile": 1000,
-      "time": "09:15",
-      "remarks": "LOADING POUCH P3",
+      "time": "09:37",
+      "remarks": "WAITING MASONRY",
       "equipment": "FL 2",
-      "activity_time": "02:24"
+      "activity_time": "02:06"
     },
     {
       "berth": "Berth 9",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 125000,
-    "dispatch": 84530,
-    "loaded": 59580,
-    "balance": 65420,
-    "progress": 0.5196666666666667,
-    "stockpile": 24950
+    "dispatch": 85530,
+    "loaded": 61580,
+    "balance": 63420,
+    "progress": 0.5317878787878788,
+    "stockpile": 23950
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:39"
+      "activity_time": "11:43"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:39"
+      "activity_time": "11:43"
     }
   ],
   "foreign": {
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "august": 45000,
-      "september": 41975,
-      "daily": "-"
+      "september": 42975,
+      "daily": 1000
     },
     {
       "hauler": "FULACHE",
@@ -318,7 +318,7 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1446790
+      "y2026": 1448790
     },
     {
       "month": "November",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14771500
+    "y2026": 14773500
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 5830
+      "qty": 7830
     },
     {
       "shift": "2ND SHIFT",
