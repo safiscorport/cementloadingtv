@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T11:28:20+08:00",
+  "updated_at": "2026-10-31T11:28:48+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -18,17 +18,17 @@
     },
     {
       "berth": "Berth 2",
-      "vessel": "LADY OF CONFIDENCE",
-      "voyage": 1,
-      "booking": 55000,
-      "dispatch": 55050,
-      "loaded": 55050,
-      "balance": -50,
-      "progress": 1.000909090909091,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
-      "equipment": "CRANE2/FL1",
+      "equipment": "0",
       "activity_time": "00:00"
     },
     {
@@ -123,32 +123,32 @@
     },
     {
       "berth": "Berth 9",
-      "vessel": "NIEVES",
-      "voyage": 5,
-      "booking": 28000,
-      "dispatch": 28000,
-      "loaded": 28000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
-      "equipment": "FL 3",
+      "equipment": "0",
       "activity_time": "00:00"
     },
     {
       "berth": "Berth 10",
-      "vessel": "JOHANNAH 5",
-      "voyage": 6,
-      "booking": 22000,
-      "dispatch": 22000,
-      "loaded": 22000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
-      "equipment": "CRANE 3",
+      "equipment": "0",
       "activity_time": "00:00"
     },
     {
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 230000,
-    "dispatch": 174130,
-    "loaded": 155800,
-    "balance": 74200,
-    "progress": 0.7221969696969697,
+    "booking": 125000,
+    "dispatch": 69080,
+    "loaded": 50750,
+    "balance": 74250,
+    "progress": 0.4440909090909091,
     "stockpile": 18330
   },
   "alpha": [
