@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T13:55:03+08:00",
+  "updated_at": "2026-10-31T14:01:31+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:00",
       "remarks": "VESSEL BUNKERING",
       "equipment": "CRANE2/FL1",
-      "activity_time": "00:54"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 2",
@@ -71,10 +71,10 @@
       "balance": 17250,
       "progress": 0.655,
       "stockpile": 15250,
-      "time": "08:00",
-      "remarks": "HATCH COVER UNDER REPAIR",
+      "time": "13:30",
+      "remarks": "OPENING HATCH",
       "equipment": "0",
-      "activity_time": "05:54"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 6",
@@ -93,18 +93,18 @@
     },
     {
       "berth": "Berth 7",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "LADY OF REMEDY",
+      "voyage": 12,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "14:00",
+      "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:01"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 6920,
       "progress": 0.654,
       "stockpile": 3000,
-      "time": "13:00",
-      "remarks": "WAITING BADIE TRUCKING",
+      "time": "13:30",
+      "remarks": "LOADING MASONRY B5",
       "equipment": "CRANE3",
-      "activity_time": "00:54"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 9",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:54"
+      "activity_time": "14:01"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:54"
+      "activity_time": "14:01"
     }
   ],
   "foreign": {
