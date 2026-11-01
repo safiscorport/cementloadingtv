@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-01T12:27:59+08:00",
+  "updated_at": "2026-11-01T12:29:18+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "LADY OF GUIDANCE",
       "voyage": 2,
       "booking": 55000,
-      "dispatch": 54000,
-      "loaded": 50500,
-      "balance": 4500,
-      "progress": 0.9181818181818182,
-      "stockpile": 3500,
+      "dispatch": 55000,
+      "loaded": 54300,
+      "balance": 700,
+      "progress": 0.9872727272727273,
+      "stockpile": 700,
       "time": "11:43",
       "remarks": "LOADING TONNER S53",
       "equipment": "CRANE4/FL2",
-      "activity_time": "00:44"
+      "activity_time": "00:45"
     },
     {
       "berth": "Berth 2",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 55000,
-    "dispatch": 54000,
-    "loaded": 50500,
-    "balance": 4500,
-    "progress": 0.9181818181818182,
-    "stockpile": 3500
+    "dispatch": 55000,
+    "loaded": 54300,
+    "balance": 700,
+    "progress": 0.9872727272727273,
+    "stockpile": 700
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:27"
+      "activity_time": "12:28"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:27"
+      "activity_time": "12:28"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1151050,
-      "september": 4450,
-      "daily": 4450
+      "september": 5450,
+      "daily": 5450
     },
     {
       "hauler": "LAPU-LAPU",
@@ -318,12 +318,12 @@
     {
       "month": "October",
       "y2025": 1568249,
-      "y2026": 1502910
+      "y2026": 1505710
     },
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 4500
+      "y2026": 5500
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14832120
+    "y2026": 14835920
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 11500
+      "qty": 15300
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 3500
+      "volume": 700
     },
     {
       "client": "LAPU-LAPU",
