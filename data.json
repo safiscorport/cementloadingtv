@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-01T11:30:42+08:00",
+  "updated_at": "2026-11-01T11:31:40+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "LADY OF GUIDANCE",
       "voyage": 2,
       "booking": 55000,
-      "dispatch": 52000,
-      "loaded": 47500,
-      "balance": 7500,
-      "progress": 0.8636363636363636,
+      "dispatch": 54000,
+      "loaded": 49500,
+      "balance": 5500,
+      "progress": 0.9,
       "stockpile": 4500,
       "time": "10:50",
       "remarks": "LOADING TONNER S1",
       "equipment": "CRANE4/FL2",
-      "activity_time": "00:40"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 2",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 55000,
-    "dispatch": 52000,
-    "loaded": 47500,
-    "balance": 7500,
-    "progress": 0.8636363636363636,
+    "dispatch": 54000,
+    "loaded": 49500,
+    "balance": 5500,
+    "progress": 0.9,
     "stockpile": 4500
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:30"
+      "activity_time": "11:31"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:30"
+      "activity_time": "11:31"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1151050,
-      "september": 2450,
-      "daily": 2450
+      "september": 4450,
+      "daily": 4450
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 2500
+      "y2026": 4500
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14829120
+    "y2026": 14831120
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 9500
+      "qty": 11500
     },
     {
       "shift": "2ND SHIFT",
