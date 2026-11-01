@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T10:07:01+08:00",
+  "updated_at": "2026-11-01T11:26:53+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 10950,
       "progress": 0.8009090909090909,
       "stockpile": 6500,
-      "time": "09:17",
-      "remarks": "LOADING SLING S39",
+      "time": "10:15",
+      "remarks": "LOADING TONNER S54",
       "equipment": "CRANE4/FL2",
-      "activity_time": "00:49"
+      "activity_time": "01:11"
     },
     {
       "berth": "Berth 2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:06"
+      "activity_time": "11:26"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:06"
+      "activity_time": "11:26"
     }
   ],
   "foreign": {
