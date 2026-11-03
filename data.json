@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T17:24:24+08:00",
+  "updated_at": "2026-11-03T17:30:07+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "12:30",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE4/FL2",
-      "activity_time": "04:54"
+      "activity_time": "04:59"
     },
     {
       "berth": "Berth 2",
@@ -142,14 +142,14 @@
       "voyage": 11,
       "booking": 0,
       "dispatch": 4000,
-      "loaded": 3000,
-      "balance": -3000,
+      "loaded": 4000,
+      "balance": -4000,
       "progress": 0,
-      "stockpile": 1000,
-      "time": "00:00",
-      "remarks": "QUEEN CAROLYN",
+      "stockpile": 0,
+      "time": "17:00",
+      "remarks": "LOADING S24 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:29"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 55000,
     "dispatch": 67000,
-    "loaded": 65000,
-    "balance": -10000,
+    "loaded": 66000,
+    "balance": -11000,
     "progress": 1,
-    "stockpile": 2000
+    "stockpile": 1000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:24"
+      "activity_time": "17:29"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:24"
+      "activity_time": "17:29"
     }
   ],
   "foreign": {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 15500
+      "y2026": 16500
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14846620
+    "y2026": 14847620
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 10000
+      "qty": 11000
     },
     {
       "shift": "2ND SHIFT",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "FULACHE",
