@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T07:05:46+08:00",
+  "updated_at": "2026-11-03T11:23:04+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -12,9 +12,9 @@
       "progress": 1,
       "stockpile": 0,
       "time": "12:30",
-      "remarks": "VESSEL COMPLETE",
+      "remarks": "LOADING COMPLETE",
       "equipment": "CRANE4/FL2",
-      "activity_time": "18:35"
+      "activity_time": "22:52"
     },
     {
       "berth": "Berth 2",
@@ -93,23 +93,23 @@
     },
     {
       "berth": "Berth 7",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "LADY OF REMEDY",
+      "voyage": 13,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 1000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "LADY OF REMEDY",
       "equipment": "0",
       "activity_time": "00:00"
     },
     {
       "berth": "Berth 8",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "LADY OF DIVINE GRACE",
+      "voyage": 10,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -117,14 +117,14 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "LADY OF DIVINE GRACE",
       "equipment": "0",
       "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "STAR FREEDOM",
+      "voyage": 14,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -132,22 +132,22 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "STAR FREEDOM",
       "equipment": "0",
       "activity_time": "00:00"
     },
     {
       "berth": "Berth 10",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "QUEEN CAROLYN",
+      "voyage": 11,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 1000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "QUEEN CAROLYN",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 55000,
-    "dispatch": 55000,
+    "dispatch": 57000,
     "loaded": 55000,
     "balance": 0,
     "progress": 1,
-    "stockpile": 0
+    "stockpile": 2000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:05"
+      "activity_time": "11:22"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:05"
+      "activity_time": "11:22"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1151050,
-      "september": 5450,
-      "daily": "-"
+      "september": 6450,
+      "daily": 1000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "august": 43975,
-      "september": "-",
-      "daily": "-"
+      "september": 1000,
+      "daily": 1000
     },
     {
       "hauler": "FULACHE",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "LAPU-LAPU",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "FULACHE",
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "0",
-    "checker": "OBIAL / DALUSA",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "PELIMER, J",
+    "checker": "OBIAL, R/ CANOY, E/ TORRES, J",
+    "pmc": "VICKY/EBOY",
     "cranes": 1,
     "forklifts": 3,
-    "stevedores": 14
+    "stevedores": 0
   }
 }
