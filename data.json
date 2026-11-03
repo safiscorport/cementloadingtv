@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T19:31:55+08:00",
+  "updated_at": "2026-11-03T20:18:46+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -104,7 +104,7 @@
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "19:30",
       "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "19:30",
       "remarks": "ONBOARD FL VIA SC",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:30",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "00:01"
+      "activity_time": "00:48"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:31"
+      "activity_time": "20:18"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:31"
+      "activity_time": "20:18"
     }
   ],
   "foreign": {
@@ -223,9 +223,21 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "00:00"
+    "activity_time": "20:18"
   },
   "trucking": [
+    {
+      "hauler": "-",
+      "august": "-",
+      "september": "-",
+      "daily": "-"
+    },
+    {
+      "hauler": "Trucking",
+      "august": "-",
+      "september": "-",
+      "daily": "-"
+    },
     {
       "hauler": "SAFISCOR",
       "august": 1151050,
@@ -245,31 +257,29 @@
       "daily": "-"
     },
     {
-      "hauler": "GEO",
-      "august": 65050,
-      "september": "-",
-      "daily": "-"
+      "hauler": "PTMS",
+      "august": 159490,
+      "september": 1000,
+      "daily": 1000
     },
     {
       "hauler": "UCES",
       "august": "-",
       "september": "-",
       "daily": "-"
-    },
-    {
-      "hauler": "APLUS",
-      "august": 43975,
-      "september": 3000,
-      "daily": 3000
-    },
-    {
-      "hauler": "FULACHE",
-      "august": 35500,
-      "september": "-",
-      "daily": "-"
     }
   ],
   "monthly": [
+    {
+      "month": "-",
+      "y2025": 0,
+      "y2026": "-"
+    },
+    {
+      "month": "-",
+      "y2025": 2025,
+      "y2026": 2026
+    },
     {
       "month": "January",
       "y2025": 1513170,
@@ -319,33 +329,31 @@
       "month": "October",
       "y2025": 1568249,
       "y2026": 1506410
-    },
-    {
-      "month": "November",
-      "y2025": 1014250,
-      "y2026": 16500
-    },
-    {
-      "month": "December",
-      "y2025": 1193484,
-      "y2026": 0
     }
   ],
   "monthly_total": {
-    "y2025": 16616958,
-    "y2026": 14847620
+    "y2025": 1014250,
+    "y2026": 16500
   },
   "daily_production": [
     {
-      "shift": "1st SHIFT",
-      "qty": 11000
+      "shift": "-",
+      "qty": 0
     },
     {
-      "shift": "2ND SHIFT",
+      "shift": "Cement loading Daily Production",
       "qty": 0
     }
   ],
   "trucking_stockpile": [
+    {
+      "client": "-",
+      "volume": "-"
+    },
+    {
+      "client": "TRUCKING (STOCKPILE)",
+      "volume": "-"
+    },
     {
       "client": "SAFISCOR",
       "volume": 8000
@@ -359,28 +367,20 @@
       "volume": "-"
     },
     {
-      "client": "GEO",
-      "volume": "-"
+      "client": "PTMS",
+      "volume": 1000
     },
     {
       "client": "UCES",
       "volume": "-"
-    },
-    {
-      "client": "APLUS",
-      "volume": 1000
-    },
-    {
-      "client": "FULACHE",
-      "volume": "-"
     }
   ],
   "status": {
-    "supervisor": "PELIMER, J",
-    "checker": "OBIAL, R/ CANOY, E/ TORRES, J",
-    "pmc": "VICKY/EBOY",
-    "cranes": 1,
-    "forklifts": 3,
+    "supervisor": "-",
+    "checker": "Officer on Duty",
+    "pmc": "PELIMER, J",
+    "cranes": 0,
+    "forklifts": 0,
     "stevedores": 0
   }
 }
