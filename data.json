@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T17:18:25+08:00",
+  "updated_at": "2026-11-03T17:24:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "12:30",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE4/FL2",
-      "activity_time": "04:48"
+      "activity_time": "04:54"
     },
     {
       "berth": "Berth 2",
@@ -96,11 +96,11 @@
       "vessel": "LADY OF REMEDY",
       "voyage": 13,
       "booking": 0,
-      "dispatch": 7000,
-      "loaded": 5000,
-      "balance": -5000,
+      "dispatch": 8000,
+      "loaded": 7000,
+      "balance": -7000,
       "progress": 0,
-      "stockpile": 2000,
+      "stockpile": 1000,
       "time": "00:00",
       "remarks": "LADY OF REMEDY",
       "equipment": "0",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 55000,
-    "dispatch": 66000,
-    "loaded": 63000,
-    "balance": -8000,
+    "dispatch": 67000,
+    "loaded": 65000,
+    "balance": -10000,
     "progress": 1,
-    "stockpile": 3000
+    "stockpile": 2000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:18"
+      "activity_time": "17:24"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:18"
+      "activity_time": "17:24"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1151050,
-      "september": 14450,
-      "daily": 9000
+      "september": 15450,
+      "daily": 10000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 13500
+      "y2026": 15500
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14844620
+    "y2026": 14846620
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 8000
+      "qty": 10000
     },
     {
       "shift": "2ND SHIFT",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": 2000
+      "volume": 1000
     },
     {
       "client": "FULACHE",
