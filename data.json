@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T17:15:36+08:00",
+  "updated_at": "2026-11-03T17:18:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "12:30",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE4/FL2",
-      "activity_time": "04:45"
+      "activity_time": "04:48"
     },
     {
       "berth": "Berth 2",
@@ -141,9 +141,9 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 11,
       "booking": 0,
-      "dispatch": 3000,
-      "loaded": 2000,
-      "balance": -2000,
+      "dispatch": 4000,
+      "loaded": 3000,
+      "balance": -3000,
       "progress": 0,
       "stockpile": 1000,
       "time": "00:00",
@@ -169,9 +169,9 @@
   ],
   "total": {
     "booking": 55000,
-    "dispatch": 65000,
-    "loaded": 62000,
-    "balance": -7000,
+    "dispatch": 66000,
+    "loaded": 63000,
+    "balance": -8000,
     "progress": 1,
     "stockpile": 3000
   },
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:15"
+      "activity_time": "17:18"
     },
     {
       "berth": "R3",
@@ -210,7 +210,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:15"
+      "activity_time": "17:18"
     }
   ],
   "foreign": {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1151050,
-      "september": 13450,
-      "daily": 8000
+      "september": 14450,
+      "daily": 9000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 12500
+      "y2026": 13500
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 14843620
+    "y2026": 14844620
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 7000
+      "qty": 8000
     },
     {
       "shift": "2ND SHIFT",
