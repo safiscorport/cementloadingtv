@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T01:58:35+08:00",
+  "updated_at": "2026-11-06T03:41:28+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 41000,
       "progress": 0.36923076923076925,
       "stockpile": 14000,
-      "time": "20:59",
-      "remarks": "LOADING POUCH S36",
+      "time": "23:30",
+      "remarks": "LOADING TONNER S43",
       "equipment": "CRANE 2",
-      "activity_time": "04:59"
+      "activity_time": "04:11"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "20:34",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "05:24"
+      "activity_time": "07:07"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "23:06",
       "remarks": "LOADING POUCH S2",
       "equipment": "CRANE 3",
-      "activity_time": "02:52"
+      "activity_time": "04:35"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 22000,
       "progress": 0.08333333333333333,
       "stockpile": 2000,
-      "time": "19:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "22:29",
+      "remarks": "LOADING POUCH S57",
       "equipment": "0",
-      "activity_time": "06:58"
+      "activity_time": "05:12"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "00:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:58"
+      "activity_time": "03:41"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "01:58"
+      "activity_time": "03:41"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "01:58"
+    "activity_time": "03:41"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "01:58"
+    "activity_time": "03:41"
   },
   "trucking": [
     {
