@@ -130,62 +130,6 @@
 
 
 /* =========================================================
-   2026 MONTHLY GRAPH IN THE TRUCKING PANEL
-   ========================================================= */
-
-.analytics-grid > .panel:first-child {
-  display: flex;
-  flex-direction: column;
-  min-height: 0;
-  height: 100%;
-  box-sizing: border-box;
-}
-
-.monthly-2026-chart-wrap {
-  flex: 1 1 auto;
-  min-height: 112px;
-  margin-top: 5px;
-  padding: 5px 7px 2px;
-  border-top: 1px solid rgba(120, 190, 220, .22);
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-.monthly-2026-chart-heading {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #eaf7ff;
-  font-size: clamp(8px, .58vw, 11px);
-  font-weight: 900;
-  letter-spacing: .04em;
-  line-height: 1.2;
-}
-
-.monthly-2026-chart-unit {
-  color: #8fa9b8;
-  font-size: .85em;
-}
-
-#monthly2026Chart {
-  display: block;
-  width: 100%;
-  height: 100%;
-  min-height: 94px;
-  flex: 1 1 auto;
-  overflow: visible;
-}
-
-@media (max-width: 700px) {
-  .monthly-2026-chart-wrap {
-    min-height: 135px;
-  }
-}
-
-
-/* =========================================================
    END MONTHLY VARIANCE
    ========================================================= */
 
@@ -464,21 +408,6 @@
           id="trucking"
           class="table-mini"
         ></div>
-
-        <!-- 2026 MONTHLY CEMENT LOADING GRAPH -->
-        <div class="monthly-2026-chart-wrap">
-          <div class="monthly-2026-chart-heading">
-            <span>2026 MONTHLY CEMENT LOADING</span>
-            <span class="monthly-2026-chart-unit">BAGS</span>
-          </div>
-          <svg
-            id="monthly2026Chart"
-            viewBox="0 0 900 220"
-            preserveAspectRatio="none"
-            role="img"
-            aria-label="2026 monthly cement loading bar graph"
-          ></svg>
-        </div>
 
       </div>
 
@@ -2112,7 +2041,6 @@
       )
     ){
 
-      render2026MonthlyChart();
       return;
 
     }
@@ -2216,91 +2144,6 @@
     monthly.innerHTML =
       html;
 
-    render2026MonthlyChart();
-
-  }
-
-
-  /*
-    Draw the 2026 monthly graph from the same live
-    monthly rows used by the Vessel Cement Loading table.
-  */
-  function render2026MonthlyChart(){
-
-    const svg = document.getElementById("monthly2026Chart");
-    if(!svg) return;
-
-    const rows = Array.from(monthly.querySelectorAll(".monthly-row"))
-      .filter(row => row.querySelector(".monthly-month"));
-
-    const monthRows = rows.filter(row =>
-      row.querySelector(".monthly-month").textContent.trim().toLowerCase() !== "total"
-    );
-
-    const values = monthRows.map(row => {
-      const month = row.querySelector(".monthly-month").textContent.trim();
-      const valueText = row.querySelector(".monthly-2026")?.textContent.trim() || "";
-      return { month, value: toNumber(valueText) };
-    });
-
-    const valid = values.filter(item => item.value !== null && item.value > 0);
-    if(!values.length){
-      svg.innerHTML = '<text x="450" y="115" text-anchor="middle" fill="#91a7b5" font-size="18">Waiting for 2026 monthly data...</text>';
-      return;
-    }
-
-    const W = 900, H = 220;
-    const left = 24, right = 12, top = 25, bottom = 38;
-    const plotW = W - left - right;
-    const plotH = H - top - bottom;
-    const maxValue = Math.max(1, ...valid.map(item => item.value));
-    const step = plotW / values.length;
-    const barW = Math.min(42, step * 0.58);
-
-    let out = `
-      <defs>
-        <linearGradient id="monthly2026Bar" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#8eeaff"/>
-          <stop offset="100%" stop-color="#2388b5"/>
-        </linearGradient>
-      </defs>
-      <line x1="${left}" y1="${top + plotH}" x2="${W-right}" y2="${top + plotH}"
-        stroke="rgba(190,220,235,.35)" stroke-width="1"/>
-    `;
-
-    values.forEach((item, i) => {
-      const x = left + i * step + (step - barW) / 2;
-      const known = item.value !== null && item.value > 0;
-      const barH = known ? (item.value / maxValue) * (plotH - 12) : 0;
-      const y = top + plotH - barH;
-      const label = item.month.slice(0,3);
-      const valueLabel = known
-        ? (item.value >= 1000000
-            ? (item.value / 1000000).toFixed(2).replace(/\.00$/, "") + "M"
-            : item.value >= 1000
-              ? (item.value / 1000).toFixed(0) + "K"
-              : Math.round(item.value).toLocaleString("en-US"))
-        : "—";
-
-      if(known){
-        out += `
-          <rect x="${x}" y="${y}" width="${barW}" height="${barH}" rx="3"
-            fill="url(#monthly2026Bar)" opacity=".95"/>
-          <text x="${x + barW/2}" y="${Math.max(13, y - 5)}"
-            text-anchor="middle" fill="#dff8ff" font-size="13"
-            font-weight="800">${valueLabel}</text>
-        `;
-      } else {
-        out += `<text x="${x + barW/2}" y="${top + plotH - 5}"
-          text-anchor="middle" fill="#758b98" font-size="12">—</text>`;
-      }
-
-      out += `<text x="${x + barW/2}" y="${H - 13}"
-        text-anchor="middle" fill="#b9d0dc" font-size="13"
-        font-weight="700">${label}</text>`;
-    });
-
-    svg.innerHTML = out;
   }
 
 
@@ -2334,7 +2177,6 @@
   */
 
   enhanceMonthly();
-  render2026MonthlyChart();
 
 
 })();
