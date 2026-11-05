@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T00:16:59+08:00",
+  "updated_at": "2026-11-06T00:33:00+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -228,44 +228,44 @@
   "trucking": [
     {
       "hauler": "SAFISCOR",
-      "October": 1151050,
-      "November": 113950,
+      "August": 1151050,
+      "September": 113950,
       "daily": 26800
     },
     {
       "hauler": "LAPU-LAPU",
-      "October": "-",
-      "November": "-",
+      "August": "-",
+      "September": "-",
       "daily": "-"
     },
     {
       "hauler": "BADIE",
-      "October": 63925,
-      "November": 6050,
+      "August": 63925,
+      "September": 6050,
       "daily": 3000
     },
     {
       "hauler": "PTMS",
-      "October": 159490,
-      "November": 30000,
+      "August": 159490,
+      "September": 30000,
       "daily": 5000
     },
     {
       "hauler": "UCES",
-      "October": "-",
-      "November": "-",
+      "August": "-",
+      "September": "-",
       "daily": "-"
     },
     {
       "hauler": "APLUS",
-      "October": 43975,
-      "November": 12000,
+      "August": 43975,
+      "September": 12000,
       "daily": 3000
     },
     {
       "hauler": "FULACHE",
-      "October": 35500,
-      "November": 4000,
+      "August": 35500,
+      "September": 4000,
       "daily": 2000
     }
   ],
