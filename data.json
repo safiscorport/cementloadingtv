@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T03:51:52+08:00",
+  "updated_at": "2026-11-06T03:57:30+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "23:30",
       "remarks": "LOADING TONNER S43",
       "equipment": "CRANE 2",
-      "activity_time": "04:21"
+      "activity_time": "04:27"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "20:34",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "07:17"
+      "activity_time": "07:23"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "23:06",
       "remarks": "LOADING POUCH S2",
       "equipment": "CRANE 3",
-      "activity_time": "04:45"
+      "activity_time": "04:51"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "22:29",
       "remarks": "LOADING POUCH S57",
       "equipment": "0",
-      "activity_time": "05:22"
+      "activity_time": "05:28"
     },
     {
       "berth": "Berth 8",
@@ -146,10 +146,10 @@
       "balance": 10000,
       "progress": 0.75,
       "stockpile": 2000,
-      "time": "00:00",
+      "time": "01:37",
       "remarks": "RESUME LOADING POUCH S7",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "02:20"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "03:51"
+      "activity_time": "03:57"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "03:51"
+    "activity_time": "03:57"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "03:51"
+    "activity_time": "03:57"
   },
   "trucking": [
     {
