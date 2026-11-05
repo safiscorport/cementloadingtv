@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T00:12:01+08:00",
+  "updated_at": "2026-11-06T00:12:14+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -199,6 +199,18 @@
       "remarks": "0",
       "equip": "0",
       "activity_time": "00:10"
+    },
+    {
+      "berth": "R3",
+      "vessel": "VACANT",
+      "materials": "0",
+      "discharge": "0%",
+      "balance": "0%",
+      "progress": "0%",
+      "time": "00:00",
+      "remarks": "0",
+      "equip": "0",
+      "activity_time": "00:10"
     }
   ],
   "foreign": {
@@ -215,15 +227,15 @@
   },
   "anchorage": {
     "berth": "ANCHORAGE",
-    "vessel": "MV LUNOD",
-    "materials": "COAL",
-    "discharge": "5%",
-    "balance": "95%",
-    "progress": "5%",
+    "vessel": "-",
+    "materials": "-",
+    "discharge": "0%",
+    "balance": "0%",
+    "progress": "0%",
     "time": "00:00",
-    "remarks": "FOR TESTING",
-    "equip": "SDLG",
-    "activity_time": "00:10"
+    "remarks": "-",
+    "equip": "0",
+    "activity_time": "00:00"
   },
   "trucking": [
     {
@@ -365,22 +377,14 @@
     {
       "client": "UCES",
       "volume": "-"
-    },
-    {
-      "client": "APLUS",
-      "volume": 1000
-    },
-    {
-      "client": "FULACHE",
-      "volume": 1000
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "DALUSA / TORREGOSA",
-    "pmc": "JOAN / WILLIAM",
-    "cranes": 4,
-    "forklifts": 8,
-    "stevedores": 42
+    "supervisor": "-",
+    "checker": "Officer on Duty",
+    "pmc": "BERNABE,A",
+    "cranes": 0,
+    "forklifts": 0,
+    "stevedores": 0
   }
 }
