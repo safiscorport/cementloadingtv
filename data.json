@@ -179,38 +179,38 @@
     {
       "berth": "R1",
       "vessel": "VACANT",
-      "materials": "-",
-      "discharge": "0%",
-      "balance": "0%",
-      "progress": "0%",
-      "time": "00:00",
-      "remarks": "-",
-      "equip": "0",
-      "activity_time": "00:00"
+      "materials": "COAL",
+      "discharge": "50%",
+      "balance": "50%",
+      "progress": "50%",
+      "time": "21:00",
+      "remarks": "CONTINUE",
+      "equip": "SDLG",
+      "activity_time": "-"
     },
     {
       "berth": "R2",
       "vessel": "VACANT",
-      "materials": "0",
-      "discharge": "0%",
-      "balance": "0%",
-      "progress": "0%",
-      "time": "00:00",
-      "remarks": "0",
-      "equip": "0",
-      "activity_time": "20:18"
+      "materials": "COAL",
+      "discharge": "50%",
+      "balance": "50%",
+      "progress": "50%",
+      "time": "22:00",
+      "remarks": "CONTINUE",
+      "equip": "SDLG",
+      "activity_time": "-"
     },
     {
       "berth": "R3",
       "vessel": "VACANT",
-      "materials": "0",
-      "discharge": "0%",
-      "balance": "0%",
-      "progress": "0%",
-      "time": "00:00",
-      "remarks": "0",
-      "equip": "0",
-      "activity_time": "20:18"
+      "materials": "COAL",
+      "discharge": "50%",
+      "balance": "50%",
+      "progress": "50%",
+      "time": "22:10",
+      "remarks": "CONTINUE",
+      "equip": "SDLG",
+      "activity_time": "-"
     }
   ],
   "foreign": {
