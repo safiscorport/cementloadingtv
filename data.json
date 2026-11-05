@@ -216,14 +216,14 @@
   "foreign": {
     "berth": "Jetty",
     "vessel": "VACANT",
-    "materials": "0",
-    "discharge": "0%",
-    "balance": "0%",
-    "progress": "0%",
-    "time": "00:00",
-    "remarks": "0",
-    "equip": "0",
-    "activity_time": "20:18"
+    "materials": "COAL",
+    "discharge": "50%",
+    "balance": "50%",
+    "progress": "50%",
+    "time": "23:10",
+    "remarks": "CONTINUE",
+    "equip": "SDLG",
+    "activity_time": "-"
   },
   "trucking": [
     {
@@ -270,16 +270,6 @@
     }
   ],
   "monthly": [
-    {
-      "month": "-",
-      "y2025": 0,
-      "y2026": "-"
-    },
-    {
-      "month": "-",
-      "y2025": 2025,
-      "y2026": 2026
-    },
     {
       "month": "January",
       "y2025": 1513170,
@@ -329,11 +319,21 @@
       "month": "October",
       "y2025": 1568249,
       "y2026": 1506410
+    },
+    {
+      "month": "November",
+      "y2025": 1014250,
+      "y2026": 146000
+    },
+    {
+      "month": "December",
+      "y2025": 1193484,
+      "y2026": 0
     }
   ],
   "monthly_total": {
-    "y2025": 1014250,
-    "y2026": 16500
+    "y2025": 16616958,
+    "y2026": 14977120
   },
   "daily_production": [
     {
