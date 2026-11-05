@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T01:09:34+08:00",
+  "updated_at": "2026-11-06T01:13:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -214,7 +214,7 @@
     "activity_time": "01:09"
   },
   "anchorage": {
-    "berth": "ship-sticker",
+    "berth": " ",
     "vessel": "MV LUNOD",
     "materials": "COAL",
     "discharge": "5%",
