@@ -135,6 +135,35 @@
 
 </style>
 
+
+<style>
+/* Updated dashboard data layout */
+.mini-table-head {
+  display:grid !important;
+  grid-template-columns: 1.4fr 1fr;
+  gap:10px;
+  padding:5px 8px;
+  color:rgba(225,242,250,.55);
+  font-size:.72rem;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+}
+.prod-subtitle {
+  padding:7px 0 3px;
+  margin-top:3px;
+  border-top:1px solid rgba(123,214,255,.12);
+  color:#70ddff;
+  font-size:.68rem;
+  font-weight:800;
+  letter-spacing:.07em;
+}
+#trucking .tr {
+  display:grid;
+  grid-template-columns:1.4fr 1fr;
+  gap:10px;
+}
+</style>
+
 </head>
 
 <body>
@@ -253,7 +282,7 @@
         <span>Progress</span>
         <span>Stockpile</span>
         <span>Time</span>
-        <span>Remarks</span>
+        <span>Status / Remarks</span>
         <span>Deployed Equip.</span>
         <span>Activity time</span>
       </div>
@@ -287,65 +316,6 @@
 
 
     <!-- ===================================================
-         BERTH A
-         =================================================== -->
-
-    <section class="table-container">
-
-      <div class="sub-section-title"></div>
-
-      <div class="alpha-header-bar">
-
-        <span>Berth A</span>
-        <span>Vessel</span>
-        <span>MATERIAL</span>
-        <span>DISCHARGE %</span>
-        <span>Balance</span>
-        <span>Progress</span>
-        <span>Time</span>
-        <span>Remarks</span>
-        <span>Deployed Equip.</span>
-        <span>Activity time</span>
-
-      </div>
-
-      <div id="alphaRows"></div>
-
-    </section>
-
-
-    <!-- ===================================================
-         BERTH F
-         =================================================== -->
-
-    <section class="table-container">
-
-      <div class="sub-section-title"></div>
-
-      <div class="alpha-header-bar">
-
-        <span>Berth F</span>
-        <span>Vessel</span>
-        <span>MATERIAL</span>
-        <span>DISCHARGE %</span>
-        <span>Balance</span>
-        <span>Progress</span>
-        <span>Time</span>
-        <span>Remarks</span>
-        <span>Deployed Equip.</span>
-        <span>Activity time</span>
-
-      </div>
-
-      <div
-        id="foreignRow"
-        class="alpha-row"
-      ></div>
-
-    </section>
-
-
-    <!-- ===================================================
          ANALYTICS
          =================================================== -->
 
@@ -355,31 +325,12 @@
 
       <div class="panel">
 
-        <div
-          class="panel-title"
-          style="
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-          "
-        >
-
-          <span style="flex:1;text-align:left;">
-            Trucking
-          </span>
-
-          <span style="flex:1;text-align:left;">
-            September
-          </span>
-
-          <span style="flex:1;text-align:left;">
-            October
-          </span>
-
-          <span style="flex:1;text-align:left;">
-            Daily
-          </span>
-
+        <div class="panel-title">
+          CEMENT HAULING PRODUCTION (MONTHLY)
+        </div>
+        <div class="tr mini-table-head">
+          <b>Client</b>
+          <b>Monthly Qty.</b>
         </div>
 
         <div
@@ -436,7 +387,7 @@
         <div class="panel">
 
           <div class="panel-title">
-            Cement loading Daily Production
+            DAILY PRODUCTION
           </div>
 
           <div
