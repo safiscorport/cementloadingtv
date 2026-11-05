@@ -449,19 +449,19 @@ function render(d) {
     truckData.reduce(
       (acc, curr) => ({
 
-        august:
-          acc.august +
-          (
-            typeof curr.august === 'number'
-              ? curr.august
-              : 0
-          ),
-
         september:
           acc.september +
           (
             typeof curr.september === 'number'
               ? curr.september
+              : 0
+          ),
+
+        november:
+          acc.november +
+          (
+            typeof curr.november === 'number'
+              ? curr.november
               : 0
           ),
 
@@ -475,8 +475,8 @@ function render(d) {
 
       }),
       {
-        august: 0,
         september: 0,
+        november: 0,
         daily: 0
       }
     );
@@ -493,11 +493,11 @@ function render(d) {
         </b>
 
         <span>
-          ${num(x.august)}
+          ${num(x.september)}
         </span>
 
         <span>
-          ${num(x.september)}
+          ${num(x.november)}
         </span>
 
         <span>
@@ -519,11 +519,11 @@ function render(d) {
         </b>
 
         <span>
-          <b>${num(truckTotal.august)}</b>
+          <b>${num(truckTotal.september)}</b>
         </span>
 
         <span>
-          <b>${num(truckTotal.september)}</b>
+          <b>${num(truckTotal.november)}</b>
         </span>
 
         <span>
