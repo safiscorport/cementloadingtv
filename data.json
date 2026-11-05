@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T00:01:37+08:00",
+  "updated_at": "2026-11-06T00:03:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "20:59",
       "remarks": "LOADING POUCH S36",
       "equipment": "CRANE 2",
-      "activity_time": "02:47"
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "20:34",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:12"
+      "activity_time": "03:29"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "20:13",
       "remarks": "WAITING PORTLAND",
       "equipment": "CRANE 3",
-      "activity_time": "03:33"
+      "activity_time": "03:50"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:46"
+      "activity_time": "05:03"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "22:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:46"
+      "activity_time": "02:03"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,19 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "23:46"
+      "activity_time": "00:03"
+    },
+    {
+      "berth": "R3",
+      "vessel": "VACANT",
+      "materials": "0",
+      "discharge": "0%",
+      "balance": "0%",
+      "progress": "0%",
+      "time": "00:00",
+      "remarks": "0",
+      "equip": "0",
+      "activity_time": "00:03"
     }
   ],
   "foreign": {
@@ -211,19 +223,19 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "23:46"
+    "activity_time": "00:03"
   },
   "anchorage": {
     "berth": "ANCHORAGE",
-    "vessel": "MV LUNOD",
-    "materials": "0",
+    "vessel": "-",
+    "materials": "-",
     "discharge": "0%",
     "balance": "0%",
     "progress": "0%",
     "time": "00:00",
-    "remarks": "0",
+    "remarks": "-",
     "equip": "0",
-    "activity_time": "23:46"
+    "activity_time": "00:00"
   },
   "trucking": [
     {
