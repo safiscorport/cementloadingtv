@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T22:21:37+08:00",
+  "updated_at": "2026-11-05T20:49:15+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -18,18 +18,18 @@
     },
     {
       "berth": "Berth 2",
-      "vessel": "JOHANNAH 7",
-      "voyage": 7,
-      "booking": 65000,
-      "dispatch": 37000,
-      "loaded": 24000,
-      "balance": 41000,
-      "progress": 0.36923076923076925,
-      "stockpile": 13000,
-      "time": "20:59",
-      "remarks": "LOADING POUCH S36",
-      "equipment": "CRANE 2",
-      "activity_time": "01:22"
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
+      "stockpile": 0,
+      "time": "00:00",
+      "remarks": "-",
+      "equipment": "0",
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 3",
@@ -48,33 +48,33 @@
     },
     {
       "berth": "Berth 4",
-      "vessel": "EASTERN CEBU",
-      "voyage": 16,
-      "booking": 27000,
-      "dispatch": 3000,
-      "loaded": 3000,
-      "balance": 24000,
-      "progress": 0.1111111111111111,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
       "stockpile": 0,
-      "time": "20:34",
-      "remarks": "WAITING MATERIAL",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "01:47"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 5",
-      "vessel": "LADY OF COURAGE",
-      "voyage": 12,
-      "booking": 25000,
-      "dispatch": 21000,
-      "loaded": 20000,
-      "balance": 5000,
-      "progress": 0.8,
-      "stockpile": 1000,
-      "time": "20:13",
-      "remarks": "WAITING PORTLAND",
-      "equipment": "CRANE 3",
-      "activity_time": "02:08"
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
+      "stockpile": 0,
+      "time": "00:00",
+      "remarks": "-",
+      "equipment": "0",
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 6",
@@ -93,63 +93,63 @@
     },
     {
       "berth": "Berth 7",
-      "vessel": "EMERALD STAR",
-      "voyage": 14,
-      "booking": 24000,
-      "dispatch": 3000,
-      "loaded": 2000,
-      "balance": 22000,
-      "progress": 0.08333333333333333,
-      "stockpile": 1000,
-      "time": "19:00",
-      "remarks": "WAITING MATERIAL",
+      "vessel": "LADY OF REMEDY",
+      "voyage": 13,
+      "booking": 0,
+      "dispatch": 9000,
+      "loaded": 7000,
+      "balance": -7000,
+      "progress": 0,
+      "stockpile": 2000,
+      "time": "19:30",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "03:21"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 8",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "LADY OF DIVINE GRACE",
+      "voyage": 10,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 1000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "stockpile": 1000,
+      "time": "19:30",
+      "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 9",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "STAR FREEDOM",
+      "voyage": 14,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 4000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "stockpile": 4000,
+      "time": "19:30",
+      "remarks": "ONBOARD FL VIA SC",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 10",
       "vessel": "QUEEN CAROLYN",
       "voyage": 11,
-      "booking": 40000,
-      "dispatch": 29000,
-      "loaded": 29000,
-      "balance": 11000,
-      "progress": 0.725,
-      "stockpile": 0,
-      "time": "22:00",
-      "remarks": "WAITING MATERIAL",
+      "booking": 0,
+      "dispatch": 7000,
+      "loaded": 4000,
+      "balance": -4000,
+      "progress": 0,
+      "stockpile": 3000,
+      "time": "19:30",
+      "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "00:21"
+      "activity_time": "00:48"
     },
     {
       "berth": "Jetty",
@@ -168,62 +168,62 @@
     }
   ],
   "total": {
-    "booking": 181000,
-    "dispatch": 93000,
-    "loaded": 78000,
-    "balance": 103000,
-    "progress": 0.41773504273504275,
-    "stockpile": 15000
+    "booking": 0,
+    "dispatch": 21000,
+    "loaded": 11000,
+    "balance": -11000,
+    "progress": 0,
+    "stockpile": 10000
   },
   "alpha": [
     {
       "berth": "R1",
       "vessel": "VACANT",
-      "materials": "-",
-      "discharge": "0%",
-      "balance": "0%",
-      "progress": "0%",
-      "time": "00:00",
-      "remarks": "-",
-      "equip": "0",
-      "activity_time": "00:00"
+      "materials": "COAL",
+      "discharge": "50%",
+      "balance": "50%",
+      "progress": "50%",
+      "time": "21:00",
+      "remarks": "CONTINUE",
+      "equip": "SDLG",
+      "activity_time": "-"
     },
     {
       "berth": "R2",
       "vessel": "VACANT",
-      "materials": "0",
-      "discharge": "0%",
-      "balance": "0%",
-      "progress": "0%",
-      "time": "00:00",
-      "remarks": "0",
-      "equip": "0",
-      "activity_time": "22:21"
+      "materials": "COAL",
+      "discharge": "50%",
+      "balance": "50%",
+      "progress": "50%",
+      "time": "22:00",
+      "remarks": "CONTINUE",
+      "equip": "SDLG",
+      "activity_time": "-"
     },
     {
       "berth": "R3",
       "vessel": "VACANT",
-      "materials": "0",
-      "discharge": "0%",
-      "balance": "0%",
-      "progress": "0%",
-      "time": "00:00",
-      "remarks": "0",
-      "equip": "0",
-      "activity_time": "22:21"
+      "materials": "COAL",
+      "discharge": "50%",
+      "balance": "50%",
+      "progress": "50%",
+      "time": "22:10",
+      "remarks": "CONTINUE",
+      "equip": "SDLG",
+      "activity_time": "-"
     }
   ],
   "foreign": {
     "berth": "Jetty",
     "vessel": "VACANT",
-    "materials": "0",
-    "discharge": "0%",
-    "balance": "0%",
-    "progress": "0%",
-    "time": "00:00",
-    "remarks": "0",
-    "equip": "0",
-    "activity_time": "22:21"
+    "materials": "COAL",
+    "discharge": "50%",
+    "balance": "50%",
+    "progress": "50%",
+    "time": "23:10",
+    "remarks": "CONTINUE",
+    "equip": "SDLG",
+    "activity_time": "-"
   },
   "trucking": [
     {
@@ -241,8 +241,8 @@
     {
       "hauler": "SAFISCOR",
       "august": 1151050,
-      "september": 113950,
-      "daily": 26800
+      "september": 22450,
+      "daily": 17000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -253,14 +253,14 @@
     {
       "hauler": "BADIE",
       "august": 63925,
-      "september": 6050,
-      "daily": 3000
+      "september": 50,
+      "daily": "-"
     },
     {
       "hauler": "PTMS",
       "august": 159490,
-      "september": 30000,
-      "daily": 5000
+      "september": 1000,
+      "daily": 1000
     },
     {
       "hauler": "UCES",
@@ -270,16 +270,6 @@
     }
   ],
   "monthly": [
-    {
-      "month": "-",
-      "y2025": 0,
-      "y2026": "-"
-    },
-    {
-      "month": "-",
-      "y2025": 2025,
-      "y2026": 2026
-    },
     {
       "month": "January",
       "y2025": 1513170,
@@ -329,38 +319,40 @@
       "month": "October",
       "y2025": 1568249,
       "y2026": 1506410
+    },
+    {
+      "month": "November",
+      "y2025": 1014250,
+      "y2026": 146000
+    },
+    {
+      "month": "December",
+      "y2025": 1193484,
+      "y2026": 0
     }
   ],
   "monthly_total": {
-    "y2025": 1014250,
-    "y2026": 151000
+    "y2025": 16616958,
+    "y2026": 14977120
   },
   "daily_production": [
     {
-      "shift": "-",
-      "qty": 0
+      "shift": "1st Shift",
+      "qty": 23800
     },
     {
-      "shift": "Cement loading Daily Production",
-      "qty": 0
+      "shift": "2nd Shift",
+      "qty": 1000
     }
   ],
   "trucking_stockpile": [
     {
-      "client": "-",
-      "volume": "-"
-    },
-    {
-      "client": "TRUCKING (STOCKPILE)",
-      "volume": "-"
-    },
-    {
       "client": "SAFISCOR",
-      "volume": 11000
+      "volume": 10000
     },
     {
       "client": "LAPU-LAPU",
-      "volume": "-"
+      "volume": 0
     },
     {
       "client": "BADIE",
@@ -368,19 +360,39 @@
     },
     {
       "client": "PTMS",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "UCES",
-      "volume": "-"
+      "volume": 0
+    },
+    {
+      "client": "APLUS",
+      "volume": 2000
+    },
+    {
+      "client": "FULACHE",
+      "volume": 1000
     }
   ],
   "status": {
     "supervisor": "-",
     "checker": "Officer on Duty",
-    "pmc": "BERNABE,A",
+    "pmc": "PELIMER, J",
     "cranes": 0,
     "forklifts": 0,
     "stevedores": 0
+  },
+  "anchorage": {
+    "berth": "ANCHORAGE",
+    "vessel": "SAKURAGI",
+    "materials": "COAL",
+    "discharge": "95%",
+    "balance": "5%",
+    "progress": "95%",
+    "time": "20:20",
+    "remarks": "-",
+    "equip": "SDLG",
+    "activity_time": "01:01"
   }
 }
