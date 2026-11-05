@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T03:57:30+08:00",
+  "updated_at": "2026-11-06T03:59:40+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "23:30",
       "remarks": "LOADING TONNER S43",
       "equipment": "CRANE 2",
-      "activity_time": "04:27"
+      "activity_time": "04:29"
     },
     {
       "berth": "Berth 3",
@@ -59,22 +59,22 @@
       "time": "20:34",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "07:23"
+      "activity_time": "07:25"
     },
     {
       "berth": "Berth 5",
       "vessel": "LADY OF COURAGE",
       "voyage": 12,
       "booking": 25000,
-      "dispatch": 21000,
+      "dispatch": 22000,
       "loaded": 21000,
       "balance": 4000,
       "progress": 0.84,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "23:06",
       "remarks": "LOADING POUCH S2",
       "equipment": "CRANE 3",
-      "activity_time": "04:51"
+      "activity_time": "04:53"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "22:29",
       "remarks": "LOADING POUCH S57",
       "equipment": "0",
-      "activity_time": "05:28"
+      "activity_time": "05:30"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "01:37",
       "remarks": "RESUME LOADING POUCH S7",
       "equipment": "0",
-      "activity_time": "02:20"
+      "activity_time": "02:22"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 181000,
-    "dispatch": 101000,
+    "dispatch": 102000,
     "loaded": 87000,
     "balance": 94000,
     "progress": 0.45752991452991454,
-    "stockpile": 14000
+    "stockpile": 15000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "03:57"
+      "activity_time": "03:59"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "03:57"
+    "activity_time": "03:59"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "03:57"
+    "activity_time": "03:59"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 117950,
-      "daily": 30800
+      "September": 118950,
+      "daily": 31800
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 7000
+      "volume": 8000
     },
     {
       "client": "LAPU-LAPU",
