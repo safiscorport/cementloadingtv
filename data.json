@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T00:16:32+08:00",
+  "updated_at": "2026-11-06T00:16:59+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "20:59",
       "remarks": "LOADING POUCH S36",
       "equipment": "CRANE 2",
-      "activity_time": "03:11"
+      "activity_time": "03:17"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "20:34",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:36"
+      "activity_time": "03:42"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "20:13",
       "remarks": "WAITING PORTLAND",
       "equipment": "CRANE 3",
-      "activity_time": "03:57"
+      "activity_time": "04:03"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "05:10"
+      "activity_time": "05:16"
     },
     {
       "berth": "Berth 8",
@@ -149,7 +149,7 @@
       "time": "22:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:10"
+      "activity_time": "02:16"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "00:10"
+      "activity_time": "00:16"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "00:10"
+    "activity_time": "00:16"
   },
   "anchorage": {
     "berth": "ANCHORAGE",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "SDLG",
-    "activity_time": "00:10"
+    "activity_time": "00:16"
   },
   "trucking": [
     {
