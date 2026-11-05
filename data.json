@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T22:21:19+08:00",
+  "updated_at": "2026-11-05T22:21:35+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -146,10 +146,10 @@
       "balance": 11000,
       "progress": 0.725,
       "stockpile": 0,
-      "time": "21:29",
+      "time": "22:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "00:21"
     },
     {
       "berth": "Jetty",
