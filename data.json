@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T23:26:44+08:00",
+  "updated_at": "2026-11-05T23:26:48+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -224,6 +224,18 @@
     "remarks": "0",
     "equip": "0",
     "activity_time": "23:26"
+  },
+  "anchorage": {
+    "berth": "ANCHORAGE",
+    "vessel": "-",
+    "materials": "-",
+    "discharge": "0%",
+    "balance": "0%",
+    "progress": "0%",
+    "time": "00:00",
+    "remarks": "-",
+    "equip": "0",
+    "activity_time": "00:00"
   },
   "trucking": [
     {
