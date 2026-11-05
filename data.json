@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T00:09:12+08:00",
+  "updated_at": "2026-11-06T00:09:48+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -199,18 +199,6 @@
       "remarks": "0",
       "equip": "0",
       "activity_time": "00:08"
-    },
-    {
-      "berth": "R3",
-      "vessel": "VACANT",
-      "materials": "0",
-      "discharge": "0%",
-      "balance": "0%",
-      "progress": "0%",
-      "time": "00:00",
-      "remarks": "0",
-      "equip": "0",
-      "activity_time": "00:08"
     }
   ],
   "foreign": {
@@ -225,61 +213,63 @@
     "equip": "0",
     "activity_time": "00:08"
   },
+  "anchorage": {
+    "berth": "ANCHORAGE",
+    "vessel": "MV LUNOD",
+    "materials": "COAL",
+    "discharge": "5%",
+    "balance": "95%",
+    "progress": "5%",
+    "time": "00:00",
+    "remarks": "FOR TESTING",
+    "equip": "SDLG",
+    "activity_time": "00:08"
+  },
   "trucking": [
     {
-      "hauler": "-",
-      "august": "-",
-      "september": "-",
-      "daily": "-"
-    },
-    {
-      "hauler": "Trucking",
-      "august": "-",
-      "september": "-",
-      "daily": "-"
-    },
-    {
       "hauler": "SAFISCOR",
-      "august": 1151050,
-      "september": 113950,
+      "October": 1151050,
+      "November": 113950,
       "daily": 26800
     },
     {
       "hauler": "LAPU-LAPU",
-      "august": "-",
-      "september": "-",
+      "October": "-",
+      "November": "-",
       "daily": "-"
     },
     {
       "hauler": "BADIE",
-      "august": 63925,
-      "september": 6050,
+      "October": 63925,
+      "November": 6050,
       "daily": 3000
     },
     {
       "hauler": "PTMS",
-      "august": 159490,
-      "september": 30000,
+      "October": 159490,
+      "November": 30000,
       "daily": 5000
     },
     {
       "hauler": "UCES",
-      "august": "-",
-      "september": "-",
+      "October": "-",
+      "November": "-",
       "daily": "-"
+    },
+    {
+      "hauler": "APLUS",
+      "October": 43975,
+      "November": 12000,
+      "daily": 3000
+    },
+    {
+      "hauler": "FULACHE",
+      "October": 35500,
+      "November": 4000,
+      "daily": 2000
     }
   ],
   "monthly": [
-    {
-      "month": "-",
-      "y2025": 0,
-      "y2026": "-"
-    },
-    {
-      "month": "-",
-      "y2025": 2025,
-      "y2026": 2026
-    },
     {
       "month": "January",
       "y2025": 1513170,
@@ -329,31 +319,33 @@
       "month": "October",
       "y2025": 1568249,
       "y2026": 1506410
+    },
+    {
+      "month": "November",
+      "y2025": 1014250,
+      "y2026": 151000
+    },
+    {
+      "month": "December",
+      "y2025": 1193484,
+      "y2026": 0
     }
   ],
   "monthly_total": {
-    "y2025": 1014250,
-    "y2026": 151000
+    "y2025": 16616958,
+    "y2026": 14982120
   },
   "daily_production": [
     {
-      "shift": "-",
-      "qty": 0
+      "shift": "1st SHIFT",
+      "qty": 23800
     },
     {
-      "shift": "Cement loading Daily Production",
-      "qty": 0
+      "shift": "2ND SHIFT",
+      "qty": 6000
     }
   ],
   "trucking_stockpile": [
-    {
-      "client": "-",
-      "volume": "-"
-    },
-    {
-      "client": "TRUCKING (STOCKPILE)",
-      "volume": "-"
-    },
     {
       "client": "SAFISCOR",
       "volume": 11000
@@ -373,6 +365,14 @@
     {
       "client": "UCES",
       "volume": "-"
+    },
+    {
+      "client": "APLUS",
+      "volume": 1000
+    },
+    {
+      "client": "FULACHE",
+      "volume": 1000
     }
   ],
   "status": {
