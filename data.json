@@ -228,44 +228,44 @@
   "trucking": [
     {
       "hauler": "SAFISCOR",
-      "August": 1151050,
-      "September": 114950,
+      "September": 1151050,
+      "November": 114950,
       "daily": 27800
     },
     {
       "hauler": "LAPU-LAPU",
-      "August": "-",
       "September": "-",
+      "November": "-",
       "daily": "-"
     },
     {
       "hauler": "BADIE",
-      "August": 63925,
-      "September": 6050,
+      "September": 63925,
+      "November": 6050,
       "daily": 3000
     },
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 32000,
+      "November": 32000,
       "daily": 7000
     },
     {
       "hauler": "UCES",
-      "August": "-",
       "September": "-",
+      "November": "-",
       "daily": "-"
     },
     {
       "hauler": "APLUS",
-      "August": 43975,
-      "September": 12000,
+      "September": 43975,
+      "November": 12000,
       "daily": 3000
     },
     {
       "hauler": "FULACHE",
-      "August": 35500,
-      "September": 4000,
+      "September": 35500,
+      "November": 4000,
       "daily": 2000
     }
   ],
