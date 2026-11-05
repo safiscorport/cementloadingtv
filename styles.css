@@ -2979,3 +2979,13 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 
+
+
+/* =========================================================
+   ANCHORAGE ROW
+   Uses the same ten-column layout as Berth A / Berth F.
+   ========================================================= */
+.anchorage-row {
+  width: 100%;
+  min-width: 0;
+}
