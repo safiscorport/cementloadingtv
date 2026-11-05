@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T23:39:29+08:00",
+  "updated_at": "2026-11-05T23:42:54+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -239,12 +239,6 @@
   },
   "trucking": [
     {
-      "hauler": "-",
-      "October": "-",
-      "November": "-",
-      "daily": "-"
-    },
-    {
       "hauler": "Trucking",
       "October": "-",
       "November": "-",
@@ -279,6 +273,18 @@
       "October": "-",
       "November": "-",
       "daily": "-"
+    },
+    {
+      "hauler": "APLUS",
+      "October": 43975,
+      "November": 12000,
+      "daily": 3000
+    },
+    {
+      "hauler": "FULACHE",
+      "October": 35500,
+      "November": 4000,
+      "daily": 2000
     }
   ],
   "monthly": [
