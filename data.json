@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T11:22:51+08:00",
+  "updated_at": "2026-11-06T11:23:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -52,10 +52,10 @@
       "voyage": 16,
       "booking": 27000,
       "dispatch": 6000,
-      "loaded": 5000,
-      "balance": 22000,
-      "progress": 0.18518518518518517,
-      "stockpile": 1000,
+      "loaded": 6000,
+      "balance": 21000,
+      "progress": 0.2222222222222222,
+      "stockpile": 0,
       "time": "10:34",
       "remarks": "LOADING A1 SLING BAGS",
       "equipment": "0",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 181000,
     "dispatch": 109000,
-    "loaded": 105000,
-    "balance": 76000,
-    "progress": 0.548037037037037,
-    "stockpile": 4000
+    "loaded": 106000,
+    "balance": 75000,
+    "progress": 0.5554444444444444,
+    "stockpile": 3000
   },
   "alpha": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 178000
+      "y2026": 179000
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15009120
+    "y2026": 15010120
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 3000
+      "qty": 4000
     },
     {
       "shift": "2ND SHIFT",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "FULACHE",
