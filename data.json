@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T16:26:46+08:00",
+  "updated_at": "2026-11-06T16:29:06+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "14:16",
       "remarks": "LOADING TONNER P11",
       "equipment": "CRANE 2",
-      "activity_time": "02:10"
+      "activity_time": "02:12"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "10:34",
       "remarks": "LOADING A1 SLING BAGS",
       "equipment": "0",
-      "activity_time": "05:52"
+      "activity_time": "05:54"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "15:10",
       "remarks": "LOADING SLING S35",
       "equipment": "CRANE 3",
-      "activity_time": "01:16"
+      "activity_time": "01:18"
     },
     {
       "berth": "Berth 6",
@@ -104,22 +104,22 @@
       "time": "10:45",
       "remarks": "LOADING A17 SLING BAGS",
       "equipment": "0",
-      "activity_time": "05:41"
+      "activity_time": "05:43"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF WISDOM",
       "voyage": 9,
       "booking": 30000,
-      "dispatch": 9000,
+      "dispatch": 10000,
       "loaded": 4000,
       "balance": 26000,
       "progress": 0.13333333333333333,
-      "stockpile": 5000,
+      "stockpile": 6000,
       "time": "14:38",
       "remarks": "LOADING SLING B5",
       "equipment": "0",
-      "activity_time": "01:48"
+      "activity_time": "01:50"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "08:35",
       "remarks": "LOADING P10 SLING BAGS",
       "equipment": "0",
-      "activity_time": "07:51"
+      "activity_time": "07:53"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 237000,
-    "dispatch": 123000,
+    "dispatch": 124000,
     "loaded": 115000,
     "balance": 122000,
     "progress": 0.4316727716727717,
-    "stockpile": 8000
+    "stockpile": 9000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:26"
+      "activity_time": "16:28"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "16:26"
+    "activity_time": "16:28"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "16:26"
+    "activity_time": "16:28"
   },
   "trucking": [
     {
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 38000,
-      "daily": 5000
+      "September": 39000,
+      "daily": 6000
     },
     {
       "hauler": "UCES",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 3000
+      "volume": 4000
     },
     {
       "client": "UCES",
