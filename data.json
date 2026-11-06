@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T05:43:03+08:00",
+  "updated_at": "2026-11-06T08:02:07+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 27000,
       "progress": 0.5846153846153846,
       "stockpile": 2000,
-      "time": "05:00",
-      "remarks": "VESSEL CLOSED / CLOUDY",
+      "time": "07:40",
+      "remarks": "LOADING S57 TONNER BAGS",
       "equipment": "CRANE 2",
-      "activity_time": "00:42"
+      "activity_time": "00:21"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 22000,
       "progress": 0.18518518518518517,
       "stockpile": 1000,
-      "time": "04:22",
-      "remarks": "WAITING APLUS PLASTADA",
+      "time": "07:40",
+      "remarks": "LOADING A1 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:20"
+      "activity_time": "00:21"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 3000,
       "progress": 0.88,
       "stockpile": 0,
-      "time": "04:47",
+      "time": "07:34",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "00:55"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 19000,
       "progress": 0.20833333333333334,
       "stockpile": 0,
-      "time": "02:46",
+      "time": "07:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:56"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 8",
@@ -141,12 +141,12 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 11,
       "booking": 40000,
-      "dispatch": 32000,
+      "dispatch": 33000,
       "loaded": 32000,
       "balance": 8000,
       "progress": 0.8,
-      "stockpile": 0,
-      "time": "05:16",
+      "stockpile": 1000,
+      "time": "07:35",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
       "activity_time": "00:26"
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 181000,
-    "dispatch": 105000,
+    "dispatch": 106000,
     "loaded": 102000,
     "balance": 79000,
     "progress": 0.5316267806267806,
-    "stockpile": 3000
+    "stockpile": 4000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:42"
+      "activity_time": "08:01"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "05:42"
+    "activity_time": "08:01"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "05:42"
+    "activity_time": "08:01"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
       "September": 120950,
-      "daily": 33800
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
@@ -242,13 +242,13 @@
       "hauler": "BADIE",
       "August": 63925,
       "September": 7050,
-      "daily": 4000
+      "daily": "-"
     },
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 33000,
-      "daily": 8000
+      "September": 34000,
+      "daily": 1000
     },
     {
       "hauler": "UCES",
@@ -260,13 +260,13 @@
       "hauler": "APLUS",
       "August": 43975,
       "September": 13000,
-      "daily": 4000
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
       "August": 35500,
       "September": 4000,
-      "daily": 2000
+      "daily": "-"
     }
   ],
   "monthly": [
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 23800
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 30000
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "UCES",
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "DALUSA / TORREGOSA",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "OBIAL, R/ CANOY, E/ TORRES, J",
+    "pmc": "VICKY/EBOY",
     "cranes": 4,
     "forklifts": 8,
-    "stevedores": 42
+    "stevedores": 47
   }
 }
