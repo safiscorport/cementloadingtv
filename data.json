@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T17:04:45+08:00",
+  "updated_at": "2026-11-06T17:05:23+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "14:16",
       "remarks": "LOADING TONNER P11",
       "equipment": "CRANE 2",
-      "activity_time": "02:48"
+      "activity_time": "02:49"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "10:34",
       "remarks": "LOADING A1 SLING BAGS",
       "equipment": "0",
-      "activity_time": "06:30"
+      "activity_time": "06:31"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "15:10",
       "remarks": "LOADING SLING S35",
       "equipment": "CRANE 3",
-      "activity_time": "01:54"
+      "activity_time": "01:55"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "10:45",
       "remarks": "LOADING A17 SLING BAGS",
       "equipment": "0",
-      "activity_time": "06:19"
+      "activity_time": "06:20"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 24000,
       "progress": 0.2,
       "stockpile": 5000,
-      "time": "14:38",
-      "remarks": "LOADING SLING B5",
+      "time": "16:00",
+      "remarks": "LOADING SLING S1",
       "equipment": "0",
-      "activity_time": "02:26"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "08:35",
       "remarks": "LOADING P10 SLING BAGS",
       "equipment": "0",
-      "activity_time": "08:29"
+      "activity_time": "08:30"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:04"
+      "activity_time": "17:05"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:04"
+    "activity_time": "17:05"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "17:04"
+    "activity_time": "17:05"
   },
   "trucking": [
     {
