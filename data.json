@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T19:29:51+08:00",
+  "updated_at": "2026-11-06T19:32:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 2000,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "19:00",
+      "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 22000,
       "progress": 0.6615384615384615,
       "stockpile": 1000,
-      "time": "15:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:00",
+      "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "04:29"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 3",
@@ -59,22 +59,22 @@
       "time": "16:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:29"
+      "activity_time": "03:32"
     },
     {
       "berth": "Berth 5",
-      "vessel": "LADY OF COURAGE",
-      "voyage": 12,
-      "booking": 25000,
-      "dispatch": 25000,
-      "loaded": 24000,
-      "balance": 1000,
-      "progress": 0.96,
-      "stockpile": 1000,
-      "time": "16:44",
-      "remarks": "VESSEL COMPLETE",
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
+      "stockpile": 0,
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "02:45"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "11:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "08:29"
+      "activity_time": "08:32"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 22000,
       "progress": 0.26666666666666666,
       "stockpile": 5000,
-      "time": "17:00",
-      "remarks": "WAITING PTMS TRUCKING",
+      "time": "19:00",
+      "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "02:29"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 9",
@@ -132,7 +132,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "NAPOLI",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -146,10 +146,10 @@
       "balance": 6000,
       "progress": 0.85,
       "stockpile": 4000,
-      "time": "16:00",
-      "remarks": "UNABLE TO RESUME DUE CRANE BATTERY NEED TO CHARGE",
+      "time": "19:00",
+      "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "03:29"
+      "activity_time": "00:32"
     },
     {
       "berth": "Jetty",
@@ -168,12 +168,12 @@
     }
   ],
   "total": {
-    "booking": 237000,
-    "dispatch": 137000,
-    "loaded": 123000,
-    "balance": 114000,
-    "progress": 0.4692144892144892,
-    "stockpile": 14000
+    "booking": 212000,
+    "dispatch": 112000,
+    "loaded": 99000,
+    "balance": 113000,
+    "progress": 0.3874169040835707,
+    "stockpile": 13000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:29"
+      "activity_time": "19:32"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "19:29"
+    "activity_time": "19:32"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "19:29"
+    "activity_time": "19:32"
   },
   "trucking": [
     {
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 4000
+      "volume": 3000
     },
     {
       "client": "UCES",
