@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T21:34:39+08:00",
+  "updated_at": "2026-11-06T21:39:38+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "21:00",
       "remarks": "VESSEL DEBALLAST",
       "equipment": "0",
-      "activity_time": "00:34"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "21:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:34"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "16:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "05:34"
+      "activity_time": "05:39"
     },
     {
       "berth": "Berth 5",
@@ -104,7 +104,7 @@
       "time": "20:00",
       "remarks": "VESSEL UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "01:34"
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 22000,
       "progress": 0.26666666666666666,
       "stockpile": 5000,
-      "time": "20:00",
-      "remarks": "HATCH COVER REPAIR",
+      "time": "21:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:34"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:34"
+      "activity_time": "02:39"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "21:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "00:34"
+      "activity_time": "00:39"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:34"
+      "activity_time": "21:39"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "21:34"
+    "activity_time": "21:39"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "21:34"
+    "activity_time": "21:39"
   },
   "trucking": [
     {
