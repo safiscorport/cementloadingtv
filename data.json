@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T05:20:55+08:00",
+  "updated_at": "2026-11-08T05:21:43+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "03:17",
       "remarks": "LOADING SLING S48",
       "equipment": "CRANE 3",
-      "activity_time": "02:03"
+      "activity_time": "02:04"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "02:00",
       "remarks": "WAITING SHORECRANE ASSIST",
       "equipment": "0",
-      "activity_time": "03:20"
+      "activity_time": "03:21"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "09:39",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "19:41"
+      "activity_time": "19:42"
     },
     {
       "berth": "Berth 4",
@@ -59,22 +59,22 @@
       "time": "20:51",
       "remarks": "WAITING DELIVERY",
       "equipment": "CRANE 2",
-      "activity_time": "08:29"
+      "activity_time": "08:30"
     },
     {
       "berth": "Berth 5",
       "vessel": "STAR SOGOD",
       "voyage": 13,
       "booking": 20000,
-      "dispatch": 9520,
-      "loaded": 6000,
-      "balance": 14000,
-      "progress": 0.3,
-      "stockpile": 3520,
+      "dispatch": 10520,
+      "loaded": 8000,
+      "balance": 12000,
+      "progress": 0.4,
+      "stockpile": 2520,
       "time": "04:51",
       "remarks": "WAITING PTMS PLASTADA",
       "equipment": "0",
-      "activity_time": "00:29"
+      "activity_time": "00:30"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "04:29",
       "remarks": "LOADING POUCH P2",
       "equipment": "0",
-      "activity_time": "00:51"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "03:01",
       "remarks": "WAITING PORTLAND SLING",
       "equipment": "0",
-      "activity_time": "02:19"
+      "activity_time": "02:20"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "03:50",
       "remarks": "LOADING TONNER P11",
       "equipment": "CRANE 4",
-      "activity_time": "01:30"
+      "activity_time": "01:31"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 252000,
-    "dispatch": 160970,
-    "loaded": 140000,
-    "balance": 112000,
-    "progress": 0.5256079568579568,
-    "stockpile": 20970
+    "dispatch": 161970,
+    "loaded": 142000,
+    "balance": 110000,
+    "progress": 0.5398936711436711,
+    "stockpile": 19970
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:20"
+      "activity_time": "05:21"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "05:20"
+    "activity_time": "05:21"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "05:20"
+    "activity_time": "05:21"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 198920,
-      "daily": 36970
+      "September": 199920,
+      "daily": 37970
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 277000
+      "y2026": 279000
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15108120
+    "y2026": 15110120
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 36000
+      "qty": 38000
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 11970
+      "volume": 10970
     },
     {
       "client": "LAPU-LAPU",
