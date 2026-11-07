@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T05:37:21+08:00",
+  "updated_at": "2026-11-08T05:38:00+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -7,10 +7,10 @@
       "voyage": 4,
       "booking": 60000,
       "dispatch": 26450,
-      "loaded": 22000,
-      "balance": 38000,
-      "progress": 0.36666666666666664,
-      "stockpile": 4450,
+      "loaded": 24000,
+      "balance": 36000,
+      "progress": 0.4,
+      "stockpile": 2450,
       "time": "04:53",
       "remarks": "LOADING SLING P4",
       "equipment": "CRANE 3",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 252000,
     "dispatch": 161970,
-    "loaded": 142000,
-    "balance": 110000,
-    "progress": 0.5398936711436711,
-    "stockpile": 19970
+    "loaded": 144000,
+    "balance": 108000,
+    "progress": 0.5446555759055759,
+    "stockpile": 17970
   },
   "alpha": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 279000
+      "y2026": 281000
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15110120
+    "y2026": 15112120
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 38000
+      "qty": 40000
     }
   ],
   "trucking_stockpile": [
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 8000
+      "volume": 6000
     },
     {
       "client": "UCES",
