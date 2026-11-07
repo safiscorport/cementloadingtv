@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T17:36:37+08:00",
+  "updated_at": "2026-11-07T17:42:46+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 50000,
       "progress": 0.16666666666666666,
       "stockpile": 8000,
-      "time": "11:01",
-      "remarks": "LOADING S40 SLING BAGS",
+      "time": "17:03",
+      "remarks": "LOADING S2 SLING BAGS",
       "equipment": "0",
-      "activity_time": "06:35"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 14000,
       "progress": 0.7846153846153846,
       "stockpile": 2000,
-      "time": "13:58",
-      "remarks": "LOADING P3 TONNER BAGS",
+      "time": "16:21",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 3",
-      "activity_time": "03:38"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 15000,
       "progress": 0.4444444444444444,
       "stockpile": 2000,
-      "time": "11:30",
-      "remarks": "WAITING MATERIAL",
+      "time": "16:21",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 2",
-      "activity_time": "06:06"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 5",
@@ -101,10 +101,10 @@
       "balance": 10000,
       "progress": 0.5833333333333334,
       "stockpile": 0,
-      "time": "14:43",
-      "remarks": "LOADING S1 SLING BAGS",
+      "time": "16:21",
+      "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "FL 2",
-      "activity_time": "02:53"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 17000,
       "progress": 0.43333333333333335,
       "stockpile": 8000,
-      "time": "09:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "16:21",
+      "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "08:36"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "11:09",
       "remarks": "LOADING S56 SLING BAGS",
       "equipment": "0",
-      "activity_time": "06:27"
+      "activity_time": "06:33"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:36"
+      "activity_time": "17:42"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:36"
+    "activity_time": "17:42"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "17:36"
+    "activity_time": "17:42"
   },
   "trucking": [
     {
