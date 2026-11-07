@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T05:15:33+08:00",
+  "updated_at": "2026-11-08T05:15:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -97,10 +97,10 @@
       "voyage": 14,
       "booking": 24000,
       "dispatch": 16750,
-      "loaded": 15750,
-      "balance": 8250,
-      "progress": 0.65625,
-      "stockpile": 1000,
+      "loaded": 16750,
+      "balance": 7250,
+      "progress": 0.6979166666666666,
+      "stockpile": 0,
       "time": "04:29",
       "remarks": "LOADING POUCH P2",
       "equipment": "0",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 252000,
     "dispatch": 160970,
-    "loaded": 139000,
-    "balance": 113000,
-    "progress": 0.5196555759055759,
-    "stockpile": 21970
+    "loaded": 140000,
+    "balance": 112000,
+    "progress": 0.5256079568579568,
+    "stockpile": 20970
   },
   "alpha": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 276000
+      "y2026": 277000
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15107120
+    "y2026": 15108120
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 35000
+      "qty": 36000
     }
   ],
   "trucking_stockpile": [
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 9000
+      "volume": 8000
     },
     {
       "client": "UCES",
