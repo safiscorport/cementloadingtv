@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T06:02:07+08:00",
+  "updated_at": "2026-11-07T09:41:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 60000,
       "progress": 0,
       "stockpile": 16000,
-      "time": "21:00",
-      "remarks": "VESSEL DEBALLAST",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "09:01"
+      "activity_time": "02:41"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 16000,
       "progress": 0.7538461538461538,
       "stockpile": 3000,
-      "time": "03:00",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE 3",
-      "activity_time": "03:01"
+      "activity_time": "02:41"
     },
     {
       "berth": "Berth 3",
@@ -51,15 +51,15 @@
       "vessel": "EASTERN CEBU",
       "voyage": 16,
       "booking": 27000,
-      "dispatch": 9000,
+      "dispatch": 10000,
       "loaded": 9000,
       "balance": 18000,
       "progress": 0.3333333333333333,
-      "stockpile": 0,
-      "time": "23:00",
-      "remarks": "WAITING MATERIAL",
+      "stockpile": 1000,
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE 2",
-      "activity_time": "07:01"
+      "activity_time": "02:41"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "02:41"
     },
     {
       "berth": "Berth 6",
@@ -96,15 +96,15 @@
       "vessel": "EMERALD STAR",
       "voyage": 14,
       "booking": 24000,
-      "dispatch": 12000,
-      "loaded": 9000,
-      "balance": 15000,
-      "progress": 0.375,
-      "stockpile": 3000,
-      "time": "03:00",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "dispatch": 13000,
+      "loaded": 11000,
+      "balance": 13000,
+      "progress": 0.4583333333333333,
+      "stockpile": 2000,
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "03:01"
+      "activity_time": "02:41"
     },
     {
       "berth": "Berth 8",
@@ -116,40 +116,40 @@
       "balance": 17000,
       "progress": 0.43333333333333335,
       "stockpile": 0,
-      "time": "23:48",
-      "remarks": "WAITING MATERIAL",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "06:13"
+      "activity_time": "02:41"
     },
     {
       "berth": "Berth 9",
       "vessel": "NAPOLI",
       "voyage": 14,
       "booking": 26000,
-      "dispatch": 4000,
-      "loaded": 0,
-      "balance": 26000,
-      "progress": 0,
+      "dispatch": 5000,
+      "loaded": 1000,
+      "balance": 25000,
+      "progress": 0.038461538461538464,
       "stockpile": 4000,
-      "time": "03:00",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "03:01"
+      "activity_time": "02:41"
     },
     {
       "berth": "Berth 10",
-      "vessel": "QUEEN CAROLYN",
-      "voyage": 11,
-      "booking": 40000,
-      "dispatch": 40000,
-      "loaded": 40000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "03:47",
-      "remarks": "LOADING COMPLETE",
-      "equipment": "CRANE 4",
-      "activity_time": "02:14"
+      "time": "00:00",
+      "remarks": "-",
+      "equipment": "0",
+      "activity_time": "00:00"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 272000,
-    "dispatch": 146000,
-    "loaded": 120000,
-    "balance": 152000,
-    "progress": 0.4136446886446886,
+    "booking": 232000,
+    "dispatch": 109000,
+    "loaded": 83000,
+    "balance": 149000,
+    "progress": 0.3362179487179487,
     "stockpile": 26000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "06:01"
+      "activity_time": "09:41"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "06:01"
+    "activity_time": "09:41"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "06:01"
+    "activity_time": "09:41"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 161950,
-      "daily": 41000
+      "September": 164950,
+      "daily": 3000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -242,13 +242,13 @@
       "hauler": "BADIE",
       "August": 63925,
       "September": 11050,
-      "daily": 4000
+      "daily": "-"
     },
     {
       "hauler": "PTMS",
       "August": 159490,
       "September": 48000,
-      "daily": 15000
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -260,13 +260,13 @@
       "hauler": "APLUS",
       "August": 43975,
       "September": 18000,
-      "daily": 5000
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
       "August": 35500,
       "September": 5000,
-      "daily": 1000
+      "daily": "-"
     }
   ],
   "monthly": [
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 217000
+      "y2026": 220000
     },
     {
       "month": "December",
@@ -333,16 +333,16 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15048120
+    "y2026": 15051120
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 21000
+      "qty": 3000
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 21000
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
@@ -376,9 +376,9 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "DALUSA,E",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "0",
+    "checker": "OBIAL, R/ CANOY, E/ TORRES, J",
+    "pmc": "VICKY/EBOY",
     "cranes": 4,
     "forklifts": 8,
     "stevedores": 41
