@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T05:17:39+08:00",
+  "updated_at": "2026-11-08T05:17:57+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -13,7 +13,7 @@
       "stockpile": 4450,
       "time": "03:17",
       "remarks": "LOADING SLING S48",
-      "equipment": "0",
+      "equipment": "CRANE 3",
       "activity_time": "02:00"
     },
     {
@@ -28,7 +28,7 @@
       "stockpile": 2000,
       "time": "02:00",
       "remarks": "WAITING SHORECRANE ASSIST",
-      "equipment": "CRANE 3",
+      "equipment": "0",
       "activity_time": "03:17"
     },
     {
@@ -58,7 +58,7 @@
       "stockpile": 0,
       "time": "20:51",
       "remarks": "WAITING DELIVERY",
-      "equipment": "CRANE2/FL1",
+      "equipment": "CRANE 2",
       "activity_time": "08:26"
     },
     {
@@ -133,7 +133,7 @@
       "stockpile": 1000,
       "time": "03:50",
       "remarks": "LOADING TONNER P11",
-      "equipment": "0",
+      "equipment": "CRANE 4",
       "activity_time": "01:27"
     },
     {
