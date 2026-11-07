@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T17:43:54+08:00",
+  "updated_at": "2026-11-07T19:25:48+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "17:03",
       "remarks": "LOADING S2 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:40"
+      "activity_time": "02:22"
     },
     {
       "berth": "Berth 2",
@@ -29,22 +29,22 @@
       "time": "16:21",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 3",
-      "activity_time": "01:22"
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 3",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "EFG 5",
+      "voyage": 6,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "09:29",
+      "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "09:56"
     },
     {
       "berth": "Berth 4",
@@ -58,8 +58,8 @@
       "stockpile": 2000,
       "time": "16:21",
       "remarks": "VESSEL CLOSE / RAIN",
-      "equipment": "CRANE 2",
-      "activity_time": "01:22"
+      "equipment": "CRANE2/FL1",
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 5",
@@ -103,8 +103,8 @@
       "stockpile": 0,
       "time": "16:21",
       "remarks": "VESSEL CLOSED / RAIN",
-      "equipment": "FL 2",
-      "activity_time": "01:22"
+      "equipment": "0",
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "16:21",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "01:22"
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "17:00",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "02:25"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:43"
+      "activity_time": "19:25"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:43"
+    "activity_time": "19:25"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "17:43"
+    "activity_time": "19:25"
   },
   "trucking": [
     {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER, JOVIC",
-    "checker": "OBIAL, R/ CANOY, E/ TORRES, J",
-    "pmc": "VICKY/EBOY",
+    "supervisor": "BERNABE,A",
+    "checker": "DALUSA,E",
+    "pmc": "JOAN / WILLIAM",
     "cranes": 4,
     "forklifts": 8,
-    "stevedores": 41
+    "stevedores": 0
   }
 }
