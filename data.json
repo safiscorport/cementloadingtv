@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:18:06+08:00",
+  "updated_at": "2026-11-07T21:44:28+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "20:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:17"
+      "activity_time": "01:44"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "20:00",
       "remarks": "LOADING TONNER",
       "equipment": "CRANE 3",
-      "activity_time": "01:17"
+      "activity_time": "01:44"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "09:39",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "11:38"
+      "activity_time": "12:05"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "20:00",
       "remarks": "LOADING POUCH",
       "equipment": "CRANE2/FL1",
-      "activity_time": "01:17"
+      "activity_time": "01:44"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "09:29",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "11:48"
+      "activity_time": "12:15"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "20:27",
       "remarks": "LOADING POUCH S21",
       "equipment": "0",
-      "activity_time": "00:50"
+      "activity_time": "01:17"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "19:00",
       "remarks": "WAITING PORTLAND SLING",
       "equipment": "0",
-      "activity_time": "02:17"
+      "activity_time": "02:44"
     },
     {
       "berth": "Berth 9",
@@ -134,18 +134,18 @@
       "time": "20:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "01:17"
+      "activity_time": "01:44"
     },
     {
       "berth": "Berth 10",
       "vessel": "LAURIN JOY",
       "voyage": 1,
       "booking": 0,
-      "dispatch": 1000,
+      "dispatch": 2000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 1000,
+      "stockpile": 2000,
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 252000,
-    "dispatch": 148970,
+    "dispatch": 149970,
     "loaded": 105000,
     "balance": 147000,
     "progress": 0.3725579975579975,
-    "stockpile": 43970
+    "stockpile": 44970
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:17"
+      "activity_time": "21:44"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "21:17"
+    "activity_time": "21:44"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "21:17"
+    "activity_time": "21:44"
   },
   "trucking": [
     {
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 55000,
-      "daily": 7000
+      "September": 56000,
+      "daily": 8000
     },
     {
       "hauler": "UCES",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 10000
+      "volume": 11000
     },
     {
       "client": "UCES",
