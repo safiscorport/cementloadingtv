@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T05:38:00+08:00",
+  "updated_at": "2026-11-08T06:17:03+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "04:53",
       "remarks": "LOADING SLING P4",
       "equipment": "CRANE 3",
-      "activity_time": "00:44"
+      "activity_time": "01:23"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "02:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "03:37"
+      "activity_time": "04:16"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "09:39",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "19:58"
+      "activity_time": "20:37"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "20:51",
       "remarks": "WAITING DELIVERY",
       "equipment": "CRANE 2",
-      "activity_time": "08:46"
+      "activity_time": "09:25"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "04:51",
       "remarks": "WAITING PTMS PLASTADA",
       "equipment": "0",
-      "activity_time": "00:46"
+      "activity_time": "01:25"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "04:29",
       "remarks": "LOADING POUCH P2",
       "equipment": "0",
-      "activity_time": "01:08"
+      "activity_time": "01:47"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "03:01",
       "remarks": "WAITING PORTLAND SLING",
       "equipment": "0",
-      "activity_time": "02:36"
+      "activity_time": "03:15"
     },
     {
       "berth": "Berth 9",
@@ -134,22 +134,22 @@
       "time": "03:50",
       "remarks": "LOADING TONNER P11",
       "equipment": "CRANE 4",
-      "activity_time": "01:47"
+      "activity_time": "02:26"
     },
     {
       "berth": "Berth 10",
       "vessel": "LAURIN JOY",
       "voyage": 1,
-      "booking": 0,
+      "booking": 22000,
       "dispatch": 2000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 22000,
       "progress": 0,
       "stockpile": 2000,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "19:00",
+      "remarks": "FOR CRANE INSPECTION",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "11:16"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 252000,
+    "booking": 274000,
     "dispatch": 161970,
     "loaded": 144000,
-    "balance": 108000,
-    "progress": 0.5446555759055759,
+    "balance": 130000,
+    "progress": 0.4765736289173789,
     "stockpile": 17970
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:37"
+      "activity_time": "06:16"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "05:37"
+    "activity_time": "06:16"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "05:37"
+    "activity_time": "06:16"
   },
   "trucking": [
     {
