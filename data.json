@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T05:20:36+08:00",
+  "updated_at": "2026-11-08T05:20:55+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -71,10 +71,10 @@
       "balance": 14000,
       "progress": 0.3,
       "stockpile": 3520,
-      "time": "04:35",
-      "remarks": "LOADING SLING S56",
+      "time": "04:51",
+      "remarks": "WAITING PTMS PLASTADA",
       "equipment": "0",
-      "activity_time": "00:45"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 6",
