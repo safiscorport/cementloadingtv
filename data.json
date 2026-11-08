@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-08T17:43:17+08:00",
+  "updated_at": "2026-11-08T21:04:46+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "SF JOURNEY",
       "voyage": 4,
       "booking": 60000,
-      "dispatch": 32450,
-      "loaded": 31450,
-      "balance": 28550,
-      "progress": 0.5241666666666667,
+      "dispatch": 33450,
+      "loaded": 32450,
+      "balance": 27550,
+      "progress": 0.5408333333333334,
       "stockpile": 1000,
       "time": "16:33",
       "remarks": "LOADING S49 SLING BAGS",
       "equipment": "CRANE 3",
-      "activity_time": "01:10"
+      "activity_time": "04:31"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "17:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "04:04"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "17:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "04:04"
     },
     {
       "berth": "Berth 4",
@@ -59,22 +59,22 @@
       "time": "17:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 2",
-      "activity_time": "00:43"
+      "activity_time": "04:04"
     },
     {
       "berth": "Berth 5",
       "vessel": "STAR SOGOD",
       "voyage": 13,
       "booking": 20000,
-      "dispatch": 12520,
-      "loaded": 12520,
-      "balance": 7480,
-      "progress": 0.626,
+      "dispatch": 13520,
+      "loaded": 13520,
+      "balance": 6480,
+      "progress": 0.676,
       "stockpile": 0,
       "time": "17:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "04:04"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "17:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "04:04"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "17:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "04:04"
     },
     {
       "berth": "Berth 9",
       "vessel": "NAPOLI",
       "voyage": 14,
       "booking": 26000,
-      "dispatch": 15000,
-      "loaded": 15000,
-      "balance": 11000,
-      "progress": 0.5769230769230769,
+      "dispatch": 16000,
+      "loaded": 16000,
+      "balance": 10000,
+      "progress": 0.6153846153846154,
       "stockpile": 0,
       "time": "17:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "00:43"
+      "activity_time": "04:04"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "17:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "04:04"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 274000,
-    "dispatch": 177970,
-    "loaded": 169970,
-    "balance": 104030,
-    "progress": 0.5752144764957264,
+    "dispatch": 180970,
+    "loaded": 172970,
+    "balance": 101030,
+    "progress": 0.5883555021367521,
     "stockpile": 8000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:43"
+      "activity_time": "21:04"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:43"
+    "activity_time": "21:04"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "17:43"
+    "activity_time": "21:04"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 211920,
-      "daily": 12000
+      "September": 214920,
+      "daily": 15000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 306970
+      "y2026": 309970
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15138090
+    "y2026": 15141090
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 0
+      "qty": 3000
     }
   ],
   "trucking_stockpile": [
