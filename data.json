@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T08:39:53+08:00",
+  "updated_at": "2026-11-08T11:44:09+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,22 +14,22 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 3",
-      "activity_time": "01:39"
+      "activity_time": "04:43"
     },
     {
       "berth": "Berth 2",
       "vessel": "JOHANNAH 7",
       "voyage": 7,
       "booking": 65000,
-      "dispatch": 56250,
-      "loaded": 54250,
-      "balance": 10750,
-      "progress": 0.8346153846153846,
-      "stockpile": 2000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "dispatch": 58250,
+      "loaded": 58250,
+      "balance": 6750,
+      "progress": 0.8961538461538462,
+      "stockpile": 0,
+      "time": "11:30",
+      "remarks": "LOADING S27 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:39"
+      "activity_time": "00:13"
     },
     {
       "berth": "Berth 3",
@@ -44,37 +44,37 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:39"
+      "activity_time": "04:43"
     },
     {
       "berth": "Berth 4",
       "vessel": "EASTERN CEBU",
       "voyage": 16,
       "booking": 27000,
-      "dispatch": 14000,
-      "loaded": 14000,
-      "balance": 13000,
-      "progress": 0.5185185185185185,
+      "dispatch": 15000,
+      "loaded": 15000,
+      "balance": 12000,
+      "progress": 0.5555555555555556,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "11:30",
+      "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "01:39"
+      "activity_time": "00:13"
     },
     {
       "berth": "Berth 5",
       "vessel": "STAR SOGOD",
       "voyage": 13,
       "booking": 20000,
-      "dispatch": 10520,
-      "loaded": 8000,
-      "balance": 12000,
-      "progress": 0.4,
-      "stockpile": 2520,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "dispatch": 12520,
+      "loaded": 12000,
+      "balance": 8000,
+      "progress": 0.6,
+      "stockpile": 520,
+      "time": "11:00",
+      "remarks": "LOADING S9 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:39"
+      "activity_time": "00:43"
     },
     {
       "berth": "Berth 6",
@@ -96,15 +96,15 @@
       "vessel": "EMERALD STAR",
       "voyage": 14,
       "booking": 24000,
-      "dispatch": 16750,
-      "loaded": 16750,
-      "balance": 7250,
-      "progress": 0.6979166666666666,
+      "dispatch": 17750,
+      "loaded": 17750,
+      "balance": 6250,
+      "progress": 0.7395833333333334,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "11:30",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:39"
+      "activity_time": "00:13"
     },
     {
       "berth": "Berth 8",
@@ -112,29 +112,29 @@
       "voyage": 9,
       "booking": 30000,
       "dispatch": 23000,
-      "loaded": 15000,
-      "balance": 15000,
-      "progress": 0.5,
-      "stockpile": 8000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "loaded": 17000,
+      "balance": 13000,
+      "progress": 0.5666666666666667,
+      "stockpile": 6000,
+      "time": "10:45",
+      "remarks": "LOADING P10 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:39"
+      "activity_time": "00:58"
     },
     {
       "berth": "Berth 9",
       "vessel": "NAPOLI",
       "voyage": 14,
       "booking": 26000,
-      "dispatch": 13000,
-      "loaded": 13000,
-      "balance": 13000,
-      "progress": 0.5,
+      "dispatch": 14000,
+      "loaded": 14000,
+      "balance": 12000,
+      "progress": 0.5384615384615384,
       "stockpile": 0,
-      "time": "08:20",
-      "remarks": "LOADING P19 TONNER BAGS",
+      "time": "11:30",
+      "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "00:19"
+      "activity_time": "00:13"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:39"
+      "activity_time": "04:43"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 274000,
-    "dispatch": 161970,
-    "loaded": 145000,
-    "balance": 129000,
-    "progress": 0.4813813212250712,
-    "stockpile": 16970
+    "dispatch": 168970,
+    "loaded": 158000,
+    "balance": 116000,
+    "progress": 0.5370526175213676,
+    "stockpile": 10970
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:39"
+      "activity_time": "11:43"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "08:39"
+    "activity_time": "11:43"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "08:39"
+    "activity_time": "11:43"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 199920,
-      "daily": "-"
+      "September": 205920,
+      "daily": 6000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -241,8 +241,8 @@
     {
       "hauler": "BADIE",
       "August": 63925,
-      "September": 14050,
-      "daily": "-"
+      "September": 15050,
+      "daily": 1000
     },
     {
       "hauler": "PTMS",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 282000
+      "y2026": 295000
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15113120
+    "y2026": 15126120
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 1000
+      "qty": 14000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 10970
+      "volume": 8970
     },
     {
       "client": "LAPU-LAPU",
@@ -356,11 +356,11 @@
     },
     {
       "client": "BADIE",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "PTMS",
-      "volume": 5000
+      "volume": 2000
     },
     {
       "client": "UCES",
