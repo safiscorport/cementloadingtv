@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T07:35:19+08:00",
+  "updated_at": "2026-11-10T07:36:07+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -48,8 +48,8 @@
     },
     {
       "berth": "Berth 4",
-      "vessel": "0",
-      "voyage": 0,
+      "vessel": "VACANT",
+      "voyage": "-",
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -63,8 +63,8 @@
     },
     {
       "berth": "Berth 5",
-      "vessel": "0",
-      "voyage": 0,
+      "vessel": "VACANT",
+      "voyage": "-",
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -108,8 +108,8 @@
     },
     {
       "berth": "Berth 8",
-      "vessel": "0",
-      "voyage": 0,
+      "vessel": "VACANT",
+      "voyage": "-",
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
