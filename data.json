@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-09T11:16:40+08:00",
+  "updated_at": "2026-11-09T13:03:04+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "SF JOURNEY",
       "voyage": 4,
       "booking": 60000,
-      "dispatch": 46000,
+      "dispatch": 47000,
       "loaded": 46000,
       "balance": 14000,
       "progress": 0.7666666666666667,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:16"
+      "activity_time": "06:02"
     },
     {
       "berth": "Berth 2",
@@ -44,37 +44,37 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "04:16"
+      "activity_time": "06:02"
     },
     {
       "berth": "Berth 4",
       "vessel": "EASTERN CEBU",
       "voyage": 16,
       "booking": 27000,
-      "dispatch": 19250,
+      "dispatch": 20250,
       "loaded": 18250,
       "balance": 8750,
       "progress": 0.6759259259259259,
-      "stockpile": 1000,
+      "stockpile": 2000,
       "time": "10:54",
       "remarks": "CRANE OPTR TAKE LUNCH",
       "equipment": "0",
-      "activity_time": "00:22"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 5",
       "vessel": "STAR SOGOD",
       "voyage": 13,
       "booking": 20000,
-      "dispatch": 13520,
+      "dispatch": 15680,
       "loaded": 13520,
       "balance": 6480,
       "progress": 0.676,
-      "stockpile": 0,
+      "stockpile": 2160,
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:16"
+      "activity_time": "06:02"
     },
     {
       "berth": "Berth 6",
@@ -104,22 +104,22 @@
       "time": "10:25",
       "remarks": "LOADING POUCH S47",
       "equipment": "0",
-      "activity_time": "00:51"
+      "activity_time": "02:37"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF WISDOM",
       "voyage": 9,
       "booking": 30000,
-      "dispatch": 24000,
+      "dispatch": 25000,
       "loaded": 19000,
       "balance": 11000,
       "progress": 0.6333333333333333,
-      "stockpile": 5000,
+      "stockpile": 6000,
       "time": "07:00",
       "remarks": "WAITING PORTLAND SLING",
       "equipment": "0",
-      "activity_time": "04:16"
+      "activity_time": "06:02"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "10:50",
       "remarks": "LOADING TONNER A19",
       "equipment": "0",
-      "activity_time": "00:26"
+      "activity_time": "02:12"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "04:16"
+      "activity_time": "06:02"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 209000,
-    "dispatch": 142520,
+    "dispatch": 147680,
     "loaded": 134520,
     "balance": 74480,
     "progress": 0.6100507733007733,
-    "stockpile": 8000
+    "stockpile": 13160
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:16"
+      "activity_time": "13:02"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "11:16"
+    "activity_time": "13:02"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "11:16"
+    "activity_time": "13:02"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 237470,
-      "daily": 4000
+      "September": 240550,
+      "daily": 7080
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 65000,
-      "daily": "-"
+      "September": 66000,
+      "daily": 1000
     },
     {
       "hauler": "UCES",
@@ -265,8 +265,8 @@
     {
       "hauler": "FULACHE",
       "August": 35500,
-      "September": 5000,
-      "daily": "-"
+      "September": 6080,
+      "daily": 1080
     }
   ],
   "monthly": [
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 7000
+      "volume": 10080
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "UCES",
@@ -372,7 +372,7 @@
     },
     {
       "client": "FULACHE",
-      "volume": "-"
+      "volume": 1080
     }
   ],
   "status": {
