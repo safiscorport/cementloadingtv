@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T13:20:14+08:00",
+  "updated_at": "2026-11-09T13:39:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 14000,
       "progress": 0.7666666666666667,
       "stockpile": 1000,
-      "time": "13:00",
-      "remarks": "OPENING HATCH",
+      "time": "13:40",
+      "remarks": "LOADING TONNER S50",
       "equipment": "CRANE 4",
-      "activity_time": "00:19"
+      "activity_time": "23:59"
     },
     {
       "berth": "Berth 2",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "06:19"
+      "activity_time": "06:39"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "13:00",
       "remarks": "LOADING TONNER S28",
       "equipment": "0",
-      "activity_time": "00:19"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 6480,
       "progress": 0.676,
       "stockpile": 2160,
-      "time": "13:00",
-      "remarks": "OPENING HATCH",
+      "time": "13:40",
+      "remarks": "LOADING SLING",
       "equipment": "CRANE 2",
-      "activity_time": "00:19"
+      "activity_time": "23:59"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "10:25",
       "remarks": "LOADING POUCH S47",
       "equipment": "0",
-      "activity_time": "02:54"
+      "activity_time": "03:14"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 11000,
       "progress": 0.6333333333333333,
       "stockpile": 6000,
-      "time": "13:00",
-      "remarks": "WAITING PTMS PLASTADA",
+      "time": "13:30",
+      "remarks": "LOADING PORTLAND P4",
       "equipment": "0",
-      "activity_time": "00:19"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 9000,
       "progress": 0.6538461538461539,
       "stockpile": 0,
-      "time": "10:50",
-      "remarks": "LOADING TONNER A19",
+      "time": "13:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:29"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "06:19"
+      "activity_time": "06:39"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:19"
+      "activity_time": "13:39"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "13:19"
+    "activity_time": "13:39"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "13:19"
+    "activity_time": "13:39"
   },
   "trucking": [
     {
