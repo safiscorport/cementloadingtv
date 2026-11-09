@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T11:14:53+08:00",
+  "updated_at": "2026-11-09T11:15:12+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -127,10 +127,10 @@
       "voyage": 14,
       "booking": 26000,
       "dispatch": 17000,
-      "loaded": 16000,
-      "balance": 10000,
-      "progress": 0.6153846153846154,
-      "stockpile": 1000,
+      "loaded": 17000,
+      "balance": 9000,
+      "progress": 0.6538461538461539,
+      "stockpile": 0,
       "time": "10:50",
       "remarks": "LOADING TONNER A19",
       "equipment": "0",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 209000,
     "dispatch": 142520,
-    "loaded": 133520,
-    "balance": 75480,
-    "progress": 0.6045562678062678,
-    "stockpile": 9000
+    "loaded": 134520,
+    "balance": 74480,
+    "progress": 0.6100507733007733,
+    "stockpile": 8000
   },
   "alpha": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 335520
+      "y2026": 336520
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15166640
+    "y2026": 15167640
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 3000
+      "qty": 4000
     },
     {
       "shift": "2ND SHIFT",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "FULACHE",
