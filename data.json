@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T15:34:46+08:00",
+  "updated_at": "2026-11-09T15:35:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -127,10 +127,10 @@
       "voyage": 14,
       "booking": 26000,
       "dispatch": 18000,
-      "loaded": 17000,
-      "balance": 9000,
-      "progress": 0.6538461538461539,
-      "stockpile": 1000,
+      "loaded": 18000,
+      "balance": 8000,
+      "progress": 0.6923076923076923,
+      "stockpile": 0,
       "time": "15:06",
       "remarks": "LOADING TONNER P9",
       "equipment": "0",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 209000,
     "dispatch": 157840,
-    "loaded": 141680,
-    "balance": 67320,
-    "progress": 0.6491565934065934,
-    "stockpile": 16160
+    "loaded": 142680,
+    "balance": 66320,
+    "progress": 0.6546510989010988,
+    "stockpile": 15160
   },
   "alpha": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 343680
+      "y2026": 344680
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15174800
+    "y2026": 15175800
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 11160
+      "qty": 12160
     },
     {
       "shift": "2ND SHIFT",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 4000
+      "volume": 3000
     },
     {
       "client": "UCES",
