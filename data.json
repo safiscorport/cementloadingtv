@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T15:28:28+08:00",
+  "updated_at": "2026-11-09T15:29:57+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -7,14 +7,14 @@
       "voyage": 4,
       "booking": 60000,
       "dispatch": 48000,
-      "loaded": 46000,
-      "balance": 14000,
-      "progress": 0.7666666666666667,
-      "stockpile": 2000,
+      "loaded": 47000,
+      "balance": 13000,
+      "progress": 0.7833333333333333,
+      "stockpile": 1000,
       "time": "14:10",
       "remarks": "LOADING POUCH S60",
       "equipment": "CRANE 4",
-      "activity_time": "01:18"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 2",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "08:28"
+      "activity_time": "08:29"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "14:16",
       "remarks": "LOADING TONNER S1",
       "equipment": "0",
-      "activity_time": "01:12"
+      "activity_time": "01:13"
     },
     {
       "berth": "Berth 5",
@@ -67,14 +67,14 @@
       "voyage": 13,
       "booking": 20000,
       "dispatch": 18840,
-      "loaded": 13520,
-      "balance": 6480,
-      "progress": 0.676,
-      "stockpile": 5320,
+      "loaded": 15680,
+      "balance": 4320,
+      "progress": 0.784,
+      "stockpile": 3160,
       "time": "14:28",
       "remarks": "LOADING SLING S36",
       "equipment": "CRANE 2",
-      "activity_time": "01:00"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 6",
@@ -97,29 +97,29 @@
       "voyage": 14,
       "booking": 24000,
       "dispatch": 21750,
-      "loaded": 20750,
-      "balance": 3250,
-      "progress": 0.8645833333333334,
-      "stockpile": 1000,
+      "loaded": 21750,
+      "balance": 2250,
+      "progress": 0.90625,
+      "stockpile": 0,
       "time": "14:22",
       "remarks": "LOADING POUCH P3",
       "equipment": "0",
-      "activity_time": "01:06"
+      "activity_time": "01:07"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF WISDOM",
       "voyage": 9,
       "booking": 30000,
-      "dispatch": 26000,
-      "loaded": 19000,
-      "balance": 11000,
-      "progress": 0.6333333333333333,
+      "dispatch": 27000,
+      "loaded": 20000,
+      "balance": 10000,
+      "progress": 0.6666666666666666,
       "stockpile": 7000,
       "time": "14:05",
       "remarks": "LOADING SLING S61",
       "equipment": "0",
-      "activity_time": "01:23"
+      "activity_time": "01:24"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "15:01",
       "remarks": "WAITING PTMS PLASTADA",
       "equipment": "0",
-      "activity_time": "00:27"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "HATCH UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "08:28"
+      "activity_time": "08:29"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 209000,
-    "dispatch": 156840,
-    "loaded": 134520,
-    "balance": 74480,
-    "progress": 0.6100507733007733,
-    "stockpile": 22320
+    "dispatch": 157840,
+    "loaded": 139680,
+    "balance": 69320,
+    "progress": 0.6385745828245828,
+    "stockpile": 18160
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:28"
+      "activity_time": "15:29"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "15:28"
+    "activity_time": "15:29"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "FOR TESTING",
     "equip": "for testing",
-    "activity_time": "15:28"
+    "activity_time": "15:29"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 246710,
-      "daily": 13240
+      "September": 247710,
+      "daily": 14240
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 336520
+      "y2026": 341680
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15167640
+    "y2026": 15172800
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 4000
+      "qty": 9160
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 16240
+      "volume": 14160
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 5000
+      "volume": 4000
     },
     {
       "client": "UCES",
@@ -372,7 +372,7 @@
     },
     {
       "client": "FULACHE",
-      "volume": 1080
+      "volume": "-"
     }
   ],
   "status": {
