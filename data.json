@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T22:27:16+08:00",
+  "updated_at": "2026-11-09T22:27:44+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -116,10 +116,10 @@
       "balance": 3000,
       "progress": 0.9,
       "stockpile": 2000,
-      "time": "20:21",
-      "remarks": "LOADING SLING S29",
+      "time": "20:55",
+      "remarks": "LOADING SLING S4",
       "equipment": "FL 1",
-      "activity_time": "02:06"
+      "activity_time": "01:32"
     },
     {
       "berth": "Berth 9",
