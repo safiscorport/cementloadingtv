@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T05:12:22+08:00",
+  "updated_at": "2026-11-10T05:13:32+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "10:12"
+      "activity_time": "10:13"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEBALLAST",
       "equipment": "0",
-      "activity_time": "10:12"
+      "activity_time": "10:13"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "02:23",
       "remarks": "LOADING TONNER S60",
       "equipment": "FL 2",
-      "activity_time": "02:49"
+      "activity_time": "02:50"
     },
     {
       "berth": "Berth 4",
@@ -57,9 +57,9 @@
       "progress": 1,
       "stockpile": 0,
       "time": "23:30",
-      "remarks": "WAITING MATERIAL",
+      "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "05:42"
+      "activity_time": "05:43"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "19:53",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "09:19"
+      "activity_time": "09:20"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "17:24",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "11:48"
+      "activity_time": "11:49"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "04:21",
       "remarks": "LOADING POUCH S44",
       "equipment": "FL 1",
-      "activity_time": "00:51"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "04:30",
       "remarks": "LOADING TONNER S32",
       "equipment": "0",
-      "activity_time": "00:42"
+      "activity_time": "00:43"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "HATCH UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "22:12"
+      "activity_time": "22:13"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "05:12"
+      "activity_time": "05:13"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "05:12"
+    "activity_time": "05:13"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "05:12"
+    "activity_time": "05:13"
   },
   "trucking": [
     {
