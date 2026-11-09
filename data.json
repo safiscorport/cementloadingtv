@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:53:41+08:00",
+  "updated_at": "2026-11-10T04:01:31+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "08:53"
+      "activity_time": "09:01"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEBALLAST",
       "equipment": "0",
-      "activity_time": "08:53"
+      "activity_time": "09:01"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "23:05",
       "remarks": "LOADING SLING S55",
       "equipment": "0",
-      "activity_time": "04:48"
+      "activity_time": "04:56"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "22:59",
       "remarks": "LOADING TONNER P4",
       "equipment": "0",
-      "activity_time": "04:54"
+      "activity_time": "05:02"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "19:53",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "08:00"
+      "activity_time": "08:08"
     },
     {
       "berth": "Berth 6",
@@ -104,37 +104,37 @@
       "time": "17:24",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "10:29"
+      "activity_time": "10:37"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF WISDOM",
       "voyage": 9,
       "booking": 30000,
-      "dispatch": 29000,
+      "dispatch": 30000,
       "loaded": 29000,
       "balance": 1000,
       "progress": 0.9666666666666667,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "23:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "04:53"
+      "activity_time": "05:01"
     },
     {
       "berth": "Berth 9",
       "vessel": "NAPOLI",
       "voyage": 14,
       "booking": 26000,
-      "dispatch": 19000,
+      "dispatch": 21000,
       "loaded": 18000,
       "balance": 8000,
       "progress": 0.6923076923076923,
-      "stockpile": 1000,
+      "stockpile": 3000,
       "time": "15:31",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "12:22"
+      "activity_time": "12:30"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "HATCH UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "20:53"
+      "activity_time": "21:01"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 289000,
-    "dispatch": 178450,
+    "dispatch": 181450,
     "loaded": 169450,
     "balance": 119550,
     "progress": 0.6193304843304843,
-    "stockpile": 9000
+    "stockpile": 12000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "03:53"
+      "activity_time": "04:01"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "03:53"
+    "activity_time": "04:01"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "03:53"
+    "activity_time": "04:01"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 260240,
-      "daily": 26770
+      "September": 262240,
+      "daily": 28770
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 72080,
-      "daily": 7080
+      "September": 73080,
+      "daily": 8080
     },
     {
       "hauler": "UCES",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 7000
+      "volume": 9000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 2000
+      "volume": 3000
     },
     {
       "client": "UCES",
