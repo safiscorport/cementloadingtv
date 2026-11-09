@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T19:56:17+08:00",
+  "updated_at": "2026-11-09T19:59:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 12000,
       "progress": 0.8,
       "stockpile": 1000,
-      "time": "16:21",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE 4",
-      "activity_time": "03:34"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 2",
@@ -41,10 +41,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "NO BOOKING",
+      "time": "19:00",
+      "remarks": "WAITING SC TO ONBOARD FL",
       "equipment": "0",
-      "activity_time": "12:55"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 3750,
       "progress": 0.8611111111111112,
       "stockpile": 750,
-      "time": "16:22",
-      "remarks": "LOADING TONNER S10",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "03:33"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 1080,
       "progress": 0.946,
       "stockpile": 0,
-      "time": "17:38",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:30",
+      "remarks": "LOADING LAST TRUCK",
       "equipment": "CRANE 2",
-      "activity_time": "02:17"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "17:24",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "02:31"
+      "activity_time": "02:35"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 5000,
       "progress": 0.8333333333333334,
       "stockpile": 3000,
-      "time": "16:37",
-      "remarks": "LOADING POUCH S60",
+      "time": "19:30",
+      "remarks": "LOADING SLING",
       "equipment": "FL 1",
-      "activity_time": "03:18"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "15:31",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:24"
+      "activity_time": "04:28"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "HATCH UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "12:55"
+      "activity_time": "12:59"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:55"
+      "activity_time": "19:59"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "19:55"
+    "activity_time": "19:59"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "19:55"
+    "activity_time": "19:59"
   },
   "trucking": [
     {
