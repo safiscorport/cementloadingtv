@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T09:04:33+08:00",
+  "updated_at": "2026-11-09T09:05:12+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -18,13 +18,13 @@
     },
     {
       "berth": "Berth 2",
-      "vessel": "JOHANNAH 7",
-      "voyage": 7,
-      "booking": 65000,
-      "dispatch": 65000,
-      "loaded": 65000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
@@ -42,7 +42,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "07:00",
-      "remarks": "WAITING MATERIAL",
+      "remarks": "NO BOOKING",
       "equipment": "0",
       "activity_time": "02:04"
     },
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 274000,
-    "dispatch": 202520,
-    "loaded": 195520,
+    "booking": 209000,
+    "dispatch": 137520,
+    "loaded": 130520,
     "balance": 78480,
-    "progress": 0.6395191417378918,
+    "progress": 0.5880218762718764,
     "stockpile": 7000
   },
   "alpha": [
