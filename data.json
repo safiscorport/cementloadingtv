@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T07:32:19+08:00",
+  "updated_at": "2026-11-10T07:33:27+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -12,9 +12,9 @@
       "progress": 0.8,
       "stockpile": 1000,
       "time": "19:00",
-      "remarks": "CONDCUT KY",
+      "remarks": "CONDUCT KY",
       "equipment": "CRANE 4",
-      "activity_time": "12:32"
+      "activity_time": "12:33"
     },
     {
       "berth": "Berth 2",
@@ -27,9 +27,9 @@
       "progress": 0,
       "stockpile": 1450,
       "time": "19:00",
-      "remarks": "CONDCUT KY",
+      "remarks": "CONDUCT KY",
       "equipment": "0",
-      "activity_time": "12:32"
+      "activity_time": "12:33"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "02:42",
       "remarks": "WAITING PTMD SECURE LOADED TRAILER",
       "equipment": "FL 2",
-      "activity_time": "04:50"
+      "activity_time": "04:51"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "23:30",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "08:02"
+      "activity_time": "08:03"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "19:53",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "11:39"
+      "activity_time": "11:40"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "17:24",
       "remarks": "DOCK AND SECURE",
       "equipment": "0",
-      "activity_time": "14:08"
+      "activity_time": "14:09"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "04:45",
       "remarks": "LOADING COMPLETE",
       "equipment": "FL 1",
-      "activity_time": "02:47"
+      "activity_time": "02:48"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "05:01",
       "remarks": "WAITING TONNER BAGS",
       "equipment": "0",
-      "activity_time": "02:31"
+      "activity_time": "02:32"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "VESSEL DEFECTIVE",
       "equipment": "0",
-      "activity_time": "00:32"
+      "activity_time": "00:33"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:32"
+      "activity_time": "07:33"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:32"
+    "activity_time": "07:33"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:32"
+    "activity_time": "07:33"
   },
   "trucking": [
     {
