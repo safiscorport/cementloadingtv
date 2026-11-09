@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T07:33:27+08:00",
+  "updated_at": "2026-11-10T07:34:14+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -78,8 +78,8 @@
     },
     {
       "berth": "Berth 6",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "ADOLFO SR",
+      "voyage": 13,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
