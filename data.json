@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:36:15+08:00",
+  "updated_at": "2026-11-11T07:42:33+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "05:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 4",
-      "activity_time": "02:36"
+      "activity_time": "02:42"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "05:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:36"
+      "activity_time": "02:42"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "04:24",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "03:12"
+      "activity_time": "03:18"
     },
     {
       "berth": "Berth 4",
@@ -95,16 +95,16 @@
       "berth": "Berth 7",
       "vessel": "ADOLFO SR",
       "voyage": 13,
-      "booking": 0,
+      "booking": 27500,
       "dispatch": 4000,
       "loaded": 3000,
-      "balance": -3000,
-      "progress": 0,
+      "balance": 24500,
+      "progress": 0.10909090909090909,
       "stockpile": 1000,
       "time": "05:26",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:10"
+      "activity_time": "02:16"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "20:57",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "10:39"
+      "activity_time": "10:45"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "05:00",
       "remarks": "VESSEL DEFECTIVE",
       "equipment": "0",
-      "activity_time": "02:36"
+      "activity_time": "02:42"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 219000,
+    "booking": 246500,
     "dispatch": 155450,
     "loaded": 148450,
-    "balance": 70550,
-    "progress": 0.6348333333333334,
+    "balance": 98050,
+    "progress": 0.5597272727272727,
     "stockpile": 7000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:36"
+      "activity_time": "07:42"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:36"
+    "activity_time": "07:42"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:36"
+    "activity_time": "07:42"
   },
   "trucking": [
     {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER, JOVIC",
-    "checker": "TORRES, J",
-    "pmc": "VICKY/EBOY",
+    "supervisor": "BERNABE,A",
+    "checker": "CANOY/OBIAL/DALUSA",
+    "pmc": "JOAN/WILLIAM",
     "cranes": 4,
     "forklifts": 8,
-    "stevedores": 41
+    "stevedores": 0
   }
 }
