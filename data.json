@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T11:07:38+08:00",
+  "updated_at": "2026-11-10T11:22:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "04:07"
+      "activity_time": "04:22"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "09:52",
       "remarks": "LOADING TONNER S43",
       "equipment": "0",
-      "activity_time": "01:15"
+      "activity_time": "01:30"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "09:15",
       "remarks": "LOADING TONNER S30",
       "equipment": "FL 2",
-      "activity_time": "01:52"
+      "activity_time": "02:07"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "07:50",
       "remarks": "DOCK AND SECURE",
       "equipment": "0",
-      "activity_time": "03:17"
+      "activity_time": "03:32"
     },
     {
       "berth": "Berth 8",
@@ -131,10 +131,10 @@
       "balance": 4000,
       "progress": 0.8461538461538461,
       "stockpile": 2000,
-      "time": "07:00",
-      "remarks": "WAITING TONNER BAGS",
+      "time": "11:05",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:07"
+      "activity_time": "00:17"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE HATCH",
       "equipment": "0",
-      "activity_time": "04:07"
+      "activity_time": "04:22"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:07"
+      "activity_time": "11:22"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "11:07"
+    "activity_time": "11:22"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "11:07"
+    "activity_time": "11:22"
   },
   "trucking": [
     {
