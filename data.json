@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:42:33+08:00",
+  "updated_at": "2026-11-11T07:42:50+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -108,13 +108,13 @@
     },
     {
       "berth": "Berth 8",
-      "vessel": "LADY OF WISDOM",
-      "voyage": 9,
-      "booking": 31000,
-      "dispatch": 31000,
-      "loaded": 31000,
+      "vessel": "0",
+      "voyage": 0,
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "KY TOOLBOX",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 246500,
-    "dispatch": 155450,
-    "loaded": 148450,
+    "booking": 215500,
+    "dispatch": 124450,
+    "loaded": 117450,
     "balance": 98050,
-    "progress": 0.5597272727272727,
+    "progress": 0.4863484848484849,
     "stockpile": 7000
   },
   "alpha": [
