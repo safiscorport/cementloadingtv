@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T09:52:19+08:00",
+  "updated_at": "2026-11-10T10:21:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,37 +14,37 @@
       "time": "19:00",
       "remarks": "CONDUCT KY",
       "equipment": "CRANE 4",
-      "activity_time": "14:51"
+      "activity_time": "15:20"
     },
     {
       "berth": "Berth 2",
       "vessel": "EFG 7",
       "voyage": 6,
       "booking": 50000,
-      "dispatch": 13450,
+      "dispatch": 14450,
       "loaded": 0,
       "balance": 50000,
       "progress": 0,
-      "stockpile": 13450,
+      "stockpile": 14450,
       "time": "19:00",
       "remarks": "CONDUCT KY",
       "equipment": "0",
-      "activity_time": "14:51"
+      "activity_time": "15:20"
     },
     {
       "berth": "Berth 3",
       "vessel": "EFG 5",
       "voyage": 6,
       "booking": 30000,
-      "dispatch": 10000,
+      "dispatch": 11000,
       "loaded": 7000,
       "balance": 23000,
       "progress": 0.23333333333333334,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "02:42",
       "remarks": "WAITING PTMD SECURE LOADED TRAILER",
       "equipment": "FL 2",
-      "activity_time": "07:09"
+      "activity_time": "07:38"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "23:30",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "10:21"
+      "activity_time": "10:50"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "19:53",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "13:58"
+      "activity_time": "14:27"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "07:50",
       "remarks": "DOCK AND SECURE",
       "equipment": "0",
-      "activity_time": "02:01"
+      "activity_time": "02:30"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "04:45",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "05:06"
+      "activity_time": "05:35"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "05:01",
       "remarks": "WAITING TONNER BAGS",
       "equipment": "0",
-      "activity_time": "04:50"
+      "activity_time": "05:19"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "VESSEL DEFECTIVE",
       "equipment": "0",
-      "activity_time": "02:51"
+      "activity_time": "03:20"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 188000,
-    "dispatch": 98450,
+    "dispatch": 100450,
     "loaded": 77000,
     "balance": 111000,
     "progress": 0.3758974358974359,
-    "stockpile": 21450
+    "stockpile": 23450
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:51"
+      "activity_time": "10:20"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "09:51"
+    "activity_time": "10:20"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "09:51"
+    "activity_time": "10:20"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 273240,
-      "daily": 10000
+      "September": 274240,
+      "daily": 11000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 76080,
-      "daily": 2000
+      "September": 77080,
+      "daily": 3000
     },
     {
       "hauler": "UCES",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 14450
+      "volume": 15450
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 4000
+      "volume": 5000
     },
     {
       "client": "UCES",
