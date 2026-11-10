@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:43:08+08:00",
+  "updated_at": "2026-11-11T07:43:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "05:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 4",
-      "activity_time": "02:42"
+      "activity_time": "02:43"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "05:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:42"
+      "activity_time": "02:43"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "04:24",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "03:18"
+      "activity_time": "03:19"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "05:26",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:16"
+      "activity_time": "02:17"
     },
     {
       "berth": "Berth 8",
@@ -123,18 +123,18 @@
     },
     {
       "berth": "Berth 9",
-      "vessel": "NAPOLI",
-      "voyage": 14,
-      "booking": 26000,
-      "dispatch": 26000,
-      "loaded": 26000,
+      "vessel": "0",
+      "voyage": 0,
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "20:57",
       "remarks": "LOADING COMPLETE S57",
       "equipment": "0",
-      "activity_time": "10:45"
+      "activity_time": "10:46"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "05:00",
       "remarks": "VESSEL DEFECTIVE",
       "equipment": "0",
-      "activity_time": "02:42"
+      "activity_time": "02:43"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 215500,
-    "dispatch": 124450,
-    "loaded": 117450,
+    "booking": 189500,
+    "dispatch": 98450,
+    "loaded": 91450,
     "balance": 98050,
-    "progress": 0.4863484848484849,
+    "progress": 0.38361818181818186,
     "stockpile": 7000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:42"
+      "activity_time": "07:43"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:42"
+    "activity_time": "07:43"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:42"
+    "activity_time": "07:43"
   },
   "trucking": [
     {
