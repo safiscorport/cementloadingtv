@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T11:22:24+08:00",
+  "updated_at": "2026-11-10T11:23:22+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "04:22"
+      "activity_time": "04:23"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 46550,
       "progress": 0.069,
       "stockpile": 11000,
-      "time": "09:52",
-      "remarks": "LOADING TONNER S43",
+      "time": "10:53",
+      "remarks": "LOADING SLING P3",
       "equipment": "0",
-      "activity_time": "01:30"
+      "activity_time": "00:30"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "09:15",
       "remarks": "LOADING TONNER S30",
       "equipment": "FL 2",
-      "activity_time": "02:07"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "07:50",
       "remarks": "DOCK AND SECURE",
       "equipment": "0",
-      "activity_time": "03:32"
+      "activity_time": "03:33"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "11:05",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:17"
+      "activity_time": "00:18"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE HATCH",
       "equipment": "0",
-      "activity_time": "04:22"
+      "activity_time": "04:23"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:22"
+      "activity_time": "11:23"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "11:22"
+    "activity_time": "11:23"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "11:22"
+    "activity_time": "11:23"
   },
   "trucking": [
     {
