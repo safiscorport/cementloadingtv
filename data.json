@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:42:50+08:00",
+  "updated_at": "2026-11-11T07:43:08+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -117,7 +117,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "KY TOOLBOX",
+      "remarks": "LOADING COMPLETE",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -132,7 +132,7 @@
       "progress": 1,
       "stockpile": 0,
       "time": "20:57",
-      "remarks": "KY TOOLBOX",
+      "remarks": "LOADING COMPLETE S57",
       "equipment": "0",
       "activity_time": "10:45"
     },
