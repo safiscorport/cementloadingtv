@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:34:07+08:00",
+  "updated_at": "2026-11-11T07:36:15+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -12,9 +12,9 @@
       "progress": 0.8,
       "stockpile": 2000,
       "time": "05:00",
-      "remarks": "SF JOURNEY",
+      "remarks": "KY TOOLBOX",
       "equipment": "CRANE 4",
-      "activity_time": "02:33"
+      "activity_time": "02:36"
     },
     {
       "berth": "Berth 2",
@@ -27,9 +27,9 @@
       "progress": 0.509,
       "stockpile": 1000,
       "time": "05:00",
-      "remarks": "EFG 7",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:33"
+      "activity_time": "02:36"
     },
     {
       "berth": "Berth 3",
@@ -42,9 +42,9 @@
       "progress": 0.5,
       "stockpile": 1000,
       "time": "04:24",
-      "remarks": "EFG 5",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "03:09"
+      "activity_time": "03:12"
     },
     {
       "berth": "Berth 4",
@@ -72,7 +72,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "NIEVES",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -102,9 +102,9 @@
       "progress": 0,
       "stockpile": 1000,
       "time": "05:26",
-      "remarks": "ADOLFO SR.",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:07"
+      "activity_time": "02:10"
     },
     {
       "berth": "Berth 8",
@@ -117,7 +117,7 @@
       "progress": 1,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "LADY OF WISDOM",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -132,9 +132,9 @@
       "progress": 1,
       "stockpile": 0,
       "time": "20:57",
-      "remarks": "NAPOLI",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "10:36"
+      "activity_time": "10:39"
     },
     {
       "berth": "Berth 10",
@@ -147,9 +147,9 @@
       "progress": 0,
       "stockpile": 2000,
       "time": "05:00",
-      "remarks": "LAURIN JOY",
+      "remarks": "VESSEL DEFECTIVE",
       "equipment": "0",
-      "activity_time": "02:33"
+      "activity_time": "02:36"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:33"
+      "activity_time": "07:36"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:33"
+    "activity_time": "07:36"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:33"
+    "activity_time": "07:36"
   },
   "trucking": [
     {
