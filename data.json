@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T08:18:18+08:00",
+  "updated_at": "2026-11-10T08:18:36+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -21,11 +21,11 @@
       "vessel": "EFG 7",
       "voyage": 6,
       "booking": 50000,
-      "dispatch": 11450,
+      "dispatch": 10450,
       "loaded": 0,
       "balance": 50000,
       "progress": 0,
-      "stockpile": 11450,
+      "stockpile": 10450,
       "time": "19:00",
       "remarks": "CONDUCT KY",
       "equipment": "0",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 212000,
-    "dispatch": 118450,
+    "dispatch": 117450,
     "loaded": 101000,
     "balance": 111000,
     "progress": 0.47991452991452993,
-    "stockpile": 17450
+    "stockpile": 16450
   },
   "alpha": [
     {
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 271240,
-      "daily": 8000
+      "September": 270240,
+      "daily": 7000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 12450
+      "volume": 11450
     },
     {
       "client": "LAPU-LAPU",
