@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:33:50+08:00",
+  "updated_at": "2026-11-11T07:34:07+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -12,7 +12,7 @@
       "progress": 0.8,
       "stockpile": 2000,
       "time": "05:00",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "remarks": "SF JOURNEY",
       "equipment": "CRANE 4",
       "activity_time": "02:33"
     },
@@ -27,7 +27,7 @@
       "progress": 0.509,
       "stockpile": 1000,
       "time": "05:00",
-      "remarks": "LOADING S19 SLING BAGS",
+      "remarks": "EFG 7",
       "equipment": "0",
       "activity_time": "02:33"
     },
@@ -42,7 +42,7 @@
       "progress": 0.5,
       "stockpile": 1000,
       "time": "04:24",
-      "remarks": "LOADING S47 TONNER BAGS",
+      "remarks": "EFG 5",
       "equipment": "FL 2",
       "activity_time": "03:09"
     },
@@ -71,10 +71,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "05:00",
-      "remarks": "VESSEL CLOSED / RAIN",
+      "time": "00:00",
+      "remarks": "NIEVES",
       "equipment": "0",
-      "activity_time": "02:33"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 6",
@@ -102,7 +102,7 @@
       "progress": 0,
       "stockpile": 1000,
       "time": "05:26",
-      "remarks": "LOADING P19 LOOSEBAG",
+      "remarks": "ADOLFO SR.",
       "equipment": "0",
       "activity_time": "02:07"
     },
@@ -116,10 +116,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 0,
-      "time": "14:02",
-      "remarks": "LOADING COMPLETE",
+      "time": "00:00",
+      "remarks": "LADY OF WISDOM",
       "equipment": "0",
-      "activity_time": "17:31"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
@@ -132,7 +132,7 @@
       "progress": 1,
       "stockpile": 0,
       "time": "20:57",
-      "remarks": "LOADING COMPLETE S57",
+      "remarks": "NAPOLI",
       "equipment": "0",
       "activity_time": "10:36"
     },
@@ -147,7 +147,7 @@
       "progress": 0,
       "stockpile": 2000,
       "time": "05:00",
-      "remarks": "DEFECTIVE HATCH",
+      "remarks": "LAURIN JOY",
       "equipment": "0",
       "activity_time": "02:33"
     },
