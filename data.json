@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T17:31:33+08:00",
+  "updated_at": "2026-11-11T22:10:15+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 3000,
       "progress": 0.95,
       "stockpile": 1000,
-      "time": "15:11",
-      "remarks": "WAITING PORTLAND SLING",
+      "time": "19:20",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 4",
-      "activity_time": "02:20"
+      "activity_time": "02:49"
     },
     {
       "berth": "Berth 2",
@@ -26,25 +26,25 @@
       "balance": 14500,
       "progress": 0.71,
       "stockpile": 9000,
-      "time": "17:04",
-      "remarks": "LOADING SLING A19",
+      "time": "19:20",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 2",
-      "activity_time": "00:27"
+      "activity_time": "02:49"
     },
     {
       "berth": "Berth 3",
       "vessel": "EFG 5",
       "voyage": 6,
       "booking": 30000,
-      "dispatch": 25000,
-      "loaded": 24000,
-      "balance": 6000,
-      "progress": 0.8,
+      "dispatch": 26000,
+      "loaded": 25000,
+      "balance": 5000,
+      "progress": 0.8333333333333334,
       "stockpile": 1000,
-      "time": "16:51",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:20",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 3",
-      "activity_time": "00:40"
+      "activity_time": "02:49"
     },
     {
       "berth": "Berth 4",
@@ -71,10 +71,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "NO BOOKING",
+      "time": "19:20",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "10:31"
+      "activity_time": "02:49"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 19000,
       "progress": 0.3090909090909091,
       "stockpile": 6500,
-      "time": "16:56",
-      "remarks": "LOADING POUCH S54",
+      "time": "19:20",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "00:35"
+      "activity_time": "02:49"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "08:30",
-      "remarks": "DOCK AND SECURE",
+      "time": "19:20",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "09:01"
+      "activity_time": "02:49"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "FOR CRANE INSPECTION",
+      "time": "19:20",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "10:31"
+      "activity_time": "02:49"
     },
     {
       "berth": "Berth 10",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 189500,
-    "dispatch": 144500,
-    "loaded": 125000,
-    "balance": 64500,
-    "progress": 0.5538181818181818,
+    "dispatch": 145500,
+    "loaded": 126000,
+    "balance": 63500,
+    "progress": 0.5604848484848485,
     "stockpile": 19500
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:31"
+      "activity_time": "22:09"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:31"
+    "activity_time": "22:09"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:31"
+    "activity_time": "22:09"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 323240,
-      "daily": 32000
+      "September": 324240,
+      "daily": 33000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 456000
+      "y2026": 457000
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15287120
+    "y2026": 15288120
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 0
+      "qty": 1000
     }
   ],
   "trucking_stockpile": [
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "CANOY/OBIAL/DALUSA",
-    "pmc": "JOAN/WILLIAM",
+    "supervisor": "0",
+    "checker": "TORRES,J / OBIAL, R",
+    "pmc": "VICKY/EBOY",
     "cranes": 3,
     "forklifts": 8,
-    "stevedores": 47
+    "stevedores": 41
   }
 }
