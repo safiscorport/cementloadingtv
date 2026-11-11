@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:43:43+08:00",
+  "updated_at": "2026-11-11T08:04:24+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "05:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 4",
-      "activity_time": "02:43"
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "05:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:43"
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "04:24",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "03:19"
+      "activity_time": "03:40"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "05:26",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:17"
+      "activity_time": "02:38"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "20:57",
       "remarks": "LOADING COMPLETE S57",
       "equipment": "0",
-      "activity_time": "10:46"
+      "activity_time": "11:07"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "05:00",
       "remarks": "VESSEL DEFECTIVE",
       "equipment": "0",
-      "activity_time": "02:43"
+      "activity_time": "03:04"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:43"
+      "activity_time": "08:04"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:43"
+    "activity_time": "08:04"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:43"
+    "activity_time": "08:04"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
       "September": 291240,
-      "daily": 28000
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
@@ -242,13 +242,13 @@
       "hauler": "BADIE",
       "August": 63925,
       "September": 21050,
-      "daily": 2000
+      "daily": "-"
     },
     {
       "hauler": "PTMS",
       "August": 159490,
       "September": 82080,
-      "daily": 8000
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -260,7 +260,7 @@
       "hauler": "APLUS",
       "August": 43975,
       "September": 28000,
-      "daily": 4000
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 14450
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 26000
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
