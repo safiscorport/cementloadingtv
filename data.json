@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-11T15:15:22+08:00",
+  "updated_at": "2026-11-11T15:17:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "SF JOURNEY",
       "voyage": 4,
       "booking": 60000,
-      "dispatch": 55000,
-      "loaded": 53000,
-      "balance": 7000,
-      "progress": 0.8833333333333333,
+      "dispatch": 57000,
+      "loaded": 55000,
+      "balance": 5000,
+      "progress": 0.9166666666666666,
       "stockpile": 2000,
       "time": "14:23",
       "remarks": "LOADING SLING S37",
       "equipment": "CRANE 4",
-      "activity_time": "00:52"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 2",
@@ -22,14 +22,14 @@
       "voyage": 6,
       "booking": 50000,
       "dispatch": 43500,
-      "loaded": 26450,
-      "balance": 23550,
-      "progress": 0.529,
-      "stockpile": 17050,
+      "loaded": 28450,
+      "balance": 21550,
+      "progress": 0.569,
+      "stockpile": 15050,
       "time": "14:40",
       "remarks": "LOADING SLING A20",
       "equipment": "CRANE 2",
-      "activity_time": "00:35"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "13:40",
       "remarks": "LOADING TONNER S32",
       "equipment": "CRANE 3",
-      "activity_time": "01:35"
+      "activity_time": "01:37"
     },
     {
       "berth": "Berth 4",
@@ -74,7 +74,7 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "08:15"
+      "activity_time": "08:17"
     },
     {
       "berth": "Berth 6",
@@ -96,15 +96,15 @@
       "vessel": "ADOLFO SR",
       "voyage": 13,
       "booking": 27500,
-      "dispatch": 9000,
-      "loaded": 4500,
-      "balance": 23000,
-      "progress": 0.16363636363636364,
+      "dispatch": 10000,
+      "loaded": 5500,
+      "balance": 22000,
+      "progress": 0.2,
       "stockpile": 4500,
       "time": "13:30",
       "remarks": "LOADING LOOSEBAGS S60",
       "equipment": "0",
-      "activity_time": "01:45"
+      "activity_time": "01:47"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "08:30",
       "remarks": "DOCK AND SECURE",
       "equipment": "0",
-      "activity_time": "06:45"
+      "activity_time": "06:47"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "FOR CRANE INSPECTION",
       "equipment": "0",
-      "activity_time": "08:15"
+      "activity_time": "08:17"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 189500,
-    "dispatch": 133500,
-    "loaded": 103950,
-    "balance": 85550,
-    "progress": 0.44852727272727266,
-    "stockpile": 29550
+    "dispatch": 136500,
+    "loaded": 108950,
+    "balance": 80550,
+    "progress": 0.47046666666666664,
+    "stockpile": 27550
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:15"
+      "activity_time": "15:17"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "15:15"
+    "activity_time": "15:17"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "15:15"
+    "activity_time": "15:17"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 314240,
-      "daily": 23000
+      "September": 317240,
+      "daily": 26000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 434950
+      "y2026": 439950
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15266070
+    "y2026": 15271070
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 12500
+      "qty": 17500
     },
     {
       "shift": "2ND SHIFT",
@@ -368,11 +368,11 @@
     },
     {
       "client": "APLUS",
-      "volume": 2000
+      "volume": 1000
     },
     {
       "client": "FULACHE",
-      "volume": 2000
+      "volume": 1000
     }
   ],
   "status": {
