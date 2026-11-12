@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T07:36:22+08:00",
+  "updated_at": "2026-11-13T07:37:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -42,7 +42,7 @@
       "progress": 1,
       "stockpile": 0,
       "time": "03:36",
-      "remarks": "EFG 5",
+      "remarks": "WATING MAERIAL",
       "equipment": "0",
       "activity_time": "04:00"
     },
@@ -116,10 +116,10 @@
       "balance": -8640,
       "progress": 0,
       "stockpile": 0,
-      "time": "02:22",
-      "remarks": "STAR FREEDOM",
+      "time": "07:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "05:14"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 9",
