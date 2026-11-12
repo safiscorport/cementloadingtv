@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T17:36:42+08:00",
+  "updated_at": "2026-11-12T19:54:12+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "14:24",
-      "remarks": "DOCKED & SECURED",
+      "time": "20:00",
+      "remarks": "LOADING S19  SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:12"
+      "activity_time": "23:53"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "14:08",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "03:28"
+      "activity_time": "05:45"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "03:36",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "14:00"
+      "activity_time": "16:17"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 22920,
       "progress": 0.045,
       "stockpile": 0,
-      "time": "16:20",
+      "time": "20:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:16"
+      "activity_time": "23:53"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 13000,
       "progress": 0.5357142857142857,
       "stockpile": 7000,
-      "time": "16:55",
-      "remarks": "LOADING SLING S57",
+      "time": "20:00",
+      "remarks": "LOADING S61 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "00:41"
+      "activity_time": "23:53"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 7500,
       "progress": 0.7272727272727273,
       "stockpile": 3000,
-      "time": "13:00",
-      "remarks": "LOADING POUCH",
+      "time": "20:00",
+      "remarks": "LOADING S55 SLING BAGS",
       "equipment": "CRANE4",
-      "activity_time": "04:36"
+      "activity_time": "23:53"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": -1080,
       "progress": 0,
       "stockpile": 3240,
-      "time": "16:44",
-      "remarks": "COMMENCE LOADING B7",
+      "time": "20:00",
+      "remarks": "LOADING S44 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "23:53"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 11300,
       "progress": 0.3352941176470588,
       "stockpile": 4750,
-      "time": "16:00",
-      "remarks": "WAITING FL ONBOARD",
+      "time": "20:00",
+      "remarks": "LOADING S58 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:36"
+      "activity_time": "23:53"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 22000,
       "progress": 0,
       "stockpile": 2000,
-      "time": "07:00",
+      "time": "19:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "10:36"
+      "activity_time": "00:53"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:36"
+      "activity_time": "19:53"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:36"
+    "activity_time": "19:53"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:36"
+    "activity_time": "19:53"
   },
   "trucking": [
     {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "DALUSA / OBIAL",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "TORRES, J",
+    "pmc": "VICKY/EBOY",
     "cranes": 3,
     "forklifts": 7,
-    "stevedores": 44
+    "stevedores": 41
   }
 }
