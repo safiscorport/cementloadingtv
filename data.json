@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T07:34:06+08:00",
+  "updated_at": "2026-11-13T07:35:04+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -12,9 +12,9 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:43",
-      "remarks": "LOADING S50 SLING BAGS",
+      "remarks": "SF JOURNEY",
       "equipment": "0",
-      "activity_time": "06:50"
+      "activity_time": "06:51"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "14:08",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "17:25"
+      "activity_time": "17:26"
     },
     {
       "berth": "Berth 3",
@@ -42,9 +42,9 @@
       "progress": 1,
       "stockpile": 0,
       "time": "03:36",
-      "remarks": "VESSEL COMPLETE",
+      "remarks": "EFG 5",
       "equipment": "0",
-      "activity_time": "03:57"
+      "activity_time": "03:58"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 20550,
       "progress": 0.14375,
       "stockpile": 0,
-      "time": "05:11",
-      "remarks": "LOADING P6 TONNER BAGS",
+      "time": "00:00",
+      "remarks": "JOHANNAH 5",
       "equipment": "0",
-      "activity_time": "02:22"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "02:00",
       "remarks": "LOADING COMPLETE A20",
       "equipment": "FL 1",
-      "activity_time": "05:33"
+      "activity_time": "05:34"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "22:45",
       "remarks": "LOADING COMPLETE S41",
       "equipment": "CRANE4",
-      "activity_time": "08:48"
+      "activity_time": "08:49"
     },
     {
       "berth": "Berth 8",
@@ -117,9 +117,9 @@
       "progress": 0,
       "stockpile": 0,
       "time": "02:22",
-      "remarks": "LOADING S25 SLING BAGS",
+      "remarks": "STAR FREEDOM",
       "equipment": "0",
-      "activity_time": "05:11"
+      "activity_time": "05:12"
     },
     {
       "berth": "Berth 9",
@@ -132,9 +132,9 @@
       "progress": 1,
       "stockpile": 0,
       "time": "04:46",
-      "remarks": "LOADING COMPLETE P6",
+      "remarks": "LADY ARMOR",
       "equipment": "0",
-      "activity_time": "02:47"
+      "activity_time": "02:48"
     },
     {
       "berth": "Berth 10",
@@ -147,9 +147,9 @@
       "progress": 0,
       "stockpile": 2000,
       "time": "19:00",
-      "remarks": "DEFECTIVE HATCH COVER",
+      "remarks": "LAURIN JOY",
       "equipment": "0",
-      "activity_time": "12:33"
+      "activity_time": "12:34"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:33"
+      "activity_time": "07:34"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:33"
+    "activity_time": "07:34"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:33"
+    "activity_time": "07:34"
   },
   "trucking": [
     {
