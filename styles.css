@@ -3011,7 +3011,7 @@ body {
 
 #dashboardFitFrame {
   position: fixed !important;
-  inset: 3cm !important;
+  inset: 0 !important;
   width: auto !important;
   height: auto !important;
   min-width: 0 !important;
@@ -3072,7 +3072,7 @@ body {
 }
 
 #historyScreen {
-  inset: 3cm !important;
+  inset: 0 !important;
   width: auto !important;
   height: auto !important;
   overflow: hidden !important;
@@ -3089,10 +3089,9 @@ body {
 }
 
 @media (max-width: 700px), (max-height: 500px) {
-  /* Preserve the requested 3 cm clearance; let automatic
-     scaling reduce the dashboard rather than clipping it. */
+  /* Use the full screen; automatic scaling prevents clipping. */
   #dashboardFitFrame,
   #historyScreen {
-    inset: 3cm !important;
+    inset: 0 !important;
   }
 }

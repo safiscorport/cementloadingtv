@@ -3665,14 +3665,14 @@ startRotation();
 <script>
 /* =========================================================
    AUTOMATIC TV FIT CONTROLLER
-   - Maintains a physical 3 cm safety margin on all sides.
+   - Uses the full available screen area.
    - Scales each dashboard independently to prevent clipping
      and row/column overlap on different screen dimensions.
    ========================================================= */
 (function () {
   'use strict';
 
-  const EDGE_CLEARANCE = '3cm';
+  const EDGE_CLEARANCE = '0px';
   const frame = document.getElementById('dashboardFitFrame');
   const liveDashboard = frame && frame.querySelector('.app');
   const historyScreen = document.getElementById('historyScreen');
