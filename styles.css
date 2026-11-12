@@ -3345,17 +3345,24 @@ body::-webkit-scrollbar-thumb:hover {
     overflow: hidden !important;
   }
 
+  /* Browser-equivalent 90% zoom for the dashboard on a Full HD TV.
+     Slightly enlarge the CSS clearance so it remains about 10 mm
+     after the page is scaled to 90%. */
+  html {
+    zoom: 0.9;
+  }
+
   body {
     box-sizing: border-box;
-    padding-bottom: 10mm !important;
+    padding-bottom: 11.111mm !important;
   }
 
   .app {
     box-sizing: border-box !important;
-    height: calc(100vh - 10mm) !important;
+    height: calc(100vh - 11.111mm) !important;
     min-height: 0 !important;
-    max-height: calc(100vh - 10mm) !important;
-    margin-bottom: 10mm !important;
+    max-height: calc(100vh - 11.111mm) !important;
+    margin-bottom: 0 !important;
     overflow: hidden !important;
   }
 
