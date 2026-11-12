@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T13:43:43+08:00",
+  "updated_at": "2026-11-12T13:44:52+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,22 +14,22 @@
       "time": "10:33",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "03:10"
+      "activity_time": "03:11"
     },
     {
       "berth": "Berth 2",
       "vessel": "EFG 7",
       "voyage": 6,
       "booking": 50000,
-      "dispatch": 49750,
+      "dispatch": 49000,
       "loaded": 48750,
       "balance": 1250,
       "progress": 0.975,
-      "stockpile": 1000,
+      "stockpile": 250,
       "time": "13:00",
       "remarks": "LOADING TONNER LAST TRUCK",
       "equipment": "CRANE 2",
-      "activity_time": "00:43"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "03:36",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "10:07"
+      "activity_time": "10:08"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 24000,
       "progress": 0,
       "stockpile": 0,
-      "time": "1145H",
+      "time": "11:45",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "01:59"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "13:00",
       "remarks": "LOADING SLING",
       "equipment": "FL 1",
-      "activity_time": "00:43"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "13:00",
       "remarks": "LOADING POUCH",
       "equipment": "FL 3",
-      "activity_time": "00:43"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "06:43"
+      "activity_time": "06:44"
     },
     {
       "berth": "Berth 9",
       "vessel": "LADY ARMOR",
       "voyage": 10,
       "booking": 17000,
-      "dispatch": 7430,
+      "dispatch": 8180,
       "loaded": 2430,
       "balance": 14570,
       "progress": 0.14294117647058824,
-      "stockpile": 5000,
+      "stockpile": 5750,
       "time": "13:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:43"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "06:43"
+      "activity_time": "06:44"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:43"
+      "activity_time": "13:44"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "13:43"
+    "activity_time": "13:44"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "13:43"
+    "activity_time": "13:44"
   },
   "trucking": [
     {
