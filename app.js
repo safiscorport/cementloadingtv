@@ -448,20 +448,19 @@ function render(d) {
   const truckTotal =
     truckData.reduce(
       (acc, curr) => ({
+        august:
+          acc.august +
+          (
+            typeof curr.August === 'number'
+              ? curr.August
+              : 0
+          ),
 
         september:
           acc.september +
           (
-            typeof curr.september === 'number'
-              ? curr.september
-              : 0
-          ),
-
-        november:
-          acc.november +
-          (
-            typeof curr.november === 'number'
-              ? curr.november
+            typeof curr.September === 'number'
+              ? curr.September
               : 0
           ),
 
@@ -472,66 +471,30 @@ function render(d) {
               ? curr.daily
               : 0
           )
-
       }),
       {
+        august: 0,
         september: 0,
-        november: 0,
         daily: 0
       }
     );
 
-
   $('trucking').innerHTML =
-
     truckData.map(x => `
-
       <div class="tr">
-
-        <b>
-          ${x.hauler}
-        </b>
-
-        <span>
-          ${num(x.september)}
-        </span>
-
-        <span>
-          ${num(x.november)}
-        </span>
-
-        <span>
-          ${num(x.daily)}
-        </span>
-
+        <b>${x.hauler}</b>
+        <span>${num(x.August)}</span>
+        <span>${num(x.September)}</span>
+        <span>${num(x.daily)}</span>
       </div>
-
-    `).join('')
-
-    +
-
+    `).join('') +
     `
-
       <div class="tr total-row">
-
-        <b>
-          Total
-        </b>
-
-        <span>
-          <b>${num(truckTotal.september)}</b>
-        </span>
-
-        <span>
-          <b>${num(truckTotal.november)}</b>
-        </span>
-
-        <span>
-          <b>${num(truckTotal.daily)}</b>
-        </span>
-
+        <b>Total</b>
+        <span><b>${num(truckTotal.august)}</b></span>
+        <span><b>${num(truckTotal.september)}</b></span>
+        <span><b>${num(truckTotal.daily)}</b></span>
       </div>
-
     `;
 
 
@@ -846,8 +809,6 @@ function render(d) {
     );
   }
 
-
-  if (typeof window.scheduleDashboardFit === 'function') window.scheduleDashboardFit();
 
   $('tickerText').textContent =
     alerts.length

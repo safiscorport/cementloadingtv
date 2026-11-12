@@ -139,7 +139,6 @@
 
 <body>
 
-<div id="dashboardFitFrame">
 <div class="app">
 
   <!-- =====================================================
@@ -392,11 +391,11 @@
           </span>
 
           <span style="flex:1;text-align:left;">
-            October
+            August
           </span>
 
           <span style="flex:1;text-align:left;">
-            November
+            September
           </span>
 
           <span style="flex:1;text-align:left;">
@@ -578,7 +577,6 @@
 
   </footer>
 
-</div>
 </div>
 
 
@@ -2652,7 +2650,7 @@ function drawAnnualChart(){
 
 
   const barW =
-    step * .52;
+    step * .85;
 
 
   const esc =
@@ -3660,92 +3658,6 @@ startRotation();
 
 </script>
 
-
-
-<script>
-/* =========================================================
-   AUTOMATIC TV FIT CONTROLLER
-   - Uses the full available screen area.
-   - Scales each dashboard independently to prevent clipping
-     and row/column overlap on different screen dimensions.
-   ========================================================= */
-(function () {
-  'use strict';
-
-  const EDGE_CLEARANCE = '0px';
-  const frame = document.getElementById('dashboardFitFrame');
-  const liveDashboard = frame && frame.querySelector('.app');
-  const historyScreen = document.getElementById('historyScreen');
-  const historyContent = historyScreen && historyScreen.querySelector('.history-content');
-
-  function fitElement(element, container) {
-    if (!element || !container) return;
-
-    element.style.transform = 'none';
-
-    const availableWidth = container.clientWidth;
-    const availableHeight = container.clientHeight;
-    if (!availableWidth || !availableHeight) return;
-
-    // Read natural layout dimensions before applying the scale.
-    const naturalWidth = Math.max(element.scrollWidth, element.offsetWidth, 1);
-    const naturalHeight = Math.max(element.scrollHeight, element.offsetHeight, 1);
-
-    const scale = Math.min(
-      1,
-      availableWidth / naturalWidth,
-      availableHeight / naturalHeight
-    );
-
-    element.style.transform = 'scale(' + scale + ')';
-    element.dataset.fitScale = scale.toFixed(4);
-  }
-
-  let fitQueued = false;
-  function scheduleFit() {
-    if (fitQueued) return;
-    fitQueued = true;
-    requestAnimationFrame(function () {
-      fitQueued = false;
-      if (frame && liveDashboard) fitElement(liveDashboard, frame);
-      if (historyScreen && historyContent && historyScreen.classList.contains('show')) {
-        fitElement(historyContent, historyScreen);
-      }
-    });
-  }
-
-  // Expose a small hook so live data refreshes can trigger a new fit.
-  window.scheduleDashboardFit = scheduleFit;
-
-  if (frame && liveDashboard) {
-    frame.style.setProperty('--fit-edge-clearance', EDGE_CLEARANCE);
-    if ('ResizeObserver' in window) {
-      new ResizeObserver(scheduleFit).observe(frame);
-    }
-  }
-
-  if (historyScreen) {
-    if ('ResizeObserver' in window) {
-      new ResizeObserver(scheduleFit).observe(historyScreen);
-    }
-    new MutationObserver(scheduleFit).observe(historyScreen, {
-      attributes: true,
-      attributeFilter: ['class']
-    });
-  }
-
-  window.addEventListener('resize', scheduleFit, { passive: true });
-  window.addEventListener('orientationchange', scheduleFit, { passive: true });
-  window.addEventListener('load', scheduleFit);
-  document.addEventListener('visibilitychange', scheduleFit);
-
-  // Refit after browser font/layout settling and when dashboard data changes.
-  setTimeout(scheduleFit, 100);
-  setTimeout(scheduleFit, 500);
-  setTimeout(scheduleFit, 1500);
-  setInterval(scheduleFit, 3000);
-})();
-</script>
 
 </body>
 </html>
