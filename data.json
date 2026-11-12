@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T08:11:34+08:00",
+  "updated_at": "2026-11-12T08:39:27+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "CRANE 4",
-      "activity_time": "01:11"
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:30",
       "remarks": "LOADING SLING",
       "equipment": "CRANE 2",
-      "activity_time": "00:41"
+      "activity_time": "01:09"
     },
     {
       "berth": "Berth 3",
@@ -43,8 +43,8 @@
       "stockpile": 1000,
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
-      "equipment": "CRANE 3",
-      "activity_time": "01:11"
+      "equipment": "0",
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 4",
@@ -65,16 +65,16 @@
       "berth": "Berth 5",
       "vessel": "NIEVES",
       "voyage": 6,
-      "booking": 0,
+      "booking": 28000,
       "dispatch": 4000,
       "loaded": 4000,
-      "balance": -4000,
-      "progress": 0,
+      "balance": 24000,
+      "progress": 0.14285714285714285,
       "stockpile": 0,
       "time": "07:30",
       "remarks": "ONBOARD FORKLIFT",
-      "equipment": "0",
-      "activity_time": "00:41"
+      "equipment": "FL1/FL2",
+      "activity_time": "01:09"
     },
     {
       "berth": "Berth 6",
@@ -103,8 +103,8 @@
       "stockpile": 1000,
       "time": "07:30",
       "remarks": "LOADING SLING",
-      "equipment": "0",
-      "activity_time": "00:41"
+      "equipment": "FL 3",
+      "activity_time": "01:09"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "01:11"
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 9",
       "vessel": "LADY ARMOR",
       "voyage": 10,
-      "booking": 0,
+      "booking": 17000,
       "dispatch": 0,
       "loaded": 0,
-      "balance": 0,
+      "balance": 17000,
       "progress": 0,
       "stockpile": 0,
       "time": "07:00",
       "remarks": "WAITING VESSEL CRANE OPTR",
       "equipment": "0",
-      "activity_time": "01:11"
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "HATCH COVER REPAIR",
       "equipment": "0",
-      "activity_time": "01:11"
+      "activity_time": "01:39"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 189500,
+    "booking": 234500,
     "dispatch": 157600,
     "loaded": 151600,
-    "balance": 37900,
-    "progress": 0.6814909090909091,
+    "balance": 82900,
+    "progress": 0.5071873840445269,
     "stockpile": 6000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:11"
+      "activity_time": "08:39"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "08:11"
+    "activity_time": "08:39"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "08:11"
+    "activity_time": "08:39"
   },
   "trucking": [
     {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "0",
-    "checker": "TORRES,J / OBIAL, R",
-    "pmc": "VICKY/EBOY",
+    "supervisor": "BERNABE,A",
+    "checker": "DALUSA / OBIAL",
+    "pmc": "JOAN / WILLIAM",
     "cranes": 3,
-    "forklifts": 8,
-    "stevedores": 41
+    "forklifts": 7,
+    "stevedores": 44
   }
 }
