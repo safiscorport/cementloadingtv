@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T07:37:11+08:00",
+  "updated_at": "2026-11-13T07:38:20+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "00:43",
       "remarks": "INFINITY 8",
       "equipment": "0",
-      "activity_time": "06:53"
+      "activity_time": "06:55"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "14:08",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "17:28"
+      "activity_time": "17:30"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "03:36",
       "remarks": "WATING MAERIAL",
       "equipment": "0",
-      "activity_time": "04:00"
+      "activity_time": "04:02"
     },
     {
       "berth": "Berth 4",
@@ -64,17 +64,17 @@
     {
       "berth": "Berth 5",
       "vessel": "NIEVES",
-      "voyage": 6,
-      "booking": 28000,
-      "dispatch": 28000,
-      "loaded": 28000,
+      "voyage": 0,
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "02:00",
       "remarks": "LOADING COMPLETE A20",
-      "equipment": "FL 1",
-      "activity_time": "05:36"
+      "equipment": "0",
+      "activity_time": "05:38"
     },
     {
       "berth": "Berth 6",
@@ -94,17 +94,17 @@
     {
       "berth": "Berth 7",
       "vessel": "ADOLFO SR",
-      "voyage": 13,
-      "booking": 27500,
-      "dispatch": 27500,
-      "loaded": 27500,
+      "voyage": 0,
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "22:45",
       "remarks": "LOADING COMPLETE S41",
-      "equipment": "CRANE4",
-      "activity_time": "08:51"
+      "equipment": "0",
+      "activity_time": "08:53"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:36"
+      "activity_time": "00:38"
     },
     {
       "berth": "Berth 9",
       "vessel": "LADY ARMOR",
-      "voyage": 10,
-      "booking": 17000,
-      "dispatch": 17000,
-      "loaded": 17000,
+      "voyage": 0,
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "04:46",
       "remarks": "LOADING COMPLETE P6",
       "equipment": "0",
-      "activity_time": "02:50"
+      "activity_time": "02:52"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "12:36"
+      "activity_time": "12:38"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 198500,
-    "dispatch": 168340,
-    "loaded": 166340,
+    "booking": 126000,
+    "dispatch": 95840,
+    "loaded": 93840,
     "balance": 32160,
-    "progress": 0.7348214285714285,
+    "progress": 0.5359375,
     "stockpile": 2000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:36"
+      "activity_time": "07:38"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:36"
+    "activity_time": "07:38"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:36"
+    "activity_time": "07:38"
   },
   "trucking": [
     {
