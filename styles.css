@@ -2989,3 +2989,110 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100%;
   min-width: 0;
 }
+
+
+/* =========================================================
+   UNIVERSAL TV FIT + 3 CM CLEARANCE
+   Final override: supersedes legacy resolution-specific
+   fixed-height rules so the fit controller can measure the
+   complete natural dashboard before scaling it.
+   ========================================================= */
+
+html,
+body {
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 0 !important;
+  min-height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+#dashboardFitFrame {
+  position: fixed !important;
+  inset: 3cm !important;
+  width: auto !important;
+  height: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  background: #111;
+}
+
+#dashboardFitFrame > .app {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  transform-origin: top left !important;
+  will-change: transform;
+}
+
+#dashboardFitFrame .main-content {
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+#dashboardFitFrame .analytics-grid,
+#dashboardFitFrame .table-container,
+#dashboardFitFrame .panel,
+#dashboardFitFrame .stack-panel {
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+#dashboardFitFrame .table-header-bar,
+#dashboardFitFrame .berth-row,
+#dashboardFitFrame .table-footer-bar,
+#dashboardFitFrame .alpha-header-bar,
+#dashboardFitFrame .alpha-row {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+#dashboardFitFrame .table-header-bar > *,
+#dashboardFitFrame .berth-row > *,
+#dashboardFitFrame .table-footer-bar > *,
+#dashboardFitFrame .alpha-header-bar > *,
+#dashboardFitFrame .alpha-row > * {
+  min-width: 0 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+#historyScreen {
+  inset: 3cm !important;
+  width: auto !important;
+  height: auto !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+#historyScreen .history-content {
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  transform-origin: top left !important;
+  will-change: transform;
+}
+
+@media (max-width: 700px), (max-height: 500px) {
+  /* Preserve the requested 3 cm clearance; let automatic
+     scaling reduce the dashboard rather than clipping it. */
+  #dashboardFitFrame,
+  #historyScreen {
+    inset: 3cm !important;
+  }
+}

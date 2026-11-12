@@ -847,6 +847,8 @@ function render(d) {
   }
 
 
+  if (typeof window.scheduleDashboardFit === 'function') window.scheduleDashboardFit();
+
   $('tickerText').textContent =
     alerts.length
       ? alerts.join('    •    ')
