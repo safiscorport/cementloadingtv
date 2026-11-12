@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T12:02:33+08:00",
+  "updated_at": "2026-11-12T13:37:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "10:33",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "01:29"
+      "activity_time": "03:03"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 1250,
       "progress": 0.975,
       "stockpile": 1000,
-      "time": "10:52",
-      "remarks": "LOADING SLING S35",
+      "time": "13:00",
+      "remarks": "LOADING TONNER LAST TRUCK",
       "equipment": "CRANE 2",
-      "activity_time": "01:10"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "03:36",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "08:26"
+      "activity_time": "10:00"
     },
     {
       "berth": "Berth 4",
@@ -71,10 +71,10 @@
       "balance": 19000,
       "progress": 0.32142857142857145,
       "stockpile": 3000,
-      "time": "10:50",
-      "remarks": "LOADING SLING S47",
+      "time": "13:00",
+      "remarks": "LOADING SLING",
       "equipment": "FL1/FL2",
-      "activity_time": "01:12"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 10500,
       "progress": 0.6181818181818182,
       "stockpile": 2000,
-      "time": "09:28",
-      "remarks": "LOADING LOOSEBAGS S42",
+      "time": "13:00",
+      "remarks": "LOADING POUCH",
       "equipment": "FL 3",
-      "activity_time": "02:34"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "07:00",
       "remarks": "NO BOOKING",
       "equipment": "0",
-      "activity_time": "05:02"
+      "activity_time": "06:36"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 14570,
       "progress": 0.14294117647058824,
       "stockpile": 2000,
-      "time": "10:42",
-      "remarks": "LOADING SLING S48",
+      "time": "13:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:20"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "05:02"
+      "activity_time": "06:36"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:02"
+      "activity_time": "13:36"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "12:02"
+    "activity_time": "13:36"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "12:02"
+    "activity_time": "13:36"
   },
   "trucking": [
     {
