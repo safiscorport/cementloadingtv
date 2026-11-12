@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T17:33:03+08:00",
+  "updated_at": "2026-11-12T17:36:42+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "14:24",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "03:08"
+      "activity_time": "03:12"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "14:08",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 2",
-      "activity_time": "03:24"
+      "activity_time": "03:28"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "03:36",
       "remarks": "VESSEL COMPLETE",
       "equipment": "0",
-      "activity_time": "13:56"
+      "activity_time": "14:00"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "16:20",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:12"
+      "activity_time": "01:16"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "16:55",
       "remarks": "LOADING SLING S57",
       "equipment": "FL 1",
-      "activity_time": "00:37"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 6",
@@ -96,15 +96,15 @@
       "vessel": "ADOLFO SR",
       "voyage": 13,
       "booking": 27500,
-      "dispatch": 22000,
-      "loaded": 19000,
-      "balance": 8500,
-      "progress": 0.6909090909090909,
+      "dispatch": 23000,
+      "loaded": 20000,
+      "balance": 7500,
+      "progress": 0.7272727272727273,
       "stockpile": 3000,
       "time": "13:00",
       "remarks": "LOADING POUCH",
       "equipment": "CRANE4",
-      "activity_time": "04:32"
+      "activity_time": "04:36"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "16:44",
       "remarks": "COMMENCE LOADING B7",
       "equipment": "0",
-      "activity_time": "00:48"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "16:00",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "01:32"
+      "activity_time": "01:36"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "10:32"
+      "activity_time": "10:36"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 198500,
-    "dispatch": 141850,
-    "loaded": 121860,
-    "balance": 76640,
-    "progress": 0.5152739277529194,
+    "dispatch": 142850,
+    "loaded": 122860,
+    "balance": 75640,
+    "progress": 0.5204687329477246,
     "stockpile": 19990
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:32"
+      "activity_time": "17:36"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:32"
+    "activity_time": "17:36"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:32"
+    "activity_time": "17:36"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 358180,
-      "daily": 28940
+      "September": 359180,
+      "daily": 29940
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 512860
+      "y2026": 513860
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15343980
+    "y2026": 15344980
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 28260
+      "qty": 30260
     },
     {
       "shift": "2ND SHIFT",
