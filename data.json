@@ -199,6 +199,18 @@
       "remarks": "0",
       "equip": "0",
       "activity_time": "15:10"
+    },
+    {
+      "berth": "R3",
+      "vessel": "VACANT",
+      "materials": "-",
+      "discharge": "0%",
+      "balance": "0%",
+      "progress": "0%",
+      "time": "00:00",
+      "remarks": "-",
+      "equip": "0",
+      "activity_time": "00:00"
     }
   ],
   "foreign": {

@@ -222,153 +222,19 @@ function progressHTML(value) {
    ========================================================= */
 
 function fitDashboard() {
+  // The supplied HTML has no #dashboardFitFrame wrapper.
+  // Use the responsive CSS flex layout instead of applying a transform
+  // to the .app element, which can clip or misalign the TV dashboard.
+  const app = document.querySelector('.app');
+  if (!app) return;
 
-  const frame = document.getElementById(
-    TV_FIT.frameId
-  );
+  app.style.removeProperty('transform');
+  app.style.removeProperty('transform-origin');
+  app.style.removeProperty('width');
+  app.style.removeProperty('height');
+  app.style.removeProperty('max-height');
 
-  if (!frame) {
-    return;
-  }
-
-  const app = frame.querySelector(
-    TV_FIT.appSelector
-  );
-
-  if (!app) {
-    return;
-  }
-
-  const frameWidth = frame.clientWidth;
-  const frameHeight = frame.clientHeight;
-
-  if (!frameWidth || !frameHeight) {
-    return;
-  }
-
-  /* Reset previous scaling. */
-
-  app.style.setProperty(
-    'transform',
-    'none',
-    'important'
-  );
-
-  app.style.setProperty(
-    'width',
-    frameWidth + 'px',
-    'important'
-  );
-
-  app.style.setProperty(
-    'height',
-    'auto',
-    'important'
-  );
-
-  app.style.setProperty(
-    'max-height',
-    'none',
-    'important'
-  );
-
-  let scale = 1;
-
-  /* Measure natural dashboard dimensions. */
-
-  for (let i = 0; i < 4; i++) {
-
-    const contentHeight = Math.max(
-      app.scrollHeight,
-      app.offsetHeight
-    );
-
-    const contentWidth = Math.max(
-      app.scrollWidth,
-      frameWidth
-    );
-
-    const scaleX = frameWidth / contentWidth;
-
-    const scaleY =
-      frameHeight / Math.max(contentHeight, 1);
-
-    scale = Math.min(
-      TV_FIT.maxScale,
-      scaleX,
-      scaleY
-    );
-
-    scale = Math.max(
-      TV_FIT.minScale,
-      scale
-    );
-
-    app.style.setProperty(
-      'width',
-      (frameWidth / scale) + 'px',
-      'important'
-    );
-
-  }
-
-  /* Final dimensions. */
-
-  const finalHeight = Math.max(
-    app.scrollHeight,
-    app.offsetHeight
-  );
-
-  const finalWidth = Math.max(
-    app.scrollWidth,
-    frameWidth
-  );
-
-  scale = Math.min(
-    TV_FIT.maxScale,
-    frameWidth / finalWidth,
-    frameHeight / Math.max(finalHeight, 1)
-  );
-
-  scale = Math.max(
-    TV_FIT.minScale,
-    scale
-  );
-
-  app.style.setProperty(
-    'width',
-    (frameWidth / scale) + 'px',
-    'important'
-  );
-
-  app.style.setProperty(
-    'transform-origin',
-    'top left',
-    'important'
-  );
-
-  app.style.setProperty(
-    'transform',
-    `scale(${scale})`,
-    'important'
-  );
-
-  lastFitScale = scale;
-
-  frame.scrollTop = 0;
-  frame.scrollLeft = 0;
-
-  console.log(
-    'SAFISCOR TV FIT:',
-    {
-      resolution:
-        frameWidth + ' x ' + frameHeight,
-
-      scale:
-        (scale * 100).toFixed(1) + '%'
-    }
-  );
-
+  lastFitScale = 1;
 }
 
 
@@ -597,7 +463,27 @@ function render(d) {
 
     $('alphaRows').innerHTML =
 
-      (d.alpha || []).map(x => {
+      (() => {
+        const alphaRows = Array.isArray(d.alpha) ? [...d.alpha] : [];
+        const hasR3 = alphaRows.some(
+          row => String(row.berth || '').trim().toUpperCase() === 'R3'
+        );
+        if (!hasR3) {
+          alphaRows.push({
+            berth: 'R3',
+            vessel: 'VACANT',
+            materials: '-',
+            discharge: '0%',
+            balance: '0%',
+            progress: '0%',
+            time: '00:00',
+            remarks: '-',
+            equip: '0',
+            activity_time: '00:00'
+          });
+        }
+        return alphaRows;
+      })().map(x => {
 
         const p = progressValue(x.progress);
 
