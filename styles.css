@@ -1342,3 +1342,38 @@ body::-webkit-scrollbar-thumb:hover,
 .main-content::-webkit-scrollbar-thumb:hover {
   background: #888;
 }
+/* =========================================================
+   FIX: SHOW R1, R2 AND R3
+   ========================================================= */
+
+.alpha-header-bar,
+.alpha-row {
+    display: grid !important;
+    width: 100% !important;
+    overflow: visible !important;
+    min-width: 0;
+}
+
+/* Prevent R1, R2 and R3 cells from disappearing */
+.alpha-header-bar > *,
+.alpha-row > * {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    min-width: 0;
+}
+
+/* Restore row visibility */
+.alpha-row {
+    height: auto !important;
+    min-height: 22px !important;
+}
+
+/* TV layout */
+@media screen and (min-width: 1600px) and (max-width: 2499px) {
+    .alpha-header-bar,
+    .alpha-row {
+        grid-template-columns:
+            5% 10% 12% 10% 10% 9% 7% 13% 12% 12% !important;
+    }
+}
