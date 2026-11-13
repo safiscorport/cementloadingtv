@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T07:40:54+08:00",
+  "updated_at": "2026-11-14T07:41:33+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "05:00",
       "remarks": "INFINITY 8",
       "equipment": "CRANE 2",
-      "activity_time": "02:40"
+      "activity_time": "02:41"
     },
     {
       "berth": "Berth 2",
@@ -119,7 +119,7 @@
       "time": "05:30",
       "remarks": "STAR FREEDOM",
       "equipment": "0",
-      "activity_time": "02:10"
+      "activity_time": "02:11"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "LAURIN JOY",
       "equipment": "0",
-      "activity_time": "12:40"
+      "activity_time": "12:41"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:40"
+      "activity_time": "07:41"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:40"
+    "activity_time": "07:41"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:40"
+    "activity_time": "07:41"
   },
   "trucking": [
     {
