@@ -94,3 +94,1425 @@ body {
   box-shadow: 0 0 8px #ff3030, 0 0 16px rgba(255,48,48,.5);
   animation: blink 1s infinite;
 }
+
+/* TITLE */
+.title {
+  font-size: clamp(15px, 1.3vw, 30px);
+  font-weight: 900;
+  letter-spacing: clamp(.5px, .05vw, 1px);
+  color: #fff !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.subtitle {
+  font-size: clamp(8px, .63vw, 15px);
+  color: #aaa !important;
+  letter-spacing: clamp(.4px, .05vw, 1px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+/* CLOCK */
+.clock {
+  text-align: right;
+  min-width: 0;
+  flex-shrink: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.clock div:first-child {
+  font-size: clamp(8px, .63vw, 15px);
+  color: #aaa !important;
+}
+
+.clock div:last-child {
+  font-size: clamp(15px, 1.2vw, 28px);
+  font-weight: 900;
+  color: #fff !important;
+}
+
+/* MAIN AREA */
+.main-content {
+  flex: none;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  height: auto;
+  min-height: 0;
+  padding: clamp(3px,.35vh,7px) clamp(5px,.55vw,15px) clamp(8px,.8vh,15px);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(3px,.35vh,7px);
+  overflow: visible;
+}
+
+/* TABLE CONTAINER */
+.table-container {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  background: #1d1d1d;
+  color: #fff;
+  border: 1px solid #555;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* MAIN BERTH TABLE */
+.table-header-bar,
+.berth-row,
+.table-footer-bar {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  display: grid;
+  grid-template-columns:
+    5% 10% 4% 7% 7% 7% 7% 8% 7% 5% 14% 10% 9%;
+  align-items: center;
+  padding: clamp(3px,.32vh,6px) clamp(4px,.35vw,10px);
+  border-bottom: 1px solid #303030;
+  font-size: clamp(10px,.76vw,20px);
+  line-height: 1.05;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* TABLE HEADER */
+.table-header-bar {
+  background: #34404d;
+  font-weight: 900;
+  color: #fff !important;
+  border-bottom: 1px solid #777;
+  font-size: clamp(9px,.66vw,18px);
+  white-space: nowrap;
+  min-height: clamp(24px,2.8vh,50px);
+}
+
+/* BERTH ROW */
+.berth-row {
+  min-height: clamp(24px,2.45vh,42px);
+  color: #fff;
+}
+
+.berth-row:nth-child(even) {
+  background: #242424;
+}
+
+.berth-row:nth-child(odd) {
+  background: #1b1b1b;
+}
+
+.berth-row.vacant {
+  opacity: .45;
+}
+
+.berth-row .vessel,
+.alpha-row .vessel {
+  font-weight: 900;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+/* MAIN TABLE CELLS */
+.berth-row > div,
+.berth-row > span,
+.table-header-bar > div,
+.table-header-bar > span,
+.table-footer-bar > div,
+.table-footer-bar > span {
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* PROGRESS BAR */
+.progress-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: clamp(10px,1.15vh,20px);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.bar {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  border: 1px solid #666;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.bar i {
+  display: block;
+  height: 100%;
+  background: #65b83f;
+  box-shadow: 0 0 5px rgba(101,184,63,.5);
+  position: relative;
+  z-index: 1;
+}
+
+.progress-wrap span {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff !important;
+  font-size: clamp(8px,.65vw,16px);
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+  z-index: 10;
+  pointer-events: none;
+  text-shadow: 1px 1px 2px #000, -1px -1px 2px #000, 0 0 3px #000;
+}
+
+/* SUBSECTION TITLE */
+.sub-section-title {
+  background: #303030;
+  padding: clamp(2px,.25vh,5px) clamp(5px,.4vw,10px);
+  font-weight: 900;
+  font-size: clamp(9px,.68vw,17px);
+  color: #ccc !important;
+  border-bottom: 1px solid #555;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ALPHA / FOREIGN TABLES */
+.alpha-header-bar,
+.alpha-row {
+  display: grid;
+  grid-template-columns:
+    6% 12% 14% 8% 8% 8% 7% 15% 12% 10%;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  padding: clamp(3px,.3vh,6px) clamp(5px,.4vw,10px);
+  font-size: clamp(10px,.76vw,20px);
+  line-height: 1.05;
+  overflow: hidden;
+}
+
+.alpha-header-bar {
+  background: #34404d;
+  font-weight: 900;
+  color: #fff !important;
+  font-size: clamp(9px,.66vw,18px);
+  white-space: nowrap;
+  min-height: clamp(24px,2.8vh,50px);
+}
+
+.alpha-row {
+  background: #1b1b1b;
+  color: #fff;
+  border-bottom: 1px solid #303030;
+  min-height: clamp(23px,2.2vh,40px);
+}
+
+.alpha-header-bar > div,
+.alpha-header-bar > span,
+.alpha-row > div,
+.alpha-row > span {
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ANALYTICS */
+.analytics-grid {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  display: grid;
+  grid-template-columns:
+    minmax(0,1.05fr)
+    minmax(0,1.05fr)
+    minmax(0,.8fr);
+  gap: clamp(4px,.5vw,12px);
+  margin-top: 1px;
+  flex: none;
+  height: auto;
+  min-height: 0;
+  overflow: visible;
+}
+
+/* PANELS */
+.panel {
+  background: #1d1d1d;
+  color: #fff;
+  border: 1px solid #555;
+  padding: clamp(3px,.3vw,8px);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.panel-title {
+  font-weight: 900;
+  background: #34404d;
+  padding: clamp(3px,.3vh,6px) clamp(5px,.4vw,10px);
+  font-size: clamp(9px,.7vw,18px);
+  color: #fff !important;
+  margin-bottom: 3px;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* STACK PANEL */
+.stack-panel {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(3px,.3vh,6px);
+  min-height: 0;
+  min-width: 0;
+}
+
+/* SMALL TABLES */
+.table-mini {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  color: #fff;
+}
+
+.table-mini .tr {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: clamp(2px,.25vh,5px) clamp(4px,.4vw,9px);
+  border-bottom: 1px solid #303030;
+  font-size: clamp(9px,.68vw,18px);
+  line-height: 1.05;
+  min-height: clamp(19px,1.9vh,34px);
+  min-width: 0;
+  overflow: hidden;
+  color: #fff;
+}
+
+.table-mini.header-row {
+  background: #303030;
+  font-weight: 900;
+  color: #ccc !important;
+  font-size: clamp(9px,.63vw,17px);
+}
+
+/* TOTAL ROW */
+.total-row {
+  background: #252525;
+  border-top: 1px solid #666;
+  font-weight: 900;
+  color: #fff;
+}
+
+/* PRODUCTION */
+.production {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  color: #fff;
+}
+
+.prod-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: clamp(3px,.28vh,6px) clamp(5px,.4vw,10px);
+  border-bottom: 1px solid #303030;
+  font-size: clamp(9px,.7vw,18px);
+  min-height: clamp(21px,2vh,36px);
+  min-width: 0;
+  color: #fff;
+}
+
+.prod-row b {
+  font-size: clamp(10px,.78vw,20px);
+  font-weight: 900;
+  color: #fff;
+}
+
+/* MONTHLY TABLE */
+.monthly-grid-head {
+  display: grid;
+  grid-template-columns: 2fr 1.25fr 1fr 1.25fr;
+  width: 100%;
+  max-width: 100%;
+  background: #303030;
+  font-weight: 900;
+  font-size: clamp(9px,.66vw,17px);
+  text-align: center;
+  padding: clamp(3px,.25vh,5px);
+  min-width: 0;
+  overflow: hidden;
+  color: #fff;
+}
+
+.monthly {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  gap: 1px;
+  font-size: clamp(9px,.66vw,17px);
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  color: #fff;
+}
+
+.monthly-row {
+  display: grid;
+  grid-template-columns: 2fr 1.25fr 1fr 1.25fr;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  align-items: center;
+  min-height: clamp(19px,1.9vh,34px);
+  overflow: hidden;
+  color: #fff;
+}
+
+.monthly-row > div {
+  padding: clamp(2px,.22vh,5px) 3px;
+  background: #1b1b1b;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.monthly-row .monthly-month {
+  background: #333;
+  font-weight: 900;
+  color: #fff;
+  text-align: left;
+  padding-left: 6px;
+}
+
+.monthly-row .monthly-2025,
+.monthly-row .monthly-2026 {
+  text-align: right;
+  font-weight: 700;
+  color: #fff;
+}
+
+.monthly-row .monthly-variance {
+  text-align: center;
+  font-weight: 900;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.monthly-var-positive {
+  color: #65b83f !important;
+  font-weight: 900;
+}
+
+.monthly-var-negative {
+  color: #ff3030 !important;
+  font-weight: 900;
+}
+
+.monthly-var-zero {
+  color: #fff !important;
+  font-weight: 900;
+}
+
+.monthly-row.monthly-total {
+  border-top: 1px solid #666;
+  font-weight: 900;
+  color: #fff;
+}
+
+.monthly-row.monthly-total > div {
+  background: #1a1a1a;
+  font-weight: 900;
+  color: #fff;
+}
+
+.monthly-row.monthly-total .monthly-month {
+  background: #252525;
+  font-weight: 900;
+  color: #fff;
+}
+
+/* FOOTER */
+.footer-bar {
+  flex: 0 0 clamp(40px,5vh,68px);
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  min-height: clamp(40px,5vh,68px);
+  background: #080808;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 clamp(6px,.7vw,18px);
+  border-top: 1px solid #555;
+  font-size: clamp(9px,.63vw,16px);
+  gap: clamp(5px,.7vw,15px);
+  overflow: hidden;
+}
+
+.footer-group {
+  display: flex;
+  gap: clamp(5px,.7vw,15px);
+  min-width: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.f-item {
+  background: #1b1b1b;
+  padding: clamp(2px,.25vh,5px) clamp(5px,.4vw,10px);
+  border: 1px solid #444;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  max-width: 25vw;
+  overflow: hidden;
+  color: #fff;
+}
+
+.f-item span {
+  color: #aaa !important;
+  font-size: clamp(8px,.5vw,13px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.f-item b {
+  font-size: clamp(9px,.65vw,16px);
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* WEATHER TICKER */
+.ticker-wrap {
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0 clamp(5px,1vw,20px);
+  background: #151515;
+  border: 1px solid #444;
+  overflow: hidden;
+  height: clamp(25px,2.7vh,40px);
+}
+
+.ticker-label {
+  background: #b00000;
+  color: #fff !important;
+  padding: 0 clamp(6px,.5vw,12px);
+  font-weight: 900;
+  font-size: clamp(8px,.6vw,15px);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.ticker {
+  overflow: hidden;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 0;
+}
+
+.ticker div {
+  display: inline-block;
+  padding-left: 100%;
+  animation: ticker 25s linear infinite;
+  color: #ffc107 !important;
+  font-weight: 900;
+  font-size: clamp(9px,.68vw,18px);
+}
+
+.footer-right {
+  color: #aaa !important;
+  font-size: clamp(8px,.55vw,14px);
+  white-space: nowrap;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 25vw;
+}
+
+/* ANIMATIONS */
+@keyframes blink {
+  50% { opacity: .3; }
+}
+
+@keyframes ticker {
+  to { transform: translateX(-100%); }
+}
+
+/* STOPPAGE ALERT */
+@keyframes stoppageSweep {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.stoppage-alert {
+  background: linear-gradient(
+    90deg,
+    rgba(255,48,48,.4) 0%,
+    rgba(255,120,120,.9) 50%,
+    rgba(255,48,48,.4) 100%
+  );
+  background-size: 200% 100%;
+  animation: stoppageSweep 2s linear infinite;
+  color: #fff !important;
+  font-weight: 900;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 2px 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* PAGE TRANSITIONS */
+.dashboard-page {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(35px);
+  transition: opacity .8s ease, transform .8s ease, visibility .8s ease;
+  overflow: hidden;
+}
+
+.dashboard-page.active {
+  position: relative;
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.dashboard-page.leaving {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-35px);
+}
+
+/* PAGE INDICATOR */
+.page-indicator {
+  position: fixed;
+  right: clamp(6px,.5vw,15px);
+  bottom: clamp(45px,5vh,75px);
+  display: flex;
+  gap: clamp(4px,.3vw,8px);
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.page-indicator-dot {
+  width: clamp(5px,.4vw,10px);
+  height: clamp(5px,.4vw,10px);
+  border-radius: 50%;
+  background: #555;
+  opacity: .45;
+  transition: opacity .3s ease, background .3s ease, box-shadow .3s ease;
+}
+
+.page-indicator-dot.active {
+  background: #6dcc45;
+  opacity: 1;
+  box-shadow: 0 0 7px rgba(108,204,69,.9);
+}
+
+/* 1366 / 1360 / 1280 MONITOR */
+@media screen and (max-width: 1400px) {
+  body { font-size: 13px; }
+
+  .berth-row,
+  .alpha-row { min-height: 23px; }
+
+  .analytics-grid { gap: 4px; }
+
+  .table-header-bar,
+  .berth-row,
+  .table-footer-bar { font-size: 11px; }
+
+  .alpha-header-bar,
+  .alpha-row { font-size: 11px; }
+
+  .monthly-grid-head,
+  .monthly { font-size: 11px; }
+
+  .monthly-row { min-height: 23px; }
+}
+
+/* SMALLER SCREEN */
+@media screen and (max-width: 1100px) {
+  body { font-size: 12px; }
+
+  .table-header-bar,
+  .berth-row,
+  .table-footer-bar { font-size: 10px; }
+
+  .alpha-header-bar,
+  .alpha-row { font-size: 10px; }
+
+  .analytics-grid {
+    grid-template-columns: minmax(0,1fr);
+    height: auto;
+  }
+}
+
+/* VERY NARROW DISPLAY */
+@media screen and (max-width: 700px) {
+  .topbar { padding: 0 6px; }
+
+  .title {
+    font-size: 15px;
+    letter-spacing: .5px;
+  }
+
+  .subtitle { font-size: 8px; }
+
+  .clock div:last-child { font-size: 15px; }
+
+  .footer-bar {
+    height: auto;
+    min-height: 42px;
+    padding: 4px 6px;
+    flex-wrap: wrap;
+    overflow: visible;
+  }
+
+  .ticker-wrap {
+    order: 3;
+    width: 100%;
+    flex-basis: 100%;
+    margin: 3px 0;
+  }
+}
+
+/* SHORT SCREEN */
+@media screen and (max-height: 700px) {
+  .topbar {
+    flex-basis: 46px;
+    min-height: 46px;
+  }
+
+  .main-content {
+    padding: 3px 4px 8px;
+    gap: 3px;
+  }
+
+  .berth-row { min-height: 23px; }
+  .alpha-row { min-height: 21px; }
+
+  .footer-bar {
+    flex-basis: 40px;
+    min-height: 40px;
+  }
+}
+
+/* HIGH VERTICAL RESOLUTION */
+@media screen and (min-height: 1400px) {
+  .topbar {
+    flex-basis: clamp(60px,5vh,90px);
+    min-height: clamp(60px,5vh,90px);
+  }
+
+  .footer-bar {
+    flex-basis: clamp(50px,5vh,85px);
+    min-height: clamp(50px,5vh,85px);
+  }
+}
+
+/* =========================================================
+   FINAL TV KIOSK OVERRIDES
+   1920 x 1080 ONLY
+   Desktop monitor rules above remain unchanged.
+   ========================================================= */
+
+@media screen
+and (min-width: 1600px)
+and (max-width: 2499px)
+and (min-height: 800px)
+and (max-height: 1200px) {
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+  }
+
+  body {
+    font-size: 12px;
+    line-height: 1;
+  }
+
+  /* APP: fixed to the actual TV viewport */
+  .app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    min-height: 0;
+    max-height: 100vh;
+    overflow: hidden !important;
+  }
+
+  /* HEADER */
+  .topbar {
+    flex: 0 0 40px;
+    height: 40px;
+    min-height: 40px;
+    padding: 0 8px;
+    gap: 8px;
+  }
+
+  .brand img {
+    max-width: 110px;
+    max-height: 34px;
+  }
+
+  .title {
+    font-size: 17px !important;
+    line-height: 1;
+  }
+
+  .subtitle {
+    font-size: 8px !important;
+    line-height: 1;
+  }
+
+  .live-dot {
+    width: 9px;
+    height: 9px;
+    min-width: 9px;
+    min-height: 9px;
+  }
+
+  .clock div:first-child { font-size: 9px; }
+
+  .clock div:last-child {
+    font-size: 15px;
+    line-height: 1;
+  }
+
+  /* MAIN CONTENT: scroll only if content exceeds screen */
+  .main-content {
+    flex: 1 1 auto;
+    height: 0;
+    min-height: 0;
+    padding: 2px 4px 3px;
+    gap: 2px;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
+
+  .sub-section-title:empty {
+    display: none !important;
+  }
+
+  /* MAIN BERTH TABLE */
+  .table-header-bar,
+  .berth-row,
+  .table-footer-bar {
+    padding: 1px 3px;
+    line-height: 1;
+  }
+
+  .table-header-bar {
+    height: 21px;
+    min-height: 21px;
+    font-size: 10px;
+  }
+
+  .berth-row {
+    height: 22px;
+    min-height: 22px;
+    font-size: 10px;
+  }
+
+  .table-footer-bar {
+    height: 20px;
+    min-height: 20px;
+    font-size: 10px;
+  }
+
+  .progress-wrap { height: 10px; }
+
+  .progress-wrap span { font-size: 8px; }
+
+  /* BERTH A / BERTH F */
+  .alpha-header-bar,
+  .alpha-row {
+    padding: 1px 3px;
+    line-height: 1;
+  }
+
+  .alpha-header-bar {
+    height: 20px;
+    min-height: 20px;
+    font-size: 9px;
+  }
+
+  .alpha-row {
+    height: 20px;
+    min-height: 20px;
+    font-size: 10px;
+  }
+
+  .sub-section-title {
+    padding: 1px 4px;
+    font-size: 9px;
+    line-height: 1;
+  }
+
+  /* ANALYTICS */
+  .analytics-grid {
+    flex: none;
+    height: auto;
+    min-height: 0;
+    gap: 3px;
+    margin-top: 0;
+    overflow: visible;
+  }
+
+  .panel { padding: 2px; }
+
+  .panel-title {
+    height: 18px;
+    min-height: 18px;
+    padding: 1px 4px;
+    margin-bottom: 1px;
+    font-size: 9px;
+    line-height: 16px;
+  }
+
+  /* SMALL TABLES */
+  .table-mini .tr {
+    height: 18px;
+    min-height: 18px;
+    padding: 1px 3px;
+    font-size: 9px;
+    line-height: 1;
+  }
+
+  /* MONTHLY */
+  .monthly-grid-head {
+    height: 17px;
+    min-height: 17px;
+    padding: 1px 2px;
+    font-size: 9px;
+  }
+
+  .monthly {
+    gap: 0;
+    font-size: 9px;
+  }
+
+  .monthly-row {
+    height: 17px;
+    min-height: 17px;
+  }
+
+  .monthly-row > div {
+    height: 17px;
+    min-height: 17px;
+    padding: 0 2px;
+    line-height: 17px;
+    font-size: 9px;
+  }
+
+  /* PRODUCTION */
+  .prod-row {
+    height: 18px;
+    min-height: 18px;
+    padding: 1px 3px;
+    font-size: 9px;
+  }
+
+  .prod-row b { font-size: 10px; }
+
+  /* FOOTER: reserved below main content, never overlaps */
+  .footer-bar {
+    flex: 0 0 34px;
+    height: 34px;
+    min-height: 34px;
+    padding: 0 5px;
+    gap: 3px;
+  }
+
+  .footer-group { gap: 3px; }
+
+  .f-item { padding: 1px 3px; }
+
+  .f-item span {
+    font-size: 7px;
+    line-height: 1;
+  }
+
+  .f-item b {
+    font-size: 9px;
+    line-height: 1.1;
+  }
+
+  .ticker-wrap {
+    height: 21px;
+    margin: 0 3px;
+  }
+
+  .ticker-label {
+    font-size: 8px;
+    padding: 0 4px;
+  }
+
+  .ticker div { font-size: 9px; }
+
+  .footer-right {
+    font-size: 8px;
+    max-width: 20vw;
+  }
+}
+
+/* =========================================================
+   720p TV KIOSK
+   ========================================================= */
+
+@media screen
+and (min-width: 1100px)
+and (max-width: 1599px)
+and (min-height: 600px)
+and (max-height: 800px) {
+
+  html,
+  body {
+    height: 100%;
+    min-height: 0;
+    overflow: hidden !important;
+  }
+
+  .app {
+    height: 100vh;
+    min-height: 0;
+    max-height: 100vh;
+    overflow: hidden !important;
+  }
+
+  .topbar {
+    flex: 0 0 42px;
+    height: 42px;
+    min-height: 42px;
+  }
+
+  .main-content {
+    flex: 1 1 auto;
+    height: 0;
+    min-height: 0;
+    padding: 2px 3px;
+    gap: 2px;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+  }
+
+  .sub-section-title:empty { display: none !important; }
+
+  .table-header-bar {
+    height: 21px;
+    min-height: 21px;
+    font-size: 10px;
+    padding: 1px 3px;
+  }
+
+  .berth-row {
+    height: 22px;
+    min-height: 22px;
+    font-size: 10px;
+    padding: 1px 3px;
+  }
+
+  .table-footer-bar {
+    height: 21px;
+    min-height: 21px;
+    font-size: 10px;
+    padding: 1px 3px;
+  }
+
+  .alpha-header-bar {
+    height: 20px;
+    min-height: 20px;
+    font-size: 9px;
+  }
+
+  .alpha-row {
+    height: 20px;
+    min-height: 20px;
+    font-size: 10px;
+  }
+
+  .panel { padding: 2px; }
+
+  .panel-title {
+    height: 18px;
+    min-height: 18px;
+    padding: 1px 4px;
+    margin-bottom: 1px;
+    font-size: 9px;
+    line-height: 16px;
+  }
+
+  .table-mini .tr,
+  .prod-row {
+    height: 18px;
+    min-height: 18px;
+    padding: 1px 3px;
+    font-size: 9px;
+  }
+
+  .monthly-grid-head,
+  .monthly-row,
+  .monthly-row > div {
+    height: 17px;
+    min-height: 17px;
+    font-size: 9px;
+  }
+
+  .footer-bar {
+    flex: 0 0 34px;
+    height: 34px;
+    min-height: 34px;
+  }
+}
+
+/* =========================================================
+   FINAL SAFETY
+   ========================================================= */
+
+.app,
+.main-content,
+.dashboard-page,
+.table-container,
+.table-header-bar,
+.berth-row,
+.table-footer-bar,
+.alpha-header-bar,
+.alpha-row,
+.analytics-grid,
+.panel,
+.monthly-grid-head,
+.monthly,
+.monthly-row {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.table-header-bar *,
+.berth-row *,
+.table-footer-bar *,
+.alpha-header-bar *,
+.alpha-row *,
+.monthly-grid-head *,
+.monthly *,
+.monthly-row * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.berth-row > div,
+.berth-row > span,
+.table-header-bar > div,
+.table-header-bar > span,
+.table-footer-bar > div,
+.table-footer-bar > span,
+.alpha-row > div,
+.alpha-row > span,
+.alpha-header-bar > div,
+.alpha-header-bar > span,
+.monthly-row > div {
+  overflow: hidden !important;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.berth-row,
+.berth-row > div,
+.berth-row > span,
+.alpha-row,
+.alpha-row > div,
+.alpha-row > span,
+.table-footer-bar,
+.table-footer-bar > div,
+.table-footer-bar > span,
+.production,
+.prod-row,
+.table-mini .tr,
+.monthly,
+.monthly-row,
+.monthly-row > div {
+  color: #fff;
+}
+
+.subtitle,
+.clock div:first-child,
+.f-item span,
+.footer-right {
+  color: #aaa !important;
+}
+
+.monthly-var-positive { color: #65b83f !important; }
+.monthly-var-negative { color: #ff3030 !important; }
+.monthly-var-zero { color: #fff !important; }
+.ticker div { color: #ffc107 !important; }
+
+/* Scrollbar */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+.main-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track,
+.main-content::-webkit-scrollbar-track {
+  background: #181818;
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb,
+.main-content::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 6px;
+  border: 2px solid #181818;
+}
+
+html::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:hover,
+.main-content::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+/* =========================================================
+   FIX: SHOW R1, R2 AND R3
+   ========================================================= */
+
+.alpha-header-bar,
+.alpha-row {
+    display: grid !important;
+    width: 100% !important;
+    overflow: visible !important;
+    min-width: 0;
+}
+
+/* Prevent R1, R2 and R3 cells from disappearing */
+.alpha-header-bar > *,
+.alpha-row > * {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    min-width: 0;
+}
+
+/* Restore row visibility */
+.alpha-row {
+    height: auto !important;
+    min-height: 22px !important;
+}
+
+/* TV layout */
+@media screen and (min-width: 1600px) and (max-width: 2499px) {
+    .alpha-header-bar,
+    .alpha-row {
+        grid-template-columns:
+            5% 10% 12% 10% 10% 9% 7% 13% 12% 12% !important;
+    }
+}
+
+
+/* =========================================================
+   SAFISCOR TV ROW VISIBILITY FIX — 1920x1080
+   Fixes clipped Jetty row, gives R1/R2/R3 readable height,
+   and keeps the footer outside the scrollable content.
+   ========================================================= */
+@media screen
+and (min-width: 1600px)
+and (max-width: 2499px)
+and (min-height: 800px)
+and (max-height: 1200px) {
+
+  .app {
+    height: 100vh !important;
+    min-height: 0 !important;
+    max-height: 100vh !important;
+    overflow: hidden !important;
+  }
+
+  .main-content {
+    flex: 1 1 0 !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    align-items: stretch;
+  }
+
+  /* Do not let the table sections shrink and clip their own rows. */
+  .main-content > .table-container {
+    flex: 0 0 auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+  }
+
+  #berthGrid {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+  }
+
+  #berthGrid > .berth-row {
+    flex: 0 0 22px !important;
+    height: 22px !important;
+    min-height: 22px !important;
+  }
+
+  .table-header-bar {
+    flex: 0 0 21px !important;
+  }
+
+  .table-footer-bar {
+    flex: 0 0 20px !important;
+  }
+
+  #alphaRows {
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: visible !important;
+  }
+
+  #alphaRows > .alpha-row {
+    flex: 0 0 23px !important;
+    height: 23px !important;
+    min-height: 23px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+  }
+
+  .alpha-header-bar {
+    flex: 0 0 21px !important;
+  }
+
+  /* Preserve all ten columns; make the first two labels easier to read. */
+  .alpha-header-bar,
+  .alpha-row {
+    grid-template-columns: 6% 12% 13% 9% 9% 8% 7% 14% 11% 11% !important;
+    overflow: hidden !important;
+  }
+
+  .alpha-header-bar > *,
+  .alpha-row > * {
+    display: block !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+  }
+
+  .analytics-grid {
+    flex: 0 0 auto !important;
+  }
+
+  .footer-bar {
+    flex: 0 0 34px !important;
+    min-height: 34px !important;
+    position: relative !important;
+    z-index: 2 !important;
+  }
+}
+
+/* 720p: same non-shrinking berth rows and scrollable main region. */
+@media screen
+and (min-width: 1100px)
+and (max-width: 1599px)
+and (min-height: 600px)
+and (max-height: 800px) {
+
+  .main-content > .table-container {
+    flex: 0 0 auto !important;
+    overflow: visible !important;
+  }
+
+  #berthGrid {
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: visible !important;
+  }
+
+  #berthGrid > .berth-row {
+    flex: 0 0 22px !important;
+    height: 22px !important;
+    min-height: 22px !important;
+  }
+
+  #alphaRows {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  #alphaRows > .alpha-row {
+    flex: 0 0 23px !important;
+    height: 23px !important;
+    min-height: 23px !important;
+  }
+}
