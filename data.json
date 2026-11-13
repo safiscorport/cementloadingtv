@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:10:20+08:00",
+  "updated_at": "2026-11-13T17:15:13+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "13:58",
       "remarks": "LOADING TONNER S32",
       "equipment": "CRANE 2",
-      "activity_time": "03:11"
+      "activity_time": "03:16"
     },
     {
       "berth": "Berth 2",
@@ -56,10 +56,10 @@
       "balance": 16550,
       "progress": 0.3104166666666667,
       "stockpile": 6000,
-      "time": "14:07",
-      "remarks": "LOADING TONNER P15",
+      "time": "15:02",
+      "remarks": "LOADING TONNER S57",
       "equipment": "FL 1",
-      "activity_time": "03:02"
+      "activity_time": "02:12"
     },
     {
       "berth": "Berth 5",
@@ -104,7 +104,7 @@
       "time": "13:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:09"
+      "activity_time": "04:14"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 12040,
       "progress": 0.5184,
       "stockpile": 2160,
-      "time": "14:21",
-      "remarks": "LOADING POUCH P4",
+      "time": "17:09",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:48"
+      "activity_time": "00:05"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "HATCH UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "10:09"
+      "activity_time": "10:14"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:09"
+      "activity_time": "17:14"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:09"
+    "activity_time": "17:14"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:09"
+    "activity_time": "17:14"
   },
   "trucking": [
     {
