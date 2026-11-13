@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T10:01:06+08:00",
+  "updated_at": "2026-11-13T10:12:50+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "08:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "02:00"
+      "activity_time": "02:12"
     },
     {
       "berth": "Berth 2",
@@ -59,7 +59,7 @@
       "time": "07:30",
       "remarks": "WAITING PTMS PLASTADA",
       "equipment": "0",
-      "activity_time": "02:30"
+      "activity_time": "02:42"
     },
     {
       "berth": "Berth 5",
@@ -111,15 +111,15 @@
       "vessel": "STAR FREEDOM",
       "voyage": 15,
       "booking": 25000,
-      "dispatch": 8640,
+      "dispatch": 9720,
       "loaded": 8640,
       "balance": 16360,
       "progress": 0.3456,
-      "stockpile": 0,
+      "stockpile": 1080,
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:00"
+      "activity_time": "03:12"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "HATCH UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "03:00"
+      "activity_time": "03:12"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 116000,
-    "dispatch": 19840,
+    "dispatch": 20920,
     "loaded": 13840,
     "balance": 102160,
     "progress": 0.13205972222222223,
-    "stockpile": 6000
+    "stockpile": 7080
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:00"
+      "activity_time": "10:12"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "10:00"
+    "activity_time": "10:12"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "10:00"
+    "activity_time": "10:12"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 385670,
-      "daily": 3000
+      "September": 386750,
+      "daily": 4080
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 4000
+      "volume": 5080
     },
     {
       "client": "LAPU-LAPU",
