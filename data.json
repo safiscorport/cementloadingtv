@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:29:39+08:00",
+  "updated_at": "2026-11-13T19:55:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 35050,
       "progress": 0.22111111111111112,
       "stockpile": 0,
-      "time": "16:48",
+      "time": "19:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "00:41"
+      "activity_time": "00:25"
     },
     {
       "berth": "Berth 2",
@@ -56,10 +56,10 @@
       "balance": 15550,
       "progress": 0.35208333333333336,
       "stockpile": 5000,
-      "time": "16:59",
-      "remarks": "LOADING TONNER S57",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 1",
-      "activity_time": "00:30"
+      "activity_time": "00:55"
     },
     {
       "berth": "Berth 5",
@@ -101,10 +101,10 @@
       "balance": 20000,
       "progress": 0,
       "stockpile": 0,
-      "time": "13:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "04:29"
+      "activity_time": "00:55"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 9880,
       "progress": 0.6048,
       "stockpile": 0,
-      "time": "17:09",
+      "time": "19:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:20"
+      "activity_time": "00:25"
     },
     {
       "berth": "Berth 9",
@@ -146,10 +146,10 @@
       "balance": 22000,
       "progress": 0,
       "stockpile": 2000,
-      "time": "07:00",
+      "time": "19:00",
       "remarks": "HATCH UNDER REPAIR",
       "equipment": "0",
-      "activity_time": "10:29"
+      "activity_time": "00:55"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:29"
+      "activity_time": "19:55"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:29"
+    "activity_time": "19:55"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:29"
+    "activity_time": "19:55"
   },
   "trucking": [
     {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "0",
-    "checker": "CANOY/DALUSA/OBIAL",
-    "pmc": "JOAN/WILLIAM",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "TORRES, J/ TORREGOSA, J",
+    "pmc": "VICKY/EBOY",
     "cranes": 3,
     "forklifts": 7,
-    "stevedores": 47
+    "stevedores": 41
   }
 }
