@@ -1,27 +1,101 @@
+
+/* =========================================================
+   SAFISCOR PORT OPERATIONS DASHBOARD
+   COMPLETE APP.JS
+   AUTOMATIC SMART TV FIT VERSION
+
+   TARGET:
+   - 1920 x 1080 Smart TV
+   - 43-inch kiosk display
+   - Automatic resolution scaling
+   - No overlapping dashboard sections
+   - Refit after every data refresh
+   - Monthly December row preserved
+   ========================================================= */
+
+
+/* =========================================================
+   CONFIGURATION
+   ========================================================= */
+
 const REFRESH_MS = 10000;
+
 let lastHash = '';
+
+const TV_FIT = {
+  frameId: 'dashboardFitFrame',
+  appSelector: '.app',
+  minScale: 0.45,
+  maxScale: 1
+};
+
+let fitScheduled = false;
+let lastFitScale = 1;
 
 const $ = id => document.getElementById(id);
 
+
+/* =========================================================
+   NUMBER FORMAT
+   ========================================================= */
+
 const num = v =>
-  (v === undefined ||
-   v === null ||
-   v === 0 ||
-   v === '-')
+  (
+    v === undefined ||
+    v === null ||
+    v === 0 ||
+    v === '-'
+  )
     ? (v === 0 ? '0' : (v || '—'))
     : Number(v).toLocaleString('en-US');
 
 
 function formatActivityTime(val) {
-  if (!val || val === '0:00' || val === '-') return '0:00';
+
+  if (!val || val === '0:00' || val === '-') {
+    return '0:00';
+  }
+
   return val;
+
 }
 
 
-function isStoppageRemark(text) {
-  if (!text || text === '-') return false;
+/* =========================================================
+   SAFE TEXT
+   ========================================================= */
 
-  const lower = text.toLowerCase();
+function safeText(value, fallback = '—') {
+
+  if (
+    value === undefined ||
+    value === null ||
+    value === ''
+  ) {
+    return fallback;
+  }
+
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+
+}
+
+
+/* =========================================================
+   STOPPAGE REMARKS
+   ========================================================= */
+
+function isStoppageRemark(text) {
+
+  if (!text || text === '-') {
+    return false;
+  }
+
+  const lower = String(text).toLowerCase();
 
   return (
     lower.includes('waiting') ||
@@ -38,6 +112,7 @@ function isStoppageRemark(text) {
     lower.includes('shortage') ||
     lower.includes('no stock')
   );
+
 }
 
 
@@ -61,6 +136,7 @@ function monthlyNumber(v) {
   );
 
   return Number.isFinite(n) ? n : 0;
+
 }
 
 
@@ -75,9 +151,8 @@ function monthlyFormat(v) {
     return '—';
   }
 
-  const n = monthlyNumber(v);
+  return monthlyNumber(v).toLocaleString('en-US');
 
-  return n.toLocaleString('en-US');
 }
 
 
@@ -92,6 +167,7 @@ function monthlyVarianceClass(v) {
   }
 
   return 'monthly-var-zero';
+
 }
 
 
@@ -106,123 +182,376 @@ function monthlyVarianceText(v) {
   }
 
   return '0';
+
 }
 
 
 /* =========================================================
-   RENDER
+   PROGRESS HELPERS
+   ========================================================= */
+
+function progressValue(value) {
+
+  const p = parseFloat(
+    String(value ?? '0').replace('%', '')
+  ) || 0;
+
+  return Math.max(0, Math.min(100, p));
+
+}
+
+
+function progressHTML(value) {
+
+  const p = progressValue(value);
+
+  return `
+    <div class="progress-wrap">
+      <div class="bar">
+        <i style="width:${p}%"></i>
+      </div>
+      <span>${p > 0 ? p.toFixed(0) + '%' : ''}</span>
+    </div>
+  `;
+
+}
+
+
+/* =========================================================
+   AUTOMATIC TV FIT CONTROLLER
+   ========================================================= */
+
+function fitDashboard() {
+
+  const frame = document.getElementById(
+    TV_FIT.frameId
+  );
+
+  if (!frame) {
+    return;
+  }
+
+  const app = frame.querySelector(
+    TV_FIT.appSelector
+  );
+
+  if (!app) {
+    return;
+  }
+
+  const frameWidth = frame.clientWidth;
+  const frameHeight = frame.clientHeight;
+
+  if (!frameWidth || !frameHeight) {
+    return;
+  }
+
+  /* Reset previous scaling. */
+
+  app.style.setProperty(
+    'transform',
+    'none',
+    'important'
+  );
+
+  app.style.setProperty(
+    'width',
+    frameWidth + 'px',
+    'important'
+  );
+
+  app.style.setProperty(
+    'height',
+    'auto',
+    'important'
+  );
+
+  app.style.setProperty(
+    'max-height',
+    'none',
+    'important'
+  );
+
+  let scale = 1;
+
+  /* Measure natural dashboard dimensions. */
+
+  for (let i = 0; i < 4; i++) {
+
+    const contentHeight = Math.max(
+      app.scrollHeight,
+      app.offsetHeight
+    );
+
+    const contentWidth = Math.max(
+      app.scrollWidth,
+      frameWidth
+    );
+
+    const scaleX = frameWidth / contentWidth;
+
+    const scaleY =
+      frameHeight / Math.max(contentHeight, 1);
+
+    scale = Math.min(
+      TV_FIT.maxScale,
+      scaleX,
+      scaleY
+    );
+
+    scale = Math.max(
+      TV_FIT.minScale,
+      scale
+    );
+
+    app.style.setProperty(
+      'width',
+      (frameWidth / scale) + 'px',
+      'important'
+    );
+
+  }
+
+  /* Final dimensions. */
+
+  const finalHeight = Math.max(
+    app.scrollHeight,
+    app.offsetHeight
+  );
+
+  const finalWidth = Math.max(
+    app.scrollWidth,
+    frameWidth
+  );
+
+  scale = Math.min(
+    TV_FIT.maxScale,
+    frameWidth / finalWidth,
+    frameHeight / Math.max(finalHeight, 1)
+  );
+
+  scale = Math.max(
+    TV_FIT.minScale,
+    scale
+  );
+
+  app.style.setProperty(
+    'width',
+    (frameWidth / scale) + 'px',
+    'important'
+  );
+
+  app.style.setProperty(
+    'transform-origin',
+    'top left',
+    'important'
+  );
+
+  app.style.setProperty(
+    'transform',
+    `scale(${scale})`,
+    'important'
+  );
+
+  lastFitScale = scale;
+
+  frame.scrollTop = 0;
+  frame.scrollLeft = 0;
+
+  console.log(
+    'SAFISCOR TV FIT:',
+    {
+      resolution:
+        frameWidth + ' x ' + frameHeight,
+
+      scale:
+        (scale * 100).toFixed(1) + '%'
+    }
+  );
+
+}
+
+
+/* =========================================================
+   SCHEDULE AUTOMATIC FITTING
+   ========================================================= */
+
+function scheduleDashboardFit() {
+
+  if (fitScheduled) {
+    return;
+  }
+
+  fitScheduled = true;
+
+  requestAnimationFrame(() => {
+
+    requestAnimationFrame(() => {
+
+      fitDashboard();
+
+      fitScheduled = false;
+
+    });
+
+  });
+
+}
+
+
+/* =========================================================
+   RESOLUTION CHANGE DETECTION
+   ========================================================= */
+
+window.addEventListener(
+  'resize',
+  scheduleDashboardFit
+);
+
+window.addEventListener(
+  'orientationchange',
+  scheduleDashboardFit
+);
+
+if (window.visualViewport) {
+
+  window.visualViewport.addEventListener(
+    'resize',
+    scheduleDashboardFit
+  );
+
+}
+
+
+if (document.fonts && document.fonts.ready) {
+
+  document.fonts.ready.then(
+    scheduleDashboardFit
+  );
+
+}
+
+
+/* =========================================================
+   RENDER DASHBOARD
    ========================================================= */
 
 function render(d) {
+
 
   /* =======================================================
      LIVE STATUS
      ======================================================= */
 
-  $('syncText').textContent =
-    'LIVE • UPDATED ' +
-    new Date(d.updated_at).toLocaleTimeString(
-      'en-PH',
-      {
-        hour12: false
-      }
-    );
+  if ($('syncText')) {
 
-  $('refreshSec').textContent =
-    (REFRESH_MS / 1000) + 's';
+    $('syncText').textContent =
+      'LIVE • UPDATED ' +
+      new Date(d.updated_at).toLocaleTimeString(
+        'en-PH',
+        {
+          hour12: false
+        }
+      );
+
+  }
+
+  if ($('refreshSec')) {
+
+    $('refreshSec').textContent =
+      (REFRESH_MS / 1000) + 's';
+
+  }
 
 
   /* =======================================================
-     BERTHS
+     MAIN BERTH TABLE
      ======================================================= */
 
   const rows = d.berths || [];
 
-  $('berthGrid').innerHTML =
-    rows.map(x => {
+  if ($('berthGrid')) {
 
-      let p =
-        Math.max(
-          0,
-          Math.min(
-            100,
-            (x.progress || 0) * 100
-          )
+    $('berthGrid').innerHTML =
+
+      rows.map(x => {
+
+        const p = progressValue(
+          (x.progress || 0) * 100
         );
 
-      let vacant =
-        String(x.vessel || '').toUpperCase() === 'VACANT';
+        const vacant =
+          String(x.vessel || '')
+            .toUpperCase() === 'VACANT';
 
-      let remarkAlert =
-        isStoppageRemark(x.remarks)
-          ? 'stoppage-alert'
-          : '';
+        const remarkAlert =
+          isStoppageRemark(x.remarks)
+            ? 'stoppage-alert'
+            : '';
 
-      return `
-        <div class="berth-row ${vacant ? 'vacant' : ''}">
+        return `
 
-          <span>
-            <b>${x.berth}</b>
-          </span>
+          <div class="berth-row ${vacant ? 'vacant' : ''}">
 
-          <span class="vessel">
-            ${x.vessel || '—'}
-          </span>
+            <span>
+              <b>${safeText(x.berth)}</b>
+            </span>
 
-          <span>
-            ${x.voyage || '-'}
-          </span>
+            <span class="vessel">
+              ${safeText(x.vessel)}
+            </span>
 
-          <span>
-            ${num(x.booking)}
-          </span>
+            <span>
+              ${safeText(x.voyage, '-')}
+            </span>
 
-          <span>
-            ${num(x.dispatch)}
-          </span>
+            <span>
+              ${num(x.booking)}
+            </span>
 
-          <span>
-            ${num(x.loaded)}
-          </span>
+            <span>
+              ${num(x.dispatch)}
+            </span>
 
-          <span>
-            ${num(x.balance)}
-          </span>
+            <span>
+              ${num(x.loaded)}
+            </span>
 
-          <span>
-            <div class="progress-wrap">
-              <div class="bar">
-                <i style="width:${p}%"></i>
-              </div>
+            <span>
+              ${num(x.balance)}
+            </span>
 
-              ${p > 0 ? p.toFixed(0) + '%' : ''}
-            </div>
-          </span>
+            <span>
+              ${progressHTML(p)}
+            </span>
 
-          <span>
-            ${num(x.stockpile)}
-          </span>
+            <span>
+              ${num(x.stockpile)}
+            </span>
 
-          <span>
-            ${x.time || '-'}
-          </span>
+            <span>
+              ${safeText(x.time, '-')}
+            </span>
 
-          <span class="remark ${remarkAlert}">
-            ${x.remarks || '-'}
-          </span>
+            <span class="remark ${remarkAlert}">
+              ${safeText(x.remarks, '-')}
+            </span>
 
-          <span>
-            ${x.equipment || '0'}
-          </span>
+            <span>
+              ${safeText(x.equipment, '0')}
+            </span>
 
-          <span class="activity">
-            ${formatActivityTime(x.activity_time)}
-          </span>
+            <span class="activity">
+              ${safeText(formatActivityTime(x.activity_time))}
+            </span>
 
-        </div>
-      `;
+          </div>
 
-    }).join('');
+        `;
+
+      }).join('');
+
+  }
 
 
   /* =======================================================
@@ -231,23 +560,32 @@ function render(d) {
 
   const t = d.total || {};
 
-  $('totalBooking').textContent =
-    num(t.booking);
+  const totalFields = {
 
-  $('totalDispatch').textContent =
-    num(t.dispatch);
+    totalBooking: num(t.booking),
 
-  $('totalLoaded').textContent =
-    num(t.loaded);
+    totalDispatch: num(t.dispatch),
 
-  $('totalBalance').textContent =
-    num(t.balance);
+    totalLoaded: num(t.loaded),
 
-  $('totalProgress').textContent =
-    ((t.progress || 0) * 100).toFixed(0) + '%';
+    totalBalance: num(t.balance),
 
-  $('totalStockpile').textContent =
-    num(t.stockpile);
+    totalProgress:
+      ((t.progress || 0) * 100).toFixed(0) + '%',
+
+    totalStockpile: num(t.stockpile)
+
+  };
+
+  Object.entries(totalFields).forEach(
+    ([id, value]) => {
+
+      if ($(id)) {
+        $(id).textContent = value;
+      }
+
+    }
+  );
 
 
   /* =======================================================
@@ -255,73 +593,70 @@ function render(d) {
      R1 / R2 / R3
      ======================================================= */
 
-  $('alphaRows').innerHTML =
-    (d.alpha || []).map(x => {
+  if ($('alphaRows')) {
 
-      let pVal =
-        parseFloat(
-          String(x.progress)
-            .replace('%', '')
-        ) || 0;
+    $('alphaRows').innerHTML =
 
-      let remarkAlert =
-        isStoppageRemark(x.remarks)
-          ? 'stoppage-alert'
-          : '';
+      (d.alpha || []).map(x => {
 
-      return `
-        <div class="alpha-row">
+        const p = progressValue(x.progress);
 
-          <span>
-            <b>${x.berth}</b>
-          </span>
+        const remarkAlert =
+          isStoppageRemark(x.remarks)
+            ? 'stoppage-alert'
+            : '';
 
-          <span class="vessel">
-            ${x.vessel}
-          </span>
+        return `
 
-          <span>
-            ${x.materials || '-'}
-          </span>
+          <div class="alpha-row">
 
-          <span>
-            ${x.discharge || '0%'}
-          </span>
+            <span>
+              <b>${safeText(x.berth)}</b>
+            </span>
 
-          <span>
-            ${x.balance || '0%'}
-          </span>
+            <span class="vessel">
+              ${safeText(x.vessel)}
+            </span>
 
-          <span>
-            <div class="progress-wrap">
-              <div class="bar">
-                <i style="width:${pVal}%"></i>
-              </div>
+            <span>
+              ${safeText(x.materials, '-')}
+            </span>
 
-              ${x.progress}
-            </div>
-          </span>
+            <span>
+              ${safeText(x.discharge, '0%')}
+            </span>
 
-          <span>
-            ${x.time || '0:00'}
-          </span>
+            <span>
+              ${safeText(x.balance, '0%')}
+            </span>
 
-          <span class="remark ${remarkAlert}">
-            ${x.remarks || '-'}
-          </span>
+            <span>
+              ${progressHTML(p)}
+            </span>
 
-          <span>
-            ${x.equip || '0'}
-          </span>
+            <span>
+              ${safeText(x.time, '0:00')}
+            </span>
 
-          <span class="activity">
-            ${formatActivityTime(x.activity_time)}
-          </span>
+            <span class="remark ${remarkAlert}">
+              ${safeText(x.remarks, '-')}
+            </span>
 
-        </div>
-      `;
+            <span>
+              ${safeText(x.equip, '0')}
+            </span>
 
-    }).join('');
+            <span class="activity">
+              ${safeText(formatActivityTime(x.activity_time))}
+            </span>
+
+          </div>
+
+        `;
+
+      }).join('');
+
+  }
 
 
   /* =======================================================
@@ -331,70 +666,58 @@ function render(d) {
 
   const f = d.foreign || {};
 
-  let fPVal =
-    parseFloat(
-      String(f.progress || '0')
-        .replace('%', '')
-    ) || 0;
+  if ($('foreignRow')) {
 
-  let fRemarkAlert =
-    isStoppageRemark(f.remarks)
-      ? 'stoppage-alert'
-      : '';
+    const fRemarkAlert =
+      isStoppageRemark(f.remarks)
+        ? 'stoppage-alert'
+        : '';
 
-  $('foreignRow').innerHTML = `
+    $('foreignRow').innerHTML = `
 
-    <span>
-      <b>${f.berth}</b>
-    </span>
+      <span>
+        <b>${safeText(f.berth)}</b>
+      </span>
 
-    <span class="vessel">
-      ${f.vessel}
-    </span>
+      <span class="vessel">
+        ${safeText(f.vessel)}
+      </span>
 
-    <span>
-      ${f.materials || '-'}
-    </span>
+      <span>
+        ${safeText(f.materials, '-')}
+      </span>
 
-    <span>
-      ${f.discharge || '-'}
-    </span>
+      <span>
+        ${safeText(f.discharge, '-')}
+      </span>
 
-    <span>
-      ${f.balance || '-'}
-    </span>
+      <span>
+        ${safeText(f.balance, '-')}
+      </span>
 
-    <span>
+      <span>
+        ${progressHTML(f.progress)}
+      </span>
 
-      <div class="progress-wrap">
+      <span>
+        ${safeText(f.time, '-')}
+      </span>
 
-        <div class="bar">
-          <i style="width:${fPVal}%"></i>
-        </div>
+      <span class="remark ${fRemarkAlert}">
+        ${safeText(f.remarks, '-')}
+      </span>
 
-        ${f.progress || '-'}
+      <span>
+        ${safeText(f.equip, '0')}
+      </span>
 
-      </div>
+      <span class="activity">
+        ${safeText(formatActivityTime(f.activity_time))}
+      </span>
 
-    </span>
+    `;
 
-    <span>
-      ${f.time || '-'}
-    </span>
-
-    <span class="remark ${fRemarkAlert}">
-      ${f.remarks || '-'}
-    </span>
-
-    <span>
-      ${f.equip || '0'}
-    </span>
-
-    <span class="activity">
-      ${formatActivityTime(f.activity_time)}
-    </span>
-
-  `;
+  }
 
 
   /* =======================================================
@@ -403,38 +726,59 @@ function render(d) {
 
   const anchorage = d.anchorage || {};
 
-  let anchorageProgress =
-    parseFloat(
-      String(anchorage.progress || '0')
-        .replace('%', '')
-    ) || 0;
-
-  let anchorageRemarkAlert =
-    isStoppageRemark(anchorage.remarks)
-      ? 'stoppage-alert'
-      : '';
-
   const anchorageRow = $('anchorageRow');
+
   if (anchorageRow) {
+
+    const anchorageRemarkAlert =
+      isStoppageRemark(anchorage.remarks)
+        ? 'stoppage-alert'
+        : '';
+
     anchorageRow.innerHTML = `
-      <span><b>${anchorage.berth || 'ANCHORAGE'}</b></span>
-      <span class="vessel">${anchorage.vessel || '—'}</span>
-      <span>${anchorage.materials || '-'}</span>
-      <span>${anchorage.discharge || '-'}</span>
-      <span>${anchorage.balance || '-'}</span>
+
       <span>
-        <div class="progress-wrap">
-          <div class="bar">
-            <i style="width:${Math.max(0, Math.min(100, anchorageProgress))}%"></i>
-          </div>
-          ${anchorage.progress || '-'}
-        </div>
+        <b>${safeText(anchorage.berth, 'ANCHORAGE')}</b>
       </span>
-      <span>${anchorage.time || '-'}</span>
-      <span class="remark ${anchorageRemarkAlert}">${anchorage.remarks || '-'}</span>
-      <span>${anchorage.equip || '0'}</span>
-      <span class="activity">${formatActivityTime(anchorage.activity_time)}</span>
+
+      <span class="vessel">
+        ${safeText(anchorage.vessel)}
+      </span>
+
+      <span>
+        ${safeText(anchorage.materials, '-')}
+      </span>
+
+      <span>
+        ${safeText(anchorage.discharge, '-')}
+      </span>
+
+      <span>
+        ${safeText(anchorage.balance, '-')}
+      </span>
+
+      <span>
+        ${progressHTML(anchorage.progress)}
+      </span>
+
+      <span>
+        ${safeText(anchorage.time, '-')}
+      </span>
+
+      <span class="remark ${anchorageRemarkAlert}">
+        ${safeText(anchorage.remarks, '-')}
+      </span>
+
+      <span>
+        ${safeText(anchorage.equip, '0')}
+      </span>
+
+      <span class="activity">
+        ${safeText(formatActivityTime(anchorage.activity_time))}
+      </span>
+
     `;
+
   }
 
 
@@ -442,114 +786,117 @@ function render(d) {
      TRUCKING
      ======================================================= */
 
-  const truckData =
-    d.trucking || [];
+  const truckData = d.trucking || [];
 
-  const truckTotal =
-    truckData.reduce(
-      (acc, curr) => ({
-        august:
-          acc.august +
-          (
-            typeof curr.August === 'number'
-              ? curr.August
-              : 0
-          ),
+  const truckTotal = truckData.reduce(
+    (acc, curr) => ({
 
-        september:
-          acc.september +
-          (
-            typeof curr.September === 'number'
-              ? curr.September
-              : 0
-          ),
+      august:
+        acc.august +
+        monthlyNumber(curr.August),
 
-        daily:
-          acc.daily +
-          (
-            typeof curr.daily === 'number'
-              ? curr.daily
-              : 0
-          )
-      }),
-      {
-        august: 0,
-        september: 0,
-        daily: 0
-      }
-    );
+      september:
+        acc.september +
+        monthlyNumber(curr.September),
 
-  $('trucking').innerHTML =
-    truckData.map(x => `
-      <div class="tr">
-        <b>${x.hauler}</b>
-        <span>${num(x.August)}</span>
-        <span>${num(x.September)}</span>
-        <span>${num(x.daily)}</span>
-      </div>
-    `).join('') +
-    `
-      <div class="tr total-row">
-        <b>Total</b>
-        <span><b>${num(truckTotal.august)}</b></span>
-        <span><b>${num(truckTotal.september)}</b></span>
-        <span><b>${num(truckTotal.daily)}</b></span>
-      </div>
-    `;
+      daily:
+        acc.daily +
+        monthlyNumber(curr.daily)
+
+    }),
+    {
+      august: 0,
+      september: 0,
+      daily: 0
+    }
+  );
+
+
+  if ($('trucking')) {
+
+    $('trucking').innerHTML =
+
+      truckData.map(x => `
+
+        <div class="tr">
+
+          <b>
+            ${safeText(x.hauler)}
+          </b>
+
+          <span>
+            ${num(x.August)}
+          </span>
+
+          <span>
+            ${num(x.September)}
+          </span>
+
+          <span>
+            ${num(x.daily)}
+          </span>
+
+        </div>
+
+      `).join('')
+
+      +
+
+      `
+
+        <div class="tr total-row">
+
+          <b>Total</b>
+
+          <span>
+            <b>${num(truckTotal.august)}</b>
+          </span>
+
+          <span>
+            <b>${num(truckTotal.september)}</b>
+          </span>
+
+          <span>
+            <b>${num(truckTotal.daily)}</b>
+          </span>
+
+        </div>
+
+      `;
+
+  }
 
 
   /* =======================================================
-     MONTHLY TABLE
-     
+     MONTHLY VESSEL CEMENT LOADING
      2025 | VARIANCE | 2026
-
-     Variance = 2026 - 2025
      ======================================================= */
 
-  const m =
-    d.monthly || [];
+  const m = d.monthly || [];
 
-  const mt =
-    d.monthly_total || {};
+  const mt = d.monthly_total || {};
 
   let monthlyHTML = '';
 
-
-  /* -------------------------------------------------------
-     MONTHLY ROWS
-     ------------------------------------------------------- */
-
   m.forEach(x => {
 
-    const y2025 =
-      monthlyNumber(x.y2025);
+    const y2025 = monthlyNumber(x.y2025);
 
-    const y2026 =
-      monthlyNumber(x.y2026);
+    const y2026 = monthlyNumber(x.y2026);
 
-    const variance =
-      y2026 - y2025;
-
+    const variance = y2026 - y2025;
 
     monthlyHTML += `
 
       <div class="monthly-row">
 
-        <!-- MONTH -->
-
         <div class="monthly-month">
-          ${x.month}
+          ${safeText(x.month)}
         </div>
-
-
-        <!-- 2025 -->
 
         <div class="monthly-2025">
           ${monthlyFormat(x.y2025)}
         </div>
-
-
-        <!-- CENTER VARIANCE -->
 
         <div class="
           monthly-variance
@@ -562,9 +909,6 @@ function render(d) {
 
         </div>
 
-
-        <!-- 2026 -->
-
         <div class="monthly-2026">
           ${monthlyFormat(x.y2026)}
         </div>
@@ -576,42 +920,27 @@ function render(d) {
   });
 
 
-  /* -------------------------------------------------------
-     TOTAL ROW
-     ------------------------------------------------------- */
+  /* =======================================================
+     MONTHLY TOTAL
+     ======================================================= */
 
-  const total2025 =
-    monthlyNumber(mt.y2025);
+  const total2025 = monthlyNumber(mt.y2025);
 
-  const total2026 =
-    monthlyNumber(mt.y2026);
+  const total2026 = monthlyNumber(mt.y2026);
 
-  const totalVariance =
-    total2026 - total2025;
-
+  const totalVariance = total2026 - total2025;
 
   monthlyHTML += `
 
-    <div class="
-      monthly-row
-      monthly-total
-    ">
-
-      <!-- TOTAL -->
+    <div class="monthly-row monthly-total">
 
       <div class="monthly-month">
         TOTAL
       </div>
 
-
-      <!-- 2025 -->
-
       <div class="monthly-2025">
         ${monthlyFormat(mt.y2025)}
       </div>
-
-
-      <!-- TOTAL VARIANCE -->
 
       <div class="
         monthly-variance
@@ -624,9 +953,6 @@ function render(d) {
 
       </div>
 
-
-      <!-- 2026 -->
-
       <div class="monthly-2026">
         ${monthlyFormat(mt.y2026)}
       </div>
@@ -636,184 +962,192 @@ function render(d) {
   `;
 
 
-  $('monthly').innerHTML =
-    monthlyHTML;
+  if ($('monthly')) {
+    $('monthly').innerHTML = monthlyHTML;
+  }
 
 
   /* =======================================================
      DAILY PRODUCTION
      ======================================================= */
 
-  const prodData =
-    d.daily_production || [];
+  const prodData = d.daily_production || [];
 
-  const prodTotal =
-    prodData.reduce(
-      (sum, curr) =>
-        sum +
-        (
-          typeof curr.qty === 'number'
-            ? curr.qty
-            : 0
-        ),
-      0
-    );
+  const prodTotal = prodData.reduce(
+    (sum, curr) =>
+      sum + monthlyNumber(curr.qty),
+    0
+  );
 
 
-  $('dailyProduction').innerHTML =
+  if ($('dailyProduction')) {
 
-    prodData.map(x => `
+    $('dailyProduction').innerHTML =
 
-      <div class="prod-row">
+      prodData.map(x => `
 
-        <span>
-          ${x.shift}
-        </span>
+        <div class="prod-row">
 
-        <b>
-          ${num(x.qty)}
-        </b>
+          <span>
+            ${safeText(x.shift)}
+          </span>
 
-      </div>
+          <b>
+            ${num(x.qty)}
+          </b>
 
-    `).join('')
+        </div>
 
-    +
+      `).join('')
 
-    `
+      +
 
-      <div class="prod-row total-row">
+      `
 
-        <span>
-          Total
-        </span>
+        <div class="prod-row total-row">
 
-        <b>
-          ${num(prodTotal)}
-        </b>
+          <span>Total</span>
 
-      </div>
+          <b>${num(prodTotal)}</b>
 
-    `;
+        </div>
+
+      `;
+
+  }
 
 
   /* =======================================================
      TRUCKING STOCKPILE
      ======================================================= */
 
-  const stockData =
-    d.trucking_stockpile || [];
+  const stockData = d.trucking_stockpile || [];
 
-  const stockTotal =
-    stockData.reduce(
-      (sum, curr) =>
-        sum +
-        (
-          typeof curr.volume === 'number'
-            ? curr.volume
-            : 0
-        ),
-      0
-    );
+  const stockTotal = stockData.reduce(
+    (sum, curr) =>
+      sum + monthlyNumber(curr.volume),
+    0
+  );
 
 
-  $('truckingStockpile').innerHTML =
+  if ($('truckingStockpile')) {
 
-    stockData.map(x => `
+    $('truckingStockpile').innerHTML =
 
-      <div class="prod-row">
+      stockData.map(x => `
 
-        <span>
-          ${x.client}
-        </span>
+        <div class="prod-row">
 
-        <b>
-          ${num(x.volume)}
-        </b>
+          <span>
+            ${safeText(x.client)}
+          </span>
 
-      </div>
+          <b>
+            ${num(x.volume)}
+          </b>
 
-    `).join('')
+        </div>
 
-    +
+      `).join('')
 
-    `
+      +
 
-      <div class="prod-row total-row">
+      `
 
-        <span>
-          Total
-        </span>
+        <div class="prod-row total-row">
 
-        <b>
-          ${num(stockTotal)}
-        </b>
+          <span>Total</span>
 
-      </div>
+          <b>${num(stockTotal)}</b>
 
-    `;
+        </div>
 
+      `;
 
-  /* =======================================================
-     STATUS & PERSONNEL
-     ======================================================= */
-
-  const s =
-    d.status || {};
-
-  $('supervisor').textContent =
-    s.supervisor || '--';
-
-  $('checker').textContent =
-    s.checker || '--';
-
-  $('pmc').textContent =
-    s.pmc || '--';
-
-  $('cranes').textContent =
-    s.cranes ?? '--';
-
-  $('forklifts').textContent =
-    s.forklifts ?? '--';
-
-  $('stevedores').textContent =
-    s.stevedores ?? '--';
-
-
-  /* =======================================================
-     TICKER / ALERTS
-     ======================================================= */
-
-  const alerts =
-    rows
-      .filter(
-        x =>
-          x.remarks &&
-          x.remarks !== '-' &&
-          x.vessel !== 'VACANT'
-      )
-      .map(
-        x =>
-          `${x.berth}: ${x.vessel} — ${x.remarks}`
-      );
-
-  if (
-    d.anchorage &&
-    d.anchorage.vessel &&
-    d.anchorage.vessel !== 'VACANT' &&
-    d.anchorage.remarks &&
-    d.anchorage.remarks !== '-'
-  ) {
-    alerts.push(
-      `ANCHORAGE: ${d.anchorage.vessel} — ${d.anchorage.remarks}`
-    );
   }
 
 
-  $('tickerText').textContent =
-    alerts.length
-      ? alerts.join('    •    ')
-      : 'ALL PORT OPERATIONS NORMAL';
+  /* =======================================================
+     STATUS AND PERSONNEL
+     ======================================================= */
+
+  const s = d.status || {};
+
+  const statusFields = {
+
+    supervisor: s.supervisor || '--',
+
+    checker: s.checker || '--',
+
+    pmc: s.pmc || '--',
+
+    cranes: s.cranes ?? '--',
+
+    forklifts: s.forklifts ?? '--',
+
+    stevedores: s.stevedores ?? '--'
+
+  };
+
+  Object.entries(statusFields).forEach(
+    ([id, value]) => {
+
+      if ($(id)) {
+        $(id).textContent = value;
+      }
+
+    }
+  );
+
+
+  /* =======================================================
+     TICKER AND ALERTS
+     ======================================================= */
+
+  const alerts = rows
+
+    .filter(
+      x =>
+        x.remarks &&
+        x.remarks !== '-' &&
+        x.vessel !== 'VACANT'
+    )
+
+    .map(
+      x =>
+        `${x.berth}: ${x.vessel} — ${x.remarks}`
+    );
+
+
+  if (
+    anchorage.vessel &&
+    anchorage.vessel !== 'VACANT' &&
+    anchorage.remarks &&
+    anchorage.remarks !== '-'
+  ) {
+
+    alerts.push(
+      `ANCHORAGE: ${anchorage.vessel} — ${anchorage.remarks}`
+    );
+
+  }
+
+
+  if ($('tickerText')) {
+
+    $('tickerText').textContent =
+      alerts.length
+        ? alerts.join('    •    ')
+        : 'ALL PORT OPERATIONS NORMAL';
+
+  }
+
+
+  /* =======================================================
+     REFIT AFTER ALL DYNAMIC CONTENT IS RENDERED
+     ======================================================= */
+
+  scheduleDashboardFit();
 
 }
 
@@ -826,33 +1160,28 @@ async function load() {
 
   try {
 
-    const r =
-      await fetch(
-        'data.json?t=' + Date.now(),
-        {
-          cache: 'no-store'
-        }
-      );
-
+    const r = await fetch(
+      'data.json?t=' + Date.now(),
+      {
+        cache: 'no-store'
+      }
+    );
 
     if (!r.ok) {
       throw new Error(r.status);
     }
 
+    const d = await r.json();
 
-    const d =
-      await r.json();
-
-
-    const h =
-      JSON.stringify(d);
-
+    const h = JSON.stringify(d);
 
     if (h !== lastHash) {
 
+      render(d);
+
       lastHash = h;
 
-      render(d);
+      scheduleDashboardFit();
 
     }
 
@@ -860,8 +1189,17 @@ async function load() {
 
   catch (e) {
 
-    $('syncText').textContent =
-      'ONLINE / WAITING FOR DATA';
+    if ($('syncText')) {
+
+      $('syncText').textContent =
+        'ONLINE / WAITING FOR DATA';
+
+    }
+
+    console.error(
+      'SAFISCOR DATA ERROR:',
+      e
+    );
 
   }
 
@@ -869,40 +1207,45 @@ async function load() {
 
 
 /* =========================================================
-   CLOCK
+   PHILIPPINE CLOCK
    ========================================================= */
 
 function clock() {
 
-  const n =
-    new Date();
+  const n = new Date();
 
+  if ($('phDate')) {
 
-  $('phDate').textContent =
-    n.toLocaleDateString(
-      'en-PH',
-      {
-        weekday: 'short',
-        year: 'numeric',
-        month: 'short',
-        day: '2-digit'
-      }
-    );
+    $('phDate').textContent =
+      n.toLocaleDateString(
+        'en-PH',
+        {
+          weekday: 'short',
+          year: 'numeric',
+          month: 'short',
+          day: '2-digit'
+        }
+      );
 
+  }
 
-  $('phTime').textContent =
-    n.toLocaleTimeString(
-      'en-PH',
-      {
-        hour12: false
-      }
-    );
+  if ($('phTime')) {
+
+    $('phTime').textContent =
+      n.toLocaleTimeString(
+        'en-PH',
+        {
+          hour12: false
+        }
+      );
+
+  }
 
 }
 
 
 /* =========================================================
-   START
+   INITIALIZE DASHBOARD
    ========================================================= */
 
 clock();
@@ -918,3 +1261,51 @@ setInterval(
   load,
   REFRESH_MS
 );
+
+
+/* =========================================================
+   INITIAL FIT
+   ========================================================= */
+
+scheduleDashboardFit();
+
+window.addEventListener(
+  'load',
+  scheduleDashboardFit
+);
+
+
+/* =========================================================
+   OPTIONAL: OBSERVE DASHBOARD CONTENT CHANGES
+   ========================================================= */
+
+if (window.ResizeObserver) {
+
+  const observer = new ResizeObserver(() => {
+
+    scheduleDashboardFit();
+
+  });
+
+  window.addEventListener(
+    'load',
+    () => {
+
+      const frame = document.getElementById(
+        TV_FIT.frameId
+      );
+
+      if (frame) {
+        observer.observe(frame);
+      }
+
+    },
+    { once: true }
+  );
+
+}
+
+
+/* =========================================================
+   END OF SAFISCOR APP.JS
+   ========================================================= */
