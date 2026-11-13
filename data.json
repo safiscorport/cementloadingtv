@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T07:41:33+08:00",
+  "updated_at": "2026-11-14T07:41:52+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -48,17 +48,17 @@
     },
     {
       "berth": "Berth 4",
-      "vessel": "JOHANNAH 5",
-      "voyage": 7,
-      "booking": 24000,
-      "dispatch": 22000,
-      "loaded": 22000,
-      "balance": 2000,
-      "progress": 0.9166666666666666,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "LOADING COMPLETE",
-      "equipment": "FL 1",
+      "equipment": "0",
       "activity_time": "00:00"
     },
     {
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 136000,
-    "dispatch": 59600,
-    "loaded": 57600,
-    "balance": 78400,
-    "progress": 0.4405444444444445,
+    "booking": 112000,
+    "dispatch": 37600,
+    "loaded": 35600,
+    "balance": 76400,
+    "progress": 0.3215138888888889,
     "stockpile": 2000
   },
   "alpha": [
