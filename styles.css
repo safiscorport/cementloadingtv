@@ -1,3 +1,2787 @@
+/* =========================================================
+   SAFISCOR PORT OPERATIONS DASHBOARD
+   AUTOMATIC SMART TV / TV DISPLAY CSS
+
+   ORIGINAL COLORS PRESERVED
+   - Background : #111
+   - Panels     : #1d1d1d
+   - Panel 2    : #282828
+   - Header     : #34404d
+   - Border     : #555
+   - Text       : #fff
+   - Muted      : #aaa
+   - Green      : #65b83f
+   - Red        : #ff3030
+   - Yellow     : #ffc107
+
+   FEATURES
+   - Automatic TV resolution scaling
+   - 720p
+   - 1080p
+   - 1440p
+   - 4K
+   - 8K
+   - Vertical scrolling
+   - No horizontal scrolling
+   - Bottom rows remain accessible
+   - Original table proportions preserved
+   ========================================================= */
+
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   HTML
+   ========================================================= */
+
+html {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  min-width: 0;
+
+  height: auto;
+  min-height: 100%;
+
+  background: #111;
+  color: #fff;
+
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+
+  -webkit-text-size-adjust: 100%;
+}
+
+
+/* =========================================================
+   BODY
+   ========================================================= */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  max-width: 100vw;
+
+  min-width: 0;
+
+  height: auto;
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  background: #111;
+  color: #fff;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+
+/*
+   Automatic base text scaling.
+
+   The clamp keeps text readable on small TVs while
+   preventing extremely large text on 4K/8K displays.
+*/
+
+body {
+  font-size: clamp(12px, 0.78vw, 22px);
+
+  line-height: 1.15;
+}
+
+
+/* =========================================================
+   APP
+   ========================================================= */
+
+.app {
+  width: 100%;
+  max-width: 100vw;
+
+  min-width: 0;
+
+  /*
+     IMPORTANT:
+     Do not use height:100vh here.
+
+     A fixed 100vh container can cut off the lower
+     dashboard when the content becomes taller than
+     the TV viewport.
+  */
+
+  height: auto;
+
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: visible !important;
+}
+
+
+/* =========================================================
+   TOP HEADER
+   ========================================================= */
+
+.topbar {
+  flex: 0 0 clamp(48px, 5vh, 78px);
+
+  width: 100%;
+  max-width: 100%;
+
+  min-width: 0;
+
+  background: #080808;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding:
+    0
+    clamp(8px, 1vw, 30px);
+
+  border-bottom: 2px solid #555;
+
+  gap: clamp(6px, 0.7vw, 18px);
+
+  overflow: hidden;
+
+  position: relative;
+
+  z-index: 100;
+}
+
+
+/* =========================================================
+   BRAND
+   ========================================================= */
+
+.brand {
+  display: flex;
+
+  align-items: center;
+
+  gap:
+    clamp(
+      6px,
+      0.7vw,
+      15px
+    );
+
+  min-width: 0;
+
+  flex: 1 1 auto;
+
+  overflow: hidden;
+}
+
+
+.brand img {
+  display: block;
+
+  max-width: clamp(100px, 12vw, 280px);
+
+  max-height:
+    calc(
+      clamp(48px, 5vh, 78px) - 8px
+    );
+
+  width: auto;
+
+  height: auto;
+
+  object-fit: contain;
+
+  flex-shrink: 1;
+}
+
+
+/* =========================================================
+   LIVE DOT
+   ========================================================= */
+
+.live-dot {
+  width:
+    clamp(
+      9px,
+      0.7vw,
+      16px
+    );
+
+  height:
+    clamp(
+      9px,
+      0.7vw,
+      16px
+    );
+
+  min-width:
+    clamp(
+      9px,
+      0.7vw,
+      16px
+    );
+
+  min-height:
+    clamp(
+      9px,
+      0.7vw,
+      16px
+    );
+
+  background: #ff3030;
+
+  border-radius: 50%;
+
+  flex-shrink: 0;
+
+  box-shadow:
+    0 0 8px #ff3030,
+    0 0 16px rgba(255, 48, 48, 0.5);
+
+  animation: blink 1s infinite;
+}
+
+
+/* =========================================================
+   TITLE
+   ========================================================= */
+
+.title {
+  font-size:
+    clamp(
+      15px,
+      1.3vw,
+      30px
+    );
+
+  font-weight: 900;
+
+  letter-spacing:
+    clamp(
+      0.5px,
+      0.05vw,
+      1px
+    );
+
+  color: #fff !important;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  min-width: 0;
+}
+
+
+.subtitle {
+  font-size:
+    clamp(
+      8px,
+      0.63vw,
+      15px
+    );
+
+  color: #aaa !important;
+
+  letter-spacing:
+    clamp(
+      0.4px,
+      0.05vw,
+      1px
+    );
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  min-width: 0;
+}
+
+
+/* =========================================================
+   CLOCK
+   ========================================================= */
+
+.clock {
+  text-align: right;
+
+  min-width: 0;
+
+  flex-shrink: 0;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+}
+
+
+.clock div:first-child {
+  font-size:
+    clamp(
+      8px,
+      0.63vw,
+      15px
+    );
+
+  color: #aaa !important;
+}
+
+
+.clock div:last-child {
+  font-size:
+    clamp(
+      15px,
+      1.2vw,
+      28px
+    );
+
+  font-weight: 900;
+
+  color: #fff !important;
+}
+
+
+/* =========================================================
+   MAIN AREA
+   ========================================================= */
+
+.main-content {
+  /*
+     IMPORTANT:
+     flex: 1 is removed.
+
+     This allows the content to grow beyond the
+     TV viewport and lets the BODY scrollbar handle
+     the extra rows.
+  */
+
+  flex: none;
+
+  width: 100%;
+  max-width: 100%;
+
+  min-width: 0;
+
+  height: auto;
+
+  min-height: 0;
+
+  padding:
+    clamp(3px, 0.35vh, 7px)
+    clamp(5px, 0.55vw, 15px)
+    clamp(8px, 0.8vh, 15px);
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap:
+    clamp(
+      3px,
+      0.35vh,
+      7px
+    );
+
+  overflow: visible !important;
+}
+
+
+/* =========================================================
+   TABLE CONTAINER
+   ========================================================= */
+
+.table-container {
+  width: 100%;
+  max-width: 100%;
+
+  min-width: 0;
+
+  background: #1d1d1d;
+
+  color: #fff;
+
+  border: 1px solid #555;
+
+  margin: 0;
+
+  overflow: hidden !important;
+}
+
+
+/* =========================================================
+   MAIN BERTH TABLE
+   ========================================================= */
+
+.table-header-bar,
+.berth-row,
+.table-footer-bar {
+
+  width: 100%;
+  max-width: 100%;
+
+  min-width: 0;
+
+  display: grid;
+
+  grid-template-columns:
+
+    5%
+    10%
+    4%
+    7%
+    7%
+    7%
+    7%
+    8%
+    7%
+    5%
+    14%
+    10%
+    9%;
+
+  align-items: center;
+
+  padding:
+    clamp(3px, 0.32vh, 6px)
+    clamp(4px, 0.35vw, 10px);
+
+  border-bottom: 1px solid #303030;
+
+  font-size:
+    clamp(
+      10px,
+      0.76vw,
+      20px
+    );
+
+  line-height: 1.05;
+
+  color: #fff;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   TABLE HEADER
+   ========================================================= */
+
+.table-header-bar {
+
+  background: #34404d;
+
+  font-weight: 900;
+
+  color: #fff !important;
+
+  border-bottom: 1px solid #777;
+
+  font-size:
+    clamp(
+      9px,
+      0.66vw,
+      18px
+    );
+
+  white-space: nowrap;
+
+  min-height:
+    clamp(
+      24px,
+      2.8vh,
+      50px
+    );
+}
+
+
+/* =========================================================
+   BERTH ROW
+   ========================================================= */
+
+.berth-row {
+
+  min-height:
+    clamp(
+      24px,
+      2.45vh,
+      42px
+    );
+
+  color: #fff;
+}
+
+
+/* =========================================================
+   ALTERNATING ROWS
+   ========================================================= */
+
+.berth-row:nth-child(even) {
+  background: #242424;
+}
+
+
+.berth-row:nth-child(odd) {
+  background: #1b1b1b;
+}
+
+
+/* =========================================================
+   VACANT
+   ========================================================= */
+
+.berth-row.vacant {
+  opacity: 0.45;
+}
+
+
+/* =========================================================
+   VESSEL
+   ========================================================= */
+
+.berth-row .vessel,
+.alpha-row .vessel {
+
+  font-weight: 900;
+
+  color: #fff;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  min-width: 0;
+}
+
+
+/* =========================================================
+   MAIN TABLE CELLS
+   ========================================================= */
+
+.berth-row > div,
+.berth-row > span,
+.table-header-bar > div,
+.table-header-bar > span,
+.table-footer-bar > div,
+.table-footer-bar > span {
+
+  min-width: 0;
+
+  width: 100%;
+
+  max-width: 100%;
+
+  color: #fff;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   PROGRESS BAR
+   ========================================================= */
+
+.progress-wrap {
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 100%;
+
+  height:
+    clamp(
+      10px,
+      1.15vh,
+      20px
+    );
+
+  margin: 0;
+
+  padding: 0;
+
+  overflow: hidden;
+}
+
+
+.bar {
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: #333;
+
+  border: 1px solid #666;
+
+  overflow: hidden;
+
+  z-index: 1;
+}
+
+
+.bar i {
+
+  display: block;
+
+  height: 100%;
+
+  background: #65b83f;
+
+  box-shadow:
+    0 0 5px rgba(101, 184, 63, 0.5);
+
+  position: relative;
+
+  z-index: 1;
+}
+
+
+/* =========================================================
+   PROGRESS PERCENTAGE
+   ========================================================= */
+
+.progress-wrap span {
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: #fff !important;
+
+  font-size:
+    clamp(
+      8px,
+      0.65vw,
+      16px
+    );
+
+  font-weight: 900;
+
+  line-height: 1;
+
+  text-align: center;
+
+  z-index: 10;
+
+  pointer-events: none;
+
+  text-shadow:
+    1px 1px 2px #000,
+    -1px -1px 2px #000,
+    0 0 3px #000;
+}
+
+
+/* =========================================================
+   ALPHA / FOREIGN SECTION
+   ========================================================= */
+
+.sub-section-title {
+
+  background: #303030;
+
+  padding:
+    clamp(2px, 0.25vh, 5px)
+    clamp(5px, 0.4vw, 10px);
+
+  font-weight: 900;
+
+  font-size:
+    clamp(
+      9px,
+      0.68vw,
+      17px
+    );
+
+  color: #ccc !important;
+
+  border-bottom: 1px solid #555;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   BERTH A / BERTH F
+   ========================================================= */
+
+.alpha-header-bar,
+.alpha-row {
+
+  display: grid;
+
+  grid-template-columns:
+
+    6%
+    12%
+    14%
+    8%
+    8%
+    8%
+    7%
+    15%
+    12%
+    10%;
+
+  align-items: center;
+
+  width: 100%;
+  max-width: 100%;
+
+  min-width: 0;
+
+  padding:
+    clamp(3px, 0.3vh, 6px)
+    clamp(5px, 0.4vw, 10px);
+
+  font-size:
+    clamp(
+      10px,
+      0.76vw,
+      20px
+    );
+
+  line-height: 1.05;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   ALPHA HEADER
+   ========================================================= */
+
+.alpha-header-bar {
+
+  background: #34404d;
+
+  font-weight: 900;
+
+  color: #fff !important;
+
+  font-size:
+    clamp(
+      9px,
+      0.66vw,
+      18px
+    );
+
+  white-space: nowrap;
+
+  min-height:
+    clamp(
+      24px,
+      2.8vh,
+      50px
+    );
+}
+
+
+/* =========================================================
+   ALPHA ROWS
+   ========================================================= */
+
+.alpha-row {
+
+  background: #1b1b1b;
+
+  color: #fff;
+
+  border-bottom: 1px solid #303030;
+
+  min-height:
+    clamp(
+      23px,
+      2.2vh,
+      40px
+    );
+}
+
+
+/* =========================================================
+   ALPHA CELLS
+   ========================================================= */
+
+.alpha-header-bar > div,
+.alpha-header-bar > span,
+.alpha-row > div,
+.alpha-row > span {
+
+  min-width: 0;
+
+  width: 100%;
+
+  max-width: 100%;
+
+  color: #fff;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   ANALYTICS
+   ========================================================= */
+
+.analytics-grid {
+
+  width: 100%;
+  max-width: 100%;
+
+  min-width: 0;
+
+  display: grid;
+
+  grid-template-columns:
+
+    minmax(0, 1.05fr)
+    minmax(0, 1.05fr)
+    minmax(0, 0.8fr);
+
+  gap:
+    clamp(
+      4px,
+      0.5vw,
+      12px
+    );
+
+  margin-top: 1px;
+
+  /*
+     IMPORTANT:
+     Do not use flex:1 here.
+
+     The analytics section must be allowed to
+     grow naturally so the lower content can scroll.
+  */
+
+  flex: none;
+
+  height: auto;
+
+  min-height: 0;
+
+  overflow: visible;
+}
+
+
+/* =========================================================
+   PANELS
+   ========================================================= */
+
+.panel {
+
+  background: #1d1d1d;
+
+  color: #fff;
+
+  border: 1px solid #555;
+
+  padding:
+    clamp(
+      3px,
+      0.3vw,
+      8px
+    );
+
+  display: flex;
+
+  flex-direction: column;
+
+  min-width: 0;
+
+  max-width: 100%;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   PANEL TITLE
+   ========================================================= */
+
+.panel-title {
+
+  font-weight: 900;
+
+  background: #34404d;
+
+  padding:
+    clamp(3px, 0.3vh, 6px)
+    clamp(5px, 0.4vw, 10px);
+
+  font-size:
+    clamp(
+      9px,
+      0.7vw,
+      18px
+    );
+
+  color: #fff !important;
+
+  margin-bottom: 3px;
+
+  min-width: 0;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   STACK PANEL
+   ========================================================= */
+
+.stack-panel {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap:
+    clamp(
+      3px,
+      0.3vh,
+      6px
+    );
+
+  min-height: 0;
+
+  min-width: 0;
+}
+
+
+/* =========================================================
+   SMALL TABLES
+   ========================================================= */
+
+.table-mini {
+
+  display: flex;
+
+  flex-direction: column;
+
+  min-height: 0;
+
+  min-width: 0;
+
+  overflow: hidden;
+
+  color: #fff;
+}
+
+
+.table-mini .tr {
+
+  display: grid;
+
+  grid-template-columns:
+    1.25fr
+    1fr
+    1fr
+    1fr;
+
+  align-items: center;
+
+  padding:
+    clamp(2px, 0.25vh, 5px)
+    clamp(4px, 0.4vw, 9px);
+
+  border-bottom: 1px solid #303030;
+
+  font-size:
+    clamp(
+      9px,
+      0.68vw,
+      18px
+    );
+
+  line-height: 1.05;
+
+  min-height:
+    clamp(
+      19px,
+      1.9vh,
+      34px
+    );
+
+  min-width: 0;
+
+  overflow: hidden;
+
+  color: #fff;
+}
+
+
+/* =========================================================
+   SMALL TABLE HEADER
+   ========================================================= */
+
+.table-mini.header-row {
+
+  background: #303030;
+
+  font-weight: 900;
+
+  color: #ccc !important;
+
+  font-size:
+    clamp(
+      9px,
+      0.63vw,
+      17px
+    );
+}
+
+
+/* =========================================================
+   TOTAL ROW
+   ========================================================= */
+
+.total-row {
+
+  background: #252525;
+
+  border-top: 1px solid #666;
+
+  font-weight: 900;
+
+  color: #fff;
+}
+
+
+/* =========================================================
+   PRODUCTION
+   ========================================================= */
+
+.production {
+
+  display: flex;
+
+  flex-direction: column;
+
+  min-height: 0;
+
+  min-width: 0;
+
+  overflow: hidden;
+
+  color: #fff;
+}
+
+
+/* =========================================================
+   PRODUCTION ROW
+   ========================================================= */
+
+.prod-row {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding:
+    clamp(3px, 0.28vh, 6px)
+    clamp(5px, 0.4vw, 10px);
+
+  border-bottom: 1px solid #303030;
+
+  font-size:
+    clamp(
+      9px,
+      0.7vw,
+      18px
+    );
+
+  min-height:
+    clamp(
+      21px,
+      2vh,
+      36px
+    );
+
+  min-width: 0;
+
+  color: #fff;
+}
+
+
+.prod-row b {
+
+  font-size:
+    clamp(
+      10px,
+      0.78vw,
+      20px
+    );
+
+  font-weight: 900;
+
+  color: #fff;
+}
+
+
+/* =========================================================
+   MONTHLY VESSEL CEMENT LOADING
+   ========================================================= */
+
+.monthly-grid-head {
+
+  display: grid;
+
+  grid-template-columns:
+
+    2fr
+    1.25fr
+    1fr
+    1.25fr;
+
+  width: 100%;
+  max-width: 100%;
+
+  background: #303030;
+
+  font-weight: 900;
+
+  font-size:
+    clamp(
+      9px,
+      0.66vw,
+      17px
+    );
+
+  text-align: center;
+
+  padding:
+    clamp(
+      3px,
+      0.25vh,
+      5px
+    );
+
+  min-width: 0;
+
+  overflow: hidden;
+
+  color: #fff;
+}
+
+
+/* =========================================================
+   MONTHLY CONTAINER
+   ========================================================= */
+
+.monthly {
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 100%;
+
+  gap: 1px;
+
+  font-size:
+    clamp(
+      9px,
+      0.66vw,
+      17px
+    );
+
+  min-height: 0;
+
+  min-width: 0;
+
+  overflow: hidden;
+
+  color: #fff;
+}
+
+
+/* =========================================================
+   MONTHLY ROW
+   ========================================================= */
+
+.monthly-row {
+
+  display: grid;
+
+  grid-template-columns:
+
+    2fr
+    1.25fr
+    1fr
+    1.25fr;
+
+  width: 100%;
+  max-width: 100%;
+
+  min-width: 0;
+
+  align-items: center;
+
+  min-height:
+    clamp(
+      19px,
+      1.9vh,
+      34px
+    );
+
+  overflow: hidden;
+
+  color: #fff;
+}
+
+
+/* =========================================================
+   MONTHLY CELLS
+   ========================================================= */
+
+.monthly-row > div {
+
+  padding:
+    clamp(
+      2px,
+      0.22vh,
+      5px
+    )
+    3px;
+
+  background: #1b1b1b;
+
+  color: #fff;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  min-width: 0;
+
+  width: 100%;
+
+  max-width: 100%;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   MONTH NAME
+   ========================================================= */
+
+.monthly-row .monthly-month {
+
+  background: #333;
+
+  font-weight: 900;
+
+  color: #fff;
+
+  text-align: left;
+
+  padding-left: 6px;
+}
+
+
+/* =========================================================
+   2025 VALUE
+   ========================================================= */
+
+.monthly-row .monthly-2025 {
+
+  text-align: right;
+
+  font-weight: 700;
+
+  color: #fff;
+}
+
+
+/* =========================================================
+   VARIANCE
+   ========================================================= */
+
+.monthly-row .monthly-variance {
+
+  text-align: center;
+
+  font-weight: 900;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   POSITIVE VARIANCE
+   ========================================================= */
+
+.monthly-var-positive {
+
+  color: #65b83f !important;
+
+  font-weight: 900;
+}
+
+
+/* =========================================================
+   NEGATIVE VARIANCE
+   ========================================================= */
+
+.monthly-var-negative {
+
+  color: #ff3030 !important;
+
+  font-weight: 900;
+}
+
+
+/* =========================================================
+   ZERO VARIANCE
+   ========================================================= */
+
+.monthly-var-zero {
+
+  color: #fff !important;
+
+  font-weight: 900;
+}
+
+
+/* =========================================================
+   2026 VALUE
+   ========================================================= */
+
+.monthly-row .monthly-2026 {
+
+  text-align: right;
+
+  font-weight: 700;
+
+  color: #fff;
+}
+
+
+/* =========================================================
+   MONTHLY TOTAL
+   ========================================================= */
+
+.monthly-row.monthly-total {
+
+  border-top: 1px solid #666;
+
+  font-weight: 900;
+
+  color: #fff;
+}
+
+
+.monthly-row.monthly-total > div {
+
+  background: #1a1a1a;
+
+  font-weight: 900;
+
+  color: #fff;
+}
+
+
+.monthly-row.monthly-total .monthly-month {
+
+  background: #252525;
+
+  font-weight: 900;
+
+  color: #fff;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.footer-bar {
+
+  flex: 0 0 clamp(40px, 5vh, 68px);
+
+  width: 100%;
+  max-width: 100%;
+
+  min-width: 0;
+
+  min-height:
+    clamp(
+      40px,
+      5vh,
+      68px
+    );
+
+  background: #080808;
+
+  color: #fff;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding:
+    0
+    clamp(
+      6px,
+      0.7vw,
+      18px
+    );
+
+  border-top: 1px solid #555;
+
+  font-size:
+    clamp(
+      9px,
+      0.63vw,
+      16px
+    );
+
+  gap:
+    clamp(
+      5px,
+      0.7vw,
+      15px
+    );
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   FOOTER GROUP
+   ========================================================= */
+
+.footer-group {
+
+  display: flex;
+
+  gap:
+    clamp(
+      5px,
+      0.7vw,
+      15px
+    );
+
+  min-width: 0;
+
+  flex-shrink: 0;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   FOOTER ITEM
+   ========================================================= */
+
+.f-item {
+
+  background: #1b1b1b;
+
+  padding:
+    clamp(2px, 0.25vh, 5px)
+    clamp(5px, 0.4vw, 10px);
+
+  border: 1px solid #444;
+
+  display: flex;
+
+  flex-direction: column;
+
+  min-width: 0;
+
+  max-width: 25vw;
+
+  overflow: hidden;
+
+  color: #fff;
+}
+
+
+.f-item span {
+
+  color: #aaa !important;
+
+  font-size:
+    clamp(
+      8px,
+      0.5vw,
+      13px
+    );
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+.f-item b {
+
+  font-size:
+    clamp(
+      9px,
+      0.65vw,
+      16px
+    );
+
+  color: #fff;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   LIVE WEATHER TICKER
+   ========================================================= */
+
+.ticker-wrap {
+
+  display: flex;
+
+  align-items: center;
+
+  flex: 1 1 auto;
+
+  min-width: 0;
+
+  margin:
+    0
+    clamp(
+      5px,
+      1vw,
+      20px
+    );
+
+  background: #151515;
+
+  border: 1px solid #444;
+
+  overflow: hidden;
+
+  height:
+    clamp(
+      25px,
+      2.7vh,
+      40px
+    );
+}
+
+
+/* =========================================================
+   TICKER LABEL
+   ========================================================= */
+
+.ticker-label {
+
+  background: #b00000;
+
+  color: #fff !important;
+
+  padding:
+    0
+    clamp(
+      6px,
+      0.5vw,
+      12px
+    );
+
+  font-weight: 900;
+
+  font-size:
+    clamp(
+      8px,
+      0.6vw,
+      15px
+    );
+
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  flex-shrink: 0;
+}
+
+
+/* =========================================================
+   TICKER
+   ========================================================= */
+
+.ticker {
+
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  flex: 1;
+
+  min-width: 0;
+}
+
+
+.ticker div {
+
+  display: inline-block;
+
+  padding-left: 100%;
+
+  animation:
+    ticker
+    25s
+    linear
+    infinite;
+
+  color: #ffc107 !important;
+
+  font-weight: 900;
+
+  font-size:
+    clamp(
+      9px,
+      0.68vw,
+      18px
+    );
+}
+
+
+/* =========================================================
+   FOOTER RIGHT
+   ========================================================= */
+
+.footer-right {
+
+  color: #aaa !important;
+
+  font-size:
+    clamp(
+      8px,
+      0.55vw,
+      14px
+    );
+
+  white-space: nowrap;
+
+  flex-shrink: 0;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  max-width: 25vw;
+}
+
+
+/* =========================================================
+   ANIMATIONS
+   ========================================================= */
+
+@keyframes blink {
+
+  50% {
+    opacity: 0.3;
+  }
+
+}
+
+
+@keyframes ticker {
+
+  to {
+    transform: translateX(-100%);
+  }
+
+}
+
+
+/* =========================================================
+   STOPPAGE / DELAY HIGHLIGHT
+   ========================================================= */
+
+@keyframes stoppageSweep {
+
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+
+}
+
+
+.stoppage-alert {
+
+  background: linear-gradient(
+    90deg,
+    rgba(255, 48, 48, 0.4) 0%,
+    rgba(255, 120, 120, 0.9) 50%,
+    rgba(255, 48, 48, 0.4) 100%
+  );
+
+  background-size: 200% 100%;
+
+  animation:
+    stoppageSweep
+    2s
+    linear
+    infinite;
+
+  color: #fff !important;
+
+  font-weight: 900;
+
+  display: block;
+
+  height: 100%;
+
+  width: 100%;
+
+  padding: 2px 4px;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   DASHBOARD PAGE TRANSITION
+   ========================================================= */
+
+.dashboard-page {
+
+  width: 100%;
+  max-width: 100%;
+
+  min-width: 0;
+
+  box-sizing: border-box;
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  opacity: 0;
+
+  visibility: hidden;
+
+  transform: translateX(35px);
+
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease,
+    visibility 0.8s ease;
+
+  /*
+     Hidden pages should not create horizontal overflow.
+  */
+
+  overflow: hidden;
+}
+
+
+.dashboard-page.active {
+
+  position: relative;
+
+  opacity: 1;
+
+  visibility: visible;
+
+  transform: translateX(0);
+}
+
+
+.dashboard-page.leaving {
+
+  opacity: 0;
+
+  visibility: hidden;
+
+  transform: translateX(-35px);
+}
+
+
+/* =========================================================
+   PAGE INDICATOR
+   ========================================================= */
+
+.page-indicator {
+
+  position: fixed;
+
+  right:
+    clamp(
+      6px,
+      0.5vw,
+      15px
+    );
+
+  bottom:
+    clamp(
+      45px,
+      5vh,
+      75px
+    );
+
+  display: flex;
+
+  gap:
+    clamp(
+      4px,
+      0.3vw,
+      8px
+    );
+
+  z-index: 9999;
+
+  pointer-events: none;
+}
+
+
+.page-indicator-dot {
+
+  width:
+    clamp(
+      5px,
+      0.4vw,
+      10px
+    );
+
+  height:
+    clamp(
+      5px,
+      0.4vw,
+      10px
+    );
+
+  border-radius: 50%;
+
+  background: #555;
+
+  opacity: 0.45;
+
+  transition:
+    opacity 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+.page-indicator-dot.active {
+
+  background: #6dcc45;
+
+  opacity: 1;
+
+  box-shadow:
+    0 0 7px
+    rgba(108, 204, 69, 0.9);
+}
+
+
+/* =========================================================
+   1920 x 1080 / STANDARD FULL HD TV
+   ========================================================= */
+
+@media screen and
+(min-width: 1600px) and
+(max-width: 2499px) {
+
+  body {
+    font-size: 14px;
+  }
+
+
+  .table-header-bar,
+  .berth-row,
+  .table-footer-bar {
+
+    font-size: 14px;
+  }
+
+
+  .table-header-bar {
+
+    font-size: 13px;
+  }
+
+
+  .alpha-header-bar,
+  .alpha-row {
+
+    font-size: 14px;
+  }
+
+
+  .alpha-header-bar {
+
+    font-size: 13px;
+  }
+
+
+  .progress-wrap span {
+
+    font-size: 12px;
+  }
+
+
+  .berth-row {
+
+    min-height: 30px;
+  }
+
+
+  .alpha-row {
+
+    min-height: 28px;
+  }
+
+
+  .monthly-grid-head {
+
+    font-size: 13px;
+  }
+
+
+  .monthly {
+
+    font-size: 13px;
+  }
+
+
+  .monthly-row {
+
+    min-height: 25px;
+  }
+
+}
+
+
+/* =========================================================
+   4K / VERY WIDE TV
+   ========================================================= */
+
+@media screen and
+(min-width: 2500px) {
+
+  body {
+
+    font-size: 17px;
+  }
+
+
+  .title {
+
+    font-size: 30px;
+  }
+
+
+  .berth-row,
+  .alpha-row {
+
+    min-height: 40px;
+  }
+
+
+  .table-header-bar {
+
+    font-size: 16px;
+  }
+
+
+  .alpha-header-bar {
+
+    font-size: 16px;
+  }
+
+
+  .monthly-grid-head,
+  .monthly {
+
+    font-size: 16px;
+  }
+
+
+  .monthly-row {
+
+    min-height: 32px;
+  }
+
+}
+
+
+/* =========================================================
+   1366 / 1360 / 1280 DISPLAY
+   ========================================================= */
+
+@media screen and
+(max-width: 1400px) {
+
+  body {
+
+    font-size: 13px;
+  }
+
+
+  .berth-row,
+  .alpha-row {
+
+    min-height: 23px;
+  }
+
+
+  .analytics-grid {
+
+    gap: 4px;
+  }
+
+
+  .table-header-bar,
+  .berth-row,
+  .table-footer-bar {
+
+    font-size: 11px;
+  }
+
+
+  .alpha-header-bar,
+  .alpha-row {
+
+    font-size: 11px;
+  }
+
+
+  .monthly-grid-head {
+
+    font-size: 11px;
+  }
+
+
+  .monthly {
+
+    font-size: 11px;
+  }
+
+
+  .monthly-row {
+
+    min-height: 23px;
+  }
+
+}
+
+
+/* =========================================================
+   SMALLER SCREEN
+   ========================================================= */
+
+@media screen and
+(max-width: 1100px) {
+
+  body {
+
+    font-size: 12px;
+  }
+
+
+  .table-header-bar,
+  .berth-row,
+  .table-footer-bar {
+
+    font-size: 10px;
+  }
+
+
+  .alpha-header-bar,
+  .alpha-row {
+
+    font-size: 10px;
+  }
+
+
+  /*
+     At narrow resolutions the three analytics
+     panels stack vertically.
+  */
+
+  .analytics-grid {
+
+    grid-template-columns:
+      minmax(0, 1fr);
+
+    height: auto;
+  }
+
+}
+
+
+/* =========================================================
+   VERY NARROW DISPLAY
+   ========================================================= */
+
+@media screen and
+(max-width: 700px) {
+
+  .topbar {
+
+    padding:
+      0
+      6px;
+  }
+
+
+  .title {
+
+    font-size: 15px;
+
+    letter-spacing: 0.5px;
+  }
+
+
+  .subtitle {
+
+    font-size: 8px;
+  }
+
+
+  .clock div:last-child {
+
+    font-size: 15px;
+  }
+
+
+  .footer-bar {
+
+    height: auto;
+
+    min-height: 42px;
+
+    padding:
+      4px 6px;
+
+    flex-wrap: wrap;
+
+    overflow: visible;
+  }
+
+
+  .ticker-wrap {
+
+    order: 3;
+
+    width: 100%;
+
+    flex-basis: 100%;
+
+    margin:
+      3px 0;
+  }
+
+}
+
+
+/* =========================================================
+   SHORT SCREEN / 720p HEIGHT
+   ========================================================= */
+
+@media screen and
+(max-height: 700px) {
+
+  .topbar {
+
+    flex-basis: 46px;
+
+    min-height: 46px;
+  }
+
+
+  .main-content {
+
+    padding:
+      3px
+      4px
+      8px;
+
+    gap: 3px;
+  }
+
+
+  .berth-row {
+
+    min-height: 23px;
+  }
+
+
+  .alpha-row {
+
+    min-height: 21px;
+  }
+
+
+  .footer-bar {
+
+    flex-basis: 40px;
+
+    min-height: 40px;
+  }
+
+}
+
+
+/* =========================================================
+   HIGH VERTICAL RESOLUTION
+   ========================================================= */
+
+@media screen and
+(min-height: 1400px) {
+
+  .topbar {
+
+    flex-basis:
+      clamp(
+        60px,
+        5vh,
+        90px
+      );
+
+    min-height:
+      clamp(
+        60px,
+        5vh,
+        90px
+      );
+  }
+
+
+  .footer-bar {
+
+    flex-basis:
+      clamp(
+        50px,
+        5vh,
+        85px
+      );
+
+    min-height:
+      clamp(
+        50px,
+        5vh,
+        85px
+      );
+  }
+
+}
+
+
+/* =========================================================
+   FINAL WIDTH SAFETY
+   ========================================================= */
+
+html,
+body,
+.app,
+.main-content,
+.dashboard-page,
+.table-container,
+.table-header-bar,
+.berth-row,
+.table-footer-bar,
+.alpha-header-bar,
+.alpha-row,
+.analytics-grid,
+.panel,
+.monthly-grid-head,
+.monthly,
+.monthly-row {
+
+  max-width: 100%;
+
+  min-width: 0;
+}
+
+
+/* =========================================================
+   HORIZONTAL OVERFLOW
+   ========================================================= */
+
+html,
+body,
+.app,
+.main-content {
+
+  overflow-x: hidden !important;
+}
+
+
+/*
+   IMPORTANT:
+   The page itself controls vertical scrolling.
+*/
+
+html,
+body {
+
+  overflow-y: auto !important;
+}
+
+
+/* =========================================================
+   GRID CHILDREN CANNOT FORCE WIDTH
+   ========================================================= */
+
+.table-header-bar *,
+.berth-row *,
+.table-footer-bar *,
+.alpha-header-bar *,
+.alpha-row *,
+.monthly-grid-head *,
+.monthly *,
+.monthly-row * {
+
+  min-width: 0;
+
+  max-width: 100%;
+}
+
+
+/* =========================================================
+   LONG TEXT PROTECTION
+   ========================================================= */
+
+.berth-row > div,
+.berth-row > span,
+.table-header-bar > div,
+.table-header-bar > span,
+.table-footer-bar > div,
+.table-footer-bar > span,
+.alpha-row > div,
+.alpha-row > span,
+.alpha-header-bar > div,
+.alpha-header-bar > span {
+
+  min-width: 0 !important;
+
+  max-width: 100% !important;
+
+  overflow: hidden !important;
+
+  white-space: nowrap;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   MONTHLY FINAL SAFETY
+   ========================================================= */
+
+.monthly-row > div {
+
+  min-width: 0 !important;
+
+  max-width: 100% !important;
+
+  overflow: hidden !important;
+
+  white-space: nowrap;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================================
+   FORCE NORMAL DASHBOARD TEXT WHITE
+   ========================================================= */
+
+/*
+   These selectors prevent inherited browser/default
+   black text from appearing in dashboard cells.
+*/
+
+.berth-row,
+.berth-row > div,
+.berth-row > span,
+.alpha-row,
+.alpha-row > div,
+.alpha-row > span,
+.table-footer-bar,
+.table-footer-bar > div,
+.table-footer-bar > span,
+.production,
+.prod-row,
+.table-mini .tr,
+.monthly,
+.monthly-row,
+.monthly-row > div {
+
+  color: #fff;
+}
+
+
+/* =========================================================
+   KEEP INTENTIONAL MUTED TEXT
+   ========================================================= */
+
+.subtitle,
+.clock div:first-child,
+.f-item span,
+.footer-right {
+
+  color: #aaa !important;
+}
+
+
+/* =========================================================
+   KEEP INTENTIONAL COLORED TEXT
+   ========================================================= */
+
+.monthly-var-positive {
+
+  color: #65b83f !important;
+}
+
+
+.monthly-var-negative {
+
+  color: #ff3030 !important;
+}
+
+
+.monthly-var-zero {
+
+  color: #fff !important;
+}
+
+
+.ticker div {
+
+  color: #ffc107 !important;
+}
+
+
+/* =========================================================
+   SCROLLBAR
+   ========================================================= */
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+
+  width:
+    clamp(
+      8px,
+      0.55vw,
+      16px
+    );
+}
+
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+
+  background: #181818;
+}
+
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+
+  background: #666;
+
+  border-radius:
+    clamp(
+      4px,
+      0.3vw,
+      10px
+    );
+
+  border:
+    2px solid #181818;
+}
+
+
+html::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:hover {
+
+  background: #888;
+}
+
+
+/* =========================================================
+   END
+   ========================================================= */
+
+/* =========================================================
+   TV ONE-SCREEN COMPACT MODE
+   Target: 16:9 Full HD Smart TV (1920x1080)
+   Purpose: remove wasted vertical space and prevent
+   dashboard sections from overlapping/carrying onto
+   another screen.
+   ========================================================= */
+
+@media screen and (min-width: 1600px) and (max-width: 2499px)
+       and (min-height: 800px) and (max-height: 1200px) {
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden !important;
+  }
+
+  body {
+    font-size: 13px;
+    line-height: 1.05;
+  }
+
+  .app {
+    width: 100%;
+    height: 100vh;
+    min-height: 0;
+    max-height: 100vh;
+    overflow: hidden !important;
+  }
+
+  /* ---------- HEADER ---------- */
+
+  .topbar {
+    flex: 0 0 46px;
+    height: 46px;
+    min-height: 46px;
+    padding: 0 8px;
+    gap: 8px;
+  }
+
+  .brand img {
+    max-width: 115px;
+    max-height: 40px;
+  }
+
+  /* Turn the absolute title block into a normal centered item.
+     This prevents it from colliding with the buttons/clock. */
+  .topbar > div:nth-child(2) {
+    position: static !important;
+    left: auto !important;
+    transform: none !important;
+    flex: 0 1 auto;
+    min-width: 0;
+    gap: 7px;
+  }
+
+  .title {
+    font-size: 18px !important;
+    line-height: 1;
+  }
+
+  .subtitle {
+    font-size: 9px !important;
+    line-height: 1;
+  }
+
+  .live-dot {
+    width: 9px;
+    height: 9px;
+    min-width: 9px;
+    min-height: 9px;
+  }
+
+  .dashboard-switcher {
+    margin-right: 8px;
+  }
+
+  .switcher-btn {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+
+  .clock div:first-child {
+    font-size: 9px;
+  }
+
+  .clock div:last-child {
+    font-size: 17px;
+    line-height: 1;
+  }
+
+  /* ---------- MAIN ---------- */
+
+  .main-content {
+    height: auto;
+    min-height: 0;
+    padding: 2px 4px 3px;
+    gap: 2px;
+    overflow: hidden !important;
+  }
+
+  .table-container {
+    border-width: 1px;
+  }
+
+  /* Empty section labels currently occupy vertical space. */
+  .sub-section-title:empty {
+    display: none !important;
+  }
+
+  /* ---------- MAIN BERTH TABLE ---------- */
+
+  .table-header-bar,
+  .berth-row,
+  .table-footer-bar {
+    padding: 2px 4px;
+    font-size: 13px;
+    line-height: 1;
+  }
+
+  .table-header-bar {
+    min-height: 24px;
+    height: 24px;
+    font-size: 11px;
+  }
+
+  .berth-row {
+    min-height: 28px;
+    height: 28px;
+  }
+
+  .table-footer-bar {
+    min-height: 24px;
+    height: 24px;
+  }
+
+  .progress-wrap {
+    height: 13px;
+  }
+
+  .progress-wrap span {
+    font-size: 10px;
+  }
+
+  /* ---------- BERTH A / F ---------- */
+
+  .alpha-header-bar,
+  .alpha-row {
+    padding: 2px 4px;
+    font-size: 13px;
+    line-height: 1;
+  }
+
+  .alpha-header-bar {
+    min-height: 23px;
+    height: 23px;
+    font-size: 11px;
+  }
+
+  .alpha-row {
+    min-height: 23px;
+    height: 23px;
+  }
+
+  /* ---------- ANALYTICS ---------- */
+
+  .analytics-grid {
+    gap: 4px;
+    margin-top: 0;
+    overflow: hidden;
+  }
+
+  .panel {
+    padding: 2px;
+  }
+
+  .panel-title {
+    padding: 2px 5px;
+    margin-bottom: 2px;
+    min-height: 21px;
+    height: 21px;
+    font-size: 11px;
+    line-height: 17px;
   }
 
   .table-mini .tr {
@@ -158,3 +2942,438 @@
     height: 20px;
     font-size: 10px;
   }
+
+  .panel {
+    padding: 2px;
+  }
+
+  .panel-title {
+    min-height: 18px;
+    height: 18px;
+    padding: 1px 4px;
+    margin-bottom: 1px;
+    font-size: 9px;
+    line-height: 16px;
+  }
+
+  .table-mini .tr,
+  .prod-row {
+    min-height: 18px;
+    height: 18px;
+    padding: 1px 3px;
+    font-size: 9px;
+  }
+
+  .monthly-grid-head,
+  .monthly-row,
+  .monthly-row > div {
+    min-height: 17px;
+    height: 17px;
+    font-size: 9px;
+  }
+
+  .footer-bar {
+    flex-basis: 34px;
+    height: 34px;
+    min-height: 34px;
+  }
+}
+
+
+
+/* =========================================================
+   ANCHORAGE ROW
+   Uses the same ten-column layout as Berth A / Berth F.
+   ========================================================= */
+.anchorage-row {
+  width: 100%;
+  min-width: 0;
+}
+
+
+/* =========================================================
+   SAFISCOR AUTOMATIC FIT FRAME
+   Added for the app.js TV_FIT controller.
+
+   Required HTML structure:
+   <div id="dashboardFitFrame">
+     <div class="app"> ...existing dashboard... </div>
+   </div>
+
+   Keeps 1 cm clearance at the bottom of the display.
+   The JavaScript controls the app scale and width.
+   ========================================================= */
+
+html,
+body {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background: #111 !important;
+}
+
+#dashboardFitFrame {
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 1cm !important;
+  left: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-width: none !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  background: #111 !important;
+  isolation: isolate;
+}
+
+#dashboardFitFrame > .app {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: auto !important;
+  bottom: auto !important;
+  width: 100% !important;
+  height: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-width: none !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  transform-origin: top left !important;
+  will-change: transform;
+}
+
+/* Remove older TV media-query clipping from the fitted app. */
+#dashboardFitFrame .app,
+#dashboardFitFrame .main-content,
+#dashboardFitFrame .analytics-grid {
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* Keep dashboard content width bounded by the fit frame. */
+#dashboardFitFrame .main-content,
+#dashboardFitFrame .table-container,
+#dashboardFitFrame .analytics-grid,
+#dashboardFitFrame .panel {
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+/* Preserve the complete footer in the natural app layout. */
+#dashboardFitFrame .footer-bar {
+  flex-shrink: 0 !important;
+  position: relative !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow: hidden !important;
+}
+
+/* Keep all twelve monthly rows and the total row visible. */
+#dashboardFitFrame .monthly {
+  display: flex !important;
+  flex-direction: column !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+#dashboardFitFrame .monthly-row {
+  flex: 0 0 auto !important;
+  min-width: 0 !important;
+}
+
+/* Make the variance column visually distinct without changing colors. */
+#dashboardFitFrame .monthly-variance {
+  text-align: center !important;
+  font-weight: 900 !important;
+}
+
+#dashboardFitFrame .monthly-var-positive {
+  color: #65b83f !important;
+}
+
+#dashboardFitFrame .monthly-var-negative {
+  color: #ff3030 !important;
+}
+
+#dashboardFitFrame .monthly-var-zero {
+  color: #fff !important;
+}
+
+/* Prevent long vessel names and remarks from widening the TV layout. */
+#dashboardFitFrame .berth-row > *,
+#dashboardFitFrame .alpha-row > *,
+#dashboardFitFrame .table-header-bar > *,
+#dashboardFitFrame .alpha-header-bar > * {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* Ensure history/dashboard pages remain within the fitted app. */
+#dashboardFitFrame .dashboard-page {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Do not let the old 720p fixed-height rules override auto fitting. */
+@media screen and (min-width: 1100px) and (max-width: 1599px)
+       and (min-height: 600px) and (max-height: 800px) {
+  #dashboardFitFrame .app,
+  #dashboardFitFrame .main-content,
+  #dashboardFitFrame .analytics-grid {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+}
+
+/* =========================================================
+   END OF SAFISCOR TV FIT OVERRIDES
+   ========================================================= */
+
+/* =========================================================
+   SAFISCOR RESPONSIVE TV FIT — FINAL OVERRIDES
+   Works with the HTML structure:
+   #dashboardFitFrame > .app
+
+   The JavaScript fit controller measures the natural dashboard
+   height and scales the complete Dashboard 1 into this frame.
+   Keep this as the LAST section in styles.css.
+   ========================================================= */
+
+:root {
+  --fit-edge-clearance: 3cm;
+}
+
+/* Prevent browser zoom/scrollbars from changing the fit area. */
+html,
+body {
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background: #111 !important;
+}
+
+/* Three-centimetre safety margin on every side, matching the HTML
+   TV fit controller's EDGE_CLEARANCE setting. */
+#dashboardFitFrame {
+  position: fixed !important;
+  inset: var(--fit-edge-clearance, 3cm) !important;
+  width: auto !important;
+  height: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-width: none !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  background: #111 !important;
+  isolation: isolate;
+}
+
+/* The JS applies the final transform. Keep the unscaled layout natural
+   so it can measure the complete dashboard before scaling. */
+#dashboardFitFrame > .app {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: auto !important;
+  bottom: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  height: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-width: none !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  transform-origin: top left !important;
+  will-change: transform;
+}
+
+/* Cancel legacy media-query viewport locks that clipped the last rows. */
+#dashboardFitFrame .app,
+#dashboardFitFrame .main-content,
+#dashboardFitFrame .table-container,
+#dashboardFitFrame .analytics-grid,
+#dashboardFitFrame .stack-panel,
+#dashboardFitFrame .panel {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  max-height: none !important;
+}
+
+#dashboardFitFrame .app,
+#dashboardFitFrame .main-content,
+#dashboardFitFrame .analytics-grid,
+#dashboardFitFrame .stack-panel {
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+}
+
+#dashboardFitFrame .main-content {
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+/* Keep the top header and footer in the natural measured height. */
+#dashboardFitFrame .topbar,
+#dashboardFitFrame .footer-bar {
+  flex-shrink: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+#dashboardFitFrame .footer-bar {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+/* Hide empty labels so they do not consume vertical space. */
+#dashboardFitFrame .sub-section-title:empty {
+  display: none !important;
+}
+
+/* Allow all monthly rows, including the final Total row, to contribute
+   to the natural height measured by the fit controller. */
+#dashboardFitFrame #monthly,
+#dashboardFitFrame .monthly {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+#dashboardFitFrame .monthly-row {
+  flex: 0 0 auto !important;
+  min-width: 0 !important;
+  width: 100% !important;
+}
+
+#dashboardFitFrame .monthly-grid-head,
+#dashboardFitFrame .monthly-row {
+  grid-template-columns: 1.15fr 1fr .72fr 1fr !important;
+}
+
+#dashboardFitFrame .monthly-variance {
+  text-align: center !important;
+  font-weight: 900 !important;
+  white-space: nowrap !important;
+}
+
+#dashboardFitFrame .monthly-var-positive,
+#dashboardFitFrame .monthly-positive {
+  color: #65b83f !important;
+}
+
+#dashboardFitFrame .monthly-var-negative,
+#dashboardFitFrame .monthly-negative {
+  color: #ff3030 !important;
+}
+
+#dashboardFitFrame .monthly-var-zero,
+#dashboardFitFrame .monthly-zero {
+  color: #fff !important;
+}
+
+/* Grid/flex children must be allowed to shrink inside every resolution. */
+#dashboardFitFrame .table-header-bar > *,
+#dashboardFitFrame .berth-row > *,
+#dashboardFitFrame .table-footer-bar > *,
+#dashboardFitFrame .alpha-header-bar > *,
+#dashboardFitFrame .alpha-row > *,
+#dashboardFitFrame .monthly-grid-head > *,
+#dashboardFitFrame .monthly-row > * {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Long vessel names and remarks stay inside their own columns. */
+#dashboardFitFrame .berth-row > *,
+#dashboardFitFrame .alpha-row > *,
+#dashboardFitFrame .table-header-bar > *,
+#dashboardFitFrame .alpha-header-bar > * {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+/* The history screen is outside #dashboardFitFrame and uses its own
+   full-screen responsive grid. Do not apply Dashboard 1 transforms to it. */
+#historyScreen {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#historyScreen .history-content {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  box-sizing: border-box;
+}
+
+#historyScreen .history-main,
+#historyScreen .history-card {
+  min-width: 0;
+  min-height: 0;
+}
+
+/* Compact the history layout on smaller landscape screens without
+   hiding the chart/table through fixed viewport heights. */
+@media screen and (max-width: 1100px) {
+  #historyScreen .history-main {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  #historyScreen .history-card:nth-child(2) {
+    display: none;
+  }
+
+  #historyScreen .history-title {
+    font-size: clamp(20px, 3vw, 34px);
+  }
+}
+
+/* =========================================================
+   END RESPONSIVE TV FIT — FINAL OVERRIDES
+   ========================================================= */
