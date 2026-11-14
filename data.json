@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T09:53:00+08:00",
+  "updated_at": "2026-11-14T10:18:15+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "05:00",
       "remarks": "CONDUCT KY",
       "equipment": "CRANE 2",
-      "activity_time": "04:52"
+      "activity_time": "05:18"
     },
     {
       "berth": "Berth 2",
@@ -111,15 +111,15 @@
       "vessel": "STAR FREEDOM",
       "voyage": 15,
       "booking": 25000,
-      "dispatch": 16200,
-      "loaded": 16200,
-      "balance": 8800,
-      "progress": 0.648,
+      "dispatch": 18360,
+      "loaded": 18360,
+      "balance": 6640,
+      "progress": 0.7344,
       "stockpile": 0,
       "time": "05:30",
       "remarks": "CONDUCT KY",
       "equipment": "0",
-      "activity_time": "04:22"
+      "activity_time": "04:48"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "14:52"
+      "activity_time": "15:18"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 112000,
-    "dispatch": 41600,
-    "loaded": 35600,
-    "balance": 76400,
-    "progress": 0.3215138888888889,
+    "dispatch": 43760,
+    "loaded": 37760,
+    "balance": 74240,
+    "progress": 0.34311388888888894,
     "stockpile": 6000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:52"
+      "activity_time": "10:18"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "09:52"
+    "activity_time": "10:18"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "09:52"
+    "activity_time": "10:18"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 416270,
-      "daily": 3000
+      "September": 418430,
+      "daily": 5160
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 601100
+      "y2026": 603260
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15432220
+    "y2026": 15434380
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 0
+      "qty": 2160
     },
     {
       "shift": "2ND SHIFT",
