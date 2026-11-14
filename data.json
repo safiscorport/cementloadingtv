@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-14T09:02:04+08:00",
+  "updated_at": "2026-11-14T09:53:00+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "INFINITY 8",
       "voyage": 8,
       "booking": 45000,
-      "dispatch": 11950,
+      "dispatch": 12950,
       "loaded": 11950,
       "balance": 33050,
       "progress": 0.26555555555555554,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "05:00",
       "remarks": "CONDUCT KY",
       "equipment": "CRANE 2",
-      "activity_time": "04:01"
+      "activity_time": "04:52"
     },
     {
       "berth": "Berth 2",
@@ -96,11 +96,11 @@
       "vessel": "LADY OF GOOD SUCCESS",
       "voyage": 1,
       "booking": 20000,
-      "dispatch": 8450,
+      "dispatch": 10450,
       "loaded": 7450,
       "balance": 12550,
       "progress": 0.3725,
-      "stockpile": 1000,
+      "stockpile": 3000,
       "time": "00:00",
       "remarks": "CONDUCT KY",
       "equipment": "0",
@@ -119,7 +119,7 @@
       "time": "05:30",
       "remarks": "CONDUCT KY",
       "equipment": "0",
-      "activity_time": "03:31"
+      "activity_time": "04:22"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "14:01"
+      "activity_time": "14:52"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 112000,
-    "dispatch": 38600,
+    "dispatch": 41600,
     "loaded": 35600,
     "balance": 76400,
     "progress": 0.3215138888888889,
-    "stockpile": 3000
+    "stockpile": 6000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:01"
+      "activity_time": "09:52"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "09:01"
+    "activity_time": "09:52"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "09:01"
+    "activity_time": "09:52"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 414270,
-      "daily": 1000
+      "September": 416270,
+      "daily": 3000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "August": 43975,
-      "September": 39000,
-      "daily": "-"
+      "September": 40000,
+      "daily": 1000
     },
     {
       "hauler": "FULACHE",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 2000
+      "volume": 4000
     },
     {
       "client": "LAPU-LAPU",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "FULACHE",
