@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T10:41:08+08:00",
+  "updated_at": "2026-11-14T10:41:48+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "08:00",
       "remarks": "WAITING PORTLAND SLING",
       "equipment": "CRANE 2",
-      "activity_time": "02:40"
+      "activity_time": "02:41"
     },
     {
       "berth": "Berth 2",
@@ -104,7 +104,7 @@
       "time": "08:00",
       "remarks": "WAITING AVAILABLE SHORE CRANE",
       "equipment": "0",
-      "activity_time": "02:40"
+      "activity_time": "02:41"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 5560,
       "progress": 0.7776,
       "stockpile": 1080,
-      "time": "09:40",
-      "remarks": "WAITING PORTLAND SLING",
+      "time": "10:05",
+      "remarks": "LOADING T1T SLING P17",
       "equipment": "0",
-      "activity_time": "01:00"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "15:40"
+      "activity_time": "15:41"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:40"
+      "activity_time": "10:41"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "10:40"
+    "activity_time": "10:41"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "10:40"
+    "activity_time": "10:41"
   },
   "trucking": [
     {
