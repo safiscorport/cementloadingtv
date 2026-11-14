@@ -1606,6 +1606,140 @@
 
 }
 
+/* =========================================================
+   DASHBOARD 2 TV / KIOSK LAYOUT SAFETY OVERRIDES
+   Keep the annual chart and yearly summary inside their cards
+   ========================================================= */
+#historyScreen,
+#historyScreen * {
+  box-sizing:border-box;
+}
+
+#historyScreen .history-content {
+  min-width:0;
+  min-height:0;
+  overflow:hidden;
+}
+
+#historyScreen .history-head,
+#historyScreen .history-main,
+#historyScreen .history-foot {
+  flex-shrink:0;
+}
+
+#historyScreen .history-main {
+  flex:1 1 0;
+  min-width:0;
+  min-height:0;
+  grid-template-columns:minmax(0,1.6fr) minmax(300px,.85fr);
+  align-items:stretch;
+  overflow:hidden;
+}
+
+#historyScreen .history-card {
+  min-width:0;
+  min-height:0;
+  height:100%;
+  overflow:hidden;
+}
+
+#historyScreen .history-card:first-child {
+  display:flex;
+  flex-direction:column;
+}
+
+#historyScreen .history-chart-head {
+  flex:0 0 auto;
+  min-width:0;
+  flex-wrap:wrap;
+}
+
+#historyScreen #annualChart {
+  display:block;
+  flex:1 1 0;
+  width:100%;
+  height:0;
+  min-width:0;
+  min-height:0;
+  max-height:100%;
+  overflow:hidden;
+}
+
+#historyScreen .history-card:nth-child(2) {
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+}
+
+#historyScreen .history-table-wrap {
+  flex:1 1 auto;
+  min-width:0;
+  min-height:0;
+  max-height:100%;
+  overflow:hidden;
+}
+
+#historyScreen .history-table {
+  table-layout:fixed;
+  width:100%;
+}
+
+#historyScreen .history-kpis {
+  flex:0 0 auto;
+  min-width:0;
+}
+
+#historyScreen .history-note {
+  flex:0 0 auto;
+}
+
+@media (max-width:1050px) {
+  #historyScreen .history-main {
+    grid-template-columns:minmax(0,1.45fr) minmax(260px,.9fr);
+  }
+  #historyScreen .history-card:nth-child(2) {
+    display:flex;
+  }
+}
+
+@media (max-width:760px) {
+  #historyScreen .history-main {
+    grid-template-columns:minmax(0,1fr);
+    grid-template-rows:minmax(0,1fr) minmax(0,1fr);
+  }
+}
+
+@media (max-height:800px) {
+  #historyScreen .history-content {
+    padding:1.2vh 1.8vw 1vh;
+  }
+  #historyScreen .history-head {
+    padding-bottom:1vh;
+  }
+  #historyScreen .history-main {
+    padding-top:1vh;
+    gap:1vw;
+  }
+  #historyScreen .history-card {
+    padding:.8vw 1vw;
+    border-radius:14px;
+  }
+  #historyScreen .history-table th,
+  #historyScreen .history-table td {
+    padding:.45vh .55vw;
+  }
+  #historyScreen .history-kpis {
+    margin-top:.5vh;
+  }
+  #historyScreen .history-kpi {
+    padding:.55vh .55vw;
+  }
+  #historyScreen .history-note {
+    padding-top:.5vh;
+    line-height:1.25;
+  }
+}
+
 </style>
 
 
@@ -1679,6 +1813,8 @@
           >
             DASHBOARD 2
           </button>
+          <button id="hBtnDash3" class="switcher-btn" onclick="manualSwitchDashboard(3)">DASHBOARD 3</button>
+
 
         </div>
 
@@ -1896,6 +2032,30 @@
 <script src="app.js"></script>
 
 
+<style>
+/* Dashboard 3 kiosk layout: constrain every grid/flex child to its own box */
+#vesselScreen{position:fixed;inset:0;width:100vw;height:100vh;z-index:10000;display:none;overflow:hidden;padding:clamp(10px,1.35vw,24px);box-sizing:border-box;color:#edf8ff;font-family:Inter,"Segoe UI",Arial,sans-serif;background:radial-gradient(ellipse at 12% 0%,#173b59 0%,#091827 52%,#050d17 100%)}
+#vesselScreen.show{display:flex;flex-direction:column;gap:clamp(8px,1vh,14px);min-width:0;min-height:0}
+#vesselScreen *{box-sizing:border-box}
+.vessel-top{flex:0 0 auto;min-width:0;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.vessel-title{font-size:clamp(19px,2vw,34px);font-weight:800;letter-spacing:.06em}
+.vessel-subtitle{font-size:clamp(10px,1vw,14px);color:#9dbbd0;margin-top:4px}
+.vessel-switch{display:flex;gap:8px;flex-wrap:wrap}.vessel-switch button{background:#18344b;color:#dff5ff;border:1px solid #3c6b89;border-radius:8px;padding:8px 12px;font-weight:700;cursor:pointer}
+.vessel-charts{flex:1 1 0;min-width:0;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:minmax(0,1fr);gap:clamp(10px,1.2vw,18px);overflow:hidden}
+.vessel-card{min-width:0;min-height:0;width:100%;height:100%;overflow:hidden;background:rgba(13,34,51,.88);border:1px solid rgba(116,194,230,.24);border-radius:14px;padding:clamp(9px,1vw,16px);display:flex;flex-direction:column}
+.vessel-card h2{flex:0 0 auto;font-size:clamp(15px,1.35vw,22px);line-height:1.2;margin:0 0 4px}.vessel-card p{flex:0 0 auto;font-size:clamp(10px,.9vw,13px);line-height:1.25;color:#9bb8ca;margin:0 0 6px}.vessel-card svg{display:block;flex:1 1 0;width:100%;height:0;min-height:0;max-height:100%;overflow:hidden}
+#vesselProgressBar{flex:0 0 7px;height:7px;width:0;max-width:100%;background:linear-gradient(90deg,#39c8f2,#ffd27a);border-radius:9px}#vesselCountdown{flex:0 0 auto;text-align:right;font-size:12px;color:#9bb8ca}
+@media(max-width:760px){.vessel-charts{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) minmax(0,1fr)}}
+@media(max-height:700px){#vesselScreen{padding:8px;gap:6px}.vessel-title{font-size:clamp(17px,1.8vw,25px)}.vessel-subtitle{font-size:10px}.vessel-card{padding:7px}.vessel-card h2{font-size:15px}.vessel-card p{font-size:10px;margin-bottom:3px}.vessel-switch button{padding:6px 9px;font-size:11px}#vesselProgressBar{flex-basis:5px;height:5px}#vesselCountdown{font-size:10px}}
+</style>
+<section id="vesselScreen">
+ <div class="vessel-top"><div><div class="vessel-title">VESSEL BULK YEARLY PERFORMANCE</div><div class="vessel-subtitle">FOREIGN VESSEL &amp; LOCAL VESSEL • YEARLY TOTALS • SUM OF AVAILABLE MONTHLY ENTRIES</div></div>
+ <div class="vessel-switch"><button onclick="manualSwitchDashboard(1)">DASHBOARD 1</button><button onclick="manualSwitchDashboard(2)">DASHBOARD 2</button><button onclick="manualSwitchDashboard(3)">DASHBOARD 3</button></div></div>
+ <div class="vessel-charts">
+  <section class="vessel-card"><h2>FOREIGN VESSEL BULK</h2><p>Annual loading total • yearly bars with values shown</p><svg id="foreignVesselChart" viewBox="0 0 900 520" preserveAspectRatio="none"></svg></section>
+  <section class="vessel-card"><h2>LOCAL VESSEL BULK SUMMARY</h2><p>Annual loading total • yearly bars with values shown</p><svg id="localVesselChart" viewBox="0 0 900 520" preserveAspectRatio="none"></svg></section>
+ </div><div id="vesselProgressBar"></div><div id="vesselCountdown">RETURNING TO DASHBOARD 1 • 60s</div>
+</section>
 <script>
 
 /* =========================================================
@@ -2276,7 +2436,7 @@ const DASHBOARD_DURATION_MS =
   3 * 60 * 1000;
 
 const HISTORY_DURATION_MS =
-  3 * 60 * 1000;
+  1 * 60 * 1000;
 
 
 /* =========================================================
@@ -2580,516 +2740,124 @@ setInterval(
 
 function drawAnnualChart(){
 
-  const svg =
-    document.getElementById(
-      "annualChart"
-    );
+  const svg = document.getElementById("annualChart");
+  if(!svg) return;
 
+  const data = Object.entries(CEMENT_HISTORY_TOTALS).map(([year,value])=>({
+    year,
+    value
+  }));
 
-  const data =
-    Object.entries(
-      CEMENT_HISTORY_TOTALS
-    ).map(
-      ([year,value])=>({
-        year,
-        value
-      })
-    );
+  data[6].value = get2026Total();
 
+  const W = 1000, H = 560;
+  const L = 92, R = 42, T = 58, B = 82;
+  const plotW = W - L - R;
+  const plotH = H - T - B;
 
-  data[6].value =
-    get2026Total();
+  const vals = data.map(d=>d.value).filter(v=>Number.isFinite(v));
+  const maxRaw = Math.max(...vals, 1);
+  const max = Math.ceil(maxRaw / 5000000) * 5000000;
+  const min = 0;
+  const xStep = plotW / (data.length - 1);
 
+  const xAt = i => L + i * xStep;
+  const yAt = value => T + plotH - ((value - min) / (max - min)) * plotH;
 
-  const W = 1000;
-
-  const H = 560;
-
-  const L = 78;
-
-  const R = 34;
-
-  const T = 48;
-
-  const B = 78;
-
-
-  const plotW =
-    W - L - R;
-
-  const plotH =
-    H - T - B;
-
-
-  const vals =
-    data
-      .map(
-        d => d.value
-      )
-      .filter(
-        v => Number.isFinite(v)
-      );
-
-
-  const maxRaw =
-    Math.max(
-      ...vals,
-      1
-    );
-
-
-  const max =
-    Math.ceil(
-      maxRaw / 5000000
-    ) * 5000000;
-
-
-  const step =
-    plotW /
-    data.length;
-
-
-  const barW =
-    step * .85;
-
-
-  const esc =
-    s =>
-      String(s)
-        .replace(
-          /[&<>"]/g,
-          m =>
-            ({
-              "&":"&amp;",
-              "<":"&lt;",
-              ">":"&gt;",
-              "\"":"&quot;"
-            })[m]
-        );
-
+  const esc = s => String(s).replace(/[&<>"]/g,m=>({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"
+  })[m]);
 
   let out = `
-
     <defs>
-
-      <linearGradient
-        id="barGrad"
-        x1="0"
-        y1="0"
-        x2="0"
-        y2="1"
-      >
-
-        <stop
-          offset="0%"
-          stop-color="#8eeaff"
-          stop-opacity=".98"
-        />
-
-        <stop
-          offset="52%"
-          stop-color="#31c5f4"
-          stop-opacity=".82"
-        />
-
-        <stop
-          offset="100%"
-          stop-color="#147ba8"
-          stop-opacity=".55"
-        />
-
+      <linearGradient id="annualLine" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#42c9f5"/>
+        <stop offset="100%" stop-color="#ffd27a"/>
       </linearGradient>
-
-
-      <linearGradient
-        id="barLive"
-        x1="0"
-        y1="0"
-        x2="0"
-        y2="1"
-      >
-
-        <stop
-          offset="0%"
-          stop-color="#ffd27a"
-          stop-opacity="1"
-        />
-
-        <stop
-          offset="55%"
-          stop-color="#f4a94b"
-          stop-opacity=".9"
-        />
-
-        <stop
-          offset="100%"
-          stop-color="#a65e1e"
-          stop-opacity=".62"
-        />
-
-      </linearGradient>
-
-
-      <filter
-        id="barGlow"
-        x="-40%"
-        y="-30%"
-        width="180%"
-        height="180%"
-      >
-
-        <feGaussianBlur
-          stdDeviation="5"
-          result="blur"
-        />
-
-        <feMerge>
-
-          <feMergeNode
-            in="blur"
-          />
-
-          <feMergeNode
-            in="SourceGraphic"
-          />
-
-        </feMerge>
-
+      <filter id="annualPointGlow" x="-100%" y="-100%" width="300%" height="300%">
+        <feGaussianBlur stdDeviation="5" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
       </filter>
-
     </defs>
-
   `;
 
-
-  /* -------------------------------------------------------
-     GRID
-     ------------------------------------------------------- */
-
-  for(
-    let i = 0;
-    i <= 5;
-    i++
-  ){
-
-    const y =
-      T +
-      plotH -
-      (
-        plotH *
-        i /
-        5
-      );
-
-
-    const value =
-      max *
-      i /
-      5;
-
-
+  /* Horizontal grid and Y-axis labels */
+  for(let i=0;i<=5;i++){
+    const value = max * i / 5;
+    const y = yAt(value);
     out += `
-
-      <line
-        x1="${L}"
-        y1="${y}"
-        x2="${W-R}"
-        y2="${y}"
-        stroke="rgba(142,222,255,.10)"
-        stroke-width="${i===0?1.5:1}"
-      />
-
-      <text
-        x="${L-14}"
-        y="${y+5}"
-        text-anchor="end"
-        fill="rgba(224,244,252,.42)"
-        font-size="15"
-        font-family="Segoe UI,Arial"
-      >
-        ${
-          value === 0
-            ? "0"
-            : Math.round(
-                value / 1000000
-              ) + "M"
-        }
+      <line x1="${L}" y1="${y}" x2="${W-R}" y2="${y}"
+        stroke="rgba(142,222,255,.12)" stroke-width="${i===0?1.8:1}"/>
+      <text x="${L-16}" y="${y+5}" text-anchor="end"
+        fill="rgba(224,244,252,.48)" font-size="15"
+        font-family="Segoe UI,Arial">
+        ${value===0 ? "0" : (value/1000000).toFixed(value%1000000===0?0:1)+"M"}
       </text>
-
     `;
-
   }
 
-
-  /* -------------------------------------------------------
-     BASELINE
-     ------------------------------------------------------- */
-
+  /* X-axis baseline */
   out += `
-
-    <line
-      x1="${L}"
-      y1="${T+plotH}"
-      x2="${W-R}"
-      y2="${T+plotH}"
-      stroke="rgba(145,224,255,.24)"
-      stroke-width="2"
-    />
-
+    <line x1="${L}" y1="${T+plotH}" x2="${W-R}" y2="${T+plotH}"
+      stroke="rgba(145,224,255,.28)" stroke-width="2"/>
   `;
 
+  /* Draw connected line segments only between available yearly values */
+  const known = data.map((d,i)=>({
+    ...d, index:i, x:xAt(i), y:Number.isFinite(d.value)?yAt(d.value):null
+  })).filter(d=>d.y!==null);
 
-  /* -------------------------------------------------------
-     BARS
-     ------------------------------------------------------- */
-
-  data.forEach(
-    (d,i)=>{
-
-      const x =
-        L +
-        i * step +
-        (
-          step -
-          barW
-        ) / 2;
-
-
-      const known =
-        Number.isFinite(
-          d.value
-        );
-
-
-      const h =
-        known
-          ? (
-              d.value /
-              max
-            ) *
-            plotH
-          : 0;
-
-
-      const y =
-        T +
-        plotH -
-        h;
-
-
-      const isLive =
-        d.year == 2026;
-
-
-      if(known){
-
-        out += `
-
-          <rect
-            x="${x}"
-            y="${y}"
-            width="${barW}"
-            height="${h}"
-            rx="10"
-
-            fill="${
-              isLive
-                ? 'url(#barLive)'
-                : 'url(#barGrad)'
-            }"
-
-            opacity="${
-              isLive
-                ? '.96'
-                : '.88'
-            }"
-
-            filter="${
-              isLive
-                ? 'url(#barGlow)'
-                : ''
-            }"
-          />
-
-
-          <rect
-            x="${x+3}"
-            y="${y+3}"
-            width="${Math.max(
-              0,
-              barW-6
-            )}"
-            height="2"
-            rx="1"
-            fill="rgba(255,255,255,.42)"
-          />
-
-
-          <text
-            x="${x+barW/2}"
-            y="${Math.max(
-              y-13,
-              24
-            )}"
-            text-anchor="middle"
-            fill="${
-              isLive
-                ? '#ffd88c'
-                : '#e8faff'
-            }"
-            font-size="16"
-            font-weight="800"
-            font-family="Segoe UI,Arial"
-          >
-            ${formatMT(d.value)}
-          </text>
-
-        `;
-
-
-      }else{
-
-        out += `
-
-          <rect
-            x="${x}"
-            y="${T+plotH-5}"
-            width="${barW}"
-            height="5"
-            rx="3"
-            fill="rgba(255,255,255,.13)"
-          />
-
-
-          <text
-            x="${x+barW/2}"
-            y="${T+plotH-18}"
-            text-anchor="middle"
-            fill="rgba(255,255,255,.42)"
-            font-size="13"
-            font-weight="700"
-            font-family="Segoe UI,Arial"
-          >
-            LIVE
-          </text>
-
-        `;
-
-      }
-
-
-      const labelFill =
-        isLive
-          ? "rgba(255,179,75,.12)"
-          : "rgba(105,216,255,.07)";
-
-
-      const labelStroke =
-        isLive
-          ? "rgba(255,190,95,.28)"
-          : "rgba(105,216,255,.13)";
-
-
-      out += `
-
-        <rect
-          x="${x+barW*.16}"
-          y="${H-53}"
-          width="${barW*.68}"
-          height="30"
-          rx="15"
-          fill="${labelFill}"
-          stroke="${labelStroke}"
-        />
-
-
-        <text
-          x="${x+barW/2}"
-          y="${H-33}"
-          text-anchor="middle"
-          fill="${
-            isLive
-              ? '#ffd28a'
-              : '#d9f4fc'
-          }"
-          font-size="16"
-          font-weight="850"
-          font-family="Segoe UI,Arial"
-        >
-          ${esc(d.year)}
-        </text>
-
-      `;
-
-    }
-  );
-
-
-  /* -------------------------------------------------------
-     TREND LINE
-     ------------------------------------------------------- */
-
-  const points =
-    data
-      .filter(
-        d =>
-          Number.isFinite(
-            d.value
-          )
-      )
-      .map(
-        d => {
-
-          const i =
-            data.indexOf(d);
-
-
-          const x =
-            L +
-            i * step +
-            step / 2;
-
-
-          const y =
-            T +
-            plotH -
-            (
-              d.value /
-              max
-            ) *
-            plotH;
-
-
-          return `${x},${y}`;
-
-        }
-      )
-      .join(" ");
-
-
-  if(points){
-
+  if(known.length > 1){
+    const path = known.map((p,i)=>(i===0?"M":"L")+p.x+","+p.y).join(" ");
     out += `
-
-      <polyline
-        points="${points}"
-        fill="none"
-        stroke="rgba(155,232,255,.30)"
-        stroke-width="2"
-        stroke-dasharray="5 8"
-      />
-
+      <path d="${path}" fill="none" stroke="url(#annualLine)"
+        stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
     `;
-
   }
 
+  /* Year markers, value labels, and year labels */
+  data.forEach((d,i)=>{
+    const x = xAt(i);
+    const isLive = String(d.year)==="2026";
+    const knownValue = Number.isFinite(d.value);
 
-  svg.innerHTML =
-    out;
+    if(knownValue){
+      const y = yAt(d.value);
+      out += `
+        <circle cx="${x}" cy="${y}" r="13"
+          fill="${isLive?"#f4ad50":"#43c9f4"}"
+          opacity=".18" filter="url(#annualPointGlow)"/>
+        <circle cx="${x}" cy="${y}" r="7"
+          fill="${isLive?"#ffd27a":"#8eeaff"}"
+          stroke="${isLive?"#fff0c9":"#e6faff"}" stroke-width="2.5"/>
+        <text x="${x}" y="${Math.max(y-22,25)}" text-anchor="middle"
+          fill="${isLive?"#ffd88c":"#e8faff"}"
+          font-size="16" font-weight="800" font-family="Segoe UI,Arial">
+          ${formatMT(d.value)}
+        </text>
+      `;
+    }else{
+      out += `
+        <circle cx="${x}" cy="${T+plotH}" r="6"
+          fill="rgba(255,255,255,.18)" stroke="rgba(255,255,255,.4)" stroke-width="2"/>
+        <text x="${x}" y="${T+plotH-18}" text-anchor="middle"
+          fill="rgba(255,255,255,.48)" font-size="13" font-weight="700"
+          font-family="Segoe UI,Arial">LIVE</text>
+      `;
+    }
 
+    out += `
+      <rect x="${x-31}" y="${H-53}" width="62" height="30" rx="15"
+        fill="${isLive?"rgba(255,179,75,.12)":"rgba(105,216,255,.07)"}"
+        stroke="${isLive?"rgba(255,190,95,.30)":"rgba(105,216,255,.15)"}"/>
+      <text x="${x}" y="${H-33}" text-anchor="middle"
+        fill="${isLive?"#ffd28a":"#d9f4fc"}" font-size="16"
+        font-weight="850" font-family="Segoe UI,Arial">${esc(d.year)}</text>
+    `;
+  });
+
+  svg.innerHTML = out;
 }
-
-
 /* =========================================================
    RENDER HISTORY TOTALS + HORIZONTAL VARIANCE
    ========================================================= */
@@ -3441,205 +3209,157 @@ function hideHistoryScreen(){
 }
 
 
-/* =========================================================
-   MANUAL DASHBOARD SWITCH
-   ========================================================= */
-
-function manualSwitchDashboard(
-  target
-){
-
-  manualOverride =
-    true;
-
-
-  clearTimeout(
-    rotationTimer
-  );
-
-
-  clearTimeout(
-    historyTimer
-  );
-
-
-  if(
-    target === 1
-  ){
-
-    hideHistoryScreen();
-
-  }
-  else{
-
-    showHistoryScreen();
-
-  }
-
-
-  clearTimeout(
-    window.resumeAutoTimer
-  );
-
-
-  window.resumeAutoTimer =
-    setTimeout(
-      () => {
-
-        manualOverride =
-          false;
-
-        startRotation();
-
-      },
-      3 * 60 * 1000
-    );
-
-}
-
-
-/* =========================================================
-   AUTOMATIC ROTATION
-   ========================================================= */
-
+/* THREE DASHBOARD ROTATION — SINGLE SEQUENTIAL TIMER */
+const DASHBOARD_1_DURATION_MS = 3 * 60 * 1000;
+const DASHBOARD_2_DURATION_MS = 1 * 60 * 1000;
+const DASHBOARD_3_DURATION_MS = 1 * 60 * 1000;
 let rotationTimer = null;
+let rotationTickTimer = null;
+let rotationCycleToken = 0;
 
-let historyTimer = null;
-
-
+function setDashboardButtons(target){
+ ["btnDash1","btnDash2","hBtnDash1","hBtnDash2","hBtnDash3"].forEach(id=>{
+  const e=document.getElementById(id);
+  if(e)e.classList.toggle("active",
+   (target===1&&(id==="btnDash1"||id==="hBtnDash1"))||
+   (target===2&&(id==="btnDash2"||id==="hBtnDash2"))||
+   (target===3&&id==="hBtnDash3"));
+ });
+}
+function showVesselScreen(){
+ document.getElementById("historyScreen")?.classList.remove("show");
+ document.getElementById("vesselScreen")?.classList.add("show");
+ setDashboardButtons(3);
+ drawVesselCharts();
+}
+function hideVesselScreen(){document.getElementById("vesselScreen")?.classList.remove("show");}
+function showDashboard(n){
+ if(n===1){hideHistoryScreen();hideVesselScreen();}
+ else if(n===2){hideVesselScreen();showHistoryScreen();}
+ else showVesselScreen();
+ setDashboardButtons(n);
+}
+function clearRotationTimers(){
+ clearTimeout(rotationTimer); rotationTimer=null;
+ clearTimeout(rotationTickTimer); rotationTickTimer=null;
+}
+function updateRotationCountdown(dashboard, remaining, duration){
+ const pct=Math.max(0,Math.min(100,((duration-remaining)/duration)*100));
+ if(dashboard===2){
+  const bar=document.getElementById("historyProgressBar");
+  const cd=document.getElementById("historyCountdown");
+  if(bar)bar.style.width=pct+"%";
+  if(cd)cd.textContent="RETURNING TO DASHBOARD 3 • "+Math.ceil(remaining/1000)+"s";
+ } else if(dashboard===3){
+  const bar=document.getElementById("vesselProgressBar");
+  const cd=document.getElementById("vesselCountdown");
+  if(bar)bar.style.width=pct+"%";
+  if(cd)cd.textContent="RETURNING TO DASHBOARD 1 • "+Math.ceil(remaining/1000)+"s";
+ }
+}
+function runRotationStage(dashboard, duration, token){
+ if(manualOverride || token!==rotationCycleToken)return;
+ clearRotationTimers();
+ showDashboard(dashboard);
+ const started=Date.now();
+ function tick(){
+  if(manualOverride || token!==rotationCycleToken)return;
+  const remaining=Math.max(0,duration-(Date.now()-started));
+  updateRotationCountdown(dashboard,remaining,duration);
+  if(remaining<=0){
+   if(dashboard===1)runRotationStage(2,DASHBOARD_2_DURATION_MS,token);
+   else if(dashboard===2)runRotationStage(3,DASHBOARD_3_DURATION_MS,token);
+   else runRotationStage(1,DASHBOARD_1_DURATION_MS,token);
+   return;
+  }
+  rotationTickTimer=setTimeout(tick,Math.min(250,remaining));
+ }
+ tick();
+}
 function startRotation(){
-
-  if(
-    manualOverride
-  )
-
-    return;
-
-
-  clearTimeout(
-    rotationTimer
-  );
-
-
-  clearTimeout(
-    historyTimer
-  );
-
-
-  hideHistoryScreen();
-
-
-  rotationTimer =
-    setTimeout(
-      () => {
-
-        if(
-          manualOverride
-        )
-
-          return;
-
-
-        showHistoryScreen();
-
-
-        const started =
-          Date.now();
-
-
-        function tick(){
-
-          if(
-            manualOverride
-          )
-
-            return;
-
-
-          const elapsed =
-            Date.now() -
-            started;
-
-
-          const remain =
-            Math.max(
-              0,
-              HISTORY_DURATION_MS -
-              elapsed
-            );
-
-
-          const pct =
-            Math.min(
-              100,
-              (
-                elapsed /
-                HISTORY_DURATION_MS
-              ) *
-              100
-            );
-
-
-          const bar =
-            document.getElementById(
-              "historyProgressBar"
-            );
-
-
-          const countdown =
-            document.getElementById(
-              "historyCountdown"
-            );
-
-
-          if(bar){
-
-            bar.style.width =
-              pct + "%";
-
-          }
-
-
-          if(countdown){
-
-            countdown.textContent =
-              "RETURNING TO LIVE DASHBOARD • " +
-              Math.ceil(
-                remain / 1000
-              ) +
-              "s";
-
-          }
-
-
-          if(
-            remain > 0
-          ){
-
-            historyTimer =
-              setTimeout(
-                tick,
-                250
-              );
-
-          }
-          else{
-
-            startRotation();
-
-          }
-
-        }
-
-
-        tick();
-
-      },
-      DASHBOARD_DURATION_MS
-    );
-
+ manualOverride=false;
+ clearRotationTimers();
+ const token=++rotationCycleToken;
+ runRotationStage(1,DASHBOARD_1_DURATION_MS,token);
+}
+function manualSwitchDashboard(n){
+ manualOverride=true;
+ ++rotationCycleToken;
+ clearRotationTimers();
+ showDashboard(n);
+ clearTimeout(window.resumeAutoTimer);
+ window.resumeAutoTimer=setTimeout(()=>{
+  manualOverride=false;
+  startRotation();
+ },180000);
 }
 
+/* DASHBOARD 3 MONTHLY VESSEL DATA — blank source cells kept blank */
+const VESSEL_MONTHS=["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+const FOREIGN_VESSEL_DATA={
+ "2023":[100374,55000,47900,100800,99810,96530,50920,72000,52775,156800,108600,91000],
+ "2024":[64475,137402,55000,100120,165947,152949,188335,49599,38000,null,null,77580],
+ "2025":[87500,null,null,54350,44000,100300,null,94820,null,36024,53070,50416],
+ "2026":[69500,null,70452,47450,100733,null,null,53500,53000,41202,null,null]
+};
+const LOCAL_VESSEL_DATA={
+ "2024":[4083.20,5000,null,3640.03,null,null,3933.33,21209.21,16751.98,8126.25,8305.53,10000],
+ "2025":[15000,27400,69800,61754.83,66800,19672.75,26662,25918.29,19888,19554,19552,18567],
+ "2026":[22948,25260,20707,9221.30,28774.90,35134.538,21195.69,26955.91,20601.37,19430.614,16891.59,null]
+};
+function drawYearlyVesselChart(id,series){
+ const svg=document.getElementById(id);if(!svg)return;
+ const years=Object.keys(series);
+ const totals=years.map(year=>{
+  const months=series[year]||[];
+  const entered=months.filter(v=>Number.isFinite(v));
+  return {year,total:entered.length?entered.reduce((a,b)=>a+b,0):null,count:entered.length};
+ });
+ const W=900,H=520,L=88,R=34,T=62,B=76,pw=W-L-R,ph=H-T-B;
+ const vals=totals.map(d=>d.total).filter(Number.isFinite);
+ const maxRaw=Math.max(1,...vals);
+ const unit=10**Math.floor(Math.log10(maxRaw));
+ const top=Math.ceil(maxRaw/(unit/2))*(unit/2);
+ const y=v=>T+ph-(v/top)*ph;
+ const slot=pw/Math.max(1,years.length);
+ const barW=Math.min(112,slot*.56);
+ let out=`
+  <defs>
+   <linearGradient id="${id}Bar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#59d7ff"/>
+    <stop offset="100%" stop-color="#197eae"/>
+   </linearGradient>
+   <filter id="${id}Glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+   </filter>
+  </defs>`;
+ for(let k=0;k<=5;k++){
+  const v=top*k/5,yy=y(v);
+  out+=`<line x1="${L}" y1="${yy}" x2="${W-R}" y2="${yy}" stroke="rgba(180,220,240,.16)" stroke-width="1"/>
+   <text x="${L-14}" y="${yy+5}" text-anchor="end" fill="#a9c3d4" font-size="14">${v>=1000?(v/1000).toFixed(v%1000===0?0:1)+"k":Math.round(v)}</text>`;
+ }
+ totals.forEach((d,i)=>{
+  const cx=L+slot*(i+.5);
+  if(Number.isFinite(d.total)){
+   const yy=y(d.total),height=T+ph-yy,x=cx-barW/2;
+   out+=`<rect x="${x}" y="${yy}" width="${barW}" height="${height}" rx="8" fill="url(#${id}Bar)" filter="url(#${id}Glow)" opacity=".96">
+      <title>${d.year}: ${Math.round(d.total).toLocaleString("en-PH")} (based on ${d.count} entered months)</title>
+    </rect>
+    <text x="${cx}" y="${Math.max(yy-18,25)}" text-anchor="middle" fill="#f0fbff" font-size="17" font-weight="800">${Math.round(d.total).toLocaleString("en-PH")}</text>
+    <text x="${cx}" y="${H-35}" text-anchor="middle" fill="#e4f3fb" font-size="18" font-weight="800">${d.year}</text>
+    <text x="${cx}" y="${H-15}" text-anchor="middle" fill="#8faec1" font-size="11">${d.count}/12 months</text>`;
+  }else{
+   out+=`<text x="${cx}" y="${H-35}" text-anchor="middle" fill="#e4f3fb" font-size="18" font-weight="800">${d.year}</text>
+    <text x="${cx}" y="${T+ph-12}" text-anchor="middle" fill="#9bb8ca" font-size="13">NO DATA</text>`;
+  }
+ });
+ svg.innerHTML=out;
+}
+function drawVesselCharts(){
+ drawYearlyVesselChart("foreignVesselChart",FOREIGN_VESSEL_DATA);
+ drawYearlyVesselChart("localVesselChart",LOCAL_VESSEL_DATA);
+}
 
 /* =========================================================
    INITIALIZE
