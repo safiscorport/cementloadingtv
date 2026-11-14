@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T17:39:23+08:00",
+  "updated_at": "2026-11-14T17:42:21+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "17:08",
       "remarks": "LOADING SLING S37",
       "equipment": "CRANE 2",
-      "activity_time": "00:31"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 2",
@@ -63,8 +63,8 @@
     },
     {
       "berth": "Berth 5",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "QUEEN CAROLYN",
+      "voyage": 12,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -103,8 +103,8 @@
       "stockpile": 7000,
       "time": "17:01",
       "remarks": "LOADING TONNER S58",
-      "equipment": "0",
-      "activity_time": "00:38"
+      "equipment": "CRANE 4",
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "16:16",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "01:23"
+      "activity_time": "01:26"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "VESSEL DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "10:39"
+      "activity_time": "10:42"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:39"
+      "activity_time": "17:42"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:39"
+    "activity_time": "17:42"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:39"
+    "activity_time": "17:42"
   },
   "trucking": [
     {
