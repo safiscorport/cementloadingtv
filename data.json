@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T10:38:47+08:00",
+  "updated_at": "2026-11-14T10:41:08+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "08:00",
       "remarks": "WAITING PORTLAND SLING",
       "equipment": "CRANE 2",
-      "activity_time": "02:38"
+      "activity_time": "02:40"
     },
     {
       "berth": "Berth 2",
@@ -104,22 +104,22 @@
       "time": "08:00",
       "remarks": "WAITING AVAILABLE SHORE CRANE",
       "equipment": "0",
-      "activity_time": "02:38"
+      "activity_time": "02:40"
     },
     {
       "berth": "Berth 8",
       "vessel": "STAR FREEDOM",
       "voyage": 15,
       "booking": 25000,
-      "dispatch": 19440,
-      "loaded": 18360,
-      "balance": 6640,
-      "progress": 0.7344,
+      "dispatch": 20520,
+      "loaded": 19440,
+      "balance": 5560,
+      "progress": 0.7776,
       "stockpile": 1080,
       "time": "09:40",
       "remarks": "WAITING PORTLAND SLING",
       "equipment": "0",
-      "activity_time": "00:58"
+      "activity_time": "01:00"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "15:38"
+      "activity_time": "15:40"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 112000,
-    "dispatch": 45840,
-    "loaded": 37760,
-    "balance": 74240,
-    "progress": 0.34311388888888894,
+    "dispatch": 46920,
+    "loaded": 38840,
+    "balance": 73160,
+    "progress": 0.35391388888888886,
     "stockpile": 8080
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:38"
+      "activity_time": "10:40"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "10:38"
+    "activity_time": "10:40"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "10:38"
+    "activity_time": "10:40"
   },
   "trucking": [
     {
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 111620,
-      "daily": "-"
+      "September": 112700,
+      "daily": 1080
     },
     {
       "hauler": "UCES",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 603260
+      "y2026": 604340
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15434380
+    "y2026": 15435460
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 2160
+      "qty": 3240
     },
     {
       "shift": "2ND SHIFT",
