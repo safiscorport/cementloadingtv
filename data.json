@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-14T19:24:34+08:00",
+  "updated_at": "2026-11-14T21:14:49+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "INFINITY 8",
       "voyage": 8,
       "booking": 45000,
-      "dispatch": 29850,
+      "dispatch": 31850,
       "loaded": 20850,
       "balance": 24150,
       "progress": 0.4633333333333333,
-      "stockpile": 9000,
+      "stockpile": 11000,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 2",
-      "activity_time": "00:24"
+      "activity_time": "02:14"
     },
     {
       "berth": "Berth 2",
@@ -74,7 +74,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:24"
+      "activity_time": "02:14"
     },
     {
       "berth": "Berth 6",
@@ -104,22 +104,22 @@
       "time": "19:00",
       "remarks": "K Y TOOLBOX",
       "equipment": "CRANE 4",
-      "activity_time": "00:24"
+      "activity_time": "02:14"
     },
     {
       "berth": "Berth 8",
-      "vessel": "STAR FREEDOM",
-      "voyage": 15,
-      "booking": 25000,
-      "dispatch": 25000,
-      "loaded": 25000,
+      "vessel": "LADY OF PROSPERITY",
+      "voyage": 2,
+      "booking": 0,
+      "dispatch": 2000,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
-      "stockpile": 0,
+      "progress": 0,
+      "stockpile": 2000,
       "time": "16:16",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "03:08"
+      "activity_time": "04:58"
     },
     {
       "berth": "Berth 9",
@@ -141,15 +141,15 @@
       "vessel": "LAURIN JOY",
       "voyage": 1,
       "booking": 22000,
-      "dispatch": 2000,
+      "dispatch": 0,
       "loaded": 0,
       "balance": 22000,
       "progress": 0,
-      "stockpile": 2000,
+      "stockpile": 0,
       "time": "19:00",
       "remarks": "VESSEL DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "00:24"
+      "activity_time": "02:14"
     },
     {
       "berth": "Jetty",
@@ -168,12 +168,12 @@
     }
   ],
   "total": {
-    "booking": 112000,
-    "dispatch": 76840,
-    "loaded": 58840,
+    "booking": 87000,
+    "dispatch": 53840,
+    "loaded": 33840,
     "balance": 53160,
-    "progress": 0.5282083333333334,
-    "stockpile": 18000
+    "progress": 0.37094444444444447,
+    "stockpile": 20000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:24"
+      "activity_time": "21:14"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "19:24"
+    "activity_time": "21:14"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "19:24"
+    "activity_time": "21:14"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 441430,
-      "daily": 28160
+      "September": 443430,
+      "daily": 31160
     },
     {
       "hauler": "LAPU-LAPU",
@@ -248,7 +248,7 @@
       "hauler": "PTMS",
       "August": 159490,
       "September": 119700,
-      "daily": 8080
+      "daily": 9080
     },
     {
       "hauler": "UCES",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 12000
+      "volume": 14000
     },
     {
       "client": "LAPU-LAPU",
