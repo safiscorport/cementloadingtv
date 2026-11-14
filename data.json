@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T07:34:21+08:00",
+  "updated_at": "2026-11-15T07:34:59+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "0",
-    "checker": "TORRES, J",
-    "pmc": "VICKY/EBOY",
-    "cranes": 3,
-    "forklifts": 7,
-    "stevedores": 41
+    "supervisor": "BERNABE,A",
+    "checker": "DALUSA / OBIAL",
+    "pmc": "JOAN / WILLIAM",
+    "cranes": 0,
+    "forklifts": 0,
+    "stevedores": 0
   }
 }
