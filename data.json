@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-14T23:38:57+08:00",
+  "updated_at": "2026-11-15T05:38:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "INFINITY 8",
       "voyage": 8,
       "booking": 45000,
-      "dispatch": 31850,
-      "loaded": 26850,
-      "balance": 18150,
-      "progress": 0.5966666666666667,
-      "stockpile": 5000,
-      "time": "22:00",
-      "remarks": "LOADING P17 SLING BAGS",
+      "dispatch": 32850,
+      "loaded": 30850,
+      "balance": 14150,
+      "progress": 0.6855555555555556,
+      "stockpile": 2000,
+      "time": "23:19",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 2",
-      "activity_time": "01:38"
+      "activity_time": "06:19"
     },
     {
       "berth": "Berth 2",
@@ -66,15 +66,15 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 12,
       "booking": 0,
-      "dispatch": 1000,
-      "loaded": 0,
-      "balance": 0,
+      "dispatch": 2000,
+      "loaded": 2000,
+      "balance": -2000,
       "progress": 0,
-      "stockpile": 1000,
-      "time": "20:10",
-      "remarks": "WAITING MATERIAL",
+      "stockpile": 0,
+      "time": "23:19",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "03:28"
+      "activity_time": "06:19"
     },
     {
       "berth": "Berth 6",
@@ -97,14 +97,14 @@
       "voyage": 1,
       "booking": 20000,
       "dispatch": 20990,
-      "loaded": 17990,
-      "balance": 2010,
-      "progress": 0.8995,
-      "stockpile": 3000,
-      "time": "20:29",
-      "remarks": "LOADING A1 TONNER BAGS",
+      "loaded": 19990,
+      "balance": 10,
+      "progress": 0.9995,
+      "stockpile": 1000,
+      "time": "23:19",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "CRANE 4",
-      "activity_time": "03:09"
+      "activity_time": "06:19"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": -2000,
       "progress": 0,
       "stockpile": 5000,
-      "time": "16:16",
-      "remarks": "LOADING COMPLETE",
+      "time": "23:19",
+      "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "07:22"
+      "activity_time": "06:19"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "04:38"
+      "activity_time": "10:38"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 87000,
-    "dispatch": 60840,
-    "loaded": 46840,
-    "balance": 40160,
-    "progress": 0.49872222222222223,
-    "stockpile": 14000
+    "dispatch": 62840,
+    "loaded": 54840,
+    "balance": 32160,
+    "progress": 0.5616851851851852,
+    "stockpile": 8000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "23:38"
+      "activity_time": "05:38"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "23:38"
+    "activity_time": "05:38"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "23:38"
+    "activity_time": "05:38"
   },
   "trucking": [
     {
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 120700,
-      "daily": 10080
+      "September": 122700,
+      "daily": 12080
     },
     {
       "hauler": "UCES",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 637340
+      "y2026": 645340
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15468460
+    "y2026": 15476460
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 13000
+      "qty": 21000
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 11000
+      "volume": 6000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 2000
+      "volume": 1000
     },
     {
       "client": "UCES",
