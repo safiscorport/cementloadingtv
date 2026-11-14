@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T07:57:36+08:00",
+  "updated_at": "2026-11-14T09:02:04+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "05:00",
       "remarks": "CONDUCT KY",
       "equipment": "CRANE 2",
-      "activity_time": "02:57"
+      "activity_time": "04:01"
     },
     {
       "berth": "Berth 2",
@@ -96,11 +96,11 @@
       "vessel": "LADY OF GOOD SUCCESS",
       "voyage": 1,
       "booking": 20000,
-      "dispatch": 7450,
+      "dispatch": 8450,
       "loaded": 7450,
       "balance": 12550,
       "progress": 0.3725,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "00:00",
       "remarks": "CONDUCT KY",
       "equipment": "0",
@@ -119,7 +119,7 @@
       "time": "05:30",
       "remarks": "CONDUCT KY",
       "equipment": "0",
-      "activity_time": "02:27"
+      "activity_time": "03:31"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "VESSEL DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "12:57"
+      "activity_time": "14:01"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 112000,
-    "dispatch": 37600,
+    "dispatch": 38600,
     "loaded": 35600,
     "balance": 76400,
     "progress": 0.3215138888888889,
-    "stockpile": 2000
+    "stockpile": 3000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:57"
+      "activity_time": "09:01"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:57"
+    "activity_time": "09:01"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:57"
+    "activity_time": "09:01"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 413270,
-      "daily": 30600
+      "September": 414270,
+      "daily": 1000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -248,7 +248,7 @@
       "hauler": "PTMS",
       "August": 159490,
       "September": 111620,
-      "daily": 9160
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -260,13 +260,13 @@
       "hauler": "APLUS",
       "August": 43975,
       "September": 39000,
-      "daily": 3000
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
       "August": 35500,
       "September": 11080,
-      "daily": 1000
+      "daily": "-"
     }
   ],
   "monthly": [
@@ -338,17 +338,17 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 19680
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 24080
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "LAPU-LAPU",
