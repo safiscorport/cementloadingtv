@@ -145,6 +145,43 @@
   min-height: 125vh;
 }
 
+
+/* =========================================================
+   DASHBOARD 2 — ANNUAL GRAPH 80% ZOOM FOR TV KIOSK
+   Shrink the plotted graph inside the existing graph panel
+   so the 2026 point, value, and year label stay in view.
+   ========================================================= */
+#historyScreen .history-card:first-child {
+  min-width: 0;
+  overflow: hidden;
+}
+
+#historyScreen #annualChart {
+  display: block;
+  flex: 1 1 0;
+  width: 125% !important;
+  max-width: none !important;
+  min-width: 0;
+  height: 125% !important;
+  min-height: 0;
+  max-height: none !important;
+  transform: scale(0.8);
+  transform-origin: center center;
+  overflow: visible;
+}
+
+/* Keep the graph panel and its scaled SVG inside the TV viewport. */
+@media (min-width: 1051px) {
+  #historyScreen .history-main {
+    min-width: 0;
+    overflow: hidden;
+  }
+  #historyScreen .history-card:first-child {
+    min-width: 0;
+    overflow: hidden;
+  }
+}
+
 </style>
 
 </head>
@@ -1752,6 +1789,110 @@
   }
 }
 
+/* =========================================================
+   FINAL KIOSK FIX — KEEP ALL 7 YEARS (2020–2026) VISIBLE
+   Applied after all earlier Dashboard 2 layout rules.
+   ========================================================= */
+#historyScreen {
+  width:100vw;
+  height:100vh;
+  max-width:100vw;
+  max-height:100vh;
+  overflow:hidden;
+}
+#historyScreen,
+#historyScreen * {
+  box-sizing:border-box;
+}
+#historyScreen .history-content {
+  width:100%;
+  height:100%;
+  min-width:0;
+  min-height:0;
+  overflow:hidden;
+}
+#historyScreen .history-head {
+  flex:0 0 auto;
+  min-width:0;
+  max-width:100%;
+}
+#historyScreen .history-main {
+  flex:1 1 0;
+  width:100%;
+  min-width:0;
+  min-height:0;
+  grid-template-columns:minmax(0,1.6fr) minmax(270px,.85fr);
+  align-items:stretch;
+  overflow:hidden;
+}
+#historyScreen .history-card {
+  width:100%;
+  max-width:100%;
+  min-width:0;
+  min-height:0;
+  height:100%;
+  overflow:hidden;
+}
+#historyScreen .history-card:first-child {
+  display:flex;
+  flex-direction:column;
+}
+#historyScreen .history-chart-head {
+  flex:0 0 auto;
+  width:100%;
+  min-width:0;
+  flex-wrap:wrap;
+}
+#historyScreen #annualChart {
+  display:block;
+  flex:1 1 0;
+  width:100% !important;
+  max-width:100%;
+  min-width:0;
+  min-height:0;
+  height:0 !important;
+  max-height:100%;
+  overflow:hidden;
+}
+#historyScreen .history-card:nth-child(2) {
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+}
+#historyScreen .history-table-wrap {
+  flex:1 1 auto;
+  min-width:0;
+  min-height:0;
+  overflow:hidden;
+}
+#historyScreen .history-table {
+  width:100%;
+  table-layout:fixed;
+}
+@media (max-width:1050px) {
+  #historyScreen .history-main {
+    grid-template-columns:minmax(0,1fr);
+  }
+  #historyScreen .history-card:nth-child(2) {
+    display:none;
+  }
+}
+@media (max-height:800px) {
+  #historyScreen .history-content {
+    padding:1.2vh 1.8vw 1vh;
+  }
+  #historyScreen .history-head {
+    padding-bottom:1vh;
+  }
+  #historyScreen .history-main {
+    padding-top:1vh;
+    gap:1vw;
+  }
+  #historyScreen .history-card {
+    padding:.8vw 1vw;
+  }
+}
+
 </style>
 
 
@@ -1881,7 +2022,7 @@
         <svg
           id="annualChart"
           viewBox="0 0 1000 560"
-          preserveAspectRatio="none"
+          preserveAspectRatio="xMidYMid meet"
         ></svg>
 
       </section>
@@ -2763,7 +2904,7 @@ function drawAnnualChart(){
   data[6].value = get2026Total();
 
   const W = 1000, H = 560;
-  const L = 92, R = 42, T = 58, B = 82;
+  const L = 92, R = 112, T = 58, B = 82;
   const plotW = W - L - R;
   const plotH = H - T - B;
 
@@ -3385,6 +3526,17 @@ setInterval(
   loadLive2026,
   10000
 );
+
+/* Redraw Dashboard 2 after kiosk resize or browser zoom changes. */
+let annualChartResizeTimer = null;
+window.addEventListener("resize", function(){
+  clearTimeout(annualChartResizeTimer);
+  annualChartResizeTimer = setTimeout(function(){
+    if(document.getElementById("historyScreen")?.classList.contains("show")){
+      renderHistoryTotals();
+    }
+  }, 150);
+});
 
 startRotation();
 
