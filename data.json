@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T09:37:29+08:00",
+  "updated_at": "2026-11-15T10:13:02+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 12150,
       "progress": 0.73,
       "stockpile": 0,
-      "time": "08:33",
-      "remarks": "LOADING POUCH S34",
+      "time": "09:18",
+      "remarks": "LOADING POUCH S24",
       "equipment": "CRANE 2",
-      "activity_time": "01:04"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 2",
@@ -74,7 +74,7 @@
       "time": "08:00",
       "remarks": "WAITING CRANE OPTR",
       "equipment": "0",
-      "activity_time": "01:37"
+      "activity_time": "02:12"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "22:43",
       "remarks": "COMPLETE LOADING",
       "equipment": "0",
-      "activity_time": "10:54"
+      "activity_time": "11:29"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 27500,
       "progress": 0.09836065573770492,
       "stockpile": 9000,
-      "time": "08:27",
-      "remarks": "LOADING SLING S60",
+      "time": "09:35",
+      "remarks": "LOADING SLING S48",
       "equipment": "CRANE3/FL1",
-      "activity_time": "01:10"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "14:37"
+      "activity_time": "15:12"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:37"
+      "activity_time": "10:12"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "09:37"
+    "activity_time": "10:12"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "09:37"
+    "activity_time": "10:12"
   },
   "trucking": [
     {
