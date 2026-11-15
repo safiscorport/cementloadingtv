@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T13:40:19+08:00",
+  "updated_at": "2026-11-15T13:40:50+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -66,10 +66,10 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 12,
       "booking": 40000,
-      "dispatch": 4000,
-      "loaded": 2000,
-      "balance": 38000,
-      "progress": 0.05,
+      "dispatch": 5000,
+      "loaded": 3000,
+      "balance": 37000,
+      "progress": 0.075,
       "stockpile": 2000,
       "time": "10:02",
       "remarks": "LOADING POUCH S10",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 157500,
-    "dispatch": 82200,
-    "loaded": 66200,
-    "balance": 91300,
-    "progress": 0.4275737704918033,
+    "dispatch": 83200,
+    "loaded": 67200,
+    "balance": 90300,
+    "progress": 0.43257377049180323,
     "stockpile": 16000
   },
   "alpha": [
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 464780,
-      "daily": 16350
+      "September": 465780,
+      "daily": 17350
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 656700
+      "y2026": 657700
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15487820
+    "y2026": 15488820
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 11350
+      "qty": 12350
     },
     {
       "shift": "2ND SHIFT",
