@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T16:13:40+08:00",
+  "updated_at": "2026-11-15T16:14:08+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -57,7 +57,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "NEW VESSEL",
       "equipment": "0",
       "activity_time": "00:00"
     },
