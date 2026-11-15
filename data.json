@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T17:33:39+08:00",
+  "updated_at": "2026-11-15T19:36:16+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "16:58",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "00:35"
+      "activity_time": "02:38"
     },
     {
       "berth": "Berth 2",
@@ -74,7 +74,7 @@
       "time": "17:21",
       "remarks": "WAITING PTMS PLASTADA",
       "equipment": "0",
-      "activity_time": "00:12"
+      "activity_time": "02:15"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "22:43",
       "remarks": "COMPLETE LOADING",
       "equipment": "0",
-      "activity_time": "18:50"
+      "activity_time": "20:53"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 8500,
       "progress": 0.7213114754098361,
       "stockpile": 8750,
-      "time": "16:57",
-      "remarks": "LOADING SLING S15",
+      "time": "19:30",
+      "remarks": "LOADING SLING",
       "equipment": "CRANE3/FL1",
-      "activity_time": "00:36"
+      "activity_time": "00:06"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "22:33"
+      "activity_time": "00:36"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:33"
+      "activity_time": "19:36"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:33"
+    "activity_time": "19:36"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:33"
+    "activity_time": "19:36"
   },
   "trucking": [
     {
