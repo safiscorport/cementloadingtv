@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T17:04:02+08:00",
+  "updated_at": "2026-11-15T17:12:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 7800,
       "progress": 0.8266666666666667,
       "stockpile": 2000,
-      "time": "15:56",
-      "remarks": "WAITING MATERIAL",
+      "time": "16:12",
+      "remarks": "LOADING POUCH P17",
       "equipment": "CRANE 2",
-      "activity_time": "01:07"
+      "activity_time": "01:00"
     },
     {
       "berth": "Berth 2",
@@ -71,10 +71,10 @@
       "balance": 35000,
       "progress": 0.125,
       "stockpile": 4000,
-      "time": "14:24",
-      "remarks": "LOADING POUCH S37",
+      "time": "16:04",
+      "remarks": "LOADING POUCH P5",
       "equipment": "0",
-      "activity_time": "02:39"
+      "activity_time": "01:08"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "22:43",
       "remarks": "COMPLETE LOADING",
       "equipment": "0",
-      "activity_time": "18:20"
+      "activity_time": "18:29"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 13500,
       "progress": 0.5573770491803278,
       "stockpile": 13750,
-      "time": "15:11",
-      "remarks": "LOADING SLING P11",
+      "time": "16:21",
+      "remarks": "LOADING SLING P3",
       "equipment": "CRANE3/FL1",
-      "activity_time": "01:52"
+      "activity_time": "00:51"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "22:03"
+      "activity_time": "22:12"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:03"
+      "activity_time": "17:12"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:03"
+    "activity_time": "17:12"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:03"
+    "activity_time": "17:12"
   },
   "trucking": [
     {
