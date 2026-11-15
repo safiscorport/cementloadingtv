@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T08:38:11+08:00",
+  "updated_at": "2026-11-15T09:08:33+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 14150,
       "progress": 0.6855555555555556,
       "stockpile": 2000,
-      "time": "08:00",
-      "remarks": "LOADING POUCH",
+      "time": "08:33",
+      "remarks": "LOADING POUCH S34",
       "equipment": "CRANE 2",
-      "activity_time": "00:38"
+      "activity_time": "00:35"
     },
     {
       "berth": "Berth 2",
@@ -74,7 +74,7 @@
       "time": "08:00",
       "remarks": "WAITING CRANE OPTR",
       "equipment": "0",
-      "activity_time": "00:38"
+      "activity_time": "01:08"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "22:43",
       "remarks": "COMPLETE LOADING",
       "equipment": "0",
-      "activity_time": "09:55"
+      "activity_time": "10:25"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 28500,
       "progress": 0.06557377049180328,
       "stockpile": 5000,
-      "time": "08:00",
-      "remarks": "LOADING SLING",
+      "time": "08:27",
+      "remarks": "LOADING SLING S60",
       "equipment": "CRANE3/FL1",
-      "activity_time": "00:38"
+      "activity_time": "00:41"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "13:38"
+      "activity_time": "14:08"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:38"
+      "activity_time": "09:08"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "08:38"
+    "activity_time": "09:08"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "08:38"
+    "activity_time": "09:08"
   },
   "trucking": [
     {
