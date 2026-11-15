@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T17:15:28+08:00",
+  "updated_at": "2026-11-15T17:15:56+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -7,10 +7,10 @@
       "voyage": 8,
       "booking": 45000,
       "dispatch": 39200,
-      "loaded": 38350,
-      "balance": 6650,
-      "progress": 0.8522222222222222,
-      "stockpile": 850,
+      "loaded": 38200,
+      "balance": 6800,
+      "progress": 0.8488888888888889,
+      "stockpile": 1000,
       "time": "16:37",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 157500,
     "dispatch": 98950,
-    "loaded": 85350,
-    "balance": 72150,
-    "progress": 0.536591985428051,
-    "stockpile": 13600
+    "loaded": 85200,
+    "balance": 72300,
+    "progress": 0.5359253187613844,
+    "stockpile": 13750
   },
   "alpha": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 675850
+      "y2026": 675700
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15506970
+    "y2026": 15506820
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 30500
+      "qty": 30350
     },
     {
       "shift": "2ND SHIFT",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 850
+      "volume": 1000
     },
     {
       "client": "UCES",
