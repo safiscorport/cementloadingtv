@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T05:58:22+08:00",
+  "updated_at": "2026-11-17T05:58:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 516030,
-      "daily": 39250
+      "September": 517030,
+      "daily": 40250
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 728750
+      "y2026": 729750
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15559870
+    "y2026": 15560870
   },
   "daily_production": [
     {
