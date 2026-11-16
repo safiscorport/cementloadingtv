@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-17T06:17:11+08:00",
+  "updated_at": "2026-11-17T07:44:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
-      "vessel": "INFINITY 8",
-      "voyage": 8,
-      "booking": 45000,
-      "dispatch": 45000,
-      "loaded": 45000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "02:46",
-      "remarks": "LOADING COMPLETE",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "03:30"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 2",
@@ -41,10 +41,10 @@
       "balance": 19000,
       "progress": 0.05,
       "stockpile": 9850,
-      "time": "02:31",
-      "remarks": "STOP LOADING /  FAILED AUXILLIARY",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "03:45"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 5750,
       "progress": 0.7788461538461539,
       "stockpile": 1000,
-      "time": "05:27",
-      "remarks": "LOADING SLING S5",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:49"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 23000,
       "progress": 0.425,
       "stockpile": 1000,
-      "time": "05:05",
-      "remarks": "WAITING PTMS PLASTADA",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 1",
-      "activity_time": "01:11"
+      "activity_time": "00:44"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 25000,
       "progress": 0,
       "stockpile": 5350,
-      "time": "20:00",
-      "remarks": "FAILED AUXILLIARY / UNABLE TO OPEN HATCH",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "10:16"
+      "activity_time": "12:44"
     },
     {
       "berth": "Berth 9",
@@ -146,10 +146,10 @@
       "balance": 16000,
       "progress": 0.2727272727272727,
       "stockpile": 2000,
-      "time": "02:29",
-      "remarks": "WAITING PTMS PLASTADA",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "03:47"
+      "activity_time": "00:44"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 178000,
-    "dispatch": 108450,
-    "loaded": 89250,
+    "booking": 133000,
+    "dispatch": 63450,
+    "loaded": 44250,
     "balance": 88750,
-    "progress": 0.42109557109557105,
+    "progress": 0.3053146853146853,
     "stockpile": 19200
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "06:16"
+      "activity_time": "07:44"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "06:16"
+    "activity_time": "07:44"
   },
   "trucking": [
     {
