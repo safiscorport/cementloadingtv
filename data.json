@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T04:58:48+08:00",
+  "updated_at": "2026-11-17T05:00:47+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "02:46",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "02:12"
+      "activity_time": "02:14"
     },
     {
       "berth": "Berth 2",
@@ -44,7 +44,7 @@
       "time": "02:31",
       "remarks": "STOP LOADING /  FAILED AUXILLIARY",
       "equipment": "0",
-      "activity_time": "02:27"
+      "activity_time": "02:29"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "03:43",
       "remarks": "LOADING SLING S21",
       "equipment": "0",
-      "activity_time": "01:15"
+      "activity_time": "01:17"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "20:35",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "08:23"
+      "activity_time": "08:25"
     },
     {
       "berth": "Berth 6",
@@ -117,9 +117,9 @@
       "progress": 0,
       "stockpile": 5350,
       "time": "20:00",
-      "remarks": "UNABLE TO OPEN HATCH",
+      "remarks": "UNABLE TO OPEN HATCH / FAILED AUXILLIARY",
       "equipment": "0",
-      "activity_time": "08:58"
+      "activity_time": "09:00"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "02:29",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:29"
+      "activity_time": "02:31"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "04:58"
+      "activity_time": "05:00"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "04:58"
+    "activity_time": "05:00"
   },
   "trucking": [
     {
