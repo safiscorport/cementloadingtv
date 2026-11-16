@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T06:54:00+08:00",
+  "updated_at": "2026-11-16T08:57:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 5800,
       "progress": 0.8711111111111111,
       "stockpile": 0,
-      "time": "16:58",
+      "time": "08:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 2",
-      "activity_time": "05:00"
+      "activity_time": "00:57"
     },
     {
       "berth": "Berth 2",
@@ -56,10 +56,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "NEW VESSEL",
+      "time": "08:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:57"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 31000,
       "progress": 0.225,
       "stockpile": 0,
-      "time": "20:26",
+      "time": "08:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:32"
+      "activity_time": "00:57"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "22:43",
       "remarks": "COMPLETE LOADING",
       "equipment": "0",
-      "activity_time": "23:15"
+      "activity_time": "10:14"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 2250,
       "progress": 0.9262295081967213,
       "stockpile": 1750,
-      "time": "21:58",
-      "remarks": "STOP LOADING / VESSEL REQUEST LOOSEBAGS FOR LAST TRUCK",
+      "time": "08:00",
+      "remarks": "LOADING LOOSEBAG",
       "equipment": "CRANE3/FL1",
-      "activity_time": "00:00"
+      "activity_time": "00:57"
     },
     {
       "berth": "Berth 9",
@@ -146,10 +146,10 @@
       "balance": 22000,
       "progress": 0,
       "stockpile": 0,
-      "time": "19:00",
-      "remarks": "DEFECTIVE HATCH COVER",
+      "time": "08:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:58"
+      "activity_time": "00:57"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:58"
+      "activity_time": "08:57"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "21:58"
+    "activity_time": "08:57"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "21:58"
+    "activity_time": "08:57"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
       "September": 476780,
-      "daily": 28350
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
@@ -248,7 +248,7 @@
       "hauler": "PTMS",
       "August": 159490,
       "September": 130710,
-      "daily": 8000
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 34350
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 7250
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
@@ -376,9 +376,9 @@
     }
   ],
   "status": {
-    "supervisor": "BERNABE,A",
-    "checker": "DALUSA / OBIAL",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "OBIAL, R/ TORRES, J",
+    "pmc": "VICKY",
     "cranes": 0,
     "forklifts": 0,
     "stevedores": 0
