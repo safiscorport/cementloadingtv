@@ -1,6 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
+<!DOCTYPE html>
+<html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Cement Loading Operations Dashboard</title>
@@ -194,29 +193,18 @@
        MAIN HEADER
        ===================================================== -->
 
-  <header
-    class="topbar"
-    style="
+  <header class="topbar" style="
       display:flex;
       justify-content:space-between;
       align-items:center;
       position:relative;
-    "
-  >
+    ">
 
-    <div
-      class="brand"
-      style="display:flex;align-items:center;"
-    >
-      <img
-        src="logo.png"
-        alt="Logo"
-        style="height:30px;object-fit:contain;"
-      >
+    <div class="brand" style="display:flex;align-items:center;">
+      <img src="logo.png" alt="Logo" style="height:30px;object-fit:contain;">
     </div>
 
-    <div
-      style="
+    <div style="
         position:absolute;
         left:50%;
         transform:translateX(-50%);
@@ -224,23 +212,16 @@
         align-items:center;
         gap:10px;
         text-align:left;
-      "
-    >
+      ">
 
       <span class="live-dot"></span>
 
       <div>
-        <div
-          class="title"
-          style="font-size:1.2rem;font-weight:bold;"
-        >
+        <div class="title" style="font-size:1.2rem;font-weight:bold;">
           CEMENT LOADING REAL-TIME 
         </div>
 
-        <div
-          class="subtitle"
-          style="font-size:0.45rem;opacity:0.8;"
-        >
+        <div class="subtitle" style="font-size:0.45rem;opacity:0.8;">
    
         </div>
       </div>
@@ -251,19 +232,11 @@
 
       <div class="dashboard-switcher">
 
-        <button
-          id="btnDash1"
-          class="switcher-btn active"
-          onclick="manualSwitchDashboard(1)"
-        >
+        <button id="btnDash1" class="switcher-btn" onclick="manualSwitchDashboard(1)">
           DASHBOARD 1
         </button>
 
-        <button
-          id="btnDash2"
-          class="switcher-btn"
-          onclick="manualSwitchDashboard(2)"
-        >
+        <button id="btnDash2" class="switcher-btn  active" onclick="manualSwitchDashboard(2)">
           DASHBOARD 2
         </button>
 
@@ -307,10 +280,7 @@
         <span>Activity time</span>
       </div>
 
-      <div
-        id="berthGrid"
-        class="berth-grid-table"
-      ></div>
+      <div id="berthGrid" class="berth-grid-table"></div>
 
       <div class="table-footer-bar">
 
@@ -386,10 +356,7 @@
 
       </div>
 
-      <div
-        id="foreignRow"
-        class="alpha-row"
-      ></div>
+      <div id="foreignRow" class="alpha-row"></div>
 
     </section>
 
@@ -426,14 +393,11 @@
 
       <div class="panel">
 
-        <div
-          class="panel-title"
-          style="
+        <div class="panel-title" style="
             display:flex;
             justify-content:space-between;
             align-items:center;
-          "
-        >
+          ">
 
           <span style="flex:1;text-align:left;">
             Trucking
@@ -453,10 +417,7 @@
 
         </div>
 
-        <div
-          id="trucking"
-          class="table-mini"
-        ></div>
+        <div id="trucking" class="table-mini"></div>
 
       </div>
 
@@ -492,10 +453,7 @@
 
         </div>
 
-        <div
-          id="monthly"
-          class="monthly"
-        ></div>
+        <div id="monthly" class="monthly"></div>
 
       </div>
 
@@ -510,10 +468,7 @@
             Cement loading Daily Production
           </div>
 
-          <div
-            id="dailyProduction"
-            class="production"
-          ></div>
+          <div id="dailyProduction" class="production"></div>
 
         </div>
 
@@ -524,10 +479,7 @@
             TRUCKING (STOCKPILE)
           </div>
 
-          <div
-            id="truckingStockpile"
-            class="production"
-          ></div>
+          <div id="truckingStockpile" class="production"></div>
 
         </div>
 
@@ -601,9 +553,7 @@
 
       <div class="ticker">
 
-        <div id="weatherTicker">
-          Loading weather data...
-        </div>
+        <div id="weatherTicker" data-weather-status="live">☀️ SAN FERNANDO, CEBU | Clear | 🌡 27°C | 💧 Humidity 76% | 🌧 Rain chance 0% | 💨 Wind 15 km/h | 🕒 Updated 09:11 PM |</div>
 
       </div>
 
@@ -616,7 +566,7 @@
         CONNECTING
       </span>
 
-      &bull;
+      •
 
       <b id="refreshSec">
         10s
@@ -1893,13 +1843,62 @@
   }
 }
 
+/* =========================================================
+   DASHBOARD 2 — GRAPH-ONLY FULL-WIDTH TV KIOSK LAYOUT
+   Remove the yearly totals panel and let the annual graph
+   occupy the full available content area. Dashboard 1 is
+   intentionally untouched.
+   ========================================================= */
+#historyScreen .history-main {
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) !important;
+  gap:0 !important;
+  width:100%;
+  min-width:0;
+  min-height:0;
+  overflow:hidden;
+}
+
+#historyScreen .history-card:first-child {
+  display:flex !important;
+  grid-column:1 / -1;
+  width:100%;
+  max-width:none;
+  min-width:0;
+  min-height:0;
+  height:100%;
+  padding:1.1vw 1.35vw;
+  overflow:hidden;
+}
+
+#historyScreen .history-card:nth-child(2) {
+  display:none !important;
+}
+
+#historyScreen .history-chart-head {
+  flex:0 0 auto;
+  width:100%;
+  margin-bottom:.8vh;
+}
+
+#historyScreen #annualChart {
+  display:block;
+  flex:1 1 0;
+  width:100% !important;
+  height:0 !important;
+  min-width:0;
+  min-height:0;
+  max-width:100%;
+  max-height:100%;
+  transform:none !important;
+  transform-origin:center center;
+  overflow:hidden;
+}
+
 </style>
 
 
-<div
-  id="historyScreen"
-  aria-label="Historical cement loading graph"
->
+<div id="historyScreen" aria-label="Historical cement loading graph" class="show">
 
   <div class="history-grid"></div>
 
@@ -1918,52 +1917,36 @@
 
         <div class="history-brand-mark">
           ⚓
-        </div>
+        </div><div>
 
-        <div>
+          <div class="history-kicker"></div>
 
-          <div class="history-kicker">
-            Port Operations • Performance History
-          </div>
-
-          <div class="history-title">
+          <div class="history-title" style="font-size: 12px; text-align: center;">
             CEMENT LOADING 2020–2026
           </div>
 
-          <div class="history-sub">
-            Annual vessel cement loading •
-            2020–2025 fixed history •
-            2026 LIVE
-          </div>
+          <div class="history-sub"><br></div>
 
         </div>
+
+        
 
       </div>
 
 
-      <div
-        style="
+      <div style="
           display:flex;
           align-items:center;
           gap:20px;
-        "
-      >
+        ">
 
         <div class="dashboard-switcher">
 
-          <button
-            id="hBtnDash1"
-            class="switcher-btn"
-            onclick="manualSwitchDashboard(1)"
-          >
+          <button id="hBtnDash1" class="switcher-btn" onclick="manualSwitchDashboard(1)">
             DASHBOARD 1
           </button>
 
-          <button
-            id="hBtnDash2"
-            class="switcher-btn active"
-            onclick="manualSwitchDashboard(2)"
-          >
+          <button id="hBtnDash2" class="switcher-btn active" onclick="manualSwitchDashboard(2)">
             DASHBOARD 2
           </button>
           <button id="hBtnDash3" class="switcher-btn" onclick="manualSwitchDashboard(3)">DASHBOARD 3</button>
@@ -1977,13 +1960,9 @@
           <div class="history-clock-label">
           </div>
 
-          <div id="historyTime">
-            --:--:--
-          </div>
+          <div id="historyTime">09:11:45 PM</div>
 
-          <div id="historyDate">
-            --
-          </div>
+          <div id="historyDate">Mon, Nov 16, 2026</div>
 
         </div>
 
@@ -2005,24 +1984,120 @@
       <section class="history-card">
 
         <div class="history-chart-head">
-
           <div class="history-card-title">
-            ANNUAL LOADING
-            <span>/ CEMENT BAGS</span>
+            ANNUAL LOADING <span>/ CEMENT BAGS</span>
           </div>
-
           <div class="history-chart-meta">
             2020 → 2026 • YEARLY PERFORMANCE
           </div>
-
         </div>
 
-
-        <svg
-          id="annualChart"
-          viewBox="0 0 1000 560"
-          preserveAspectRatio="xMidYMid meet"
-        ></svg>
+        <svg id="annualChart" viewBox="0 0 1000 560" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="annualLine" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#42c9f5"></stop>
+        <stop offset="100%" stop-color="#ffd27a"></stop>
+      </linearGradient>
+      <filter id="annualPointGlow" x="-100%" y="-100%" width="300%" height="300%">
+        <feGaussianBlur stdDeviation="5" result="blur"></feGaussianBlur>
+        <feMerge><feMergeNode in="blur"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+      </filter>
+    </defs>
+  
+      <line x1="92" y1="478" x2="888" y2="478" stroke="rgba(142,222,255,.12)" stroke-width="1.8"></line>
+      <text x="76" y="483" text-anchor="end" fill="rgba(224,244,252,.48)" font-size="15" font-family="Segoe UI,Arial">
+        0
+      </text>
+    
+      <line x1="92" y1="394" x2="888" y2="394" stroke="rgba(142,222,255,.12)" stroke-width="1"></line>
+      <text x="76" y="399" text-anchor="end" fill="rgba(224,244,252,.48)" font-size="15" font-family="Segoe UI,Arial">
+        5M
+      </text>
+    
+      <line x1="92" y1="310" x2="888" y2="310" stroke="rgba(142,222,255,.12)" stroke-width="1"></line>
+      <text x="76" y="315" text-anchor="end" fill="rgba(224,244,252,.48)" font-size="15" font-family="Segoe UI,Arial">
+        10M
+      </text>
+    
+      <line x1="92" y1="226" x2="888" y2="226" stroke="rgba(142,222,255,.12)" stroke-width="1"></line>
+      <text x="76" y="231" text-anchor="end" fill="rgba(224,244,252,.48)" font-size="15" font-family="Segoe UI,Arial">
+        15M
+      </text>
+    
+      <line x1="92" y1="142" x2="888" y2="142" stroke="rgba(142,222,255,.12)" stroke-width="1"></line>
+      <text x="76" y="147" text-anchor="end" fill="rgba(224,244,252,.48)" font-size="15" font-family="Segoe UI,Arial">
+        20M
+      </text>
+    
+      <line x1="92" y1="58" x2="888" y2="58" stroke="rgba(142,222,255,.12)" stroke-width="1"></line>
+      <text x="76" y="63" text-anchor="end" fill="rgba(224,244,252,.48)" font-size="15" font-family="Segoe UI,Arial">
+        25M
+      </text>
+    
+    <line x1="92" y1="478" x2="888" y2="478" stroke="rgba(145,224,255,.28)" stroke-width="2"></line>
+  
+      <path d="M92,97.58247999999998 L224.66666666666666,180.28926640000003 L357.3333333333333,255.9426064 L490,245.9230696 L622.6666666666666,225.1509112 L755.3333333333333,198.83510559999996" fill="none" stroke="url(#annualLine)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+    
+        <circle cx="92" cy="97.58247999999998" r="13" fill="#43c9f4" opacity=".18" filter="url(#annualPointGlow)"></circle>
+        <circle cx="92" cy="97.58247999999998" r="7" fill="#8eeaff" stroke="#e6faff" stroke-width="2.5"></circle>
+        <text x="92" y="75.58247999999998" text-anchor="middle" fill="#e8faff" font-size="16" font-weight="800" font-family="Segoe UI,Arial">
+          22,643,900
+        </text>
+      
+      <rect x="61" y="507" width="62" height="30" rx="15" fill="rgba(105,216,255,.07)" stroke="rgba(105,216,255,.15)"></rect>
+      <text x="92" y="527" text-anchor="middle" fill="#d9f4fc" font-size="16" font-weight="850" font-family="Segoe UI,Arial">2020</text>
+    
+        <circle cx="224.66666666666666" cy="180.28926640000003" r="13" fill="#43c9f4" opacity=".18" filter="url(#annualPointGlow)"></circle>
+        <circle cx="224.66666666666666" cy="180.28926640000003" r="7" fill="#8eeaff" stroke="#e6faff" stroke-width="2.5"></circle>
+        <text x="224.66666666666666" y="158.28926640000003" text-anchor="middle" fill="#e8faff" font-size="16" font-weight="800" font-family="Segoe UI,Arial">
+          17,720,877
+        </text>
+      
+      <rect x="193.66666666666666" y="507" width="62" height="30" rx="15" fill="rgba(105,216,255,.07)" stroke="rgba(105,216,255,.15)"></rect>
+      <text x="224.66666666666666" y="527" text-anchor="middle" fill="#d9f4fc" font-size="16" font-weight="850" font-family="Segoe UI,Arial">2021</text>
+    
+        <circle cx="357.3333333333333" cy="255.9426064" r="13" fill="#43c9f4" opacity=".18" filter="url(#annualPointGlow)"></circle>
+        <circle cx="357.3333333333333" cy="255.9426064" r="7" fill="#8eeaff" stroke="#e6faff" stroke-width="2.5"></circle>
+        <text x="357.3333333333333" y="233.9426064" text-anchor="middle" fill="#e8faff" font-size="16" font-weight="800" font-family="Segoe UI,Arial">
+          13,217,702
+        </text>
+      
+      <rect x="326.3333333333333" y="507" width="62" height="30" rx="15" fill="rgba(105,216,255,.07)" stroke="rgba(105,216,255,.15)"></rect>
+      <text x="357.3333333333333" y="527" text-anchor="middle" fill="#d9f4fc" font-size="16" font-weight="850" font-family="Segoe UI,Arial">2022</text>
+    
+        <circle cx="490" cy="245.9230696" r="13" fill="#43c9f4" opacity=".18" filter="url(#annualPointGlow)"></circle>
+        <circle cx="490" cy="245.9230696" r="7" fill="#8eeaff" stroke="#e6faff" stroke-width="2.5"></circle>
+        <text x="490" y="223.9230696" text-anchor="middle" fill="#e8faff" font-size="16" font-weight="800" font-family="Segoe UI,Arial">
+          13,814,103
+        </text>
+      
+      <rect x="459" y="507" width="62" height="30" rx="15" fill="rgba(105,216,255,.07)" stroke="rgba(105,216,255,.15)"></rect>
+      <text x="490" y="527" text-anchor="middle" fill="#d9f4fc" font-size="16" font-weight="850" font-family="Segoe UI,Arial">2023</text>
+    
+        <circle cx="622.6666666666666" cy="225.1509112" r="13" fill="#43c9f4" opacity=".18" filter="url(#annualPointGlow)"></circle>
+        <circle cx="622.6666666666666" cy="225.1509112" r="7" fill="#8eeaff" stroke="#e6faff" stroke-width="2.5"></circle>
+        <text x="622.6666666666666" y="203.1509112" text-anchor="middle" fill="#e8faff" font-size="16" font-weight="800" font-family="Segoe UI,Arial">
+          15,050,541
+        </text>
+      
+      <rect x="591.6666666666666" y="507" width="62" height="30" rx="15" fill="rgba(105,216,255,.07)" stroke="rgba(105,216,255,.15)"></rect>
+      <text x="622.6666666666666" y="527" text-anchor="middle" fill="#d9f4fc" font-size="16" font-weight="850" font-family="Segoe UI,Arial">2024</text>
+    
+        <circle cx="755.3333333333333" cy="198.83510559999996" r="13" fill="#43c9f4" opacity=".18" filter="url(#annualPointGlow)"></circle>
+        <circle cx="755.3333333333333" cy="198.83510559999996" r="7" fill="#8eeaff" stroke="#e6faff" stroke-width="2.5"></circle>
+        <text x="755.3333333333333" y="176.83510559999996" text-anchor="middle" fill="#e8faff" font-size="16" font-weight="800" font-family="Segoe UI,Arial">
+          16,616,958
+        </text>
+      
+      <rect x="724.3333333333333" y="507" width="62" height="30" rx="15" fill="rgba(105,216,255,.07)" stroke="rgba(105,216,255,.15)"></rect>
+      <text x="755.3333333333333" y="527" text-anchor="middle" fill="#d9f4fc" font-size="16" font-weight="850" font-family="Segoe UI,Arial">2025</text>
+    
+        <circle cx="888" cy="478" r="6" fill="rgba(255,255,255,.18)" stroke="rgba(255,255,255,.4)" stroke-width="2"></circle>
+        <text x="888" y="460" text-anchor="middle" fill="rgba(255,255,255,.48)" font-size="13" font-weight="700" font-family="Segoe UI,Arial">LIVE</text>
+      
+      <rect x="857" y="507" width="62" height="30" rx="15" fill="rgba(255,179,75,.12)" stroke="rgba(255,190,95,.30)"></rect>
+      <text x="888" y="527" text-anchor="middle" fill="#ffd28a" font-size="16" font-weight="850" font-family="Segoe UI,Arial">2026</text>
+    </svg>
 
       </section>
 
@@ -2071,7 +2146,133 @@
             </thead>
 
 
-            <tbody id="historyTotals"></tbody>
+            <tbody id="historyTotals">
+
+            <tr>
+
+              <td>
+                2020
+              </td>
+
+              <td>
+                22,643,900
+              </td>
+
+              <td>
+                —
+              </td>
+
+            </tr>
+
+          
+
+            <tr>
+
+              <td>
+                2021
+              </td>
+
+              <td>
+                17,720,877
+              </td>
+
+              <td class="variance-negative">
+                -4,923,023
+              </td>
+
+            </tr>
+
+          
+
+            <tr>
+
+              <td>
+                2022
+              </td>
+
+              <td>
+                13,217,702
+              </td>
+
+              <td class="variance-negative">
+                -4,503,175
+              </td>
+
+            </tr>
+
+          
+
+            <tr>
+
+              <td>
+                2023
+              </td>
+
+              <td>
+                13,814,103
+              </td>
+
+              <td class="variance-positive">
+                +596,401
+              </td>
+
+            </tr>
+
+          
+
+            <tr>
+
+              <td>
+                2024
+              </td>
+
+              <td>
+                15,050,541
+              </td>
+
+              <td class="variance-positive">
+                +1,236,438
+              </td>
+
+            </tr>
+
+          
+
+            <tr>
+
+              <td>
+                2025
+              </td>
+
+              <td>
+                16,616,958
+              </td>
+
+              <td class="variance-positive">
+                +1,566,417
+              </td>
+
+            </tr>
+
+          
+
+            <tr class="current">
+
+              <td>
+                2026
+              </td>
+
+              <td>
+                —
+              </td>
+
+              <td>
+                —
+              </td>
+
+            </tr>
+
+          </tbody>
 
           </table>
 
@@ -2090,12 +2291,7 @@
               2020–2025 Avg.
             </div>
 
-            <div
-              class="history-kpi-value"
-              id="historyAvg"
-            >
-              —
-            </div>
+            <div class="history-kpi-value" id="historyAvg">16,510,680</div>
 
           </div>
 
@@ -2106,12 +2302,7 @@
               Peak Year
             </div>
 
-            <div
-              class="history-kpi-value"
-              id="historyPeak"
-            >
-              —
-            </div>
+            <div class="history-kpi-value" id="historyPeak">2020 • 22,643,900</div>
 
           </div>
 
@@ -2122,12 +2313,7 @@
               Latest
             </div>
 
-            <div
-              class="history-kpi-value"
-              id="historyLatest"
-            >
-              —
-            </div>
+            <div class="history-kpi-value" id="historyLatest">LIVE</div>
 
           </div>
 
@@ -2201,11 +2387,125 @@
 @media(max-height:700px){#vesselScreen{padding:8px;gap:6px}.vessel-title{font-size:clamp(17px,1.8vw,25px)}.vessel-subtitle{font-size:10px}.vessel-card{padding:7px}.vessel-card h2{font-size:15px}.vessel-card p{font-size:10px;margin-bottom:3px}.vessel-switch button{padding:6px 9px;font-size:11px}#vesselProgressBar{flex-basis:5px;height:5px}#vesselCountdown{font-size:10px}}
 </style>
 <section id="vesselScreen">
- <div class="vessel-top"><div><div class="vessel-title">VESSEL BULK YEARLY PERFORMANCE</div><div class="vessel-subtitle">FOREIGN VESSEL &amp; LOCAL VESSEL • YEARLY TOTALS • SUM OF AVAILABLE MONTHLY ENTRIES</div></div>
+ <div class="vessel-top"><div><div class="vessel-title" style="font-size: 15px; text-align: center;">VESSEL BULK YEARLY PERFORMANCE</div><div class="vessel-subtitle"><br></div></div>
  <div class="vessel-switch"><button onclick="manualSwitchDashboard(1)">DASHBOARD 1</button><button onclick="manualSwitchDashboard(2)">DASHBOARD 2</button><button onclick="manualSwitchDashboard(3)">DASHBOARD 3</button></div></div>
  <div class="vessel-charts">
-  <section class="vessel-card"><h2>FOREIGN VESSEL BULK</h2><p>Annual loading total • yearly bars with values shown</p><svg id="foreignVesselChart" viewBox="0 0 900 520" preserveAspectRatio="none"></svg></section>
-  <section class="vessel-card"><h2>LOCAL VESSEL BULK SUMMARY</h2><p>Annual loading total • yearly bars with values shown</p><svg id="localVesselChart" viewBox="0 0 900 520" preserveAspectRatio="none"></svg></section>
+  <section class="vessel-card"><h2 style="text-align: center;">FOREIGN VESSEL</h2><p><br></p><svg id="foreignVesselChart" viewBox="0 0 900 520" preserveAspectRatio="none">
+    <defs>
+      <filter id="foreignVesselChartLineGlow" x="-30%" y="-30%" width="160%" height="160%">
+        <feGaussianBlur stdDeviation="5" result="blur"></feGaussianBlur>
+        <feMerge><feMergeNode in="blur"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+      </filter>
+      <linearGradient id="foreignVesselChartArea" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#45cfff" stop-opacity=".24"></stop>
+        <stop offset="100%" stop-color="#45cfff" stop-opacity="0"></stop>
+      </linearGradient>
+    </defs>
+  
+      <line x1="100" y1="432" x2="862" y2="432" stroke="rgba(180,220,240,.17)" stroke-width="1"></line>
+      <text x="84" y="437" text-anchor="end" fill="#a9c3d4" font-size="14">0</text>
+    
+      <line x1="100" y1="361.2" x2="862" y2="361.2" stroke="rgba(180,220,240,.17)" stroke-width="1"></line>
+      <text x="84" y="366.2" text-anchor="end" fill="#a9c3d4" font-size="14">300k</text>
+    
+      <line x1="100" y1="290.4" x2="862" y2="290.4" stroke="rgba(180,220,240,.17)" stroke-width="1"></line>
+      <text x="84" y="295.4" text-anchor="end" fill="#a9c3d4" font-size="14">600k</text>
+    
+      <line x1="100" y1="219.6" x2="862" y2="219.6" stroke="rgba(180,220,240,.17)" stroke-width="1"></line>
+      <text x="84" y="224.6" text-anchor="end" fill="#a9c3d4" font-size="14">900k</text>
+    
+      <line x1="100" y1="148.8" x2="862" y2="148.8" stroke="rgba(180,220,240,.17)" stroke-width="1"></line>
+      <text x="84" y="153.8" text-anchor="end" fill="#a9c3d4" font-size="14">1,200k</text>
+    
+      <line x1="100" y1="78" x2="862" y2="78" stroke="rgba(180,220,240,.17)" stroke-width="1"></line>
+      <text x="84" y="83" text-anchor="end" fill="#a9c3d4" font-size="14">1,500k</text>
+    <path d="M100,188.327876 L354,189.059948 L608,309.16672 L862,329.142468 L862,432 L100,432 Z" fill="url(#foreignVesselChartArea)" stroke="none"></path><path d="M100,188.327876 L354,189.059948 L608,309.16672 L862,329.142468" fill="none" stroke="#55d5ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#foreignVesselChartLineGlow)"></path>
+        <circle cx="100" cy="188.327876" r="13" fill="#55d5ff" opacity=".16"></circle>
+        <circle cx="100" cy="188.327876" r="7" fill="#eafaff" stroke="#42cfff" stroke-width="4">
+          <title>2023: 1,032,509 (based on 12 entered months)</title>
+        </circle>
+        <text x="100" y="166.327876" text-anchor="middle" fill="#f0fbff" font-size="17" font-weight="800">1,032,509</text>
+        <text x="100" y="477" text-anchor="middle" fill="#e4f3fb" font-size="18" font-weight="800">2023</text>
+        <text x="100" y="500" text-anchor="middle" fill="#8faec1" font-size="11">12/12 months</text>
+      
+        <circle cx="354" cy="189.059948" r="13" fill="#55d5ff" opacity=".16"></circle>
+        <circle cx="354" cy="189.059948" r="7" fill="#eafaff" stroke="#42cfff" stroke-width="4">
+          <title>2024: 1,029,407 (based on 10 entered months)</title>
+        </circle>
+        <text x="354" y="167.059948" text-anchor="middle" fill="#f0fbff" font-size="17" font-weight="800">1,029,407</text>
+        <text x="354" y="477" text-anchor="middle" fill="#e4f3fb" font-size="18" font-weight="800">2024</text>
+        <text x="354" y="500" text-anchor="middle" fill="#8faec1" font-size="11">10/12 months</text>
+      
+        <circle cx="608" cy="309.16672" r="13" fill="#55d5ff" opacity=".16"></circle>
+        <circle cx="608" cy="309.16672" r="7" fill="#eafaff" stroke="#42cfff" stroke-width="4">
+          <title>2025: 520,480 (based on 8 entered months)</title>
+        </circle>
+        <text x="608" y="287.16672" text-anchor="middle" fill="#f0fbff" font-size="17" font-weight="800">520,480</text>
+        <text x="608" y="477" text-anchor="middle" fill="#e4f3fb" font-size="18" font-weight="800">2025</text>
+        <text x="608" y="500" text-anchor="middle" fill="#8faec1" font-size="11">8/12 months</text>
+      
+        <circle cx="862" cy="329.142468" r="13" fill="#55d5ff" opacity=".16"></circle>
+        <circle cx="862" cy="329.142468" r="7" fill="#eafaff" stroke="#42cfff" stroke-width="4">
+          <title>2026: 435,837 (based on 7 entered months)</title>
+        </circle>
+        <text x="862" y="307.142468" text-anchor="middle" fill="#f0fbff" font-size="17" font-weight="800">435,837</text>
+        <text x="862" y="477" text-anchor="middle" fill="#e4f3fb" font-size="18" font-weight="800">2026</text>
+        <text x="862" y="500" text-anchor="middle" fill="#8faec1" font-size="11">7/12 months</text>
+      </svg></section>
+  <section class="vessel-card"><h2 style="text-align: center;">LOCAL VESSEL</h2><p><br></p><svg id="localVesselChart" viewBox="0 0 900 520" preserveAspectRatio="none">
+    <defs>
+      <filter id="localVesselChartLineGlow" x="-30%" y="-30%" width="160%" height="160%">
+        <feGaussianBlur stdDeviation="5" result="blur"></feGaussianBlur>
+        <feMerge><feMergeNode in="blur"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+      </filter>
+      <linearGradient id="localVesselChartArea" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#45cfff" stop-opacity=".24"></stop>
+        <stop offset="100%" stop-color="#45cfff" stop-opacity="0"></stop>
+      </linearGradient>
+    </defs>
+  
+      <line x1="100" y1="432" x2="862" y2="432" stroke="rgba(180,220,240,.17)" stroke-width="1"></line>
+      <text x="84" y="437" text-anchor="end" fill="#a9c3d4" font-size="14">0</text>
+    
+      <line x1="100" y1="361.2" x2="862" y2="361.2" stroke="rgba(180,220,240,.17)" stroke-width="1"></line>
+      <text x="84" y="366.2" text-anchor="end" fill="#a9c3d4" font-size="14">80k</text>
+    
+      <line x1="100" y1="290.4" x2="862" y2="290.4" stroke="rgba(180,220,240,.17)" stroke-width="1"></line>
+      <text x="84" y="295.4" text-anchor="end" fill="#a9c3d4" font-size="14">160k</text>
+    
+      <line x1="100" y1="219.6" x2="862" y2="219.6" stroke="rgba(180,220,240,.17)" stroke-width="1"></line>
+      <text x="84" y="224.6" text-anchor="end" fill="#a9c3d4" font-size="14">240k</text>
+    
+      <line x1="100" y1="148.8" x2="862" y2="148.8" stroke="rgba(180,220,240,.17)" stroke-width="1"></line>
+      <text x="84" y="153.8" text-anchor="end" fill="#a9c3d4" font-size="14">320k</text>
+    
+      <line x1="100" y1="78" x2="862" y2="78" stroke="rgba(180,220,240,.17)" stroke-width="1"></line>
+      <text x="84" y="83" text-anchor="end" fill="#a9c3d4" font-size="14">400k</text>
+    <path d="M100,360.27116595 L481,86.34655005000002 L862,213.29799287999998 L862,432 L100,432 Z" fill="url(#localVesselChartArea)" stroke="none"></path><path d="M100,360.27116595 L481,86.34655005000002 L862,213.29799287999998" fill="none" stroke="#55d5ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#localVesselChartLineGlow)"></path>
+        <circle cx="100" cy="360.27116595" r="13" fill="#55d5ff" opacity=".16"></circle>
+        <circle cx="100" cy="360.27116595" r="7" fill="#eafaff" stroke="#42cfff" stroke-width="4">
+          <title>2024: 81,050 (based on 9 entered months)</title>
+        </circle>
+        <text x="100" y="338.27116595" text-anchor="middle" fill="#f0fbff" font-size="17" font-weight="800">81,050</text>
+        <text x="100" y="477" text-anchor="middle" fill="#e4f3fb" font-size="18" font-weight="800">2024</text>
+        <text x="100" y="500" text-anchor="middle" fill="#8faec1" font-size="11">9/12 months</text>
+      
+        <circle cx="481" cy="86.34655005000002" r="13" fill="#55d5ff" opacity=".16"></circle>
+        <circle cx="481" cy="86.34655005000002" r="7" fill="#eafaff" stroke="#42cfff" stroke-width="4">
+          <title>2025: 390,569 (based on 12 entered months)</title>
+        </circle>
+        <text x="481" y="64.34655005000002" text-anchor="middle" fill="#f0fbff" font-size="17" font-weight="800">390,569</text>
+        <text x="481" y="477" text-anchor="middle" fill="#e4f3fb" font-size="18" font-weight="800">2025</text>
+        <text x="481" y="500" text-anchor="middle" fill="#8faec1" font-size="11">12/12 months</text>
+      
+        <circle cx="862" cy="213.29799287999998" r="13" fill="#55d5ff" opacity=".16"></circle>
+        <circle cx="862" cy="213.29799287999998" r="7" fill="#eafaff" stroke="#42cfff" stroke-width="4">
+          <title>2026: 247,121 (based on 11 entered months)</title>
+        </circle>
+        <text x="862" y="191.29799287999998" text-anchor="middle" fill="#f0fbff" font-size="17" font-weight="800">247,121</text>
+        <text x="862" y="477" text-anchor="middle" fill="#e4f3fb" font-size="18" font-weight="800">2026</text>
+        <text x="862" y="500" text-anchor="middle" fill="#8faec1" font-size="11">11/12 months</text>
+      </svg></section>
  </div><div id="vesselProgressBar"></div><div id="vesselCountdown">RETURNING TO DASHBOARD 1 • 60s</div>
 </section>
 <script>
@@ -3620,5 +3920,5 @@ startRotation();
 </script>
 
 
-</body>
-</html>
+
+</body></html>
