@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T02:06:42+08:00",
+  "updated_at": "2026-11-18T02:38:46+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -20,16 +20,16 @@
       "berth": "Berth 2",
       "vessel": "LADY OF GUIDANCE",
       "voyage": 3,
-      "booking": 0,
+      "booking": 55000,
       "dispatch": 18000,
       "loaded": 10000,
-      "balance": -10000,
-      "progress": 0,
+      "balance": 45000,
+      "progress": 0.18181818181818182,
       "stockpile": 8000,
       "time": "23:59",
       "remarks": "LOADING TONNER S17",
-      "equipment": "0",
-      "activity_time": "02:07"
+      "equipment": "CRANE 2",
+      "activity_time": "02:39"
     },
     {
       "berth": "Berth 3",
@@ -43,8 +43,8 @@
       "stockpile": 1000,
       "time": "21:42",
       "remarks": "LOADING SLING P9",
-      "equipment": "CRANE 4",
-      "activity_time": "04:24"
+      "equipment": "0",
+      "activity_time": "04:56"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "17:17",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "08:49"
+      "activity_time": "09:21"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "19:00",
       "remarks": "NO VESSEL CRANE OPTR",
       "equipment": "0",
-      "activity_time": "07:06"
+      "activity_time": "07:38"
     },
     {
       "berth": "Berth 6",
@@ -118,8 +118,8 @@
       "stockpile": 3150,
       "time": "00:17",
       "remarks": "LOADING SLING P12",
-      "equipment": "0",
-      "activity_time": "01:49"
+      "equipment": "CRANE 4",
+      "activity_time": "02:21"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "21:05",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "05:01"
+      "activity_time": "05:33"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 133000,
+    "booking": 188000,
     "dispatch": 109200,
     "loaded": 90050,
-    "balance": 42950,
-    "progress": 0.6154636363636363,
+    "balance": 97950,
+    "progress": 0.5431893939393939,
     "stockpile": 19150
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "02:06"
+      "activity_time": "02:38"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "02:06"
+    "activity_time": "02:38"
   },
   "trucking": [
     {
