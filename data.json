@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T09:22:03+08:00",
+  "updated_at": "2026-11-17T09:54:27+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "NEWLY SECURED",
       "equipment": "0",
-      "activity_time": "02:21"
+      "activity_time": "02:54"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "08:00",
       "remarks": "LOADING S9 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:21"
+      "activity_time": "01:54"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "08:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:21"
+      "activity_time": "01:54"
     },
     {
       "berth": "Berth 5",
@@ -67,14 +67,14 @@
       "voyage": 12,
       "booking": 40000,
       "dispatch": 19000,
-      "loaded": 17000,
-      "balance": 23000,
-      "progress": 0.425,
-      "stockpile": 2000,
-      "time": "08:00",
-      "remarks": "LOADING P12 SLING BAGS",
+      "loaded": 18000,
+      "balance": 22000,
+      "progress": 0.45,
+      "stockpile": 1000,
+      "time": "09:16",
+      "remarks": "LOADING A1 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "01:21"
+      "activity_time": "00:38"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 24800,
       "progress": 0.008,
       "stockpile": 5150,
-      "time": "08:05",
+      "time": "08:35",
       "remarks": "LOADING P5 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:16"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "08:00",
       "remarks": "LOADING S7 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:21"
+      "activity_time": "01:54"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 133000,
     "dispatch": 64450,
-    "loaded": 44450,
-    "balance": 88550,
-    "progress": 0.3069146853146853,
-    "stockpile": 20000
+    "loaded": 45450,
+    "balance": 87550,
+    "progress": 0.31191468531468536,
+    "stockpile": 19000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "09:21"
+      "activity_time": "09:54"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "09:21"
+    "activity_time": "09:54"
   },
   "trucking": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 729950
+      "y2026": 730950
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15561070
+    "y2026": 15562070
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 200
+      "qty": 1200
     },
     {
       "shift": "2ND SHIFT",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": 3000
+      "volume": 2000
     },
     {
       "client": "FULACHE",
