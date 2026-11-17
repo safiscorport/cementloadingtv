@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T21:56:01+08:00",
+  "updated_at": "2026-11-17T22:22:14+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "20:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "01:55"
+      "activity_time": "02:21"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "CRANE 4",
-      "activity_time": "02:25"
+      "activity_time": "02:51"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "17:17",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "04:38"
+      "activity_time": "05:04"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 21000,
       "progress": 0.475,
       "stockpile": 3000,
-      "time": "19:30",
-      "remarks": "LOADING POUCH",
+      "time": "19:00",
+      "remarks": "NO VESSEL CRANE OPTR",
       "equipment": "0",
-      "activity_time": "02:25"
+      "activity_time": "03:21"
     },
     {
       "berth": "Berth 6",
@@ -119,7 +119,7 @@
       "time": "19:00",
       "remarks": "VESSEL NO LIGHTS / UNSAFE TO LOAD",
       "equipment": "0",
-      "activity_time": "02:55"
+      "activity_time": "03:21"
     },
     {
       "berth": "Berth 9",
@@ -149,7 +149,7 @@
       "time": "21:05",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "00:50"
+      "activity_time": "01:16"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:55"
+      "activity_time": "22:21"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "21:55"
+    "activity_time": "22:21"
   },
   "trucking": [
     {
