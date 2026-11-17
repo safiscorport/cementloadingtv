@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T17:46:32+08:00",
+  "updated_at": "2026-11-17T19:22:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": -2000,
       "progress": 0,
       "stockpile": 0,
-      "time": "15:00",
-      "remarks": "LOADING S54 SLING BAGS",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:46"
+      "activity_time": "00:21"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 11000,
       "progress": 0.45,
       "stockpile": 3850,
-      "time": "15:03",
-      "remarks": "LOADING S38 SLING BAGS",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:43"
+      "activity_time": "00:21"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 1000,
-      "time": "13:50",
-      "remarks": "LOADING B7 SLING BAGS",
+      "time": "17:17",
+      "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "03:56"
+      "activity_time": "02:04"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 21000,
       "progress": 0.475,
       "stockpile": 0,
-      "time": "11:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 1",
-      "activity_time": "06:46"
+      "activity_time": "00:21"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 18800,
       "progress": 0.248,
       "stockpile": 3150,
-      "time": "00:00",
-      "remarks": "LOADING S2 SLING BAGS",
+      "time": "19:00",
+      "remarks": "VESSEL NO LIGHTS / UNSAFE TO LOAD",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:21"
     },
     {
       "berth": "Berth 9",
@@ -146,10 +146,10 @@
       "balance": 11000,
       "progress": 0.5,
       "stockpile": 0,
-      "time": "11:30",
-      "remarks": "WAITING MATERIAL",
+      "time": "19:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "06:16"
+      "activity_time": "00:21"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:46"
+      "activity_time": "19:21"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:46"
+    "activity_time": "19:21"
   },
   "trucking": [
     {
