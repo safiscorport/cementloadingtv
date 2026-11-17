@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T20:31:16+08:00",
+  "updated_at": "2026-11-17T20:32:17+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -141,11 +141,11 @@
       "vessel": "LAURIN JOY",
       "voyage": 1,
       "booking": 22000,
-      "dispatch": 12000,
-      "loaded": 11000,
-      "balance": 11000,
-      "progress": 0.5,
-      "stockpile": 1000,
+      "dispatch": 13000,
+      "loaded": 13000,
+      "balance": 9000,
+      "progress": 0.5909090909090909,
+      "stockpile": 0,
       "time": "20:06",
       "remarks": "LOADING POUCH P17",
       "equipment": "CRANE 3",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 133000,
-    "dispatch": 86200,
-    "loaded": 73200,
-    "balance": 59800,
-    "progress": 0.5346,
-    "stockpile": 13000
+    "dispatch": 87200,
+    "loaded": 75200,
+    "balance": 57800,
+    "progress": 0.5527818181818182,
+    "stockpile": 12000
   },
   "alpha": [
     {
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 143710,
-      "daily": 2000
+      "September": 144710,
+      "daily": 3000
     },
     {
       "hauler": "UCES",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 758700
+      "y2026": 760700
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15589820
+    "y2026": 15591820
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 0
+      "qty": 2000
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 9000
+      "volume": 8000
     },
     {
       "client": "LAPU-LAPU",
