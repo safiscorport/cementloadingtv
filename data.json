@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T19:52:50+08:00",
+  "updated_at": "2026-11-18T19:53:23+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER, JOVIC",
-    "checker": "OBIAL, R/ TORRES, J",
-    "pmc": "VICKY/EBOY",
+    "supervisor": "BERNABE,A",
+    "checker": "DALUSA,E",
+    "pmc": "JOAN / WILLIAM",
     "cranes": 4,
-    "forklifts": 7,
-    "stevedores": 41
+    "forklifts": 0,
+    "stevedores": 0
   }
 }
