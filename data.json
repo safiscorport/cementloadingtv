@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T21:00:14+08:00",
+  "updated_at": "2026-11-18T21:00:37+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -190,7 +190,7 @@
     },
     {
       "berth": "R2",
-      "vessel": "MV BYD",
+      "vessel": "0",
       "materials": "0",
       "discharge": "0%",
       "balance": "0%",
