@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T19:58:38+08:00",
+  "updated_at": "2026-11-18T20:06:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "19:30",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:28"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:30",
       "remarks": "LOADING SLING",
       "equipment": "FL 2",
-      "activity_time": "00:28"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 4",
@@ -74,7 +74,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:58"
+      "activity_time": "01:06"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 4000,
       "progress": 0.84,
       "stockpile": 3000,
-      "time": "00:00",
-      "remarks": "0.8125",
+      "time": "19:30",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:36"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 17500,
       "progress": 0,
       "stockpile": 0,
-      "time": "05:28",
-      "remarks": "LOADING SLING S34",
+      "time": "19:00",
+      "remarks": "VESSEL  CLOSED",
       "equipment": "0",
-      "activity_time": "14:30"
+      "activity_time": "01:06"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "19:50",
       "remarks": "LOADING SLING",
       "equipment": "FL 1",
-      "activity_time": "00:08"
+      "activity_time": "00:16"
     },
     {
       "berth": "Berth 10",
@@ -147,9 +147,9 @@
       "progress": 1,
       "stockpile": 0,
       "time": "19:00",
-      "remarks": "WAITING MATERIAL",
+      "remarks": "WAITING ADDITIONAL BOOKING",
       "equipment": "0",
-      "activity_time": "00:58"
+      "activity_time": "01:06"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:58"
+      "activity_time": "20:06"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "19:58"
+    "activity_time": "20:06"
   },
   "trucking": [
     {
