@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T19:51:07+08:00",
+  "updated_at": "2026-11-18T19:52:50+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -28,8 +28,8 @@
       "stockpile": 1000,
       "time": "16:28",
       "remarks": "LOADING S45 TONNER BAGS",
-      "equipment": "CRANE 2",
-      "activity_time": "03:21"
+      "equipment": "0",
+      "activity_time": "03:24"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "13:50",
       "remarks": "LOADING S4 SLING BAGS",
       "equipment": "0",
-      "activity_time": "05:59"
+      "activity_time": "06:02"
     },
     {
       "berth": "Berth 4",
@@ -74,7 +74,7 @@
       "time": "17:15",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:34"
+      "activity_time": "02:37"
     },
     {
       "berth": "Berth 6",
@@ -93,21 +93,6 @@
     },
     {
       "berth": "Berth 7",
-      "vessel": "VACANT",
-      "voyage": "-",
-      "booking": 0,
-      "dispatch": 0,
-      "loaded": 0,
-      "balance": 0,
-      "progress": 0,
-      "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
-      "equipment": "0",
-      "activity_time": "00:00"
-    },
-    {
-      "berth": "Berth 8",
       "vessel": "LADY OF REMEDY",
       "voyage": 14,
       "booking": 25000,
@@ -116,10 +101,25 @@
       "balance": 4000,
       "progress": 0.84,
       "stockpile": 3000,
-      "time": "16:30",
-      "remarks": "LOADING S57 SLING BAGS",
-      "equipment": "CRANE 4",
-      "activity_time": "03:19"
+      "time": "00:00",
+      "remarks": "0.6875",
+      "equipment": "0",
+      "activity_time": "00:00"
+    },
+    {
+      "berth": "Berth 8",
+      "vessel": "LADY OF DIVINE GRACE",
+      "voyage": 11,
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
+      "stockpile": 0,
+      "time": "05:28",
+      "remarks": "LOADING SLING S34",
+      "equipment": "0",
+      "activity_time": "14:24"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "16:00",
       "remarks": "LOADING S43 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:49"
+      "activity_time": "03:52"
     },
     {
       "berth": "Berth 10",
@@ -148,8 +148,8 @@
       "stockpile": 0,
       "time": "11:30",
       "remarks": "WAITING MATERIAL",
-      "equipment": "CRANE 3",
-      "activity_time": "08:19"
+      "equipment": "0",
+      "activity_time": "08:22"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:49"
+      "activity_time": "19:52"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "19:49"
+    "activity_time": "19:52"
   },
   "trucking": [
     {
