@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T19:57:16+08:00",
+  "updated_at": "2026-11-18T19:58:38+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "19:30",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "00:27"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 3",
@@ -43,8 +43,8 @@
       "stockpile": 4000,
       "time": "19:30",
       "remarks": "LOADING SLING",
-      "equipment": "0",
-      "activity_time": "00:27"
+      "equipment": "FL 2",
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 4",
@@ -74,7 +74,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "00:58"
     },
     {
       "berth": "Berth 6",
@@ -110,31 +110,31 @@
       "berth": "Berth 8",
       "vessel": "LADY OF DIVINE GRACE",
       "voyage": 11,
-      "booking": 0,
+      "booking": 17500,
       "dispatch": 0,
       "loaded": 0,
-      "balance": 0,
+      "balance": 17500,
       "progress": 0,
       "stockpile": 0,
       "time": "05:28",
       "remarks": "LOADING SLING S34",
       "equipment": "0",
-      "activity_time": "14:29"
+      "activity_time": "14:30"
     },
     {
       "berth": "Berth 9",
       "vessel": "EMERALD STAR",
       "voyage": 15,
-      "booking": 0,
+      "booking": 24000,
       "dispatch": 13000,
       "loaded": 5000,
-      "balance": -5000,
-      "progress": 0,
+      "balance": 19000,
+      "progress": 0.20833333333333334,
       "stockpile": 8000,
       "time": "19:50",
       "remarks": "LOADING SLING",
-      "equipment": "0",
-      "activity_time": "00:07"
+      "equipment": "FL 1",
+      "activity_time": "00:08"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "00:58"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 162000,
+    "booking": 203500,
     "dispatch": 132500,
     "loaded": 113500,
-    "balance": 48500,
-    "progress": 0.7336818181818182,
+    "balance": 90000,
+    "progress": 0.5538203463203464,
     "stockpile": 19000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:57"
+      "activity_time": "19:58"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "19:57"
+    "activity_time": "19:58"
   },
   "trucking": [
     {
