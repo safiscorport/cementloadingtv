@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T22:47:47+08:00",
+  "updated_at": "2026-11-18T23:23:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "21:14",
       "remarks": "LOADING TONNER A1",
       "equipment": "0",
-      "activity_time": "01:33"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "20:38",
       "remarks": "LOADING SLING A4",
       "equipment": "FL 2",
-      "activity_time": "02:09"
+      "activity_time": "02:44"
     },
     {
       "berth": "Berth 4",
@@ -74,7 +74,7 @@
       "time": "20:18",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:29"
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "22:13",
       "remarks": "LOADING POUCH P3",
       "equipment": "0",
-      "activity_time": "00:34"
+      "activity_time": "01:09"
     },
     {
       "berth": "Berth 8",
@@ -116,25 +116,25 @@
       "balance": 16500,
       "progress": 0.05714285714285714,
       "stockpile": 1000,
-      "time": "21:26",
-      "remarks": "WAITING MATERIAL",
+      "time": "22:48",
+      "remarks": "LOADING POUCH S25",
       "equipment": "0",
-      "activity_time": "01:21"
+      "activity_time": "00:34"
     },
     {
       "berth": "Berth 9",
       "vessel": "EMERALD STAR",
       "voyage": 15,
       "booking": 24000,
-      "dispatch": 14000,
-      "loaded": 11000,
-      "balance": 13000,
-      "progress": 0.4583333333333333,
+      "dispatch": 15000,
+      "loaded": 12000,
+      "balance": 12000,
+      "progress": 0.5,
       "stockpile": 3000,
-      "time": "21:50",
-      "remarks": "LOADING SLING S54",
+      "time": "22:56",
+      "remarks": "LOADING SLING S39",
       "equipment": "FL 1",
-      "activity_time": "00:57"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "WAITING ADDITIONAL BOOKING",
       "equipment": "0",
-      "activity_time": "03:47"
+      "activity_time": "04:22"
     },
     {
       "berth": "Jetty",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 203500,
-    "dispatch": 141500,
-    "loaded": 129500,
-    "balance": 74000,
-    "progress": 0.6436069882498454,
+    "dispatch": 142500,
+    "loaded": 130500,
+    "balance": 73000,
+    "progress": 0.6495593692022263,
     "stockpile": 12000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:47"
+      "activity_time": "23:22"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "22:47"
+    "activity_time": "23:22"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 587030,
-      "daily": 29250
+      "September": 588030,
+      "daily": 30250
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 841000
+      "y2026": 842000
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15672120
+    "y2026": 15673120
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 16000
+      "qty": 17000
     }
   ],
   "trucking_stockpile": [
