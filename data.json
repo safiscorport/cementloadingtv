@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T21:54:03+08:00",
+  "updated_at": "2026-11-18T21:54:22+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "19:30",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "02:23"
+      "activity_time": "02:24"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "20:38",
       "remarks": "LOADING SLING A4",
       "equipment": "FL 2",
-      "activity_time": "01:15"
+      "activity_time": "01:16"
     },
     {
       "berth": "Berth 4",
@@ -74,7 +74,7 @@
       "time": "20:18",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:35"
+      "activity_time": "01:36"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "19:52",
       "remarks": "LOADING POUCH S60",
       "equipment": "0",
-      "activity_time": "02:01"
+      "activity_time": "02:02"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 16500,
       "progress": 0.05714285714285714,
       "stockpile": 0,
-      "time": "21:01",
-      "remarks": "COMMENCE LOADING S41",
+      "time": "21:26",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "21:26",
       "remarks": "LOADING SLING P5",
       "equipment": "FL 1",
-      "activity_time": "00:27"
+      "activity_time": "00:28"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "WAITING ADDITIONAL BOOKING",
       "equipment": "0",
-      "activity_time": "02:53"
+      "activity_time": "02:54"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:53"
+      "activity_time": "21:54"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "21:53"
+    "activity_time": "21:54"
   },
   "trucking": [
     {
