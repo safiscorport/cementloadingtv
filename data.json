@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T17:30:01+08:00",
+  "updated_at": "2026-11-18T19:51:07+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -21,30 +21,30 @@
       "vessel": "LADY OF GUIDANCE",
       "voyage": 3,
       "booking": 55000,
-      "dispatch": 24250,
+      "dispatch": 25250,
       "loaded": 24250,
       "balance": 30750,
       "progress": 0.4409090909090909,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "16:28",
       "remarks": "LOADING S45 TONNER BAGS",
       "equipment": "CRANE 2",
-      "activity_time": "01:01"
+      "activity_time": "03:21"
     },
     {
       "berth": "Berth 3",
       "vessel": "STAR SOGOD",
       "voyage": 14,
       "booking": 20000,
-      "dispatch": 16250,
+      "dispatch": 18250,
       "loaded": 14250,
       "balance": 5750,
       "progress": 0.7125,
-      "stockpile": 2000,
+      "stockpile": 4000,
       "time": "13:50",
       "remarks": "LOADING S4 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:39"
+      "activity_time": "05:59"
     },
     {
       "berth": "Berth 4",
@@ -66,15 +66,15 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 12,
       "booking": 40000,
-      "dispatch": 29000,
+      "dispatch": 30000,
       "loaded": 27000,
       "balance": 13000,
       "progress": 0.675,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "17:15",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:14"
+      "activity_time": "02:34"
     },
     {
       "berth": "Berth 6",
@@ -111,15 +111,15 @@
       "vessel": "LADY OF REMEDY",
       "voyage": 14,
       "booking": 25000,
-      "dispatch": 22000,
+      "dispatch": 24000,
       "loaded": 21000,
       "balance": 4000,
       "progress": 0.84,
-      "stockpile": 1000,
+      "stockpile": 3000,
       "time": "16:30",
       "remarks": "LOADING S57 SLING BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "00:59"
+      "activity_time": "03:19"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "16:00",
       "remarks": "LOADING S43 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:29"
+      "activity_time": "03:49"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "11:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "05:59"
+      "activity_time": "08:19"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 162000,
-    "dispatch": 126500,
+    "dispatch": 132500,
     "loaded": 113500,
     "balance": 48500,
     "progress": 0.7336818181818182,
-    "stockpile": 13000
+    "stockpile": 19000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:29"
+      "activity_time": "19:49"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:29"
+    "activity_time": "19:49"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 576030,
-      "daily": 18250
+      "September": 578030,
+      "daily": 20250
     },
     {
       "hauler": "LAPU-LAPU",
@@ -241,26 +241,26 @@
     {
       "hauler": "BADIE",
       "August": 63925,
-      "September": 33130,
-      "daily": 1000
+      "September": 34130,
+      "daily": 2000
     },
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 160760,
-      "daily": 9000
+      "September": 161760,
+      "daily": 10000
     },
     {
       "hauler": "UCES",
       "August": "-",
-      "September": 2000,
-      "daily": 1000
+      "September": 3000,
+      "daily": 2000
     },
     {
       "hauler": "APLUS",
       "August": 43975,
-      "September": 52000,
-      "daily": 3000
+      "September": 53000,
+      "daily": 4000
     },
     {
       "hauler": "FULACHE",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 9000
+      "volume": 11000
     },
     {
       "client": "LAPU-LAPU",
@@ -356,19 +356,19 @@
     },
     {
       "client": "BADIE",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "PTMS",
-      "volume": 3000
+      "volume": 4000
     },
     {
       "client": "UCES",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "APLUS",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "FULACHE",
