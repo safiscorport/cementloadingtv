@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T01:15:33+08:00",
+  "updated_at": "2026-11-19T01:38:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "22:20",
       "remarks": "LOADING TONNER S36",
       "equipment": "CRANE 2",
-      "activity_time": "02:55"
+      "activity_time": "03:17"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "22:11",
       "remarks": "LOADING TONNER S34",
       "equipment": "FL 2",
-      "activity_time": "03:04"
+      "activity_time": "03:26"
     },
     {
       "berth": "Berth 4",
@@ -66,15 +66,15 @@
       "vessel": "QUEEN CAROLYN",
       "voyage": 12,
       "booking": 40000,
-      "dispatch": 30000,
+      "dispatch": 31000,
       "loaded": 29000,
       "balance": 11000,
       "progress": 0.725,
-      "stockpile": 1000,
+      "stockpile": 2000,
       "time": "23:40",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "01:35"
+      "activity_time": "01:57"
     },
     {
       "berth": "Berth 6",
@@ -104,22 +104,22 @@
       "time": "22:31",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "02:44"
+      "activity_time": "03:06"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF DIVINE GRACE",
       "voyage": 11,
       "booking": 17500,
-      "dispatch": 2000,
+      "dispatch": 3000,
       "loaded": 2000,
       "balance": 15500,
       "progress": 0.11428571428571428,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "23:09",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:06"
+      "activity_time": "02:28"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "00:39",
       "remarks": "LOADING SLING S31",
       "equipment": "FL 1",
-      "activity_time": "00:36"
+      "activity_time": "00:58"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "WAITING ADDITIONAL BOOKING",
       "equipment": "0",
-      "activity_time": "06:15"
+      "activity_time": "06:37"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 203500,
-    "dispatch": 147500,
+    "dispatch": 149500,
     "loaded": 140500,
     "balance": 63000,
     "progress": 0.7045841063698207,
-    "stockpile": 7000
+    "stockpile": 9000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "01:15"
+      "activity_time": "01:37"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "01:15"
+    "activity_time": "01:37"
   },
   "trucking": [
     {
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 163760,
-      "daily": 12000
+      "September": 165760,
+      "daily": 14000
     },
     {
       "hauler": "UCES",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 2000
+      "volume": 4000
     },
     {
       "client": "UCES",
