@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T21:27:10+08:00",
+  "updated_at": "2026-11-18T21:28:50+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "19:30",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:56"
+      "activity_time": "01:58"
     },
     {
       "berth": "Berth 3",
@@ -37,14 +37,14 @@
       "voyage": 14,
       "booking": 20000,
       "dispatch": 19250,
-      "loaded": 14250,
-      "balance": 5750,
-      "progress": 0.7125,
-      "stockpile": 5000,
+      "loaded": 16250,
+      "balance": 3750,
+      "progress": 0.8125,
+      "stockpile": 3000,
       "time": "20:38",
       "remarks": "LOADING SLING A4",
       "equipment": "FL 2",
-      "activity_time": "00:48"
+      "activity_time": "00:50"
     },
     {
       "berth": "Berth 4",
@@ -67,14 +67,14 @@
       "voyage": 12,
       "booking": 40000,
       "dispatch": 30000,
-      "loaded": 27000,
-      "balance": 13000,
-      "progress": 0.675,
-      "stockpile": 3000,
+      "loaded": 28000,
+      "balance": 12000,
+      "progress": 0.7,
+      "stockpile": 2000,
       "time": "20:18",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:08"
+      "activity_time": "01:10"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "19:52",
       "remarks": "LOADING POUCH S60",
       "equipment": "0",
-      "activity_time": "01:34"
+      "activity_time": "01:36"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "19:00",
       "remarks": "VESSEL  CLOSED",
       "equipment": "0",
-      "activity_time": "02:26"
+      "activity_time": "02:28"
     },
     {
       "berth": "Berth 9",
       "vessel": "EMERALD STAR",
       "voyage": 15,
       "booking": 24000,
-      "dispatch": 13000,
-      "loaded": 7000,
-      "balance": 17000,
-      "progress": 0.2916666666666667,
-      "stockpile": 6000,
+      "dispatch": 14000,
+      "loaded": 9000,
+      "balance": 15000,
+      "progress": 0.375,
+      "stockpile": 5000,
       "time": "21:03",
       "remarks": "LOADING SLING P15",
       "equipment": "FL 1",
-      "activity_time": "00:23"
+      "activity_time": "00:25"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "WAITING ADDITIONAL BOOKING",
       "equipment": "0",
-      "activity_time": "02:26"
+      "activity_time": "02:28"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 203500,
-    "dispatch": 135500,
-    "loaded": 116500,
-    "balance": 87000,
-    "progress": 0.5714393939393939,
-    "stockpile": 19000
+    "dispatch": 136500,
+    "loaded": 121500,
+    "balance": 82000,
+    "progress": 0.6012012987012988,
+    "stockpile": 15000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:26"
+      "activity_time": "21:28"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "21:26"
+    "activity_time": "21:28"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 581030,
-      "daily": 23250
+      "September": 582030,
+      "daily": 24250
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 828000
+      "y2026": 833000
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15659120
+    "y2026": 15664120
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 3000
+      "qty": 8000
     }
   ],
   "trucking_stockpile": [
@@ -360,15 +360,15 @@
     },
     {
       "client": "PTMS",
-      "volume": 4000
+      "volume": 2000
     },
     {
       "client": "UCES",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "APLUS",
-      "volume": 2000
+      "volume": 1000
     },
     {
       "client": "FULACHE",
