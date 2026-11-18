@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T17:27:00+08:00",
+  "updated_at": "2026-11-18T17:30:01+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 30750,
       "progress": 0.4409090909090909,
       "stockpile": 0,
-      "time": "15:12",
-      "remarks": "LOADING P11 TONNER BAGS",
+      "time": "16:28",
+      "remarks": "LOADING S45 TONNER BAGS",
       "equipment": "CRANE 2",
-      "activity_time": "02:14"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 5750,
       "progress": 0.7125,
       "stockpile": 2000,
-      "time": "11:30",
-      "remarks": "WAITING MATERIAL",
+      "time": "13:50",
+      "remarks": "LOADING S4 SLING BAGS",
       "equipment": "0",
-      "activity_time": "05:56"
+      "activity_time": "03:39"
     },
     {
       "berth": "Berth 4",
@@ -74,7 +74,7 @@
       "time": "17:15",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:11"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 4000,
       "progress": 0.84,
       "stockpile": 1000,
-      "time": "15:42",
-      "remarks": "LOADING S32 SLING BAGS",
+      "time": "16:30",
+      "remarks": "LOADING S57 SLING BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "01:44"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": -5000,
       "progress": 0,
       "stockpile": 8000,
-      "time": "15:29",
-      "remarks": "LOADING A19 SLING BAGS",
+      "time": "16:00",
+      "remarks": "LOADING S43 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:57"
+      "activity_time": "01:29"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "11:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "05:56"
+      "activity_time": "05:59"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:26"
+      "activity_time": "17:29"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:26"
+    "activity_time": "17:29"
   },
   "trucking": [
     {
