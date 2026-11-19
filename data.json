@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T19:15:17+08:00",
+  "updated_at": "2026-11-19T19:20:00+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -21,15 +21,15 @@
       "vessel": "LADY OF GUIDANCE",
       "voyage": 3,
       "booking": 55000,
-      "dispatch": 43500,
+      "dispatch": 45500,
       "loaded": 40500,
       "balance": 14500,
       "progress": 0.7363636363636363,
-      "stockpile": 3000,
+      "stockpile": 5000,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 2",
-      "activity_time": "00:15"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 3",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 1",
-      "activity_time": "00:15"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 4",
-      "activity_time": "00:15"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 6",
@@ -96,45 +96,45 @@
       "vessel": "RKK ONCE",
       "voyage": 1,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 1000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "19:00",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF DIVINE GRACE",
       "voyage": 11,
       "booking": 17500,
-      "dispatch": 6000,
+      "dispatch": 7000,
       "loaded": 4000,
       "balance": 13500,
       "progress": 0.22857142857142856,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 9",
       "vessel": "EMERALD STAR",
       "voyage": 15,
       "booking": 24000,
-      "dispatch": 20000,
+      "dispatch": 21000,
       "loaded": 20000,
       "balance": 4000,
       "progress": 0.8333333333333334,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:15"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 3",
-      "activity_time": "00:15"
+      "activity_time": "00:19"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 190500,
-    "dispatch": 137500,
+    "dispatch": 142500,
     "loaded": 126500,
     "balance": 64000,
     "progress": 0.6219336219336219,
-    "stockpile": 11000
+    "stockpile": 16000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:15"
+      "activity_time": "19:19"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "19:15"
+    "activity_time": "19:19"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 612030,
-      "daily": 16000
+      "September": 615030,
+      "daily": 19000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -241,8 +241,8 @@
     {
       "hauler": "BADIE",
       "August": 63925,
-      "September": 36130,
-      "daily": 2000
+      "September": 37130,
+      "daily": 3000
     },
     {
       "hauler": "PTMS",
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "August": 43975,
-      "September": 56000,
-      "daily": 3000
+      "September": 57000,
+      "daily": 4000
     },
     {
       "hauler": "FULACHE",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 7000
+      "volume": 10000
     },
     {
       "client": "LAPU-LAPU",
@@ -356,7 +356,7 @@
     },
     {
       "client": "BADIE",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "PTMS",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "FULACHE",
