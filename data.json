@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T11:41:23+08:00",
+  "updated_at": "2026-11-19T11:44:01+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 20500,
       "progress": 0.6272727272727273,
       "stockpile": 1000,
-      "time": "10:07",
-      "remarks": "LOADING P10 TONNER BAGS",
+      "time": "11:18",
+      "remarks": "LOADING A20 TONNER BAGS",
       "equipment": "CRANE 2",
-      "activity_time": "01:34"
+      "activity_time": "00:25"
     },
     {
       "berth": "Berth 3",
@@ -74,7 +74,7 @@
       "time": "10:31",
       "remarks": "LOADING A1 SLING BAGS",
       "equipment": "CRANE 4",
-      "activity_time": "01:10"
+      "activity_time": "01:12"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 13500,
       "progress": 0.22857142857142856,
       "stockpile": 0,
-      "time": "08:00",
-      "remarks": "VESSEL CLOSE / RAIN",
+      "time": "11:25",
+      "remarks": "LOADING  P17 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:41"
+      "activity_time": "00:18"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 5000,
       "progress": 0.7916666666666666,
       "stockpile": 0,
-      "time": "08:00",
-      "remarks": "VESSEL CLOSE / RAIN",
+      "time": "11:38",
+      "remarks": "LOADING S36 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "03:41"
+      "activity_time": "00:05"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "08:00",
       "remarks": "VESSEL CLOSE / RAIN",
       "equipment": "0",
-      "activity_time": "03:41"
+      "activity_time": "03:43"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:41"
+      "activity_time": "11:43"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "11:41"
+    "activity_time": "11:43"
   },
   "trucking": [
     {
