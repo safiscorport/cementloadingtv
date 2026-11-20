@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T16:39:00+08:00",
+  "updated_at": "2026-11-20T17:16:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "08:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
       "equipment": "CRANE 2",
-      "activity_time": "08:38"
+      "activity_time": "09:16"
     },
     {
       "berth": "Berth 3",
@@ -44,22 +44,22 @@
       "time": "11:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "05:38"
+      "activity_time": "06:16"
     },
     {
       "berth": "Berth 4",
       "vessel": "LADY OF WISDOM",
       "voyage": 10,
       "booking": 30000,
-      "dispatch": 14000,
-      "loaded": 8000,
-      "balance": 22000,
-      "progress": 0.26666666666666666,
-      "stockpile": 6000,
+      "dispatch": 15000,
+      "loaded": 10000,
+      "balance": 20000,
+      "progress": 0.3333333333333333,
+      "stockpile": 5000,
       "time": "14:51",
       "remarks": "LOADING P10 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "01:47"
+      "activity_time": "02:25"
     },
     {
       "berth": "Berth 5",
@@ -96,15 +96,15 @@
       "vessel": "RKK ONCE",
       "voyage": 1,
       "booking": 30000,
-      "dispatch": 8975,
+      "dispatch": 9975,
       "loaded": 6000,
       "balance": 24000,
       "progress": 0.2,
-      "stockpile": 2975,
-      "time": "11:08",
-      "remarks": "LOADING S59 TONNER BAGS",
+      "stockpile": 3975,
+      "time": "15:40",
+      "remarks": "LOADING S48 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "05:30"
+      "activity_time": "01:36"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 11,
       "booking": 17500,
       "dispatch": 16500,
-      "loaded": 10000,
-      "balance": 7500,
-      "progress": 0.5714285714285714,
-      "stockpile": 6500,
+      "loaded": 12000,
+      "balance": 5500,
+      "progress": 0.6857142857142857,
+      "stockpile": 4500,
       "time": "15:18",
       "remarks": "LOADING S40 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:20"
+      "activity_time": "01:58"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:40",
       "remarks": "COMPLETE LOADING S50",
       "equipment": "0",
-      "activity_time": "02:58"
+      "activity_time": "03:36"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 0,
-      "time": "10:25",
-      "remarks": "DOCK SECURED",
+      "time": "16:00",
+      "remarks": "VESSEL BUNKERING",
       "equipment": "0",
-      "activity_time": "06:13"
+      "activity_time": "01:16"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 233500,
-    "dispatch": 157475,
-    "loaded": 118500,
-    "balance": 115000,
-    "progress": 0.5470006184291899,
-    "stockpile": 38975
+    "dispatch": 159475,
+    "loaded": 122500,
+    "balance": 111000,
+    "progress": 0.5728509585652443,
+    "stockpile": 36975
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:38"
+      "activity_time": "17:16"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "16:38"
+    "activity_time": "17:16"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 652005,
-      "daily": 27975
+      "September": 653005,
+      "daily": 28975
     },
     {
       "hauler": "LAPU-LAPU",
@@ -241,8 +241,8 @@
     {
       "hauler": "BADIE",
       "August": 63925,
-      "September": 38130,
-      "daily": 1000
+      "September": 39130,
+      "daily": 2000
     },
     {
       "hauler": "PTMS",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 912000
+      "y2026": 916000
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15743120
+    "y2026": 15747120
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 15000
+      "qty": 19000
     },
     {
       "shift": "2ND SHIFT",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 10000
+      "volume": 8000
     },
     {
       "client": "UCES",
