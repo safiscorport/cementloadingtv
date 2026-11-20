@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T23:25:17+08:00",
+  "updated_at": "2026-11-20T23:26:06+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -141,10 +141,10 @@
       "vessel": "EASTERN CEBU",
       "voyage": 17,
       "booking": 27000,
-      "dispatch": 4000,
-      "loaded": 4000,
-      "balance": 23000,
-      "progress": 0.14814814814814814,
+      "dispatch": 5000,
+      "loaded": 5000,
+      "balance": 22000,
+      "progress": 0.18518518518518517,
       "stockpile": 0,
       "time": "23:19",
       "remarks": "WAITING MATERIALS",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 233500,
-    "dispatch": 148475,
-    "loaded": 117000,
-    "balance": 116500,
-    "progress": 0.5389129389129389,
+    "dispatch": 149475,
+    "loaded": 118000,
+    "balance": 115500,
+    "progress": 0.5442039442039441,
     "stockpile": 31475
   },
   "alpha": [
@@ -229,8 +229,8 @@
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 665005,
-      "daily": 40975
+      "September": 666005,
+      "daily": 41975
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 937500
+      "y2026": 938500
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15768620
+    "y2026": 15769620
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 19500
+      "qty": 20500
     }
   ],
   "trucking_stockpile": [
