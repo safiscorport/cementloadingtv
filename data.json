@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T17:26:24+08:00",
+  "updated_at": "2026-11-20T17:39:45+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "08:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
       "equipment": "CRANE 2",
-      "activity_time": "09:26"
+      "activity_time": "09:39"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "15:25",
       "remarks": "LOADING S27 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:01"
+      "activity_time": "02:14"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "17:06",
       "remarks": "LOADING S30 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "00:20"
+      "activity_time": "00:33"
     },
     {
       "berth": "Berth 5",
@@ -104,7 +104,7 @@
       "time": "15:40",
       "remarks": "LOADING S48 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "01:46"
+      "activity_time": "01:59"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "16:18",
       "remarks": "LOADING P19 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:08"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:40",
       "remarks": "COMPLETE LOADING S50",
       "equipment": "0",
-      "activity_time": "03:46"
+      "activity_time": "03:59"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "16:00",
       "remarks": "VESSEL BUNKERING",
       "equipment": "0",
-      "activity_time": "01:26"
+      "activity_time": "01:39"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:26"
+      "activity_time": "17:39"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:26"
+    "activity_time": "17:39"
   },
   "trucking": [
     {
