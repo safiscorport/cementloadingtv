@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T14:09:27+08:00",
+  "updated_at": "2026-11-20T16:18:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,18 +29,18 @@
       "time": "08:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
       "equipment": "CRANE 2",
-      "activity_time": "06:09"
+      "activity_time": "08:18"
     },
     {
       "berth": "Berth 3",
       "vessel": "EFG 8",
       "voyage": 8,
-      "booking": 0,
-      "dispatch": 4000,
+      "booking": 50000,
+      "dispatch": 14000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 50000,
       "progress": 0,
-      "stockpile": 4000,
+      "stockpile": 14000,
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
@@ -59,7 +59,7 @@
       "time": "11:13",
       "remarks": "LOADING S36 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "02:56"
+      "activity_time": "05:05"
     },
     {
       "berth": "Berth 5",
@@ -95,16 +95,16 @@
       "berth": "Berth 7",
       "vessel": "RKK ONCE",
       "voyage": 1,
-      "booking": 0,
-      "dispatch": 7975,
+      "booking": 30000,
+      "dispatch": 8975,
       "loaded": 3000,
-      "balance": -3000,
-      "progress": 0,
-      "stockpile": 4975,
+      "balance": 27000,
+      "progress": 0.1,
+      "stockpile": 5975,
       "time": "11:08",
       "remarks": "LOADING S59 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "03:01"
+      "activity_time": "05:10"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 10500,
       "progress": 0.4,
       "stockpile": 6500,
-      "time": "10:35",
-      "remarks": "LOADING S34 SLING BAGS",
+      "time": "11:08",
+      "remarks": "LOADING P11 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:34"
+      "activity_time": "05:10"
     },
     {
       "berth": "Berth 9",
@@ -131,20 +131,20 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 0,
-      "time": "09:59",
-      "remarks": "LOADING S54 SLING BAGS",
+      "time": "13:40",
+      "remarks": "COMPLETE LOADING S50",
       "equipment": "0",
-      "activity_time": "04:10"
+      "activity_time": "02:38"
     },
     {
       "berth": "Berth 10",
-      "vessel": "VACANT",
-      "voyage": "-",
-      "booking": 0,
-      "dispatch": 0,
-      "loaded": 0,
+      "vessel": "EASTERN CEBU",
+      "voyage": 16,
+      "booking": 27000,
+      "dispatch": 27000,
+      "loaded": 27000,
       "balance": 0,
-      "progress": 0,
+      "progress": 1,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
@@ -168,12 +168,12 @@
     }
   ],
   "total": {
-    "booking": 126500,
-    "dispatch": 115475,
-    "loaded": 83500,
-    "balance": 43000,
-    "progress": 0.5977272727272728,
-    "stockpile": 31975
+    "booking": 233500,
+    "dispatch": 153475,
+    "loaded": 110500,
+    "balance": 123000,
+    "progress": 0.49870129870129876,
+    "stockpile": 42975
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:09"
+      "activity_time": "16:18"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "14:09"
+    "activity_time": "16:18"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 640005,
-      "daily": 15975
+      "September": 650005,
+      "daily": 25975
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 181760,
-      "daily": 7000
+      "September": 182760,
+      "daily": 8000
     },
     {
       "hauler": "UCES",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 18975
+      "volume": 28975
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 10000
+      "volume": 11000
     },
     {
       "client": "UCES",
