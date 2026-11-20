@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T17:16:25+08:00",
+  "updated_at": "2026-11-20T17:17:06+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -139,12 +139,12 @@
     {
       "berth": "Berth 10",
       "vessel": "EASTERN CEBU",
-      "voyage": 16,
+      "voyage": 17,
       "booking": 27000,
-      "dispatch": 27000,
-      "loaded": 27000,
-      "balance": 0,
-      "progress": 1,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 27000,
+      "progress": 0,
       "stockpile": 0,
       "time": "16:00",
       "remarks": "VESSEL BUNKERING",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 233500,
-    "dispatch": 159475,
-    "loaded": 122500,
-    "balance": 111000,
-    "progress": 0.5728509585652443,
+    "dispatch": 132475,
+    "loaded": 95500,
+    "balance": 138000,
+    "progress": 0.42999381570810147,
     "stockpile": 36975
   },
   "alpha": [
