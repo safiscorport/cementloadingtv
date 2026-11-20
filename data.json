@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T22:02:43+08:00",
+  "updated_at": "2026-11-20T23:02:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "08:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
       "equipment": "CRANE 2",
-      "activity_time": "14:02"
+      "activity_time": "15:02"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "21:14",
       "remarks": "LOADING SLING S54",
       "equipment": "0",
-      "activity_time": "00:48"
+      "activity_time": "01:48"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "20:04",
       "remarks": "LOADING SLING P6",
       "equipment": "FL 1",
-      "activity_time": "01:58"
+      "activity_time": "02:58"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "20:05",
       "remarks": "COMMENCE LOADING A17",
       "equipment": "0",
-      "activity_time": "01:57"
+      "activity_time": "02:57"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "21:10",
       "remarks": "LOADING TONNER S29",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "01:52"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 1500,
       "progress": 0.9142857142857143,
       "stockpile": 1500,
-      "time": "21:07",
-      "remarks": "LOADING POUCH S24",
+      "time": "22:15",
+      "remarks": "LOADING POUCH A4",
       "equipment": "0",
-      "activity_time": "00:55"
+      "activity_time": "00:47"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "13:40",
       "remarks": "COMPLETE LOADING S50",
       "equipment": "0",
-      "activity_time": "08:22"
+      "activity_time": "09:22"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 24000,
       "progress": 0.1111111111111111,
       "stockpile": 1000,
-      "time": "20:53",
-      "remarks": "LOADING TONNER S27",
+      "time": "21:50",
+      "remarks": "LOADING  TONNER S42",
       "equipment": "0",
-      "activity_time": "01:09"
+      "activity_time": "01:12"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "22:02"
+      "activity_time": "23:02"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "22:02"
+    "activity_time": "23:02"
   },
   "trucking": [
     {
