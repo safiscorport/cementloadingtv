@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T17:27:39+08:00",
+  "updated_at": "2026-11-21T17:33:48+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
       "equipment": "CRANE 2",
-      "activity_time": "10:27"
+      "activity_time": "10:33"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 34000,
       "progress": 0.32,
       "stockpile": 13000,
-      "time": "14:25",
-      "remarks": "LOADING S44 LOOSEBAG",
+      "time": "16:30",
+      "remarks": "LOADING S26 LOOSEBAG",
       "equipment": "CRANE 4",
-      "activity_time": "03:02"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 4",
@@ -56,25 +56,25 @@
       "balance": 9000,
       "progress": 0.7,
       "stockpile": 2000,
-      "time": "10:00",
-      "remarks": "LOADING SLING BAGS",
+      "time": "15:37",
+      "remarks": "LOADING B5 SLING BAGS",
       "equipment": "0",
-      "activity_time": "07:27"
+      "activity_time": "01:56"
     },
     {
       "berth": "Berth 5",
-      "vessel": "LADY OF COURAGE",
-      "voyage": 13,
+      "vessel": "EFG 5",
+      "voyage": 7,
       "booking": 0,
-      "dispatch": 8000,
-      "loaded": 8000,
-      "balance": -8000,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "13:30",
-      "remarks": "LOADING P11 SLING BAGS",
+      "time": "13:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:57"
+      "activity_time": "04:33"
     },
     {
       "berth": "Berth 6",
@@ -101,40 +101,40 @@
       "balance": 7500,
       "progress": 0.75,
       "stockpile": 1475,
-      "time": "15:26",
-      "remarks": "LOADING A1 TONNER BAGS",
+      "time": "17:00",
+      "remarks": "LOADING P10 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "02:01"
+      "activity_time": "00:33"
     },
     {
       "berth": "Berth 8",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "LADY OF COURAGE",
+      "voyage": 13,
       "booking": 0,
-      "dispatch": 0,
-      "loaded": 0,
-      "balance": 0,
+      "dispatch": 8000,
+      "loaded": 8000,
+      "balance": -8000,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "13:30",
+      "remarks": "LOADING P11 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "04:03"
     },
     {
       "berth": "Berth 9",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "STAR FREEDOM",
+      "voyage": 16,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "12:11",
+      "remarks": "DOCK SECURED",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "05:22"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:35",
       "remarks": "LAODING S41 TONNER BAGS",
       "equipment": "FL 2",
-      "activity_time": "03:52"
+      "activity_time": "03:58"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:27"
+      "activity_time": "17:33"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:27"
+    "activity_time": "17:33"
   },
   "trucking": [
     {
