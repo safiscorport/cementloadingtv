@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T04:20:35+08:00",
+  "updated_at": "2026-11-22T04:21:38+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
       "equipment": "0",
-      "activity_time": "21:20"
+      "activity_time": "21:21"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "00:00",
       "remarks": "DEFEECTIVE CRANE",
       "equipment": "FL 1",
-      "activity_time": "04:20"
+      "activity_time": "04:21"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "23:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "05:20"
+      "activity_time": "05:21"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "23:07",
       "remarks": "LOADING SLING",
       "equipment": "CRANE 4",
-      "activity_time": "05:13"
+      "activity_time": "05:14"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "03:11",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "01:09"
+      "activity_time": "01:10"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "02:57",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "01:23"
+      "activity_time": "01:24"
     },
     {
       "berth": "Berth 9",
       "vessel": "STAR FREEDOM",
       "voyage": 16,
       "booking": 25000,
-      "dispatch": 2000,
+      "dispatch": 3000,
       "loaded": 0,
       "balance": 25000,
       "progress": 0,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "22:00",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "06:20"
+      "activity_time": "06:21"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "23:07",
       "remarks": "LOADING TONNER S31",
       "equipment": "CRANE 3",
-      "activity_time": "05:13"
+      "activity_time": "05:14"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 276000,
-    "dispatch": 176000,
+    "dispatch": 177000,
     "loaded": 148500,
     "balance": 127500,
     "progress": 0.5167340067340067,
-    "stockpile": 27500
+    "stockpile": 28500
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "04:20"
+      "activity_time": "04:21"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "04:20"
+    "activity_time": "04:21"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 706005,
-      "daily": 30000
+      "September": 707005,
+      "daily": 31000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 19975
+      "volume": 20975
     },
     {
       "client": "LAPU-LAPU",
