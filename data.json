@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T21:38:00+08:00",
+  "updated_at": "2026-11-21T21:55:32+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
       "equipment": "0",
-      "activity_time": "14:37"
+      "activity_time": "14:55"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "20:00",
       "remarks": "LOADING LOOSEBAGS",
       "equipment": "FL 1",
-      "activity_time": "01:37"
+      "activity_time": "01:55"
     },
     {
       "berth": "Berth 4",
@@ -59,22 +59,22 @@
       "time": "20:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "01:37"
+      "activity_time": "01:55"
     },
     {
       "berth": "Berth 5",
       "vessel": "EFG 5",
       "voyage": 7,
       "booking": 30000,
-      "dispatch": 4000,
+      "dispatch": 5000,
       "loaded": 0,
       "balance": 30000,
       "progress": 0,
-      "stockpile": 4000,
+      "stockpile": 5000,
       "time": "19:00",
       "remarks": "-",
       "equipment": "CRANE 4",
-      "activity_time": "02:37"
+      "activity_time": "02:55"
     },
     {
       "berth": "Berth 6",
@@ -104,22 +104,22 @@
       "time": "20:05",
       "remarks": "LOADING TONNER  P6",
       "equipment": "0",
-      "activity_time": "01:32"
+      "activity_time": "01:50"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF COURAGE",
       "voyage": 13,
       "booking": 30000,
-      "dispatch": 8000,
+      "dispatch": 9000,
       "loaded": 8000,
       "balance": 22000,
       "progress": 0.26666666666666666,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "02:37"
+      "activity_time": "02:55"
     },
     {
       "berth": "Berth 9",
@@ -134,22 +134,22 @@
       "time": "12:11",
       "remarks": "DOCK SECURED",
       "equipment": "0",
-      "activity_time": "09:26"
+      "activity_time": "09:44"
     },
     {
       "berth": "Berth 10",
       "vessel": "EASTERN CEBU",
       "voyage": 17,
       "booking": 27000,
-      "dispatch": 16000,
+      "dispatch": 17000,
       "loaded": 14000,
       "balance": 13000,
       "progress": 0.5185185185185185,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "20:48",
       "remarks": "LOADING TONNER P4",
       "equipment": "CRANE 3",
-      "activity_time": "00:49"
+      "activity_time": "01:07"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 252000,
-    "dispatch": 156975,
+    "dispatch": 159975,
     "loaded": 126000,
     "balance": 126000,
     "progress": 0.4827753727753728,
-    "stockpile": 30975
+    "stockpile": 33975
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:37"
+      "activity_time": "21:55"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "21:37"
+    "activity_time": "21:55"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 695005,
-      "daily": 19000
+      "September": 698005,
+      "daily": 22000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 197760,
-      "daily": 8000
+      "September": 198760,
+      "daily": 9000
     },
     {
       "hauler": "UCES",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 23975
+      "volume": 26975
     },
     {
       "client": "LAPU-LAPU",
