@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T19:18:35+08:00",
+  "updated_at": "2026-11-21T19:21:54+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
       "equipment": "CRANE 2",
-      "activity_time": "12:18"
+      "activity_time": "12:21"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 4",
-      "activity_time": "00:18"
+      "activity_time": "00:21"
     },
     {
       "berth": "Berth 4",
@@ -59,22 +59,22 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:18"
+      "activity_time": "00:21"
     },
     {
       "berth": "Berth 5",
       "vessel": "EFG 5",
       "voyage": 7,
       "booking": 30000,
-      "dispatch": 0,
+      "dispatch": 3000,
       "loaded": 0,
       "balance": 30000,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 3000,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:18"
+      "activity_time": "00:21"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:18"
+      "activity_time": "00:21"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:18"
+      "activity_time": "00:21"
     },
     {
       "berth": "Berth 9",
@@ -134,22 +134,22 @@
       "time": "12:11",
       "remarks": "DOCK SECURED",
       "equipment": "0",
-      "activity_time": "07:07"
+      "activity_time": "07:10"
     },
     {
       "berth": "Berth 10",
       "vessel": "EASTERN CEBU",
       "voyage": 17,
       "booking": 27000,
-      "dispatch": 13000,
+      "dispatch": 16000,
       "loaded": 11000,
       "balance": 16000,
       "progress": 0.4074074074074074,
-      "stockpile": 2000,
+      "stockpile": 5000,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "00:18"
+      "activity_time": "00:21"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 252000,
-    "dispatch": 149975,
+    "dispatch": 155975,
     "loaded": 122000,
     "balance": 130000,
     "progress": 0.4621404521404521,
-    "stockpile": 27975
+    "stockpile": 33975
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:18"
+      "activity_time": "19:21"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "19:18"
+    "activity_time": "19:21"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 690005,
-      "daily": 14000
+      "September": 694005,
+      "daily": 18000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -241,8 +241,8 @@
     {
       "hauler": "BADIE",
       "August": 63925,
-      "September": 42130,
-      "daily": 2000
+      "September": 43130,
+      "daily": 3000
     },
     {
       "hauler": "PTMS",
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "August": 43975,
-      "September": 65000,
-      "daily": 2000
+      "September": 66000,
+      "daily": 3000
     },
     {
       "hauler": "FULACHE",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 18975
+      "volume": 22975
     },
     {
       "client": "LAPU-LAPU",
@@ -356,7 +356,7 @@
     },
     {
       "client": "BADIE",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "PTMS",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "FULACHE",
