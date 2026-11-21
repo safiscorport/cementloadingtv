@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T19:17:35+08:00",
+  "updated_at": "2026-11-21T19:18:35+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
       "equipment": "CRANE 2",
-      "activity_time": "12:17"
+      "activity_time": "12:18"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 4",
-      "activity_time": "00:17"
+      "activity_time": "00:18"
     },
     {
       "berth": "Berth 4",
@@ -59,22 +59,22 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:17"
+      "activity_time": "00:18"
     },
     {
       "berth": "Berth 5",
       "vessel": "EFG 5",
       "voyage": 7,
-      "booking": 0,
+      "booking": 30000,
       "dispatch": 0,
       "loaded": 0,
-      "balance": 0,
+      "balance": 30000,
       "progress": 0,
       "stockpile": 0,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:17"
+      "activity_time": "00:18"
     },
     {
       "berth": "Berth 6",
@@ -104,22 +104,22 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:17"
+      "activity_time": "00:18"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF COURAGE",
       "voyage": 13,
-      "booking": 0,
+      "booking": 30000,
       "dispatch": 8000,
       "loaded": 8000,
-      "balance": -8000,
-      "progress": 0,
+      "balance": 22000,
+      "progress": 0.26666666666666666,
       "stockpile": 0,
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:17"
+      "activity_time": "00:18"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "12:11",
       "remarks": "DOCK SECURED",
       "equipment": "0",
-      "activity_time": "07:06"
+      "activity_time": "07:07"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "00:17"
+      "activity_time": "00:18"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 192000,
+    "booking": 252000,
     "dispatch": 149975,
     "loaded": 122000,
-    "balance": 70000,
-    "progress": 0.5936632996632996,
+    "balance": 130000,
+    "progress": 0.4621404521404521,
     "stockpile": 27975
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "19:17"
+      "activity_time": "19:18"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "19:17"
+    "activity_time": "19:18"
   },
   "trucking": [
     {
