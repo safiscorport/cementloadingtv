@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T21:36:59+08:00",
+  "updated_at": "2026-11-21T21:38:00+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
       "equipment": "0",
-      "activity_time": "14:36"
+      "activity_time": "14:37"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "20:00",
       "remarks": "LOADING LOOSEBAGS",
       "equipment": "FL 1",
-      "activity_time": "01:36"
+      "activity_time": "01:37"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "20:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "01:36"
+      "activity_time": "01:37"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "19:00",
       "remarks": "-",
       "equipment": "CRANE 4",
-      "activity_time": "02:36"
+      "activity_time": "02:37"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "20:05",
       "remarks": "LOADING TONNER  P6",
       "equipment": "0",
-      "activity_time": "01:31"
+      "activity_time": "01:32"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "02:36"
+      "activity_time": "02:37"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "12:11",
       "remarks": "DOCK SECURED",
       "equipment": "0",
-      "activity_time": "09:25"
+      "activity_time": "09:26"
     },
     {
       "berth": "Berth 10",
@@ -142,14 +142,14 @@
       "voyage": 17,
       "booking": 27000,
       "dispatch": 16000,
-      "loaded": 11000,
-      "balance": 16000,
-      "progress": 0.4074074074074074,
-      "stockpile": 5000,
+      "loaded": 14000,
+      "balance": 13000,
+      "progress": 0.5185185185185185,
+      "stockpile": 2000,
       "time": "20:48",
       "remarks": "LOADING TONNER P4",
       "equipment": "CRANE 3",
-      "activity_time": "00:48"
+      "activity_time": "00:49"
     },
     {
       "berth": "Jetty",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 252000,
     "dispatch": 156975,
-    "loaded": 123000,
-    "balance": 129000,
-    "progress": 0.4669023569023569,
-    "stockpile": 33975
+    "loaded": 126000,
+    "balance": 126000,
+    "progress": 0.4827753727753728,
+    "stockpile": 30975
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:36"
+      "activity_time": "21:37"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "21:36"
+    "activity_time": "21:37"
   },
   "trucking": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 985000
+      "y2026": 988000
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15816120
+    "y2026": 15819120
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 1000
+      "qty": 4000
     }
   ],
   "trucking_stockpile": [
@@ -356,11 +356,11 @@
     },
     {
       "client": "BADIE",
-      "volume": 2000
+      "volume": 1000
     },
     {
       "client": "PTMS",
-      "volume": 6000
+      "volume": 5000
     },
     {
       "client": "UCES",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": 2000
+      "volume": 1000
     },
     {
       "client": "FULACHE",
