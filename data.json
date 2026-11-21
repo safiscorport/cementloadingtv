@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T11:50:47+08:00",
+  "updated_at": "2026-11-21T16:34:30+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,37 +29,37 @@
       "time": "07:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
       "equipment": "CRANE 2",
-      "activity_time": "04:50"
+      "activity_time": "09:34"
     },
     {
       "berth": "Berth 3",
       "vessel": "EFG 8",
       "voyage": 8,
       "booking": 50000,
-      "dispatch": 25000,
-      "loaded": 12000,
-      "balance": 38000,
-      "progress": 0.24,
-      "stockpile": 13000,
+      "dispatch": 29000,
+      "loaded": 14000,
+      "balance": 36000,
+      "progress": 0.28,
+      "stockpile": 15000,
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "CRANE 4",
-      "activity_time": "04:50"
+      "activity_time": "09:34"
     },
     {
       "berth": "Berth 4",
       "vessel": "LADY OF WISDOM",
       "voyage": 10,
       "booking": 30000,
-      "dispatch": 21000,
+      "dispatch": 23000,
       "loaded": 18000,
       "balance": 12000,
       "progress": 0.6,
-      "stockpile": 3000,
+      "stockpile": 5000,
       "time": "08:52",
       "remarks": "LOADING S24 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:58"
+      "activity_time": "07:42"
     },
     {
       "berth": "Berth 5",
@@ -67,14 +67,14 @@
       "voyage": 13,
       "booking": 0,
       "dispatch": 8000,
-      "loaded": 7000,
-      "balance": -7000,
+      "loaded": 8000,
+      "balance": -8000,
       "progress": 0,
-      "stockpile": 1000,
+      "stockpile": 0,
       "time": "09:52",
       "remarks": "LOADING P4 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:58"
+      "activity_time": "06:42"
     },
     {
       "berth": "Berth 6",
@@ -96,25 +96,25 @@
       "vessel": "RKK ONCE",
       "voyage": 1,
       "booking": 30000,
-      "dispatch": 17975,
-      "loaded": 16500,
-      "balance": 13500,
-      "progress": 0.55,
-      "stockpile": 1475,
+      "dispatch": 22975,
+      "loaded": 18500,
+      "balance": 11500,
+      "progress": 0.6166666666666667,
+      "stockpile": 4475,
       "time": "08:35",
       "remarks": "LOADING S19 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "03:15"
+      "activity_time": "07:59"
     },
     {
       "berth": "Berth 8",
-      "vessel": "LADY OF DIVINE GRACE",
-      "voyage": 11,
-      "booking": 17500,
-      "dispatch": 17500,
-      "loaded": 17500,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
@@ -123,13 +123,13 @@
     },
     {
       "berth": "Berth 9",
-      "vessel": "EMERALD STAR",
-      "voyage": 15,
-      "booking": 24000,
-      "dispatch": 24000,
-      "loaded": 24000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
@@ -141,15 +141,15 @@
       "vessel": "EASTERN CEBU",
       "voyage": 17,
       "booking": 27000,
-      "dispatch": 11000,
-      "loaded": 10000,
-      "balance": 17000,
-      "progress": 0.37037037037037035,
-      "stockpile": 1000,
+      "dispatch": 13000,
+      "loaded": 11000,
+      "balance": 16000,
+      "progress": 0.4074074074074074,
+      "stockpile": 2000,
       "time": "10:33",
       "remarks": "LOADING A20 TONNER BAGS",
       "equipment": "FL 2",
-      "activity_time": "01:17"
+      "activity_time": "06:01"
     },
     {
       "berth": "Jetty",
@@ -168,12 +168,12 @@
     }
   ],
   "total": {
-    "booking": 233500,
-    "dispatch": 177475,
-    "loaded": 148500,
-    "balance": 85000,
-    "progress": 0.6501827801827801,
-    "stockpile": 28975
+    "booking": 192000,
+    "dispatch": 148975,
+    "loaded": 113000,
+    "balance": 79000,
+    "progress": 0.538996632996633,
+    "stockpile": 35975
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:50"
+      "activity_time": "16:34"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "11:50"
+    "activity_time": "16:34"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 682005,
-      "daily": 6000
+      "September": 689005,
+      "daily": 13000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -241,14 +241,14 @@
     {
       "hauler": "BADIE",
       "August": 63925,
-      "September": 41130,
-      "daily": 1000
+      "September": 42130,
+      "daily": 2000
     },
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 193760,
-      "daily": 4000
+      "September": 197760,
+      "daily": 8000
     },
     {
       "hauler": "UCES",
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "August": 43975,
-      "September": 64000,
-      "daily": 1000
+      "September": 65000,
+      "daily": 2000
     },
     {
       "hauler": "FULACHE",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 969000
+      "y2026": 975000
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15800120
+    "y2026": 15806120
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 8000
+      "qty": 14000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 20975
+      "volume": 23975
     },
     {
       "client": "LAPU-LAPU",
@@ -356,11 +356,11 @@
     },
     {
       "client": "BADIE",
-      "volume": 1000
+      "volume": 2000
     },
     {
       "client": "PTMS",
-      "volume": 6000
+      "volume": 9000
     },
     {
       "client": "UCES",
