@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T20:11:14+08:00",
+  "updated_at": "2026-11-21T20:12:14+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -28,7 +28,7 @@
       "stockpile": 9500,
       "time": "07:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
-      "equipment": "CRANE 2",
+      "equipment": "0",
       "activity_time": "13:11"
     },
     {
@@ -43,7 +43,7 @@
       "stockpile": 13000,
       "time": "20:00",
       "remarks": "LOADING LOOSEBAGS",
-      "equipment": "CRANE 4",
+      "equipment": "FL 1",
       "activity_time": "00:11"
     },
     {
@@ -73,7 +73,7 @@
       "stockpile": 3000,
       "time": "20:00",
       "remarks": "COMMENCE LOADING",
-      "equipment": "0",
+      "equipment": "CRANE 4",
       "activity_time": "00:11"
     },
     {
@@ -118,7 +118,7 @@
       "stockpile": 0,
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
-      "equipment": "0",
+      "equipment": "FL 2",
       "activity_time": "01:11"
     },
     {
@@ -148,7 +148,7 @@
       "stockpile": 5000,
       "time": "20:00",
       "remarks": "LOADING TONNER",
-      "equipment": "FL 2",
+      "equipment": "CRANE 3",
       "activity_time": "00:11"
     },
     {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER, JOVIC",
-    "checker": "OBIAL, R/ TORRES, J",
+    "supervisor": "BERNABE,A",
+    "checker": "DALUSA,E",
     "pmc": "JOAN / WILLIAM",
-    "cranes": 3,
-    "forklifts": 8,
-    "stevedores": 41
+    "cranes": 4,
+    "forklifts": 9,
+    "stevedores": 0
   }
 }
