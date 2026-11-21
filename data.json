@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T03:49:37+08:00",
+  "updated_at": "2026-11-22T03:50:36+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
       "equipment": "0",
-      "activity_time": "20:49"
+      "activity_time": "20:50"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "00:00",
       "remarks": "DEFEECTIVE CRANE",
       "equipment": "FL 1",
-      "activity_time": "03:49"
+      "activity_time": "03:50"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "23:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:49"
+      "activity_time": "04:50"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "23:07",
       "remarks": "LOADING SLING",
       "equipment": "CRANE 4",
-      "activity_time": "04:42"
+      "activity_time": "04:43"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "03:12",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:38"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "02:57",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "00:52"
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 9",
       "vessel": "STAR FREEDOM",
       "voyage": 16,
-      "booking": 0,
+      "booking": 25000,
       "dispatch": 2000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 25000,
       "progress": 0,
       "stockpile": 2000,
       "time": "22:00",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "05:49"
+      "activity_time": "05:50"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "23:07",
       "remarks": "LOADING TONNER S31",
       "equipment": "CRANE 3",
-      "activity_time": "04:42"
+      "activity_time": "04:43"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 252000,
+    "booking": 277000,
     "dispatch": 176000,
     "loaded": 148500,
-    "balance": 103500,
-    "progress": 0.5857912457912458,
+    "balance": 128500,
+    "progress": 0.5125673400673401,
     "stockpile": 27500
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "03:49"
+      "activity_time": "03:50"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "03:49"
+    "activity_time": "03:50"
   },
   "trucking": [
     {
