@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T21:56:48+08:00",
+  "updated_at": "2026-11-21T22:45:15+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
       "equipment": "0",
-      "activity_time": "14:56"
+      "activity_time": "15:45"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 34000,
       "progress": 0.32,
       "stockpile": 13000,
-      "time": "20:00",
-      "remarks": "LOADING LOOSEBAGS",
+      "time": "21:51",
+      "remarks": "LOADING SLING S36",
       "equipment": "FL 1",
-      "activity_time": "01:56"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 9000,
       "progress": 0.7,
       "stockpile": 2000,
-      "time": "20:00",
-      "remarks": "LOADING POUCH",
+      "time": "21:57",
+      "remarks": "LOADING SLING B5",
       "equipment": "0",
-      "activity_time": "01:56"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 30000,
       "progress": 0,
       "stockpile": 5000,
-      "time": "21:30",
-      "remarks": "COMMENCE LOADING",
+      "time": "22:02",
+      "remarks": "LOADING SLING A20",
       "equipment": "CRANE 4",
-      "activity_time": "00:26"
+      "activity_time": "00:43"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 6500,
       "progress": 0.7833333333333333,
       "stockpile": 475,
-      "time": "20:05",
-      "remarks": "LOADING TONNER  P6",
+      "time": "22:07",
+      "remarks": "LOADING TONNER S6",
       "equipment": "0",
-      "activity_time": "01:51"
+      "activity_time": "00:38"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "19:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "02:56"
+      "activity_time": "03:45"
     },
     {
       "berth": "Berth 9",
@@ -134,22 +134,22 @@
       "time": "22:00",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "23:56"
+      "activity_time": "00:45"
     },
     {
       "berth": "Berth 10",
       "vessel": "EASTERN CEBU",
       "voyage": 17,
       "booking": 27000,
-      "dispatch": 17000,
+      "dispatch": 18000,
       "loaded": 14000,
       "balance": 13000,
       "progress": 0.5185185185185185,
-      "stockpile": 3000,
+      "stockpile": 4000,
       "time": "20:48",
       "remarks": "LOADING TONNER P4",
       "equipment": "CRANE 3",
-      "activity_time": "01:08"
+      "activity_time": "01:57"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 252000,
-    "dispatch": 159975,
+    "dispatch": 160975,
     "loaded": 126000,
     "balance": 126000,
     "progress": 0.4827753727753728,
-    "stockpile": 33975
+    "stockpile": 34975
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "21:56"
+      "activity_time": "22:45"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "21:56"
+    "activity_time": "22:45"
   },
   "trucking": [
     {
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 198760,
-      "daily": 9000
+      "September": 199760,
+      "daily": 10000
     },
     {
       "hauler": "UCES",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 5000
+      "volume": 6000
     },
     {
       "client": "UCES",
