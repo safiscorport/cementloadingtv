@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T03:47:57+08:00",
+  "updated_at": "2026-11-22T03:49:37+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "TEMPORARY PULL OUT/ DOCKING MV ADVANTAGE",
       "equipment": "0",
-      "activity_time": "20:47"
+      "activity_time": "20:49"
     },
     {
       "berth": "Berth 3",
@@ -37,14 +37,14 @@
       "voyage": 8,
       "booking": 50000,
       "dispatch": 30000,
-      "loaded": 18000,
-      "balance": 32000,
-      "progress": 0.36,
-      "stockpile": 12000,
+      "loaded": 19000,
+      "balance": 31000,
+      "progress": 0.38,
+      "stockpile": 11000,
       "time": "00:00",
       "remarks": "DEFEECTIVE CRANE",
       "equipment": "FL 1",
-      "activity_time": "03:47"
+      "activity_time": "03:49"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "23:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:47"
+      "activity_time": "04:49"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "23:07",
       "remarks": "LOADING SLING",
       "equipment": "CRANE 4",
-      "activity_time": "04:40"
+      "activity_time": "04:42"
     },
     {
       "berth": "Berth 6",
@@ -97,29 +97,29 @@
       "voyage": 1,
       "booking": 30000,
       "dispatch": 29000,
-      "loaded": 27000,
-      "balance": 3000,
-      "progress": 0.9,
-      "stockpile": 2000,
+      "loaded": 29000,
+      "balance": 1000,
+      "progress": 0.9666666666666667,
+      "stockpile": 0,
       "time": "03:12",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:35"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 8",
       "vessel": "LADY OF COURAGE",
       "voyage": 13,
       "booking": 30000,
-      "dispatch": 10000,
-      "loaded": 9000,
-      "balance": 21000,
-      "progress": 0.3,
-      "stockpile": 1000,
+      "dispatch": 11000,
+      "loaded": 11000,
+      "balance": 19000,
+      "progress": 0.36666666666666664,
+      "stockpile": 0,
       "time": "02:57",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "00:50"
+      "activity_time": "00:52"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "22:00",
       "remarks": "WAITING FL ONBOARD",
       "equipment": "0",
-      "activity_time": "05:47"
+      "activity_time": "05:49"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "23:07",
       "remarks": "LOADING TONNER S31",
       "equipment": "CRANE 3",
-      "activity_time": "04:40"
+      "activity_time": "04:42"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 252000,
-    "dispatch": 175000,
-    "loaded": 143500,
-    "balance": 108500,
-    "progress": 0.5638864838864839,
-    "stockpile": 31500
+    "dispatch": 176000,
+    "loaded": 148500,
+    "balance": 103500,
+    "progress": 0.5857912457912458,
+    "stockpile": 27500
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "03:47"
+      "activity_time": "03:49"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "03:47"
+    "activity_time": "03:49"
   },
   "trucking": [
     {
@@ -241,8 +241,8 @@
     {
       "hauler": "BADIE",
       "August": 63925,
-      "September": 43130,
-      "daily": 3000
+      "September": 44130,
+      "daily": 4000
     },
     {
       "hauler": "PTMS",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1005500
+      "y2026": 1010500
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15836620
+    "y2026": 15841620
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 21475
+      "qty": 26475
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 22975
+      "volume": 19975
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 7525
+      "volume": 6525
     },
     {
       "client": "UCES",
