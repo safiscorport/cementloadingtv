@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T11:33:18+08:00",
+  "updated_at": "2026-11-22T11:37:07+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 7975,
       "progress": 0.855,
       "stockpile": 6975,
-      "time": "00:00",
-      "remarks": "LADY OF GUIDANCE",
+      "time": "11:04",
+      "remarks": "LOADING S32 TONNER BAGS",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:32"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 4000,
       "progress": 0.8666666666666667,
       "stockpile": 0,
-      "time": "10:34",
-      "remarks": "LOADING S6 SLING BAGS",
+      "time": "11:20",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:58"
+      "activity_time": "00:16"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 19000,
       "progress": 0.36666666666666664,
       "stockpile": 5000,
-      "time": "00:00",
-      "remarks": "EFG 5",
+      "time": "10:10",
+      "remarks": "WAITING STEVEDORES",
       "equipment": "CRANE 4",
-      "activity_time": "00:00"
+      "activity_time": "01:26"
     },
     {
       "berth": "Berth 6",
@@ -102,7 +102,7 @@
       "progress": 1,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "RKK ONCE",
+      "remarks": "-",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -116,10 +116,10 @@
       "balance": 19000,
       "progress": 0.36666666666666664,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "LADY OF COURAGE",
+      "time": "11:22",
+      "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "00:00"
+      "activity_time": "00:14"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "10:00",
       "remarks": "LOADING S59 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:32"
+      "activity_time": "01:36"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "10:10",
       "remarks": "WAITING MATERIALS",
       "equipment": "CRANE 3",
-      "activity_time": "01:22"
+      "activity_time": "01:26"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:32"
+      "activity_time": "11:36"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "11:32"
+    "activity_time": "11:36"
   },
   "trucking": [
     {
