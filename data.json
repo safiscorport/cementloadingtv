@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T14:12:33+08:00",
+  "updated_at": "2026-11-23T14:17:25+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "07:12"
+      "activity_time": "07:17"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "07:12"
+      "activity_time": "07:17"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "16:00",
       "remarks": "COMPLETE  LOADING S49",
       "equipment": "0",
-      "activity_time": "22:12"
+      "activity_time": "22:17"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "10:56",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "03:16"
+      "activity_time": "03:21"
     },
     {
       "berth": "Berth 6",
@@ -119,22 +119,22 @@
       "time": "13:32",
       "remarks": "LOADING POUCH B7",
       "equipment": "FL 2",
-      "activity_time": "00:40"
+      "activity_time": "00:45"
     },
     {
       "berth": "Berth 9",
       "vessel": "STAR FREEDOM",
       "voyage": 16,
       "booking": 25000,
-      "dispatch": 5000,
+      "dispatch": 6000,
       "loaded": 5000,
       "balance": 20000,
       "progress": 0.2,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "10:11",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:01"
+      "activity_time": "04:06"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:50",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "00:22"
+      "activity_time": "00:27"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 247000,
-    "dispatch": 188000,
+    "dispatch": 189000,
     "loaded": 172025,
     "balance": 74975,
     "progress": 0.6937445887445888,
-    "stockpile": 15975
+    "stockpile": 16975
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:12"
+      "activity_time": "14:17"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "14:12"
+    "activity_time": "14:17"
   },
   "trucking": [
     {
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 207785,
-      "daily": "-"
+      "September": 208785,
+      "daily": 1000
     },
     {
       "hauler": "UCES",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 2000
+      "volume": 3000
     },
     {
       "client": "UCES",
