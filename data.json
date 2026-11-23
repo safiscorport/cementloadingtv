@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T16:49:49+08:00",
+  "updated_at": "2026-11-23T16:50:19+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "16:07",
       "remarks": "LOADING TONNER S10",
       "equipment": "0",
-      "activity_time": "00:42"
+      "activity_time": "00:43"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "09:49"
+      "activity_time": "09:50"
     },
     {
       "berth": "Berth 4",
@@ -74,7 +74,7 @@
       "time": "10:56",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "05:53"
+      "activity_time": "05:54"
     },
     {
       "berth": "Berth 6",
@@ -111,15 +111,15 @@
       "vessel": "LADY OF COURAGE",
       "voyage": 13,
       "booking": 30000,
-      "dispatch": 19000,
+      "dispatch": 20000,
       "loaded": 15000,
       "balance": 15000,
       "progress": 0.5,
-      "stockpile": 4000,
+      "stockpile": 5000,
       "time": "13:32",
       "remarks": "LOADING POUCH B7",
       "equipment": "FL 2",
-      "activity_time": "03:17"
+      "activity_time": "03:18"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "15:01",
       "remarks": "LOADING POZZOLAN P5",
       "equipment": "0",
-      "activity_time": "01:48"
+      "activity_time": "01:49"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:50",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "02:59"
+      "activity_time": "03:00"
     },
     {
       "berth": "Jetty",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 217000,
-    "dispatch": 168000,
+    "dispatch": 169000,
     "loaded": 152000,
     "balance": 65000,
     "progress": 0.6866666666666666,
-    "stockpile": 16000
+    "stockpile": 17000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:49"
+      "activity_time": "16:50"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "16:49"
+    "activity_time": "16:50"
   },
   "trucking": [
     {
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 211785,
-      "daily": 4000
+      "September": 212785,
+      "daily": 5000
     },
     {
       "hauler": "UCES",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 5000
+      "volume": 6000
     },
     {
       "client": "UCES",
