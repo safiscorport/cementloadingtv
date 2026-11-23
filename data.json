@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T17:01:09+08:00",
+  "updated_at": "2026-11-23T17:02:09+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "16:07",
       "remarks": "LOADING TONNER S10",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "10:00"
+      "activity_time": "10:01"
     },
     {
       "berth": "Berth 4",
@@ -74,7 +74,7 @@
       "time": "10:56",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "06:04"
+      "activity_time": "06:05"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 13000,
       "progress": 0.5666666666666667,
       "stockpile": 3000,
-      "time": "16:24",
-      "remarks": "LOADING POUCH S61",
+      "time": "17:00",
+      "remarks": "VESSEL CLOSE RAIN",
       "equipment": "FL 2",
-      "activity_time": "00:36"
+      "activity_time": "00:01"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 19000,
       "progress": 0.24,
       "stockpile": 1000,
-      "time": "15:01",
-      "remarks": "LOADING POZZOLAN P5",
+      "time": "16:00",
+      "remarks": "VESSEL CLOSE RAIN",
       "equipment": "0",
-      "activity_time": "01:59"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:50",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "03:10"
+      "activity_time": "03:11"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:00"
+      "activity_time": "17:01"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:00"
+    "activity_time": "17:01"
   },
   "trucking": [
     {
