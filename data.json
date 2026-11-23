@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T07:46:34+08:00",
+  "updated_at": "2026-11-24T07:53:23+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -43,8 +43,8 @@
       "stockpile": 11000,
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
-      "equipment": "FL 1",
-      "activity_time": "00:46"
+      "equipment": "0",
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 4",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:46"
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:46"
+      "activity_time": "07:53"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:46"
+    "activity_time": "07:53"
   },
   "trucking": [
     {
