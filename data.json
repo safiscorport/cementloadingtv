@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T07:41:55+08:00",
+  "updated_at": "2026-11-24T07:45:44+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -18,18 +18,18 @@
     },
     {
       "berth": "Berth 2",
-      "vessel": "LADY OF GUIDANCE",
-      "voyage": 3,
-      "booking": 55000,
-      "dispatch": 55000,
-      "loaded": 55000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
       "time": "16:23",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "15:18"
+      "activity_time": "15:22"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 31000,
       "progress": 0.38,
       "stockpile": 11000,
-      "time": "19:00",
+      "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "12:41"
+      "activity_time": "00:45"
     },
     {
       "berth": "Berth 4",
@@ -63,18 +63,18 @@
     },
     {
       "berth": "Berth 5",
-      "vessel": "EFG 5",
-      "voyage": 7,
-      "booking": 30000,
-      "dispatch": 30000,
-      "loaded": 30000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "10:56",
-      "remarks": "LOADING COMPLETE",
-      "equipment": "CRANE 4",
-      "activity_time": "20:45"
+      "time": "00:00",
+      "remarks": "-",
+      "equipment": "0",
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 6",
@@ -108,18 +108,18 @@
     },
     {
       "berth": "Berth 8",
-      "vessel": "LADY OF COURAGE",
-      "voyage": 13,
-      "booking": 30000,
-      "dispatch": 30000,
-      "loaded": 30000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "03:27",
-      "remarks": "COMPLETE LOADING",
-      "equipment": "FL 2",
-      "activity_time": "04:14"
+      "time": "00:00",
+      "remarks": "-",
+      "equipment": "0",
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
@@ -131,25 +131,25 @@
       "balance": 15000,
       "progress": 0.4,
       "stockpile": 1000,
-      "time": "06:10",
-      "remarks": "WAITING MATERIAL",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:31"
+      "activity_time": "00:45"
     },
     {
       "berth": "Berth 10",
       "vessel": "EASTERN CEBU",
-      "voyage": 17,
-      "booking": 27000,
-      "dispatch": 27000,
-      "loaded": 27000,
+      "voyage": 0,
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "13:50",
-      "remarks": "LOADING COMPLETE",
-      "equipment": "CRANE 3",
-      "activity_time": "17:51"
+      "time": "00:00",
+      "remarks": "-",
+      "equipment": "0",
+      "activity_time": "00:00"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 217000,
-    "dispatch": 183000,
-    "loaded": 171000,
+    "booking": 75000,
+    "dispatch": 41000,
+    "loaded": 29000,
     "balance": 46000,
-    "progress": 0.7966666666666665,
+    "progress": 0.39,
     "stockpile": 12000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:41"
+      "activity_time": "07:45"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:41"
+    "activity_time": "07:45"
   },
   "trucking": [
     {
