@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T17:27:01+08:00",
+  "updated_at": "2026-11-23T17:29:52+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "16:23",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:06"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "10:26"
+      "activity_time": "10:29"
     },
     {
       "berth": "Berth 4",
@@ -74,7 +74,7 @@
       "time": "10:56",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "06:30"
+      "activity_time": "06:33"
     },
     {
       "berth": "Berth 6",
@@ -119,7 +119,7 @@
       "time": "17:00",
       "remarks": "LOADING POUCH P11",
       "equipment": "FL 2",
-      "activity_time": "00:26"
+      "activity_time": "00:29"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "16:00",
       "remarks": "VESSEL CLOSE RAIN",
       "equipment": "0",
-      "activity_time": "01:26"
+      "activity_time": "01:29"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:50",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "03:36"
+      "activity_time": "03:39"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:26"
+      "activity_time": "17:29"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:26"
+    "activity_time": "17:29"
   },
   "trucking": [
     {
