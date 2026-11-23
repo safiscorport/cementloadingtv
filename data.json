@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T07:39:44+08:00",
+  "updated_at": "2026-11-23T08:19:08+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "01:18"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "00:39"
+      "activity_time": "01:18"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "16:00",
       "remarks": "COMPLETE  LOADING S49",
       "equipment": "0",
-      "activity_time": "15:39"
+      "activity_time": "16:18"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 4",
-      "activity_time": "00:39"
+      "activity_time": "01:18"
     },
     {
       "berth": "Berth 6",
@@ -119,7 +119,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 2",
-      "activity_time": "00:39"
+      "activity_time": "01:18"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:39"
+      "activity_time": "01:18"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "CRANE 3",
-      "activity_time": "00:39"
+      "activity_time": "01:18"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:39"
+      "activity_time": "08:18"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:39"
+    "activity_time": "08:18"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
       "September": 738005,
-      "daily": 27000
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
@@ -248,7 +248,7 @@
       "hauler": "PTMS",
       "August": 159490,
       "September": 207785,
-      "daily": 4000
+      "daily": "-"
     },
     {
       "hauler": "UCES",
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 21525
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 17000
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "0",
-    "checker": "OBIAL, R/ TORRES, J",
-    "pmc": "VICKY/EBOY",
+    "supervisor": "BERNABE,A",
+    "checker": "OBIAL / DALUSA",
+    "pmc": "JOAN / WILLIAM",
     "cranes": 4,
     "forklifts": 9,
-    "stevedores": 18
+    "stevedores": 40
   }
 }
