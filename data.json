@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T16:21:36+08:00",
+  "updated_at": "2026-11-23T16:22:35+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "15:49",
       "remarks": "LOADING TONNER S7",
       "equipment": "0",
-      "activity_time": "00:32"
+      "activity_time": "00:33"
     },
     {
       "berth": "Berth 3",
@@ -44,22 +44,22 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "09:21"
+      "activity_time": "09:22"
     },
     {
       "berth": "Berth 4",
-      "vessel": "LADY OF WISDOM",
-      "voyage": 10,
-      "booking": 30000,
-      "dispatch": 30000,
-      "loaded": 30000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "16:00",
-      "remarks": "COMPLETE  LOADING S49",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "00:21"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "10:56",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "05:25"
+      "activity_time": "05:26"
     },
     {
       "berth": "Berth 6",
@@ -119,7 +119,7 @@
       "time": "13:32",
       "remarks": "LOADING POUCH B7",
       "equipment": "FL 2",
-      "activity_time": "02:49"
+      "activity_time": "02:50"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "15:01",
       "remarks": "LOADING POZZOLAN P5",
       "equipment": "0",
-      "activity_time": "01:20"
+      "activity_time": "01:21"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:50",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "02:31"
+      "activity_time": "02:32"
     },
     {
       "berth": "Jetty",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 247000,
-    "dispatch": 197000,
-    "loaded": 181025,
+    "booking": 217000,
+    "dispatch": 167000,
+    "loaded": 151025,
     "balance": 65975,
-    "progress": 0.7288961038961039,
+    "progress": 0.6837121212121212,
     "stockpile": 15975
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:21"
+      "activity_time": "16:22"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "16:21"
+    "activity_time": "16:22"
   },
   "trucking": [
     {
