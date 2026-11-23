@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T16:04:35+08:00",
+  "updated_at": "2026-11-23T16:06:34+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 4975,
       "progress": 0.9095454545454545,
       "stockpile": 4975,
-      "time": "07:00",
-      "remarks": "DEFECTIVE HATCH COVER",
+      "time": "15:07",
+      "remarks": "LOADING TONNER S51",
       "equipment": "0",
-      "activity_time": "09:04"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "09:04"
+      "activity_time": "09:06"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "16:00",
       "remarks": "COMPLETE  LOADING S49",
       "equipment": "0",
-      "activity_time": "00:04"
+      "activity_time": "00:06"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "10:56",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 4",
-      "activity_time": "05:08"
+      "activity_time": "05:10"
     },
     {
       "berth": "Berth 6",
@@ -119,7 +119,7 @@
       "time": "13:32",
       "remarks": "LOADING POUCH B7",
       "equipment": "FL 2",
-      "activity_time": "02:32"
+      "activity_time": "02:34"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "15:01",
       "remarks": "LOADING POZZOLAN P5",
       "equipment": "0",
-      "activity_time": "01:03"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 10",
@@ -149,7 +149,7 @@
       "time": "13:50",
       "remarks": "LOADING COMPLETE",
       "equipment": "CRANE 3",
-      "activity_time": "02:14"
+      "activity_time": "02:16"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:04"
+      "activity_time": "16:06"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "16:04"
+    "activity_time": "16:06"
   },
   "trucking": [
     {
