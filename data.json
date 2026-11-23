@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T10:29:58+08:00",
+  "updated_at": "2026-11-23T11:10:52+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE HATCH COVER",
       "equipment": "0",
-      "activity_time": "03:29"
+      "activity_time": "04:10"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "03:29"
+      "activity_time": "04:10"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "16:00",
       "remarks": "COMPLETE  LOADING S49",
       "equipment": "0",
-      "activity_time": "18:29"
+      "activity_time": "19:10"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 2000,
       "progress": 0.9333333333333333,
       "stockpile": 0,
-      "time": "09:58",
-      "remarks": "LOADING SLING A19",
+      "time": "10:17",
+      "remarks": "LOADING SLING S39",
       "equipment": "CRANE 4",
-      "activity_time": "00:31"
+      "activity_time": "00:53"
     },
     {
       "berth": "Berth 6",
@@ -116,10 +116,10 @@
       "balance": 19000,
       "progress": 0.36666666666666664,
       "stockpile": 0,
-      "time": "07:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "10:30",
+      "remarks": "LOADING POUCH F2",
       "equipment": "FL 2",
-      "activity_time": "03:29"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "09:54",
       "remarks": "LOADING POZZOLAN S32",
       "equipment": "0",
-      "activity_time": "00:35"
+      "activity_time": "01:16"
     },
     {
       "berth": "Berth 10",
@@ -146,10 +146,10 @@
       "balance": 3000,
       "progress": 0.8888888888888888,
       "stockpile": 1000,
-      "time": "07:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "09:59",
+      "remarks": "LOADING TONNER S41",
       "equipment": "CRANE 3",
-      "activity_time": "03:29"
+      "activity_time": "01:11"
     },
     {
       "berth": "Jetty",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:29"
+      "activity_time": "11:10"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "10:29"
+    "activity_time": "11:10"
   },
   "trucking": [
     {
