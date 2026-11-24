@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T12:44:51+08:00",
+  "updated_at": "2026-11-24T12:45:30+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "05:44"
+      "activity_time": "05:45"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "06:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "06:44"
+      "activity_time": "06:45"
     },
     {
       "berth": "Berth 8",
@@ -127,14 +127,14 @@
       "voyage": 16,
       "booking": 25000,
       "dispatch": 15000,
-      "loaded": 12000,
-      "balance": 13000,
-      "progress": 0.48,
-      "stockpile": 3000,
+      "loaded": 14000,
+      "balance": 11000,
+      "progress": 0.56,
+      "stockpile": 1000,
       "time": "09:16",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:28"
+      "activity_time": "03:29"
     },
     {
       "berth": "Berth 10",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 75000,
     "dispatch": 45000,
-    "loaded": 31000,
-    "balance": 44000,
-    "progress": 0.43,
-    "stockpile": 14000
+    "loaded": 33000,
+    "balance": 42000,
+    "progress": 0.47000000000000003,
+    "stockpile": 12000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:44"
+      "activity_time": "12:45"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "12:44"
+    "activity_time": "12:45"
   },
   "trucking": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1094000
+      "y2026": 1096000
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15925120
+    "y2026": 15927120
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 2000
+      "qty": 4000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 11000
+      "volume": 10000
     },
     {
       "client": "LAPU-LAPU",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": 1000
+      "volume": "-"
     },
     {
       "client": "FULACHE",
