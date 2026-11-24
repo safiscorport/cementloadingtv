@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T11:09:16+08:00",
+  "updated_at": "2026-11-24T12:44:51+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "04:09"
+      "activity_time": "05:44"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "06:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "05:09"
+      "activity_time": "06:44"
     },
     {
       "berth": "Berth 8",
@@ -126,15 +126,15 @@
       "vessel": "STAR FREEDOM",
       "voyage": 16,
       "booking": 25000,
-      "dispatch": 14000,
+      "dispatch": 15000,
       "loaded": 12000,
       "balance": 13000,
       "progress": 0.48,
-      "stockpile": 2000,
+      "stockpile": 3000,
       "time": "09:16",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:53"
+      "activity_time": "03:28"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 75000,
-    "dispatch": 44000,
+    "dispatch": 45000,
     "loaded": 31000,
     "balance": 44000,
     "progress": 0.43,
-    "stockpile": 13000
+    "stockpile": 14000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "11:09"
+      "activity_time": "12:44"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "11:09"
+    "activity_time": "12:44"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 758005,
-      "daily": 3000
+      "September": 759005,
+      "daily": 4000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 10000
+      "volume": 11000
     },
     {
       "client": "LAPU-LAPU",
