@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T08:49:28+08:00",
+  "updated_at": "2026-11-24T09:17:13+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "01:49"
+      "activity_time": "02:16"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "06:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "02:49"
+      "activity_time": "03:16"
     },
     {
       "berth": "Berth 8",
@@ -126,15 +126,15 @@
       "vessel": "STAR FREEDOM",
       "voyage": 16,
       "booking": 25000,
-      "dispatch": 11000,
-      "loaded": 10000,
-      "balance": 15000,
-      "progress": 0.4,
+      "dispatch": 12000,
+      "loaded": 11000,
+      "balance": 14000,
+      "progress": 0.44,
       "stockpile": 1000,
-      "time": "08:00",
+      "time": "08:59",
       "remarks": "LOADING POZZOLAN S59",
       "equipment": "0",
-      "activity_time": "00:49"
+      "activity_time": "00:17"
     },
     {
       "berth": "Berth 10",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 75000,
-    "dispatch": 41000,
-    "loaded": 29000,
-    "balance": 46000,
-    "progress": 0.39,
+    "dispatch": 42000,
+    "loaded": 30000,
+    "balance": 45000,
+    "progress": 0.41000000000000003,
     "stockpile": 12000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:49"
+      "activity_time": "09:16"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "08:49"
+    "activity_time": "09:16"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 756005,
-      "daily": 1000
+      "September": 757005,
+      "daily": 2000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1092000
+      "y2026": 1093000
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15923120
+    "y2026": 15924120
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 0
+      "qty": 1000
     },
     {
       "shift": "2ND SHIFT",
