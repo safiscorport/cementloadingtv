@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T17:25:47+08:00",
+  "updated_at": "2026-11-24T17:28:37+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "15:57",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "01:28"
+      "activity_time": "01:31"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "10:25"
+      "activity_time": "10:28"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "17:09",
       "remarks": "WAITING LOOSEBAGS AS VESSEL REQUEST",
       "equipment": "0",
-      "activity_time": "00:16"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 8",
@@ -131,10 +131,10 @@
       "balance": 8000,
       "progress": 0.68,
       "stockpile": 0,
-      "time": "15:52",
-      "remarks": "LOADING POZZOLAN P2",
+      "time": "16:05",
+      "remarks": "WAITING POZZOLAN",
       "equipment": "0",
-      "activity_time": "01:33"
+      "activity_time": "01:23"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:25"
+      "activity_time": "17:28"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:25"
+    "activity_time": "17:28"
   },
   "trucking": [
     {
