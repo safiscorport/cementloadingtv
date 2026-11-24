@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T13:28:22+08:00",
+  "updated_at": "2026-11-24T13:58:37+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "06:28"
+      "activity_time": "06:58"
     },
     {
       "berth": "Berth 4",
@@ -101,10 +101,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 5000,
-      "time": "06:00",
-      "remarks": "DOCKED & SECURED",
+      "time": "14:00",
+      "remarks": "FORKLIFT ONBOARD",
       "equipment": "0",
-      "activity_time": "07:28"
+      "activity_time": "23:58"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "11:35",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:53"
+      "activity_time": "02:23"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:28"
+      "activity_time": "13:58"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "13:28"
+    "activity_time": "13:58"
   },
   "trucking": [
     {
