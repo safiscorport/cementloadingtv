@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T14:15:09+08:00",
+  "updated_at": "2026-11-24T14:43:42+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "07:14"
+      "activity_time": "07:43"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "14:10",
       "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "00:04"
+      "activity_time": "00:33"
     },
     {
       "berth": "Berth 8",
@@ -127,14 +127,14 @@
       "voyage": 16,
       "booking": 25000,
       "dispatch": 16000,
-      "loaded": 14000,
-      "balance": 11000,
-      "progress": 0.56,
-      "stockpile": 2000,
-      "time": "13;00",
-      "remarks": "LOADING POZZOLAN",
+      "loaded": 15000,
+      "balance": 10000,
+      "progress": 0.6,
+      "stockpile": 1000,
+      "time": "13:25",
+      "remarks": "LOADING POZZOLAN S38",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "01:18"
     },
     {
       "berth": "Berth 10",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 75000,
     "dispatch": 48000,
-    "loaded": 33000,
-    "balance": 42000,
-    "progress": 0.47000000000000003,
-    "stockpile": 15000
+    "loaded": 34000,
+    "balance": 41000,
+    "progress": 0.49,
+    "stockpile": 14000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:14"
+      "activity_time": "14:43"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "14:14"
+    "activity_time": "14:43"
   },
   "trucking": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1096000
+      "y2026": 1097000
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15927120
+    "y2026": 15928120
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 4000
+      "qty": 5000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 13000
+      "volume": 12000
     },
     {
       "client": "LAPU-LAPU",
