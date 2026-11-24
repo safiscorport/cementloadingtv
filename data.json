@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T02:00:54+08:00",
+  "updated_at": "2026-11-25T04:06:41+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "19:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "06:30"
+      "activity_time": "08:36"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "07:00"
+      "activity_time": "09:06"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "19:30",
       "remarks": "WAITING LOOSEBAGS AS VESSEL REQUEST",
       "equipment": "0",
-      "activity_time": "06:30"
+      "activity_time": "08:36"
     },
     {
       "berth": "Berth 8",
@@ -126,15 +126,15 @@
       "vessel": "STAR FREEDOM",
       "voyage": 16,
       "booking": 25000,
-      "dispatch": 19000,
-      "loaded": 19000,
-      "balance": 6000,
-      "progress": 0.76,
+      "dispatch": 20000,
+      "loaded": 20000,
+      "balance": 5000,
+      "progress": 0.8,
       "stockpile": 0,
       "time": "01:43",
       "remarks": "LOADING S31 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:17"
+      "activity_time": "02:23"
     },
     {
       "berth": "Berth 10",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 89000,
-    "dispatch": 53000,
-    "loaded": 42000,
-    "balance": 47000,
-    "progress": 0.47523809523809524,
+    "dispatch": 54000,
+    "loaded": 43000,
+    "balance": 46000,
+    "progress": 0.4885714285714286,
     "stockpile": 11000
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "02:00"
+      "activity_time": "04:06"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "02:00"
+    "activity_time": "04:06"
   },
   "trucking": [
     {
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 216785,
-      "daily": 4000
+      "September": 217785,
+      "daily": 5000
     },
     {
       "hauler": "UCES",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1105000
+      "y2026": 1106000
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15936120
+    "y2026": 15937120
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 2000
+      "qty": 3000
     }
   ],
   "trucking_stockpile": [
