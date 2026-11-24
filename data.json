@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T10:58:57+08:00",
+  "updated_at": "2026-11-24T11:04:04+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "03:58"
+      "activity_time": "04:03"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "06:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "04:58"
+      "activity_time": "05:03"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "09:16",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:42"
+      "activity_time": "01:47"
     },
     {
       "berth": "Berth 10",
@@ -180,11 +180,11 @@
       "berth": "R1",
       "vessel": "LCT 288",
       "materials": "CLINKER",
-      "discharge": "0%",
-      "balance": "100%",
-      "progress": "0%",
-      "time": "1045H",
-      "remarks": "STEP RAMP",
+      "discharge": "100%",
+      "balance": "0%",
+      "progress": "100%",
+      "time": "1021H",
+      "remarks": "DONE DISCHARING",
       "equip": "0",
       "activity_time": "00:00"
     },
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "10:58"
+      "activity_time": "11:03"
     }
   ],
   "foreign": {
@@ -208,7 +208,7 @@
     "discharge": "3%",
     "balance": "97%",
     "progress": "3%",
-    "time": "1041H",
+    "time": "1010H",
     "remarks": "0",
     "equip": "UNLOADING TO POSEIDON 27",
     "activity_time": "00:00"
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "10:58"
+    "activity_time": "11:03"
   },
   "trucking": [
     {
