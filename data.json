@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T07:53:23+08:00",
+  "updated_at": "2026-11-24T08:10:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "01:09"
     },
     {
       "berth": "Berth 4",
@@ -131,10 +131,10 @@
       "balance": 15000,
       "progress": 0.4,
       "stockpile": 1000,
-      "time": "07:00",
-      "remarks": "KY TOOLBOX",
+      "time": "08:00",
+      "remarks": "LOADING POZZOLAN S59",
       "equipment": "0",
-      "activity_time": "00:53"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "07:53"
+      "activity_time": "08:09"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:53"
+    "activity_time": "08:09"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
       "September": 756005,
-      "daily": 17000
+      "daily": 1000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -242,31 +242,31 @@
       "hauler": "BADIE",
       "August": 63925,
       "September": 45130,
-      "daily": 1000
+      "daily": "-"
     },
     {
       "hauler": "PTMS",
       "August": 159490,
       "September": 214785,
-      "daily": 7000
+      "daily": "-"
     },
     {
       "hauler": "UCES",
       "August": "-",
       "September": 4000,
-      "daily": 1000
+      "daily": "-"
     },
     {
       "hauler": "APLUS",
       "August": 43975,
       "September": 69000,
-      "daily": 2000
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
       "August": 35500,
       "September": 13080,
-      "daily": 1000
+      "daily": "-"
     }
   ],
   "monthly": [
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 18000
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 15975
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
@@ -380,7 +380,7 @@
     "checker": "OBIAL / DALUSA",
     "pmc": "JOAN / WILLIAM",
     "cranes": 3,
-    "forklifts": 0,
-    "stevedores": 0
+    "forklifts": 7,
+    "stevedores": 45
   }
 }
