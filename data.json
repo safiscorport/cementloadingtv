@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T17:42:28+08:00",
+  "updated_at": "2026-11-24T19:40:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -26,10 +26,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "15:57",
-      "remarks": "DOCKED & SECURED",
+      "time": "19:30",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:45"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 31000,
       "progress": 0.38,
       "stockpile": 8000,
-      "time": "07:00",
+      "time": "19:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "10:42"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 4",
@@ -101,10 +101,10 @@
       "balance": 10000,
       "progress": 0.2857142857142857,
       "stockpile": 3000,
-      "time": "17:09",
+      "time": "19:30",
       "remarks": "WAITING LOOSEBAGS AS VESSEL REQUEST",
       "equipment": "0",
-      "activity_time": "00:33"
+      "activity_time": "00:09"
     },
     {
       "berth": "Berth 8",
@@ -131,10 +131,10 @@
       "balance": 8000,
       "progress": 0.68,
       "stockpile": 0,
-      "time": "16:05",
-      "remarks": "WAITING POZZOLAN",
+      "time": "19:20",
+      "remarks": "LOADING S31 SLING BAGS",
       "equipment": "0",
-      "activity_time": "01:37"
+      "activity_time": "00:19"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "17:42"
+      "activity_time": "19:39"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:42"
+    "activity_time": "19:39"
   },
   "trucking": [
     {
