@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T15:14:34+08:00",
+  "updated_at": "2026-11-24T16:09:52+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "08:14"
+      "activity_time": "09:09"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "14:10",
       "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "01:04"
+      "activity_time": "01:59"
     },
     {
       "berth": "Berth 8",
@@ -127,14 +127,14 @@
       "voyage": 16,
       "booking": 25000,
       "dispatch": 17000,
-      "loaded": 16000,
-      "balance": 9000,
-      "progress": 0.64,
-      "stockpile": 1000,
-      "time": "13:54",
-      "remarks": "WAITING MATERIAL",
+      "loaded": 17000,
+      "balance": 8000,
+      "progress": 0.68,
+      "stockpile": 0,
+      "time": "15:52",
+      "remarks": "LOADING POZZOLAN P2",
       "equipment": "0",
-      "activity_time": "01:20"
+      "activity_time": "00:17"
     },
     {
       "berth": "Berth 10",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 89000,
     "dispatch": 51000,
-    "loaded": 35000,
-    "balance": 54000,
-    "progress": 0.34,
-    "stockpile": 16000
+    "loaded": 36000,
+    "balance": 53000,
+    "progress": 0.35333333333333333,
+    "stockpile": 15000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "15:14"
+      "activity_time": "16:09"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "15:14"
+    "activity_time": "16:09"
   },
   "trucking": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1098000
+      "y2026": 1099000
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15929120
+    "y2026": 15930120
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 6000
+      "qty": 7000
     },
     {
       "shift": "2ND SHIFT",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 4000
+      "volume": 3000
     },
     {
       "client": "UCES",
