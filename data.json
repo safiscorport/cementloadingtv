@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T04:09:21+08:00",
+  "updated_at": "2026-11-25T07:58:04+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "03:17",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:52"
+      "activity_time": "04:40"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "09:09"
+      "activity_time": "12:57"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "03:10",
       "remarks": "WAITING LOOSEBAGS AS VESSEL REQUEST",
       "equipment": "0",
-      "activity_time": "00:59"
+      "activity_time": "04:47"
     },
     {
       "berth": "Berth 8",
@@ -126,15 +126,15 @@
       "vessel": "STAR FREEDOM",
       "voyage": 16,
       "booking": 25000,
-      "dispatch": 20000,
+      "dispatch": 21000,
       "loaded": 20000,
       "balance": 5000,
       "progress": 0.8,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "03:38",
       "remarks": "LOADING P15 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:31"
+      "activity_time": "04:19"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 89000,
-    "dispatch": 54000,
+    "dispatch": 55000,
     "loaded": 43000,
     "balance": 46000,
     "progress": 0.4885714285714286,
-    "stockpile": 11000
+    "stockpile": 12000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "04:09"
+      "activity_time": "07:57"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "04:09"
+    "activity_time": "07:57"
   },
   "trucking": [
     {
@@ -247,7 +247,7 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 217785,
+      "September": 218785,
       "daily": 5000
     },
     {
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 2000
+      "volume": 3000
     },
     {
       "client": "UCES",
