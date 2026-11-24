@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T16:19:11+08:00",
+  "updated_at": "2026-11-24T16:33:09+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -18,8 +18,8 @@
     },
     {
       "berth": "Berth 2",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "LADY OF CONFIDENCE",
+      "voyage": 2,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "09:18"
+      "activity_time": "09:32"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "15:41",
       "remarks": "LOADING SLING P19",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:51"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "15:52",
       "remarks": "LOADING POZZOLAN P2",
       "equipment": "0",
-      "activity_time": "00:26"
+      "activity_time": "00:40"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:18"
+      "activity_time": "16:32"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "16:18"
+    "activity_time": "16:32"
   },
   "trucking": [
     {
