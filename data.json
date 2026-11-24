@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T13:26:23+08:00",
+  "updated_at": "2026-11-24T13:28:22+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "06:26"
+      "activity_time": "06:28"
     },
     {
       "berth": "Berth 4",
@@ -96,15 +96,15 @@
       "vessel": "DOÑA TRINIDAD",
       "voyage": 1,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 5000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 5000,
       "time": "06:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "07:26"
+      "activity_time": "07:28"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "11:35",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:51"
+      "activity_time": "01:53"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 75000,
-    "dispatch": 43000,
+    "dispatch": 48000,
     "loaded": 33000,
     "balance": 42000,
     "progress": 0.47000000000000003,
-    "stockpile": 10000
+    "stockpile": 15000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:26"
+      "activity_time": "13:28"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "13:26"
+    "activity_time": "13:28"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 759005,
-      "daily": 5000
+      "September": 762005,
+      "daily": 8000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 212785,
-      "daily": "-"
+      "September": 214785,
+      "daily": 2000
     },
     {
       "hauler": "UCES",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 10000
+      "volume": 13000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": "-"
+      "volume": 2000
     },
     {
       "client": "UCES",
