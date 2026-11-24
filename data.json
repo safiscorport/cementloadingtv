@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T12:48:07+08:00",
+  "updated_at": "2026-11-24T12:53:29+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -36,15 +36,15 @@
       "vessel": "EFG 8",
       "voyage": 8,
       "booking": 50000,
-      "dispatch": 30000,
+      "dispatch": 27000,
       "loaded": 19000,
       "balance": 31000,
       "progress": 0.38,
-      "stockpile": 11000,
+      "stockpile": 8000,
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "05:47"
+      "activity_time": "05:53"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "06:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "06:47"
+      "activity_time": "06:53"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "11:18",
       "remarks": "LOADING POZZOLAN A1",
       "equipment": "0",
-      "activity_time": "01:29"
+      "activity_time": "01:35"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 75000,
-    "dispatch": 45000,
+    "dispatch": 42000,
     "loaded": 33000,
     "balance": 42000,
     "progress": 0.47000000000000003,
-    "stockpile": 12000
+    "stockpile": 9000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "12:47"
+      "activity_time": "12:53"
     }
   ],
   "foreign": {
@@ -223,13 +223,13 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "12:47"
+    "activity_time": "12:53"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 759005,
+      "September": 758005,
       "daily": 4000
     },
     {
@@ -247,7 +247,7 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 214785,
+      "September": 212785,
       "daily": "-"
     },
     {
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 10000
+      "volume": 9000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 2000
+      "volume": "-"
     },
     {
       "client": "UCES",
