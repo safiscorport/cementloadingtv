@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T13:03:40+08:00",
+  "updated_at": "2026-11-24T13:04:39+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "06:03"
+      "activity_time": "06:04"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "06:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "07:03"
+      "activity_time": "07:04"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "11:35",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:28"
+      "activity_time": "01:29"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:03"
+      "activity_time": "13:04"
     }
   ],
   "foreign": {
@@ -208,9 +208,9 @@
     "discharge": "70%",
     "balance": "30%",
     "progress": "70%",
-    "time": "1010H",
+    "time": "1250H",
     "remarks": "0",
-    "equip": "UNLOADING TO POSEIDON 27",
+    "equip": "UNLOADING TO LCT 28",
     "activity_time": "00:00"
   },
   "anchorage": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "13:03"
+    "activity_time": "13:04"
   },
   "trucking": [
     {
