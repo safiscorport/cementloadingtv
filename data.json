@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T13:04:39+08:00",
+  "updated_at": "2026-11-24T13:14:43+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "06:04"
+      "activity_time": "06:14"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "06:00",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "07:04"
+      "activity_time": "07:14"
     },
     {
       "berth": "Berth 8",
@@ -126,15 +126,15 @@
       "vessel": "STAR FREEDOM",
       "voyage": 16,
       "booking": 25000,
-      "dispatch": 15000,
+      "dispatch": 16000,
       "loaded": 14000,
       "balance": 11000,
       "progress": 0.56,
-      "stockpile": 1000,
+      "stockpile": 2000,
       "time": "11:35",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:29"
+      "activity_time": "01:39"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 75000,
-    "dispatch": 42000,
+    "dispatch": 43000,
     "loaded": 33000,
     "balance": 42000,
     "progress": 0.47000000000000003,
-    "stockpile": 9000
+    "stockpile": 10000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "13:04"
+      "activity_time": "13:14"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "13:04"
+    "activity_time": "13:14"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1151050,
-      "September": 758005,
-      "daily": 4000
+      "September": 759005,
+      "daily": 5000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 9000
+      "volume": 10000
     },
     {
       "client": "LAPU-LAPU",
