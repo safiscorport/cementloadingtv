@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T16:17:29+08:00",
+  "updated_at": "2026-11-24T16:18:39+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "09:16"
+      "activity_time": "09:18"
     },
     {
       "berth": "Berth 4",
@@ -97,14 +97,14 @@
       "voyage": 1,
       "booking": 14000,
       "dispatch": 7000,
-      "loaded": 0,
-      "balance": 14000,
-      "progress": 0,
-      "stockpile": 7000,
+      "loaded": 3000,
+      "balance": 11000,
+      "progress": 0.21428571428571427,
+      "stockpile": 4000,
       "time": "14:10",
       "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "02:06"
+      "activity_time": "02:08"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "15:52",
       "remarks": "LOADING POZZOLAN P2",
       "equipment": "0",
-      "activity_time": "00:24"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 10",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 89000,
     "dispatch": 51000,
-    "loaded": 36000,
-    "balance": 53000,
-    "progress": 0.35333333333333333,
-    "stockpile": 15000
+    "loaded": 39000,
+    "balance": 50000,
+    "progress": 0.42476190476190484,
+    "stockpile": 12000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "16:16"
+      "activity_time": "16:18"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "16:16"
+    "activity_time": "16:18"
   },
   "trucking": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1099000
+      "y2026": 1102000
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15930120
+    "y2026": 15933120
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 7000
+      "qty": 10000
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 12000
+      "volume": 10000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 3000
+      "volume": 2000
     },
     {
       "client": "UCES",
