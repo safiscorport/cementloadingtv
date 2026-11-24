@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T14:50:23+08:00",
+  "updated_at": "2026-11-24T15:14:16+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "07:50"
+      "activity_time": "08:13"
     },
     {
       "berth": "Berth 4",
@@ -96,15 +96,15 @@
       "vessel": "DOÑA TRINIDAD",
       "voyage": 1,
       "booking": 0,
-      "dispatch": 6000,
+      "dispatch": 7000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 6000,
+      "stockpile": 7000,
       "time": "14:10",
       "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "00:40"
+      "activity_time": "01:03"
     },
     {
       "berth": "Berth 8",
@@ -126,15 +126,15 @@
       "vessel": "STAR FREEDOM",
       "voyage": 16,
       "booking": 25000,
-      "dispatch": 16000,
+      "dispatch": 17000,
       "loaded": 16000,
       "balance": 9000,
       "progress": 0.64,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "13:54",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:56"
+      "activity_time": "01:19"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 75000,
-    "dispatch": 49000,
+    "dispatch": 51000,
     "loaded": 35000,
     "balance": 40000,
     "progress": 0.51,
-    "stockpile": 14000
+    "stockpile": 16000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:50"
+      "activity_time": "15:13"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "14:50"
+    "activity_time": "15:13"
   },
   "trucking": [
     {
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 214785,
-      "daily": 2000
+      "September": 216785,
+      "daily": 4000
     },
     {
       "hauler": "UCES",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 2000
+      "volume": 4000
     },
     {
       "client": "UCES",
