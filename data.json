@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T09:09:23+08:00",
+  "updated_at": "2026-11-25T09:16:07+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:09"
+      "activity_time": "02:15"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "02:09"
+      "activity_time": "02:15"
     },
     {
       "berth": "Berth 4",
@@ -104,22 +104,22 @@
       "time": "07:00",
       "remarks": "HOLD BOOKING",
       "equipment": "0",
-      "activity_time": "02:09"
+      "activity_time": "02:15"
     },
     {
       "berth": "Berth 8",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "JERLYN SHARON",
+      "voyage": 1,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "09:10",
+      "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "00:05"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "WAITING APLUS / PTMS PLASTADA",
       "equipment": "0",
-      "activity_time": "02:09"
+      "activity_time": "02:15"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "09:09"
+      "activity_time": "09:15"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "09:09"
+    "activity_time": "09:15"
   },
   "trucking": [
     {
