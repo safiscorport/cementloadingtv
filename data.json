@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T20:08:06+08:00",
+  "updated_at": "2026-11-25T21:02:23+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:07"
+      "activity_time": "02:02"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:07"
+      "activity_time": "02:02"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:10",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "00:57"
+      "activity_time": "01:52"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:07"
+      "activity_time": "02:02"
     },
     {
       "berth": "Berth 5",
@@ -104,22 +104,22 @@
       "time": "19:00",
       "remarks": "HOLD BOOKING",
       "equipment": "FL 2",
-      "activity_time": "01:07"
+      "activity_time": "02:02"
     },
     {
       "berth": "Berth 8",
       "vessel": "JERLYN SHARON",
       "voyage": 1,
       "booking": 22000,
-      "dispatch": 12000,
-      "loaded": 4000,
-      "balance": 18000,
-      "progress": 0.18181818181818182,
-      "stockpile": 8000,
+      "dispatch": 16000,
+      "loaded": 6000,
+      "balance": 16000,
+      "progress": 0.2727272727272727,
+      "stockpile": 10000,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "01:07"
+      "activity_time": "02:02"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:33",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "05:34"
+      "activity_time": "06:29"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 256000,
-    "dispatch": 85240,
-    "loaded": 57000,
-    "balance": 199000,
-    "progress": 0.27692022263450833,
-    "stockpile": 28240
+    "dispatch": 89240,
+    "loaded": 59000,
+    "balance": 197000,
+    "progress": 0.2899072356215213,
+    "stockpile": 30240
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "20:07"
+      "activity_time": "21:02"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "20:07"
+    "activity_time": "21:02"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1149050,
-      "September": 789165,
-      "daily": 32160
+      "September": 790165,
+      "daily": 33160
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 222865,
-      "daily": 5080
+      "September": 225865,
+      "daily": 8080
     },
     {
       "hauler": "UCES",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1120000
+      "y2026": 1122000
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15951120
+    "y2026": 15953120
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 0
+      "qty": 2000
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 24160
+      "volume": 23160
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 4080
+      "volume": 7080
     },
     {
       "client": "UCES",
