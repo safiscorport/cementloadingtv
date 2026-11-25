@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T09:43:30+08:00",
+  "updated_at": "2026-11-25T09:43:52+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -127,10 +127,10 @@
       "voyage": 16,
       "booking": 25000,
       "dispatch": 21000,
-      "loaded": 20000,
-      "balance": 5000,
-      "progress": 0.8,
-      "stockpile": 1000,
+      "loaded": 21000,
+      "balance": 4000,
+      "progress": 0.84,
+      "stockpile": 0,
       "time": "08:45",
       "remarks": "LOADING SLING P16",
       "equipment": "0",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 89000,
     "dispatch": 55000,
-    "loaded": 43000,
-    "balance": 46000,
-    "progress": 0.4885714285714286,
-    "stockpile": 12000
+    "loaded": 44000,
+    "balance": 45000,
+    "progress": 0.501904761904762,
+    "stockpile": 11000
   },
   "alpha": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1106000
+      "y2026": 1107000
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15937120
+    "y2026": 15938120
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 0
+      "qty": 1000
     },
     {
       "shift": "2ND SHIFT",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 3000
+      "volume": 2000
     },
     {
       "client": "UCES",
