@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-11-25T14:25:07+08:00",
+  "updated_at": "2026-11-25T14:30:18+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "JOHANNAH 7",
       "voyage": 8,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 1080,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 1080,
       "time": "10:10",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "04:14"
+      "activity_time": "04:20"
     },
     {
       "berth": "Berth 2",
       "vessel": "LADY OF CONFIDENCE",
       "voyage": 2,
-      "booking": 0,
+      "booking": 55000,
       "dispatch": 1000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 55000,
       "progress": 0,
       "stockpile": 1000,
       "time": "14:00",
       "remarks": "ONBOARD FORKLIFT",
       "equipment": "0",
-      "activity_time": "00:24"
+      "activity_time": "00:30"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "07:24"
+      "activity_time": "07:30"
     },
     {
       "berth": "Berth 4",
@@ -104,22 +104,22 @@
       "time": "07:00",
       "remarks": "HOLD BOOKING",
       "equipment": "0",
-      "activity_time": "07:24"
+      "activity_time": "07:30"
     },
     {
       "berth": "Berth 8",
       "vessel": "JERLYN SHARON",
       "voyage": 1,
-      "booking": 0,
+      "booking": 22000,
       "dispatch": 12000,
       "loaded": 0,
-      "balance": 0,
+      "balance": 22000,
       "progress": 0,
       "stockpile": 12000,
       "time": "14:00",
       "remarks": "OPENING HATCH",
       "equipment": "0",
-      "activity_time": "00:24"
+      "activity_time": "00:30"
     },
     {
       "berth": "Berth 9",
@@ -134,22 +134,22 @@
       "time": "14:00",
       "remarks": "OPENING HATCH",
       "equipment": "0",
-      "activity_time": "00:24"
+      "activity_time": "00:30"
     },
     {
       "berth": "Berth 10",
       "vessel": "LADY OF PROSPERITY",
       "voyage": 2,
       "booking": 0,
-      "dispatch": 32000,
+      "dispatch": 43000,
       "loaded": 30000,
       "balance": -30000,
       "progress": 0,
-      "stockpile": 2000,
+      "stockpile": 13000,
       "time": "13:00",
       "remarks": "WAITING FOR DOCKING",
       "equipment": "0",
-      "activity_time": "01:24"
+      "activity_time": "01:30"
     },
     {
       "berth": "Jetty",
@@ -168,12 +168,12 @@
     }
   ],
   "total": {
-    "booking": 89000,
-    "dispatch": 95000,
+    "booking": 166000,
+    "dispatch": 107080,
     "loaded": 76000,
-    "balance": 13000,
-    "progress": 0.5285714285714286,
-    "stockpile": 19000
+    "balance": 90000,
+    "progress": 0.31714285714285717,
+    "stockpile": 31080
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "14:24"
+      "activity_time": "14:30"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "14:24"
+    "activity_time": "14:30"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1149050,
-      "September": 773005,
-      "daily": 16000
+      "September": 785085,
+      "daily": 28080
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 17000
+      "volume": 29080
     },
     {
       "client": "LAPU-LAPU",
