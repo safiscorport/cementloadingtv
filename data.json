@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T02:12:30+08:00",
+  "updated_at": "2026-11-26T04:34:40+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "21:40",
       "remarks": "LOADING P10 SLING BAGS",
       "equipment": "0",
-      "activity_time": "04:32"
+      "activity_time": "06:54"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "23:06",
       "remarks": "LOADING P2 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:06"
+      "activity_time": "05:28"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:10",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "07:02"
+      "activity_time": "09:24"
     },
     {
       "berth": "Berth 4",
@@ -52,14 +52,14 @@
       "voyage": 3,
       "booking": 30000,
       "dispatch": 15000,
-      "loaded": 4000,
-      "balance": 26000,
-      "progress": 0.13333333333333333,
-      "stockpile": 11000,
+      "loaded": 6000,
+      "balance": 24000,
+      "progress": 0.2,
+      "stockpile": 9000,
       "time": "01:34",
       "remarks": "LOADING P12 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:38"
+      "activity_time": "03:00"
     },
     {
       "berth": "Berth 5",
@@ -87,7 +87,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "-",
+      "remarks": "]]",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -104,22 +104,22 @@
       "time": "22:46",
       "remarks": "LOADING S52 LOOSEBAG",
       "equipment": "FL 2",
-      "activity_time": "03:26"
+      "activity_time": "05:48"
     },
     {
       "berth": "Berth 8",
       "vessel": "JERLYN SHARON",
       "voyage": 1,
       "booking": 22000,
-      "dispatch": 17000,
-      "loaded": 11000,
-      "balance": 11000,
-      "progress": 0.5,
-      "stockpile": 6000,
+      "dispatch": 19000,
+      "loaded": 15000,
+      "balance": 7000,
+      "progress": 0.6818181818181818,
+      "stockpile": 4000,
       "time": "23:52",
       "remarks": "LOADING A19 SLING BAGS",
       "equipment": "0",
-      "activity_time": "02:20"
+      "activity_time": "04:42"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:33",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "11:39"
+      "activity_time": "14:01"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 256000,
-    "dispatch": 102240,
-    "loaded": 74160,
-    "balance": 181840,
-    "progress": 0.36456153370439087,
-    "stockpile": 28080
+    "dispatch": 104240,
+    "loaded": 80160,
+    "balance": 175840,
+    "progress": 0.40005936920222634,
+    "stockpile": 24080
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "02:12"
+      "activity_time": "04:34"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "02:12"
+    "activity_time": "04:34"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1149050,
-      "September": 796165,
-      "daily": 39160
+      "September": 798165,
+      "daily": 41160
     },
     {
       "hauler": "LAPU-LAPU",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1137160
+      "y2026": 1143160
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15968280
+    "y2026": 15974280
   },
   "daily_production": [
     {
@@ -342,13 +342,13 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 17160
+      "qty": 23160
     }
   ],
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 19080
+      "volume": 15080
     },
     {
       "client": "LAPU-LAPU",
