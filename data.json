@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T07:41:14+08:00",
+  "updated_at": "2026-11-26T07:54:35+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 57840,
       "progress": 0.036,
       "stockpile": 1080,
-      "time": "05:00",
-      "remarks": "WAITING SORE CRANE",
+      "time": "07:00",
+      "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "02:40"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 43000,
       "progress": 0.21818181818181817,
       "stockpile": 0,
-      "time": "05:00",
-      "remarks": "LOADING S34 SLING BAGS",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:40"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 31000,
       "progress": 0.38,
       "stockpile": 0,
-      "time": "19:10",
+      "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "12:30"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 22000,
       "progress": 0.26666666666666666,
       "stockpile": 7000,
-      "time": "05:09",
-      "remarks": "LOADING S51 SLING BAGS",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "02:31"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 5",
@@ -87,7 +87,7 @@
       "progress": 0,
       "stockpile": 0,
       "time": "00:00",
-      "remarks": "]]",
+      "remarks": "-",
       "equipment": "0",
       "activity_time": "00:00"
     },
@@ -101,10 +101,10 @@
       "balance": 3000,
       "progress": 0.7857142857142857,
       "stockpile": 4000,
-      "time": "05:30",
-      "remarks": "LOADING S40 SLING BAGS",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "02:10"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 6000,
       "progress": 0.7272727272727273,
       "stockpile": 3000,
-      "time": "03:39",
-      "remarks": "LOADING S37 SLING BAGS",
+      "time": "07:00",
+      "remarks": "WAITING PTMS PLASTADA",
       "equipment": "0",
-      "activity_time": "04:01"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 9",
@@ -131,10 +131,10 @@
       "balance": 0,
       "progress": 1,
       "stockpile": 0,
-      "time": "14:33",
-      "remarks": "LOADING COMPLETE",
+      "time": "07:00",
+      "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "17:07"
+      "activity_time": "00:54"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "07:40"
+      "activity_time": "07:54"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:40"
+    "activity_time": "07:54"
   },
   "trucking": [
     {
