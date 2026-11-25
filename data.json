@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T07:54:35+08:00",
+  "updated_at": "2026-11-26T07:55:43+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "00:54"
+      "activity_time": "00:55"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:54"
+      "activity_time": "00:55"
     },
     {
       "berth": "Berth 3",
@@ -44,18 +44,18 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "00:54"
+      "activity_time": "00:55"
     },
     {
       "berth": "Berth 4",
-      "vessel": "LADY OF PROSPERITY",
-      "voyage": 3,
-      "booking": 30000,
-      "dispatch": 15000,
-      "loaded": 8000,
-      "balance": 22000,
-      "progress": 0.26666666666666666,
-      "stockpile": 7000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
+      "stockpile": 0,
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "FL 2",
-      "activity_time": "00:54"
+      "activity_time": "00:55"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "07:00",
       "remarks": "WAITING PTMS PLASTADA",
       "equipment": "0",
-      "activity_time": "00:54"
+      "activity_time": "00:55"
     },
     {
       "berth": "Berth 9",
-      "vessel": "STAR FREEDOM",
-      "voyage": 16,
-      "booking": 25000,
-      "dispatch": 25000,
-      "loaded": 25000,
-      "balance": 0,
-      "progress": 1,
-      "stockpile": 0,
+      "vessel": "LADY OF PROSPERITY",
+      "voyage": 3,
+      "booking": 30000,
+      "dispatch": 15000,
+      "loaded": 8000,
+      "balance": 22000,
+      "progress": 0.26666666666666666,
+      "stockpile": 7000,
       "time": "07:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "00:54"
+      "activity_time": "00:55"
     },
     {
       "berth": "Berth 10",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 256000,
-    "dispatch": 108240,
-    "loaded": 93160,
+    "booking": 231000,
+    "dispatch": 83240,
+    "loaded": 68160,
     "balance": 162840,
-    "progress": 0.4876907854050711,
+    "progress": 0.40230591630591633,
     "stockpile": 15080
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "07:54"
+      "activity_time": "07:55"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:54"
+    "activity_time": "07:55"
   },
   "trucking": [
     {
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER, JOVIC",
-    "checker": "TORRES, J",
-    "pmc": "VICKY/EBOY",
+    "supervisor": "BERNABE,A",
+    "checker": "DALUSA / OBIAL",
+    "pmc": "JOAN / WILLIAM",
     "cranes": 3,
-    "forklifts": 6,
-    "stevedores": 41
+    "forklifts": 7,
+    "stevedores": 0
   }
 }
