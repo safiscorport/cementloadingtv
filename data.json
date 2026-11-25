@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T09:59:55+08:00",
+  "updated_at": "2026-11-25T10:00:35+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "HOLD BOOKING",
       "equipment": "0",
-      "activity_time": "02:59"
+      "activity_time": "03:00"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "02:59"
+      "activity_time": "03:00"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "HOLD BOOKING",
       "equipment": "0",
-      "activity_time": "02:59"
+      "activity_time": "03:00"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "09:15",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:44"
+      "activity_time": "00:45"
     },
     {
       "berth": "Berth 9",
       "vessel": "STAR FREEDOM",
       "voyage": 16,
       "booking": 25000,
-      "dispatch": 21000,
+      "dispatch": 22000,
       "loaded": 21000,
       "balance": 4000,
       "progress": 0.84,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "09:21",
       "remarks": "LOADING SLING A19",
       "equipment": "0",
-      "activity_time": "00:38"
+      "activity_time": "00:39"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 89000,
-    "dispatch": 55000,
+    "dispatch": 56000,
     "loaded": 44000,
     "balance": 45000,
     "progress": 0.501904761904762,
-    "stockpile": 11000
+    "stockpile": 12000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "09:59"
+      "activity_time": "10:00"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "09:59"
+    "activity_time": "10:00"
   },
   "trucking": [
     {
@@ -259,8 +259,8 @@
     {
       "hauler": "APLUS",
       "August": 43975,
-      "September": 70000,
-      "daily": "-"
+      "September": 71000,
+      "daily": 1000
     },
     {
       "hauler": "FULACHE",
@@ -368,7 +368,7 @@
     },
     {
       "client": "APLUS",
-      "volume": "-"
+      "volume": 1000
     },
     {
       "client": "FULACHE",
