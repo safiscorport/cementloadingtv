@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T21:54:44+08:00",
+  "updated_at": "2026-11-25T22:46:21+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,22 +14,22 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:54"
+      "activity_time": "03:46"
     },
     {
       "berth": "Berth 2",
       "vessel": "LADY OF CONFIDENCE",
       "voyage": 2,
       "booking": 55000,
-      "dispatch": 7000,
+      "dispatch": 9000,
       "loaded": 5000,
       "balance": 50000,
       "progress": 0.09090909090909091,
-      "stockpile": 2000,
+      "stockpile": 4000,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:54"
+      "activity_time": "03:46"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:10",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "02:44"
+      "activity_time": "03:36"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "02:54"
+      "activity_time": "03:46"
     },
     {
       "berth": "Berth 5",
@@ -96,15 +96,15 @@
       "vessel": "DOÑA TRINIDAD",
       "voyage": 1,
       "booking": 14000,
-      "dispatch": 10000,
+      "dispatch": 11000,
       "loaded": 4000,
       "balance": 10000,
       "progress": 0.2857142857142857,
-      "stockpile": 6000,
+      "stockpile": 7000,
       "time": "19:00",
       "remarks": "HOLD BOOKING",
       "equipment": "FL 2",
-      "activity_time": "02:54"
+      "activity_time": "03:46"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 1,
       "booking": 22000,
       "dispatch": 16000,
-      "loaded": 6000,
-      "balance": 16000,
-      "progress": 0.2727272727272727,
-      "stockpile": 10000,
+      "loaded": 8000,
+      "balance": 14000,
+      "progress": 0.36363636363636365,
+      "stockpile": 8000,
       "time": "21:00",
       "remarks": "LOADING S15 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:54"
+      "activity_time": "01:46"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:33",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "07:21"
+      "activity_time": "08:13"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 256000,
-    "dispatch": 94240,
-    "loaded": 59000,
-    "balance": 197000,
-    "progress": 0.2899072356215213,
-    "stockpile": 35240
+    "dispatch": 97240,
+    "loaded": 61000,
+    "balance": 195000,
+    "progress": 0.30289424860853437,
+    "stockpile": 36240
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "21:54"
+      "activity_time": "22:46"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "21:54"
+    "activity_time": "22:46"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1149050,
-      "September": 793165,
-      "daily": 36160
+      "September": 795165,
+      "daily": 38160
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 226865,
-      "daily": 9080
+      "September": 227865,
+      "daily": 10080
     },
     {
       "hauler": "UCES",
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1122000
+      "y2026": 1124000
     },
     {
       "month": "December",
@@ -333,7 +333,7 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15953120
+    "y2026": 15955120
   },
   "daily_production": [
     {
@@ -342,7 +342,7 @@
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 2000
+      "qty": 4000
     }
   ],
   "trucking_stockpile": [
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 8080
+      "volume": 9080
     },
     {
       "client": "UCES",
