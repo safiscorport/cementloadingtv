@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T22:46:51+08:00",
+  "updated_at": "2026-11-25T23:25:06+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,22 +14,22 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "03:46"
+      "activity_time": "04:24"
     },
     {
       "berth": "Berth 2",
       "vessel": "LADY OF CONFIDENCE",
       "voyage": 2,
       "booking": 55000,
-      "dispatch": 9000,
+      "dispatch": 10000,
       "loaded": 5000,
       "balance": 50000,
       "progress": 0.09090909090909091,
-      "stockpile": 4000,
+      "stockpile": 5000,
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "03:46"
+      "activity_time": "04:24"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:10",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "03:36"
+      "activity_time": "04:14"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "19:00",
       "remarks": "KY TOOLBOX",
       "equipment": "0",
-      "activity_time": "03:46"
+      "activity_time": "04:24"
     },
     {
       "berth": "Berth 5",
@@ -104,7 +104,7 @@
       "time": "19:00",
       "remarks": "HOLD BOOKING",
       "equipment": "FL 2",
-      "activity_time": "03:46"
+      "activity_time": "04:24"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "22:26",
       "remarks": "LOADING S17 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:20"
+      "activity_time": "00:58"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:33",
       "remarks": "LOADING COMPLETE",
       "equipment": "0",
-      "activity_time": "08:13"
+      "activity_time": "08:51"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 256000,
-    "dispatch": 97240,
+    "dispatch": 98240,
     "loaded": 61000,
     "balance": 195000,
     "progress": 0.30289424860853437,
-    "stockpile": 36240
+    "stockpile": 37240
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "22:46"
+      "activity_time": "23:24"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "22:46"
+    "activity_time": "23:24"
   },
   "trucking": [
     {
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 227865,
-      "daily": 10080
+      "September": 228865,
+      "daily": 11080
     },
     {
       "hauler": "UCES",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 9080
+      "volume": 10080
     },
     {
       "client": "UCES",
