@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T08:22:57+08:00",
+  "updated_at": "2026-11-25T08:24:28+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:22"
+      "activity_time": "01:24"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "01:22"
+      "activity_time": "01:24"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "07:00",
       "remarks": "HOLD BOOKING",
       "equipment": "0",
-      "activity_time": "01:22"
+      "activity_time": "01:24"
     },
     {
       "berth": "Berth 8",
@@ -134,7 +134,7 @@
       "time": "07:00",
       "remarks": "WAITING APLUS / PTMS PLASTADA",
       "equipment": "0",
-      "activity_time": "01:22"
+      "activity_time": "01:24"
     },
     {
       "berth": "Berth 10",
@@ -198,19 +198,19 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "08:22"
+      "activity_time": "08:24"
     }
   ],
   "foreign": {
     "berth": "Jetty",
     "vessel": "DIAMOND QUEEN",
     "materials": "CLINKER",
-    "discharge": "70%",
-    "balance": "30%",
-    "progress": "70%",
-    "time": "1250H",
-    "remarks": "0",
-    "equip": "UNLOADING TO LCT 28",
+    "discharge": "80%",
+    "balance": "20%",
+    "progress": "80%",
+    "time": "00:00",
+    "remarks": "-",
+    "equip": "0",
     "activity_time": "00:00"
   },
   "anchorage": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "08:22"
+    "activity_time": "08:24"
   },
   "trucking": [
     {
