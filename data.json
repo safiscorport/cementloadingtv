@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T15:40:33+08:00",
+  "updated_at": "2026-11-25T15:41:15+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 60000,
       "progress": 0,
       "stockpile": 1080,
-      "time": "10:10",
-      "remarks": "DOCKED & SECURED",
+      "time": "13:00",
+      "remarks": "VESSEL CLOSED",
       "equipment": "0",
-      "activity_time": "05:30"
+      "activity_time": "02:40"
     },
     {
       "berth": "Berth 2",
@@ -50,10 +50,10 @@
       "berth": "Berth 4",
       "vessel": "LADY OF PROSPERITY",
       "voyage": 3,
-      "booking": 3000,
+      "booking": 30000,
       "dispatch": 14000,
       "loaded": 0,
-      "balance": 3000,
+      "balance": 30000,
       "progress": 0,
       "stockpile": 14000,
       "time": "13:00",
@@ -168,10 +168,10 @@
     }
   ],
   "total": {
-    "booking": 229000,
+    "booking": 256000,
     "dispatch": 80080,
     "loaded": 48000,
-    "balance": 181000,
+    "balance": 208000,
     "progress": 0.23795918367346938,
     "stockpile": 32080
   },
