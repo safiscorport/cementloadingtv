@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T11:17:03+08:00",
+  "updated_at": "2026-11-25T13:45:28+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "HOLD BOOKING",
       "equipment": "0",
-      "activity_time": "04:16"
+      "activity_time": "06:45"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "0",
-      "activity_time": "04:16"
+      "activity_time": "06:45"
     },
     {
       "berth": "Berth 4",
@@ -104,37 +104,37 @@
       "time": "07:00",
       "remarks": "HOLD BOOKING",
       "equipment": "0",
-      "activity_time": "04:16"
+      "activity_time": "06:45"
     },
     {
       "berth": "Berth 8",
       "vessel": "JERLYN SHARON",
       "voyage": 1,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 12000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 12000,
       "time": "09:15",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "02:01"
+      "activity_time": "04:30"
     },
     {
       "berth": "Berth 9",
       "vessel": "STAR FREEDOM",
       "voyage": 16,
       "booking": 25000,
-      "dispatch": 23000,
+      "dispatch": 24000,
       "loaded": 23000,
       "balance": 2000,
       "progress": 0.92,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "10:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:46"
+      "activity_time": "03:15"
     },
     {
       "berth": "Berth 10",
@@ -169,22 +169,22 @@
   ],
   "total": {
     "booking": 89000,
-    "dispatch": 49000,
+    "dispatch": 62000,
     "loaded": 46000,
     "balance": 43000,
     "progress": 0.5285714285714286,
-    "stockpile": 3000
+    "stockpile": 16000
   },
   "alpha": [
     {
       "berth": "R1",
       "vessel": "LCT 28",
       "materials": "CLINKER",
-      "discharge": "70%",
-      "balance": "30%",
-      "progress": "70%",
-      "time": "0812H",
-      "remarks": "RESUME DICHARGING",
+      "discharge": "0%",
+      "balance": "100%",
+      "progress": "0%",
+      "time": "1206H",
+      "remarks": "DOCKED & SECURED",
       "equip": "0",
       "activity_time": "00:00"
     },
@@ -198,17 +198,17 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "11:16"
+      "activity_time": "13:45"
     }
   ],
   "foreign": {
     "berth": "Jetty",
     "vessel": "DIAMOND QUEEN",
     "materials": "CLINKER",
-    "discharge": "80%",
-    "balance": "20%",
-    "progress": "80%",
-    "time": "00:00",
+    "discharge": "83%",
+    "balance": "17%",
+    "progress": "83%",
+    "time": "1306H",
     "remarks": "-",
     "equip": "0",
     "activity_time": "00:00"
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "11:16"
+    "activity_time": "13:45"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1149050,
-      "September": 757005,
-      "daily": "-"
+      "September": 770005,
+      "daily": 13000
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 1000
+      "volume": 14000
     },
     {
       "client": "LAPU-LAPU",
