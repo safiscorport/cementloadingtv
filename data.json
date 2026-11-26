@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T11:05:02+08:00",
+  "updated_at": "2026-11-26T11:05:31+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "04:04"
+      "activity_time": "04:05"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "10:20",
       "remarks": "-",
       "equipment": "0",
-      "activity_time": "00:44"
+      "activity_time": "00:45"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "04:04"
+      "activity_time": "04:05"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "08:30",
       "remarks": "VESSEL CLOSED / RAIN",
       "equipment": "FL 2",
-      "activity_time": "02:34"
+      "activity_time": "02:35"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 5000,
       "progress": 0.7727272727272727,
       "stockpile": 5000,
-      "time": "10:20",
-      "remarks": "RESUME LOADING SLING",
+      "time": "10:35",
+      "remarks": "RESUME LOADING P5",
       "equipment": "0",
-      "activity_time": "00:44"
+      "activity_time": "00:30"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "10:39",
       "remarks": "RESUME LOADING S35",
       "equipment": "0",
-      "activity_time": "00:25"
+      "activity_time": "00:26"
     },
     {
       "berth": "Berth 10",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "11:04"
+      "activity_time": "11:05"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "11:04"
+    "activity_time": "11:05"
   },
   "trucking": [
     {
