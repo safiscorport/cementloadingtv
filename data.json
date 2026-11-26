@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T15:12:22+08:00",
+  "updated_at": "2026-11-26T15:13:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -338,7 +338,7 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 17210
+      "qty": 18210
     },
     {
       "shift": "2ND SHIFT",
