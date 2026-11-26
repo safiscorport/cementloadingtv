@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T13:37:34+08:00",
+  "updated_at": "2026-11-26T13:59:36+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "06:37"
+      "activity_time": "06:59"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "13:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "06:37"
+      "activity_time": "06:59"
     },
     {
       "berth": "Berth 4",
@@ -104,7 +104,7 @@
       "time": "13:00",
       "remarks": "LOADING SLING",
       "equipment": "FL 2",
-      "activity_time": "00:37"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 8",
@@ -119,22 +119,22 @@
       "time": "13:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 9",
       "vessel": "LADY OF PROSPERITY",
       "voyage": 3,
       "booking": 30000,
-      "dispatch": 18000,
-      "loaded": 12000,
-      "balance": 18000,
-      "progress": 0.4,
+      "dispatch": 19000,
+      "loaded": 13000,
+      "balance": 17000,
+      "progress": 0.43333333333333335,
       "stockpile": 6000,
-      "time": "13:00",
-      "remarks": "LOADING POUCH",
+      "time": "13:32",
+      "remarks": "LOADING POUCH F2",
       "equipment": "0",
-      "activity_time": "00:37"
+      "activity_time": "00:27"
     },
     {
       "berth": "Berth 10",
@@ -169,10 +169,10 @@
   ],
   "total": {
     "booking": 231000,
-    "dispatch": 97400,
-    "loaded": 78160,
-    "balance": 152840,
-    "progress": 0.4606753246753246,
+    "dispatch": 98400,
+    "loaded": 79160,
+    "balance": 151840,
+    "progress": 0.4662308802308803,
     "stockpile": 19240
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "13:37"
+      "activity_time": "13:59"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "13:37"
+    "activity_time": "13:59"
   },
   "trucking": [
     {
@@ -265,8 +265,8 @@
     {
       "hauler": "FULACHE",
       "August": 35500,
-      "September": 13080,
-      "daily": "-"
+      "September": 14080,
+      "daily": 1000
     }
   ],
   "monthly": [
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1166160
+      "y2026": 1167160
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 15997280
+    "y2026": 15998280
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 10000
+      "qty": 11000
     },
     {
       "shift": "2ND SHIFT",
