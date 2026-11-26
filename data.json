@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T07:17:22+08:00",
+  "updated_at": "2026-11-27T07:48:35+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 45960,
       "progress": 0.234,
       "stockpile": 0,
-      "time": "05:30",
+      "time": "07:00",
       "remarks": "WAITING PTMS",
       "equipment": "0",
-      "activity_time": "01:47"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 33000,
       "progress": 0.4,
       "stockpile": 0,
-      "time": "22:58",
-      "remarks": "LOADING S26 SLING BAGS",
+      "time": "07:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "08:19"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 31000,
       "progress": 0.38,
       "stockpile": 0,
-      "time": "19:00",
-      "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
+      "time": "07:00",
+      "remarks": "DEFECTIVE CRANE",
       "equipment": "FL 1",
-      "activity_time": "12:17"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 21000,
       "progress": 0.19230769230769232,
       "stockpile": 0,
-      "time": "05:45",
-      "remarks": "LOADING P14 SLING BAGS",
+      "time": "07:00",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:32"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 5",
@@ -93,48 +93,48 @@
     },
     {
       "berth": "Berth 7",
-      "vessel": "DOÑA TRINIDAD",
-      "voyage": 1,
-      "booking": 14050,
-      "dispatch": 14050,
-      "loaded": 14050,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "14:38",
-      "remarks": "LOADING COMPLETE",
-      "equipment": "FL 2",
-      "activity_time": "16:39"
+      "time": "00:00",
+      "remarks": "-",
+      "equipment": "0",
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 8",
-      "vessel": "JERLYN SHARON",
-      "voyage": 1,
-      "booking": 22000,
-      "dispatch": 22000,
-      "loaded": 22000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "15:58",
-      "remarks": "LOADING COMPLETE",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "15:19"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 9",
-      "vessel": "LADY OF PROSPERITY",
-      "voyage": 3,
-      "booking": 30000,
-      "dispatch": 30000,
-      "loaded": 30000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
       "balance": 0,
-      "progress": 1,
+      "progress": 0,
       "stockpile": 0,
-      "time": "05:27",
-      "remarks": "LOADING COMPLETE",
+      "time": "00:00",
+      "remarks": "-",
       "equipment": "0",
-      "activity_time": "01:50"
+      "activity_time": "00:00"
     },
     {
       "berth": "Berth 10",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 257050,
-    "dispatch": 126090,
-    "loaded": 126090,
+    "booking": 191000,
+    "dispatch": 60040,
+    "loaded": 60040,
     "balance": 130960,
-    "progress": 0.600901098901099,
+    "progress": 0.3015769230769231,
     "stockpile": 0
   },
   "alpha": [
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "07:17"
+      "activity_time": "07:48"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:17"
+    "activity_time": "07:48"
   },
   "trucking": [
     {
