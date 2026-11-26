@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T15:00:26+08:00",
+  "updated_at": "2026-11-26T15:00:56+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -126,11 +126,11 @@
       "vessel": "LADY OF PROSPERITY",
       "voyage": 3,
       "booking": 30000,
-      "dispatch": 20000,
+      "dispatch": 21000,
       "loaded": 14000,
       "balance": 16000,
       "progress": 0.4666666666666667,
-      "stockpile": 6000,
+      "stockpile": 7000,
       "time": "14:01",
       "remarks": "LOADING POUCH S61",
       "equipment": "0",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 231000,
-    "dispatch": 99400,
+    "dispatch": 100400,
     "loaded": 82160,
     "balance": 148840,
     "progress": 0.48693795093795095,
-    "stockpile": 17240
+    "stockpile": 18240
   },
   "alpha": [
     {
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 233945,
-      "daily": 2080
+      "September": 234945,
+      "daily": 3080
     },
     {
       "hauler": "UCES",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 5080
+      "volume": 6080
     },
     {
       "client": "UCES",
