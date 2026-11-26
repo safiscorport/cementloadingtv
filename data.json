@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T15:01:45+08:00",
+  "updated_at": "2026-11-26T15:02:14+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 57840,
       "progress": 0.036,
       "stockpile": 3240,
-      "time": "07:00",
-      "remarks": "WAITING SHORECRANE",
+      "time": "14:00",
+      "remarks": "LOADING POUCH S22",
       "equipment": "0",
-      "activity_time": "08:01"
+      "activity_time": "01:01"
     },
     {
       "berth": "Berth 2",
