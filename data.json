@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T14:58:37+08:00",
+  "updated_at": "2026-11-26T15:00:26+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "WAITING SHORECRANE",
       "equipment": "0",
-      "activity_time": "07:58"
+      "activity_time": "08:00"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "13:00",
       "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "01:58"
+      "activity_time": "02:00"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE/ UNABLE TO SWING",
       "equipment": "FL 1",
-      "activity_time": "07:58"
+      "activity_time": "08:00"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "10:50",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "04:08"
+      "activity_time": "04:10"
     },
     {
       "berth": "Berth 5",
@@ -104,7 +104,7 @@
       "time": "13:00",
       "remarks": "LOADING SLING",
       "equipment": "FL 2",
-      "activity_time": "01:58"
+      "activity_time": "02:00"
     },
     {
       "berth": "Berth 8",
@@ -112,14 +112,14 @@
       "voyage": 1,
       "booking": 22000,
       "dispatch": 22000,
-      "loaded": 19000,
-      "balance": 3000,
-      "progress": 0.8636363636363636,
-      "stockpile": 3000,
-      "time": "13:20",
-      "remarks": "LOADING POUCH S6",
+      "loaded": 20000,
+      "balance": 2000,
+      "progress": 0.9090909090909091,
+      "stockpile": 2000,
+      "time": "13:55",
+      "remarks": "LOADING POUCH P11",
       "equipment": "0",
-      "activity_time": "01:38"
+      "activity_time": "01:05"
     },
     {
       "berth": "Berth 9",
@@ -134,7 +134,7 @@
       "time": "14:01",
       "remarks": "LOADING POUCH S61",
       "equipment": "0",
-      "activity_time": "00:57"
+      "activity_time": "00:59"
     },
     {
       "berth": "Berth 10",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 231000,
     "dispatch": 99400,
-    "loaded": 81160,
-    "balance": 149840,
-    "progress": 0.4793621933621934,
-    "stockpile": 18240
+    "loaded": 82160,
+    "balance": 148840,
+    "progress": 0.48693795093795095,
+    "stockpile": 17240
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "14:58"
+      "activity_time": "15:00"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "14:58"
+    "activity_time": "15:00"
   },
   "trucking": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1169160
+      "y2026": 1170160
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 16000280
+    "y2026": 16001280
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 13000
+      "qty": 14000
     },
     {
       "shift": "2ND SHIFT",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 6080
+      "volume": 5080
     },
     {
       "client": "UCES",
