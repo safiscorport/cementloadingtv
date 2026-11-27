@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T13:28:53+08:00",
+  "updated_at": "2026-11-27T13:29:11+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -180,13 +180,13 @@
       "berth": "R1",
       "vessel": "LCT 288",
       "materials": "CLINKER",
-      "discharge": "72%",
+      "discharge": "0%",
       "balance": "0%",
-      "progress": "72%",
-      "time": "00:00",
+      "progress": "0%",
+      "time": "1300H",
       "remarks": "DISCHARGE COMPLETE",
       "equip": "0",
-      "activity_time": "13:28"
+      "activity_time": "00:00"
     },
     {
       "berth": "R2",
