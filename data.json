@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T13:23:16+08:00",
+  "updated_at": "2026-11-27T13:24:05+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,10 +11,10 @@
       "balance": 43800,
       "progress": 0.27,
       "stockpile": 1080,
-      "time": "09:56",
-      "remarks": "LOADING POUCH S51",
+      "time": "13:00",
+      "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "03:27"
+      "activity_time": "00:23"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 31000,
       "progress": 0.43636363636363634,
       "stockpile": 2000,
-      "time": "09:54",
-      "remarks": "LOADING POUCH A1",
+      "time": "13:00",
+      "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "03:29"
+      "activity_time": "00:23"
     },
     {
       "berth": "Berth 3",
@@ -56,10 +56,10 @@
       "balance": 20000,
       "progress": 0.23076923076923078,
       "stockpile": 1000,
-      "time": "10:28",
-      "remarks": "WAITING MATERIAL",
+      "time": "13:00",
+      "remarks": "LOADING POUCH",
       "equipment": "0",
-      "activity_time": "02:55"
+      "activity_time": "00:23"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 3000,
-      "time": "08:35",
-      "remarks": "DOCKED & SECURED",
+      "time": "13:00",
+      "remarks": "VESSEL DEBALLAST",
       "equipment": "0",
-      "activity_time": "04:48"
+      "activity_time": "00:23"
     },
     {
       "berth": "Berth 6",
