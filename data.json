@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T17:37:06+08:00",
+  "updated_at": "2026-11-27T19:33:33+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -11,25 +11,25 @@
       "balance": 40560,
       "progress": 0.324,
       "stockpile": 0,
-      "time": "16:54",
-      "remarks": "LOADING SLING P6",
+      "time": "19:30",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:42"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 2",
       "vessel": "LADY OF CONFIDENCE",
       "voyage": 2,
       "booking": 55000,
-      "dispatch": 29000,
+      "dispatch": 32000,
       "loaded": 28000,
       "balance": 27000,
       "progress": 0.509090909090909,
-      "stockpile": 1000,
-      "time": "16:50",
-      "remarks": "LOADING SLING S60",
+      "stockpile": 4000,
+      "time": "19:30",
+      "remarks": "LOADING P11 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:46"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 31000,
       "progress": 0.38,
       "stockpile": 0,
-      "time": "07:00",
+      "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "10:36"
+      "activity_time": "00:33"
     },
     {
       "berth": "Berth 4",
@@ -56,25 +56,25 @@
       "balance": 18000,
       "progress": 0.3076923076923077,
       "stockpile": 0,
-      "time": "16:35",
+      "time": "19:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "01:01"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 5",
       "vessel": "EFG 7",
       "voyage": 7,
       "booking": 50000,
-      "dispatch": 11000,
+      "dispatch": 13000,
       "loaded": 0,
       "balance": 50000,
       "progress": 0,
-      "stockpile": 11000,
-      "time": "13:00",
-      "remarks": "VESSEL DEBALLAST",
+      "stockpile": 13000,
+      "time": "19:30",
+      "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "04:36"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 24000,
       "progress": 0,
       "stockpile": 0,
-      "time": "13:00",
+      "time": "19:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:36"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "06:43",
-      "remarks": "DOCKED & SECURED",
+      "time": "19:30",
+      "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "10:53"
+      "activity_time": "00:03"
     },
     {
       "berth": "Berth 9",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 265000,
-    "dispatch": 86440,
+    "dispatch": 91440,
     "loaded": 74440,
     "balance": 190560,
     "progress": 0.25346386946386945,
-    "stockpile": 12000
+    "stockpile": 17000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "17:36"
+      "activity_time": "19:33"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "17:36"
+    "activity_time": "19:33"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1149050,
-      "September": 845725,
-      "daily": 17160
+      "September": 848725,
+      "daily": 20160
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 248475,
-      "daily": 7240
+      "September": 250475,
+      "daily": 9240
     },
     {
       "hauler": "UCES",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 8000
+      "volume": 11000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 3000
+      "volume": 5000
     },
     {
       "client": "UCES",
@@ -376,9 +376,9 @@
     }
   ],
   "status": {
-    "supervisor": "0",
-    "checker": "OBIAL / DALUSA",
-    "pmc": "JOAN / WILLIAM",
+    "supervisor": "PELIMER, JOVIC",
+    "checker": "TORRES, JOSE RICHIE",
+    "pmc": "VICKY/EBOY",
     "cranes": 3,
     "forklifts": 7,
     "stevedores": 40
