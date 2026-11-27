@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T04:29:47+08:00",
+  "updated_at": "2026-11-28T04:33:36+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "00:58",
       "remarks": "LOADING A20 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:31"
+      "activity_time": "03:35"
     },
     {
       "berth": "Berth 2",
@@ -26,10 +26,10 @@
       "balance": 19000,
       "progress": 0.6545454545454545,
       "stockpile": 0,
-      "time": "00:40",
-      "remarks": "LOADING S43 SLING BAGS",
+      "time": "02:33",
+      "remarks": "LOADING S1 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:49"
+      "activity_time": "02:00"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "09:29"
+      "activity_time": "09:33"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "22:22",
       "remarks": "LOADING S24 SLING BAGS",
       "equipment": "FL 1",
-      "activity_time": "06:07"
+      "activity_time": "06:11"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 46000,
       "progress": 0.08,
       "stockpile": 14000,
-      "time": "19:30",
-      "remarks": "COMMENCE LOADING",
+      "time": "03:17",
+      "remarks": "LOADING S59 SLING BAGS",
       "equipment": "0",
-      "activity_time": "08:59"
+      "activity_time": "01:16"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "01:02",
       "remarks": "LOADING A17 SLING BAGS",
       "equipment": "0",
-      "activity_time": "03:27"
+      "activity_time": "03:31"
     },
     {
       "berth": "Berth 8",
@@ -116,10 +116,10 @@
       "balance": -4000,
       "progress": 0,
       "stockpile": 2000,
-      "time": "22:50",
-      "remarks": "LOADING P4 SLING BAGS",
+      "time": "03:45",
+      "remarks": "LOADING S48 SLING BAGS",
       "equipment": "0",
-      "activity_time": "05:39"
+      "activity_time": "00:48"
     },
     {
       "berth": "Berth 9",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "04:29"
+      "activity_time": "04:33"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "04:29"
+    "activity_time": "04:33"
   },
   "trucking": [
     {
