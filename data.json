@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T08:15:09+08:00",
+  "updated_at": "2026-11-27T08:25:40+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "WAITING PTMS",
       "equipment": "0",
-      "activity_time": "01:14"
+      "activity_time": "01:25"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:14"
+      "activity_time": "01:25"
     },
     {
       "berth": "Berth 3",
@@ -43,8 +43,8 @@
       "stockpile": 0,
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE",
-      "equipment": "FL 1",
-      "activity_time": "01:14"
+      "equipment": "0",
+      "activity_time": "01:25"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "01:14"
+      "activity_time": "01:25"
     },
     {
       "berth": "Berth 5",
@@ -108,18 +108,18 @@
     },
     {
       "berth": "Berth 8",
-      "vessel": "VACANT",
-      "voyage": "-",
+      "vessel": "NIEVES",
+      "voyage": 7,
       "booking": 0,
       "dispatch": 0,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
       "stockpile": 0,
-      "time": "00:00",
-      "remarks": "-",
+      "time": "06:43",
+      "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:00"
+      "activity_time": "01:42"
     },
     {
       "berth": "Berth 9",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "08:14"
+      "activity_time": "08:25"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "08:14"
+    "activity_time": "08:25"
   },
   "trucking": [
     {
