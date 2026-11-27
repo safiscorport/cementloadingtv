@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T20:12:18+08:00",
+  "updated_at": "2026-11-27T22:40:10+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,22 +14,22 @@
       "time": "19:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:42"
+      "activity_time": "03:09"
     },
     {
       "berth": "Berth 2",
       "vessel": "LADY OF CONFIDENCE",
       "voyage": 2,
       "booking": 55000,
-      "dispatch": 32000,
+      "dispatch": 33000,
       "loaded": 28000,
       "balance": 27000,
       "progress": 0.509090909090909,
-      "stockpile": 4000,
+      "stockpile": 5000,
       "time": "19:30",
       "remarks": "LOADING P11 SLING BAGS",
       "equipment": "0",
-      "activity_time": "00:42"
+      "activity_time": "03:09"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "19:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "0",
-      "activity_time": "01:12"
+      "activity_time": "03:39"
     },
     {
       "berth": "Berth 4",
@@ -59,22 +59,22 @@
       "time": "19:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "FL 1",
-      "activity_time": "00:42"
+      "activity_time": "03:09"
     },
     {
       "berth": "Berth 5",
       "vessel": "EFG 7",
       "voyage": 7,
       "booking": 50000,
-      "dispatch": 14000,
+      "dispatch": 15000,
       "loaded": 0,
       "balance": 50000,
       "progress": 0,
-      "stockpile": 14000,
+      "stockpile": 15000,
       "time": "19:30",
       "remarks": "COMMENCE LOADING",
       "equipment": "0",
-      "activity_time": "00:42"
+      "activity_time": "03:09"
     },
     {
       "berth": "Berth 6",
@@ -96,30 +96,30 @@
       "vessel": "EMERALD STAR",
       "voyage": 16,
       "booking": 24000,
-      "dispatch": 0,
+      "dispatch": 1000,
       "loaded": 0,
       "balance": 24000,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "19:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:42"
+      "activity_time": "03:09"
     },
     {
       "berth": "Berth 8",
       "vessel": "NIEVES",
       "voyage": 7,
       "booking": 0,
-      "dispatch": 0,
+      "dispatch": 5000,
       "loaded": 0,
       "balance": 0,
       "progress": 0,
-      "stockpile": 0,
+      "stockpile": 5000,
       "time": "19:30",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:42"
+      "activity_time": "03:09"
     },
     {
       "berth": "Berth 9",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 265000,
-    "dispatch": 93440,
+    "dispatch": 101440,
     "loaded": 74440,
     "balance": 190560,
     "progress": 0.25346386946386945,
-    "stockpile": 19000
+    "stockpile": 27000
   },
   "alpha": [
     {
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "20:12"
+      "activity_time": "22:39"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "20:12"
+    "activity_time": "22:39"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1149050,
-      "September": 850725,
-      "daily": 22160
+      "September": 854725,
+      "daily": 26160
     },
     {
       "hauler": "LAPU-LAPU",
@@ -247,8 +247,8 @@
     {
       "hauler": "PTMS",
       "August": 159490,
-      "September": 250475,
-      "daily": 9240
+      "September": 254475,
+      "daily": 13240
     },
     {
       "hauler": "UCES",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 13000
+      "volume": 17000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 5000
+      "volume": 9000
     },
     {
       "client": "UCES",
