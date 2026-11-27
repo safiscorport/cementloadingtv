@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T07:48:35+08:00",
+  "updated_at": "2026-11-27T08:15:09+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "07:00",
       "remarks": "WAITING PTMS",
       "equipment": "0",
-      "activity_time": "00:48"
+      "activity_time": "01:14"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:48"
+      "activity_time": "01:14"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "07:00",
       "remarks": "DEFECTIVE CRANE",
       "equipment": "FL 1",
-      "activity_time": "00:48"
+      "activity_time": "01:14"
     },
     {
       "berth": "Berth 4",
@@ -59,7 +59,7 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "00:48"
+      "activity_time": "01:14"
     },
     {
       "berth": "Berth 5",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "07:48"
+      "activity_time": "08:14"
     }
   ],
   "foreign": {
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "07:48"
+    "activity_time": "08:14"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1149050,
       "September": 828565,
-      "daily": 27400
+      "daily": "-"
     },
     {
       "hauler": "LAPU-LAPU",
@@ -242,31 +242,31 @@
       "hauler": "BADIE",
       "August": 63925,
       "September": 47130,
-      "daily": 2000
+      "daily": "-"
     },
     {
       "hauler": "PTMS",
       "August": 159490,
       "September": 241235,
-      "daily": 10320
+      "daily": "-"
     },
     {
       "hauler": "UCES",
       "August": "-",
       "September": 5000,
-      "daily": 1000
+      "daily": "-"
     },
     {
       "hauler": "APLUS",
       "August": 43975,
       "September": 76080,
-      "daily": 2080
+      "daily": "-"
     },
     {
       "hauler": "FULACHE",
       "August": 35500,
       "September": 14080,
-      "daily": 1000
+      "daily": "-"
     }
   ],
   "monthly": [
@@ -338,11 +338,11 @@
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 32450
+      "qty": 0
     },
     {
       "shift": "2ND SHIFT",
-      "qty": 25480
+      "qty": 0
     }
   ],
   "trucking_stockpile": [
