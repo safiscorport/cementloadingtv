@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T13:24:24+08:00",
+  "updated_at": "2026-11-27T13:25:03+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -205,10 +205,10 @@
     "berth": "Jetty",
     "vessel": "DIAMOND QUEEN",
     "materials": "CLINKER",
-    "discharge": "90%",
-    "balance": "10%",
-    "progress": "90%",
-    "time": "0835H",
+    "discharge": "95%",
+    "balance": "5%",
+    "progress": "95%",
+    "time": "1305H",
     "remarks": "-",
     "equip": "0",
     "activity_time": "00:00"
