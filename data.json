@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T13:24:39+08:00",
+  "updated_at": "2026-11-28T13:26:18+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "10:27",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "02:57"
+      "activity_time": "02:59"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "10:11",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:13"
+      "activity_time": "03:15"
     },
     {
       "berth": "Berth 3",
@@ -44,22 +44,22 @@
       "time": "07:00",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "06:24"
+      "activity_time": "06:26"
     },
     {
       "berth": "Berth 4",
-      "vessel": "NAPOLI",
-      "voyage": 16,
-      "booking": 26000,
-      "dispatch": 14000,
-      "loaded": 13000,
-      "balance": 13000,
-      "progress": 0.5,
-      "stockpile": 1000,
+      "vessel": "VACANT",
+      "voyage": "-",
+      "booking": 0,
+      "dispatch": 0,
+      "loaded": 0,
+      "balance": 0,
+      "progress": 0,
+      "stockpile": 0,
       "time": "10:00",
       "remarks": "LOADING POUCH S31",
-      "equipment": "FL 1",
-      "activity_time": "03:24"
+      "equipment": "0",
+      "activity_time": "03:26"
     },
     {
       "berth": "Berth 5",
@@ -74,7 +74,7 @@
       "time": "10:46",
       "remarks": "LOADING SLING S52",
       "equipment": "0",
-      "activity_time": "02:38"
+      "activity_time": "02:40"
     },
     {
       "berth": "Berth 6",
@@ -104,7 +104,7 @@
       "time": "09:17",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:07"
+      "activity_time": "04:09"
     },
     {
       "berth": "Berth 8",
@@ -119,18 +119,18 @@
       "time": "09:43",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:41"
+      "activity_time": "03:43"
     },
     {
       "berth": "Berth 9",
-      "vessel": "VACANT",
-      "voyage": "-",
-      "booking": 0,
-      "dispatch": 0,
-      "loaded": 0,
-      "balance": 0,
-      "progress": 0,
-      "stockpile": 0,
+      "vessel": "NAPOLI",
+      "voyage": 16,
+      "booking": 26000,
+      "dispatch": 14000,
+      "loaded": 13000,
+      "balance": 13000,
+      "progress": 0.5,
+      "stockpile": 1000,
       "time": "00:00",
       "remarks": "-",
       "equipment": "0",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "13:24"
+      "activity_time": "13:26"
     }
   ],
   "foreign": {
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "13:24"
+    "activity_time": "13:26"
   },
   "trucking": [
     {
