@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-28T14:37:28+08:00",
+  "updated_at": "2026-11-28T14:51:19+08:00",
   "berths": [
     {
       "berth": "Berth 1",
       "vessel": "JOHANNAH 7",
       "voyage": 8,
       "booking": 60000,
-      "dispatch": 22680,
+      "dispatch": 24840,
       "loaded": 22600,
       "balance": 37400,
       "progress": 0.37666666666666665,
-      "stockpile": 80,
+      "stockpile": 2240,
       "time": "10:27",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:08"
+      "activity_time": "04:24"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "10:11",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:24"
+      "activity_time": "04:40"
     },
     {
       "berth": "Berth 3",
@@ -44,7 +44,7 @@
       "time": "13:00",
       "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "01:35"
+      "activity_time": "01:51"
     },
     {
       "berth": "Berth 4",
@@ -59,22 +59,22 @@
       "time": "14:14",
       "remarks": "DOCKED & SECURED",
       "equipment": "0",
-      "activity_time": "00:21"
+      "activity_time": "00:37"
     },
     {
       "berth": "Berth 5",
       "vessel": "EFG 7",
       "voyage": 7,
       "booking": 50000,
-      "dispatch": 21000,
+      "dispatch": 22000,
       "loaded": 10000,
       "balance": 40000,
       "progress": 0.2,
-      "stockpile": 11000,
+      "stockpile": 12000,
       "time": "13:00",
       "remarks": "FORKLIFT ONBOARD",
       "equipment": "0",
-      "activity_time": "01:35"
+      "activity_time": "01:51"
     },
     {
       "berth": "Berth 6",
@@ -104,37 +104,37 @@
       "time": "13:40",
       "remarks": "LOADING SLING S61",
       "equipment": "0",
-      "activity_time": "00:55"
+      "activity_time": "01:11"
     },
     {
       "berth": "Berth 8",
       "vessel": "NIEVES",
       "voyage": 7,
       "booking": 28000,
-      "dispatch": 7000,
+      "dispatch": 8000,
       "loaded": 7000,
       "balance": 21000,
       "progress": 0.25,
-      "stockpile": 0,
+      "stockpile": 1000,
       "time": "09:43",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "04:52"
+      "activity_time": "05:08"
     },
     {
       "berth": "Berth 9",
       "vessel": "NAPOLI",
       "voyage": 16,
       "booking": 26000,
-      "dispatch": 14000,
+      "dispatch": 16000,
       "loaded": 13000,
       "balance": 13000,
       "progress": 0.5,
-      "stockpile": 1000,
+      "stockpile": 3000,
       "time": "13:00",
       "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "01:35"
+      "activity_time": "01:51"
     },
     {
       "berth": "Berth 10",
@@ -169,11 +169,11 @@
   ],
   "total": {
     "booking": 333000,
-    "dispatch": 131680,
+    "dispatch": 137840,
     "loaded": 114600,
     "balance": 218400,
     "progress": 0.32573863636363637,
-    "stockpile": 17080
+    "stockpile": 23240
   },
   "alpha": [
     {
@@ -186,7 +186,7 @@
       "time": "00:00",
       "remarks": "0",
       "equip": "0",
-      "activity_time": "14:35"
+      "activity_time": "14:51"
     },
     {
       "berth": "R2",
@@ -198,7 +198,7 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "14:35"
+      "activity_time": "14:51"
     }
   ],
   "foreign": {
@@ -211,7 +211,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "14:35"
+    "activity_time": "14:51"
   },
   "anchorage": {
     "berth": " ",
@@ -223,14 +223,14 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "14:35"
+    "activity_time": "14:51"
   },
   "trucking": [
     {
       "hauler": "SAFISCOR",
       "August": 1149050,
-      "September": 873725,
-      "daily": 10000
+      "September": 879885,
+      "daily": 16160
     },
     {
       "hauler": "LAPU-LAPU",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 14000
+      "volume": 20160
     },
     {
       "client": "LAPU-LAPU",
