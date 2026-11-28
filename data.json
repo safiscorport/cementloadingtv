@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T13:26:18+08:00",
+  "updated_at": "2026-11-28T13:26:57+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -110,11 +110,11 @@
       "berth": "Berth 8",
       "vessel": "NIEVES",
       "voyage": 7,
-      "booking": 0,
+      "booking": 28000,
       "dispatch": 7000,
       "loaded": 7000,
-      "balance": -7000,
-      "progress": 0,
+      "balance": 21000,
+      "progress": 0.25,
       "stockpile": 0,
       "time": "09:43",
       "remarks": "WAITING MATERIAL",
@@ -168,11 +168,11 @@
     }
   ],
   "total": {
-    "booking": 265000,
+    "booking": 293000,
     "dispatch": 129680,
     "loaded": 113600,
-    "balance": 151400,
-    "progress": 0.3857070707070707,
+    "balance": 179400,
+    "progress": 0.3663203463203463,
     "stockpile": 16080
   },
   "alpha": [
@@ -376,11 +376,11 @@
     }
   ],
   "status": {
-    "supervisor": "PELIMER, JOVIC",
-    "checker": "TORRES, JOSE RICHIE",
-    "pmc": "VICKY/EBOY",
+    "supervisor": "BERNABE,A",
+    "checker": "DALUSA / OBIAL",
+    "pmc": "JOAN / WILLIAM",
     "cranes": 3,
     "forklifts": 7,
-    "stevedores": 31
+    "stevedores": 47
   }
 }
