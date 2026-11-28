@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T16:06:17+08:00",
+  "updated_at": "2026-11-28T16:06:45+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -127,10 +127,10 @@
       "voyage": 16,
       "booking": 26000,
       "dispatch": 17000,
-      "loaded": 13000,
-      "balance": 13000,
-      "progress": 0.5,
-      "stockpile": 4000,
+      "loaded": 15000,
+      "balance": 11000,
+      "progress": 0.5769230769230769,
+      "stockpile": 2000,
       "time": "15:47",
       "remarks": "LOADING POZZOLAN S59",
       "equipment": "CRANE 3",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 333000,
     "dispatch": 144840,
-    "loaded": 118600,
-    "balance": 214400,
-    "progress": 0.338219696969697,
-    "stockpile": 26240
+    "loaded": 120600,
+    "balance": 212400,
+    "progress": 0.3478350815850816,
+    "stockpile": 24240
   },
   "alpha": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1272650
+      "y2026": 1274650
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 16103770
+    "y2026": 16105770
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 19160
+      "qty": 21160
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 21160
+      "volume": 19160
     },
     {
       "client": "LAPU-LAPU",
