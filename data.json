@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T13:27:48+08:00",
+  "updated_at": "2026-11-28T13:31:38+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -14,7 +14,7 @@
       "time": "10:27",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:00"
+      "activity_time": "03:04"
     },
     {
       "berth": "Berth 2",
@@ -29,7 +29,7 @@
       "time": "10:11",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:16"
+      "activity_time": "03:20"
     },
     {
       "berth": "Berth 3",
@@ -41,10 +41,10 @@
       "balance": 31000,
       "progress": 0.38,
       "stockpile": 3000,
-      "time": "07:00",
-      "remarks": "WAITING MATERIAL",
+      "time": "13:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "06:27"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 4",
@@ -56,10 +56,10 @@
       "balance": 40000,
       "progress": 0,
       "stockpile": 0,
-      "time": "10:00",
-      "remarks": "LOADING POUCH S31",
+      "time": "13:00",
+      "remarks": "LOADING TONNER",
       "equipment": "0",
-      "activity_time": "03:27"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 5",
@@ -71,10 +71,10 @@
       "balance": 40000,
       "progress": 0.2,
       "stockpile": 11000,
-      "time": "10:46",
-      "remarks": "LOADING SLING S52",
+      "time": "13:00",
+      "remarks": "FORKLIFT ONBOARD",
       "equipment": "0",
-      "activity_time": "02:41"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 6",
@@ -101,10 +101,10 @@
       "balance": 20000,
       "progress": 0.16666666666666666,
       "stockpile": 1000,
-      "time": "09:17",
-      "remarks": "WAITING MATERIAL",
+      "time": "13:00",
+      "remarks": "LOADING SLING",
       "equipment": "0",
-      "activity_time": "04:10"
+      "activity_time": "00:31"
     },
     {
       "berth": "Berth 8",
@@ -119,7 +119,7 @@
       "time": "09:43",
       "remarks": "WAITING MATERIAL",
       "equipment": "0",
-      "activity_time": "03:44"
+      "activity_time": "03:48"
     },
     {
       "berth": "Berth 9",
@@ -178,15 +178,15 @@
   "alpha": [
     {
       "berth": "R1",
-      "vessel": "LCT 28",
-      "materials": "CLINKER",
+      "vessel": "0",
+      "materials": "0",
       "discharge": "0%",
       "balance": "0%",
       "progress": "0%",
-      "time": "1300H",
-      "remarks": "DISCHARGE COMPLETE",
+      "time": "00:00",
+      "remarks": "0",
       "equip": "0",
-      "activity_time": "00:00"
+      "activity_time": "13:31"
     },
     {
       "berth": "R2",
@@ -198,20 +198,20 @@
       "time": "00:00",
       "remarks": "-",
       "equip": "0",
-      "activity_time": "13:27"
+      "activity_time": "13:31"
     }
   ],
   "foreign": {
     "berth": "Jetty",
-    "vessel": "DIAMOND QUEEN",
-    "materials": "CLINKER",
-    "discharge": "95%",
-    "balance": "5%",
-    "progress": "95%",
-    "time": "1305H",
-    "remarks": "-",
+    "vessel": "0",
+    "materials": "0",
+    "discharge": "0%",
+    "balance": "0%",
+    "progress": "0%",
+    "time": "00:00",
+    "remarks": "0",
     "equip": "0",
-    "activity_time": "00:00"
+    "activity_time": "13:31"
   },
   "anchorage": {
     "berth": " ",
@@ -223,7 +223,7 @@
     "time": "00:00",
     "remarks": "0",
     "equip": "0",
-    "activity_time": "13:27"
+    "activity_time": "13:31"
   },
   "trucking": [
     {
