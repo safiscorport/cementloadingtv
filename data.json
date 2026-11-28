@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T17:26:25+08:00",
+  "updated_at": "2026-11-28T17:27:13+08:00",
   "berths": [
     {
       "berth": "Berth 1",
@@ -67,10 +67,10 @@
       "voyage": 7,
       "booking": 50000,
       "dispatch": 23000,
-      "loaded": 12000,
-      "balance": 38000,
-      "progress": 0.24,
-      "stockpile": 11000,
+      "loaded": 13000,
+      "balance": 37000,
+      "progress": 0.26,
+      "stockpile": 10000,
       "time": "16:14",
       "remarks": "LOADING TONNER S26",
       "equipment": "FL 1",
@@ -112,10 +112,10 @@
       "voyage": 7,
       "booking": 28000,
       "dispatch": 10000,
-      "loaded": 8000,
-      "balance": 20000,
-      "progress": 0.2857142857142857,
-      "stockpile": 2000,
+      "loaded": 9000,
+      "balance": 19000,
+      "progress": 0.32142857142857145,
+      "stockpile": 1000,
       "time": "16:38",
       "remarks": "LOADING SLING P 6",
       "equipment": "0",
@@ -170,10 +170,10 @@
   "total": {
     "booking": 333000,
     "dispatch": 146840,
-    "loaded": 127760,
-    "balance": 205240,
-    "progress": 0.3665720945720945,
-    "stockpile": 19080
+    "loaded": 129760,
+    "balance": 203240,
+    "progress": 0.37353638028638037,
+    "stockpile": 17080
   },
   "alpha": [
     {
@@ -323,7 +323,7 @@
     {
       "month": "November",
       "y2025": 1014250,
-      "y2026": 1281810
+      "y2026": 1283810
     },
     {
       "month": "December",
@@ -333,12 +333,12 @@
   ],
   "monthly_total": {
     "y2025": 16616958,
-    "y2026": 16112930
+    "y2026": 16114930
   },
   "daily_production": [
     {
       "shift": "1st SHIFT",
-      "qty": 28320
+      "qty": 30320
     },
     {
       "shift": "2ND SHIFT",
@@ -348,7 +348,7 @@
   "trucking_stockpile": [
     {
       "client": "SAFISCOR",
-      "volume": 15000
+      "volume": 14000
     },
     {
       "client": "LAPU-LAPU",
@@ -360,7 +360,7 @@
     },
     {
       "client": "PTMS",
-      "volume": 3000
+      "volume": 2000
     },
     {
       "client": "UCES",
